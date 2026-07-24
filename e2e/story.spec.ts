@@ -261,7 +261,7 @@ test('keeps subtitles and voice settings usable without licensed clips', async (
   await expect(replay).toBeDisabled();
   await expect(replay).toHaveAttribute(
     'title',
-    'Licensed voice clip not yet imported',
+    'No voice clip is included for this line',
   );
 
   await page.getByRole('button', { name: 'Settings', exact: true }).click();

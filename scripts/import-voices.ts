@@ -16,6 +16,7 @@ import { fileURLToPath } from "node:url";
 import { story } from "../src/story";
 import { voiceProfiles } from "../src/voices";
 import {
+  isDevelopmentOnlyVoiceImportDocument,
   parseVoiceImportDocument,
   type VoiceImportClipInput,
   type VoiceImportDocument,
@@ -411,6 +412,12 @@ const main = async (): Promise<void> => {
     lines,
     profiles: voiceProfiles,
   });
+  if (!dryRun && isDevelopmentOnlyVoiceImportDocument(manifest)) {
+    throw new Error(
+      "Development-only voice fixtures cannot be imported into the production " +
+        "manifest. Use voices:check to audit them, then obtain redistribution-cleared clips.",
+    );
+  }
   const clipsByLine = new Map(manifest.clips.map((clip) => [clip.lineId, clip]));
   const profilesById = new Map(
     manifest.profiles.map((profile) => [profile.id, profile]),

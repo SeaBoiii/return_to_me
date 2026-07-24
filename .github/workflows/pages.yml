@@ -37,8 +37,8 @@ jobs:
       - name: Run checks
         run: npm run check
 
-      - name: Validate production voice coverage
-        run: npm run validate:release
+      - name: Validate deployable content
+        run: npm run validate:deploy
 
       - name: Configure GitHub Pages
         id: pages

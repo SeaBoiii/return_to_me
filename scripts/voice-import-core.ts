@@ -40,6 +40,25 @@ export interface VoiceImportContext {
   readonly profiles: readonly VoiceImportProfileReference[];
 }
 
+const developmentOnlyMarker = /\bdevelopment[- ]only\b/i;
+
+/**
+ * Development timing fixtures may be complete and technically valid, but must
+ * not cross the production import boundary without redistribution rights.
+ */
+export const isDevelopmentOnlyVoiceImportDocument = (
+  document: VoiceImportDocument,
+): boolean =>
+  developmentOnlyMarker.test(document.disclosure) ||
+  document.profiles.some(
+    (profile) =>
+      developmentOnlyMarker.test(profile.provider) ||
+      developmentOnlyMarker.test(profile.licenseReference),
+  ) ||
+  document.clips.some((clip) =>
+    developmentOnlyMarker.test(clip.provenanceReference),
+  );
+
 export class VoiceImportValidationError extends Error {
   public readonly issues: readonly string[];
 

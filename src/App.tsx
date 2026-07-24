@@ -688,7 +688,7 @@ function GameScreen({ onTitle, onOpenPanel }: GameScreenProps) {
               title={
                 hasVoice
                   ? "Replay this line"
-                  : "Licensed voice clip not yet imported"
+                  : "No voice clip is included for this line"
               }
             >
               Replay voice
@@ -1147,11 +1147,11 @@ function OfflinePanel({
         </div>
         {offlinePackManifests.length === 0 ? (
           <div className={styles.voicePending}>
-            <strong>Licensed voice packs are not in this development build.</strong>
+            <strong>Voice packs are not included in this edition.</strong>
             <p>
-              The provider-neutral importer and offline manager are ready.
-              Packs appear here once approved 48 kHz mono MP3 files and their
-              licence records are supplied.
+              The complete story remains playable with subtitles. Chapter
+              packs will appear here if approved 48 kHz mono MP3 files and
+              their licence records are added.
             </p>
           </div>
         ) : (
@@ -1244,9 +1244,10 @@ function CreditsPanel({ onClose }: { readonly onClose: () => void }) {
           <p>{productionVoiceManifest.disclosure}</p>
           {voiceEntries.length === 0 ? (
             <p className={styles.voiceCreditNote}>
-              This text-only development build intentionally ships without
-              unlicensed clips. Production validation requires a licensed clip
-              and provenance record for every spoken line.
+              This subtitles-only edition intentionally ships without voice
+              clips. Every line remains available as text; a voiced edition
+              requires a licensed clip and provenance record for every spoken
+              line.
             </p>
           ) : (
             <div className={styles.voiceCreditList}>

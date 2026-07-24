@@ -16,14 +16,21 @@ import {
   voiceProfiles,
   offlinePackManifests,
 } from "../src/voices";
+import {
+  describeValidationMode,
+  requiresCompleteVoiceCoverage,
+  type ContentValidationMode,
+} from "./validation-mode";
 
 const HELP = `Validate Return to Me content.
 
 Usage:
   npm run validate
+  npm run validate:deploy
   npm run validate:release
 
 Options:
+  --deploy          Allow zero voice clips, but reject partial voice coverage.
   --require-voices  Require one licensed static clip for every spoken line.
   --help            Show this message.
 `;
@@ -34,14 +41,29 @@ if (args.has("--help")) {
   process.exit(0);
 }
 
-const knownArgs = new Set(["--require-voices"]);
+const knownArgs = new Set(["--deploy", "--require-voices"]);
 const unknownArgs = [...args].filter((arg) => !knownArgs.has(arg));
 if (unknownArgs.length > 0) {
   process.stderr.write(`Unknown option: ${unknownArgs.join(", ")}\n\n${HELP}`);
   process.exit(2);
 }
 
-const requireVoices = args.has("--require-voices");
+if (args.has("--deploy") && args.has("--require-voices")) {
+  process.stderr.write(
+    `Choose either --deploy or --require-voices, not both.\n\n${HELP}`,
+  );
+  process.exit(2);
+}
+
+const validationMode: ContentValidationMode = args.has("--require-voices")
+  ? "release"
+  : args.has("--deploy")
+    ? "deploy"
+    : "development";
+const requireVoices = requiresCompleteVoiceCoverage(
+  validationMode,
+  voiceEntries.length,
+);
 const projectRoot = fileURLToPath(new URL("../", import.meta.url));
 const publicRoot = resolve(projectRoot, "public");
 
@@ -318,7 +340,7 @@ if (hasValidationErrors(issues)) {
   const spokenLines = story.nodes.filter(
     (node) => node.type === "line" && node.speakerId !== null,
   ).length;
-  const mode = requireVoices ? "release" : "development";
+  const mode = describeValidationMode(validationMode, voiceEntries.length);
   process.stdout.write(
     `Content validation passed (${mode}): ${story.nodes.length} nodes, ` +
       `${assetEntries.length} art assets, ${voiceEntries.length}/${spokenLines} voiced lines.\n`,

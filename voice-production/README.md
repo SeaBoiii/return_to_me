@@ -6,6 +6,9 @@ stays empty until a complete production set is ready. Never put provider API
 keys, session cookies, private voice IDs, or runtime text-to-speech code in this
 repository or in the deployed application.
 
+For rough timing and interface fixtures on Windows, see
+[DEVELOPMENT_VOICES.md](DEVELOPMENT_VOICES.md). That isolated workflow cannot
+populate the production manifest.
 ## Audio target
 
 Install `ffmpeg` so both `ffmpeg` and `ffprobe` are available on `PATH`. Normalize
@@ -71,10 +74,13 @@ Finally run:
 npm run validate:release
 ```
 
-That release gate rejects incomplete spoken-line coverage, undeclared or missing
-files, unknown profiles, bad provenance, revision mismatches, and pack byte-size
-mismatches. Ordinary `npm run validate` remains text-only friendly so licensed
-clips can be prepared outside the repository without blocking development.
+That strict voiced-release gate rejects incomplete spoken-line coverage, undeclared
+or missing files, unknown profiles, bad provenance, revision mismatches, and pack
+byte-size mismatches. `npm run validate:deploy` is the GitHub Pages gate: it
+accepts an empty production manifest as a subtitles-only edition, but requires
+complete coverage as soon as any production clip is imported. Ordinary
+`npm run validate` remains text-only friendly so licensed clips can be prepared
+outside the repository without blocking development.
 
 Before publishing, confirm the provider license covers synthetic performance,
 static redistribution, public web delivery, and offline caching. Preserve the

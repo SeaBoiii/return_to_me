@@ -20,20 +20,31 @@ This checklist records the human approvals that automation cannot infer. Keep ev
 - [ ] No real badge, readable generated text, watermark, trademark, copied Minecraft asset, screenshot, texture, or interface is present.
 - [ ] HTML SMS, server, and results overlays remain legible with screen readers and at mobile sizes.
 
-## Voice and licenses
+## Release format
+
+Choose one publication path and complete only its checks.
+
+### Subtitles-only edition
+
+- [ ] Production voice entries and offline voice packs are empty.
+- [ ] Credits and the offline manager clearly identify the edition as subtitles-only.
+- [ ] Every line can be read and advanced with voice replay unavailable.
+
+### Fully voiced edition
 
 - [ ] All seven non-cloned synthetic profiles approved and age-appropriate.
 - [ ] Provider licenses permit synthetic performance, redistribution, public web delivery, and offline caching.
 - [ ] Every profile and clip has a publishable license/provenance reference with no secret or personal data.
 - [ ] `npm run voices:check -- voice-production/production.voice-import.json` passes.
 - [ ] `npm run voices:import -- voice-production/production.voice-import.json` completes without warnings.
+- [ ] `npm run validate:release` passes with complete spoken-line coverage.
 - [ ] Synthetic-voice disclosure and generated provider/license records display correctly in Credits.
 
 ## Quality and deployment
 
 - [ ] Desktop keyboard and mobile touch play-throughs completed.
 - [ ] Autosave, Continue, chapter unlocks, history, settings, auto, seen skip, voice replay, and reset checked manually.
-- [ ] Install, offline shell, chapter voice downloads, cancellation, retry, verification, removal, and update prompt checked in a production preview.
+- [ ] Install, offline shell, and update prompt checked in a production preview; for a voiced edition, chapter voice download, cancellation, retry, verification, and removal are also checked.
 - [ ] `npm ci`, `npx playwright install chromium`, and `npm run check` pass from a clean checkout.
-- [ ] `npm run validate:release` passes.
+- [ ] `npm run validate:deploy` passes for the selected release format.
 - [ ] GitHub Pages source is set to GitHub Actions and the `main` deployment succeeds at its repository subpath.

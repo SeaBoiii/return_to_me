@@ -74,7 +74,7 @@ test('presents offline/install fallback and accepts an install prompt', async ({
   const offline = page.getByRole('dialog', { name: 'Offline & install' });
   await expect(offline).toContainText('Take the story with you');
   await expect(offline).toContainText(
-    'Licensed voice packs are not in this development build',
+    'Voice packs are not included in this edition',
   );
   await expect(
     offline.getByRole('button', { name: 'Use browser install menu' }),

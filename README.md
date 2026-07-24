@@ -24,18 +24,19 @@ The build itself runs content validation before TypeScript and Vite. Useful focu
 npm run lint
 npm run typecheck
 npm run validate
+npm run validate:deploy
 npm run test
 npm run test:e2e
 npm run build
 ```
 
-Licensed voice files are optional during development. The game remains fully playable through subtitles and never calls a runtime speech service.
+Voice files are optional during development and for a subtitles-only deployment. The game remains fully playable through subtitles and never calls a runtime speech service.
 
 ## GitHub Pages
 
 The repository includes pull-request CI and a Pages workflow for pushes to `main` and manual dispatches. In the GitHub repository, set **Settings → Pages → Build and deployment → Source** to **GitHub Actions**.
 
-The workflow discovers the repository base path, executes the complete check suite, enforces production voice coverage, builds `dist`, uploads the Pages artifact, and deploys to the `github-pages` environment. Until all licensed clips are imported, the release validator intentionally prevents a public production deployment.
+The workflow discovers the repository base path, executes the complete check suite, validates the selected audio state, builds `dist`, uploads the Pages artifact, and deploys to the `github-pages` environment. With zero imported production clips it publishes a subtitles-only edition. Once any production clip is imported, deployment requires complete licensed coverage, preventing an accidental partial-voice release.
 
 The same build supports a custom domain or a repository subpath. Test a nested path locally with:
 
@@ -68,6 +69,8 @@ npm run voices:check -- voice-production/production.voice-import.json
 npm run voices:import -- voice-production/production.voice-import.json
 npm run validate:release
 ```
+
+Use `npm run validate:deploy` for the Pages-compatible gate: an empty production manifest is accepted as subtitles-only, while a non-empty manifest must cover every spoken line. `npm run validate:release` remains the stricter gate for an explicitly voiced edition.
 
 No API keys, private provider identifiers, or runtime TTS belong in the repository or deployed application.
 

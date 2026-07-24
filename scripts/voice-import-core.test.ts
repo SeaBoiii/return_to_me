@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 
 import {
+  isDevelopmentOnlyVoiceImportDocument,
   parseVoiceImportDocument,
   VoiceImportValidationError,
   type VoiceImportContext,
@@ -64,6 +65,22 @@ describe("voice import manifest validation", () => {
       "line-001",
       "line-002",
     ]);
+  });
+
+  it("identifies development-only fixtures before production import", () => {
+    const parsed = parseVoiceImportDocument(
+      {
+        ...validDocument,
+        disclosure: "DEVELOPMENT-ONLY timing placeholders.",
+      },
+      context,
+    );
+    expect(isDevelopmentOnlyVoiceImportDocument(parsed)).toBe(true);
+    expect(
+      isDevelopmentOnlyVoiceImportDocument(
+        parseVoiceImportDocument(validDocument, context),
+      ),
+    ).toBe(false);
   });
 
   it("rejects incomplete production coverage", () => {
