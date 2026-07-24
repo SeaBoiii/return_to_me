@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://return-to-me.example/schemas/voice-import.schema.json",
+  "title": "Return to Me licensed voice import",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "storyId",
+    "contentRevision",
+    "disclosure",
+    "profiles",
+    "clips"
+  ],
+  "properties": {
+    "$schema": { "type": "string" },
+    "schemaVersion": { "const": 1 },
+    "storyId": { "type": "string", "minLength": 1 },
+    "contentRevision": { "type": "string", "minLength": 1 },
+    "disclosure": { "type": "string", "minLength": 1 },
+    "profiles": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/profile" }
+    },
+    "clips": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/clip" }
+    }
+  },
+  "$defs": {
+    "identifier": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "profile": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "speakerId", "provider", "licenseReference"],
+      "properties": {
+        "id": { "$ref": "#/$defs/identifier" },
+        "speakerId": { "$ref": "#/$defs/identifier" },
+        "provider": { "type": "string", "minLength": 1 },
+        "licenseReference": { "type": "string", "minLength": 1 }
+      }
+    },
+    "clip": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "lineId",
+        "speakerId",
+        "profileId",
+        "sourceFile",
+        "provenanceReference"
+      ],
+      "properties": {
+        "lineId": { "$ref": "#/$defs/identifier" },
+        "speakerId": { "$ref": "#/$defs/identifier" },
+        "profileId": { "$ref": "#/$defs/identifier" },
+        "sourceFile": {
+          "type": "string",
+          "minLength": 5,
+          "pattern": "\\.mp3$"
+        },
+        "provenanceReference": { "type": "string", "minLength": 1 }
+      }
+    }
+  }
+}

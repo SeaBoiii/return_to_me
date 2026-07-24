@@ -1,0 +1,11 @@
+node_modules/
+dist/
+coverage/
+playwright-report/
+test-results/
+.vite/
+*.tsbuildinfo
+.DS_Store
+Thumbs.db
+public/assets/art/sources/
+tmp/

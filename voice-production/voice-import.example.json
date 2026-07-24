@@ -1,0 +1,60 @@
+{
+  "$schema": "./voice-import.schema.json",
+  "schemaVersion": 1,
+  "storyId": "return-to-me-school-years",
+  "contentRevision": "school-years-1.0.0",
+  "disclosure": "Character voices are licensed synthetic performances created for this story; no real person's voice is cloned.",
+  "profiles": [
+    {
+      "id": "adult-aleem",
+      "speakerId": "adult-aleem",
+      "provider": "Example licensed synthetic voice provider",
+      "licenseReference": "licenses/provider-license-2026-01.md"
+    },
+    {
+      "id": "young-aleem",
+      "speakerId": "aleem-p6",
+      "provider": "Example licensed synthetic voice provider",
+      "licenseReference": "licenses/provider-license-2026-01.md"
+    },
+    {
+      "id": "teen-aleem",
+      "speakerId": "aleem-sec",
+      "provider": "Example licensed synthetic voice provider",
+      "licenseReference": "licenses/provider-license-2026-01.md"
+    },
+    {
+      "id": "alya",
+      "speakerId": "alya",
+      "provider": "Example licensed synthetic voice provider",
+      "licenseReference": "licenses/provider-license-2026-01.md"
+    },
+    {
+      "id": "hana",
+      "speakerId": "hana",
+      "provider": "Example licensed synthetic voice provider",
+      "licenseReference": "licenses/provider-license-2026-01.md"
+    },
+    {
+      "id": "faris",
+      "speakerId": "faris",
+      "provider": "Example licensed synthetic voice provider",
+      "licenseReference": "licenses/provider-license-2026-01.md"
+    },
+    {
+      "id": "mutual-friend",
+      "speakerId": "mutual-friend",
+      "provider": "Example licensed synthetic voice provider",
+      "licenseReference": "licenses/provider-license-2026-01.md"
+    }
+  ],
+  "clips": [
+    {
+      "lineId": "prologue-003",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "clips/prologue-003.mp3",
+      "provenanceReference": "deliveries/2026-01/prologue-003"
+    }
+  ]
+}

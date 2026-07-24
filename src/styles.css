@@ -1,0 +1,90 @@
+@font-face {
+  font-family: "Return Sans";
+  src: local("Aptos"), local("Inter"), local("Segoe UI");
+  font-display: swap;
+}
+
+:root {
+  color-scheme: dark;
+  font-family:
+    "Return Sans", "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont,
+    sans-serif;
+  color: #f7f1e7;
+  background: #080d18;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  --focus: #ffe3a5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-width: 320px;
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  min-height: 100dvh;
+  overflow-x: hidden;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  color: inherit;
+}
+
+button,
+a,
+input,
+select {
+  outline-offset: 4px;
+}
+
+:focus-visible {
+  outline: 3px solid var(--focus);
+}
+
+::selection {
+  color: #08101f;
+  background: #ffe1a0;
+}
+
+.skip-link {
+  position: fixed;
+  z-index: 1000;
+  top: 0.75rem;
+  left: 0.75rem;
+  padding: 0.7rem 1rem;
+  border-radius: 4px;
+  color: #08101f;
+  background: #ffe1a0;
+  font-weight: 750;
+  transform: translateY(-180%);
+  transition: transform 140ms ease;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Return to Me</title>
+  <desc id="desc">An open book joined to a heart-shaped golden thread.</desc>
+  <defs>
+    <linearGradient id="night" x1="54" y1="34" x2="454" y2="478" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#25375d"/>
+      <stop offset=".55" stop-color="#111b34"/>
+      <stop offset="1" stop-color="#080d1b"/>
+    </linearGradient>
+    <radialGradient id="memory" cx="0" cy="0" r="1" gradientTransform="translate(256 231) rotate(90) scale(196)">
+      <stop stop-color="#f2bd6a" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#f2bd6a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="paper" x1="145" y1="172" x2="362" y2="346" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fffaf0"/>
+      <stop offset="1" stop-color="#dce8ea"/>
+    </linearGradient>
+    <linearGradient id="thread" x1="196" y1="334" x2="319" y2="440" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffe5a5"/>
+      <stop offset=".5" stop-color="#f2bd6a"/>
+      <stop offset="1" stop-color="#d58b40"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="512" height="512" rx="108" fill="url(#night)"/>
+  <circle cx="256" cy="231" r="196" fill="url(#memory)"/>
+  <g fill="#f8d995">
+    <circle cx="148" cy="116" r="4" opacity=".7"/>
+    <circle cx="354" cy="111" r="3" opacity=".55"/>
+    <circle cx="394" cy="181" r="4" opacity=".45"/>
+    <circle cx="111" cy="211" r="3" opacity=".45"/>
+  </g>
+
+  <g stroke="#efc371" stroke-width="7" stroke-linejoin="round">
+    <path d="M256 190c-31-25-70-34-119-15v163c45-13 85-8 119 17V190Z" fill="url(#paper)"/>
+    <path d="M256 190c31-25 70-34 119-15v163c-45-13-85-8-119 17V190Z" fill="url(#paper)"/>
+  </g>
+  <path d="M256 191v164" fill="none" stroke="#b47637" stroke-width="6" stroke-linecap="round"/>
+  <path d="M164 213c28-6 50-2 70 10M164 250c27-5 49-1 70 10M348 213c-28-6-50-2-70 10M348 250c-27-5-49-1-70 10" fill="none" stroke="#8296a8" stroke-width="6" stroke-linecap="round" opacity=".72"/>
+
+  <path
+    d="M256 357c-16-27-59-25-60 14-1 38 38 57 60 69 22-12 61-31 60-69-1-39-44-41-60-14Z"
+    fill="none"
+    stroke="url(#thread)"
+    stroke-width="9"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    filter="url(#glow)"
+  />
+</svg>

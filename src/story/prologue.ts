@@ -1,0 +1,103 @@
+import type { StoryNode } from "../engine/types";
+import { line } from "./helpers";
+import { stages } from "./stages";
+
+export const prologueNodes = [
+  line(
+    "prologue-001",
+    "prologue",
+    stages.prologue,
+    null,
+    "Inspired by real events. Names, dialogue, schools, and some identifying details have been fictionalised. The people in this story are remembered with care, not presented as complete portraits of their real lives.",
+    "prologue-002",
+  ),
+  line(
+    "prologue-002",
+    "prologue",
+    stages.prologue,
+    null,
+    "Content note: this chapter includes relationship breakdown, academic disappointment, and a period of emotional withdrawal. Exact examination grades are intentionally not shown.",
+    "prologue-003",
+  ),
+  line(
+    "prologue-003",
+    "prologue",
+    stages.prologue,
+    "adult-aleem",
+    "People like to begin a love story at the moment two lives finally meet. A glance across a room. A name remembered. The first small coincidence that later feels like fate.",
+    "prologue-004",
+  ),
+  line(
+    "prologue-004",
+    "prologue",
+    stages.prologue,
+    "adult-aleem",
+    "My story with Nurul has a moment like that. But this is not that moment. Not yet.",
+    "prologue-005",
+  ),
+  line(
+    "prologue-005",
+    "prologue",
+    stages.prologue,
+    "adult-aleem",
+    "Before I could recognise the love of my life, I had to become someone capable of meeting her. That becoming was untidy. It passed through school corridors, glowing phone screens, and choices I understood only years later.",
+    "prologue-006",
+  ),
+  line(
+    "prologue-006",
+    "prologue",
+    stages.prologue,
+    "adult-aleem",
+    "Memory is not a recording. It keeps the warmth of an afternoon and loses the date. It saves one sentence while whole months blur around it. So I will not pretend every word happened exactly this way.",
+    "prologue-007",
+  ),
+  line(
+    "prologue-007",
+    "prologue",
+    stages.prologue,
+    "adult-aleem",
+    "What remains true is how those years shaped me: the excitement, the mistakes, the pride, and the shame. Even the parts I once wanted to hide belong to the road.",
+    "prologue-008",
+  ),
+  line(
+    "prologue-008",
+    "prologue",
+    stages.prologue,
+    "adult-aleem",
+    "In 2009, I was a twelve-year-old Boyanese Malay boy: short, round, bespectacled, and trying very hard to look as though I knew what I was doing.",
+    "prologue-009",
+  ),
+  line(
+    "prologue-009",
+    "prologue",
+    stages.prologue,
+    "adult-aleem",
+    "I did not. None of us did. That was the innocence of Primary Six. We borrowed the language of grown-up love while still worrying about spelling tests and whether the canteen queue would finish before recess did.",
+    "prologue-010",
+  ),
+  line(
+    "prologue-010",
+    "prologue",
+    stages.prologue,
+    "adult-aleem",
+    "There was a girl named Alya. She had long braided hair, bright eyes that seemed to notice everything, and a laugh that could make an ordinary classroom feel briefly important.",
+    "prologue-011",
+  ),
+  line(
+    "prologue-011",
+    "prologue",
+    stages.prologue,
+    "adult-aleem",
+    "At twelve, I thought the beginning of a relationship meant the difficult part was over. All you had to do after that was keep liking each other.",
+    "prologue-012",
+  ),
+  line(
+    "prologue-012",
+    "prologue",
+    stages.prologue,
+    "adult-aleem",
+    "I would learn that distance can enter quietly. I would learn that silence is also a kind of message. And first, I would learn how much damage one message sent to the wrong person could do.",
+    "ch1-001",
+  ),
+] as const satisfies readonly StoryNode[];
+
