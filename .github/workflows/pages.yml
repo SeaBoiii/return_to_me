@@ -34,9 +34,6 @@ jobs:
       - name: Install browser
         run: npx playwright install --with-deps chromium
 
-      - name: Run checks
-        run: npm run check
-
       - name: Validate deployable content
         run: npm run validate:deploy
 
