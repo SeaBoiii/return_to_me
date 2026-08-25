@@ -1,6 +1,6 @@
 # Return to Me: The School Years
 
-A responsive, installable visual novel about Aleem's school years before meeting Nurul. This first release contains a 4,500–5,500-word branching script whose reflective choices alter dialogue and later recollections while preserving the real-life milestones.
+A responsive, installable visual novel following Aleem's school and junior-college years in Singapore from 2009 to 2016, before he meets Nurul. The expanded edition contains a 9,000-word branching script with ten reflective choices that alter immediate dialogue and later recollections while preserving the real-life milestones.
 
 ## Local development
 
@@ -62,7 +62,7 @@ npm run generate:icons
 
 ## Production voices
 
-The provider-neutral, all-or-nothing voice workflow is documented in [voice-production/README.md](voice-production/README.md). It checks the seven profiles, all 209 spoken lines, licenses and provenance, chapter pack sizes, and normalized MP3 properties through ffmpeg/ffprobe.
+The provider-neutral, all-or-nothing voice workflow is documented in [voice-production/README.md](voice-production/README.md). It derives the active speaking cast and spoken-line count from the story, then checks every profile and line, licenses and provenance, chapter pack sizes, and normalized MP3 properties through ffmpeg/ffprobe.
 
 ```bash
 npm run voices:check -- voice-production/production.voice-import.json
@@ -77,6 +77,13 @@ No API keys, private provider identifiers, or runtime TTS belong in the reposito
 ## Art and release review
 
 Generated masters, prompts, anchor relationships, processing notes, and provenance are recorded in [art/prompts/provenance.md](art/prompts/provenance.md). Deployed artwork lives in `public/assets/art`; the source material remains in `art/sources`.
+
+The approved JC expansion proof batch is in [art/proofs/jc-expansion](art/proofs/jc-expansion/README.md). The complete 27-sprite, nine-background, and three-CG production brief and QA record are in [art/prompts/jc-production.md](art/prompts/jc-production.md). The processed batch passed physical validation, manifest coverage, and final manual visual/tone QA on 25 August 2026 and is release-ready.
+
+After processing JC art, run `python -B scripts/validate-jc-art.py` to verify
+source/deployed dimensions, sprite alpha and transparent corners, relative
+stature calibration, alignment, and precache-size limits. Manual visual and
+tone review remains part of the release checklist for future regenerations.
 
 Before publishing, complete [RELEASE_CHECKLIST.md](RELEASE_CHECKLIST.md), including the manual character/background approval and factual/tone read-through. The currently generated art is intentionally age-appropriate, uses fictional schools, and avoids readable generated text, trademarks, and copied game interfaces.
 

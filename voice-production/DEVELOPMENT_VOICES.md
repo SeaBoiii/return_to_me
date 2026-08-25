@@ -1,6 +1,8 @@
 # Development-only SAPI voices
 
-The project can render all 209 spoken lines with the two desktop voices bundled on this Windows machine. These clips are timing and interface fixtures only: the voices are generic adult US English, do not authentically represent the seven Singaporean/Malay character profiles, and have not been cleared for public redistribution or offline caching.
+The development job exporter derives its spoken-line and voice-profile counts from the active story. It can render timing and interface fixtures with the two desktop voices bundled on this Windows machine. These generic adult US English voices do not authentically represent the Singaporean cast and have not been cleared for public redistribution or offline caching.
+
+The existing ignored development directory may still contain clips generated for the earlier story revision. They remain untouched unless a generation command is explicitly run and do not provide coverage for newly added chapters.
 
 Nothing in this workflow changes `src/voices/generated.ts` or `public/voices`. All output is written beneath the ignored `voice-production/development/` directory, so `validate:release` continues to reject the project until a genuinely licensed production set is imported. This does not block a subtitles-only GitHub Pages deployment, which uses `validate:deploy`.
 
@@ -14,13 +16,14 @@ npm install --prefix tmp/audio-tools --no-package-lock --no-save ffmpeg-static f
 
 ## Generate and review
 
-First render one representative line for each of the seven profiles:
+First export the current job plan, then render one representative line for each registered profile:
 
 ```powershell
+npm run voices:dev:plan
 npm run voices:dev:sapi:proof
 ```
 
-Then open `voice-production/development/preview.html` and review the seven samples. If their placeholder quality is sufficient for development, render the complete set:
+Then open `voice-production/development/preview.html` and review the profile samples. If their placeholder quality is sufficient for development, render the complete set:
 
 ```powershell
 npm run voices:dev:sapi

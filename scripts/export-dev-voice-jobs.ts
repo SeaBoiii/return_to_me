@@ -19,7 +19,12 @@ const sapiSettings = {
   hana: { engineVoice: "Microsoft Zira Desktop", rate: -1 },
   faris: { engineVoice: "Microsoft David Desktop", rate: 2 },
   "mutual-friend": { engineVoice: "Microsoft Zira Desktop", rate: 0 },
-} as const;
+  syafiqa: { engineVoice: "Microsoft Zira Desktop", rate: 0 },
+  "mei-lin": { engineVoice: "Microsoft Zira Desktop", rate: -1 },
+} as const satisfies Record<
+  (typeof voiceProfiles)[number]["id"],
+  { readonly engineVoice: string; readonly rate: number }
+>;
 
 const profileBySpeaker = new Map<string, (typeof voiceProfiles)[number]>(
   voiceProfiles.map((profile) => [profile.speakerId, profile]),
@@ -76,9 +81,13 @@ const jobs = story.nodes.flatMap((node) => {
   ];
 });
 
-if (jobs.length !== 209) {
-  throw new Error(`Expected 209 spoken lines, found ${jobs.length}.`);
-}
+const proofLineIds = voiceProfiles.map((profile) => {
+  const proofJob = jobs.find((job) => job.profileId === profile.id);
+  if (proofJob === undefined) {
+    throw new Error(`No spoken line exists for voice profile ${profile.id}.`);
+  }
+  return proofJob.lineId;
+});
 
 await mkdir(outputRoot, { recursive: true });
 await writeFile(
@@ -90,15 +99,7 @@ await writeFile(
       contentRevision: story.revision,
       developmentOnly: true,
       normalizationRevision: NORMALIZATION_REVISION,
-      proofLineIds: [
-        "prologue-003",
-        "ch1-003",
-        "ch1-004",
-        "ch2-007",
-        "ch2-008",
-        "ch2-020",
-        "ch2-076",
-      ],
+      proofLineIds,
       profiles,
       jobs,
     },

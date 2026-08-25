@@ -125,6 +125,9 @@ describe("Return to Me application shell", () => {
     ).toBeInTheDocument();
     expect(within(notice).getByText("Content note")).toBeInTheDocument();
     expect(
+      within(notice).getByText(/Family pressure, repeated romantic rejection/),
+    ).toBeInTheDocument();
+    expect(
       within(notice).getByText(/Exact examination grades are not shown/),
     ).toBeInTheDocument();
 
@@ -314,7 +317,7 @@ describe("Return to Me application shell", () => {
     await user.click(screen.getByRole("button", { name: "Continue" }));
 
     const stage = screen.getByRole("figure", { name: /Scene:/ });
-    expect(stage).toHaveAttribute("data-transition", "none");
+    expect(stage).toHaveAttribute("data-transition", "dissolve");
     const background = stage.querySelector<HTMLImageElement>(
       "img:not([data-facing])",
     );
@@ -381,4 +384,3 @@ describe("Return to Me application shell", () => {
     ).toBeDisabled();
   });
 });
-

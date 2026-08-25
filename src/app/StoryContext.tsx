@@ -24,6 +24,7 @@ import {
   type StoryAction,
 } from "../engine";
 import { story } from "../story";
+import { schoolYearsSaveMigrations } from "../story/saveMigrations";
 
 interface StoryContextValue {
   readonly state: EngineState;
@@ -39,7 +40,8 @@ interface StoryContextValue {
 
 const StoryContext = createContext<StoryContextValue | undefined>(undefined);
 
-const initialSave = (): LoadSaveResult => loadSave(story);
+const initialSave = (): LoadSaveResult =>
+  loadSave(story, { migrations: schoolYearsSaveMigrations });
 
 export function StoryProvider({ children }: PropsWithChildren) {
   const [state, dispatch] = useReducer(
@@ -58,7 +60,9 @@ export function StoryProvider({ children }: PropsWithChildren) {
       savedProgress.status === "incompatible" ||
       savedProgress.status === "unavailable"
       ? savedProgress.message
-      : settingsResult.message,
+      : savedProgress.status === "ok" && savedProgress.message !== undefined
+        ? savedProgress.message
+        : settingsResult.message,
   );
 
   useEffect(() => {
@@ -157,4 +161,3 @@ export function useStory(): StoryContextValue {
   }
   return context;
 }
-

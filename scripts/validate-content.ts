@@ -127,8 +127,10 @@ if (
   );
 }
 
-const knownSpeakerIds = new Set(story.speakers.map((speaker) => speaker.id));
-const spokenSpeakerIds = new Set(
+const knownSpeakerIds = new Set<string>(
+  story.speakers.map((speaker) => speaker.id),
+);
+const spokenSpeakerIds = new Set<string>(
   story.nodes.flatMap((node) =>
     node.type === "line" && node.speakerId !== null ? [node.speakerId] : [],
   ),

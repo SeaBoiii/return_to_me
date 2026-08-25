@@ -6,7 +6,7 @@ export const chapterOneNodes = [
   line(
     "ch1-001",
     "chapter-1",
-    stages.primaryClassroom,
+    stages.ch1PrimaryEstablishing,
     "adult-aleem",
     "Our classroom wore the colours of the morning: pale walls, warm sun, and rows of light-blue uniforms. Ceiling fans pushed the same hot air in patient circles above us.",
     "ch1-002",
@@ -14,7 +14,7 @@ export const chapterOneNodes = [
   line(
     "ch1-002",
     "chapter-1",
-    stages.primaryClassroomHappy,
+    stages.ch1PrimaryNeutral,
     "adult-aleem",
     "Alya sat close enough that passing a worksheet could become an event. Sometimes our fingers touched. Sometimes they did not, and I spent the next ten minutes wondering whether I had moved too slowly.",
     "ch1-003",
@@ -22,7 +22,7 @@ export const chapterOneNodes = [
   line(
     "ch1-003",
     "chapter-1",
-    stages.primaryClassroomPlayful,
+    stages.ch1PrimaryPlayful,
     "alya",
     "Aleem, you have been staring at question four for so long. Are you solving it or trying to scare it?",
     "ch1-004",
@@ -30,7 +30,7 @@ export const chapterOneNodes = [
   line(
     "ch1-004",
     "chapter-1",
-    stages.primaryClassroomPlayful,
+    stages.ch1PrimaryPlayful,
     "aleem-p6",
     "I was thinking. Deeply.",
     "ch1-005",
@@ -38,7 +38,7 @@ export const chapterOneNodes = [
   line(
     "ch1-005",
     "chapter-1",
-    stages.primaryClassroomHappy,
+    stages.ch1PrimaryCheerful,
     "alya",
     "Deeply wrong, maybe. Your answer is on the next page.",
     "ch1-006",
@@ -46,7 +46,7 @@ export const chapterOneNodes = [
   line(
     "ch1-006",
     "chapter-1",
-    stages.primaryClassroomHappy,
+    stages.ch1PrimaryCheerful,
     "adult-aleem",
     "That was Alya's way: a little playful, never cruel. Her eyes widened whenever she delivered a joke, as though she was surprised by her own courage.",
     "ch1-007",
@@ -54,7 +54,7 @@ export const chapterOneNodes = [
   line(
     "ch1-007",
     "chapter-1",
-    stages.primaryCorridorAleem,
+    stages.ch1CorridorNervous,
     "adult-aleem",
     "We did not have a dramatic confession. There was no rain, no music, no perfect speech. There were only friends who noticed us noticing each other and carried rumours up and down the corridor.",
     "ch1-008",
@@ -62,7 +62,7 @@ export const chapterOneNodes = [
   line(
     "ch1-008",
     "chapter-1",
-    stages.primaryCorridorTogether,
+    stages.ch1CorridorShy,
     "alya",
     "So... everyone says you like me.",
     "ch1-009",
@@ -70,7 +70,7 @@ export const chapterOneNodes = [
   line(
     "ch1-009",
     "chapter-1",
-    stages.primaryCorridorTogether,
+    stages.ch1CorridorShy,
     "aleem-p6",
     "Everyone talks too much.",
     "ch1-010",
@@ -78,7 +78,7 @@ export const chapterOneNodes = [
   line(
     "ch1-010",
     "chapter-1",
-    stages.primaryCorridorTogether,
+    stages.ch1CorridorShy,
     "alya",
     "That is not an answer.",
     "ch1-011",
@@ -86,7 +86,7 @@ export const chapterOneNodes = [
   line(
     "ch1-011",
     "chapter-1",
-    stages.primaryCorridorTogether,
+    stages.ch1FirstConfession,
     "aleem-p6",
     "Okay. Yes. I like you.",
     "ch1-012",
@@ -94,7 +94,7 @@ export const chapterOneNodes = [
   line(
     "ch1-012",
     "chapter-1",
-    stages.primaryCorridorTogether,
+    stages.ch1FirstConfession,
     "alya",
     "Good. Because I like you too.",
     "ch1-013",
@@ -102,7 +102,7 @@ export const chapterOneNodes = [
   line(
     "ch1-013",
     "chapter-1",
-    stages.primaryClassroomHappy,
+    stages.ch1CanteenHappy,
     "adult-aleem",
     "From that day, we said we were together. The phrase felt enormous. In practice, it meant shared snacks, carefully timed walks after school, and messages sent from phones we were not supposed to use during homework.",
     "ch1-014",
@@ -110,7 +110,7 @@ export const chapterOneNodes = [
   line(
     "ch1-014",
     "chapter-1",
-    stages.primaryClassroomHappy,
+    stages.ch1PrimaryHopeful,
     "adult-aleem",
     "We spoke about secondary school as if it were a foreign country. New uniforms. New subjects. Older students who, in our imagination, all knew exactly where to go.",
     "ch1-015",
@@ -118,7 +118,7 @@ export const chapterOneNodes = [
   line(
     "ch1-015",
     "chapter-1",
-    stages.primaryClassroomPlayful,
+    stages.ch1CanteenPlayful,
     "alya",
     "What if you become very handsome in secondary school and forget me?",
     "ch1-016",
@@ -126,7 +126,7 @@ export const chapterOneNodes = [
   line(
     "ch1-016",
     "chapter-1",
-    stages.primaryClassroomPlayful,
+    stages.ch1CanteenPlayful,
     "aleem-p6",
     "I am already handsome.",
     "ch1-017",
@@ -134,7 +134,7 @@ export const chapterOneNodes = [
   line(
     "ch1-017",
     "chapter-1",
-    stages.primaryClassroomHappy,
+    stages.ch1PrimaryCheerful,
     "alya",
     "Wah, confident. Then I should be the one worried.",
     "ch1-018",
@@ -142,7 +142,7 @@ export const chapterOneNodes = [
   line(
     "ch1-018",
     "chapter-1",
-    stages.primaryClassroomHappy,
+    stages.ch1PrimaryHopeful,
     "adult-aleem",
     "I laughed because the future sounded harmless when Alya teased it. Neither of us knew how completely a timetable could rearrange a friendship, or how difficult affection became without daily proximity.",
     "ch1-019",
@@ -150,7 +150,7 @@ export const chapterOneNodes = [
   line(
     "ch1-019",
     "chapter-1",
-    stages.graduation,
+    stages.ch1GraduationEstablishing,
     "adult-aleem",
     "Graduation arrived dressed as celebration. Parents took photographs beneath the school gate. Teachers gave final reminders. Shirts gathered signatures in inks that bled whenever a hand grew sweaty.",
     "ch1-020",
@@ -158,7 +158,7 @@ export const chapterOneNodes = [
   line(
     "ch1-020",
     "chapter-1",
-    stages.graduationSmile,
+    stages.ch1GraduationPromise,
     "alya",
     "Message me when you get home, okay?",
     "ch1-021",
@@ -166,7 +166,7 @@ export const chapterOneNodes = [
   line(
     "ch1-021",
     "chapter-1",
-    stages.graduationSmile,
+    stages.ch1GraduationPromise,
     "aleem-p6",
     "Of course. We will still talk every day.",
     "ch1-022",
@@ -174,7 +174,7 @@ export const chapterOneNodes = [
   line(
     "ch1-022",
     "chapter-1",
-    stages.graduation,
+    stages.ch1GraduationPromise,
     "alya",
     "Promise?",
     "ch1-023",
@@ -182,7 +182,7 @@ export const chapterOneNodes = [
   line(
     "ch1-023",
     "chapter-1",
-    stages.graduationSmile,
+    stages.ch1GraduationPromiseSealed,
     "aleem-p6",
     "Promise.",
     "ch1-024",
@@ -190,7 +190,7 @@ export const chapterOneNodes = [
   line(
     "ch1-024",
     "chapter-1",
-    stages.busStop,
+    stages.ch1BusStop,
     "adult-aleem",
     "We meant it. That is important. Young promises are not lies simply because the people making them do not yet understand what keeping them will require.",
     "ch1-025",
@@ -198,7 +198,7 @@ export const chapterOneNodes = [
   line(
     "ch1-025",
     "chapter-1",
-    stages.busStop,
+    stages.ch1BusStop,
     "adult-aleem",
     "The new year placed us on different routes. Different buses, different assemblies, different circles of names. At first we compensated with long messages about every detail.",
     "ch1-026",
@@ -206,7 +206,7 @@ export const chapterOneNodes = [
   line(
     "ch1-026",
     "chapter-1",
-    stages.bedroom2009Smile,
+    stages.ch1BedroomWarmSmile,
     "aleem-p6",
     "My class monitor is so serious. He wrote down three names before first period even started.",
     "ch1-027",
@@ -214,7 +214,7 @@ export const chapterOneNodes = [
   line(
     "ch1-027",
     "chapter-1",
-    stages.bedroom2009Smile,
+    stages.ch1BedroomWarmSmile,
     "alya",
     "Mine keeps forgetting she is the monitor. Maybe they should swap.",
     "ch1-028",
@@ -222,7 +222,7 @@ export const chapterOneNodes = [
   line(
     "ch1-028",
     "chapter-1",
-    stages.bedroom2009Smile,
+    stages.ch1BedroomWarmSmile,
     "adult-aleem",
     "A vibration in my pocket could rescue an entire afternoon. Her name on the small screen meant some part of primary school had survived the crossing.",
     "ch1-029",
@@ -230,7 +230,7 @@ export const chapterOneNodes = [
   line(
     "ch1-029",
     "chapter-1",
-    stages.bedroom2009,
+    stages.ch1BedroomWarmNeutral,
     "adult-aleem",
     "Then the gaps lengthened. Homework became heavier. New friendships demanded attention. One missed evening turned into two without either of us deciding that anything had changed.",
     "ch1-030",
@@ -238,7 +238,7 @@ export const chapterOneNodes = [
   line(
     "ch1-030",
     "chapter-1",
-    stages.bedroom2009,
+    stages.ch1BedroomCoolWaiting,
     "adult-aleem",
     "We still called ourselves together, but the relationship lived mostly in the assumption that we would speak properly tomorrow.",
     "ch1-031",
@@ -246,7 +246,7 @@ export const chapterOneNodes = [
   line(
     "ch1-031",
     "chapter-1",
-    stages.bedroom2009,
+    stages.ch1BedroomCoolWaiting,
     "adult-aleem",
     "One ordinary evening, while I sat near my bed with unfinished work beside me, the phone buzzed.",
     "ch1-032",
@@ -254,7 +254,7 @@ export const chapterOneNodes = [
   line(
     "ch1-032",
     "chapter-1",
-    stages.bedroom2009Smile,
+    stages.ch1BedroomCoolSmile,
     "adult-aleem",
     "I saw Alya's name and smiled before reading. The body can celebrate half a second faster than the mind understands.",
     "ch1-033",
@@ -262,7 +262,7 @@ export const chapterOneNodes = [
   line(
     "ch1-033",
     "chapter-1",
-    stages.wrongMessage,
+    stages.ch1WrongMessage,
     "adult-aleem",
     "The first message asked whether a boy liked her. The second asked how she could approach him without making her interest obvious.",
     "ch1-034",
@@ -270,7 +270,7 @@ export const chapterOneNodes = [
   line(
     "ch1-034",
     "chapter-1",
-    stages.wrongMessageQuestion,
+    stages.ch1WrongMessageQuestion,
     "adult-aleem",
     "I read both again. Perhaps there was context I had missed. Perhaps 'he' meant someone else on behalf of a friend. Perhaps the words would rearrange themselves if I stared long enough.",
     "ch1-choice-sms",
@@ -278,7 +278,7 @@ export const chapterOneNodes = [
   choice(
     "ch1-choice-sms",
     "chapter-1",
-    stages.wrongMessageQuestion,
+    stages.ch1WrongMessageQuestion,
     "How does young Aleem answer the wrong message?",
     [
       {
@@ -301,7 +301,7 @@ export const chapterOneNodes = [
   line(
     "ch1-sms-ask-001",
     "chapter-1",
-    stages.wrongMessageQuestion,
+    stages.ch1SmsAsk,
     "aleem-p6",
     "Alya... was that message meant for me?",
     "ch1-sms-ask-002",
@@ -309,7 +309,7 @@ export const chapterOneNodes = [
   line(
     "ch1-sms-ask-002",
     "chapter-1",
-    stages.wrongMessageQuestion,
+    stages.ch1SmsAsk,
     "adult-aleem",
     "I chose the smallest question I could manage. Years later, I would remember how even that gentle sentence carried the answer I was afraid to name.",
     "ch1-035",
@@ -317,7 +317,7 @@ export const chapterOneNodes = [
   line(
     "ch1-sms-direct-001",
     "chapter-1",
-    stages.wrongMessageQuestion,
+    stages.ch1SmsDirect,
     "aleem-p6",
     "I thought we were still together. Who are you talking about?",
     "ch1-sms-direct-002",
@@ -325,7 +325,7 @@ export const chapterOneNodes = [
   line(
     "ch1-sms-direct-002",
     "chapter-1",
-    stages.wrongMessageQuestion,
+    stages.ch1SmsDirect,
     "adult-aleem",
     "The words looked braver on the screen than I felt. Years later, I would remember that directness not as anger, but as a frightened request for reality to hold still.",
     "ch1-035",
@@ -333,7 +333,7 @@ export const chapterOneNodes = [
   line(
     "ch1-sms-wait-001",
     "chapter-1",
-    stages.wrongMessageQuestion,
+    stages.ch1SmsWait,
     "adult-aleem",
     "I did not answer. The typing indicator appeared, vanished, then returned. Each flicker felt like a door opening and closing before I could reach it.",
     "ch1-sms-wait-002",
@@ -341,7 +341,7 @@ export const chapterOneNodes = [
   line(
     "ch1-sms-wait-002",
     "chapter-1",
-    stages.wrongMessageQuestion,
+    stages.ch1SmsWait,
     "adult-aleem",
     "Years later, I would remember that silence as my first instinct under hurt: become still, hope the other person explains, and pretend waiting is the same as being protected.",
     "ch1-035",
@@ -349,7 +349,7 @@ export const chapterOneNodes = [
   line(
     "ch1-035",
     "chapter-1",
-    stages.alyaApology,
+    stages.ch1AlyaStartled,
     "alya",
     "Wait—Aleem? Oh no. I sent that to the wrong person. I am so sorry.",
     "ch1-036",
@@ -357,7 +357,7 @@ export const chapterOneNodes = [
   line(
     "ch1-036",
     "chapter-1",
-    stages.alyaApologetic,
+    stages.ch1AlyaApologetic,
     "adult-aleem",
     "There was no clever explanation. The message had been intended for somebody she trusted, somebody helping her understand a different boy.",
     "ch1-037",
@@ -365,7 +365,7 @@ export const chapterOneNodes = [
   line(
     "ch1-037",
     "chapter-1",
-    stages.alyaApologetic,
+    stages.ch1AlyaSad,
     "alya",
     "I should have told you. I kept thinking I would find the right time, and then more time passed. That was not fair to you.",
     "ch1-038",
@@ -373,7 +373,7 @@ export const chapterOneNodes = [
   line(
     "ch1-038",
     "chapter-1",
-    stages.primaryHurt,
+    stages.ch1BedroomCoolHurt,
     "aleem-p6",
     "So... when did we stop being together?",
     "ch1-039",
@@ -381,7 +381,7 @@ export const chapterOneNodes = [
   line(
     "ch1-039",
     "chapter-1",
-    stages.alyaApologetic,
+    stages.ch1AlyaApologetic,
     "alya",
     "I do not know. I think I felt us becoming different, and I was scared to say it. I am sorry you found out like this.",
     "ch1-040",
@@ -389,7 +389,7 @@ export const chapterOneNodes = [
   line(
     "ch1-040",
     "chapter-1",
-    stages.primaryHurt,
+    stages.ch1BedroomCoolReflective,
     "adult-aleem",
     "At twelve, uncertainty felt more insulting than a clean ending. I wanted a date, a reason, a single mistake I could point to. She could only offer the messy truth: her feelings had changed before her words did.",
     "ch1-041",
@@ -397,7 +397,7 @@ export const chapterOneNodes = [
   line(
     "ch1-041",
     "chapter-1",
-    stages.primaryHurt,
+    stages.ch1BedroomCoolHurt,
     "adult-aleem",
     "Alya had handled it badly. She knew that. But she was not a villain with a secret plan. She was a young person avoiding a painful conversation until an accidental message forced it into the open.",
     "ch1-042",
@@ -405,7 +405,7 @@ export const chapterOneNodes = [
   line(
     "ch1-042",
     "chapter-1",
-    stages.primaryHurt,
+    stages.ch1BedroomCoolReflective,
     "aleem-p6",
     "I wish you had just told me.",
     "ch1-043",
@@ -413,7 +413,7 @@ export const chapterOneNodes = [
   line(
     "ch1-043",
     "chapter-1",
-    stages.alyaApologetic,
+    stages.ch1AlyaSad,
     "alya",
     "I know. You deserved that.",
     "ch1-044",
@@ -421,7 +421,7 @@ export const chapterOneNodes = [
   line(
     "ch1-044",
     "chapter-1",
-    stages.primaryHurt,
+    stages.ch1BedroomCoolHurt,
     "adult-aleem",
     "The conversation ended without ceremony. No final meeting beneath the school gate. No shared audience to declare us finished. Just two small screens going dark in two different homes.",
     "ch1-045",
@@ -429,7 +429,7 @@ export const chapterOneNodes = [
   line(
     "ch1-045",
     "chapter-1",
-    stages.busStop,
+    stages.ch1BusStop,
     "adult-aleem",
     "For a while, I replayed the message as though repetition could reveal an alternate outcome. What if I had called more? What if distance had not made us strangers? What if I had noticed first?",
     "ch1-046",
@@ -437,7 +437,7 @@ export const chapterOneNodes = [
   line(
     "ch1-046",
     "chapter-1",
-    stages.busStop,
+    stages.ch1BusStop,
     "adult-aleem",
     "Those questions were too large for the relationship we had actually lived. We had cared for each other sincerely, then grown apart before we had the language to end things kindly.",
     "ch1-047",
@@ -445,7 +445,7 @@ export const chapterOneNodes = [
   line(
     "ch1-047",
     "chapter-1",
-    stages.prologue,
+    stages.dawn,
     "adult-aleem",
     "My first heartbreak taught me to fear the sentence that arrives late. It did not yet teach me how easily I could become the person delaying one.",
     "ch1-048",
@@ -453,10 +453,9 @@ export const chapterOneNodes = [
   line(
     "ch1-048",
     "chapter-1",
-    stages.prologue,
+    stages.dawn,
     "adult-aleem",
     "By 2011 I had changed shape, school, and confidence. I was taller, much thinner, still wearing glasses, and convinced that looking older must mean I had become wiser.",
     "ch2-001",
   ),
 ] as const satisfies readonly StoryNode[];
-

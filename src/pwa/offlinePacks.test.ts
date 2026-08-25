@@ -59,7 +59,7 @@ const chapterOne: OfflinePackManifest = {
   id: 'chapter-one',
   chapterId: 'chapter-1',
   title: 'The Wrong Message',
-  contentRevision: 'school-years-1.0.0',
+  contentRevision: 'school-years-2.0.0',
   expectedBytes: 6,
   voiceUrls: [
     'voices/chapter-1/line-001.mp3',
@@ -284,14 +284,14 @@ describe('OfflinePackManager', () => {
   it('cleans caches belonging to obsolete content revisions', async () => {
     const storage = new MemoryCacheStorage();
     await storage.open(voiceCacheName('old-revision'));
-    await storage.open(voiceCacheName('school-years-1.0.0'));
+    await storage.open(voiceCacheName('school-years-2.0.0'));
     const manager = managerWith(storage, vi.fn<typeof fetch>());
 
     await expect(
-      manager.cleanupObsoleteCaches('school-years-1.0.0'),
+      manager.cleanupObsoleteCaches('school-years-2.0.0'),
     ).resolves.toBe(1);
     await expect(storage.keys()).resolves.toEqual([
-      voiceCacheName('school-years-1.0.0'),
+      voiceCacheName('school-years-2.0.0'),
     ]);
   });
 });

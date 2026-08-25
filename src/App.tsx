@@ -236,8 +236,9 @@ function Notice({ onContinue }: { onContinue: () => void }) {
         <div className={styles.contentNote}>
           <span>Content note</span>
           <p>
-            Relationship breakdown, academic disappointment, and a period of
-            emotional withdrawal. Exact examination grades are not shown.
+            Family pressure, repeated romantic rejection, relationship
+            breakdown, academic disappointment, and periods of emotional
+            withdrawal. Exact examination grades are not shown.
           </p>
         </div>
         <p className={styles.smallPrint}>
@@ -308,8 +309,8 @@ function TitleScreen({
         </h1>
         <p className={styles.subtitle}>The School Years</p>
         <p className={styles.titleSummary}>
-          Before Nurul, there were school corridors, glowing screens, first
-          loves—and the difficult work of becoming.
+          Before Nurul, there were school corridors, crowded buses, glowing
+          screens, first loves—and the difficult work of becoming.
         </p>
 
         {storageMessage !== undefined && (
@@ -369,7 +370,7 @@ function TitleScreen({
         )}
       </div>
       <p className={styles.titleFooter}>
-        Singapore · 2009–2013 <span aria-hidden="true">•</span> No analytics
+        Singapore · 2009–2016 <span aria-hidden="true">•</span> No analytics
       </p>
     </main>
   );

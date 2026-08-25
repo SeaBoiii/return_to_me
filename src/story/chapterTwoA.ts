@@ -6,7 +6,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-001",
     "chapter-2",
-    stages.boysClassroom,
+    stages.ch2BoysEstablishing,
     "adult-aleem",
     "My secondary school was a boys' school. Every classroom, assembly, and crowded canteen table made that fact completely unremarkable. Girls belonged to other schools, other buses, and stories told by friends with suspicious confidence.",
     "ch2-002",
@@ -14,7 +14,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-002",
     "chapter-2",
-    stages.boysClassroom,
+    stages.ch2BoysClassroomNeutral,
     "adult-aleem",
     "Most days were a familiar rhythm of lessons, jokes, and trying not to be noticed when homework was incomplete. I had grown upward so quickly that my old self felt stored in somebody else's photographs.",
     "ch2-003",
@@ -22,7 +22,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-003",
     "chapter-2",
-    stages.boysClassroom,
+    stages.ch2BoysCorridor,
     "adult-aleem",
     "Then, once a week, I travelled to a mixed school for third-language class. We kept our own uniforms; the borrowed campus was only a meeting place for students arriving from different schools.",
     "ch2-004",
@@ -30,7 +30,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-004",
     "chapter-2",
-    stages.languageEstablishing,
+    stages.ch2LanguageEstablishing,
     "adult-aleem",
     "The room felt different before anyone spoke. Navy skirts and white shirts mixed with the plain white uniforms from my school. New voices filled the spaces where routine usually sat.",
     "ch2-005",
@@ -38,7 +38,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-005",
     "chapter-2",
-    stages.languageAleem,
+    stages.ch2LanguageAleemNervous,
     "adult-aleem",
     "I became intensely aware of my arms, my glasses, and the possibility that I had forgotten how to sit naturally.",
     "ch2-006",
@@ -46,7 +46,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-006",
     "chapter-2",
-    stages.languageHana,
+    stages.ch2LanguageHanaNeutral,
     "adult-aleem",
     "Hana sat a few places away. She was tall, with long straight hair and glasses that she nudged upward whenever she concentrated. She listened before speaking, then asked questions that made the teacher pause.",
     "ch2-007",
@@ -54,7 +54,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-007",
     "chapter-2",
-    stages.languageHana,
+    stages.ch2LanguageHanaCurious,
     "hana",
     "Do you know what page we are supposed to be on?",
     "ch2-008",
@@ -62,7 +62,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-008",
     "chapter-2",
-    stages.languageHana,
+    stages.ch2LanguageAleemEmbarrassed,
     "aleem-sec",
     "Page... forty-two. I think.",
     "ch2-009",
@@ -70,7 +70,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-009",
     "chapter-2",
-    stages.languageHana,
+    stages.ch2LanguageHanaSmile,
     "hana",
     "The teacher wrote fifty-four on the board.",
     "ch2-010",
@@ -78,7 +78,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-010",
     "chapter-2",
-    stages.languageHana,
+    stages.ch2LanguageAleemEmbarrassed,
     "aleem-sec",
     "Right. I was checking whether you were paying attention.",
     "ch2-011",
@@ -86,7 +86,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-011",
     "chapter-2",
-    stages.languageSmile,
+    stages.ch2LanguageHanaSmile,
     "hana",
     "Very helpful. Terima kasih—thank you, page forty-two.",
     "ch2-012",
@@ -94,7 +94,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-012",
     "chapter-2",
-    stages.languageSmile,
+    stages.ch2LanguageSharedSmile,
     "adult-aleem",
     "Her smile turned my embarrassment into a private joke. The next week she asked if I had finally found the correct page. The week after that, I saved her a seat.",
     "ch2-013",
@@ -102,7 +102,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-013",
     "chapter-2",
-    stages.languageSmile,
+    stages.ch2LanguageSharedSmile,
     "adult-aleem",
     "Conversation arrived in pieces: complaints about vocabulary lists, comparisons of long commutes, recommendations for songs. She was observant without making a show of it.",
     "ch2-014",
@@ -110,7 +110,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-014",
     "chapter-2",
-    stages.languageSmile,
+    stages.ch2LanguageHanaSupportive,
     "hana",
     "You always draw boxes in the margins. Is that meant to be a building?",
     "ch2-015",
@@ -118,7 +118,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-015",
     "chapter-2",
-    stages.languageSmile,
+    stages.ch2LanguageHanaSupportive,
     "aleem-sec",
     "A base. You build walls, add rooms, and make systems so everything works together.",
     "ch2-016",
@@ -126,7 +126,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-016",
     "chapter-2",
-    stages.languageSmile,
+    stages.ch2LanguageSharedSmile,
     "hana",
     "You sound happier explaining that than anything in this textbook.",
     "ch2-017",
@@ -134,7 +134,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-017",
     "chapter-2",
-    stages.languageAleem,
+    stages.ch2LanguageAleemNervous,
     "adult-aleem",
     "She was right. I loved digital spaces where effort produced visible structure. You placed one block, then another, and the empty world became somewhere people wanted to stay.",
     "ch2-018",
@@ -142,7 +142,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-018",
     "chapter-2",
-    stages.languageHana,
+    stages.ch2LanguageHanaCurious,
     "adult-aleem",
     "I also liked Hana, which was less orderly. Every good conversation made the next one feel more important. Every goodbye left me rehearsing what I should have said.",
     "ch2-019",
@@ -150,7 +150,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-019",
     "chapter-2",
-    stages.courtyardFaris,
+    stages.ch2FarisNeutral,
     "adult-aleem",
     "Faris noticed before I told him. He was short and round, with fluffy hair, glasses, and the relaxed confidence of someone who considered awkwardness a problem other people had.",
     "ch2-020",
@@ -158,7 +158,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-020",
     "chapter-2",
-    stages.courtyardFaris,
+    stages.ch2FarisTeasing,
     "faris",
     "You wait until Hana leaves before you walk to the gate, then somehow reach the gate at the same time. Very subtle, bro.",
     "ch2-021",
@@ -166,7 +166,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-021",
     "chapter-2",
-    stages.courtyardFaris,
+    stages.ch2FarisTeasing,
     "aleem-sec",
     "It is a public walkway.",
     "ch2-022",
@@ -174,7 +174,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-022",
     "chapter-2",
-    stages.courtyardFarisConfident,
+    stages.ch2FarisConfident,
     "faris",
     "And your face is public evidence. You like her. Shall I help?",
     "ch2-023",
@@ -182,7 +182,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-023",
     "chapter-2",
-    stages.courtyardFaris,
+    stages.ch2FarisEncouraging,
     "aleem-sec",
     "Help how?",
     "ch2-024",
@@ -190,7 +190,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-024",
     "chapter-2",
-    stages.courtyardFarisConfident,
+    stages.ch2FarisConfident,
     "faris",
     "I can speak to her. Nothing dramatic. Just tell her you are interested and ask whether she would be comfortable talking to you about it.",
     "ch2-choice-wingman",
@@ -198,7 +198,7 @@ export const chapterTwoANodes = [
   choice(
     "ch2-choice-wingman",
     "chapter-2",
-    stages.courtyardFarisConfident,
+    stages.ch2FarisConfident,
     "What should Faris say on Aleem's behalf?",
     [
       {
@@ -221,7 +221,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-wingman-simple-001",
     "chapter-2",
-    stages.courtyardFaris,
+    stages.ch2FarisEncouraging,
     "aleem-sec",
     "Just say I like her. Simple. Before I overthink it and move to another country.",
     "ch2-wingman-simple-002",
@@ -229,7 +229,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-wingman-simple-002",
     "chapter-2",
-    stages.courtyardFarisConfident,
+    stages.ch2FarisConfident,
     "faris",
     "Direct and efficient. I knew there was hope for you.",
     "ch2-025",
@@ -237,7 +237,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-wingman-sincere-001",
     "chapter-2",
-    stages.courtyardFaris,
+    stages.ch2FarisEncouraging,
     "aleem-sec",
     "Tell her I really value the time we spend together. And that I would like it to mean something, if she does too.",
     "ch2-wingman-sincere-002",
@@ -245,7 +245,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-wingman-sincere-002",
     "chapter-2",
-    stages.courtyardFarisConfident,
+    stages.ch2FarisTeasing,
     "faris",
     "Wah. Very sincere. I will remove the part where your voice nearly disappeared.",
     "ch2-025",
@@ -253,7 +253,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-wingman-pressure-001",
     "chapter-2",
-    stages.courtyardFaris,
+    stages.ch2FarisEncouraging,
     "aleem-sec",
     "Make sure she knows there is no pressure. If she does not feel the same, I do not want class to become uncomfortable.",
     "ch2-wingman-pressure-002",
@@ -261,7 +261,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-wingman-pressure-002",
     "chapter-2",
-    stages.courtyardFaris,
+    stages.ch2FarisConfident,
     "faris",
     "Good. I will ask, not corner her. Wingman service with ethics.",
     "ch2-025",
@@ -269,7 +269,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-025",
     "chapter-2",
-    stages.courtyardFarisConfident,
+    stages.ch2FarisWingman,
     "adult-aleem",
     "Faris walked across the courtyard before my courage could object. He spoke to Hana briefly, without an audience. She looked surprised, glanced toward me, and asked him something I could not hear.",
     "ch2-026",
@@ -277,7 +277,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-026",
     "chapter-2",
-    stages.courtyardFaris,
+    stages.ch2FarisEncouraging,
     "faris",
     "She said you should tell her yourself. This is good news, by the way.",
     "ch2-027",
@@ -285,7 +285,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-027",
     "chapter-2",
-    stages.courtyardFaris,
+    stages.ch2FarisTeasing,
     "aleem-sec",
     "How is that good news? Your entire job was to prevent me from doing that.",
     "ch2-028",
@@ -293,7 +293,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-028",
     "chapter-2",
-    stages.courtyardFarisConfident,
+    stages.ch2FarisConfident,
     "faris",
     "My job was to open the door. Walking through is your character development.",
     "ch2-029",
@@ -301,7 +301,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-029",
     "chapter-2",
-    stages.courtyardHana,
+    stages.ch2CourtyardNervous,
     "aleem-sec",
     "Hi. I assume Faris gave a very calm and accurate presentation.",
     "ch2-030",
@@ -309,7 +309,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-030",
     "chapter-2",
-    stages.courtyardHana,
+    stages.ch2CourtyardEmbarrassed,
     "hana",
     "He used the phrase 'important diplomatic matter.'",
     "ch2-031",
@@ -317,7 +317,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-031",
     "chapter-2",
-    stages.courtyardHana,
+    stages.ch2CourtyardNervous,
     "aleem-sec",
     "That sounds like him. The accurate part is that I like you.",
     "ch2-032",
@@ -325,7 +325,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-032",
     "chapter-2",
-    stages.courtyardHana,
+    stages.ch2CourtyardEmbarrassed,
     "hana",
     "I like you too. I was not sure whether you were interested or just always lost after class.",
     "ch2-033",
@@ -333,7 +333,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-033",
     "chapter-2",
-    stages.courtyardHappy,
+    stages.ch2CourtyardHappy,
     "aleem-sec",
     "Both can be true.",
     "ch2-034",
@@ -341,7 +341,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-034",
     "chapter-2",
-    stages.courtyardHappy,
+    stages.ch2CourtyardHappy,
     "adult-aleem",
     "We agreed to try. No grand declaration, only mutual relief and the shy happiness of discovering that hope had been shared.",
     "ch2-035",
@@ -349,7 +349,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-035",
     "chapter-2",
-    stages.languageSmile,
+    stages.ch2LanguageSharedSmile,
     "adult-aleem",
     "For a while, the weekly class became the centre of my calendar. Hana and I exchanged messages between lessons and stretched the walk to the bus stop whenever time allowed.",
     "ch2-036",
@@ -357,7 +357,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-036",
     "chapter-2",
-    stages.courtyardHappy,
+    stages.ch2CourtyardHappy,
     "hana",
     "You know we could walk directly to the gate.",
     "ch2-037",
@@ -365,7 +365,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-037",
     "chapter-2",
-    stages.courtyardHappy,
+    stages.ch2CourtyardEmbarrassed,
     "aleem-sec",
     "This route has better... trees.",
     "ch2-038",
@@ -373,7 +373,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-038",
     "chapter-2",
-    stages.courtyardHappy,
+    stages.ch2CourtyardHappy,
     "hana",
     "We have passed the same tree twice.",
     "ch2-039",
@@ -381,7 +381,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-039",
     "chapter-2",
-    stages.courtyardHappy,
+    stages.ch2CourtyardHappy,
     "adult-aleem",
     "She knew what I was doing and walked the second circle anyway. It was an ordinary kindness. I wish I had understood then how relationships are built from attention to ordinary things.",
     "ch2-040",
@@ -389,7 +389,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-040",
     "chapter-2",
-    stages.bedroomPcDay,
+    stages.ch2PcFocused,
     "adult-aleem",
     "At home, another world was taking shape. I had started running a Minecraft server: part community, part small business, part endlessly demanding machine.",
     "ch2-041",
@@ -397,7 +397,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-041",
     "chapter-2",
-    stages.bedroomPcDay,
+    stages.ch2PcFocused,
     "adult-aleem",
     "I learned to configure systems, settle disputes, organise volunteers, and keep strangers returning. Every solved problem revealed two more, which felt less like failure than an invitation.",
     "ch2-042",
@@ -405,7 +405,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-042",
     "chapter-2",
-    stages.serverProud,
+    stages.ch2ServerProud,
     "adult-aleem",
     "Players joined. A community formed. Support began arriving from people who valued the place enough to contribute. I was making real money from something I had built in my bedroom.",
     "ch2-043",
@@ -413,7 +413,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-043",
     "chapter-2",
-    stages.serverProud,
+    stages.ch2ServerCall,
     "aleem-sec",
     "Hana, someone supported the server again. They said it is the first place online where their friends all enjoy playing together.",
     "ch2-044",
@@ -421,7 +421,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-044",
     "chapter-2",
-    stages.serverProud,
+    stages.ch2ServerCall,
     "hana",
     "That is actually amazing. You made a place people care about.",
     "ch2-045",
@@ -429,7 +429,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-045",
     "chapter-2",
-    stages.bedroomPcDay,
+    stages.ch2PcProud,
     "adult-aleem",
     "Her pride mattered to me. The server was not merely a distraction. It taught me leadership, technical patience, and the thrilling fact that my ideas could have value beyond school.",
     "ch2-046",
@@ -437,7 +437,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-046",
     "chapter-2",
-    stages.bedroomPcNight,
+    stages.ch2PcDistracted,
     "adult-aleem",
     "But achievement came with an alarm bell. The server did not care whether I had class the next morning. Problems arrived whenever players were awake, which seemed to be always.",
     "ch2-047",
@@ -445,7 +445,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-047",
     "chapter-2",
-    stages.serverCrisis,
+    stages.ch2ServerCrisis,
     "adult-aleem",
     "One night, three demands collided: Hana was waiting for a promised call, unfinished revision lay beside the keyboard, and the server began failing under a rush of activity.",
     "ch2-choice-priority",
@@ -453,7 +453,7 @@ export const chapterTwoANodes = [
   choice(
     "ch2-choice-priority",
     "chapter-2",
-    stages.serverCrisis,
+    stages.ch2ServerCrisis,
     "What does Aleem attend to first?",
     [
       {
@@ -476,7 +476,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-priority-hana-001",
     "chapter-2",
-    stages.bedroomPcNight,
+    stages.ch2PcDistracted,
     "adult-aleem",
     "I called Hana. For ten minutes, I listened properly while warning messages multiplied behind the call window. She laughed once, and the sound made the choice feel simple.",
     "ch2-priority-hana-002",
@@ -484,7 +484,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-priority-hana-002",
     "chapter-2",
-    stages.serverCrisis,
+    stages.ch2ServerAftermath,
     "adult-aleem",
     "Then I rushed back to the server and worked far past midnight. Years later, I remembered that attention was possible—but without boundaries, I treated it as an exception I could not sustain.",
     "ch2-048",
@@ -492,7 +492,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-priority-server-001",
     "chapter-2",
-    stages.serverCrisis,
+    stages.ch2ServerCrisis,
     "adult-aleem",
     "I told myself I needed only ten minutes to stabilise the server. Ten became forty. By the time I reached for my phone, Hana's message simply said she was going to sleep.",
     "ch2-priority-server-002",
@@ -500,7 +500,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-priority-server-002",
     "chapter-2",
-    stages.bedroomPcNight,
+    stages.ch2PcOverwhelmed,
     "adult-aleem",
     "Years later, I remembered how reasonable every delay sounded from inside it. I never chose to neglect her in one dramatic moment. I chose 'just a little longer' again and again.",
     "ch2-048",
@@ -508,7 +508,7 @@ export const chapterTwoANodes = [
   line(
     "ch2-priority-study-001",
     "chapter-2",
-    stages.bedroomPcNight,
+    stages.ch2PcDistracted,
     "adult-aleem",
     "I closed the dashboard and revised first. Yet my eyes kept moving between the textbook and two silent screens, absorbing little from the page and giving nothing fully to either person or server.",
     "ch2-priority-study-002",
@@ -516,10 +516,9 @@ export const chapterTwoANodes = [
   line(
     "ch2-priority-study-002",
     "chapter-2",
-    stages.bedroomPcNight,
+    stages.ch2PcOverwhelmed,
     "adult-aleem",
     "Years later, I remembered that choosing the responsible task was not enough if I had already built a life with no margin. The crisis was not that night; it was the pattern around it.",
     "ch2-048",
   ),
 ] as const satisfies readonly StoryNode[];
-

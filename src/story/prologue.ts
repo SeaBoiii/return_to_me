@@ -16,7 +16,7 @@ export const prologueNodes = [
     "prologue",
     stages.prologue,
     null,
-    "Content note: this chapter includes relationship breakdown, academic disappointment, and a period of emotional withdrawal. Exact examination grades are intentionally not shown.",
+    "Content note: this story includes family pressure, relationship breakdown, repeated rejection, academic disappointment, and periods of emotional withdrawal. Exact examination grades are intentionally not shown.",
     "prologue-003",
   ),
   line(
@@ -100,4 +100,3 @@ export const prologueNodes = [
     "ch1-001",
   ),
 ] as const satisfies readonly StoryNode[];
-

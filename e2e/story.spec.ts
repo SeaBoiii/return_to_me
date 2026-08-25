@@ -16,7 +16,8 @@ test('shows the factual notice and starts a new story', async ({ page }) => {
     name: 'A note before we begin',
   });
   await expect(notice).toContainText('Inspired by real events');
-  await expect(notice).toContainText('Relationship breakdown');
+  await expect(notice).toContainText('Family pressure');
+  await expect(notice).toContainText(/relationship breakdown/i);
   await expect(notice).toContainText('Exact examination grades are not shown');
 
   await dismissNotice(page);
@@ -62,7 +63,7 @@ test('autosaves an advanced line and restores it through Continue', async ({
   await continueButton.click();
 
   await expect(page.getByLabel('Dialogue')).toContainText(
-    'Content note: this chapter includes relationship breakdown',
+    'Content note: this story includes family pressure',
   );
   await expect(
     page.evaluate((key) => {
@@ -129,6 +130,84 @@ test('records a reflective choice and reconverges on the true-life milestone', a
       rememberedChoices: { 'ch1-choice-sms': 'sms-ask' },
     });
 });
+
+test('migrates a completed first-edition save into the JC expansion', async ({
+  page,
+}) => {
+  await openApp(page);
+  await page.evaluate((key) => {
+    localStorage.setItem(
+      key,
+      JSON.stringify({
+        version: 1,
+        storyId: 'return-to-me-school-years',
+        storyRevision: 'school-years-1.0.0',
+        currentNodeId: 'epilogue-end',
+        status: 'ended',
+        history: [
+          { kind: 'line', nodeId: 'ch2-108' },
+          { kind: 'line', nodeId: 'epilogue-001' },
+        ],
+        rememberedChoices: {},
+        unlockedChapters: [
+          'prologue',
+          'chapter-1',
+          'chapter-2',
+          'epilogue',
+        ],
+        seenNodeIds: ['ch2-108', 'epilogue-001', 'epilogue-end'],
+        timestamp: Date.now(),
+      }),
+    );
+  }, SAVE_KEY);
+  await page.reload();
+  await dismissNotice(page);
+
+  await expect(page.getByRole('status')).toContainText(
+    'saved progress was updated for the expanded story edition',
+  );
+  await page.getByRole('button', { name: 'Continue', exact: true }).click();
+  await expect(
+    page.getByText('The Bus We Waited For', { exact: true }),
+  ).toBeVisible();
+  await expect(page.getByLabel('Dialogue')).toContainText(
+    'The morning after disappointment is rarely dramatic',
+  );
+  await expect
+    .poll(() =>
+      page.evaluate((key) => {
+        const raw = localStorage.getItem(key);
+        if (raw === null) return undefined;
+        const save = JSON.parse(raw) as {
+          storyRevision?: string;
+          currentNodeId?: string;
+          status?: string;
+          unlockedChapters?: string[];
+          seenNodeIds?: string[];
+        };
+        return {
+          storyRevision: save.storyRevision,
+          currentNodeId: save.currentNodeId,
+          status: save.status,
+          unlockedChapters: save.unlockedChapters,
+          seenNodeIds: save.seenNodeIds,
+        };
+      }, SAVE_KEY),
+    )
+    .toMatchObject({
+      storyRevision: 'school-years-2.0.0',
+      currentNodeId: 'ch3-001',
+      status: 'playing',
+      unlockedChapters: [
+        'prologue',
+        'chapter-1',
+        'chapter-2',
+        'chapter-3',
+      ],
+      seenNodeIds: ['ch2-108'],
+    });
+});
+
 test('unlocks the first chapter only after reaching it', async ({ page }) => {
   await openApp(page);
   await startNewGame(page);
@@ -168,14 +247,15 @@ test('unlocks the first chapter only after reaching it', async ({ page }) => {
     chapterDialog.getByRole('button', { name: /A Different Classroom/ }),
   ).toBeDisabled();
   await expect(
-    chapterDialog.getByRole('button', { name: /Continue\?/ }),
+    chapterDialog.getByRole('button', { name: /Fault Lines/ }),
   ).toBeDisabled();
 });
 
-test('plays a complete route through all five reconverging choices', async ({
+test('plays a complete route through seven chapters and ten reconverging choices', async ({
   page,
 }, testInfo) => {
   test.skip(testInfo.project.name !== 'chromium', 'desktop route audit only');
+  test.setTimeout(120_000);
 
   await openApp(page);
   await page.evaluate((key) => {
@@ -196,24 +276,18 @@ test('plays a complete route through all five reconverging choices', async ({
   await startNewGame(page);
 
   let choiceCount = 0;
-  for (let step = 0; step < 230; step += 1) {
+  for (let step = 0; step < 500; step += 1) {
     if (await page.getByRole('heading', { name: 'Continue?' }).isVisible()) {
       break;
     }
 
     const choice = page.getByLabel('Choice');
     if (await choice.isVisible()) {
-      const prompt = (await choice.textContent()) ?? '';
-      const option = prompt.includes('wrong message')
-        ? /Ask quietly/
-        : prompt.includes('Faris say')
-          ? /Keep it simple/
-          : prompt.includes('attend to first')
-            ? /Call Hana/
-            : prompt.includes('mutual friend')
-              ? /Ask calmly/
-              : /next path.*there must be one/;
-      await choice.getByRole('button', { name: option }).click();
+      await choice
+        .locator('button > span[aria-hidden="true"]')
+        .first()
+        .locator('..')
+        .click();
       choiceCount += 1;
       continue;
     }
@@ -222,7 +296,7 @@ test('plays a complete route through all five reconverging choices', async ({
   }
 
   await expect(page.getByRole('heading', { name: 'Continue?' })).toBeVisible();
-  expect(choiceCount).toBe(5);
+  expect(choiceCount).toBe(10);
   await expect
     .poll(() =>
       page.evaluate((key) => {
@@ -245,8 +319,8 @@ test('plays a complete route through all five reconverging choices', async ({
     .toEqual({
       status: 'ended',
       currentNodeId: 'epilogue-end',
-      choiceCount: 5,
-      unlockedCount: 4,
+      choiceCount: 10,
+      unlockedCount: 7,
     });
 });
 test('keeps subtitles and voice settings usable without licensed clips', async ({

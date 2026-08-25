@@ -33,6 +33,22 @@ describe("production content manifests", () => {
     expect(productionVoiceManifest.contentRevision).toBe(story.revision);
   });
 
+  it("keeps the expanded cast provider-neutral and production audio empty", () => {
+    expect(voiceProfiles.map((profile) => profile.id)).toEqual([
+      "adult-aleem",
+      "young-aleem",
+      "teen-aleem",
+      "alya",
+      "hana",
+      "faris",
+      "mutual-friend",
+      "syafiqa",
+      "mei-lin",
+    ]);
+    expect(voiceEntries).toHaveLength(0);
+    expect(offlinePackManifests).toHaveLength(0);
+  });
+
   it("makes missing production voices fail strict validation", () => {
     const issues = validateStory(story, {
       assets: assetEntries,

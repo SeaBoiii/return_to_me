@@ -16,6 +16,39 @@ the fictionalised characters are complete portraits of real people.
   all-rights-reserved project material. They must not be used to imply
   endorsement by a real person or school.
 
+### JC expansion proof and production batch
+
+- Four approval proofs were generated on 25 August 2026 with OpenAI's built-in
+  image generation tool: JC Aleem, Syafiqa, Mei Lin, and a 2014 bus interior.
+- The existing Aleem and Hana character sheets supplied identity/style
+  references; the existing bus stop and language classroom supplied
+  environment-style references.
+- Full normalized proof prompts, reference relationships, proof paths, and QA
+  findings are recorded in
+  [the JC expansion proof record](../proofs/jc-expansion/README.md).
+- After the first QA pass, Aleem and Mei Lin received identity-preserving
+  revisions. The selected anchors are
+  `aleem-jc-proof-v3-magenta.png` and
+  `mei-lin-proof-v3-magenta.png`; both passed the second identity/outfit QA.
+- Built-in true-alpha requests produced unusable opaque results and were
+  excluded. The selected revisions use a non-green magenta key to protect the
+  green/teal clothing, but still require tolerant matting and spill cleanup
+  before any derived sprite can be deployed.
+- The project owner approved the revised proof batch on 25 August 2026. The
+  approved production inventory, source-cell mappings, normalized scene/CG
+  briefs, processing contract, and current verification status are recorded in
+  [the JC production record](jc-production.md).
+- Five approved expression-sheet sources, a corrected hands-visible Mei Lin
+  relaxed-pose source, nine background masters, and three CG masters have been
+  generated. All 27 normalized sprite masters and 39 deployed JC assets pass
+  the physical-file validator and focused manifest test. Final manual visual
+  and tone QA passed on 25 August 2026; the JC production batch is
+  release-ready.
+- Before that final pass, the shared-earpiece CG was revised to keep a visible
+  gap between independently dozing Aleem and Syafiqa, and the zoo-distance CG
+  was revised to restore Aleem's approved green/cream casual outfit and Mei
+  Lin's yellow casual outfit.
+
 ## Style bible
 
 - Soft, semi-realistic cel shading with crisp silhouettes, restrained line
@@ -75,6 +108,30 @@ Short, round secondary-school boy with short fluffy dark hair and glasses,
 wearing the same plain white boys' school uniform as Aleem. Expressions
 deployed: neutral, encouraging, and confident.
 
+### aleem-jc and aleem-casual
+
+Aleem at 17–18, preserving the secondary-school anchor's Boyanese Malay
+identity, warm brown skin, short dark hair, rectangular glasses, cute gentle
+features, and tall skinny build. JC clothing uses the fictional white,
+charcoal, and muted-teal palette; zoo clothing is a forest-green overshirt,
+cream T-shirt, and dark navy chinos. The approved production set contains eight
+JC expressions and four casual expressions.
+
+### syafiqa
+
+Distinct tall Malay JC student with warm medium-brown skin, expressive dark
+eyes, no glasses, and long dark hair in a low ponytail. She wears the same
+fictional JC palette. The approved production set contains six expressions.
+
+### mei-lin-jc and mei-lin-casual
+
+Distinct, very short Chinese JC student with a fair-to-light warm complexion,
+long straight dark hair, and round dark glasses. Her uniform uses the fictional
+JC palette; zoo clothing is a pale-yellow blouse and dark navy jeans. The
+approved production set contains five JC and four casual expressions. A
+generated hidden-hands relaxed zoo pose is explicitly rejected and replaced by
+a separate hands-visible source.
+
 ## Generation relationships and limitations
 
 1. The first Primary 6 Aleem/Alya style proof established rendering, uniform
@@ -92,6 +149,9 @@ deployed: neutral, encouraging, and confident.
 5. Exact raw tool request payloads were not exported by the generator. The
    prompt summaries below are the canonical production descriptions and should
    be used when regenerating an asset.
+6. The 25 August 2026 JC production batch uses the approved revised anchors as
+   direct identity/outfit references. Its complete relationship graph and cell
+   mappings are recorded in `art/prompts/jc-production.md`.
 
 ## Character prompt family
 
@@ -198,19 +258,43 @@ Teenage Aleem receiving a disappointing O-Level outcome in a muted hall; paper
 has no readable grades, preserving privacy and leaving the HTML results overlay
 authoritative.
 
+## JC expansion prompt summaries
+
+The nine approved JC backgrounds are `bg-hdb-dining`, `bg-jc-walkway`,
+`bg-jc-classroom`, `bg-bus-interior-morning`,
+`bg-bus-interior-evening`, `bg-jc-study-area`, `bg-a-level-results`,
+`bg-zoo-path`, and `bg-zoo-shelter`. The three approved CGs are
+`cg-shared-earpiece`, `cg-syafiqa-sighting`, and `cg-zoo-distance`.
+
+Their canonical prompts, layout rules, focal points, identity relationships,
+and narrative safeguards are in [the JC production record](jc-production.md).
+In particular, relatives, Daniel, the confession-montage girls, and the
+upcoming relationship remain offscreen; the boy in Syafiqa's sighting is
+entirely offscreen and unidentifiable.
+
 ## Files and processing
 
 | Asset family | Generated/source path | Deployed path | Deployed dimensions |
 | --- | --- | --- | --- |
 | Background masters | `art/sources/bg-*-master.png` | `public/assets/art/backgrounds/*.webp` | 1600×900 |
 | CG masters | `art/sources/cg-*-master.png` | `public/assets/art/cg/*.webp` | 1600×900 |
-| Character sheets/variants | `art/sources/characters/*-expression-master.png` | `public/assets/art/characters/<anchor>/*.webp` | 384×512 to 627×916 |
+| Character sheets/variants | `art/sources/characters/*-expression-master.png` | `public/assets/art/characters/<anchor>/*.webp` | Manifest-defined; new JC sprites target 768×1152 |
+| Normalized JC sprite masters | `art/sources/characters/normalized/<family>/*-master.png` | `public/assets/art/characters/<family>/*.webp` | 1024×1536 source; 768×1152 deployed |
 
-Background and CG masters are 1672×941 PNG files. The deterministic
-`scripts/process-art.py background` step crops to 16:9 if necessary, resizes to
-1600×900, and encodes quality-86 WebP. Character sheets were split and encoded
-as lossless WebP after chroma-key removal. Deployed dimensions are recorded
-exactly in `src/story/artManifest.ts`.
+The original 2009–2013 background and CG masters are 1672×941 PNG files. New JC
+scene/CG generations are normalized to exact 2048×1152 PNG masters. The
+deterministic `scripts/process-art.py background` command remains available for
+the original scenes; the `jc-scenes` command normalizes the new masters and
+exports 1600×900 WebP. Character sheets are split and encoded as lossless WebP
+after chroma-key removal. Deployed dimensions are recorded exactly in
+`src/story/artManifest.ts`.
+
+The JC sources use an uneven opaque magenta key because true-alpha requests to
+the built-in generator were unusable. Their deterministic path requires
+border-connected tolerant matting, a small edge feather, magenta despill, and
+normalization on a shared scale-calibrated canvas. This is an approved
+technical fallback, not permission to change generators or use an API/CLI
+transparency workflow.
 
 ## Review checklist
 
@@ -223,5 +307,8 @@ exactly in `src/story/artManifest.ts`.
 - Confirm every story ID is mapped exactly once and every deployed file exists.
   `src/art/manifest.test.ts` checks logical coverage, nested GitHub Pages URLs,
   dimensions/metadata, and engine validation.
+- Run `python -B scripts/validate-jc-art.py` after any JC art reprocessing. It
+  checks the 27 normalized and deployed sprites, 12 scene/CG masters, deployed
+  dimensions, alpha/corners, stature calibration, baselines, centering, and the
+  PWA precache size ceiling.
 - A factual and tone review remains required before publishing changed art.
-

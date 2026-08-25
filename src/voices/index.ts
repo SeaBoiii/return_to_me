@@ -91,6 +91,22 @@ export const voiceProfiles = [
     direction: "Brief, neutral teenage voice delivering difficult news gently.",
     synthetic: true,
   },
+  {
+    id: "syafiqa",
+    speakerId: "syafiqa",
+    displayName: "Syafiqa",
+    direction:
+      "Age-appropriate teenage voice; easygoing and familiar, becoming gentle but firm when setting a boundary.",
+    synthetic: true,
+  },
+  {
+    id: "mei-lin",
+    speakerId: "mei-lin",
+    displayName: "Mei Lin",
+    direction:
+      "Age-appropriate teenage voice; diligent, quietly funny, and supportive without romantic implication.",
+    synthetic: true,
+  },
 ] as const satisfies readonly VoiceProfile[];
 
 /**

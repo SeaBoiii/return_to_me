@@ -9,6 +9,12 @@
   "scripts": {
     "dev": "vite",
     "generate:icons": "node scripts/generate-icons.mjs",
+    "manuscript": "tsx scripts/export-manuscript.ts",
+    "art:proofs:check": "python -B scripts/validate-school-years-proofs.py",
+    "art:school-years:process": "python -B scripts/process-art.py school-years",
+    "art:school-years:validate": "python -B scripts/validate-school-years-art.py",
+    "art:school-years:qa": "python -B scripts/generate-school-years-qa.py",
+    "art:school-years:check": "npm run art:school-years:process && npm run art:school-years:validate && npm run art:school-years:qa",
     "voices:check": "tsx scripts/import-voices.ts --dry-run",
     "voices:import": "tsx scripts/import-voices.ts",
     "voices:dev:plan": "tsx scripts/export-dev-voice-jobs.ts",

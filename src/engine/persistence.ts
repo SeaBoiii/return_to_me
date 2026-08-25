@@ -20,10 +20,30 @@ export interface PersistenceOptions {
   readonly storage?: StorageLike;
   readonly key?: string;
   readonly now?: () => number;
+  /** Story-owned migrations keyed by the save revision they accept. */
+  readonly migrations?: SaveRevisionMigrationRegistry;
+}
+
+export type SaveRevisionMigration = (
+  save: SaveV1,
+  targetStory: StoryDefinition,
+) => SaveV1 | undefined;
+
+export type SaveRevisionMigrationRegistry = Readonly<
+  Record<string, SaveRevisionMigration>
+>;
+
+export interface ParseSaveOptions {
+  readonly migrations?: SaveRevisionMigrationRegistry;
 }
 
 export type LoadSaveResult =
-  | { readonly status: "ok"; readonly save: SaveV1; readonly migrated: boolean }
+  | {
+      readonly status: "ok";
+      readonly save: SaveV1;
+      readonly migrated: boolean;
+      readonly message?: string;
+    }
   | { readonly status: "empty" }
   | { readonly status: "corrupt"; readonly message: string }
   | { readonly status: "incompatible"; readonly message: string }
@@ -277,9 +297,66 @@ const validateSaveReferences = (
   return undefined;
 };
 
+interface RevisionMigrationResult {
+  readonly save: SaveV1;
+  readonly migrated: boolean;
+}
+
+/**
+ * Applies direct or chained story-revision migrations without allowing a
+ * buggy registry to loop forever or silently change the story identity.
+ */
+const migrateSaveRevision = (
+  save: SaveV1,
+  story: StoryDefinition,
+  migrations: SaveRevisionMigrationRegistry | undefined,
+): RevisionMigrationResult | undefined => {
+  if (save.storyRevision === story.revision) {
+    return { save, migrated: false };
+  }
+
+  if (migrations === undefined) {
+    return undefined;
+  }
+
+  const visited = new Set<string>();
+  let current = save;
+
+  while (current.storyRevision !== story.revision) {
+    if (visited.has(current.storyRevision)) {
+      return undefined;
+    }
+    visited.add(current.storyRevision);
+
+    const migrate = migrations[current.storyRevision];
+    if (migrate === undefined) {
+      return undefined;
+    }
+
+    let next: SaveV1 | undefined;
+    try {
+      next = migrate(current, story);
+    } catch {
+      return undefined;
+    }
+
+    if (
+      next === undefined ||
+      next.storyId !== save.storyId ||
+      next.storyRevision === current.storyRevision
+    ) {
+      return undefined;
+    }
+    current = next;
+  }
+
+  return { save: current, migrated: true };
+};
+
 export const parseSave = (
   raw: string,
   story: StoryDefinition,
+  options: ParseSaveOptions = {},
 ): LoadSaveResult => {
   const decoded = decodeJson(raw);
   if (!decoded.ok) {
@@ -294,10 +371,7 @@ export const parseSave = (
     };
   }
 
-  if (
-    parsed.save.storyId !== story.id ||
-    parsed.save.storyRevision !== story.revision
-  ) {
+  if (parsed.save.storyId !== story.id) {
     return {
       status: "incompatible",
       message:
@@ -305,9 +379,34 @@ export const parseSave = (
     };
   }
 
-  const referenceError = validateSaveReferences(parsed.save, story);
+  const revision = migrateSaveRevision(
+    parsed.save,
+    story,
+    options.migrations,
+  );
+  if (revision === undefined) {
+    return {
+      status: "incompatible",
+      message:
+        "Stored progress belongs to a different story revision and was not loaded.",
+    };
+  }
+
+  const referenceError = validateSaveReferences(revision.save, story);
   return referenceError === undefined
-    ? { status: "ok", save: parsed.save, migrated: parsed.migrated }
+    ? {
+        status: "ok",
+        save: revision.save,
+        migrated: parsed.migrated || revision.migrated,
+        ...(
+          revision.migrated
+            ? {
+                message:
+                  "Your saved progress was updated for the expanded story edition.",
+              }
+            : {}
+        ),
+      }
     : { status: "corrupt", message: referenceError };
 };
 
@@ -325,7 +424,9 @@ export const loadSave = (
 
   try {
     const raw = storage.getItem(options.key ?? SAVE_STORAGE_KEY);
-    return raw === null ? { status: "empty" } : parseSave(raw, story);
+    return raw === null
+      ? { status: "empty" }
+      : parseSave(raw, story, options);
   } catch {
     return {
       status: "unavailable",

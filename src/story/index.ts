@@ -1,5 +1,8 @@
 import type { StoryDefinition, StoryNode } from "../engine/types";
 import { chapterOneNodes } from "./chapterOne";
+import { chapterFiveNodes } from "./chapterFive";
+import { chapterFourNodes } from "./chapterFour";
+import { chapterThreeNodes } from "./chapterThree";
 import { chapterTwoNodes } from "./chapterTwo";
 import { chapters, speakers, STORY_REVISION } from "./metadata";
 import { epilogueNodes } from "./epilogue";
@@ -9,6 +12,9 @@ export const storyNodes = [
   ...prologueNodes,
   ...chapterOneNodes,
   ...chapterTwoNodes,
+  ...chapterThreeNodes,
+  ...chapterFourNodes,
+  ...chapterFiveNodes,
   ...epilogueNodes,
 ] as const satisfies readonly StoryNode[];
 
@@ -31,4 +37,3 @@ export {
 } from "./assets";
 export { assertValidStory, validateStory } from "./validate";
 export type { StoryValidationOptions } from "./validate";
-

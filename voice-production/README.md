@@ -29,9 +29,9 @@ peak at or below -1 dBTP.
 ## Import manifest
 
 `voice-import.schema.json` is the machine-readable input contract.
-`voice-import.example.json` demonstrates the fields and seven stable profile
-IDs. Its single clip is illustrative only; a real import must contain exactly
-one clip for every spoken `LineNode` in the active story.
+`voice-import.example.json` demonstrates the fields and stable profile IDs for
+the active speaking cast. Its single clip is illustrative only; a real import
+must contain exactly one clip for every spoken `LineNode` in the active story.
 
 Keep the import JSON beside its `clips/` folder. Every `sourceFile` must be a
 relative path contained by that folder tree; absolute paths, traversal, symlink
@@ -44,7 +44,7 @@ personal data in them.
 The importer validates:
 
 - the exact story ID and content revision;
-- all seven stable profile IDs and their speaker mapping;
+- every stable profile ID and its speaker mapping;
 - every line, speaker, and profile relationship;
 - duplicate, unknown, missing, and silent-line clip IDs;
 - source containment and deployed filename safety;

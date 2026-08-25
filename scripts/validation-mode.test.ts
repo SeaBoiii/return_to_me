@@ -15,12 +15,12 @@ describe("content validation modes", () => {
 
   it("requires complete coverage as soon as a deployment contains voices", () => {
     expect(requiresCompleteVoiceCoverage("deploy", 1)).toBe(true);
-    expect(requiresCompleteVoiceCoverage("deploy", 209)).toBe(true);
+    expect(requiresCompleteVoiceCoverage("deploy", 2)).toBe(true);
   });
 
   it("keeps the explicitly voiced release gate strict", () => {
     expect(requiresCompleteVoiceCoverage("release", 0)).toBe(true);
-    expect(requiresCompleteVoiceCoverage("release", 209)).toBe(true);
+    expect(requiresCompleteVoiceCoverage("release", 1)).toBe(true);
   });
 
   it("keeps ordinary development validation voice-optional", () => {

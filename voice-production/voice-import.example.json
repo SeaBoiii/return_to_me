@@ -2,7 +2,7 @@
   "$schema": "./voice-import.schema.json",
   "schemaVersion": 1,
   "storyId": "return-to-me-school-years",
-  "contentRevision": "school-years-1.0.0",
+  "contentRevision": "school-years-2.0.0",
   "disclosure": "Character voices are licensed synthetic performances created for this story; no real person's voice is cloned.",
   "profiles": [
     {
@@ -44,6 +44,18 @@
     {
       "id": "mutual-friend",
       "speakerId": "mutual-friend",
+      "provider": "Example licensed synthetic voice provider",
+      "licenseReference": "licenses/provider-license-2026-01.md"
+    },
+    {
+      "id": "syafiqa",
+      "speakerId": "syafiqa",
+      "provider": "Example licensed synthetic voice provider",
+      "licenseReference": "licenses/provider-license-2026-01.md"
+    },
+    {
+      "id": "mei-lin",
+      "speakerId": "mei-lin",
       "provider": "Example licensed synthetic voice provider",
       "licenseReference": "licenses/provider-license-2026-01.md"
     }
