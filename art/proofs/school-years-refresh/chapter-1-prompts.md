@@ -2,18 +2,19 @@
 
 Generated on 25 August 2026 with OpenAI's built-in image-generation tool. The
 tool did not expose an exact model name or version, so the generator is recorded
-as **unspecified**. These files are approval-gate candidates only. They are not
-production sprites and must not be copied to `public` before character approval,
-expression production, deterministic matting, normalization, and final QA.
+as **unspecified**. These files are the approved first-gate identity and outfit
+anchors. They are not production sprites and were not copied directly to
+`public`; their production derivatives passed deterministic matting,
+normalization, and final batch QA before promotion.
 
 ## Status
 
 | Proof | Selected file | Native size | Review status |
 | --- | --- | --- | --- |
-| Primary 6 Aleem, uniform | `aleem-p6-anchor.png` | 1086x1448 RGB | Ready for identity/outfit approval; magenta key still requires tolerant matting |
-| Alya, uniform | `alya-p6-anchor.png` | 1024x1536 RGB | Ready for identity/outfit approval; magenta key still requires tolerant matting |
-| Young Aleem, home clothes | `aleem-young-home-anchor.png` | 1086x1448 RGB | Ready for identity/outfit approval; magenta key still requires tolerant matting |
-| Young Alya, home clothes | `alya-young-home-anchor.png` | 1024x1536 RGB | Ready for identity/outfit approval; magenta key still requires tolerant matting |
+| Primary 6 Aleem, uniform | `aleem-p6-anchor.png` | 1086x1448 RGB | Approved identity/outfit anchor; tolerant matting completed for production derivatives |
+| Alya, uniform | `alya-p6-anchor.png` | 1024x1536 RGB | Approved identity/outfit anchor; tolerant matting completed for production derivatives |
+| Young Aleem, home clothes | `aleem-young-home-anchor.png` | 1086x1448 RGB | Approved identity/outfit anchor; tolerant matting completed for production derivatives |
+| Young Alya, home clothes | `alya-young-home-anchor.png` | 1024x1536 RGB | Approved identity/outfit anchor; tolerant matting completed for production derivatives |
 
 The first generation of every proof explicitly requested genuine alpha. The
 built-in tool instead returned an RGB image containing a baked white/grey
@@ -21,7 +22,7 @@ checker pattern. Those backgrounds were rejected. A background-only built-in
 edit replaced each checker pattern with the established vivid-magenta technical
 fallback. The selected magenta fields are visually flat and contain no scene,
 floor, or shadow, but their pixels have a narrow generated colour range rather
-than one exact RGB value. Production therefore requires the existing
+than one exact RGB value. Production therefore used the existing
 border-connected tolerant matting and magenta-despill workflow, followed by
 edge review against light, dark, and teal backgrounds.
 

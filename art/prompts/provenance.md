@@ -49,6 +49,29 @@ the fictionalised characters are complete portraits of real people.
   was revised to restore Aleem's approved green/cream casual outfit and Mei
   Lin's yellow casual outfit.
 
+### School Years refresh proof and production batch
+
+- Primary-school and secondary-school identity, outfit, and environment proofs
+  were generated and approved before the full expression and scene batch.
+- The selected inputs, exact prompt relationships, revisions, and production
+  decisions are recorded in the
+  [School Years production record](../candidates/school-years-refresh/README.md)
+  and its linked prompt records.
+- The production set contains 47 expression sprites across eight families,
+  20 backgrounds, and eight cinematic CGs. The unchanged `bg-dawn-window`
+  remains outside this 75-asset refresh.
+- The deterministic pipeline produced normalized transparent sprite masters,
+  normalized scene masters, and deploy-sized WebPs. The physical validator
+  checks exact inventory, dimensions, alpha, corners, baselines, centering,
+  relative stature, matte residue, detached fragments, and file-size budgets.
+- The physical validator passed, the documented QA package was prepared, and
+  the project owner approved promotion of the complete batch on 25 August
+  2026. The 63 new, replacement, or normalized masters and all 75 WebPs were
+  then promoted atomically to `art/sources` and `public/assets/art`; the 12
+  retained background originals remained the canonical inputs used to build
+  their refreshed deploy copies. Broader manual release-review items remain
+  tracked in `RELEASE_CHECKLIST.md`.
+
 ## Style bible
 
 - Soft, semi-realistic cel shading with crisp silhouettes, restrained line
@@ -74,39 +97,52 @@ the fictionalised characters are complete portraits of real people.
 
 Twelve-year-old Boyanese Malay boy in 2009; short and round, with short dark
 hair, glasses, a cute youthful face, and a generic light-blue primary-school
-uniform. Expressions deployed: neutral, shy smile, surprised, hurt, and
-reflective.
+uniform. Expressions deployed: neutral, smile, cheerful, surprised, nervous,
+and reflective.
 
 ### alya
 
 Malay Primary Six girl with long braided dark hair, slightly larger expressive
 eyes, and the same generic light-blue school palette. Her expressions remain
-playful or remorseful rather than villainous: neutral, smile, playful, startled,
-and apologetic.
+playful or hopeful rather than villainous: neutral, smile, playful, shy, and
+hopeful.
+
+### aleem-young-home
+
+The Primary Six Aleem identity in modest home clothes during the 2009-2010
+feature-phone sequence. Expressions deployed: neutral, smile, waiting,
+startled, and hurt.
+
+### alya-young-home
+
+The Primary Six Alya identity in modest home clothes during the mistaken-SMS
+sequence. Expressions deployed: startled, apologetic, and sad.
 
 ### aleem-sec
 
 Aleem in 2011–2013 after a growth spurt: tall and skinny, short dark hair,
 glasses, recognisably related to the younger design, and wearing an unnamed
 boys' school's plain white uniform. Expressions deployed: neutral, nervous,
-smile, confused, guilty, tired, and devastated.
+smile, embarrassed, confused, defensive, guilty, tired, and devastated.
 
 ### aleem-home
 
 The same secondary-school Aleem in modest home clothes at his computer.
-Expressions/poses deployed: focused, proud, distracted, and numb.
+Expressions/poses deployed: focused, proud, distracted, overwhelmed,
+regretful, and numb.
 
 ### hana
 
 Tall Malay secondary-school girl with glasses and long straight dark hair. She
 wears her own generic white-and-navy school uniform at the external class.
-Expressions deployed: neutral, curious, shy, smile, disappointed, and distant.
+Expressions deployed: neutral, curious, shy, smile, supportive, concerned,
+disappointed, distant, and apologetic.
 
 ### faris
 
 Short, round secondary-school boy with short fluffy dark hair and glasses,
 wearing the same plain white boys' school uniform as Aleem. Expressions
-deployed: neutral, encouraging, and confident.
+deployed: neutral, teasing, encouraging, and confident.
 
 ### aleem-jc and aleem-casual
 
@@ -152,6 +188,12 @@ a separate hands-visible source.
 6. The 25 August 2026 JC production batch uses the approved revised anchors as
    direct identity/outfit references. Its complete relationship graph and cell
    mappings are recorded in `art/prompts/jc-production.md`.
+7. The 25 August 2026 School Years refresh uses approved identity/outfit
+   anchors as direct edit references for expression variants. It keeps 12
+   original background masters as canonical inputs, adds eight new or
+   replacement background masters, and adds eight CG masters. Exact source
+   selections and prompt relationships are recorded under
+   `art/candidates/school-years-refresh`.
 
 ## Character prompt family
 
@@ -161,9 +203,9 @@ poses; consistent face, hair, glasses, body shape, and clothing across named
 expressions; crisp silhouette; soft studio light; flat chroma-key background;
 no text, logo, badge, watermark, or sexualised treatment.
 
-Reserve variants exist in the deployed source set but are intentionally not
-addressed by the current story graph: `aleem-p6/cheerful.webp`,
-`aleem-sec/reflective.webp`, and `alya/sad.webp`.
+The approved deploy tree is synchronized exactly to the active manifest.
+Legacy reserve variants removed by the refresh remain recoverable from Git
+history but are not shipped or precached.
 
 ## Background and CG prompt summaries
 
@@ -181,6 +223,11 @@ of desks, nostalgic late-morning gold.
 Sunlit generic primary-school corridor and courtyard, warm gold, quiet space for
 two students after class.
 
+### bg-primary-canteen
+
+Warm 2009 Singapore primary-school canteen with generic stalls and furniture,
+nostalgic daylight, no readable signs, branding, or school identifiers.
+
 ### bg-graduation-gate
 
 Unnamed primary-school entrance at graduation, celebratory but bittersweet,
@@ -196,20 +243,51 @@ through composition, gentle overcast-to-gold transition.
 Modest period-appropriate bedroom in 2009, simple mobile phone glow, unfinished
 schoolwork, cool blue evening light, no readable screen.
 
+### bg-bedroom-2009-warm
+
+The same modest 2009 bedroom in warm evening light before the messages become
+less frequent, preserving layout and period cues without readable text.
+
+### bg-alya-bedroom-2010
+
+Fictionalized modest bedroom corner in 2010 where Alya reads and answers a
+feature-phone message; warm domestic detail, no personal identifiers or
+readable screen.
+
 ### bg-boys-classroom
 
 Plain unnamed boys' secondary-school classroom, white-uniform palette, orderly
 desks and subdued daylight.
+
+### bg-boys-school-corridor
+
+Empty open-air corridor at an unnamed boys' secondary school, generic
+architecture and restrained daylight, with no crest, badge, or signage.
+
+### bg-boys-classroom-overcast
+
+The boys' secondary-school classroom under subdued overcast daylight, keeping
+the original layout while shifting the emotional colour script cooler.
 
 ### bg-language-classroom
 
 Bright classroom at a mixed school hosting an external third-language class,
 teal accents, students' home-school identities implied without real badges.
 
+### bg-language-classroom-late
+
+The external language classroom late in the day, emptied into cool teal
+shadows for a difficult conversation.
+
 ### bg-language-courtyard
 
 Leafy generic school courtyard after language class, warm afternoon sun and
 space for two or three half-body sprites.
+
+### bg-language-corridor-rain
+
+Generic external-school corridor during rain, with cool reflected light and no
+identifying signs, badges, or readable text.
 
 ### bg-bedroom-pc-day
 
@@ -228,8 +306,8 @@ no readable paper or school identifiers.
 
 ### bg-results-hall
 
-Generic school hall on results day, desaturated blue-grey palette and negative
-space around the central subject.
+Generic fluorescent results-collection hall, desaturated blue-grey palette,
+unreadable papers, and negative space around the central subject.
 
 ### bg-dark-bedroom
 
@@ -246,11 +324,36 @@ light, reflective and open-ended.
 Young Aleem reacting to an unexpected SMS in cold phone light; phone screen
 unreadable so the accessible HTML SMS overlay remains authoritative.
 
+### cg-first-confession
+
+Primary Six Aleem and Alya speaking nervously in a school corridor, preserving
+their approved identities and a respectful gap between them.
+
+### cg-graduation-promise
+
+Primary Six Aleem and Alya sharing a hopeful, bittersweet moment near their
+unnamed school gate after graduation, with no readable school identifiers.
+
 ### cg-server-night
 
 Teenage Aleem absorbed in late-night server administration, electric-blue
 monitor light, original abstract block-world cues only, no game logo or copied
 interface.
+
+### cg-faris-wingman
+
+Faris encouraging Hana on Aleem's behalf in a school courtyard while Aleem
+waits at a respectful distance; approved identities and uniforms remain clear.
+
+### cg-hana-breakup
+
+Aleem and Hana having a quiet, balanced conversation in the late external-
+language classroom, without villain framing or melodramatic physical contact.
+
+### cg-o-level-exam
+
+Teenage Aleem working under pressure in an unnamed O-Level examination hall;
+papers, clock, and signs remain unreadable and unbranded.
 
 ### cg-results
 
@@ -278,16 +381,19 @@ entirely offscreen and unidentifiable.
 | --- | --- | --- | --- |
 | Background masters | `art/sources/bg-*-master.png` | `public/assets/art/backgrounds/*.webp` | 1600×900 |
 | CG masters | `art/sources/cg-*-master.png` | `public/assets/art/cg/*.webp` | 1600×900 |
-| Character sheets/variants | `art/sources/characters/*-expression-master.png` | `public/assets/art/characters/<anchor>/*.webp` | Manifest-defined; new JC sprites target 768×1152 |
-| Normalized JC sprite masters | `art/sources/characters/normalized/<family>/*-master.png` | `public/assets/art/characters/<family>/*.webp` | 1024×1536 source; 768×1152 deployed |
+| Superseded School Years expression sheets | `art/sources/characters/{aleem-p6,alya,aleem-sec,aleem-home,hana,faris}-expression-master.png` | Historical anchors retained for provenance; superseded as deploy inputs by the normalized School Years families | Generator-native |
+| Later-chapter expression sheets | `art/sources/characters/{aleem-jc,aleem-zoo,mei-lin-jc,mei-lin-zoo,syafiqa}-expression-master.png` | Active source sheets for the JC and zoo production sprites | Generator-native |
+| Approved School Years sprite inputs | `art/candidates/school-years-refresh/characters/**/*.png` | Processed into normalized masters | Generator-native |
+| Normalized production sprite masters | `art/sources/characters/normalized/<family>/*-master.png` | `public/assets/art/characters/<family>/*.webp` | 1024×1536 source; 768×1152 deployed |
 
-The original 2009–2013 background and CG masters are 1672×941 PNG files. New JC
-scene/CG generations are normalized to exact 2048×1152 PNG masters. The
-deterministic `scripts/process-art.py background` command remains available for
-the original scenes; the `jc-scenes` command normalizes the new masters and
-exports 1600×900 WebP. Character sheets are split and encoded as lossless WebP
-after chroma-key removal. Deployed dimensions are recorded exactly in
-`src/story/artManifest.ts`.
+The retained 2009–2013 background masters remain canonical 1672×941 PNG inputs.
+New or replacement School Years scenes and all JC scene/CG generations use
+exact 2048×1152 PNG masters. The deterministic `school-years` pipeline
+normalizes the approved 47-sprite, 20-background, and eight-CG batch beneath
+the candidate `processed` tree; after approval, new/replacement masters and all
+75 deploy WebPs are synchronized to the canonical and public trees. The
+`jc-scenes` command normalizes JC masters and exports 1600×900 WebP. Deployed
+dimensions are recorded exactly in `src/story/artManifest.ts`.
 
 The JC sources use an uneven opaque magenta key because true-alpha requests to
 the built-in generator were unusable. Their deterministic path requires
@@ -311,4 +417,7 @@ transparency workflow.
   checks the 27 normalized and deployed sprites, 12 scene/CG masters, deployed
   dimensions, alpha/corners, stature calibration, baselines, centering, and the
   PWA precache size ceiling.
+- Run `npm run art:school-years:check` after any School Years reprocessing. It
+  deterministically rebuilds the candidate batch, validates exact inventories
+  and physical constraints, and regenerates the final-approval QA sheets.
 - A factual and tone review remains required before publishing changed art.

@@ -4,6 +4,7 @@ import { artAssets } from "../art/manifest";
 import { validateStory } from "../engine/validation";
 import type { StoryNode } from "../engine/types";
 import { story } from ".";
+import { stages } from "./stages";
 
 const nextIds = (node: StoryNode): readonly string[] => {
   if (node.type === "line") {
@@ -140,6 +141,26 @@ describe("production story", () => {
 
   it("passes the complete graph, stage, speaker, and asset audit", () => {
     expect(validateStory(story, { assets: artAssets })).toEqual([]);
+  });
+
+  it("keeps reusable stages on manifest art and known speaker identities", () => {
+    const knownAssetIds = new Set(artAssets.map((asset) => asset.id));
+    const knownCharacterIds = new Set<string>(
+      story.speakers.map((speaker) => speaker.id),
+    );
+
+    for (const [stageId, stage] of Object.entries(stages)) {
+      expect(knownAssetIds.has(stage.backgroundId), stageId).toBe(true);
+      for (const sprite of stage.sprites) {
+        expect(knownAssetIds.has(sprite.assetId), `${stageId}:${sprite.id}`).toBe(
+          true,
+        );
+        expect(
+          knownCharacterIds.has(sprite.characterId),
+          `${stageId}:${sprite.id}:characterId`,
+        ).toBe(true);
+      }
+    }
   });
 
   it("keeps every stage complete and limits identical Chapter 1-2 shots to three nodes", () => {

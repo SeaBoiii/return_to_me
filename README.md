@@ -80,6 +80,14 @@ Generated masters, prompts, anchor relationships, processing notes, and provenan
 
 The approved JC expansion proof batch is in [art/proofs/jc-expansion](art/proofs/jc-expansion/README.md). The complete 27-sprite, nine-background, and three-CG production brief and QA record are in [art/prompts/jc-production.md](art/prompts/jc-production.md). The processed batch passed physical validation, manifest coverage, and final manual visual/tone QA on 25 August 2026 and is release-ready.
 
+The complete School Years refresh (47 sprites, 20 backgrounds, and eight CGs)
+passed physical validation and received owner approval for promotion on
+25 August 2026. Its
+[production and approval record](art/candidates/school-years-refresh/README.md)
+and [QA sheets](art/candidates/school-years-refresh/qa/README.md) remain with
+the reproducible candidate inputs; approved masters and deploy WebPs are
+promoted to `art/sources` and `public/assets/art` respectively.
+
 After processing JC art, run `python -B scripts/validate-jc-art.py` to verify
 source/deployed dimensions, sprite alpha and transparent corners, relative
 stature calibration, alignment, and precache-size limits. Manual visual and

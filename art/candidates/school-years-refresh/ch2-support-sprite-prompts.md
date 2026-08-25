@@ -4,8 +4,12 @@ Generated on 25 August 2026 with OpenAI's default built-in image generator
 after the project owner approved the first School Years refresh proof batch.
 The built-in tool did not expose an exact model name or version, so the
 generator is recorded as **unspecified**. These files are second-gate
-candidates only. They are not transparent production masters, are not in
-`public`, and are not referenced by story code.
+inputs whose processed transparent masters and deploy WebPs were approved and
+promoted on 25 August 2026. The raw keyed PNGs remain here for reproducibility
+and are not served directly.
+
+Per-output generator filenames were not retained in this record. The selected
+committed PNG blobs and their Git history are the authoritative output record.
 
 ## Approved anchors and output inventory
 
@@ -29,9 +33,9 @@ generator-owned originals.
 ## QA review
 
 - All 13 files are 1024x1536 opaque RGB PNGs with flat-to-near-flat vivid
-  magenta fields and magenta at all four corners. They deliberately require
-  tolerant, border-connected chroma matting and spill cleanup before becoming
-  transparent sprite masters.
+  magenta fields and magenta at all four corners. Production used tolerant,
+  border-connected chroma matting and spill cleanup to create the transparent
+  sprite masters.
 - No candidate contains a fake checkerboard, environment, prop, extra person,
   readable text, crest, badge, school name, logo, trademark, or watermark.
 - Hana retains the approved face, glasses, side-parted very long straight hair,
@@ -41,12 +45,12 @@ generator-owned originals.
   it remains age-appropriate and reads clearly at mobile scale.
 - Faris retains the revised round face and torso, compact limbs, fluffy hair,
   glasses, and generic boys'-school uniform. The generated frames remain on a
-  common source canvas; the production processor must still calibrate Faris to
-  the planned approximately 850-pixel visible height so his short stature is
+  common source canvas; the production processor calibrated Faris to the
+  planned approximately 850-pixel visible height so his short stature remains
   unambiguous beside Aleem and Hana.
 - Complete hair silhouettes, arms, and hands are inside every frame. The
   contact-sheet and full-resolution review found no blocking anatomy defects.
-  Hand silhouettes still require the normal close edge inspection after
+  The final QA package includes close edge crops of hand silhouettes after
   chroma matting, especially Hana `concerned` and Faris `confident`.
 
 ## Hana prompts

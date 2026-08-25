@@ -15,8 +15,8 @@ This checklist records the human approvals that automation cannot infer. Keep ev
 
 ## Character and scene art
 
-- [ ] Primary 6 Aleem and Alya identity/style proof approved.
-- [ ] Secondary-uniform Aleem, home-clothes Aleem, Hana, and Faris anchors approved.
+- [x] Primary 6 Aleem and Alya identity/style proof approved.
+- [x] Secondary-uniform Aleem, home-clothes Aleem, Hana, and Faris anchors approved.
 - [x] JC Aleem, Syafiqa, Mei Lin, and the bus-interior proof batch approved before generating expression variants.
 - [ ] Final JC character canvases preserve Aleem, Syafiqa, and Mei Lin's intended relative heights in-game.
 - [ ] JC chroma-key removal uses tolerant matting and spill cleanup, with light/dark composite QA; green clothing is handled with a non-green mask or true alpha.

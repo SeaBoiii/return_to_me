@@ -1,7 +1,9 @@
 # Chapters 1–2 final-approval QA
 
-These sheets review the complete candidate-only batch. Nothing in this folder
-is referenced by the deployed application.
+These sheets form the documented QA package for the complete batch whose
+promotion the project owner approved on 25 August 2026. The deployed
+application references the promoted copies under `public/assets/art`, not
+files in this QA folder.
 
 - `01-sprites-overview.jpg`: all 47 aligned sprites.
 - `02-backgrounds-overview.jpg`: all 20 retained/new backgrounds.
@@ -25,5 +27,7 @@ npm run art:school-years:qa
 Physical checks (inventory, dimensions, alpha, corners, baselines, centering,
 relative stature, matte residue, detached fragments, and file-size budgets)
 run separately with `npm run art:school-years:validate`. Identity, anatomy,
-tone, age treatment, forbidden text, and scene meaning still require the final
-human approval gate before promotion to `art/sources` or `public`.
+tone, age treatment, forbidden text, and scene meaning remain part of the
+manual release review. Any regenerated asset must repeat physical validation
+and receive a new promotion approval before replacing a canonical or deployed
+copy.

@@ -139,8 +139,17 @@ export const stages = {
     },
   ),
   alyaApology: snapshot(
-    "bg-bedroom-2009",
-    [sprite("alya", "alya-startled", "alya", "right", "startled", "left")],
+    "bg-alya-bedroom-2010",
+    [
+      sprite(
+        "alya",
+        "alya-young-home-startled",
+        "alya",
+        "right",
+        "startled",
+        "left",
+      ),
+    ],
     "sudden realization",
     "cut",
     {
@@ -151,14 +160,31 @@ export const stages = {
     },
   ),
   alyaApologetic: snapshot(
-    "bg-bedroom-2009",
-    [sprite("alya", "alya-apologetic", "alya", "right", "apologetic", "left")],
+    "bg-alya-bedroom-2010",
+    [
+      sprite(
+        "alya",
+        "alya-young-home-apologetic",
+        "alya",
+        "right",
+        "apologetic",
+        "left",
+      ),
+    ],
     "remorse without easy answers",
     "none",
   ),
   primaryHurt: snapshot(
     "bg-bedroom-2009",
-    [sprite("aleem", "aleem-p6-hurt", "aleem-p6", "center", "hurt")],
+    [
+      sprite(
+        "aleem",
+        "aleem-young-home-hurt",
+        "aleem-p6",
+        "center",
+        "hurt",
+      ),
+    ],
     "quiet first heartbreak",
     "fade",
   ),
@@ -231,13 +257,13 @@ export const stages = {
   ),
   bedroomPcDay: snapshot(
     "bg-bedroom-pc-day",
-    [sprite("aleem", "aleem-home-focused", "aleem-home", "center", "focused")],
+    [sprite("aleem", "aleem-home-focused", "aleem-sec", "center", "focused")],
     "creative focus and possibility",
     "fade",
   ),
   serverProud: snapshot(
     "bg-bedroom-pc-day",
-    [sprite("aleem", "aleem-home-proud", "aleem-home", "right", "proud", "left", 2)],
+    [sprite("aleem", "aleem-home-proud", "aleem-sec", "right", "proud", "left", 2)],
     "earned pride, electric momentum",
     "none",
     {
@@ -249,7 +275,7 @@ export const stages = {
   ),
   bedroomPcNight: snapshot(
     "bg-bedroom-pc-night",
-    [sprite("aleem", "aleem-home-focused", "aleem-home", "center", "focused")],
+    [sprite("aleem", "aleem-home-focused", "aleem-sec", "center", "focused")],
     "late-night electric blue",
     "fade",
   ),
@@ -303,7 +329,7 @@ export const stages = {
   ),
   aloneGuilty: snapshot(
     "bg-bedroom-pc-night",
-    [sprite("aleem", "aleem-home-numb", "aleem-home", "center", "numb")],
+    [sprite("aleem", "aleem-home-numb", "aleem-sec", "center", "numb")],
     "guilt in monitor light",
     "fade",
   ),
@@ -339,7 +365,7 @@ export const stages = {
   ),
   darkBedroom: snapshot(
     "bg-dark-bedroom",
-    [sprite("aleem", "aleem-home-numb", "aleem-home", "center", "numb")],
+    [sprite("aleem", "aleem-home-numb", "aleem-sec", "center", "numb")],
     "withdrawn, heavy stillness",
     "fade",
   ),
@@ -812,19 +838,19 @@ export const stages = {
   ),
   ch2PcFocused: snapshot(
     "bg-bedroom-pc-day",
-    [sprite("aleem", "aleem-home-focused", "aleem-home", "center", "focused")],
+    [sprite("aleem", "aleem-home-focused", "aleem-sec", "center", "focused")],
     "creative focus and technical possibility",
     "fade",
   ),
   ch2PcProud: snapshot(
     "bg-bedroom-pc-day",
-    [sprite("aleem", "aleem-home-proud", "aleem-home", "right", "proud", "left", 2)],
+    [sprite("aleem", "aleem-home-proud", "aleem-sec", "right", "proud", "left", 2)],
     "earned pride in something built from nothing",
     "none",
   ),
   ch2ServerProud: snapshot(
     "bg-bedroom-pc-day",
-    [sprite("aleem", "aleem-home-proud", "aleem-home", "right", "proud", "left", 2)],
+    [sprite("aleem", "aleem-home-proud", "aleem-sec", "right", "proud", "left", 2)],
     "earned pride and electric momentum",
     "none",
     {
@@ -836,7 +862,7 @@ export const stages = {
   ),
   ch2ServerCall: snapshot(
     "bg-bedroom-pc-day",
-    [sprite("aleem", "aleem-home-proud", "aleem-home", "right", "proud", "left", 2)],
+    [sprite("aleem", "aleem-home-proud", "aleem-sec", "right", "proud", "left", 2)],
     "pride shared during a phone call",
     "none",
     {
@@ -852,7 +878,7 @@ export const stages = {
       sprite(
         "aleem",
         "aleem-home-distracted",
-        "aleem-home",
+        "aleem-sec",
         "center",
         "distracted",
       ),
@@ -866,7 +892,7 @@ export const stages = {
       sprite(
         "aleem",
         "aleem-home-overwhelmed",
-        "aleem-home",
+        "aleem-sec",
         "center",
         "overwhelmed",
       ),
@@ -976,7 +1002,7 @@ export const stages = {
       sprite(
         "aleem",
         "aleem-home-regretful",
-        "aleem-home",
+        "aleem-sec",
         "center",
         "regretful",
       ),
@@ -986,7 +1012,7 @@ export const stages = {
   ),
   ch2HomeNumb: snapshot(
     "bg-bedroom-pc-night",
-    [sprite("aleem", "aleem-home-numb", "aleem-home", "center", "numb")],
+    [sprite("aleem", "aleem-home-numb", "aleem-sec", "center", "numb")],
     "monitor light no longer feeling triumphant",
     "dissolve",
   ),
@@ -1128,7 +1154,7 @@ export const stages = {
       sprite(
         "aleem",
         "aleem-home-regretful",
-        "aleem-home",
+        "aleem-sec",
         "center",
         "regretful",
       ),
@@ -1138,7 +1164,7 @@ export const stages = {
   ),
   ch2DarkNumb: snapshot(
     "bg-dark-bedroom",
-    [sprite("aleem", "aleem-home-numb", "aleem-home", "center", "numb")],
+    [sprite("aleem", "aleem-home-numb", "aleem-sec", "center", "numb")],
     "withdrawn, heavy stillness",
     "none",
   ),
@@ -1148,7 +1174,7 @@ export const stages = {
       sprite(
         "aleem",
         "aleem-home-overwhelmed",
-        "aleem-home",
+        "aleem-sec",
         "center",
         "overwhelmed",
       ),

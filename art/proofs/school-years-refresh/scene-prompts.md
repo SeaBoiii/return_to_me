@@ -8,10 +8,10 @@ story or art manifest.
 
 ## Shared status
 
-- Approval stage: first identity/environment checkpoint; **awaiting owner
-  approval**.
-- Native proof output: 1672 x 941 RGB PNG. If approved, the selected scenes
-  must be normalized to the production 2048 x 1152 master contract before
+- Approval stage: first identity/environment checkpoint; **approved on
+  25 August 2026**.
+- Native proof output: 1672 x 941 RGB PNG. After approval, the selected scenes
+  were normalized to the production 2048 x 1152 master contract before
   1600 x 900 WebP export.
 - Shared direction: empty 16:9 visual-novel environments; soft semi-realistic
   cel shading with restrained painterly texture; generic period-conscious
@@ -88,4 +88,3 @@ Lighting/mood: Flat cool fluorescent light mixed with weak overcast daylight fro
 Color palette: Desaturated blue-grey, cool off-white, charcoal, muted navy, pale concrete, with only tiny restrained warm wood accents.
 Constraints: Empty environment only-no students, staff, families, silhouettes, or reflections of people. Generic period-conscious 2013 Singapore school cues. No exact grades; no readable generated text; no banners, labels, signs, school names, mottos, crests, badges, flags, logos, trademarks, advertisements, watermarks, QR codes, screens, branded stationery, or narrative text. Papers and envelopes must be blank, turned away, or too distant to read. Do not depict the school as prestigious or inferior. Avoid corridor-dominant composition, ordinary classroom framing, gym branding, celebratory decorations, dramatic spotlights, horror mood, photorealism, fisheye distortion, cluttered foreground, or over-saturated cyan.
 ```
-
