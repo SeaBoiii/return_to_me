@@ -4,6 +4,9 @@ import { dismissNotice, openApp } from './helpers';
 
 interface BuiltManifest {
   readonly id?: string;
+  readonly name?: string;
+  readonly short_name?: string;
+  readonly description?: string;
   readonly scope?: string;
   readonly start_url?: string;
   readonly icons?: ReadonlyArray<{
@@ -18,11 +21,20 @@ test('publishes nested-path-safe manifest, icons, and service worker', async ({
 }) => {
   await openApp(page);
 
+  await expect(page).toHaveTitle('Return to Me: Before Nurul');
+  await expect(page.locator('meta[name="description"]')).toHaveAttribute(
+    'content',
+    /Singapore from 2009 to 2018/,
+  );
+
   const manifestUrl = new URL('manifest.webmanifest', page.url()).href;
   const manifestResponse = await page.request.get(manifestUrl);
   expect(manifestResponse.ok()).toBe(true);
   const manifest = (await manifestResponse.json()) as BuiltManifest;
   expect(manifest.id).toBe('/return-to-me-test/');
+  expect(manifest.name).toBe('Return to Me: Before Nurul');
+  expect(manifest.short_name).toBe('Return to Me');
+  expect(manifest.description).toMatch(/2009 to 2018, before Nurul/);
   expect(manifest.scope).toBe('/return-to-me-test/');
   expect(manifest.start_url).toBe('/return-to-me-test/');
   expect(manifest.icons).toEqual(

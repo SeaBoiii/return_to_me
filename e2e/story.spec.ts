@@ -18,6 +18,8 @@ test('shows the factual notice and starts a new story', async ({ page }) => {
   await expect(notice).toContainText('Inspired by real events');
   await expect(notice).toContainText('Family pressure');
   await expect(notice).toContainText(/relationship breakdown/i);
+  await expect(notice).toContainText(/prejudicial thoughts/i);
+  await expect(notice).toContainText(/Aleem’s thoughts, not as facts/i);
   await expect(notice).toContainText('Exact examination grades are not shown');
 
   await dismissNotice(page);
@@ -131,7 +133,7 @@ test('records a reflective choice and reconverges on the true-life milestone', a
     });
 });
 
-test('migrates a completed first-edition save into the JC expansion', async ({
+test('chains a completed first-edition save into the JC expansion', async ({
   page,
 }) => {
   await openApp(page);
@@ -195,7 +197,7 @@ test('migrates a completed first-edition save into the JC expansion', async ({
       }, SAVE_KEY),
     )
     .toMatchObject({
-      storyRevision: 'school-years-2.0.0',
+      storyRevision: 'before-nurul-3.0.0',
       currentNodeId: 'ch3-001',
       status: 'playing',
       unlockedChapters: [
@@ -247,11 +249,84 @@ test('unlocks the first chapter only after reaching it', async ({ page }) => {
     chapterDialog.getByRole('button', { name: /A Different Classroom/ }),
   ).toBeDisabled();
   await expect(
-    chapterDialog.getByRole('button', { name: /Fault Lines/ }),
+    chapterDialog.getByRole('button', { name: /The Story I Wasn’t In/ }),
   ).toBeDisabled();
 });
 
-test('plays a complete route through seven chapters and ten reconverging choices', async ({
+test('unlocks Chapter 6 only when the School Years route reaches it', async ({
+  page,
+}) => {
+  await openApp(page);
+  await page.evaluate(
+    ({ saveKey, settingsKey }) => {
+      localStorage.setItem(
+        settingsKey,
+        JSON.stringify({
+          version: 1,
+          textSpeedMs: 0,
+          autoMode: false,
+          skipSeen: false,
+          volume: 0.9,
+          muted: true,
+          reducedMotion: true,
+        }),
+      );
+      localStorage.setItem(
+        saveKey,
+        JSON.stringify({
+          version: 1,
+          storyId: 'return-to-me-school-years',
+          storyRevision: 'before-nurul-3.0.0',
+          currentNodeId: 'ch5-038',
+          status: 'playing',
+          history: [],
+          rememberedChoices: {},
+          unlockedChapters: [
+            'prologue',
+            'chapter-1',
+            'chapter-2',
+            'chapter-3',
+            'chapter-4',
+            'chapter-5',
+          ],
+          seenNodeIds: [],
+          timestamp: Date.now(),
+        }),
+      );
+    },
+    { saveKey: SAVE_KEY, settingsKey: SETTINGS_KEY },
+  );
+  await page.reload();
+  await dismissNotice(page);
+
+  await page.getByRole('button', { name: 'Continue', exact: true }).click();
+  await page.getByRole('button', { name: 'Advance dialogue' }).click();
+  await expect(
+    page.getByText('The Story I Wasn’t In', { exact: true }),
+  ).toBeVisible();
+  await expect
+    .poll(() =>
+      page.evaluate((key) => {
+        const raw = localStorage.getItem(key);
+        return raw === null
+          ? []
+          : ((JSON.parse(raw) as { unlockedChapters?: string[] })
+              .unlockedChapters ?? []);
+      }, SAVE_KEY),
+    )
+    .toContain('chapter-6');
+
+  await page.getByRole('button', { name: 'Open chapter menu' }).click();
+  const chapters = page.getByRole('dialog', { name: 'Chapter select' });
+  await expect(
+    chapters.getByRole('button', { name: /The Story I Wasn’t In/ }),
+  ).toBeEnabled();
+  await expect(
+    chapters.getByRole('button', { name: /The Doorway/ }),
+  ).toBeDisabled();
+});
+
+test('plays a complete route through eight chapters and thirteen reconverging choices', async ({
   page,
 }, testInfo) => {
   test.skip(testInfo.project.name !== 'chromium', 'desktop route audit only');
@@ -276,8 +351,12 @@ test('plays a complete route through seven chapters and ten reconverging choices
   await startNewGame(page);
 
   let choiceCount = 0;
-  for (let step = 0; step < 500; step += 1) {
-    if (await page.getByRole('heading', { name: 'Continue?' }).isVisible()) {
+  for (let step = 0; step < 650; step += 1) {
+    if (
+      await page
+        .getByText('End of Before Nurul', { exact: true })
+        .isVisible()
+    ) {
       break;
     }
 
@@ -295,8 +374,14 @@ test('plays a complete route through seven chapters and ten reconverging choices
     await page.getByRole('button', { name: 'Advance dialogue' }).click();
   }
 
-  await expect(page.getByRole('heading', { name: 'Continue?' })).toBeVisible();
-  expect(choiceCount).toBe(10);
+  await expect(
+    page.getByText('End of Before Nurul', { exact: true }),
+  ).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'The Doorway' })).toBeVisible();
+  await expect(
+    page.getByText('University had barely begun.', { exact: true }),
+  ).toBeVisible();
+  expect(choiceCount).toBe(13);
   await expect
     .poll(() =>
       page.evaluate((key) => {
@@ -319,8 +404,8 @@ test('plays a complete route through seven chapters and ten reconverging choices
     .toEqual({
       status: 'ended',
       currentNodeId: 'epilogue-end',
-      choiceCount: 10,
-      unlockedCount: 7,
+      choiceCount: 13,
+      unlockedCount: 8,
     });
 });
 test('keeps subtitles and voice settings usable without licensed clips', async ({
@@ -373,6 +458,69 @@ test('supports the core touch flow without horizontal overflow', async ({
   await expect(
     page.getByRole('dialog', { name: 'Chapter select' }),
   ).toBeVisible();
+
+  const dimensions = await page.evaluate(() => ({
+    viewport: window.innerWidth,
+    document: document.documentElement.scrollWidth,
+  }));
+  expect(dimensions.document).toBeLessThanOrEqual(dimensions.viewport + 1);
+});
+
+test('keeps intrusive thoughts labelled, static, and contained on mobile', async ({
+  page,
+}, testInfo) => {
+  test.skip(testInfo.project.name !== 'mobile', 'mobile project only');
+
+  await openApp(page);
+  await page.evaluate(
+    ({ saveKey, settingsKey }) => {
+      localStorage.setItem(
+        settingsKey,
+        JSON.stringify({
+          version: 1,
+          textSpeedMs: 0,
+          autoMode: false,
+          skipSeen: false,
+          volume: 0.9,
+          muted: true,
+          reducedMotion: true,
+        }),
+      );
+      localStorage.setItem(
+        saveKey,
+        JSON.stringify({
+          version: 1,
+          storyId: 'return-to-me-school-years',
+          storyRevision: 'before-nurul-3.0.0',
+          currentNodeId: 'epilogue-009',
+          status: 'playing',
+          history: [],
+          rememberedChoices: {},
+          unlockedChapters: [
+            'prologue',
+            'chapter-1',
+            'chapter-2',
+            'chapter-3',
+            'chapter-4',
+            'chapter-5',
+            'chapter-6',
+            'epilogue',
+          ],
+          seenNodeIds: [],
+          timestamp: Date.now(),
+        }),
+      );
+    },
+    { saveKey: SAVE_KEY, settingsKey: SETTINGS_KEY },
+  );
+  await page.reload();
+  await dismissNotice(page);
+  await page.getByRole('button', { name: 'Continue', exact: true }).click();
+
+  const overlay = page.locator('[data-overlay-kind="intrusive"]');
+  await expect(overlay).toBeVisible();
+  await expect(overlay).toHaveAttribute('aria-label', /\S+/);
+  await expect(overlay.locator('p').first()).toHaveCSS('animation-name', 'none');
 
   const dimensions = await page.evaluate(() => ({
     viewport: window.innerWidth,

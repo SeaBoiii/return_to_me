@@ -1,6 +1,6 @@
 import type { ChapterDefinition, SpeakerDefinition } from "../engine/types";
 
-export const STORY_REVISION = "school-years-2.0.0";
+export const STORY_REVISION = "before-nurul-3.0.0";
 
 export const speakers = [
   {
@@ -18,6 +18,12 @@ export const speakers = [
   {
     id: "aleem-sec",
     name: "Teenage Aleem",
+    shortName: "Aleem",
+    role: "character",
+  },
+  {
+    id: "aleem-young-adult",
+    name: "Young Adult Aleem",
     shortName: "Aleem",
     role: "character",
   },
@@ -50,6 +56,21 @@ export const speakers = [
   {
     id: "mei-lin",
     name: "Mei Lin",
+    role: "character",
+  },
+  {
+    id: "nadiah",
+    name: "Nadiah",
+    role: "character",
+  },
+  {
+    id: "aisyah",
+    name: "Aisyah",
+    role: "character",
+  },
+  {
+    id: "hakim",
+    name: "Hakim",
     role: "character",
   },
 ] as const satisfies readonly SpeakerDefinition[];
@@ -92,9 +113,15 @@ export const chapters = [
     startNodeId: "ch5-001",
   },
   {
+    id: "chapter-6",
+    title: "The Story I Wasn’t In",
+    period: "2016–2018",
+    startNodeId: "ch6-001",
+  },
+  {
     id: "epilogue",
-    title: "Fault Lines",
-    period: "After 2016",
+    title: "The Doorway",
+    period: "First week of university, 2018",
     startNodeId: "epilogue-001",
   },
 ] as const satisfies readonly ChapterDefinition[];

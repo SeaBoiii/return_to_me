@@ -15,12 +15,16 @@ const sapiSettings = {
   "adult-aleem": { engineVoice: "Microsoft David Desktop", rate: -2 },
   "young-aleem": { engineVoice: "Microsoft David Desktop", rate: 3 },
   "teen-aleem": { engineVoice: "Microsoft David Desktop", rate: 0 },
+  "young-adult-aleem": { engineVoice: "Microsoft David Desktop", rate: -1 },
   alya: { engineVoice: "Microsoft Zira Desktop", rate: 2 },
   hana: { engineVoice: "Microsoft Zira Desktop", rate: -1 },
   faris: { engineVoice: "Microsoft David Desktop", rate: 2 },
   "mutual-friend": { engineVoice: "Microsoft Zira Desktop", rate: 0 },
   syafiqa: { engineVoice: "Microsoft Zira Desktop", rate: 0 },
   "mei-lin": { engineVoice: "Microsoft Zira Desktop", rate: -1 },
+  nadiah: { engineVoice: "Microsoft Zira Desktop", rate: -1 },
+  aisyah: { engineVoice: "Microsoft Zira Desktop", rate: 0 },
+  hakim: { engineVoice: "Microsoft David Desktop", rate: 1 },
 } as const satisfies Record<
   (typeof voiceProfiles)[number]["id"],
   { readonly engineVoice: string; readonly rate: number }

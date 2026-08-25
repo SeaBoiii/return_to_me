@@ -38,12 +38,16 @@ describe("production content manifests", () => {
       "adult-aleem",
       "young-aleem",
       "teen-aleem",
+      "young-adult-aleem",
       "alya",
       "hana",
       "faris",
       "mutual-friend",
       "syafiqa",
       "mei-lin",
+      "nadiah",
+      "aisyah",
+      "hakim",
     ]);
     expect(voiceEntries).toHaveLength(0);
     expect(offlinePackManifests).toHaveLength(0);

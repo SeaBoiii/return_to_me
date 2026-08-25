@@ -5,12 +5,16 @@ This checklist records the human approvals that automation cannot infer. Keep ev
 ## Story and privacy
 
 - [ ] Aleem has completed the factual and tone read-through.
-- [ ] Alya, Hana, Syafiqa, and Mei Lin remain empathetic pseudonymous portrayals rather than villains or stepping stones.
+- [ ] Alya, Hana, Syafiqa, Mei Lin, Nadiah, Aisyah, and Hakim remain empathetic pseudonymous portrayals rather than villains or stepping stones.
 - [ ] Schools, badges, exact grades, and personal identifiers remain absent.
-- [ ] Family pressure, repeated rejection, relationship breakdown, withdrawal, and the examination setbacks remain mild and do not invent diagnoses, self-harm, or severe events.
-- [ ] Aleem's teenage generalisation about Malay girls is explicitly identified as unfair while his wish for direct communication remains legible.
+- [ ] Family pressure, repeated rejection, relationship breakdown, withdrawal, examination setbacks, and Aleem's university physical symptoms do not invent a diagnosis, self-harm, or unremembered severe events.
+- [ ] Younger Aleem's generalisation about Malay girls is explicitly identified as unfair while his wish for direct communication remains legible.
 - [ ] Daniel and Mei Lin's supposed boundary remain an unconfirmed inference rather than a remembered fact.
-- [ ] The upcoming relationship remains unnamed, unseen, and unjudged in advance.
+- [ ] Nadiah's acknowledged first-love history is distinguished from Aisyah's report, Aleem's direct observations, and Aleem's interpretation that he was a backup.
+- [ ] Nadiah's hijab is never treated as a moral barometer, and no motive is assigned to her not wearing it in the private-story image.
+- [ ] The other man's Chinese ethnicity is reported only as part of Aleem's remembered account and is never framed as causal, threatening, or morally meaningful.
+- [ ] The Muslim Society and its university crowd remain neutral and welcoming; the threat scan is explicitly Aleem's subjective and unfair verdict.
+- [ ] Reconstructed dialogue and composite relationship memories are disclosed rather than presented as verbatim records.
 - [ ] Nurul appears by name only and is not framed as a cure or reward.
 
 ## Character and scene art
@@ -18,13 +22,18 @@ This checklist records the human approvals that automation cannot infer. Keep ev
 - [x] Primary 6 Aleem and Alya identity/style proof approved.
 - [x] Secondary-uniform Aleem, home-clothes Aleem, Hana, and Faris anchors approved.
 - [x] JC Aleem, Syafiqa, Mei Lin, and the bus-interior proof batch approved before generating expression variants.
+- [ ] Chapter 6 Aleem, wholly fictional Nadiah, National Service, Hari Raya, and university environment proofs approved before promotion.
+- [ ] Chapter 6 CG proofs approved for balanced warmth, neutral reveal framing, and an unnamed, distant, unidentifiable other man.
 - [ ] Final JC character canvases preserve Aleem, Syafiqa, and Mei Lin's intended relative heights in-game.
 - [ ] JC chroma-key removal uses tolerant matting and spill cleanup, with light/dark composite QA; green clothing is handled with a non-green mask or true alpha.
 - [ ] Every background and CG reviewed for period cues, composition, and story tone.
 - [ ] Expression variants checked for identity, age, outfit, body shape, hair, and glasses consistency.
 - [ ] Transparent edges checked on light and dark stages, especially long, braided, and fluffy hair.
-- [ ] No real badge, readable generated text, watermark, trademark, copied Minecraft asset, screenshot, texture, or interface is present.
-- [ ] HTML SMS, server, O-Level, and A-Level results overlays remain legible with screen readers and at mobile sizes.
+- [ ] No real badge, unit insignia, university identifier, readable generated text, watermark, trademark, copied Minecraft asset, screenshot, texture, social-media interface, logo, or handle is present.
+- [ ] The lecture-theatre art is objectively ordinary and welcoming; subjective red fragments exist only in the runtime `intrusive` overlay.
+- [ ] Nadiah's non-hijab appearance occurs only in the reveal CG with neutral clothing, lighting, and pose and no visual moral judgement.
+- [ ] HTML SMS, server, results, social, and intrusive overlays remain legible with screen readers and at mobile sizes; intrusive motion becomes static under reduced motion.
+- [ ] `npm run art:chapter-six:check` passes and all nine Chapter 6 QA sheets have been reviewed at full size before promotion.
 
 ## Release format
 
@@ -53,4 +62,6 @@ Choose one publication path and complete only its checks.
 - [ ] Install, offline shell, and update prompt checked in a production preview; for a voiced edition, chapter voice download, cancellation, retry, verification, and removal are also checked.
 - [ ] `npm ci`, `npx playwright install chromium`, and `npm run check` pass from a clean checkout.
 - [ ] `npm run validate:deploy` passes for the selected release format.
+- [ ] The approved Chapter 6 manuscript/tone review, character/environment proof approval, full art QA, and explicit promotion gate are recorded.
+- [ ] A GitHub Pages production build has been checked at the repository subpath with all Chapter 6 art and PWA metadata loading correctly.
 - [ ] GitHub Pages source is set to GitHub Actions and the `main` deployment succeeds at its repository subpath.

@@ -80,19 +80,37 @@ const stableDigest = (value: unknown): string => {
   return hash.toString(16).padStart(8, "0");
 };
 
+const lineWordCount = (nodes: readonly StoryNode[]): number =>
+  nodes.reduce((total, node) => {
+    if (node.type !== "line") {
+      return total;
+    }
+    return total + (node.text.match(/[\p{L}\p{N}'’]+/gu)?.length ?? 0);
+  }, 0);
+
+const lineText = (nodeId: string): string => {
+  const node = story.nodes.find((candidate) => candidate.id === nodeId);
+  expect(node?.type, nodeId).toBe("line");
+  return node?.type === "line" ? node.text : "";
+};
+
 describe("production story", () => {
-  it("keeps the expanded release-sized script and exactly ten reflective choices", () => {
-    const lineWords = story.nodes.reduce((total, node) => {
-      if (node.type !== "line") {
-        return total;
-      }
-      return total + (node.text.match(/[\p{L}\p{N}'’]+/gu)?.length ?? 0);
-    }, 0);
+  it("keeps the stable save ID while publishing the Before Nurul revision", () => {
+    expect(story).toMatchObject({
+      id: "return-to-me-school-years",
+      title: "Return to Me",
+      subtitle: "Before Nurul",
+      revision: "before-nurul-3.0.0",
+    });
+  });
+
+  it("keeps the Before Nurul release-sized script and exactly thirteen reflective choices", () => {
+    const lineWords = lineWordCount(story.nodes);
     const choices = story.nodes.filter((node) => node.type === "choice");
 
-    expect(story.nodes).toHaveLength(371);
-    expect(lineWords).toBeGreaterThanOrEqual(8_500);
-    expect(lineWords).toBeLessThanOrEqual(10_000);
+    expect(story.nodes).toHaveLength(459);
+    expect(lineWords).toBeGreaterThanOrEqual(11_000);
+    expect(lineWords).toBeLessThanOrEqual(12_500);
     expect(choices.map((node) => node.id)).toEqual([
       "ch1-choice-sms",
       "ch2-choice-wingman",
@@ -104,12 +122,29 @@ describe("production story", () => {
       "ch3-choice-belief",
       "ch4-choice-search",
       "ch5-choice-zoo",
+      "ch6-choice-discovery",
+      "ch6-choice-confrontation",
+      "epilogue-choice-threat-scan",
     ]);
     expect(choices.every((node) => node.choices.length === 3)).toBe(true);
   });
 
+  it("keeps Chapter 6 and The Doorway inside the approved manuscript budget", () => {
+    const beforeNurulClosingNodes = story.nodes.filter(
+      (node) => node.chapterId === "chapter-6" || node.chapterId === "epilogue",
+    );
+    const lineNodes = beforeNurulClosingNodes.filter(
+      (node) => node.type === "line",
+    );
+
+    expect(lineWordCount(beforeNurulClosingNodes)).toBeGreaterThanOrEqual(2_400);
+    expect(lineWordCount(beforeNurulClosingNodes)).toBeLessThanOrEqual(2_900);
+    expect(lineNodes.length).toBeGreaterThanOrEqual(80);
+    expect(lineNodes.length).toBeLessThanOrEqual(100);
+  });
+
   it("preserves every authored node, line, choice, and graph link during art refreshes", () => {
-    expect(stableDigest(story.nodes.map(narrativeContract))).toBe("2e37e936");
+    expect(stableDigest(story.nodes.map(narrativeContract))).toBe("37174f75");
   });
 
   it("reconverges every choice before the next milestone", () => {
@@ -125,6 +160,9 @@ describe("production story", () => {
       ["ch3-choice-belief", "ch3-belief-join"],
       ["ch4-choice-search", "ch4-search-join"],
       ["ch5-choice-zoo", "ch5-zoo-join"],
+      ["ch6-choice-discovery", "ch6-discovery-join"],
+      ["ch6-choice-confrontation", "ch6-confrontation-join"],
+      ["epilogue-choice-threat-scan", "epilogue-threat-scan-join"],
     ]);
 
     for (const [choiceId, joinId] of expectedJoins) {
@@ -161,6 +199,28 @@ describe("production story", () => {
         ).toBe(true);
       }
     }
+  });
+
+  it("uses social and intrusive overlays only as bounded, labelled context", () => {
+    const overlaidNodes = story.nodes.filter(
+      (node) => node.stage.overlay !== undefined,
+    );
+    for (const node of overlaidNodes) {
+      expect(node.stage.overlay?.label.trim(), node.id).not.toBe("");
+      expect(node.stage.overlay?.lines.length, node.id).toBeGreaterThan(0);
+    }
+
+    const revealOverlay = story.nodes.find(
+      (node) => node.id === "ch6-036",
+    )?.stage.overlay;
+    expect(revealOverlay?.kind).toBe("social");
+    expect(revealOverlay?.lines).toContain("Her reason is unknown.");
+
+    const threatOverlay = story.nodes.find(
+      (node) => node.id === "epilogue-009",
+    )?.stage.overlay;
+    expect(threatOverlay?.kind).toBe("intrusive");
+    expect(threatOverlay?.label).toMatch(/subjective[\s\S]*not facts/i);
   });
 
   it("keeps every stage complete and limits identical Chapter 1-2 shots to three nodes", () => {
@@ -206,24 +266,132 @@ describe("production story", () => {
     expect(violations).toEqual([]);
   });
 
-  it("retains the true-life dates and key Minecraft milestone", () => {
-    expect(story.chapters.map((chapter) => chapter.period)).toEqual([
-      "Years later",
-      "2009–2010",
-      "2011–2013",
-      "2014",
-      "2014–2015",
-      "2016",
-      "After 2016",
+  it("defines all eight chapters and the 2009–2018 timeline", () => {
+    expect(
+      story.chapters.map(({ id, title, period, startNodeId }) => ({
+        id,
+        title,
+        period,
+        startNodeId,
+      })),
+    ).toEqual([
+      {
+        id: "prologue",
+        title: "Before Nurul",
+        period: "Years later",
+        startNodeId: "prologue-001",
+      },
+      {
+        id: "chapter-1",
+        title: "The Wrong Message",
+        period: "2009–2010",
+        startNodeId: "ch1-001",
+      },
+      {
+        id: "chapter-2",
+        title: "A Different Classroom",
+        period: "2011–2013",
+        startNodeId: "ch2-001",
+      },
+      {
+        id: "chapter-3",
+        title: "The Bus We Waited For",
+        period: "2014",
+        startNodeId: "ch3-001",
+      },
+      {
+        id: "chapter-4",
+        title: "Looking for an Answer",
+        period: "2014–2015",
+        startNodeId: "ch4-001",
+      },
+      {
+        id: "chapter-5",
+        title: "The Zoo After Results",
+        period: "2016",
+        startNodeId: "ch5-001",
+      },
+      {
+        id: "chapter-6",
+        title: "The Story I Wasn’t In",
+        period: "2016–2018",
+        startNodeId: "ch6-001",
+      },
+      {
+        id: "epilogue",
+        title: "The Doorway",
+        period: "First week of university, 2018",
+        startNodeId: "epilogue-001",
+      },
     ]);
+  });
+
+  it("retains the dated National Service, POP, ORD, and university milestones", () => {
     const script = story.nodes
       .filter((node) => node.type === "line")
       .map((node) => node.text)
       .join(" ");
     expect(script).toMatch(/\bMinecraft\b/);
-    expect(script).toMatch(/\bO-Level\b/);
-    expect(script).toMatch(/\bA-Level\b/);
+    expect(script).toMatch(/\bO(?:-| )Levels?\b/);
+    expect(script).toMatch(/\bA(?:-| )Levels?\b/);
     expect(script).toMatch(/\bzoo\b/i);
+    expect(script).toMatch(/\bNational Service\b/);
+    expect(script).toMatch(/\bPassing Out Parade\b/);
+    expect(script).toMatch(/\bOperationally Ready Date\b/);
+    expect(script).toMatch(/University began in 2018/);
+    expect(script).toMatch(/\bUniversal Studios Singapore\b/);
+    expect(script).toMatch(/\bInstagram\b/);
     expect(script).toMatch(/\bNurul\b/);
+  });
+
+  it("keeps observed, reported, acknowledged, and inferred claims distinct", () => {
+    expect(lineText("ch6-discovery-join")).toMatch(
+      /three facts remained:[\s\S]*USS[\s\S]*private story[\s\S]*Aisyah said she had history/i,
+    );
+    expect(lineText("ch6-035")).toMatch(
+      /I don't want to pretend I know the whole situation/i,
+    );
+    expect(lineText("ch6-confrontation-join")).toMatch(
+      /Nadiah acknowledged[\s\S]*first love[\s\S]*remained unresolved/i,
+    );
+    expect(lineText("ch6-044")).toMatch(
+      /did not give me the exact sentence[\s\S]*meaning I made/i,
+    );
+    expect(lineText("ch6-038")).toMatch(
+      /did not know why Nadiah was not wearing hijab[\s\S]*my immediate inference/i,
+    );
+  });
+
+  it("frames Aleem's alarm as real without endorsing its prejudicial verdict", () => {
+    expect(lineText("ch6-050")).toMatch(/prejudice, not revelation/i);
+    expect(lineText("epilogue-011")).toMatch(
+      /revealed nothing about the women/i,
+    );
+    expect(lineText("epilogue-015")).toMatch(
+      /none of those women had harmed me/i,
+    );
+    expect(lineText("epilogue-016")).toMatch(
+      /alarm deserved attention[\s\S]*verdict did not deserve obedience/i,
+    );
+  });
+
+  it("ends on young Aleem's exact question and The Doorway card", () => {
+    const spokenLines = story.nodes.filter((node) => node.type === "line");
+    const finalLine = spokenLines.at(-1);
+    const endingNode = story.nodes.at(-1);
+
+    expect(finalLine).toMatchObject({
+      id: "epilogue-017",
+      type: "line",
+      speakerId: "aleem-young-adult",
+      text: "What was that?",
+      next: "epilogue-end",
+    });
+    expect(endingNode).toMatchObject({
+      id: "epilogue-end",
+      type: "end",
+      title: "The Doorway",
+      text: "University had barely begun.",
+    });
   });
 });

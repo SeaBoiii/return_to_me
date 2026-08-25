@@ -1,6 +1,6 @@
-# Return to Me: The School Years
+# Return to Me: Before Nurul
 
-A responsive, installable visual novel following Aleem's school and junior-college years in Singapore from 2009 to 2016, before he meets Nurul. The expanded edition contains a 9,000-word branching script with ten reflective choices that alter immediate dialogue and later recollections while preserving the real-life milestones.
+A responsive, installable visual novel following Aleem's school years, junior-college years, National Service, and first step into university in Singapore from 2009 to 2018, before he meets Nurul. The expanded edition contains roughly 11,500 words and thirteen reflective choices that alter immediate dialogue and later recollections while preserving the remembered milestones.
 
 ## Local development
 
@@ -88,6 +88,17 @@ and [QA sheets](art/candidates/school-years-refresh/qa/README.md) remain with
 the reproducible candidate inputs; approved masters and deploy WebPs are
 promoted to `art/sources` and `public/assets/art` respectively.
 
+Chapter 6, **The Story I Wasn’t In**, uses a separate candidate and QA batch so
+the locked School Years inventory remains reproducible. Its National Service,
+Hari Raya, relationship, and university-threshold visuals follow the same
+proof, approval, deterministic processing, contact-sheet QA, and promotion
+gates without copying social-media interfaces, logos, unit insignia, or
+identifying text. All 26 assets passed physical validation and the nine-sheet
+QA review before promotion on 25 August 2026; the reproducible
+[batch record](art/candidates/chapter-six/README.md) and
+[prompt record](art/candidates/chapter-six/generation-prompts.md) remain in the
+repository.
+
 After processing JC art, run `python -B scripts/validate-jc-art.py` to verify
 source/deployed dimensions, sprite alpha and transparent corners, relative
 stature calibration, alignment, and precache-size limits. Manual visual and
@@ -97,6 +108,6 @@ Before publishing, complete [RELEASE_CHECKLIST.md](RELEASE_CHECKLIST.md), includ
 
 ## Content and rights
 
-This project is inspired by remembered events. Names, dialogue, schools, and some details are fictionalized. Former-partner names are pseudonyms; exact grades and personal identifiers are omitted; Nurul appears only by name in the epilogue.
+This project is inspired by remembered events and is told from Aleem's perspective. Names, dialogue, schools, and some details are fictionalized or reconstructed. Nadiah, Aisyah, Hakim, and other former-partner or friend names are pseudonyms; exact grades and personal identifiers are omitted. The other man in Chapter 6 remains unnamed, and the story assigns no motive to Nadiah's choice not to wear hijab. The narrative ends before Aleem meets Nurul.
 
 Narrative, generated artwork, and imported voice assets are all rights reserved by default unless a specific license record states otherwise. There is no backend, account, analytics, or tracking.

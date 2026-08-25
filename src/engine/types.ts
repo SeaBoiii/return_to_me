@@ -53,7 +53,13 @@ export interface StageSprite {
  * selectable, scalable HTML.
  */
 export interface StageOverlay {
-  readonly kind: "sms" | "server" | "results" | "caption";
+  readonly kind:
+    | "sms"
+    | "server"
+    | "results"
+    | "caption"
+    | "social"
+    | "intrusive";
   readonly label: string;
   readonly title?: string;
   readonly lines: readonly string[];

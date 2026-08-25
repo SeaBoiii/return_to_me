@@ -64,6 +64,14 @@ export const voiceProfiles = [
     synthetic: true,
   },
   {
+    id: "young-adult-aleem",
+    speakerId: "aleem-young-adult",
+    displayName: "Young Adult Aleem",
+    direction:
+      "Young adult Singaporean English; earnest and hopeful in National Service, becoming guarded without melodrama.",
+    synthetic: true,
+  },
+  {
     id: "alya",
     speakerId: "alya",
     displayName: "Alya",
@@ -105,6 +113,30 @@ export const voiceProfiles = [
     displayName: "Mei Lin",
     direction:
       "Age-appropriate teenage voice; diligent, quietly funny, and supportive without romantic implication.",
+    synthetic: true,
+  },
+  {
+    id: "nadiah",
+    speakerId: "nadiah",
+    displayName: "Nadiah",
+    direction:
+      "Young adult Singaporean English; warm and natural, then candid and restrained during a difficult conversation.",
+    synthetic: true,
+  },
+  {
+    id: "aisyah",
+    speakerId: "aisyah",
+    displayName: "Aisyah",
+    direction:
+      "Young adult Singaporean English; concerned, direct, and careful not to claim more than she knows.",
+    synthetic: true,
+  },
+  {
+    id: "hakim",
+    speakerId: "hakim",
+    displayName: "Hakim",
+    direction:
+      "Young adult Singaporean English; friendly, grounded, and casually welcoming.",
     synthetic: true,
   },
 ] as const satisfies readonly VoiceProfile[];

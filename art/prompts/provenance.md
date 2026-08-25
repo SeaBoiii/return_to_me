@@ -1,7 +1,7 @@
 # Return to Me Art Bible and Provenance
 
 This document records the production lineage for the artwork deployed in
-**Return to Me: The School Years**. It is an authoring record, not a claim that
+**Return to Me: Before Nurul**. It is an authoring record, not a claim that
 the fictionalised characters are complete portraits of real people.
 
 ## Generator and rights
@@ -375,6 +375,140 @@ In particular, relatives, Daniel, the confession-montage girls, and the
 upcoming relationship remain offscreen; the boy in Syafiqa's sighting is
 entirely offscreen and unidentifiable.
 
+## Chapter 6: Before Nurul production batch
+
+The Chapter 6 raster candidates were generated on 25 August 2026 with
+OpenAI's built-in ImageGen tool. No external image API or CLI was used. The
+tool did not expose an exact image-model name or version, so the model remains
+recorded as **unspecified**. Raw inputs, deterministic outputs, and nine QA sheets
+are preserved under `art/candidates/chapter-six`. The 26 approved outputs were
+promoted to the canonical and public trees on 25 August 2026 after physical-file
+validation and full contact-sheet review. The reusable generation prompts and
+source-to-candidate mapping are recorded in
+[`generation-prompts.md`](../candidates/chapter-six/generation-prompts.md).
+
+This is a separate 26-asset batch: five backgrounds, three CGs, and eighteen
+expression sprites. It does not amend the locked School Years inventory.
+The retained `bg-hdb-dining`, `bg-dark-bedroom`, and `bg-dawn-window` remain
+canonical inputs for family support, grief, and adult reflection and are not
+reprocessed in this batch.
+Every generation uses the established soft, semi-realistic cel-shaded visual-
+novel style, age-appropriate natural proportions, crisp silhouettes,
+restrained lighting, and no readable generated text, logo, watermark, badge,
+unit insignia, university identifier, copied interface, handle, or trademark.
+
+Nadiah's appearance is wholly fictional, was not derived from a real person's
+likeness, and must not be used to identify or imply endorsement by anyone. Her
+hijab is an element of appearance rather than a moral signal. Her reason for
+not wearing hijab in one remembered image is explicitly unknown.
+
+### aleem-ns
+
+Identity-preserving young-adult Aleem in a generic olive National Service
+uniform, with no flag, name tape, rank, badge, unit patch, weapon, or formation
+identifier. Six isolated three-quarter visual-novel expressions on genuine
+alpha where usable, otherwise the approved vivid-magenta key: neutral, proud,
+warm, stunned, hurt, and numb. Preserve his warm brown skin, short dark hair,
+rectangular glasses, gentle features, and tall slim build across every output.
+
+### aleem-raya
+
+The same young-adult Aleem in a modest, unbranded navy baju melayu during Hari
+Raya visiting. Two isolated three-quarter expressions: awed and shy-smile.
+The performance conveys attraction and awkwardness without glamour framing.
+
+### aleem-uni
+
+The same young-adult Aleem in plain, unbranded university clothes. Five
+isolated three-quarter expressions: neutral, guarded, frozen, overwhelmed,
+and breathless. The physical response is depicted directly without diagnostic
+symbols, medical language, horror distortion, or objective danger cues.
+
+### nadiah
+
+A wholly fictional young Malay woman with a distinct face and no real-person
+likeness, wearing a dusty blue-grey hijab and modest cream-and-teal Hari Raya
+outfit. Five isolated three-quarter expressions: neutral, warm, amused,
+thoughtful, and guarded. Keep her agency, dignity, and ordinary humanity clear;
+avoid seductive, deceitful, villainous, ashamed, or morally coded posing.
+
+### bg-raya-living-room-2016
+
+Warm 2016 Singapore HDB living room during Hari Raya visiting, with modest
+festive fabrics, ketupat-inspired decorations, refreshments, layered domestic
+detail, and useful negative space. No people, family identifiers, religious
+text, brand packaging, logos, or readable signs.
+
+### bg-ns-camp-gate
+
+Generic Singapore National Service camp gate and parade-area edge in humid
+daylight, with restrained concrete, shelter, trees, and open formation space.
+No people, weapons, flags, unit emblems, crests, rank, real camp architecture,
+readable signs, or national/service branding.
+
+### bg-ns-bunk-night
+
+Generic National Service bunk at night with aligned beds, lockers, ceiling
+fans, practical fluorescent and cool window light, and space for one sprite.
+No people, weapons, uniforms on display, unit markings, personal names,
+readable notices, or institutional identifiers.
+
+### bg-university-lecture-theatre
+
+An unnamed university lecture theatre during freshman club recruitment. The
+room is ordinary, diverse, and welcoming: anonymous volunteers and freshmen
+talking naturally, with Malay women both wearing and not wearing hijab present
+as ordinary members of the crowd. No red markers, menace, isolation, horror
+lighting, club logo, university crest, readable sign-up text, or identifier.
+
+### bg-university-corridor
+
+Quiet, unnamed university corridor immediately outside a lecture theatre,
+with practical daylight and enough space for a breathless Aleem sprite. No
+people, dramatic pursuit cues, signs, logos, crests, or campus identifiers.
+
+### cg-raya-first-sight
+
+Wide 16:9 Hari Raya first-sight composition preserving young-adult Aleem and
+the wholly fictional hijabi Nadiah. They notice each other across a warm,
+busy HDB living room while remaining at a respectful distance. Attraction is
+shown through eye line and a suspended ordinary moment, not destiny symbols,
+glamour lighting, physical contact, or readable decoration.
+
+### cg-relationship-montage
+
+Restrained 16:9 composite memory of mutual warmth: calls around book-ins,
+ordinary messages, and one public meeting. Balance Aleem and Nadiah's attention
+and agency; the sequence is explicitly reconstructed rather than a verbatim
+record. No readable messages, copied phone UI, logos, military identifiers,
+possessive framing, foreshadowing, or villain coding.
+
+### cg-close-friends-reveal
+
+Generic 16:9 private-story reveal at an unbranded theme park. Nadiah appears
+without hijab only in this CG, with neutral everyday styling and lighting,
+standing beside an unnamed man who remains distant, turned away or otherwise
+unidentifiable. Their pose does not confirm romance. No copied Instagram UI,
+logo, handle, reactions, notification marks, USS branding, readable generated
+text, ethnic caricature, shame lighting, seductive pose, or moral judgement.
+Accessible HTML supplies the restricted-story context and states that Nadiah's
+reason for not wearing hijab is unknown.
+
+The fixed output inventory is:
+
+- Backgrounds: `bg-raya-living-room-2016`, `bg-ns-camp-gate`,
+  `bg-ns-bunk-night`, `bg-university-lecture-theatre`, and
+  `bg-university-corridor`.
+- CGs: `cg-raya-first-sight`, `cg-relationship-montage`, and
+  `cg-close-friends-reveal`.
+- Sprites: `aleem-ns-{neutral,proud,warm,stunned,hurt,numb}`,
+  `aleem-raya-{awed,shy-smile}`,
+  `aleem-uni-{neutral,guarded,frozen,overwhelmed,breathless}`, and
+  `nadiah-{neutral,warm,amused,thoughtful,guarded}`.
+
+The full approval and deterministic processing contract is recorded in the
+[Chapter 6 candidate record](../candidates/chapter-six/README.md).
+
 ## Files and processing
 
 | Asset family | Generated/source path | Deployed path | Deployed dimensions |
@@ -384,6 +518,7 @@ entirely offscreen and unidentifiable.
 | Superseded School Years expression sheets | `art/sources/characters/{aleem-p6,alya,aleem-sec,aleem-home,hana,faris}-expression-master.png` | Historical anchors retained for provenance; superseded as deploy inputs by the normalized School Years families | Generator-native |
 | Later-chapter expression sheets | `art/sources/characters/{aleem-jc,aleem-zoo,mei-lin-jc,mei-lin-zoo,syafiqa}-expression-master.png` | Active source sheets for the JC and zoo production sprites | Generator-native |
 | Approved School Years sprite inputs | `art/candidates/school-years-refresh/characters/**/*.png` | Processed into normalized masters | Generator-native |
+| Approved Chapter 6 inputs | `art/candidates/chapter-six/{characters,scenes}/**/*.png` | Promoted after the explicit approval gate to the normalized canonical/public paths | Generator-native |
 | Normalized production sprite masters | `art/sources/characters/normalized/<family>/*-master.png` | `public/assets/art/characters/<family>/*.webp` | 1024×1536 source; 768×1152 deployed |
 
 The retained 2009–2013 background masters remain canonical 1672×941 PNG inputs.
@@ -420,4 +555,8 @@ transparency workflow.
 - Run `npm run art:school-years:check` after any School Years reprocessing. It
   deterministically rebuilds the candidate batch, validates exact inventories
   and physical constraints, and regenerates the final-approval QA sheets.
+- Run `npm run art:chapter-six:check` after any Chapter 6 candidate change. It
+  processes and validates the independent 18-sprite/five-background/three-CG
+  inventory and rebuilds its nine contact sheets without touching the locked
+  School Years batch or deploy tree. Promotion is a separate explicit command.
 - A factual and tone review remains required before publishing changed art.

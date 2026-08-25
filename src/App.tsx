@@ -163,6 +163,7 @@ function Stage({ node, reducedMotion }: { node: StoryNode; reducedMotion: boolea
             styles[`overlay_${node.stage.overlay.kind}`]
           }`}
           aria-label={node.stage.overlay.label}
+          data-overlay-kind={node.stage.overlay.kind}
         >
           {node.stage.overlay.title !== undefined && (
             <h3>{node.stage.overlay.title}</h3>
@@ -237,8 +238,12 @@ function Notice({ onContinue }: { onContinue: () => void }) {
           <span>Content note</span>
           <p>
             Family pressure, repeated romantic rejection, relationship
-            breakdown, academic disappointment, and periods of emotional
-            withdrawal. Exact examination grades are not shown.
+            breakdown and perceived deception, academic disappointment,
+            prejudicial thoughts involving ethnicity and religious dress,
+            panic-like physical distress, and periods of emotional withdrawal.
+            Harmful conclusions are presented as Aleem’s thoughts, not as facts,
+            and no medical diagnosis is made. Exact examination grades are not
+            shown.
           </p>
         </div>
         <p className={styles.smallPrint}>
@@ -307,10 +312,11 @@ function TitleScreen({
         <h1>
           Return <em>to</em> Me
         </h1>
-        <p className={styles.subtitle}>The School Years</p>
+        <p className={styles.subtitle}>Before Nurul</p>
         <p className={styles.titleSummary}>
-          Before Nurul, there were school corridors, crowded buses, glowing
-          screens, first loves—and the difficult work of becoming.
+          Before Nurul, there were school corridors, crowded buses, National
+          Service, first love, heartbreak—and one doorway that revealed how
+          deeply the past could shape the future.
         </p>
 
         {storageMessage !== undefined && (
@@ -370,7 +376,7 @@ function TitleScreen({
         )}
       </div>
       <p className={styles.titleFooter}>
-        Singapore · 2009–2016 <span aria-hidden="true">•</span> No analytics
+        Singapore · 2009–2018 <span aria-hidden="true">•</span> No analytics
       </p>
     </main>
   );
@@ -645,7 +651,7 @@ function GameScreen({ onTitle, onOpenPanel }: GameScreenProps) {
 
       {node.type === "end" ? (
         <section className={styles.endCard} aria-labelledby="ending-title">
-          <p className={styles.eyebrow}>End of The School Years</p>
+          <p className={styles.eyebrow}>End of Before Nurul</p>
           <h1 id="ending-title">{node.title}</h1>
           {node.text !== undefined && <p>{node.text}</p>}
           <div className={styles.endActions}>
@@ -768,7 +774,7 @@ function ChapterPanel({
   return (
     <Modal
       title="Chapter select"
-      eyebrow="The School Years"
+      eyebrow="Before Nurul"
       onClose={onClose}
     >
       <ol className={styles.chapterList}>
@@ -1222,11 +1228,14 @@ function CreditsPanel({ onClose }: { readonly onClose: () => void }) {
       <div className={styles.credits}>
         <section>
           <p className={styles.eyebrow}>Story</p>
-          <h3>Return to Me: The School Years</h3>
+          <h3>Return to Me: Before Nurul</h3>
           <p>
-            Inspired by Aleem’s life journey. Former-partner names are
-            pseudonyms; schools and identifying details remain fictionalised.
-            Nurul appears by name only.
+            Inspired by Aleem’s life journey from 2009 to 2018. Former-partner
+            and friend names are pseudonyms; dialogue is reconstructed, and
+            schools and identifying details remain fictionalised. The story
+            distinguishes observed, reported, and inferred details without
+            treating ethnicity or religious dress as moral evidence. It ends
+            before Aleem meets Nurul.
           </p>
         </section>
         <section>
@@ -1235,8 +1244,8 @@ function CreditsPanel({ onClose }: { readonly onClose: () => void }) {
           <p>
             Created for this project with OpenAI’s built-in image generation
             workflow, then cropped, keyed, and optimised locally. No school
-            badges, generated readable text, copied game UI, screenshots, or
-            trademarks are used.
+            badges, unit insignia, generated readable text, copied social-media
+            or game UI, screenshots, logos, or trademarks are used.
           </p>
         </section>
         <section>

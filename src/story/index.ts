@@ -1,6 +1,7 @@
 import type { StoryDefinition, StoryNode } from "../engine/types";
 import { chapterOneNodes } from "./chapterOne";
 import { chapterFiveNodes } from "./chapterFive";
+import { chapterSixNodes } from "./chapterSix";
 import { chapterFourNodes } from "./chapterFour";
 import { chapterThreeNodes } from "./chapterThree";
 import { chapterTwoNodes } from "./chapterTwo";
@@ -15,13 +16,14 @@ export const storyNodes = [
   ...chapterThreeNodes,
   ...chapterFourNodes,
   ...chapterFiveNodes,
+  ...chapterSixNodes,
   ...epilogueNodes,
 ] as const satisfies readonly StoryNode[];
 
 export const story = {
   id: "return-to-me-school-years",
   title: "Return to Me",
-  subtitle: "The School Years",
+  subtitle: "Before Nurul",
   revision: STORY_REVISION,
   startNodeId: "prologue-001",
   chapters,
