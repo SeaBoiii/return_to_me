@@ -1,0 +1,9 @@
+{
+  "id": "aleem-travel-tired",
+  "ref": "art/sources/adulthood/sprites/aleem-uni-neutral-master.png",
+  "prompt": "Use case: identity-preserve. Edit the ONE referenced visual-novel character sprite. Preserve exact Aleem face identity, warm brown Boyanese Malay skin, short black hair, rectangular glasses, tall lean natural adult proportions, soft semi-realistic cel shading and crisp restrained outlines. Portrait 1024x1536 head to mid-thigh; both hands and all hair fully visible, no props. Keep generous blank margins. ONE character only. Background is entirely flat vivid magenta #FF00FF for alpha matting, no checkerboard, gradients, shadows, floor, text or logos. Naturally age Aleem into late twenties, same recognizable face and lean build. Change outfit to plain light stone-beige overshirt worn open over muted teal T-shirt, dark navy trousers. Tired, quietly emotionally exhausted expression with gentle undereye shading and lowered shoulders, not crying. Both hands relaxed at sides. Preserve realistic adult facial proportions.",
+  "source": "C:\\Users\\alsiddiq\\.codex\\generated_images\\01a08a0d-a799-7f80-b3f8-0174d3c99338\\exec-5ca0e9fc-ee9e-4953-a3e1-163bfc62fa53.png",
+  "destination": "C:/git/self_projects/return_to_me/art/sources/adulthood/sprites/aleem-travel-tired-master.png",
+  "date": "2026-09-11",
+  "generator": "OpenAI built-in image_gen; exact model unspecified"
+}

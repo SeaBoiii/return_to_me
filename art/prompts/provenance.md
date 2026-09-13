@@ -1,7 +1,7 @@
 # Return to Me Art Bible and Provenance
 
 This document records the production lineage for the artwork deployed in
-**Return to Me: The School Years**. It is an authoring record, not a claim that
+**Return to Me: Before Nurul**. It is an authoring record, not a claim that
 the fictionalised characters are complete portraits of real people.
 
 ## Generator and rights
@@ -48,6 +48,23 @@ the fictionalised characters are complete portraits of real people.
   gap between independently dozing Aleem and Syafiqa, and the zoo-distance CG
   was revised to restore Aleem's approved green/cream casual outfit and Mei
   Lin's yellow casual outfit.
+
+### Adulthood expansion
+
+Chapters 6–8 add 26 adult character sprites, 11 backgrounds, and two CGs,
+generated with the built-in OpenAI image generator on 10–11 September 2026.
+The exact model is unspecified. Their shared inventory is
+`src/story/adulthood-art.json`; the existing school and JC inventories remain
+separate. See [sprite prompts](adulthood-sprites.md),
+[scene prompts](adulthood-scenes.md), and the
+[production and QA record](adulthood-production.md).
+
+Adult Aleem preserves his established face, glasses, complexion, and lean
+build. Jia Wen, Claire, and Imran have distinct fictional adult identities.
+The new chapter ends at arrival in the holy land and contains no pilgrimage
+or prayer artwork. Initial painted-checkerboard sprite requests are retained
+as rejected sources and are never deployed. Selected keyed sprites receive
+the existing tolerant matting and spill cleanup before deployment.
 
 ## Style bible
 

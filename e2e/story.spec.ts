@@ -1,4 +1,5 @@
 import { expect, test } from '@playwright/test';
+import { story } from '../src/story';
 
 import {
   SAVE_KEY,
@@ -195,7 +196,7 @@ test('migrates a completed first-edition save into the JC expansion', async ({
       }, SAVE_KEY),
     )
     .toMatchObject({
-      storyRevision: 'school-years-2.0.0',
+      storyRevision: 'school-years-3.0.0',
       currentNodeId: 'ch3-001',
       status: 'playing',
       unlockedChapters: [
@@ -206,6 +207,81 @@ test('migrates a completed first-edition save into the JC expansion', async ({
       ],
       seenNodeIds: ['ch2-108'],
     });
+});
+
+test('resumes a completed JC edition at university and keeps later chapters locked', async ({ page }) => {
+  await openApp(page);
+  await page.evaluate((key) => {
+    localStorage.setItem(key, JSON.stringify({
+      version: 1,
+      storyId: 'return-to-me-school-years',
+      storyRevision: 'school-years-2.0.0',
+      currentNodeId: 'epilogue-end',
+      status: 'ended',
+      history: [{ kind: 'line', nodeId: 'epilogue-013' }],
+      rememberedChoices: { 'ch5-choice-zoo': 'zoo-name-feeling' },
+      unlockedChapters: ['prologue', 'chapter-1', 'chapter-2', 'chapter-3', 'chapter-4', 'chapter-5', 'epilogue'],
+      seenNodeIds: ['ch5-038', 'epilogue-013', 'epilogue-end'],
+      timestamp: Date.now(),
+    }));
+  }, SAVE_KEY);
+  await page.reload();
+  await dismissNotice(page);
+  await expect(page.getByRole('status')).toContainText('saved progress was updated');
+  await page.getByRole('button', { name: 'Continue', exact: true }).click();
+  await expect(page.getByText('Almost Us', { exact: true })).toBeVisible();
+  await expect.poll(() => page.evaluate((key) => JSON.parse(localStorage.getItem(key) ?? '{}') as unknown, SAVE_KEY)).toMatchObject({
+    storyRevision: 'school-years-3.0.0',
+    currentNodeId: 'ch6-001',
+    status: 'playing',
+    history: [],
+    rememberedChoices: { 'ch5-choice-zoo': 'zoo-name-feeling' },
+    seenNodeIds: ['ch5-038'],
+  });
+
+  await page.getByRole('button', { name: 'Open chapter menu' }).click();
+  const chapters = page.getByRole('dialog', { name: 'Chapter select' });
+  await expect(chapters.getByRole('button', { name: /Almost Us/ })).toBeEnabled();
+  for (const title of ['Just Friends', 'A Different Journey', 'Arrival']) {
+    await expect(chapters.getByRole('button', { name: new RegExp(title) })).toBeDisabled();
+  }
+  await chapters.getByRole('button', { name: 'Close' }).click();
+  await page.reload();
+  await dismissNotice(page);
+  await page.getByRole('button', { name: 'Continue', exact: true }).click();
+  await expect(page.getByText('Almost Us', { exact: true })).toBeVisible();
+});
+
+test('unlocks university when advancing beyond the zoo and restores that position', async ({ page }) => {
+  await openApp(page);
+  await page.evaluate(({ key, revision }) => {
+    localStorage.setItem(key, JSON.stringify({
+      version: 1,
+      storyId: 'return-to-me-school-years',
+      storyRevision: revision,
+      currentNodeId: 'ch5-038',
+      status: 'playing',
+      history: [],
+      rememberedChoices: {},
+      unlockedChapters: ['prologue', 'chapter-1', 'chapter-2', 'chapter-3', 'chapter-4', 'chapter-5'],
+      seenNodeIds: [],
+      timestamp: Date.now(),
+    }));
+  }, { key: SAVE_KEY, revision: story.revision });
+  await page.reload();
+  await dismissNotice(page);
+  await page.getByRole('button', { name: 'Continue', exact: true }).click();
+  await expect(page.getByText('The Zoo After Results', { exact: true })).toBeVisible();
+  await revealAndAdvance(page);
+  await expect(page.getByText('Almost Us', { exact: true })).toBeVisible();
+  await expect.poll(() => page.evaluate((key) => JSON.parse(localStorage.getItem(key) ?? '{}') as unknown, SAVE_KEY)).toMatchObject({
+    currentNodeId: 'ch6-001',
+    unlockedChapters: ['prologue', 'chapter-1', 'chapter-2', 'chapter-3', 'chapter-4', 'chapter-5', 'chapter-6'],
+  });
+  await page.reload();
+  await dismissNotice(page);
+  await page.getByRole('button', { name: 'Continue', exact: true }).click();
+  await expect(page.getByText('Almost Us', { exact: true })).toBeVisible();
 });
 
 test('unlocks the first chapter only after reaching it', async ({ page }) => {
@@ -247,15 +323,15 @@ test('unlocks the first chapter only after reaching it', async ({ page }) => {
     chapterDialog.getByRole('button', { name: /A Different Classroom/ }),
   ).toBeDisabled();
   await expect(
-    chapterDialog.getByRole('button', { name: /Fault Lines/ }),
+    chapterDialog.getByRole('button', { name: /Arrival/ }),
   ).toBeDisabled();
 });
 
-test('plays a complete route through seven chapters and ten reconverging choices', async ({
+test('plays a complete route through ten chapters and fifteen reconverging choices', async ({
   page,
 }, testInfo) => {
   test.skip(testInfo.project.name !== 'chromium', 'desktop route audit only');
-  test.setTimeout(120_000);
+  test.setTimeout(180_000);
 
   await openApp(page);
   await page.evaluate((key) => {
@@ -276,8 +352,8 @@ test('plays a complete route through seven chapters and ten reconverging choices
   await startNewGame(page);
 
   let choiceCount = 0;
-  for (let step = 0; step < 500; step += 1) {
-    if (await page.getByRole('heading', { name: 'Continue?' }).isVisible()) {
+  for (let step = 0; step <= story.nodes.length; step += 1) {
+    if (await page.getByRole('heading', { name: 'To be continued' }).isVisible()) {
       break;
     }
 
@@ -295,8 +371,8 @@ test('plays a complete route through seven chapters and ten reconverging choices
     await page.getByRole('button', { name: 'Advance dialogue' }).click();
   }
 
-  await expect(page.getByRole('heading', { name: 'Continue?' })).toBeVisible();
-  expect(choiceCount).toBe(10);
+  await expect(page.getByRole('heading', { name: 'To be continued' })).toBeVisible();
+  expect(choiceCount).toBe(15);
   await expect
     .poll(() =>
       page.evaluate((key) => {
@@ -319,8 +395,8 @@ test('plays a complete route through seven chapters and ten reconverging choices
     .toEqual({
       status: 'ended',
       currentNodeId: 'epilogue-end',
-      choiceCount: 10,
-      unlockedCount: 7,
+      choiceCount: 15,
+      unlockedCount: 10,
     });
 });
 test('keeps subtitles and voice settings usable without licensed clips', async ({
@@ -380,3 +456,64 @@ test('supports the core touch flow without horizontal overflow', async ({
   }));
   expect(dimensions.document).toBeLessThanOrEqual(dimensions.viewport + 1);
 });
+
+for (const artworkId of ['cg-jia-wen-boyfriend', 'cg-uss-confession']) {
+  test(`preserves ${artworkId} composition above dialogue on portrait screens`, async ({
+    page,
+  }, testInfo) => {
+    const node = story.nodes.find((candidate) => candidate.stage.backgroundId === artworkId);
+    if (node === undefined) throw new Error(`No story scene uses ${artworkId}`);
+
+    await openApp(page);
+    await page.evaluate(({ key, revision, nodeId }) => {
+      localStorage.setItem(key, JSON.stringify({
+        version: 1,
+        storyId: 'return-to-me-school-years',
+        storyRevision: revision,
+        currentNodeId: nodeId,
+        status: 'playing',
+        history: [],
+        rememberedChoices: {},
+        unlockedChapters: ['prologue', 'chapter-6'],
+        seenNodeIds: [],
+        timestamp: Date.now(),
+      }));
+    }, { key: SAVE_KEY, revision: story.revision, nodeId: node.id });
+    await page.reload();
+    await dismissNotice(page);
+    await page.getByRole('button', { name: 'Continue', exact: true }).click();
+
+    const stage = page.locator('figure[data-art-kind="cg"]');
+    await expect(stage).toBeVisible();
+    const composition = page.getByTestId('cg-composition');
+    const background = stage.locator(':scope > img').first();
+    await expect(background).toHaveAttribute('src', new RegExp(`${artworkId}\\.webp$`));
+
+    if (testInfo.project.name !== 'mobile') {
+      await expect(composition).toBeHidden();
+      await expect(background).toHaveCSS('object-fit', 'cover');
+      return;
+    }
+
+    await expect(composition).toBeVisible();
+    await expect(composition).toHaveCSS('object-fit', 'contain');
+    await expect.poll(() => composition.evaluate((element) => {
+      const image = element as HTMLImageElement;
+      return image.complete && image.naturalWidth > 0;
+    })).toBe(true);
+    const imageRect = await composition.boundingBox();
+    const dialogueRect = await page.getByLabel('Dialogue', { exact: true }).boundingBox();
+    const viewport = page.viewportSize();
+    expect(imageRect).not.toBeNull();
+    expect(dialogueRect).not.toBeNull();
+    expect(viewport).not.toBeNull();
+    if (imageRect === null || dialogueRect === null || viewport === null) return;
+
+    expect(imageRect.width / imageRect.height).toBeCloseTo(16 / 9, 2);
+    expect(imageRect.x).toBeGreaterThanOrEqual(0);
+    expect(imageRect.y).toBeGreaterThanOrEqual(0);
+    expect(imageRect.x + imageRect.width).toBeLessThanOrEqual(viewport.width + 1);
+    expect(imageRect.y + imageRect.height).toBeLessThanOrEqual(dialogueRect.y + 1);
+    expect(imageRect.y + imageRect.height).toBeLessThanOrEqual(viewport.height);
+  });
+}

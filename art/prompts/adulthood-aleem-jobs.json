@@ -1,0 +1,62 @@
+[
+  {
+    "id": "aleem-travel-tired",
+    "ref": "art/sources/adulthood/sprites/aleem-uni-neutral-master.png",
+    "prompt": "Use case: identity-preserve. Edit the ONE referenced visual-novel character sprite. Preserve exact Aleem face identity, warm brown Boyanese Malay skin, short black hair, rectangular glasses, tall lean natural adult proportions, soft semi-realistic cel shading and crisp restrained outlines. Portrait 1024x1536 head to mid-thigh; both hands and all hair fully visible, no props. Keep generous blank margins. ONE character only. Background is entirely flat vivid magenta #FF00FF for alpha matting, no checkerboard, gradients, shadows, floor, text or logos. Naturally age Aleem into late twenties, same recognizable face and lean build. Change outfit to plain light stone-beige overshirt worn open over muted teal T-shirt, dark navy trousers. Tired, quietly emotionally exhausted expression with gentle undereye shading and lowered shoulders, not crying. Both hands relaxed at sides. Preserve realistic adult facial proportions."
+  },
+  {
+    "id": "aleem-uni-smile",
+    "ref": "art/sources/adulthood/sprites/aleem-uni-neutral-master.png",
+    "prompt": "Use case: identity-preserve. Edit the ONE referenced visual-novel character sprite. Preserve exact Aleem face identity, warm brown Boyanese Malay skin, short black hair, rectangular glasses, tall lean natural adult proportions, soft semi-realistic cel shading and crisp restrained outlines. Portrait 1024x1536 head to mid-thigh; both hands and all hair fully visible, no props. Keep generous blank margins. ONE character only. Background is entirely flat vivid magenta #FF00FF for alpha matting, no checkerboard, gradients, shadows, floor, text or logos. Keep identical dark forest-green overshirt over cream tee and navy trousers. Change only expression and modest pose to: Warm genuine open smile, brightened eyes, relaxed shoulders."
+  },
+  {
+    "id": "aleem-uni-amused",
+    "ref": "art/sources/adulthood/sprites/aleem-uni-neutral-master.png",
+    "prompt": "Use case: identity-preserve. Edit the ONE referenced visual-novel character sprite. Preserve exact Aleem face identity, warm brown Boyanese Malay skin, short black hair, rectangular glasses, tall lean natural adult proportions, soft semi-realistic cel shading and crisp restrained outlines. Portrait 1024x1536 head to mid-thigh; both hands and all hair fully visible, no props. Keep generous blank margins. ONE character only. Background is entirely flat vivid magenta #FF00FF for alpha matting, no checkerboard, gradients, shadows, floor, text or logos. Keep identical dark forest-green overshirt over cream tee and navy trousers. Change only expression and modest pose to: Playful amused half-smile with one eyebrow slightly raised, as if teasing a close friend."
+  },
+  {
+    "id": "aleem-uni-nervous",
+    "ref": "art/sources/adulthood/sprites/aleem-uni-neutral-master.png",
+    "prompt": "Use case: identity-preserve. Edit the ONE referenced visual-novel character sprite. Preserve exact Aleem face identity, warm brown Boyanese Malay skin, short black hair, rectangular glasses, tall lean natural adult proportions, soft semi-realistic cel shading and crisp restrained outlines. Portrait 1024x1536 head to mid-thigh; both hands and all hair fully visible, no props. Keep generous blank margins. ONE character only. Background is entirely flat vivid magenta #FF00FF for alpha matting, no checkerboard, gradients, shadows, floor, text or logos. Keep identical dark forest-green overshirt over cream tee and navy trousers. Change only expression and modest pose to: Nervous hesitant expression, slightly drawn brows, mouth about to speak but uncertain; hands loosely together in front, all fingers natural and readable."
+  },
+  {
+    "id": "aleem-uni-jealous",
+    "ref": "art/sources/adulthood/sprites/aleem-uni-neutral-master.png",
+    "prompt": "Use case: identity-preserve. Edit the ONE referenced visual-novel character sprite. Preserve exact Aleem face identity, warm brown Boyanese Malay skin, short black hair, rectangular glasses, tall lean natural adult proportions, soft semi-realistic cel shading and crisp restrained outlines. Portrait 1024x1536 head to mid-thigh; both hands and all hair fully visible, no props. Keep generous blank margins. ONE character only. Background is entirely flat vivid magenta #FF00FF for alpha matting, no checkerboard, gradients, shadows, floor, text or logos. Keep identical dark forest-green overshirt over cream tee and navy trousers. Change only expression and modest pose to: Restrained jealous expression: tightened jaw, closed lips, brows subtly drawn and gaze uneasy; no aggression, fists or threatening pose."
+  },
+  {
+    "id": "aleem-uni-hurt",
+    "ref": "art/sources/adulthood/sprites/aleem-uni-neutral-master.png",
+    "prompt": "Use case: identity-preserve. Edit the ONE referenced visual-novel character sprite. Preserve exact Aleem face identity, warm brown Boyanese Malay skin, short black hair, rectangular glasses, tall lean natural adult proportions, soft semi-realistic cel shading and crisp restrained outlines. Portrait 1024x1536 head to mid-thigh; both hands and all hair fully visible, no props. Keep generous blank margins. ONE character only. Background is entirely flat vivid magenta #FF00FF for alpha matting, no checkerboard, gradients, shadows, floor, text or logos. Keep identical dark forest-green overshirt over cream tee and navy trousers. Change only expression and modest pose to: Quietly hurt expression, eyes downcast and shoulders lowered, stunned disappointment; no crying theatrics."
+  },
+  {
+    "id": "aleem-work-smile",
+    "ref": "art/sources/adulthood/sprites/aleem-work-neutral-master.png",
+    "prompt": "Use case: identity-preserve. Edit the ONE referenced visual-novel character sprite. Preserve exact Aleem face identity, warm brown Boyanese Malay skin, short black hair, rectangular glasses, tall lean natural adult proportions, soft semi-realistic cel shading and crisp restrained outlines. Portrait 1024x1536 head to mid-thigh; both hands and all hair fully visible, no props. Keep generous blank margins. ONE character only. Background is entirely flat vivid magenta #FF00FF for alpha matting, no checkerboard, gradients, shadows, floor, text or logos. Keep identical muted sage-green collared button-down shirt rolled to forearms and charcoal trousers. Change only expression and modest pose to: Warm relaxed genuine smile, open friendly eyes, shoulders at ease."
+  },
+  {
+    "id": "aleem-work-nervous",
+    "ref": "art/sources/adulthood/sprites/aleem-work-neutral-master.png",
+    "prompt": "Use case: identity-preserve. Edit the ONE referenced visual-novel character sprite. Preserve exact Aleem face identity, warm brown Boyanese Malay skin, short black hair, rectangular glasses, tall lean natural adult proportions, soft semi-realistic cel shading and crisp restrained outlines. Portrait 1024x1536 head to mid-thigh; both hands and all hair fully visible, no props. Keep generous blank margins. ONE character only. Background is entirely flat vivid magenta #FF00FF for alpha matting, no checkerboard, gradients, shadows, floor, text or logos. Keep identical muted sage-green collared button-down shirt rolled to forearms and charcoal trousers. Change only expression and modest pose to: Hesitant serious expression while confessing feelings, slightly parted lips and anxious brows; both hands loosely together in front."
+  },
+  {
+    "id": "aleem-work-hurt",
+    "ref": "art/sources/adulthood/sprites/aleem-work-neutral-master.png",
+    "prompt": "Use case: identity-preserve. Edit the ONE referenced visual-novel character sprite. Preserve exact Aleem face identity, warm brown Boyanese Malay skin, short black hair, rectangular glasses, tall lean natural adult proportions, soft semi-realistic cel shading and crisp restrained outlines. Portrait 1024x1536 head to mid-thigh; both hands and all hair fully visible, no props. Keep generous blank margins. ONE character only. Background is entirely flat vivid magenta #FF00FF for alpha matting, no checkerboard, gradients, shadows, floor, text or logos. Keep identical muted sage-green collared button-down shirt rolled to forearms and charcoal trousers. Change only expression and modest pose to: Quiet restrained heartbreak: downcast gaze, lips pressed gently together, shoulders lowered; no exaggerated crying."
+  },
+  {
+    "id": "aleem-work-drained",
+    "ref": "art/sources/adulthood/sprites/aleem-work-neutral-master.png",
+    "prompt": "Use case: identity-preserve. Edit the ONE referenced visual-novel character sprite. Preserve exact Aleem face identity, warm brown Boyanese Malay skin, short black hair, rectangular glasses, tall lean natural adult proportions, soft semi-realistic cel shading and crisp restrained outlines. Portrait 1024x1536 head to mid-thigh; both hands and all hair fully visible, no props. Keep generous blank margins. ONE character only. Background is entirely flat vivid magenta #FF00FF for alpha matting, no checkerboard, gradients, shadows, floor, text or logos. Keep identical muted sage-green collared button-down shirt rolled to forearms and charcoal trousers. Change only expression and modest pose to: Emotionally exhausted expression, subtly tired eyes and defeated lowered shoulders, no tears or dramatic gesture."
+  },
+  {
+    "id": "aleem-travel-tentative",
+    "ref": "art/sources/adulthood/sprites/aleem-travel-tired-master.png",
+    "prompt": "Use case: identity-preserve. Edit the ONE referenced visual-novel character sprite. Preserve exact Aleem face identity, warm brown Boyanese Malay skin, short black hair, rectangular glasses, tall lean natural adult proportions, soft semi-realistic cel shading and crisp restrained outlines. Portrait 1024x1536 head to mid-thigh; both hands and all hair fully visible, no props. Keep generous blank margins. ONE character only. Background is entirely flat vivid magenta #FF00FF for alpha matting, no checkerboard, gradients, shadows, floor, text or logos. Keep identical late-twenties face, plain light stone-beige open overshirt, muted teal T-shirt and dark navy trousers. Change only expression and modest pose to: Tentative returning hope, faint uncertain half-smile, thoughtful gaze, shoulders beginning to straighten; hands relaxed."
+  },
+  {
+    "id": "aleem-travel-hopeful",
+    "ref": "art/sources/adulthood/sprites/aleem-travel-tired-master.png",
+    "prompt": "Use case: identity-preserve. Edit the ONE referenced visual-novel character sprite. Preserve exact Aleem face identity, warm brown Boyanese Malay skin, short black hair, rectangular glasses, tall lean natural adult proportions, soft semi-realistic cel shading and crisp restrained outlines. Portrait 1024x1536 head to mid-thigh; both hands and all hair fully visible, no props. Keep generous blank margins. ONE character only. Background is entirely flat vivid magenta #FF00FF for alpha matting, no checkerboard, gradients, shadows, floor, text or logos. Keep identical late-twenties face, plain light stone-beige open overshirt, muted teal T-shirt and dark navy trousers. Change only expression and modest pose to: Quiet hopeful relief on arrival, gentle small smile and softened bright eyes, shoulders relaxed; no triumphant or ecstatic gesture."
+  }
+]

@@ -139,7 +139,7 @@ describe("Return to Me application shell", () => {
     expect(
       screen.getByRole("heading", { level: 1, name: "Return to Me" }),
     ).toBeInTheDocument();
-    expect(screen.getByText("The School Years")).toBeInTheDocument();
+    expect(screen.getByText("Before Nurul")).toBeInTheDocument();
     expect(
       screen.getByRole("navigation", { name: "Game options" }),
     ).toBeInTheDocument();

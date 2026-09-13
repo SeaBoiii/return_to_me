@@ -1,6 +1,8 @@
-# Return to Me: The School Years
+# Return to Me: Before Nurul
 
-A responsive, installable visual novel following Aleem's school and junior-college years in Singapore from 2009 to 2016, before he meets Nurul. The expanded edition contains a 9,000-word branching script with ten reflective choices that alter immediate dialogue and later recollections while preserving the real-life milestones.
+A responsive, installable visual novel following Aleem from school in Singapore through university, working life, and his arrival in the holy land in January 2026, before he meets Nurul. Fifteen reflective choices change immediate dialogue while preserving the remembered milestones.
+
+The adulthood expansion adds **Almost Us**, **Just Friends**, and the short lead-in **A Different Journey**. Jia Wen, Claire, and Imran are pseudonyms. The story stops at arrival; the prayers, fuller Umrah journey, and what follows belong to a later chapter. Earlier-edition saves migrate automatically to the first unread expansion, retaining prior choices and chapter progress.
 
 ## Local development
 
@@ -85,10 +87,22 @@ source/deployed dimensions, sprite alpha and transparent corners, relative
 stature calibration, alignment, and precache-size limits. Manual visual and
 tone review remains part of the release checklist for future regenerations.
 
+The adulthood batch adds 26 sprites, 11 backgrounds, and two illustrated scenes.
+Its shared inventory drives the app manifest and the independent art pipeline:
+
+```bash
+npm run art:adulthood:check
+```
+
+This processes the generation masters, checks dimensions, transparent sprite
+edges, stature, alignment, and the 8 MiB per-file precache limit, then creates
+light/dark character contact sheets and a scene overview in `art/qa/adulthood`.
+Use `npm run art:adulthood:validate` to check existing output without rewriting it.
+
 Before publishing, complete [RELEASE_CHECKLIST.md](RELEASE_CHECKLIST.md), including the manual character/background approval and factual/tone read-through. The currently generated art is intentionally age-appropriate, uses fictional schools, and avoids readable generated text, trademarks, and copied game interfaces.
 
 ## Content and rights
 
-This project is inspired by remembered events. Names, dialogue, schools, and some details are fictionalized. Former-partner names are pseudonyms; exact grades and personal identifiers are omitted; Nurul appears only by name in the epilogue.
+This project is inspired by remembered events. Names, dialogue, schools, and some details are fictionalized. Former-partner and new supporting-character names are pseudonyms; exact grades and personal identifiers are omitted. Nurul is mentioned by name but does not appear in the scenes.
 
 Narrative, generated artwork, and imported voice assets are all rights reserved by default unless a specific license record states otherwise. There is no backend, account, analytics, or tracking.

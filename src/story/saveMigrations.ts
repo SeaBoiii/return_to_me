@@ -6,6 +6,7 @@ import type {
 
 export const SCHOOL_YEARS_V1_REVISION = "school-years-1.0.0";
 export const SCHOOL_YEARS_V2_REVISION = "school-years-2.0.0";
+export const SCHOOL_YEARS_V3_REVISION = "school-years-3.0.0";
 
 const OLD_EPILOGUE_CHAPTER_ID = "epilogue";
 const CHAPTER_THREE_ID = "chapter-3";
@@ -67,6 +68,45 @@ export const migrateSchoolYearsV1ToV2: SaveRevisionMigration = (
   };
 };
 
+/** Resume the adulthood expansion without treating the rewritten ending as seen. */
+export const migrateSchoolYearsV2ToV3: SaveRevisionMigration = (
+  save,
+): SaveV1 | undefined => {
+  if (save.storyRevision !== SCHOOL_YEARS_V2_REVISION) {
+    return undefined;
+  }
+
+  const redirectToChapterSix = isOldEpilogueNode(save.currentNodeId);
+  const oldEpilogueReached =
+    redirectToChapterSix ||
+    save.unlockedChapters.includes(OLD_EPILOGUE_CHAPTER_ID) ||
+    save.history.some((entry) => isOldEpilogueNode(entry.nodeId)) ||
+    save.seenNodeIds.some(isOldEpilogueNode) ||
+    Object.keys(save.rememberedChoices).some(isOldEpilogueNode);
+  const unlockedChapters = save.unlockedChapters.filter(
+    (chapterId) => chapterId !== OLD_EPILOGUE_CHAPTER_ID,
+  );
+  if (oldEpilogueReached && !unlockedChapters.includes("chapter-6")) {
+    unlockedChapters.push("chapter-6");
+  }
+
+  return {
+    ...save,
+    storyRevision: SCHOOL_YEARS_V3_REVISION,
+    currentNodeId: redirectToChapterSix ? "ch6-001" : save.currentNodeId,
+    status: redirectToChapterSix ? "playing" : save.status,
+    history: save.history.filter((entry) => !isOldEpilogueNode(entry.nodeId)),
+    rememberedChoices: Object.fromEntries(
+      Object.entries(save.rememberedChoices).filter(
+        ([nodeId]) => !isOldEpilogueNode(nodeId),
+      ),
+    ),
+    unlockedChapters,
+    seenNodeIds: save.seenNodeIds.filter((nodeId) => !isOldEpilogueNode(nodeId)),
+  };
+};
+
 export const schoolYearsSaveMigrations = {
   [SCHOOL_YEARS_V1_REVISION]: migrateSchoolYearsV1ToV2,
+  [SCHOOL_YEARS_V2_REVISION]: migrateSchoolYearsV2ToV3,
 } as const satisfies SaveRevisionMigrationRegistry;

@@ -1,6 +1,7 @@
 import type { AssetEntry, AssetKind } from "../engine/types";
 import { appPathname } from "../pwa/basePath";
 import { storyAssetIds } from "./assets";
+import { adulthoodArtSpecs } from "./adulthoodArt";
 
 interface ArtAssetSpec {
   readonly id: string;
@@ -76,6 +77,7 @@ const sprite = (
 });
 
 const ART_SPECS = [
+  ...adulthoodArtSpecs,
   background(
     "bg-primary-classroom",
     "chapter-1",

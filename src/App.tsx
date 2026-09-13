@@ -93,6 +93,7 @@ function Stage({ node, reducedMotion }: { node: StoryNode; reducedMotion: boolea
           : stageTransitionClasses[node.stage.transition]
       }`}
       data-transition={node.stage.transition}
+      data-art-kind={background?.kind}
       aria-label={`Scene: ${node.stage.mood}`}
     >
       {background !== undefined ? (
@@ -114,6 +115,18 @@ function Stage({ node, reducedMotion }: { node: StoryNode; reducedMotion: boolea
       )}
 
       <div className={styles.sceneTint} data-mood={node.stage.mood} />
+
+      {background?.kind === "cg" && (
+        <img
+          className={styles.cgComposition}
+          data-testid="cg-composition"
+          src={background.url}
+          alt=""
+          width={background.width}
+          height={background.height}
+          draggable={false}
+        />
+      )}
 
       <div className={styles.spriteLayer} aria-hidden="true">
         {node.stage.sprites.map((sprite) => {
@@ -307,10 +320,10 @@ function TitleScreen({
         <h1>
           Return <em>to</em> Me
         </h1>
-        <p className={styles.subtitle}>The School Years</p>
+        <p className={styles.subtitle}>{story.subtitle}</p>
         <p className={styles.titleSummary}>
-          Before Nurul, there were school corridors, crowded buses, glowing
-          screens, first loves—and the difficult work of becoming.
+          School corridors, university afternoons, and the company we hope will
+          last. Follow Aleem through love, disappointment, and a different journey.
         </p>
 
         {storageMessage !== undefined && (
@@ -370,7 +383,7 @@ function TitleScreen({
         )}
       </div>
       <p className={styles.titleFooter}>
-        Singapore · 2009–2016 <span aria-hidden="true">•</span> No analytics
+        Singapore · 2009–2026 <span aria-hidden="true">•</span> No analytics
       </p>
     </main>
   );
@@ -645,7 +658,7 @@ function GameScreen({ onTitle, onOpenPanel }: GameScreenProps) {
 
       {node.type === "end" ? (
         <section className={styles.endCard} aria-labelledby="ending-title">
-          <p className={styles.eyebrow}>End of The School Years</p>
+          <p className={styles.eyebrow}>{story.subtitle}</p>
           <h1 id="ending-title">{node.title}</h1>
           {node.text !== undefined && <p>{node.text}</p>}
           <div className={styles.endActions}>
@@ -768,7 +781,7 @@ function ChapterPanel({
   return (
     <Modal
       title="Chapter select"
-      eyebrow="The School Years"
+      eyebrow={story.subtitle}
       onClose={onClose}
     >
       <ol className={styles.chapterList}>
@@ -1222,7 +1235,7 @@ function CreditsPanel({ onClose }: { readonly onClose: () => void }) {
       <div className={styles.credits}>
         <section>
           <p className={styles.eyebrow}>Story</p>
-          <h3>Return to Me: The School Years</h3>
+          <h3>{story.title}: {story.subtitle}</h3>
           <p>
             Inspired by Aleem’s life journey. Former-partner names are
             pseudonyms; schools and identifying details remain fictionalised.

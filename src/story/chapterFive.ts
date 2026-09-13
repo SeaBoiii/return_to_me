@@ -383,7 +383,7 @@ export const chapterFiveNodes = [
     "chapter-5",
     stages.jcDawn,
     "adult-aleem",
-    "By then I had academic evidence that a bad result did not define me. Emotionally, I was still building rules from incomplete endings. Those rules would follow me into the relationship that came next.",
-    "epilogue-001",
+    "By then I had academic evidence that a bad result did not define me. Emotionally, I was still building rules from incomplete endings. I carried them into university, where a new friendship would make silence feel like hope again.",
+    "ch6-001",
   ),
 ] as const satisfies readonly StoryNode[];

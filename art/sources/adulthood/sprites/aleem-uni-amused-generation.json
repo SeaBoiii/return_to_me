@@ -1,0 +1,9 @@
+{
+  "id": "aleem-uni-amused",
+  "ref": "art/sources/adulthood/sprites/aleem-uni-neutral-master.png",
+  "prompt": "Use case: identity-preserve. Edit the ONE referenced visual-novel character sprite. Preserve exact Aleem face identity, warm brown Boyanese Malay skin, short black hair, rectangular glasses, tall lean natural adult proportions, soft semi-realistic cel shading and crisp restrained outlines. Portrait 1024x1536 head to mid-thigh; both hands and all hair fully visible, no props. Keep generous blank margins. ONE character only. Background is entirely flat vivid magenta #FF00FF for alpha matting, no checkerboard, gradients, shadows, floor, text or logos. Keep identical dark forest-green overshirt over cream tee and navy trousers. Change only expression and modest pose to: Playful amused half-smile with one eyebrow slightly raised, as if teasing a close friend.",
+  "source": "C:\\Users\\alsiddiq\\.codex\\generated_images\\01a08a0d-a799-7f80-b3f8-0174d3c99338\\exec-9964d13d-50be-4c2f-8b31-681692c19515.png",
+  "destination": "C:/git/self_projects/return_to_me/art/sources/adulthood/sprites/aleem-uni-amused-master.png",
+  "date": "2026-09-11",
+  "generator": "OpenAI built-in image_gen; exact model unspecified"
+}

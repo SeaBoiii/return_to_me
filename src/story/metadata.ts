@@ -1,6 +1,6 @@
 import type { ChapterDefinition, SpeakerDefinition } from "../engine/types";
 
-export const STORY_REVISION = "school-years-2.0.0";
+export const STORY_REVISION = "school-years-3.0.0";
 
 export const speakers = [
   {
@@ -52,6 +52,26 @@ export const speakers = [
     name: "Mei Lin",
     role: "character",
   },
+  {
+    id: "aleem-adult",
+    name: "Aleem",
+    role: "character",
+  },
+  {
+    id: "jia-wen",
+    name: "Jia Wen",
+    role: "character",
+  },
+  {
+    id: "claire",
+    name: "Claire",
+    role: "character",
+  },
+  {
+    id: "imran",
+    name: "Imran",
+    role: "character",
+  },
 ] as const satisfies readonly SpeakerDefinition[];
 
 export const chapters = [
@@ -92,9 +112,27 @@ export const chapters = [
     startNodeId: "ch5-001",
   },
   {
+    id: "chapter-6",
+    title: "Almost Us",
+    period: "University–December 2021",
+    startNodeId: "ch6-001",
+  },
+  {
+    id: "chapter-7",
+    title: "Just Friends",
+    period: "Working life · February 2023 onward",
+    startNodeId: "ch7-001",
+  },
+  {
+    id: "chapter-8",
+    title: "A Different Journey",
+    period: "January 2026",
+    startNodeId: "ch8-001",
+  },
+  {
     id: "epilogue",
-    title: "Fault Lines",
-    period: "After 2016",
+    title: "Arrival",
+    period: "January 2026",
     startNodeId: "epilogue-001",
   },
 ] as const satisfies readonly ChapterDefinition[];

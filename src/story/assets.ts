@@ -1,4 +1,7 @@
+import { adulthoodBackgroundIds, adulthoodSpriteIds } from "./adulthoodArt";
+
 export const storyBackgroundIds = [
+  ...adulthoodBackgroundIds,
   "bg-primary-classroom",
   "bg-primary-corridor",
   "bg-primary-canteen",
@@ -43,6 +46,7 @@ export const storyBackgroundIds = [
 ] as const;
 
 export const storySpriteAssetIds = [
+  ...adulthoodSpriteIds,
   "aleem-p6-neutral",
   "aleem-p6-smile",
   "aleem-p6-cheerful",

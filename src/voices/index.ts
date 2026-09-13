@@ -107,6 +107,38 @@ export const voiceProfiles = [
       "Age-appropriate teenage voice; diligent, quietly funny, and supportive without romantic implication.",
     synthetic: true,
   },
+  {
+    id: "aleem-adult",
+    speakerId: "aleem-adult",
+    displayName: "Aleem in university and working life",
+    direction:
+      "Natural Singaporean English; a young adult speaking in the moment, warm with friends and hesitant when exposing his feelings. Distinct from the measured retrospective narrator.",
+    synthetic: true,
+  },
+  {
+    id: "jia-wen",
+    speakerId: "jia-wen",
+    displayName: "Jia Wen",
+    direction:
+      "Young adult Singaporean English; lively and familiar with a close friend, becoming quietly surprised and sincere during the confession.",
+    synthetic: true,
+  },
+  {
+    id: "claire",
+    speakerId: "claire",
+    displayName: "Claire",
+    direction:
+      "Adult Singaporean English; easy conversational warmth, with a clear and considerate boundary when discussing her faith and relationships.",
+    synthetic: true,
+  },
+  {
+    id: "imran",
+    speakerId: "imran",
+    displayName: "Imran",
+    direction:
+      "Adult Singaporean English; a steady, practical friend, understated and reassuring about the journey ahead.",
+    synthetic: true,
+  },
 ] as const satisfies readonly VoiceProfile[];
 
 /**

@@ -24,9 +24,9 @@ export default defineConfig(({ mode }) => {
         manifest: {
           id: base,
           lang: "en-SG",
-          name: "Return to Me: The School Years",
+          name: "Return to Me: Before Nurul",
           short_name: "Return to Me",
-          description: "A reflective visual novel about the school years before Nurul.",
+          description: "A reflective visual novel following Aleem from school to working life and a journey to the holy land.",
           theme_color: "#101728",
           background_color: "#090d18",
           display: "standalone",

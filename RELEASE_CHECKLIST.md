@@ -5,12 +5,14 @@ This checklist records the human approvals that automation cannot infer. Keep ev
 ## Story and privacy
 
 - [ ] Aleem has completed the factual and tone read-through.
-- [ ] Alya, Hana, Syafiqa, and Mei Lin remain empathetic pseudonymous portrayals rather than villains or stepping stones.
+- [ ] Alya, Hana, Syafiqa, Mei Lin, Jia Wen, and Claire remain empathetic pseudonymous portrayals rather than villains or stepping stones.
 - [ ] Schools, badges, exact grades, and personal identifiers remain absent.
 - [ ] Family pressure, repeated rejection, relationship breakdown, withdrawal, and the examination setbacks remain mild and do not invent diagnoses, self-harm, or severe events.
 - [ ] Aleem's teenage generalisation about Malay girls is explicitly identified as unfair while his wish for direct communication remains legible.
 - [ ] Daniel and Mei Lin's supposed boundary remain an unconfirmed inference rather than a remembered fact.
-- [ ] The upcoming relationship remains unnamed, unseen, and unjudged in advance.
+- [ ] Jia Wen's question remains unresolved; friendship and effort are not presented as mutual commitment.
+- [ ] Claire's particular religion and the Umrah visiting order remain unspecified.
+- [ ] The story ends at arrival in the holy land; the pilgrimage and answered-prayer reveal remain for the next chapter.
 - [ ] Nurul appears by name only and is not framed as a cure or reward.
 
 ## Character and scene art
@@ -22,6 +24,8 @@ This checklist records the human approvals that automation cannot infer. Keep ev
 - [ ] JC chroma-key removal uses tolerant matting and spill cleanup, with light/dark composite QA; green clothing is handled with a non-green mask or true alpha.
 - [ ] Every background and CG reviewed for period cues, composition, and story tone.
 - [ ] Expression variants checked for identity, age, outfit, body shape, hair, and glasses consistency.
+- [ ] Adulthood artwork reviewed: 26 sprites, 11 backgrounds, and two CGs; Jia Wen reads shorter than Aleem.
+- [ ] `npm run art:adulthood:validate` passes; light/dark contact sheets and desktop/mobile scenes reviewed.
 - [ ] Transparent edges checked on light and dark stages, especially long, braided, and fluffy hair.
 - [ ] No real badge, readable generated text, watermark, trademark, copied Minecraft asset, screenshot, texture, or interface is present.
 - [ ] HTML SMS, server, O-Level, and A-Level results overlays remain legible with screen readers and at mobile sizes.

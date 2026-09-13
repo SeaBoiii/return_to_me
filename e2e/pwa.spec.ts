@@ -1,8 +1,14 @@
 import { expect, test } from '@playwright/test';
 
-import { dismissNotice, openApp } from './helpers';
+import { story } from '../src/story';
+import { adulthoodArtSpecs } from '../src/story/adulthoodArt';
+import { dismissNotice, openApp, SAVE_KEY } from './helpers';
+
+// Each isolated browser installs the full illustrated story before going offline.
+test.setTimeout(60_000);
 
 interface BuiltManifest {
+  readonly name?: string;
   readonly id?: string;
   readonly scope?: string;
   readonly start_url?: string;
@@ -22,6 +28,7 @@ test('publishes nested-path-safe manifest, icons, and service worker', async ({
   const manifestResponse = await page.request.get(manifestUrl);
   expect(manifestResponse.ok()).toBe(true);
   const manifest = (await manifestResponse.json()) as BuiltManifest;
+  expect(manifest.name).toBe('Return to Me: Before Nurul');
   expect(manifest.id).toBe('/return-to-me-test/');
   expect(manifest.scope).toBe('/return-to-me-test/');
   expect(manifest.start_url).toBe('/return-to-me-test/');
@@ -45,7 +52,7 @@ test('publishes nested-path-safe manifest, icons, and service worker', async ({
         (registration) => new URL(registration.scope).pathname,
       ),
       new Promise<string>((resolve) => {
-        window.setTimeout(() => resolve('timeout'), 15_000);
+        window.setTimeout(() => resolve('timeout'), 45_000);
       }),
     ]);
   });
@@ -98,6 +105,52 @@ test('presents offline/install fallback and accepts an install prompt', async ({
   await expect(
     offline.getByRole('button', { name: 'Installed' }),
   ).toBeDisabled();
+});
+
+test('loads all adulthood artwork and resumes arrival without a network connection', async ({ page, context }) => {
+  await openApp(page);
+  await page.evaluate(async () => { await navigator.serviceWorker.ready; });
+  await page.reload();
+  await expect.poll(() => page.evaluate(() => navigator.serviceWorker.controller !== null)).toBe(true);
+  await page.evaluate(({ key, revision }) => {
+    localStorage.setItem(key, JSON.stringify({
+      version: 1,
+      storyId: 'return-to-me-school-years',
+      storyRevision: revision,
+      currentNodeId: 'ch8-012',
+      status: 'playing',
+      history: [],
+      rememberedChoices: {},
+      unlockedChapters: ['prologue', 'chapter-1', 'chapter-2', 'chapter-3', 'chapter-4', 'chapter-5', 'chapter-6', 'chapter-7', 'chapter-8'],
+      seenNodeIds: [],
+      timestamp: Date.now(),
+    }));
+  }, { key: SAVE_KEY, revision: story.revision });
+
+  await context.setOffline(true);
+  await page.reload();
+  await dismissNotice(page);
+  await page.getByRole('button', { name: 'Continue', exact: true }).click();
+  await expect(page.getByText('A Different Journey', { exact: true })).toBeVisible();
+  const reveal = page.getByRole('button', { name: 'Reveal full line' });
+  if (await reveal.isVisible()) await reveal.click();
+  await expect(page.getByLabel('Dialogue', { exact: true })).toContainText('arrived in the holy land');
+
+  const missing = await page.evaluate(async (paths) => {
+    const unavailable: string[] = [];
+    for (const path of paths) {
+      try {
+        const response = await fetch(new URL(path, window.location.href));
+        if (!response.ok || !response.headers.get('content-type')?.startsWith('image/') || (await response.blob()).size === 0) {
+          unavailable.push(path);
+        }
+      } catch {
+        unavailable.push(path);
+      }
+    }
+    return unavailable;
+  }, adulthoodArtSpecs.map((asset) => asset.path));
+  expect(missing).toEqual([]);
 });
 
 test('keeps browser data across a service-worker-safe update check and reload', async ({

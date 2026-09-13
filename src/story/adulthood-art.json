@@ -1,0 +1,25 @@
+{
+  "families": [
+    { "id": "aleem-uni", "name": "Aleem at university", "chapter": "chapter-6", "height": 1050, "expressions": ["neutral", "smile", "amused", "nervous", "jealous", "hurt"] },
+    { "id": "aleem-work", "name": "Aleem during his working years", "chapter": "chapter-7", "height": 1050, "expressions": ["neutral", "smile", "nervous", "hurt", "drained"] },
+    { "id": "aleem-travel", "name": "Aleem preparing for Umrah", "chapter": "chapter-8", "height": 1050, "expressions": ["tired", "tentative", "hopeful"] },
+    { "id": "jia-wen", "name": "Jia Wen, Aleem's petite university friend", "chapter": "chapter-6", "height": 861, "expressions": ["neutral", "smile", "amused", "surprised", "concerned"] },
+    { "id": "claire", "name": "Claire, Aleem's colleague", "chapter": "chapter-7", "height": 977, "expressions": ["neutral", "smile", "amused", "firm", "reflective"] },
+    { "id": "imran", "name": "Imran, Aleem's travelling friend", "chapter": "chapter-8", "height": 1029, "expressions": ["neutral", "encouraging"] }
+  ],
+  "scenes": [
+    { "id": "bg-uni-orientation", "kind": "background", "chapter": "chapter-6", "alt": "An open university courtyard in Singapore, ready for orientation." },
+    { "id": "bg-uni-study", "kind": "background", "chapter": "chapter-6", "alt": "Sheltered campus study tables overlooking tropical greenery." },
+    { "id": "bg-uni-dorm", "kind": "background", "chapter": "chapter-6", "alt": "A modest university dorm room with a desk and space for a visiting friend." },
+    { "id": "bg-uni-dropoff", "kind": "background", "chapter": "chapter-6", "alt": "A quiet residential drop-off in Singapore at dusk." },
+    { "id": "bg-uss-evening", "kind": "background", "chapter": "chapter-6", "alt": "A theme park promenade glowing with December festive lights." },
+    { "id": "bg-office-pantry", "kind": "background", "chapter": "chapter-7", "alt": "An ordinary office pantry where colleagues take a break." },
+    { "id": "bg-city-cafe", "kind": "background", "chapter": "chapter-7", "alt": "A warm city cafe with small tables for two." },
+    { "id": "bg-waterfront-night", "kind": "background", "chapter": "chapter-7", "alt": "An evening waterfront promenade with city lights across the water." },
+    { "id": "bg-adult-bedroom", "kind": "background", "chapter": "chapter-7", "alt": "Aleem's quiet adult bedroom in subdued evening light." },
+    { "id": "bg-airport-departure", "kind": "background", "chapter": "chapter-8", "alt": "An airport departure lounge at the beginning of a long journey." },
+    { "id": "bg-holy-land-arrival", "kind": "background", "chapter": "chapter-8", "alt": "A quiet arrival concourse in the holy land, where Aleem's journey is beginning." },
+    { "id": "cg-jia-wen-boyfriend", "kind": "cg", "chapter": "chapter-6", "alt": "Jia Wen with her boyfriend across campus, an ordinary moment that confirms what Aleem heard." },
+    { "id": "cg-uss-confession", "kind": "cg", "chapter": "chapter-6", "alt": "Aleem and Jia Wen stand apart during his confession beneath the theme park's festive lights." }
+  ]
+}

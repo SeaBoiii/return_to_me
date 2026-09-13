@@ -1,0 +1,9 @@
+{
+  "id": "aleem-uni-nervous",
+  "ref": "art/sources/adulthood/sprites/aleem-uni-neutral-master.png",
+  "prompt": "Use case: identity-preserve. Edit the ONE referenced visual-novel character sprite. Preserve exact Aleem face identity, warm brown Boyanese Malay skin, short black hair, rectangular glasses, tall lean natural adult proportions, soft semi-realistic cel shading and crisp restrained outlines. Portrait 1024x1536 head to mid-thigh; both hands and all hair fully visible, no props. Keep generous blank margins. ONE character only. Background is entirely flat vivid magenta #FF00FF for alpha matting, no checkerboard, gradients, shadows, floor, text or logos. Keep identical dark forest-green overshirt over cream tee and navy trousers. Change only expression and modest pose to: Nervous hesitant expression, slightly drawn brows, mouth about to speak but uncertain; hands loosely together in front, all fingers natural and readable.",
+  "source": "C:\\Users\\alsiddiq\\.codex\\generated_images\\01a08a0d-a799-7f80-b3f8-0174d3c99338\\exec-4b6c18e3-de44-4496-904c-da8ed8fbfae6.png",
+  "destination": "C:/git/self_projects/return_to_me/art/sources/adulthood/sprites/aleem-uni-nervous-master.png",
+  "date": "2026-09-11",
+  "generator": "OpenAI built-in image_gen; exact model unspecified"
+}
