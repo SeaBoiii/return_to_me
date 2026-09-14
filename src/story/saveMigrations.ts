@@ -7,6 +7,8 @@ import type {
 export const SCHOOL_YEARS_V1_REVISION = "school-years-1.0.0";
 export const SCHOOL_YEARS_V2_REVISION = "school-years-2.0.0";
 export const SCHOOL_YEARS_V3_REVISION = "school-years-3.0.0";
+export const BEFORE_NURUL_V3_REVISION = "before-nurul-3.0.0";
+export const SCHOOL_YEARS_V4_REVISION = "school-years-4.0.0";
 
 const OLD_EPILOGUE_CHAPTER_ID = "epilogue";
 const CHAPTER_THREE_ID = "chapter-3";
@@ -68,45 +70,102 @@ export const migrateSchoolYearsV1ToV2: SaveRevisionMigration = (
   };
 };
 
-/** Resume the adulthood expansion without treating the rewritten ending as seen. */
-export const migrateSchoolYearsV2ToV3: SaveRevisionMigration = (
-  save,
-): SaveV1 | undefined => {
-  if (save.storyRevision !== SCHOOL_YEARS_V2_REVISION) {
-    return undefined;
-  }
+const hasNodeProgress = (
+  save: SaveV1,
+  matches: (nodeId: string) => boolean,
+): boolean =>
+  matches(save.currentNodeId) ||
+  save.history.some((entry) => matches(entry.nodeId)) ||
+  save.seenNodeIds.some(matches) ||
+  Object.keys(save.rememberedChoices).some(matches);
 
-  const redirectToChapterSix = isOldEpilogueNode(save.currentNodeId);
-  const oldEpilogueReached =
-    redirectToChapterSix ||
-    save.unlockedChapters.includes(OLD_EPILOGUE_CHAPTER_ID) ||
-    save.history.some((entry) => isOldEpilogueNode(entry.nodeId)) ||
-    save.seenNodeIds.some(isOldEpilogueNode) ||
-    Object.keys(save.rememberedChoices).some(isOldEpilogueNode);
-  const unlockedChapters = save.unlockedChapters.filter(
-    (chapterId) => chapterId !== OLD_EPILOGUE_CHAPTER_ID,
-  );
-  if (oldEpilogueReached && !unlockedChapters.includes("chapter-6")) {
-    unlockedChapters.push("chapter-6");
+/** The school-years ending now opens the first missing chapter: National Service. */
+export const migrateSchoolYearsV2ToV4: SaveRevisionMigration = (save) => {
+  if (save.storyRevision !== SCHOOL_YEARS_V2_REVISION) return undefined;
+
+  const endingReached =
+    save.unlockedChapters.includes("epilogue") ||
+    hasNodeProgress(save, isOldEpilogueNode);
+  const redirect = isOldEpilogueNode(save.currentNodeId);
+  const unlockedChapters = save.unlockedChapters.filter((id) => id !== "epilogue");
+  if (endingReached && !unlockedChapters.includes("chapter-ns")) {
+    unlockedChapters.push("chapter-ns");
   }
 
   return {
     ...save,
-    storyRevision: SCHOOL_YEARS_V3_REVISION,
-    currentNodeId: redirectToChapterSix ? "ch6-001" : save.currentNodeId,
-    status: redirectToChapterSix ? "playing" : save.status,
+    storyRevision: SCHOOL_YEARS_V4_REVISION,
+    currentNodeId: redirect ? "ns-001" : save.currentNodeId,
+    status: redirect ? "playing" : save.status,
     history: save.history.filter((entry) => !isOldEpilogueNode(entry.nodeId)),
     rememberedChoices: Object.fromEntries(
-      Object.entries(save.rememberedChoices).filter(
-        ([nodeId]) => !isOldEpilogueNode(nodeId),
-      ),
+      Object.entries(save.rememberedChoices).filter(([id]) => !isOldEpilogueNode(id)),
     ),
     unlockedChapters,
-    seenNodeIds: save.seenNodeIds.filter((nodeId) => !isOldEpilogueNode(nodeId)),
+    seenNodeIds: save.seenNodeIds.filter((id) => !isOldEpilogueNode(id)),
+  };
+};
+
+/** Adulthood readers keep their exact position and gain access to the inserted chapter. */
+export const migrateSchoolYearsV3ToV4: SaveRevisionMigration = (save) => {
+  if (save.storyRevision !== SCHOOL_YEARS_V3_REVISION) return undefined;
+
+  const adulthoodReached =
+    save.unlockedChapters.some((id) =>
+      ["chapter-6", "chapter-7", "chapter-8", "epilogue"].includes(id),
+    ) || hasNodeProgress(save, (id) => /^(ch[678]-|epilogue-)/u.test(id));
+  const unlockedChapters = [...save.unlockedChapters];
+  if (adulthoodReached && !unlockedChapters.includes("chapter-ns")) {
+    unlockedChapters.push("chapter-ns");
+  }
+  return { ...save, storyRevision: SCHOOL_YEARS_V4_REVISION, unlockedChapters };
+};
+
+const mapBeforeNurulNode = (nodeId: string): string => {
+  if (nodeId.startsWith("ch6-")) return nodeId.replace(/^ch6-/u, "ns-");
+  if (nodeId.startsWith("epilogue-")) {
+    return nodeId.replace(/^epilogue-/u, "uni-arrival-");
+  }
+  return nodeId;
+};
+
+/** Namespace the other v3 edition's IDs without confusing its NS scenes with Almost Us. */
+export const migrateBeforeNurulV3ToV4: SaveRevisionMigration = (save) => {
+  if (save.storyRevision !== BEFORE_NURUL_V3_REVISION) return undefined;
+
+  const completed = hasNodeProgress(save, (id) => id === "epilogue-end");
+  const redirect = save.currentNodeId === "epilogue-end";
+  const unlockedChapters = [...new Set(save.unlockedChapters.map((id) =>
+    id === "chapter-6" || id === "epilogue" ? "chapter-ns" : id,
+  ))];
+  if (completed && !unlockedChapters.includes("chapter-6")) {
+    unlockedChapters.push("chapter-6");
+  }
+  return {
+    ...save,
+    storyRevision: SCHOOL_YEARS_V4_REVISION,
+    currentNodeId: redirect ? "ch6-001" : mapBeforeNurulNode(save.currentNodeId),
+    status: redirect ? "playing" : save.status,
+    history: save.history
+      .filter((entry) => entry.nodeId !== "epilogue-end")
+      .map((entry) => ({
+        ...entry,
+        nodeId: mapBeforeNurulNode(entry.nodeId),
+      })),
+    rememberedChoices: Object.fromEntries(
+      Object.entries(save.rememberedChoices).map(([id, option]) => [mapBeforeNurulNode(id), option]),
+    ),
+    unlockedChapters,
+    // The old card is now a new transition line; it must remain unread.
+    seenNodeIds: save.seenNodeIds
+      .filter((id) => id !== "epilogue-end")
+      .map(mapBeforeNurulNode),
   };
 };
 
 export const schoolYearsSaveMigrations = {
   [SCHOOL_YEARS_V1_REVISION]: migrateSchoolYearsV1ToV2,
-  [SCHOOL_YEARS_V2_REVISION]: migrateSchoolYearsV2ToV3,
+  [SCHOOL_YEARS_V2_REVISION]: migrateSchoolYearsV2ToV4,
+  [SCHOOL_YEARS_V3_REVISION]: migrateSchoolYearsV3ToV4,
+  [BEFORE_NURUL_V3_REVISION]: migrateBeforeNurulV3ToV4,
 } as const satisfies SaveRevisionMigrationRegistry;

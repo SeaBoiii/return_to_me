@@ -1,6 +1,12 @@
 # Adulthood expansion production and review
 
 Return to Me: Before Nurul, story revision `school-years-3.0.0`.
+This records the original adulthood expansion. The combined
+`school-years-4.0.0` edition inserts National Service and first-year university
+before it, so these scenes now appear as Chapters 7–9. Adulthood node IDs and
+artwork remain stable; the earlier university outfit has separate
+`aleem-uni-arrival` runtime assets.
+
 Artwork generated with OpenAI's built-in image generator on 10–11 September
 2026; exact image model unspecified. Final visual review: 13 September 2026.
 Generated art and derivatives are all-rights-reserved project material.

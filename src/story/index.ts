@@ -1,6 +1,8 @@
 import type { StoryDefinition, StoryNode } from "../engine/types";
 import { chapterOneNodes } from "./chapterOne";
 import { chapterFiveNodes } from "./chapterFive";
+import { nationalServiceNodes } from "./chapterNationalService";
+import { universityArrivalNodes } from "./universityArrival";
 import { chapterSixNodes } from "./chapterSix";
 import { chapterSevenNodes } from "./chapterSeven";
 import { chapterEightNodes } from "./chapterEight";
@@ -18,6 +20,8 @@ export const storyNodes = [
   ...chapterThreeNodes,
   ...chapterFourNodes,
   ...chapterFiveNodes,
+  ...nationalServiceNodes,
+  ...universityArrivalNodes,
   ...chapterSixNodes,
   ...chapterSevenNodes,
   ...chapterEightNodes,

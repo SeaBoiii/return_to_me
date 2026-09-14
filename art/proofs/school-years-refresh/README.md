@@ -1,7 +1,8 @@
 # School Years cinematic refresh — first approval gate
 
-Status: **awaiting project-owner approval**. Nothing in this directory is
-deployed or referenced by the story graph.
+Status: **first gate approved on 25 August 2026; production completed**. The
+proof files themselves are not deployed; their approved production derivatives
+are represented in the story graph and promoted asset batch.
 
 This gate contains the eight required identity/outfit anchors and four empty
 environment proofs. Built-in transparent generation returned baked RGB
@@ -36,8 +37,9 @@ anchor.
 - [Late language classroom](bg-language-classroom-late-proof.png)
 - [Results hall v2](bg-results-hall-v2-proof.png)
 
-The scene proofs are native 1672×941 RGB images. They remain unnormalized until
-approval; production masters will be 2048×1152 and deployed WebPs 1600×900.
+The scene proofs are native 1672×941 RGB images. The approved production
+pipeline normalized the selected scenes to 2048×1152 masters and 1600×900
+deployed WebPs while retaining these original proofs for provenance.
 
 ## Prompt and QA records
 
@@ -45,6 +47,7 @@ approval; production masters will be 2048×1152 and deployed WebPs 1600×900.
 - [Chapter 2 characters](chapter-2-prompts.md)
 - [Environment scenes](scene-prompts.md)
 
-Approval authorizes identity-preserving expression sheets, remaining
-backgrounds, and CG production. It does not by itself authorize promotion into
-`public`; the complete 75-asset batch receives a second approval and QA gate.
+This first-gate approval authorized identity-preserving expression sheets,
+remaining backgrounds, and CG production. The complete 75-asset batch later
+received separate promotion approval after its second-gate QA package was
+prepared.

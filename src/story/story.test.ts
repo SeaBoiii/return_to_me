@@ -4,6 +4,7 @@ import { artAssets } from "../art/manifest";
 import { validateStory } from "../engine/validation";
 import type { StoryNode } from "../engine/types";
 import { story } from ".";
+import { stages } from "./stages";
 
 const nextIds = (node: StoryNode): readonly string[] => {
   if (node.type === "line") {
@@ -78,8 +79,107 @@ const stableDigest = (value: unknown): string => {
   return hash.toString(16).padStart(8, "0");
 };
 
+const lineText = (nodeId: string): string => {
+  const node = story.nodes.find((candidate) => candidate.id === nodeId);
+  expect(node?.type, nodeId).toBe("line");
+  return node?.type === "line" ? node.text : "";
+};
+
 describe("production story", () => {
-  it("keeps the expanded release-sized script and exactly fifteen reflective choices", () => {
+  it("retains the dated National Service, POP, ORD, and university milestones", () => {
+    const script = story.nodes
+      .filter((node) => node.type === "line")
+      .map((node) => node.text)
+      .join(" ");
+    expect(script).toMatch(/\bMinecraft\b/);
+    expect(script).toMatch(/\bO(?:-| )Levels?\b/);
+    expect(script).toMatch(/\bA(?:-| )Levels?\b/);
+    expect(script).toMatch(/\bzoo\b/i);
+    expect(script).toMatch(/\bNational Service\b/);
+    expect(script).toMatch(/\bPassing Out Parade\b/);
+    expect(script).toMatch(/\bOperationally Ready Date\b/);
+    expect(script).toMatch(/University began in 2018/);
+    expect(script).toMatch(/\bUniversal Studios Singapore\b/);
+    expect(script).toMatch(/\bInstagram\b/);
+    expect(script).toMatch(/\bNurul\b/);
+  });
+
+  it("keeps observed, reported, acknowledged, and inferred claims distinct", () => {
+    expect(lineText("ns-discovery-join")).toMatch(
+      /three facts remained:[\s\S]*USS[\s\S]*private story[\s\S]*Aisyah said she had history/i,
+    );
+    expect(lineText("ns-035")).toMatch(
+      /I don't want to pretend I know the whole situation/i,
+    );
+    expect(lineText("ns-confrontation-join")).toMatch(
+      /Nadiah acknowledged[\s\S]*first love[\s\S]*remained unresolved/i,
+    );
+    expect(lineText("ns-044")).toMatch(
+      /did not give me the exact sentence[\s\S]*meaning I made/i,
+    );
+    expect(lineText("ns-038")).toMatch(
+      /did not know why Nadiah was not wearing hijab[\s\S]*my immediate inference/i,
+    );
+  });
+
+  it("frames Aleem's alarm as real without endorsing its prejudicial verdict", () => {
+    expect(lineText("ns-050")).toMatch(/prejudice, not revelation/i);
+    expect(lineText("uni-arrival-011")).toMatch(
+      /revealed nothing about the women/i,
+    );
+    expect(lineText("uni-arrival-015")).toMatch(
+      /none of those women had harmed me/i,
+    );
+    expect(lineText("uni-arrival-016")).toMatch(
+      /alarm deserved attention[\s\S]*verdict did not deserve obedience/i,
+    );
+  });
+
+
+  it("keeps reusable stages on manifest art and known speaker identities", () => {
+    const knownAssetIds = new Set(artAssets.map((asset) => asset.id));
+    const knownCharacterIds = new Set<string>(
+      story.speakers.map((speaker) => speaker.id),
+    );
+
+    for (const [stageId, stage] of Object.entries(stages)) {
+      expect(knownAssetIds.has(stage.backgroundId), stageId).toBe(true);
+      for (const sprite of stage.sprites) {
+        expect(knownAssetIds.has(sprite.assetId), `${stageId}:${sprite.id}`).toBe(
+          true,
+        );
+        expect(
+          knownCharacterIds.has(sprite.characterId),
+          `${stageId}:${sprite.id}:characterId`,
+        ).toBe(true);
+      }
+    }
+  });
+
+  it("uses social and intrusive overlays only as bounded, labelled context", () => {
+    const overlaidNodes = story.nodes.filter(
+      (node) => node.stage.overlay !== undefined,
+    );
+    for (const node of overlaidNodes) {
+      expect(node.stage.overlay?.label.trim(), node.id).not.toBe("");
+      expect(node.stage.overlay?.lines.length, node.id).toBeGreaterThan(0);
+    }
+
+    const revealOverlay = story.nodes.find(
+      (node) => node.id === "ns-036",
+    )?.stage.overlay;
+    expect(revealOverlay?.kind).toBe("social");
+    expect(revealOverlay?.lines).toContain("Her reason is unknown.");
+
+    const threatOverlay = story.nodes.find(
+      (node) => node.id === "uni-arrival-009",
+    )?.stage.overlay;
+    expect(threatOverlay?.kind).toBe("intrusive");
+    expect(threatOverlay?.label).toMatch(/subjective[\s\S]*not facts/i);
+  });
+
+
+  it("keeps the expanded release-sized script and exactly eighteen reflective choices", () => {
     const lineWords = story.nodes.reduce((total, node) => {
       if (node.type !== "line") {
         return total;
@@ -88,9 +188,9 @@ describe("production story", () => {
     }, 0);
     const choices = story.nodes.filter((node) => node.type === "choice");
 
-    expect(story.nodes).toHaveLength(502);
-    expect(lineWords).toBeGreaterThanOrEqual(14_000);
-    expect(lineWords).toBeLessThanOrEqual(15_000);
+    expect(story.nodes).toHaveLength(604);
+    expect(lineWords).toBeGreaterThanOrEqual(16_500);
+    expect(lineWords).toBeLessThanOrEqual(17_500);
     expect(choices.map((node) => node.id)).toEqual([
       "ch1-choice-sms",
       "ch2-choice-wingman",
@@ -102,6 +202,9 @@ describe("production story", () => {
       "ch3-choice-belief",
       "ch4-choice-search",
       "ch5-choice-zoo",
+      "ns-choice-discovery",
+      "ns-choice-confrontation",
+      "uni-arrival-choice-threat-scan",
       "ch6-choice-silence",
       "ch6-choice-question",
       "ch6-choice-farewell",
@@ -112,7 +215,7 @@ describe("production story", () => {
   });
 
   it("preserves every authored node, line, choice, and graph link during art refreshes", () => {
-    expect(stableDigest(story.nodes.map(narrativeContract))).toBe("4cb64106");
+    expect(stableDigest(story.nodes.map(narrativeContract))).toBe("3a59c6d5");
   });
 
   it("reconverges every choice before the next milestone", () => {
@@ -128,6 +231,9 @@ describe("production story", () => {
       ["ch3-choice-belief", "ch3-belief-join"],
       ["ch4-choice-search", "ch4-search-join"],
       ["ch5-choice-zoo", "ch5-zoo-join"],
+      ["ns-choice-discovery", "ns-discovery-join"],
+      ["ns-choice-confrontation", "ns-confrontation-join"],
+      ["uni-arrival-choice-threat-scan", "uni-arrival-threat-scan-join"],
       ["ch6-choice-silence", "ch6-silence-join"],
       ["ch6-choice-question", "ch6-question-join"],
       ["ch6-choice-farewell", "ch6-farewell-join"],
@@ -153,8 +259,10 @@ describe("production story", () => {
 
   it("takes every adulthood route through university, working life, and arrival in order", () => {
     const nodeById = new Map(story.nodes.map((node) => [node.id, node]));
-    expect(nodeById.get("ch5-038")).toMatchObject({ type: "line", next: "ch6-001" });
+    expect(nodeById.get("ch5-038")).toMatchObject({ type: "line", next: "ns-001" });
     for (const [startId, nextMilestone] of [
+      ["ns-001", "uni-arrival-001"],
+      ["uni-arrival-001", "ch6-001"],
       ["ch6-001", "ch7-001"],
       ["ch7-001", "ch8-001"],
       ["ch8-001", "epilogue-001"],
@@ -212,6 +320,7 @@ describe("production story", () => {
   });
 
   it("keeps the pilgrimage lead-in short and ends on the arrival scene", () => {
+    expect(story.nodes.filter((node) => node.type === "end").map((node) => node.id)).toEqual(["epilogue-end"]);
     const university = story.nodes.filter((node) => node.chapterId === "chapter-6");
     const workingLife = story.nodes.filter((node) => node.chapterId === "chapter-7");
     const journey = story.nodes.filter((node) => node.chapterId === "chapter-8");
@@ -276,6 +385,7 @@ describe("production story", () => {
       "2014",
       "2014–2015",
       "2016",
+      "2016–2018",
       "University–December 2021",
       "Working life · February 2023 onward",
       "January 2026",

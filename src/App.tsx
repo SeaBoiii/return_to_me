@@ -176,6 +176,7 @@ function Stage({ node, reducedMotion }: { node: StoryNode; reducedMotion: boolea
             styles[`overlay_${node.stage.overlay.kind}`]
           }`}
           aria-label={node.stage.overlay.label}
+          data-overlay-kind={node.stage.overlay.kind}
         >
           {node.stage.overlay.title !== undefined && (
             <h3>{node.stage.overlay.title}</h3>
@@ -250,8 +251,12 @@ function Notice({ onContinue }: { onContinue: () => void }) {
           <span>Content note</span>
           <p>
             Family pressure, repeated romantic rejection, relationship
-            breakdown, academic disappointment, and periods of emotional
-            withdrawal. Exact examination grades are not shown.
+            breakdown and perceived deception, academic disappointment,
+            prejudicial thoughts involving ethnicity and religious dress,
+            panic-like physical distress, and periods of emotional withdrawal.
+            Harmful conclusions are presented as Aleem’s thoughts, not as facts,
+            and no medical diagnosis is made. Exact examination grades are not
+            shown.
           </p>
         </div>
         <p className={styles.smallPrint}>
@@ -322,8 +327,8 @@ function TitleScreen({
         </h1>
         <p className={styles.subtitle}>{story.subtitle}</p>
         <p className={styles.titleSummary}>
-          School corridors, university afternoons, and the company we hope will
-          last. Follow Aleem through love, disappointment, and a different journey.
+          School corridors, National Service, university afternoons, and working
+          life. Follow Aleem through love, disappointment, and a different journey.
         </p>
 
         {storageMessage !== undefined && (
@@ -1237,9 +1242,12 @@ function CreditsPanel({ onClose }: { readonly onClose: () => void }) {
           <p className={styles.eyebrow}>Story</p>
           <h3>{story.title}: {story.subtitle}</h3>
           <p>
-            Inspired by Aleem’s life journey. Former-partner names are
-            pseudonyms; schools and identifying details remain fictionalised.
-            Nurul appears by name only.
+            Inspired by Aleem’s life journey from 2009 to 2026. Former-partner
+            and friend names are pseudonyms; dialogue is reconstructed, and
+            schools and identifying details remain fictionalised. The story
+            distinguishes observed, reported, and inferred details without
+            treating ethnicity or religious dress as moral evidence. It ends
+            before Aleem meets Nurul.
           </p>
         </section>
         <section>
@@ -1248,8 +1256,8 @@ function CreditsPanel({ onClose }: { readonly onClose: () => void }) {
           <p>
             Created for this project with OpenAI’s built-in image generation
             workflow, then cropped, keyed, and optimised locally. No school
-            badges, generated readable text, copied game UI, screenshots, or
-            trademarks are used.
+            badges, unit insignia, generated readable text, copied social-media
+            or game UI, screenshots, logos, or trademarks are used.
           </p>
         </section>
         <section>

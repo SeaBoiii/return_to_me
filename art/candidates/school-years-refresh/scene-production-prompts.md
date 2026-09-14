@@ -2,9 +2,9 @@
 
 Generated on 25 August 2026 with OpenAI's built-in image-generation tool.
 The tool exposed no exact model name or version, so the generator is recorded
-as **unspecified**. These are second-gate candidates only. Nothing in this
-folder is deployed or connected to the story until the final contact-sheet
-approval.
+as **unspecified**. These PNGs were the second-gate inputs for the batch whose
+processed masters and deploy WebPs were approved and promoted on 25 August
+2026. The application serves the promoted copies, not these raw inputs.
 
 ## Inventory and lineage
 
@@ -19,7 +19,7 @@ All paths in the table are relative to
 | `backgrounds/bg-boys-school-corridor.png` | background | Fresh generation in the approved school style |
 | `backgrounds/bg-boys-classroom-overcast.png` | background | Identity-preserving weather/lighting edit of `art/sources/bg-boys-classroom-master.png` |
 | `backgrounds/bg-language-classroom-late.png` | background | Exact approved proof copy; identity-preserving lighting edit of `art/sources/bg-language-classroom-master.png` |
-| `backgrounds/bg-language-corridor-rain.png` | background | Repurposed source composition from `art/sources/bg-results-hall-master.png`; the old corridor already matched this new narrative use |
+| `backgrounds/bg-language-corridor-rain.png` | background | Byte-for-byte copy of the pre-refresh `art/sources/bg-results-hall-master.png` composition (Git blob `82fe2a617534576ffd8531ead53748833895267b`); this candidate preserves that old corridor after the canonical results-hall path received its approved replacement |
 | `backgrounds/bg-results-hall.png` | background | Exact approved replacement proof copy from `art/proofs/school-years-refresh/bg-results-hall-v2-proof.png` |
 | `cg/cg-wrong-message.png` | CG | Identity-preserving composition using young-home Aleem and the 2009 bedroom; a second edit removed an unwanted generated dialogue panel |
 | `cg/cg-first-confession.png` | CG | Composition using the approved Primary 6 Aleem and Alya anchors plus the primary corridor source |
@@ -145,5 +145,6 @@ cache path.
   accessible HTML overlays remain authoritative.
 - The wrong-message and exam CGs were deliberately revised after inspection;
   only the corrected versions are in the candidate set.
-- These RGB scene candidates still require deterministic crop/resize,
-  contact-sheet inspection, and final approval before promotion.
+- These raw RGB scene inputs were deterministically cropped/resized and
+  included in the documented contact-sheet QA before promotion. Any regenerated
+  scene must repeat those steps and receive a new promotion approval.

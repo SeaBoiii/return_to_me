@@ -130,6 +130,11 @@ describe("Return to Me application shell", () => {
     expect(
       within(notice).getByText(/Exact examination grades are not shown/),
     ).toBeInTheDocument();
+    expect(
+      within(notice).getByText(
+        /Harmful conclusions are presented as Aleem’s thoughts/,
+      ),
+    ).toBeInTheDocument();
 
     await user.keyboard("{Escape}");
     expect(notice).toBeInTheDocument();
@@ -139,7 +144,8 @@ describe("Return to Me application shell", () => {
     expect(
       screen.getByRole("heading", { level: 1, name: "Return to Me" }),
     ).toBeInTheDocument();
-    expect(screen.getByText("Before Nurul")).toBeInTheDocument();
+    expect(screen.getByText(story.subtitle ?? "Before Nurul")).toBeInTheDocument();
+    expect(screen.getByText(/Singapore · 2009–2026/)).toBeInTheDocument();
     expect(
       screen.getByRole("navigation", { name: "Game options" }),
     ).toBeInTheDocument();
@@ -328,6 +334,70 @@ describe("Return to Me application shell", () => {
     expect(alya).toHaveAttribute("data-mirrored", "true");
     expect(alya?.style.transform).toContain("scaleX(-1)");
   });
+
+  it.each(["social", "intrusive"] as const)(
+    "renders the %s overlay as labelled, selectable HTML",
+    async (kind) => {
+      persistSettings({ textSpeedMs: 0, reducedMotion: kind === "intrusive" });
+      const node = story.nodes.find(
+        (candidate) => candidate.stage.overlay?.kind === kind,
+      );
+      if (node === undefined || node.stage.overlay === undefined) {
+        throw new Error(`Expected a ${kind} overlay in the production story.`);
+      }
+      persistSave(node.id);
+
+      const user = userEvent.setup();
+      const { container } = renderApp();
+      await dismissNotice(user);
+      await user.click(screen.getByRole("button", { name: "Continue" }));
+
+      const overlay = screen.getByRole("region", {
+        name: node.stage.overlay.label,
+      });
+      expect(overlay).toHaveAttribute("data-overlay-kind", kind);
+      for (const overlayLine of node.stage.overlay.lines) {
+        expect(
+          within(overlay).getByText(overlayLine, { exact: true }),
+        ).toBeInTheDocument();
+      }
+
+      const stage = screen.getByRole("figure", { name: /Scene:/ });
+      if (kind === "intrusive") {
+        expect(stage.className).toMatch(/noMotion/);
+      }
+
+      const results = await axe.run(container, {
+        rules: { "color-contrast": { enabled: false } },
+      });
+      expect(
+        results.violations.filter(
+          (violation) =>
+            violation.impact === "critical" || violation.impact === "serious",
+        ),
+      ).toEqual([]);
+    },
+  );
+
+  it("shows the arrival continuation with the current story subtitle", async () => {
+    persistSettings({ textSpeedMs: 0 });
+    persistSave("epilogue-end");
+    const user = userEvent.setup();
+    renderApp();
+    await dismissNotice(user);
+    await user.click(screen.getByRole("button", { name: "Continue" }));
+
+    const ending = screen.getByRole("region", { name: "To be continued" });
+    expect(
+      within(ending).getByText(story.subtitle ?? "Before Nurul"),
+    ).toBeInTheDocument();
+    expect(
+      within(ending).getByText(
+        "The journey in the holy land begins in the next chapter.",
+      ),
+    ).toBeInTheDocument();
+  });
+
   it("keeps mobile controls semantic, labelled, and free of serious axe violations", async () => {
     Object.defineProperty(window, "innerWidth", {
       configurable: true,

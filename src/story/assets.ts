@@ -43,6 +43,14 @@ export const storyBackgroundIds = [
   "cg-shared-earpiece",
   "cg-syafiqa-sighting",
   "cg-zoo-distance",
+  "bg-raya-living-room-2016",
+  "bg-ns-camp-gate",
+  "bg-ns-bunk-night",
+  "bg-university-lecture-theatre",
+  "bg-university-corridor",
+  "cg-raya-first-sight",
+  "cg-relationship-montage",
+  "cg-close-friends-reveal",
 ] as const;
 
 export const storySpriteAssetIds = [
@@ -121,6 +129,24 @@ export const storySpriteAssetIds = [
   "mei-lin-casual-smile",
   "mei-lin-casual-animated",
   "mei-lin-casual-guarded",
+  "aleem-ns-neutral",
+  "aleem-ns-proud",
+  "aleem-ns-warm",
+  "aleem-ns-stunned",
+  "aleem-ns-hurt",
+  "aleem-ns-numb",
+  "aleem-raya-awed",
+  "aleem-raya-shy-smile",
+  "aleem-uni-arrival-neutral",
+  "aleem-uni-arrival-guarded",
+  "aleem-uni-arrival-frozen",
+  "aleem-uni-arrival-overwhelmed",
+  "aleem-uni-arrival-breathless",
+  "nadiah-neutral",
+  "nadiah-warm",
+  "nadiah-amused",
+  "nadiah-thoughtful",
+  "nadiah-guarded",
 ] as const;
 
 export const storyAssetIds = [

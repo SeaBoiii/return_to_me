@@ -2,8 +2,9 @@
 
 Generated on 25 August 2026 with OpenAI's built-in image-generation tool. The
 tool did not expose an exact model name or version, so the generator is recorded
-as **unspecified**. These are second-gate candidates only. They are not matted,
-normalized, deployed, or referenced by the story.
+as **unspecified**. These PNGs were the second-gate inputs for the batch whose
+processed derivatives were approved and promoted on 25 August 2026. The raw
+inputs remain opaque and are not served directly by the application.
 
 ## Final candidate status
 
@@ -19,6 +20,9 @@ and three byte-for-byte approved-anchor reuses.
 
 All relative candidate paths above are rooted at
 `art/candidates/school-years-refresh/`.
+
+Per-output generator filenames were not retained for this subset. The selected
+committed PNG blobs and their Git history are the authoritative output record.
 
 ## Canonical edit prompt
 
@@ -87,12 +91,13 @@ transparency pattern.
   candidate preserves the approved specification.
 - The RGB chroma fields contain no checkerboard, scene, floor, or subject shadow,
   but—like the approved proofs—the generated magenta is not one mathematically
-  constant RGB value and darkens slightly toward some corners. Production must
-  use border-connected tolerant magenta matting, despill, and edge inspection
+  constant RGB value and darkens slightly toward some corners. Production used
+  border-connected tolerant magenta matting, despill, and edge inspection
   against black, white, and teal before promotion.
 - Primary 6 and home-clothes Aleem retain their approved 1086×1448 native
-  framing; Alya candidates are 1024×1536. These are source candidates, not the
-  required normalized 1024×1536 transparent masters or 768×1152 deployed
+  framing; Alya candidates are 1024×1536. The approved pipeline normalized
+  these raw inputs to 1024×1536 transparent masters and 768×1152 deployed
   sprites.
-- Nothing from this candidate set has been copied to `public` or connected to
-  story stages.
+- The approved processed derivatives are now canonical under `art/sources` and
+  deployed under `public/assets/art`; story stages reference those promoted
+  WebPs, never these raw keyed PNGs.

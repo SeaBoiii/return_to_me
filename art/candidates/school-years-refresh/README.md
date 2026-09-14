@@ -1,12 +1,17 @@
 # Chapters 1-2 cinematic art refresh candidates
 
-Status: **second approval gate; not deployed**.
+Status: **approved and deployed on 25 August 2026**.
 
-This directory contains the complete candidate input set for the School Years
+This directory preserves the complete approved input set for the School Years
 refresh. Production processing writes normalized transparent masters, deploy-
-sized WebP candidates, validation reports, and contact sheets beneath
-`processed/` and `qa/`. Nothing here may be copied to `public` or used to
-replace `art/sources` until the final batch is approved.
+sized WebPs, validation reports, and contact sheets beneath `processed/` and
+`qa/`. After final owner approval, the complete batch was promoted atomically:
+63 new, replacement, or normalized masters became canonical under
+`art/sources`; the 12 retained background originals stayed canonical; and all
+75 deploy WebPs were synchronized to `public/assets/art`.
+
+Future regenerations remain candidates and must not replace the canonical or
+deployed copies until they pass the same approval gate again.
 
 ## Final-gate inventory
 
@@ -25,9 +30,11 @@ replace `art/sources` until the final batch is approved.
 - `scene-production-prompts.md`: backgrounds, CGs, references, revisions, and
   built-in generator provenance.
 
-## Approval rule
+## Approval record
 
-The final owner review uses contact sheets for the complete sprite, background,
-and CG inventories; sprite composites against black, white, and teal; a stature
-lineup; and close checks of braids, long/fluffy hair, glasses, hands, alpha
-edges, identity, and age treatment. Promotion happens only after that review.
+The project owner approved promotion of the complete 75-asset batch on
+25 August 2026 after the documented QA package was prepared. That package
+contains the full sprite, background, and CG contact sheets; sprite composites
+against black, white, and teal; the stature lineup; and close checks of braids,
+long/fluffy hair, glasses, hands, alpha edges, identity, and age treatment.
+Broader release-review items remain tracked separately in `RELEASE_CHECKLIST.md`.

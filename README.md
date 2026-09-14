@@ -1,8 +1,10 @@
 # Return to Me: Before Nurul
 
-A responsive, installable visual novel following Aleem from school in Singapore through university, working life, and his arrival in the holy land in January 2026, before he meets Nurul. Fifteen reflective choices change immediate dialogue while preserving the remembered milestones.
+A responsive, installable visual novel following Aleem from school and National Service in Singapore through university, working life, and his arrival in the holy land in January 2026, before he meets Nurul. Eighteen reflective choices change immediate dialogue while preserving the remembered milestones.
 
-The adulthood expansion adds **Almost Us**, **Just Friends**, and the short lead-in **A Different Journey**. Jia Wen, Claire, and Imran are pseudonyms. The story stops at arrival; the prayers, fuller Umrah journey, and what follows belong to a later chapter. Earlier-edition saves migrate automatically to the first unread expansion, retaining prior choices and chapter progress.
+**The Story I Wasn’t In** and its university arrival sequence lead into **Almost Us**, **Just Friends**, and the short lead-in **A Different Journey**. The story stops at arrival in the holy land; the prayers, fuller Umrah journey, and what follows belong to a later chapter.
+
+The combined revision is `school-years-4.0.0`. Saves from both `school-years-3.0.0` (adulthood) and `before-nurul-3.0.0` (National Service) migrate automatically, retaining choices and replay positions. Earlier school-years editions still resume at their first unread expansion. Existing adulthood node IDs remain stable; the inserted National Service and university arrival nodes use separate namespaces.
 
 ## Local development
 
@@ -82,6 +84,25 @@ Generated masters, prompts, anchor relationships, processing notes, and provenan
 
 The approved JC expansion proof batch is in [art/proofs/jc-expansion](art/proofs/jc-expansion/README.md). The complete 27-sprite, nine-background, and three-CG production brief and QA record are in [art/prompts/jc-production.md](art/prompts/jc-production.md). The processed batch passed physical validation, manifest coverage, and final manual visual/tone QA on 25 August 2026 and is release-ready.
 
+The complete School Years refresh (47 sprites, 20 backgrounds, and eight CGs)
+passed physical validation and received owner approval for promotion on
+25 August 2026. Its
+[production and approval record](art/candidates/school-years-refresh/README.md)
+and [QA sheets](art/candidates/school-years-refresh/qa/README.md) remain with
+the reproducible candidate inputs; approved masters and deploy WebPs are
+promoted to `art/sources` and `public/assets/art` respectively.
+
+Chapter 6, **The Story I Wasn’t In**, uses a separate candidate and QA batch so
+the locked School Years inventory remains reproducible. Its National Service,
+Hari Raya, relationship, and university-threshold visuals follow the same
+proof, approval, deterministic processing, contact-sheet QA, and promotion
+gates without copying social-media interfaces, logos, unit insignia, or
+identifying text. All 26 assets passed physical validation and the nine-sheet
+QA review before promotion on 25 August 2026; the reproducible
+[batch record](art/candidates/chapter-six/README.md) and
+[prompt record](art/candidates/chapter-six/generation-prompts.md) remain in the
+repository.
+
 After processing JC art, run `python -B scripts/validate-jc-art.py` to verify
 source/deployed dimensions, sprite alpha and transparent corners, relative
 stature calibration, alignment, and precache-size limits. Manual visual and
@@ -103,6 +124,6 @@ Before publishing, complete [RELEASE_CHECKLIST.md](RELEASE_CHECKLIST.md), includ
 
 ## Content and rights
 
-This project is inspired by remembered events. Names, dialogue, schools, and some details are fictionalized. Former-partner and new supporting-character names are pseudonyms; exact grades and personal identifiers are omitted. Nurul is mentioned by name but does not appear in the scenes.
+This project is inspired by remembered events and is told from Aleem's perspective. Names, dialogue, schools, and some details are fictionalized or reconstructed. Nadiah, Aisyah, Hakim, Jia Wen, Claire, Imran, and other former-partner or friend names are pseudonyms; exact grades and personal identifiers are omitted. The other men remain unnamed, and the story assigns no motive to Nadiah's choice not to wear hijab. Nurul is mentioned by name but does not appear in the scenes.
 
 Narrative, generated artwork, and imported voice assets are all rights reserved by default unless a specific license record states otherwise. There is no backend, account, analytics, or tracking.

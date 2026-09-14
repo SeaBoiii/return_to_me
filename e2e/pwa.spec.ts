@@ -1,7 +1,7 @@
 import { expect, test } from '@playwright/test';
 
 import { story } from '../src/story';
-import { adulthoodArtSpecs } from '../src/story/adulthoodArt';
+import { createArtAssetManifest } from '../src/story/artManifest';
 import { dismissNotice, openApp, SAVE_KEY } from './helpers';
 
 // Each isolated browser installs the full illustrated story before going offline.
@@ -10,6 +10,8 @@ test.setTimeout(60_000);
 interface BuiltManifest {
   readonly name?: string;
   readonly id?: string;
+  readonly short_name?: string;
+  readonly description?: string;
   readonly scope?: string;
   readonly start_url?: string;
   readonly icons?: ReadonlyArray<{
@@ -24,12 +26,20 @@ test('publishes nested-path-safe manifest, icons, and service worker', async ({
 }) => {
   await openApp(page);
 
+  await expect(page).toHaveTitle(/Return to Me.*Before Nurul/);
+  await expect(page.locator('meta[name="description"]')).toHaveAttribute(
+    'content',
+    /working life and a journey to the holy land/,
+  );
+
   const manifestUrl = new URL('manifest.webmanifest', page.url()).href;
   const manifestResponse = await page.request.get(manifestUrl);
   expect(manifestResponse.ok()).toBe(true);
   const manifest = (await manifestResponse.json()) as BuiltManifest;
   expect(manifest.name).toBe('Return to Me: Before Nurul');
   expect(manifest.id).toBe('/return-to-me-test/');
+  expect(manifest.short_name).toBe('Return to Me');
+  expect(manifest.description).toMatch(/working life and a journey to the holy land/);
   expect(manifest.scope).toBe('/return-to-me-test/');
   expect(manifest.start_url).toBe('/return-to-me-test/');
   expect(manifest.icons).toEqual(
@@ -107,7 +117,7 @@ test('presents offline/install fallback and accepts an install prompt', async ({
   ).toBeDisabled();
 });
 
-test('loads all adulthood artwork and resumes arrival without a network connection', async ({ page, context }) => {
+test('loads both merged art batches and resumes arrival without a network connection', async ({ page, context }) => {
   await openApp(page);
   await page.evaluate(async () => { await navigator.serviceWorker.ready; });
   await page.reload();
@@ -121,7 +131,7 @@ test('loads all adulthood artwork and resumes arrival without a network connecti
       status: 'playing',
       history: [],
       rememberedChoices: {},
-      unlockedChapters: ['prologue', 'chapter-1', 'chapter-2', 'chapter-3', 'chapter-4', 'chapter-5', 'chapter-6', 'chapter-7', 'chapter-8'],
+      unlockedChapters: ['prologue', 'chapter-1', 'chapter-2', 'chapter-3', 'chapter-4', 'chapter-5', 'chapter-ns', 'chapter-6', 'chapter-7', 'chapter-8'],
       seenNodeIds: [],
       timestamp: Date.now(),
     }));
@@ -149,7 +159,9 @@ test('loads all adulthood artwork and resumes arrival without a network connecti
       }
     }
     return unavailable;
-  }, adulthoodArtSpecs.map((asset) => asset.path));
+  }, createArtAssetManifest('/return-to-me-test/').filter((asset) =>
+    ['chapter-ns', 'chapter-6', 'chapter-7', 'chapter-8'].includes(asset.preloadGroup ?? ''),
+  ).map((asset) => asset.url));
   expect(missing).toEqual([]);
 });
 

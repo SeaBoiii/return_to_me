@@ -447,6 +447,98 @@
   background: transparent;
 }
 
+.overlay_social {
+  top: clamp(5.5rem, 13%, 8rem);
+  right: clamp(1rem, 6vw, 6rem);
+  left: auto;
+  width: min(390px, 44vw);
+  border-color: rgb(226 232 240 / 30%);
+  border-radius: 22px;
+  color: #eef2f6;
+  background:
+    linear-gradient(155deg, rgb(29 34 44 / 96%), rgb(10 15 24 / 96%));
+}
+
+.overlay_social h3 {
+  color: #d7dee7;
+  letter-spacing: 0.04em;
+  text-transform: none;
+}
+
+.overlay_social p {
+  max-width: 88%;
+  border: 1px solid rgb(255 255 255 / 8%);
+  border-radius: 13px 13px 13px 4px;
+  color: #f5f7f9;
+  background: #283443;
+  overflow-wrap: anywhere;
+}
+
+.overlay_social p:nth-of-type(even) {
+  margin-left: auto;
+  border-radius: 13px 13px 4px;
+  background: #315a56;
+}
+
+.overlay_intrusive {
+  top: clamp(5.5rem, 16%, 9rem);
+  right: clamp(1rem, 7vw, 7rem);
+  left: auto;
+  display: grid;
+  width: min(520px, 52vw);
+  padding: 0;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  pointer-events: none;
+  backdrop-filter: none;
+}
+
+.overlay_intrusive h3 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.overlay_intrusive p {
+  width: fit-content;
+  max-width: min(100%, 32rem);
+  margin: 0.32rem 0;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid rgb(255 108 108 / 38%);
+  border-radius: 3px;
+  color: #ffd0d0;
+  background: rgb(49 5 12 / 82%);
+  box-shadow: 0 7px 24px rgb(32 0 5 / 42%);
+  font-weight: 750;
+  letter-spacing: 0.025em;
+  text-shadow: 0 1px 8px #3b0008;
+  animation: intrusiveThought 2.4s ease-in-out infinite alternate;
+}
+
+.overlay_intrusive p:nth-of-type(even) {
+  justify-self: end;
+  animation-delay: -1.1s;
+}
+
+.overlay_intrusive p:nth-of-type(3n) {
+  margin-left: 12%;
+  animation-delay: -1.8s;
+}
+
+.noMotion .overlay_intrusive p {
+  margin-left: 0;
+  animation: none !important;
+  opacity: 1;
+  transform: none;
+}
+
 .gameHeader {
   position: absolute;
   z-index: 12;
@@ -1394,6 +1486,20 @@
   }
 }
 
+@keyframes intrusiveThought {
+  0% {
+    opacity: 0.62;
+    transform: translate3d(-5px, 1px, 0) rotate(-0.35deg);
+  }
+  45% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.78;
+    transform: translate3d(7px, -2px, 0) rotate(0.35deg);
+  }
+}
+
 @media (max-width: 720px) {
   .titleContent {
     margin-top: 2rem;
@@ -1448,6 +1554,23 @@
     left: 0.7rem;
     width: min(82vw, 320px);
     padding: 0.7rem;
+  }
+
+  .overlay_social,
+  .overlay_intrusive {
+    right: 0.7rem;
+    left: 0.7rem;
+    width: auto;
+    max-width: calc(100vw - 1.4rem);
+  }
+
+  .overlay_social {
+    max-height: min(46dvh, 330px);
+    overflow-y: auto;
+  }
+
+  .overlay_intrusive {
+    top: 17%;
   }
 
   .stageOverlay p {
@@ -1557,6 +1680,15 @@
     right: 0.6rem;
     bottom: 0.6rem;
     left: 0.6rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .overlay_intrusive p {
+    margin-left: 0;
+    animation: none;
+    opacity: 1;
+    transform: none;
   }
 }
 

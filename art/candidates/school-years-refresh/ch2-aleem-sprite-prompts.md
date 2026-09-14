@@ -3,9 +3,9 @@
 Generated on 25 August 2026 with OpenAI's default built-in image generator.
 The tool did not expose an exact model name or version, so the generator is
 recorded as **unspecified**. This batch was produced only after the project
-owner approved the first proof gate. Every file remains a magenta-key
-candidate outside `public`; none is a normalized transparent master or a
-deployed sprite.
+owner approved the first proof gate. These PNGs remain the magenta-key raw
+inputs; their processed transparent masters and deploy WebPs were approved and
+promoted on 25 August 2026.
 
 ## Authoritative references
 
@@ -136,12 +136,12 @@ Avoid: redesigning or aging Aleem, oversized anime eyes, broad or muscular build
   glasses, warm skin tone, tall skinny build, age, outfit, and future JC
   continuity remain recognizable across the batch.
 - All accepted poses show complete hair, arms, and hands. The clasped-hand
-  guilty/regretful poses and the embarrassed cheek shading should receive the
-  planned high-resolution final contact-sheet review after chroma matting.
+  guilty/regretful poses and the embarrassed cheek shading have focused crops
+  in the final high-resolution contact-sheet QA package after chroma matting.
 - Expressions remain readable and distinct without melodramatic devastation.
   No candidate contains scenery, a checkerboard, props, extra people, readable
   text, school identifiers, badges, logos, trademarks, watermarks, mature
   styling, or sexualized treatment.
-- These RGB candidates are not deployable. They require tolerant
-  border-connected matting, magenta-spill cleanup, stature/baseline alignment,
-  alpha-edge inspection, and final-owner approval before any promotion.
+- These RGB inputs are not deployed directly. Their approved derivatives were
+  produced with tolerant border-connected matting, magenta-spill cleanup,
+  stature/baseline alignment, and alpha-edge inspection before promotion.

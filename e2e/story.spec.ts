@@ -19,6 +19,8 @@ test('shows the factual notice and starts a new story', async ({ page }) => {
   await expect(notice).toContainText('Inspired by real events');
   await expect(notice).toContainText('Family pressure');
   await expect(notice).toContainText(/relationship breakdown/i);
+  await expect(notice).toContainText(/prejudicial thoughts/i);
+  await expect(notice).toContainText(/Aleem’s thoughts, not as facts/i);
   await expect(notice).toContainText('Exact examination grades are not shown');
 
   await dismissNotice(page);
@@ -30,7 +32,7 @@ test('shows the factual notice and starts a new story', async ({ page }) => {
   ).toBeDisabled();
 
   await page.getByRole('button', { name: 'New Game', exact: true }).click();
-  await expect(page.getByLabel('Dialogue')).toContainText(
+  await expect(page.getByLabel('Dialogue', { exact: true })).toContainText(
     'Inspired by real events',
   );
   await expect(page.getByText('Before Nurul', { exact: true })).toBeVisible();
@@ -63,7 +65,7 @@ test('autosaves an advanced line and restores it through Continue', async ({
   await expect(continueButton).toBeEnabled();
   await continueButton.click();
 
-  await expect(page.getByLabel('Dialogue')).toContainText(
+  await expect(page.getByLabel('Dialogue', { exact: true })).toContainText(
     'Content note: this story includes family pressure',
   );
   await expect(
@@ -112,7 +114,7 @@ test('records a reflective choice and reconverges on the true-life milestone', a
   await revealAndAdvance(page);
   await revealAndAdvance(page);
 
-  await expect(page.getByLabel('Dialogue')).toContainText(
+  await expect(page.getByLabel('Dialogue', { exact: true })).toContainText(
     'I sent that to the wrong person',
   );
   await expect
@@ -132,7 +134,7 @@ test('records a reflective choice and reconverges on the true-life milestone', a
     });
 });
 
-test('migrates a completed first-edition save into the JC expansion', async ({
+test('chains a completed first-edition save into the JC expansion', async ({
   page,
 }) => {
   await openApp(page);
@@ -171,7 +173,7 @@ test('migrates a completed first-edition save into the JC expansion', async ({
   await expect(
     page.getByText('The Bus We Waited For', { exact: true }),
   ).toBeVisible();
-  await expect(page.getByLabel('Dialogue')).toContainText(
+  await expect(page.getByLabel('Dialogue', { exact: true })).toContainText(
     'The morning after disappointment is rarely dramatic',
   );
   await expect
@@ -196,7 +198,7 @@ test('migrates a completed first-edition save into the JC expansion', async ({
       }, SAVE_KEY),
     )
     .toMatchObject({
-      storyRevision: 'school-years-3.0.0',
+      storyRevision: 'school-years-4.0.0',
       currentNodeId: 'ch3-001',
       status: 'playing',
       unlockedChapters: [
@@ -209,7 +211,7 @@ test('migrates a completed first-edition save into the JC expansion', async ({
     });
 });
 
-test('resumes a completed JC edition at university and keeps later chapters locked', async ({ page }) => {
+test('resumes a completed JC edition at National Service and keeps later chapters locked', async ({ page }) => {
   await openApp(page);
   await page.evaluate((key) => {
     localStorage.setItem(key, JSON.stringify({
@@ -229,10 +231,10 @@ test('resumes a completed JC edition at university and keeps later chapters lock
   await dismissNotice(page);
   await expect(page.getByRole('status')).toContainText('saved progress was updated');
   await page.getByRole('button', { name: 'Continue', exact: true }).click();
-  await expect(page.getByText('Almost Us', { exact: true })).toBeVisible();
+  await expect(page.getByText('The Story I Wasn’t In', { exact: true })).toBeVisible();
   await expect.poll(() => page.evaluate((key) => JSON.parse(localStorage.getItem(key) ?? '{}') as unknown, SAVE_KEY)).toMatchObject({
-    storyRevision: 'school-years-3.0.0',
-    currentNodeId: 'ch6-001',
+    storyRevision: 'school-years-4.0.0',
+    currentNodeId: 'ns-001',
     status: 'playing',
     history: [],
     rememberedChoices: { 'ch5-choice-zoo': 'zoo-name-feeling' },
@@ -241,18 +243,58 @@ test('resumes a completed JC edition at university and keeps later chapters lock
 
   await page.getByRole('button', { name: 'Open chapter menu' }).click();
   const chapters = page.getByRole('dialog', { name: 'Chapter select' });
-  await expect(chapters.getByRole('button', { name: /Almost Us/ })).toBeEnabled();
-  for (const title of ['Just Friends', 'A Different Journey', 'Arrival']) {
+  await expect(chapters.getByRole('button', { name: /The Story I Wasn’t In/ })).toBeEnabled();
+  for (const title of ['Almost Us', 'Just Friends', 'A Different Journey', 'Arrival']) {
     await expect(chapters.getByRole('button', { name: new RegExp(title) })).toBeDisabled();
   }
   await chapters.getByRole('button', { name: 'Close' }).click();
   await page.reload();
   await dismissNotice(page);
   await page.getByRole('button', { name: 'Continue', exact: true }).click();
-  await expect(page.getByText('Almost Us', { exact: true })).toBeVisible();
+  await expect(page.getByText('The Story I Wasn’t In', { exact: true })).toBeVisible();
 });
 
-test('unlocks university when advancing beyond the zoo and restores that position', async ({ page }) => {
+for (const previousRevision of ['school-years-3.0.0', 'before-nurul-3.0.0']) {
+  test(`distinguishes a completed ${previousRevision} save from the other branch`, async ({ page }) => {
+    await openApp(page);
+    await page.evaluate(({ key, revision }) => {
+      localStorage.setItem(key, JSON.stringify({
+        version: 1,
+        storyId: 'return-to-me-school-years',
+        storyRevision: revision,
+        currentNodeId: 'epilogue-end',
+        status: 'ended',
+        history: [],
+        rememberedChoices: { 'ch5-choice-zoo': 'zoo-name-feeling' },
+        unlockedChapters: ['prologue', 'chapter-1', 'chapter-2', 'chapter-3', 'chapter-4', 'chapter-5', 'chapter-6', 'epilogue'],
+        seenNodeIds: ['epilogue-end'],
+        timestamp: Date.now(),
+      }));
+    }, { key: SAVE_KEY, revision: previousRevision });
+    await page.reload();
+    await dismissNotice(page);
+    await expect(page.getByRole('status')).toContainText('saved progress was updated');
+    await page.getByRole('button', { name: 'Continue', exact: true }).click();
+
+    const completedAdulthood = previousRevision === 'school-years-3.0.0';
+    if (completedAdulthood) {
+      await expect(page.getByRole('heading', { name: 'To be continued' })).toBeVisible();
+    } else {
+      await expect(page.getByText('Almost Us', { exact: true })).toBeVisible();
+    }
+    await expect.poll(() => page.evaluate((key) =>
+      JSON.parse(localStorage.getItem(key) ?? '{}') as unknown, SAVE_KEY,
+    )).toMatchObject({
+      storyRevision: story.revision,
+      currentNodeId: completedAdulthood ? 'epilogue-end' : 'ch6-001',
+      status: completedAdulthood ? 'ended' : 'playing',
+      rememberedChoices: { 'ch5-choice-zoo': 'zoo-name-feeling' },
+      unlockedChapters: expect.arrayContaining(['chapter-ns', 'chapter-6']),
+    });
+  });
+}
+
+test('unlocks National Service when advancing beyond the zoo and restores that position', async ({ page }) => {
   await openApp(page);
   await page.evaluate(({ key, revision }) => {
     localStorage.setItem(key, JSON.stringify({
@@ -273,15 +315,15 @@ test('unlocks university when advancing beyond the zoo and restores that positio
   await page.getByRole('button', { name: 'Continue', exact: true }).click();
   await expect(page.getByText('The Zoo After Results', { exact: true })).toBeVisible();
   await revealAndAdvance(page);
-  await expect(page.getByText('Almost Us', { exact: true })).toBeVisible();
+  await expect(page.getByText('The Story I Wasn’t In', { exact: true })).toBeVisible();
   await expect.poll(() => page.evaluate((key) => JSON.parse(localStorage.getItem(key) ?? '{}') as unknown, SAVE_KEY)).toMatchObject({
-    currentNodeId: 'ch6-001',
-    unlockedChapters: ['prologue', 'chapter-1', 'chapter-2', 'chapter-3', 'chapter-4', 'chapter-5', 'chapter-6'],
+    currentNodeId: 'ns-001',
+    unlockedChapters: ['prologue', 'chapter-1', 'chapter-2', 'chapter-3', 'chapter-4', 'chapter-5', 'chapter-ns'],
   });
   await page.reload();
   await dismissNotice(page);
   await page.getByRole('button', { name: 'Continue', exact: true }).click();
-  await expect(page.getByText('Almost Us', { exact: true })).toBeVisible();
+  await expect(page.getByText('The Story I Wasn’t In', { exact: true })).toBeVisible();
 });
 
 test('unlocks the first chapter only after reaching it', async ({ page }) => {
@@ -327,7 +369,7 @@ test('unlocks the first chapter only after reaching it', async ({ page }) => {
   ).toBeDisabled();
 });
 
-test('plays a complete route through ten chapters and fifteen reconverging choices', async ({
+test('plays a complete route through eleven chapters and eighteen reconverging choices', async ({
   page,
 }, testInfo) => {
   test.skip(testInfo.project.name !== 'chromium', 'desktop route audit only');
@@ -372,7 +414,7 @@ test('plays a complete route through ten chapters and fifteen reconverging choic
   }
 
   await expect(page.getByRole('heading', { name: 'To be continued' })).toBeVisible();
-  expect(choiceCount).toBe(15);
+  expect(choiceCount).toBe(18);
   await expect
     .poll(() =>
       page.evaluate((key) => {
@@ -395,8 +437,8 @@ test('plays a complete route through ten chapters and fifteen reconverging choic
     .toEqual({
       status: 'ended',
       currentNodeId: 'epilogue-end',
-      choiceCount: 15,
-      unlockedCount: 10,
+      choiceCount: 18,
+      unlockedCount: 11,
     });
 });
 test('keeps subtitles and voice settings usable without licensed clips', async ({
@@ -405,7 +447,7 @@ test('keeps subtitles and voice settings usable without licensed clips', async (
   await openApp(page);
   await startNewGame(page);
 
-  const dialogue = page.getByLabel('Dialogue');
+  const dialogue = page.getByLabel('Dialogue', { exact: true });
   await expect(dialogue).toContainText('Inspired by real events');
   const replay = page.getByRole('button', { name: 'Replay voice' });
   await expect(replay).toBeDisabled();
@@ -443,7 +485,7 @@ test('supports the core touch flow without horizontal overflow', async ({
 
   await openApp(page);
   await startNewGame(page);
-  await expect(page.getByLabel('Dialogue')).toBeVisible();
+  await expect(page.getByLabel('Dialogue', { exact: true })).toBeVisible();
   await revealAndAdvance(page);
   await page.getByRole('button', { name: 'Open chapter menu' }).click();
   await expect(
@@ -517,3 +559,66 @@ for (const artworkId of ['cg-jia-wen-boyfriend', 'cg-uss-confession']) {
     expect(imageRect.y + imageRect.height).toBeLessThanOrEqual(viewport.height);
   });
 }
+
+test('keeps intrusive thoughts labelled, static, and contained on mobile', async ({
+  page,
+}, testInfo) => {
+  test.skip(testInfo.project.name !== 'mobile', 'mobile project only');
+
+  await openApp(page);
+  await page.evaluate(
+    ({ saveKey, settingsKey }) => {
+      localStorage.setItem(
+        settingsKey,
+        JSON.stringify({
+          version: 1,
+          textSpeedMs: 0,
+          autoMode: false,
+          skipSeen: false,
+          volume: 0.9,
+          muted: true,
+          reducedMotion: true,
+        }),
+      );
+      localStorage.setItem(
+        saveKey,
+        JSON.stringify({
+          version: 1,
+          storyId: 'return-to-me-school-years',
+          storyRevision: 'before-nurul-3.0.0',
+          currentNodeId: 'epilogue-009',
+          status: 'playing',
+          history: [],
+          rememberedChoices: {},
+          unlockedChapters: [
+            'prologue',
+            'chapter-1',
+            'chapter-2',
+            'chapter-3',
+            'chapter-4',
+            'chapter-5',
+            'chapter-6',
+            'epilogue',
+          ],
+          seenNodeIds: [],
+          timestamp: Date.now(),
+        }),
+      );
+    },
+    { saveKey: SAVE_KEY, settingsKey: SETTINGS_KEY },
+  );
+  await page.reload();
+  await dismissNotice(page);
+  await page.getByRole('button', { name: 'Continue', exact: true }).click();
+
+  const overlay = page.locator('[data-overlay-kind="intrusive"]');
+  await expect(overlay).toBeVisible();
+  await expect(overlay).toHaveAttribute('aria-label', /\S+/);
+  await expect(overlay.locator('p').first()).toHaveCSS('animation-name', 'none');
+
+  const dimensions = await page.evaluate(() => ({
+    viewport: window.innerWidth,
+    document: document.documentElement.scrollWidth,
+  }));
+  expect(dimensions.document).toBeLessThanOrEqual(dimensions.viewport + 1);
+});

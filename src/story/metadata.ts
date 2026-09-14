@@ -1,6 +1,6 @@
 import type { ChapterDefinition, SpeakerDefinition } from "../engine/types";
 
-export const STORY_REVISION = "school-years-3.0.0";
+export const STORY_REVISION = "school-years-4.0.0";
 
 export const speakers = [
   {
@@ -72,6 +72,15 @@ export const speakers = [
     name: "Imran",
     role: "character",
   },
+  {
+    id: "aleem-young-adult",
+    name: "Young Adult Aleem",
+    shortName: "Aleem",
+    role: "character",
+  },
+  { id: "nadiah", name: "Nadiah", role: "character" },
+  { id: "aisyah", name: "Aisyah", role: "character" },
+  { id: "hakim", name: "Hakim", role: "character" },
 ] as const satisfies readonly SpeakerDefinition[];
 
 export const chapters = [
@@ -110,6 +119,12 @@ export const chapters = [
     title: "The Zoo After Results",
     period: "2016",
     startNodeId: "ch5-001",
+  },
+  {
+    id: "chapter-ns",
+    title: "The Story I Wasn’t In",
+    period: "2016–2018",
+    startNodeId: "ns-001",
   },
   {
     id: "chapter-6",

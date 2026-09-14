@@ -25,6 +25,10 @@ const sapiSettings = {
   "jia-wen": { engineVoice: "Microsoft Zira Desktop", rate: 1 },
   claire: { engineVoice: "Microsoft Zira Desktop", rate: 0 },
   imran: { engineVoice: "Microsoft David Desktop", rate: -1 },
+  "young-adult-aleem": { engineVoice: "Microsoft David Desktop", rate: -1 },
+  nadiah: { engineVoice: "Microsoft Zira Desktop", rate: -1 },
+  aisyah: { engineVoice: "Microsoft Zira Desktop", rate: 0 },
+  hakim: { engineVoice: "Microsoft David Desktop", rate: 1 },
 } as const satisfies Record<
   (typeof voiceProfiles)[number]["id"],
   { readonly engineVoice: string; readonly rate: number }

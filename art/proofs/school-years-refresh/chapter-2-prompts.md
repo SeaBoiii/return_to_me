@@ -2,21 +2,22 @@
 
 Generated on 25 August 2026 with OpenAI's default built-in image generator.
 The tool did not expose an exact model name or version, so the generator is
-recorded as **unspecified**. These four files are approval-gate identity and
-outfit anchors only. They are not expression variants, deployable sprites, or
-release-approved game assets.
+recorded as **unspecified**. These four files are the approved first-gate
+identity and outfit anchors. They are not expression variants or deployable
+sprites; their production derivatives passed the separate final promotion gate.
 
 ## Status and inventory
 
 | Proof | Selected file | Physical format | Review status |
 | --- | --- | --- | --- |
-| Secondary-uniform Aleem | `aleem-sec-anchor.png` | 1024×1536 RGB, magenta key | Candidate for owner approval |
-| Home-clothes secondary Aleem | `aleem-home-anchor.png` | 1086×1448 RGB, magenta key | Candidate for owner approval |
-| Hana | `hana-anchor.png` | 1024×1536 RGB, magenta key | Candidate for owner approval |
-| Faris | `faris-anchor.png` | 1024×1536 RGB, magenta key | Revised candidate for owner approval |
+| Secondary-uniform Aleem | `aleem-sec-anchor.png` | 1024×1536 RGB, magenta key | Approved identity/outfit anchor |
+| Home-clothes secondary Aleem | `aleem-home-anchor.png` | 1086×1448 RGB, magenta key | Approved identity/outfit anchor |
+| Hana | `hana-anchor.png` | 1024×1536 RGB, magenta key | Approved identity/outfit anchor |
+| Faris | `faris-anchor.png` | 1024×1536 RGB, magenta key | Revised and approved identity/outfit anchor |
 
-No file in this batch was copied to `public`, used by the story graph, or used
-to generate an expression sheet.
+No proof file in this batch was copied directly to `public` or used directly by
+the story graph. After first-gate approval, the anchors guided expression
+production whose normalized derivatives passed final QA and promotion.
 
 ## Reference relationships
 
@@ -62,8 +63,8 @@ or treated as production alpha.
   A targeted identity-preserving edit revised only his proportions and hair:
   the accepted candidate now has a visibly rounder torso, softer cheeks,
   compact limbs, and fluffier short hair. The superseded candidate is retained
-  as `faris-anchor-v1-lean.png`. Relative short stature will still be enforced
-  on the later common calibrated canvas at approximately 850 px visible height.
+  as `faris-anchor-v1-lean.png`. Relative short stature was enforced on the
+  common calibrated production canvas at approximately 850 px visible height.
 - Complete hair, arms, and hands are visible. Hands are suitable for an anchor
   proof, but every derived pose still requires close anatomy review.
 - No proof contains a crest, badge, school name, readable text, prop, trademark,

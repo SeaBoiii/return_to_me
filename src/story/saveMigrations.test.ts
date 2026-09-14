@@ -1,10 +1,13 @@
 import { describe, expect, it } from "vitest";
+import { story } from ".";
 
 import { parseSave, type SaveV1, type StoryDefinition } from "../engine";
 import {
   SCHOOL_YEARS_V1_REVISION,
   SCHOOL_YEARS_V2_REVISION,
   SCHOOL_YEARS_V3_REVISION,
+  BEFORE_NURUL_V3_REVISION,
+  SCHOOL_YEARS_V4_REVISION,
   schoolYearsSaveMigrations,
 } from "./saveMigrations";
 
@@ -14,6 +17,151 @@ const stage = {
   transition: "none",
   mood: "test",
 } as const;
+
+const makePublishedSave = (overrides: Partial<SaveV1> = {}): SaveV1 => ({
+  version: 1,
+  storyId: story.id,
+  storyRevision: SCHOOL_YEARS_V3_REVISION,
+  currentNodeId: "ch5-001",
+  status: "playing",
+  history: [{ kind: "choice", nodeId: "ch1-choice-sms", optionId: "sms-ask" }],
+  rememberedChoices: { "ch1-choice-sms": "sms-ask" },
+  unlockedChapters: ["prologue", "chapter-1", "chapter-2", "chapter-3", "chapter-4", "chapter-5"],
+  seenNodeIds: ["ch1-choice-sms", "ch5-001"],
+  timestamp: 1_700_000_000_000,
+  ...overrides,
+});
+
+const migratePublishedSave = (save: SaveV1) =>
+  parseSave(JSON.stringify(save), story, { migrations: schoolYearsSaveMigrations });
+
+describe("merging both published v3 editions", () => {
+  it.each([SCHOOL_YEARS_V3_REVISION, BEFORE_NURUL_V3_REVISION])(
+    "preserves unfinished school progress from %s",
+    (storyRevision) => {
+      const source = makePublishedSave({ storyRevision });
+      const result = migratePublishedSave(source);
+      expect(result.status).toBe("ok");
+      if (result.status === "ok") {
+        expect(result.save).toEqual({ ...source, storyRevision: SCHOOL_YEARS_V4_REVISION });
+      }
+    },
+  );
+
+  it.each([
+    { currentNodeId: "ch6-choice-silence", status: "playing" as const },
+    { currentNodeId: "ch7-015", status: "playing" as const },
+    { currentNodeId: "ch8-012", status: "playing" as const },
+    { currentNodeId: "epilogue-001", status: "playing" as const },
+    { currentNodeId: "epilogue-end", status: "ended" as const },
+    { currentNodeId: "ch1-001", status: "playing" as const },
+  ])("keeps adulthood position $currentNodeId and its choices while unlocking NS", (position) => {
+    const source = makePublishedSave({
+      ...position,
+      history: [
+        { kind: "choice", nodeId: "ch6-choice-silence", optionId: "silence-time" },
+        { kind: "line", nodeId: "epilogue-001" },
+      ],
+      rememberedChoices: { "ch6-choice-silence": "silence-time" },
+      unlockedChapters: ["prologue", "chapter-6", "chapter-7", "chapter-8", "epilogue"],
+      seenNodeIds: ["ch6-choice-silence", "epilogue-001", "epilogue-end"],
+    });
+    const result = migratePublishedSave(source);
+    expect(result.status).toBe("ok");
+    if (result.status === "ok") {
+      expect(result.save).toEqual({
+        ...source,
+        storyRevision: SCHOOL_YEARS_V4_REVISION,
+        unlockedChapters: [...source.unlockedChapters, "chapter-ns"],
+      });
+    }
+  });
+
+  it.each([
+    ["ch6-036", "ns-036"],
+    ["ch6-choice-discovery", "ns-choice-discovery"],
+    ["epilogue-choice-threat-scan", "uni-arrival-choice-threat-scan"],
+    ["epilogue-017", "uni-arrival-017"],
+  ])("maps National Service position %s to %s without losing either set of reflections", (currentNodeId, expectedId) => {
+    const source = makePublishedSave({
+      storyRevision: BEFORE_NURUL_V3_REVISION,
+      currentNodeId,
+      history: [
+        { kind: "choice", nodeId: "ch1-choice-sms", optionId: "sms-ask" },
+        { kind: "choice", nodeId: "ch6-choice-discovery", optionId: "discovery-ask" },
+        { kind: "choice", nodeId: "epilogue-choice-threat-scan", optionId: "threat-scan-air" },
+        { kind: "line", nodeId: "epilogue-threat-scan-air-001" },
+      ],
+      rememberedChoices: {
+        "ch1-choice-sms": "sms-ask",
+        "ch6-choice-discovery": "discovery-ask",
+        "epilogue-choice-threat-scan": "threat-scan-air",
+      },
+      unlockedChapters: ["prologue", "chapter-1", "chapter-6", "epilogue"],
+      seenNodeIds: ["ch1-choice-sms", "ch6-choice-discovery", "epilogue-001"],
+    });
+    const result = migratePublishedSave(source);
+    expect(result.status).toBe("ok");
+    if (result.status === "ok") {
+      expect(result.save).toEqual({
+        ...source,
+        storyRevision: SCHOOL_YEARS_V4_REVISION,
+        currentNodeId: expectedId,
+        history: [
+          { kind: "choice", nodeId: "ch1-choice-sms", optionId: "sms-ask" },
+          { kind: "choice", nodeId: "ns-choice-discovery", optionId: "discovery-ask" },
+          { kind: "choice", nodeId: "uni-arrival-choice-threat-scan", optionId: "threat-scan-air" },
+          { kind: "line", nodeId: "uni-arrival-threat-scan-air-001" },
+        ],
+        rememberedChoices: {
+          "ch1-choice-sms": "sms-ask",
+          "ns-choice-discovery": "discovery-ask",
+          "uni-arrival-choice-threat-scan": "threat-scan-air",
+        },
+        unlockedChapters: ["prologue", "chapter-1", "chapter-ns"],
+        seenNodeIds: ["ch1-choice-sms", "ns-choice-discovery", "uni-arrival-001"],
+      });
+    }
+  });
+
+  it.each([
+    { currentNodeId: "epilogue-end", status: "ended" as const, expectedId: "ch6-001" },
+    { currentNodeId: "ch1-001", status: "playing" as const, expectedId: "ch1-001" },
+    { currentNodeId: "ch6-036", status: "playing" as const, expectedId: "ns-036" },
+    { currentNodeId: "epilogue-017", status: "playing" as const, expectedId: "uni-arrival-017" },
+  ])("opens Almost Us after The Doorway, preserving replay at $currentNodeId", ({ expectedId, ...position }) => {
+    const result = migratePublishedSave(makePublishedSave({
+      ...position,
+      storyRevision: BEFORE_NURUL_V3_REVISION,
+      unlockedChapters: ["prologue", "chapter-6", "epilogue"],
+      seenNodeIds: ["ch6-001", "epilogue-017", "epilogue-end"],
+    }));
+    expect(result.status).toBe("ok");
+    if (result.status === "ok") {
+      expect(result.save.currentNodeId).toBe(expectedId);
+      expect(result.save.status).toBe("playing");
+      expect(result.save.unlockedChapters).toEqual(["prologue", "chapter-ns", "chapter-6"]);
+      expect(result.save.seenNodeIds).toEqual(["ns-001", "uni-arrival-017"]);
+    }
+  });
+
+  it("does not remigrate merged-edition saves", () => {
+    const source = makePublishedSave({ storyRevision: SCHOOL_YEARS_V4_REVISION });
+    const result = migratePublishedSave(source);
+    expect(result.status).toBe("ok");
+    if (result.status === "ok") {
+      expect(result.migrated).toBe(false);
+      expect(result.save).toEqual(source);
+    }
+  });
+
+  it("rejects unknown IDs instead of silently discarding unrelated progress", () => {
+    expect(migratePublishedSave(makePublishedSave({
+      storyRevision: BEFORE_NURUL_V3_REVISION,
+      currentNodeId: "ch6-unknown",
+    })).status).toBe("corrupt");
+  });
+});
 
 const targetStory = {
   id: "return-to-me",
@@ -139,46 +287,46 @@ const makeOldSave = (overrides: Partial<SaveV1> = {}): SaveV1 => ({
   ...overrides,
 });
 
-const adulthoodStory = {
+const expandedStory = {
   ...targetStory,
-  revision: SCHOOL_YEARS_V3_REVISION,
+  revision: SCHOOL_YEARS_V4_REVISION,
   chapters: [
     ...targetStory.chapters.filter((chapter) => chapter.id !== "epilogue"),
-    { id: "chapter-6", title: "Almost Us", startNodeId: "ch6-001" },
+    { id: "chapter-ns", title: "National Service", startNodeId: "ns-001" },
     { id: "epilogue", title: "Arrival", startNodeId: "epilogue-001" },
   ],
   nodes: [
     ...targetStory.nodes.map((node) =>
-      node.id === "ch3-001" ? { ...node, next: "ch6-001" } : node,
+      node.id === "ch3-001" ? { ...node, next: "ns-001" } : node,
     ),
     {
-      id: "ch6-001",
-      chapterId: "chapter-6",
+      id: "ns-001",
+      chapterId: "chapter-ns",
       type: "line",
       speakerId: null,
-      text: "University",
+      text: "National Service",
       next: "epilogue-001",
       stage,
     },
   ],
 } as const satisfies StoryDefinition;
 
-const migrateToAdulthood = (save: SaveV1) =>
-  parseSave(JSON.stringify(save), adulthoodStory, {
+const migrateToExpandedStory = (save: SaveV1) =>
+  parseSave(JSON.stringify(save), expandedStory, {
     migrations: schoolYearsSaveMigrations,
   });
 
-describe("adulthood save revision migration", () => {
-  it("preserves unfinished school progress without prematurely unlocking university", () => {
+describe("combined expansion save revision migration", () => {
+  it("preserves unfinished school progress without prematurely unlocking National Service", () => {
     const source = makeOldSave({ storyRevision: SCHOOL_YEARS_V2_REVISION });
-    const result = migrateToAdulthood(source);
+    const result = migrateToExpandedStory(source);
 
     expect(result.status).toBe("ok");
     if (result.status === "ok") {
       expect(result.migrated).toBe(true);
       expect(result.save).toEqual({
         ...source,
-        storyRevision: SCHOOL_YEARS_V3_REVISION,
+        storyRevision: SCHOOL_YEARS_V4_REVISION,
       });
     }
   });
@@ -186,7 +334,7 @@ describe("adulthood save revision migration", () => {
   it.each([
     { currentNodeId: "epilogue-001", status: "playing" as const },
     { currentNodeId: "epilogue-end", status: "ended" as const },
-  ])("resumes $currentNodeId at university and clears obsolete ending progress", (position) => {
+  ])("resumes $currentNodeId at National Service and clears obsolete ending progress", (position) => {
     const source = makeOldSave({
       ...position,
       storyRevision: SCHOOL_YEARS_V2_REVISION,
@@ -201,18 +349,18 @@ describe("adulthood save revision migration", () => {
       unlockedChapters: ["prologue", "chapter-1", "chapter-2", "chapter-3", "epilogue"],
       seenNodeIds: ["ch2-choice", "epilogue-013", "epilogue-end"],
     });
-    const result = migrateToAdulthood(source);
+    const result = migrateToExpandedStory(source);
 
     expect(result.status).toBe("ok");
     if (result.status === "ok") {
       expect(result.save).toEqual({
         ...source,
-        storyRevision: SCHOOL_YEARS_V3_REVISION,
-        currentNodeId: "ch6-001",
+        storyRevision: SCHOOL_YEARS_V4_REVISION,
+        currentNodeId: "ns-001",
         status: "playing",
         history: [{ kind: "choice", nodeId: "ch2-choice", optionId: "choice-a" }],
         rememberedChoices: { "ch2-choice": "choice-a" },
-        unlockedChapters: ["prologue", "chapter-1", "chapter-2", "chapter-3", "chapter-6"],
+        unlockedChapters: ["prologue", "chapter-1", "chapter-2", "chapter-3", "chapter-ns"],
         seenNodeIds: ["ch2-choice"],
       });
     }
@@ -229,13 +377,13 @@ describe("adulthood save revision migration", () => {
       currentNodeId: "ch1-001",
       ...markers,
     });
-    const result = migrateToAdulthood(source);
+    const result = migrateToExpandedStory(source);
 
     expect(result.status).toBe("ok");
     if (result.status === "ok") {
       expect(result.save.currentNodeId).toBe("ch1-001");
       expect(result.save.status).toBe("playing");
-      expect(result.save.unlockedChapters).toContain("chapter-6");
+      expect(result.save.unlockedChapters).toContain("chapter-ns");
       expect(result.save.unlockedChapters).not.toContain("epilogue");
       expect(result.save.history.every((entry) => !entry.nodeId.startsWith("epilogue-"))).toBe(true);
       expect(result.save.seenNodeIds.every((id) => !id.startsWith("epilogue-"))).toBe(true);
@@ -243,8 +391,8 @@ describe("adulthood save revision migration", () => {
     }
   });
 
-  it("chains a completed first edition through v2 and resumes Chapter 3 before university", () => {
-    const result = migrateToAdulthood(makeOldSave({
+  it("chains a completed first edition through v2 and resumes Chapter 3 before National Service", () => {
+    const result = migrateToExpandedStory(makeOldSave({
       currentNodeId: "epilogue-end",
       status: "ended",
       unlockedChapters: ["prologue", "chapter-1", "chapter-2", "epilogue"],
@@ -254,35 +402,35 @@ describe("adulthood save revision migration", () => {
     expect(result.status).toBe("ok");
     if (result.status === "ok") {
       expect(result.save).toMatchObject({
-        storyRevision: SCHOOL_YEARS_V3_REVISION,
+        storyRevision: SCHOOL_YEARS_V4_REVISION,
         currentNodeId: "ch3-001",
         status: "playing",
         unlockedChapters: ["prologue", "chapter-1", "chapter-2", "chapter-3"],
         seenNodeIds: ["ch2-010"],
       });
-      expect(result.save.unlockedChapters).not.toContain("chapter-6");
+      expect(result.save.unlockedChapters).not.toContain("chapter-ns");
     }
   });
 
   it("chains unfinished first-edition progress without changing its position or choices", () => {
     const source = makeOldSave();
-    const result = migrateToAdulthood(source);
+    const result = migrateToExpandedStory(source);
     expect(result.status).toBe("ok");
     if (result.status === "ok") {
-      expect(result.save).toEqual({ ...source, storyRevision: SCHOOL_YEARS_V3_REVISION });
+      expect(result.save).toEqual({ ...source, storyRevision: SCHOOL_YEARS_V4_REVISION });
     }
   });
 
   it("keeps a completed current-edition arrival intact on the next load", () => {
     const source = makeOldSave({
-      storyRevision: SCHOOL_YEARS_V3_REVISION,
+      storyRevision: SCHOOL_YEARS_V4_REVISION,
       currentNodeId: "epilogue-end",
       status: "ended",
       history: [{ kind: "line", nodeId: "epilogue-001" }],
-      unlockedChapters: ["prologue", "chapter-1", "chapter-2", "chapter-3", "chapter-6", "epilogue"],
+      unlockedChapters: ["prologue", "chapter-1", "chapter-2", "chapter-3", "chapter-ns", "epilogue"],
       seenNodeIds: ["epilogue-001", "epilogue-end"],
     });
-    const result = migrateToAdulthood(source);
+    const result = migrateToExpandedStory(source);
     expect(result.status).toBe("ok");
     if (result.status === "ok") {
       expect(result.migrated).toBe(false);
@@ -291,7 +439,7 @@ describe("adulthood save revision migration", () => {
   });
 
   it("continues to reject unknown non-epilogue references after migration", () => {
-    const result = migrateToAdulthood(makeOldSave({
+    const result = migrateToExpandedStory(makeOldSave({
       storyRevision: SCHOOL_YEARS_V2_REVISION,
       seenNodeIds: ["unknown-node", "epilogue-end"],
     }));

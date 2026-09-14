@@ -139,8 +139,17 @@ export const stages = {
     },
   ),
   alyaApology: snapshot(
-    "bg-bedroom-2009",
-    [sprite("alya", "alya-startled", "alya", "right", "startled", "left")],
+    "bg-alya-bedroom-2010",
+    [
+      sprite(
+        "alya",
+        "alya-young-home-startled",
+        "alya",
+        "right",
+        "startled",
+        "left",
+      ),
+    ],
     "sudden realization",
     "cut",
     {
@@ -151,14 +160,31 @@ export const stages = {
     },
   ),
   alyaApologetic: snapshot(
-    "bg-bedroom-2009",
-    [sprite("alya", "alya-apologetic", "alya", "right", "apologetic", "left")],
+    "bg-alya-bedroom-2010",
+    [
+      sprite(
+        "alya",
+        "alya-young-home-apologetic",
+        "alya",
+        "right",
+        "apologetic",
+        "left",
+      ),
+    ],
     "remorse without easy answers",
     "none",
   ),
   primaryHurt: snapshot(
     "bg-bedroom-2009",
-    [sprite("aleem", "aleem-p6-hurt", "aleem-p6", "center", "hurt")],
+    [
+      sprite(
+        "aleem",
+        "aleem-young-home-hurt",
+        "aleem-p6",
+        "center",
+        "hurt",
+      ),
+    ],
     "quiet first heartbreak",
     "fade",
   ),
@@ -231,13 +257,13 @@ export const stages = {
   ),
   bedroomPcDay: snapshot(
     "bg-bedroom-pc-day",
-    [sprite("aleem", "aleem-home-focused", "aleem-home", "center", "focused")],
+    [sprite("aleem", "aleem-home-focused", "aleem-sec", "center", "focused")],
     "creative focus and possibility",
     "fade",
   ),
   serverProud: snapshot(
     "bg-bedroom-pc-day",
-    [sprite("aleem", "aleem-home-proud", "aleem-home", "right", "proud", "left", 2)],
+    [sprite("aleem", "aleem-home-proud", "aleem-sec", "right", "proud", "left", 2)],
     "earned pride, electric momentum",
     "none",
     {
@@ -249,7 +275,7 @@ export const stages = {
   ),
   bedroomPcNight: snapshot(
     "bg-bedroom-pc-night",
-    [sprite("aleem", "aleem-home-focused", "aleem-home", "center", "focused")],
+    [sprite("aleem", "aleem-home-focused", "aleem-sec", "center", "focused")],
     "late-night electric blue",
     "fade",
   ),
@@ -303,7 +329,7 @@ export const stages = {
   ),
   aloneGuilty: snapshot(
     "bg-bedroom-pc-night",
-    [sprite("aleem", "aleem-home-numb", "aleem-home", "center", "numb")],
+    [sprite("aleem", "aleem-home-numb", "aleem-sec", "center", "numb")],
     "guilt in monitor light",
     "fade",
   ),
@@ -339,7 +365,7 @@ export const stages = {
   ),
   darkBedroom: snapshot(
     "bg-dark-bedroom",
-    [sprite("aleem", "aleem-home-numb", "aleem-home", "center", "numb")],
+    [sprite("aleem", "aleem-home-numb", "aleem-sec", "center", "numb")],
     "withdrawn, heavy stillness",
     "fade",
   ),
@@ -812,19 +838,19 @@ export const stages = {
   ),
   ch2PcFocused: snapshot(
     "bg-bedroom-pc-day",
-    [sprite("aleem", "aleem-home-focused", "aleem-home", "center", "focused")],
+    [sprite("aleem", "aleem-home-focused", "aleem-sec", "center", "focused")],
     "creative focus and technical possibility",
     "fade",
   ),
   ch2PcProud: snapshot(
     "bg-bedroom-pc-day",
-    [sprite("aleem", "aleem-home-proud", "aleem-home", "right", "proud", "left", 2)],
+    [sprite("aleem", "aleem-home-proud", "aleem-sec", "right", "proud", "left", 2)],
     "earned pride in something built from nothing",
     "none",
   ),
   ch2ServerProud: snapshot(
     "bg-bedroom-pc-day",
-    [sprite("aleem", "aleem-home-proud", "aleem-home", "right", "proud", "left", 2)],
+    [sprite("aleem", "aleem-home-proud", "aleem-sec", "right", "proud", "left", 2)],
     "earned pride and electric momentum",
     "none",
     {
@@ -836,7 +862,7 @@ export const stages = {
   ),
   ch2ServerCall: snapshot(
     "bg-bedroom-pc-day",
-    [sprite("aleem", "aleem-home-proud", "aleem-home", "right", "proud", "left", 2)],
+    [sprite("aleem", "aleem-home-proud", "aleem-sec", "right", "proud", "left", 2)],
     "pride shared during a phone call",
     "none",
     {
@@ -852,7 +878,7 @@ export const stages = {
       sprite(
         "aleem",
         "aleem-home-distracted",
-        "aleem-home",
+        "aleem-sec",
         "center",
         "distracted",
       ),
@@ -866,7 +892,7 @@ export const stages = {
       sprite(
         "aleem",
         "aleem-home-overwhelmed",
-        "aleem-home",
+        "aleem-sec",
         "center",
         "overwhelmed",
       ),
@@ -976,7 +1002,7 @@ export const stages = {
       sprite(
         "aleem",
         "aleem-home-regretful",
-        "aleem-home",
+        "aleem-sec",
         "center",
         "regretful",
       ),
@@ -986,7 +1012,7 @@ export const stages = {
   ),
   ch2HomeNumb: snapshot(
     "bg-bedroom-pc-night",
-    [sprite("aleem", "aleem-home-numb", "aleem-home", "center", "numb")],
+    [sprite("aleem", "aleem-home-numb", "aleem-sec", "center", "numb")],
     "monitor light no longer feeling triumphant",
     "dissolve",
   ),
@@ -1128,7 +1154,7 @@ export const stages = {
       sprite(
         "aleem",
         "aleem-home-regretful",
-        "aleem-home",
+        "aleem-sec",
         "center",
         "regretful",
       ),
@@ -1138,7 +1164,7 @@ export const stages = {
   ),
   ch2DarkNumb: snapshot(
     "bg-dark-bedroom",
-    [sprite("aleem", "aleem-home-numb", "aleem-home", "center", "numb")],
+    [sprite("aleem", "aleem-home-numb", "aleem-sec", "center", "numb")],
     "withdrawn, heavy stillness",
     "none",
   ),
@@ -1148,7 +1174,7 @@ export const stages = {
       sprite(
         "aleem",
         "aleem-home-overwhelmed",
-        "aleem-home",
+        "aleem-sec",
         "center",
         "overwhelmed",
       ),
@@ -1501,5 +1527,366 @@ export const stages = {
     [],
     "a future continuing beyond another difficult lesson",
     "fade",
+  ),
+
+  // Chapter 6 keeps all military, social-media, and university settings
+  // generic. In particular, the lecture-theatre background is an ordinary,
+  // welcoming room; the red fragments below belong only to Aleem's
+  // subjective perception and are rendered as accessible HTML.
+  nsOpening: snapshot(
+    "bg-ns-camp-gate",
+    [
+      sprite(
+        "aleem",
+        "aleem-ns-neutral",
+        "aleem-young-adult",
+        "center",
+        "neutral",
+      ),
+    ],
+    "disciplined routine at an anonymous National Service camp",
+    "fade",
+  ),
+  rayaArrival: snapshot(
+    "bg-raya-living-room-2016",
+    [
+      sprite(
+        "aleem",
+        "aleem-raya-shy-smile",
+        "aleem-young-adult",
+        "center",
+        "shy-smile",
+      ),
+    ],
+    "warm, busy Hari Raya visiting",
+    "fade",
+  ),
+  rayaFirstSight: snapshot(
+    "cg-raya-first-sight",
+    [],
+    "a first look held inside a crowded family visit",
+    "dissolve",
+  ),
+  rayaAleemAwed: snapshot(
+    "bg-raya-living-room-2016",
+    [
+      sprite(
+        "aleem",
+        "aleem-raya-awed",
+        "aleem-young-adult",
+        "center",
+        "awed",
+      ),
+    ],
+    "attraction rushing ahead of knowledge",
+  ),
+  rayaNadiahWarm: snapshot(
+    "bg-raya-living-room-2016",
+    [
+      sprite(
+        "aleem",
+        "aleem-raya-shy-smile",
+        "aleem-young-adult",
+        "left",
+        "shy-smile",
+      ),
+      sprite(
+        "nadiah",
+        "nadiah-warm",
+        "nadiah",
+        "right",
+        "warm",
+        "left",
+      ),
+    ],
+    "brief warmth between two people still surrounded by family",
+  ),
+  nsPopGate: snapshot(
+    "bg-ns-camp-gate",
+    [
+      sprite(
+        "aleem",
+        "aleem-ns-proud",
+        "aleem-young-adult",
+        "center",
+        "proud",
+      ),
+    ],
+    "earned pride after Passing Out Parade",
+    "fade",
+  ),
+  nsBunkWarm: snapshot(
+    "bg-ns-bunk-night",
+    [
+      sprite(
+        "aleem",
+        "aleem-ns-warm",
+        "aleem-young-adult",
+        "right",
+        "warm",
+        "left",
+      ),
+    ],
+    "ordinary affection around book-ins and lights-out",
+    "dissolve",
+    {
+      kind: "social",
+      label: "Reconstructed private chat between Aleem and Nadiah",
+      title: "Private chat · reconstructed",
+      lines: [
+        "Message when you reach camp.",
+        "Reached. I already miss talking without checking the time.",
+      ],
+    },
+  ),
+  relationshipMontage: snapshot(
+    "cg-relationship-montage",
+    [],
+    "mutual warmth in a composite of ordinary relationship moments",
+    "dissolve",
+  ),
+  nsBunkSocialReveal: snapshot(
+    "bg-ns-bunk-night",
+    [
+      sprite(
+        "aleem",
+        "aleem-ns-neutral",
+        "aleem-young-adult",
+        "right",
+        "neutral",
+        "left",
+      ),
+    ],
+    "an unexpected private message during an ordinary night in camp",
+    "cut",
+    {
+      kind: "social",
+      label: "Private message from Aisyah about a restricted story",
+      title: "Private message",
+      lines: [
+        "A restricted story was posted from a theme park.",
+        "Aisyah says she knows only what she saw.",
+        "No account names or handles are shown.",
+      ],
+    },
+  ),
+  closeFriendsReveal: snapshot(
+    "cg-close-friends-reveal",
+    [],
+    "a private-story image whose missing context cannot be recovered from pixels",
+    "cut",
+    {
+      kind: "social",
+      label:
+        "Generic private-story preview showing Nadiah at a theme park beside an unnamed man",
+      title: "Restricted story · relayed by a friend",
+      lines: [
+        "Nadiah stands beside an unnamed, distant man.",
+        "She is not wearing hijab in the image.",
+        "Her reason is unknown.",
+      ],
+    },
+  ),
+  nsBunkShocked: snapshot(
+    "bg-ns-bunk-night",
+    [
+      sprite(
+        "aleem",
+        "aleem-ns-stunned",
+        "aleem-young-adult",
+        "center",
+        "stunned",
+      ),
+    ],
+    "shock held inside a shared bunk",
+    "cut",
+  ),
+  nsBunkControlled: snapshot(
+    "bg-ns-bunk-night",
+    [
+      sprite(
+        "aleem",
+        "aleem-ns-neutral",
+        "aleem-young-adult",
+        "right",
+        "controlled",
+        "left",
+      ),
+    ],
+    "a restrained text confrontation after the first shock",
+    "dissolve",
+    {
+      kind: "social",
+      label: "Reconstructed text conversation between Aleem and Nadiah",
+      title: "Text conversation · reconstructed",
+      lines: [
+        "Aleem asks what is happening.",
+        "Nadiah says she should have told him herself.",
+      ],
+    },
+  ),
+  nsBunkHurt: snapshot(
+    "bg-ns-bunk-night",
+    [
+      sprite(
+        "aleem",
+        "aleem-ns-hurt",
+        "aleem-young-adult",
+        "right",
+        "hurt",
+        "left",
+      ),
+    ],
+    "hurt deepening as an unresolved history is acknowledged",
+    "none",
+    {
+      kind: "social",
+      label: "Reconstructed continuation of Aleem and Nadiah's text conversation",
+      title: "Text conversation · reconstructed",
+      lines: [
+        "Nadiah: He was my first love.",
+        "Nadiah: My feelings were unresolved.",
+        "Aleem interpreted that history as a hierarchy.",
+      ],
+    },
+  ),
+  homeFamilySupport: snapshot(
+    "bg-hdb-dining",
+    [
+      sprite(
+        "aleem",
+        "aleem-uni-arrival-overwhelmed",
+        "aleem-young-adult",
+        "center",
+        "overwhelmed",
+      ),
+    ],
+    "quiet family care without easy answers",
+    "fade",
+  ),
+  darkRoomCrying: snapshot(
+    "bg-dark-bedroom",
+    [
+      sprite(
+        "aleem",
+        "aleem-uni-arrival-overwhelmed",
+        "aleem-young-adult",
+        "center",
+        "overwhelmed",
+      ),
+    ],
+    "private grief without clinical or sensational framing",
+    "fade",
+  ),
+  nsCampNumb: snapshot(
+    "bg-ns-camp-gate",
+    [
+      sprite(
+        "aleem",
+        "aleem-ns-numb",
+        "aleem-young-adult",
+        "center",
+        "numb",
+      ),
+    ],
+    "service continuing around private numbness",
+    "dissolve",
+  ),
+  ordGate: snapshot(
+    "bg-ns-camp-gate",
+    [
+      sprite(
+        "aleem",
+        "aleem-ns-numb",
+        "aleem-young-adult",
+        "center",
+        "numb",
+      ),
+    ],
+    "ORD and civilian time opening beyond the gate",
+    "fade",
+  ),
+  universityArrival: snapshot(
+    "bg-university-corridor",
+    [
+      sprite(
+        "aleem",
+        "aleem-uni-arrival-neutral",
+        "aleem-young-adult",
+        "center",
+        "neutral",
+      ),
+    ],
+    "the uncertain promise of a first university week",
+    "fade",
+  ),
+  msocEntrance: snapshot(
+    "bg-university-lecture-theatre",
+    [
+      sprite(
+        "aleem",
+        "aleem-uni-arrival-guarded",
+        "aleem-young-adult",
+        "left",
+        "guarded",
+      ),
+    ],
+    "an ordinary, welcoming club room at the threshold",
+    "dissolve",
+  ),
+  msocNeutral: snapshot(
+    "bg-university-lecture-theatre",
+    [
+      sprite(
+        "aleem",
+        "aleem-uni-arrival-frozen",
+        "aleem-young-adult",
+        "left",
+        "frozen",
+      ),
+    ],
+    "a neutral, welcoming crowd while Aleem freezes",
+    "none",
+  ),
+  msocThreatScan: snapshot(
+    "bg-university-lecture-theatre",
+    [
+      sprite(
+        "aleem",
+        "aleem-uni-arrival-overwhelmed",
+        "aleem-young-adult",
+        "left",
+        "overwhelmed",
+      ),
+    ],
+    "an objectively ordinary room distorted by Aleem's subjective alarm",
+    "cut",
+    {
+      kind: "intrusive",
+      label:
+        "Aleem's subjective intrusive thought fragments; they are not facts about anyone in the room",
+      title: "Aleem's perception",
+      lines: ["same ending", "looks suspicious", "do not be fooled"],
+    },
+  ),
+  universityCorridorBreathless: snapshot(
+    "bg-university-corridor",
+    [
+      sprite(
+        "aleem",
+        "aleem-uni-arrival-breathless",
+        "aleem-young-adult",
+        "center",
+        "breathless",
+      ),
+    ],
+    "hard breathing in a quiet corridor outside",
+    "cut",
+  ),
+  universityCorridorReflection: snapshot(
+    "bg-dawn-window",
+    [],
+    "adult reflection at dawn, acknowledging an alarm without accepting its verdict",
+    "dissolve",
   ),
 } as const satisfies Record<string, StageSnapshot>;

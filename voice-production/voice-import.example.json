@@ -2,7 +2,7 @@
   "$schema": "./voice-import.schema.json",
   "schemaVersion": 1,
   "storyId": "return-to-me-school-years",
-  "contentRevision": "school-years-3.0.0",
+  "contentRevision": "school-years-4.0.0",
   "disclosure": "Character voices are licensed synthetic performances created for this story; no real person's voice is cloned.",
   "profiles": [
     {
@@ -80,6 +80,30 @@
     {
       "id": "imran",
       "speakerId": "imran",
+      "provider": "Example licensed synthetic voice provider",
+      "licenseReference": "licenses/provider-license-2026-01.md"
+    },
+    {
+      "id": "young-adult-aleem",
+      "speakerId": "aleem-young-adult",
+      "provider": "Example licensed synthetic voice provider",
+      "licenseReference": "licenses/provider-license-2026-01.md"
+    },
+    {
+      "id": "nadiah",
+      "speakerId": "nadiah",
+      "provider": "Example licensed synthetic voice provider",
+      "licenseReference": "licenses/provider-license-2026-01.md"
+    },
+    {
+      "id": "aisyah",
+      "speakerId": "aisyah",
+      "provider": "Example licensed synthetic voice provider",
+      "licenseReference": "licenses/provider-license-2026-01.md"
+    },
+    {
+      "id": "hakim",
+      "speakerId": "hakim",
       "provider": "Example licensed synthetic voice provider",
       "licenseReference": "licenses/provider-license-2026-01.md"
     }
