@@ -1,0 +1,9 @@
+{
+  "asset": "rejected/aleem-umrah-neutral-alpha-glow",
+  "tool": "built-in image_gen",
+  "model": "unspecified",
+  "prompt": "Use case: identity-preserve. Create a new visual-novel expression sprite of the SAME ADULT ALEEM as the supplied identity/outfit reference, not a copy of its expression. Asset aleem-umrah-neutral for Return to Me: Before Nurul. Preserve warm brown complexion, lean adult proportions, black swept short hair, rectangular dark glasses, facial identity, cream overshirt with loosely rolled sleeves over muted teal-blue T-shirt and dark navy trousers. Soft semi-realistic cel-shaded illustration, clean delicate linework, natural skin/fabric shading matching reference. Expression: neutral attentive calm, relaxed mouth and brows, looking slightly toward viewer's right; hands relaxed visible at sides. One isolated man from head through knees, centered with generous transparent margins around hair/hands, entire silhouette intact. Portrait 1024x1536. GENUINELY TRANSPARENT BACKGROUND with real alpha channel, no painted checkerboard, no scenery, no floor, no text, watermark, glow, or props. His body and clothing must be opaque; only surrounding empty space is transparent.",
+  "reference": "art/sources/adulthood/sprites/aleem-travel-tentative-master.png",
+  "output_hint": "Generated images are saved to C:\\Users\\alsiddiq\\.codex\\generated_images\\01a08a0d-a799-7f80-b3f8-0174d3c99338 as C:\\Users\\alsiddiq\\.codex\\generated_images\\01a08a0d-a799-7f80-b3f8-0174d3c99338\\exec-646fc52f-485f-450b-93b4-9cf87320a855.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "review": "Rejected: partially transparent body and background halo."
+}

@@ -2,7 +2,7 @@
   "$schema": "./voice-import.schema.json",
   "schemaVersion": 1,
   "storyId": "return-to-me-school-years",
-  "contentRevision": "school-years-4.0.0",
+  "contentRevision": "school-years-5.0.0",
   "disclosure": "Character voices are licensed synthetic performances created for this story; no real person's voice is cloned.",
   "profiles": [
     {
@@ -104,6 +104,18 @@
     {
       "id": "hakim",
       "speakerId": "hakim",
+      "provider": "Example licensed synthetic voice provider",
+      "licenseReference": "licenses/provider-license-2026-01.md"
+    },
+    {
+      "id": "mariam",
+      "speakerId": "mariam",
+      "provider": "Example licensed synthetic voice provider",
+      "licenseReference": "licenses/provider-license-2026-01.md"
+    },
+    {
+      "id": "yusuf",
+      "speakerId": "yusuf",
       "provider": "Example licensed synthetic voice provider",
       "licenseReference": "licenses/provider-license-2026-01.md"
     }

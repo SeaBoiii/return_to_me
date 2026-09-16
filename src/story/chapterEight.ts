@@ -29,5 +29,5 @@ export const chapterEightNodes = [
   beat("ch8-011", stages.departure, "adult-aleem",
     "During the journey, I slept unevenly and woke with the old ache still familiar. Then I remembered where we were going. I didn't need to arrive as a repaired version of myself. I could arrive tired, carrying questions, wanting peace without knowing what peace would feel like.", "ch8-012"),
   beat("ch8-012", stages.arrival, "adult-aleem",
-    "When we arrived in the holy land, I paused with my bag in my hand. Imran waited beside me. The air beyond the doors felt unfamiliar against my face. I was here. After all that thinking about leaving, all those small preparations, I had reached the beginning of this different journey.", "epilogue-001"),
+    "When we arrived in the holy land, I paused with my bag in my hand. Imran waited beside me. The air beyond the doors felt unfamiliar against my face. I was here. After all that thinking about leaving, all those small preparations, I had reached the beginning of this different journey.", "ch9-001"),
 ] as const satisfies readonly StoryNode[];

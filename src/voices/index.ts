@@ -110,9 +110,9 @@ export const voiceProfiles = [
   {
     id: "aleem-adult",
     speakerId: "aleem-adult",
-    displayName: "Aleem in university and working life",
+    displayName: "Aleem in university, working life, and Umrah",
     direction:
-      "Natural Singaporean English; a young adult speaking in the moment, warm with friends and hesitant when exposing his feelings. Distinct from the measured retrospective narrator.",
+      "Natural Singaporean English; an adult speaking in the moment, warm with friends and hesitant when exposing his feelings. During Umrah, allow quiet ease and relief without grand performance. Distinct from the measured retrospective narrator.",
     synthetic: true,
   },
   {
@@ -152,7 +152,7 @@ export const voiceProfiles = [
     speakerId: "nadiah",
     displayName: "Nadiah",
     direction:
-      "Young adult Singaporean English; warm and natural, then candid and restrained during a difficult conversation.",
+      "Adult Singaporean English; warm and natural in the earlier relationship, candid and restrained during its difficult conversation. Her older Umrah portrayal retains the familiar warmth, with pauses and inward hesitation that do not confirm the narrator's interpretation.",
     synthetic: true,
   },
   {
@@ -169,6 +169,22 @@ export const voiceProfiles = [
     displayName: "Hakim",
     direction:
       "Young adult Singaporean English; friendly, grounded, and casually welcoming.",
+    synthetic: true,
+  },
+  {
+    id: "mariam",
+    speakerId: "mariam",
+    displayName: "Kak Mariam",
+    direction:
+      "Adult Singaporean English; relaxed and warmly practical with fellow travellers. Offer an introduction with ordinary kindness, without announcing destiny or a promised outcome.",
+    synthetic: true,
+  },
+  {
+    id: "yusuf",
+    speakerId: "yusuf",
+    displayName: "Abang Yusuf",
+    direction:
+      "Adult Singaporean English; easy, good-humoured companionship and quiet attentiveness. Mariam's husband, welcoming without intruding.",
     synthetic: true,
   },
 ] as const satisfies readonly VoiceProfile[];

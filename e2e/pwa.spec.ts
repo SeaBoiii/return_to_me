@@ -117,7 +117,7 @@ test('presents offline/install fallback and accepts an install prompt', async ({
   ).toBeDisabled();
 });
 
-test('loads both merged art batches and resumes arrival without a network connection', async ({ page, context }) => {
+test('loads the expanded art batches and resumes prayer in Madinah offline', async ({ page, context }) => {
   await openApp(page);
   await page.evaluate(async () => { await navigator.serviceWorker.ready; });
   await page.reload();
@@ -127,11 +127,11 @@ test('loads both merged art batches and resumes arrival without a network connec
       version: 1,
       storyId: 'return-to-me-school-years',
       storyRevision: revision,
-      currentNodeId: 'ch8-012',
+      currentNodeId: 'ch10-003',
       status: 'playing',
       history: [],
       rememberedChoices: {},
-      unlockedChapters: ['prologue', 'chapter-1', 'chapter-2', 'chapter-3', 'chapter-4', 'chapter-5', 'chapter-ns', 'chapter-6', 'chapter-7', 'chapter-8'],
+      unlockedChapters: ['prologue', 'chapter-1', 'chapter-2', 'chapter-3', 'chapter-4', 'chapter-5', 'chapter-ns', 'chapter-6', 'chapter-7', 'chapter-8', 'chapter-9', 'chapter-10'],
       seenNodeIds: [],
       timestamp: Date.now(),
     }));
@@ -141,10 +141,10 @@ test('loads both merged art batches and resumes arrival without a network connec
   await page.reload();
   await dismissNotice(page);
   await page.getByRole('button', { name: 'Continue', exact: true }).click();
-  await expect(page.getByText('A Different Journey', { exact: true })).toBeVisible();
+  await expect(page.getByText('What I Could Finally Put Down', { exact: true })).toBeVisible();
   const reveal = page.getByRole('button', { name: 'Reveal full line' });
   if (await reveal.isVisible()) await reveal.click();
-  await expect(page.getByLabel('Dialogue', { exact: true })).toContainText('arrived in the holy land');
+  await expect(page.getByLabel('Dialogue', { exact: true })).toContainText('Masjidil Nabawi');
 
   const missing = await page.evaluate(async (paths) => {
     const unavailable: string[] = [];
@@ -160,7 +160,7 @@ test('loads both merged art batches and resumes arrival without a network connec
     }
     return unavailable;
   }, createArtAssetManifest('/return-to-me-test/').filter((asset) =>
-    ['chapter-ns', 'chapter-6', 'chapter-7', 'chapter-8'].includes(asset.preloadGroup ?? ''),
+    ['chapter-ns', 'chapter-6', 'chapter-7', 'chapter-8', 'chapter-9', 'chapter-10'].includes(asset.preloadGroup ?? ''),
   ).map((asset) => asset.url));
   expect(missing).toEqual([]);
 });

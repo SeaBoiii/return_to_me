@@ -379,7 +379,7 @@ describe("Return to Me application shell", () => {
     },
   );
 
-  it("shows the arrival continuation with the current story subtitle", async () => {
+  it("shows the name-reveal continuation with the current story subtitle", async () => {
     persistSettings({ textSpeedMs: 0 });
     persistSave("epilogue-end");
     const user = userEvent.setup();
@@ -393,7 +393,7 @@ describe("Return to Me application shell", () => {
     ).toBeInTheDocument();
     expect(
       within(ending).getByText(
-        "The journey in the holy land begins in the next chapter.",
+        "Their story begins in the next chapter.",
       ),
     ).toBeInTheDocument();
   });

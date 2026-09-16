@@ -4,7 +4,9 @@ import { artAssets } from "../art/manifest";
 import { validateStory } from "../engine/validation";
 import type { StoryNode } from "../engine/types";
 import { story } from ".";
+import { adulthoodStages } from "./adulthoodStages";
 import { stages } from "./stages";
+import { umrahStages } from "./umrahStages";
 
 const nextIds = (node: StoryNode): readonly string[] => {
   if (node.type === "line") {
@@ -142,7 +144,9 @@ describe("production story", () => {
       story.speakers.map((speaker) => speaker.id),
     );
 
-    for (const [stageId, stage] of Object.entries(stages)) {
+    const reusableStages = [stages, adulthoodStages, umrahStages]
+      .flatMap((collection) => Object.entries(collection));
+    for (const [stageId, stage] of reusableStages) {
       expect(knownAssetIds.has(stage.backgroundId), stageId).toBe(true);
       for (const sprite of stage.sprites) {
         expect(knownAssetIds.has(sprite.assetId), `${stageId}:${sprite.id}`).toBe(
@@ -179,7 +183,7 @@ describe("production story", () => {
   });
 
 
-  it("keeps the expanded release-sized script and exactly eighteen reflective choices", () => {
+  it("keeps the expanded release-sized script and exactly twenty-two reflective choices", () => {
     const lineWords = story.nodes.reduce((total, node) => {
       if (node.type !== "line") {
         return total;
@@ -188,9 +192,11 @@ describe("production story", () => {
     }, 0);
     const choices = story.nodes.filter((node) => node.type === "choice");
 
-    expect(story.nodes).toHaveLength(604);
-    expect(lineWords).toBeGreaterThanOrEqual(16_500);
-    expect(lineWords).toBeLessThanOrEqual(17_500);
+    expect(story.nodes).toHaveLength(707);
+    expect(story.chapters).toHaveLength(13);
+    expect(story.speakers).toHaveLength(19);
+    expect(lineWords).toBeGreaterThanOrEqual(21_000);
+    expect(lineWords).toBeLessThanOrEqual(22_000);
     expect(choices.map((node) => node.id)).toEqual([
       "ch1-choice-sms",
       "ch2-choice-wingman",
@@ -210,12 +216,16 @@ describe("production story", () => {
       "ch6-choice-farewell",
       "ch7-choice-rejection",
       "ch7-choice-companionship",
+      "ch9-choice-sharing",
+      "ch9-choice-sign",
+      "ch10-choice-release",
+      "ch10-choice-boundary",
     ]);
     expect(choices.every((node) => node.choices.length === 3)).toBe(true);
   });
 
   it("preserves every authored node, line, choice, and graph link during art refreshes", () => {
-    expect(stableDigest(story.nodes.map(narrativeContract))).toBe("3a59c6d5");
+    expect(stableDigest(story.nodes.map(narrativeContract))).toBe("00793920");
   });
 
   it("reconverges every choice before the next milestone", () => {
@@ -239,6 +249,10 @@ describe("production story", () => {
       ["ch6-choice-farewell", "ch6-farewell-join"],
       ["ch7-choice-rejection", "ch7-rejection-join"],
       ["ch7-choice-companionship", "ch7-companionship-join"],
+      ["ch9-choice-sharing", "ch9-sharing-join"],
+      ["ch9-choice-sign", "ch9-sign-join"],
+      ["ch10-choice-release", "ch10-release-join"],
+      ["ch10-choice-boundary", "ch10-boundary-join"],
     ]);
 
     for (const [choiceId, joinId] of expectedJoins) {
@@ -257,7 +271,7 @@ describe("production story", () => {
     expect(validateStory(story, { assets: artAssets })).toEqual([]);
   });
 
-  it("takes every adulthood route through university, working life, and arrival in order", () => {
+  it("takes every adulthood route through university, working life, arrival, and Umrah in order", () => {
     const nodeById = new Map(story.nodes.map((node) => [node.id, node]));
     expect(nodeById.get("ch5-038")).toMatchObject({ type: "line", next: "ns-001" });
     for (const [startId, nextMilestone] of [
@@ -265,7 +279,9 @@ describe("production story", () => {
       ["uni-arrival-001", "ch6-001"],
       ["ch6-001", "ch7-001"],
       ["ch7-001", "ch8-001"],
-      ["ch8-001", "epilogue-001"],
+      ["ch8-001", "ch9-001"],
+      ["ch9-001", "ch10-001"],
+      ["ch10-001", "epilogue-001"],
       ["epilogue-001", "epilogue-end"],
     ] as const) {
       expect(everyRouteReaches(startId, nextMilestone, nodeById), startId).toBe(true);
@@ -276,6 +292,8 @@ describe("production story", () => {
     ["chapter-6", 2_600, 3_200],
     ["chapter-7", 1_800, 2_400],
     ["chapter-8", 450, 650],
+    ["chapter-9", 2_200, 2_800],
+    ["chapter-10", 1_600, 2_200],
   ] as const)("keeps every readable %s route within its word budget", (chapterId, minimum, maximum) => {
     const chapter = story.chapters.find((entry) => entry.id === chapterId);
     const nodeById = new Map<string, StoryNode>(story.nodes.map((node) => [node.id, node]));
@@ -319,7 +337,7 @@ describe("production story", () => {
     expect(lineText("ch8-012")).toContain("arrived in the holy land");
   });
 
-  it("keeps the pilgrimage lead-in short and ends on the arrival scene", () => {
+  it("keeps the pilgrimage lead-in short and ends only after Mariam names Nurulain", () => {
     expect(story.nodes.filter((node) => node.type === "end").map((node) => node.id)).toEqual(["epilogue-end"]);
     const university = story.nodes.filter((node) => node.chapterId === "chapter-6");
     const workingLife = story.nodes.filter((node) => node.chapterId === "chapter-7");
@@ -328,10 +346,70 @@ describe("production story", () => {
     expect(journey.length).toBeLessThan(university.length / 2);
     expect(journey.length).toBeLessThan(workingLife.length / 2);
     expect(journey.every((node) => node.type === "line")).toBe(true);
-    expect(journey.at(-1)).toMatchObject({ type: "line", next: "epilogue-001" });
+    expect(journey.at(-1)).toMatchObject({ type: "line", next: "ch9-001" });
     expect(epilogue).toHaveLength(3);
-    expect(epilogue.every((node) => node.stage.backgroundId === journey.at(-1)?.stage.backgroundId)).toBe(true);
-    expect(epilogue.at(-1)).toMatchObject({ id: "epilogue-end", type: "end" });
+    expect(epilogue[0]).toMatchObject({
+      id: "epilogue-001", type: "line", speakerId: "mariam", next: "epilogue-002",
+    });
+    expect(lineText("epilogue-001")).toContain("someone I work with");
+    expect(epilogue[1]).toMatchObject({
+      id: "epilogue-002", type: "line", speakerId: "mariam",
+      text: "Her name is Nurulain.", next: "epilogue-end",
+    });
+    expect(epilogue.at(-1)).toMatchObject({
+      id: "epilogue-end", type: "end", title: "To be continued",
+      text: "Their story begins in the next chapter.",
+    });
+    expect(story.speakers.some((speaker) => speaker.id.includes("nurul"))).toBe(false);
+    const expansion = story.nodes.filter((node) =>
+      ["chapter-9", "chapter-10", "epilogue"].includes(node.chapterId),
+    );
+    expect(expansion.filter((node) => node.type === "line" && node.text.includes("Nurulain")))
+      .toEqual([epilogue[1]]);
+  });
+
+  it("keeps both climbs, their remembered significance, and the private Madinah prayer in order", () => {
+    const nodeById = new Map(story.nodes.map((node) => [node.id, node]));
+    for (const [startId, nextMilestone] of [
+      ["ch9-001", "ch9-004"],
+      ["ch9-004", "ch9-019"],
+      ["ch9-019", "ch9-021"],
+      ["ch9-021", "ch9-029"],
+      ["ch9-029", "ch9-033"],
+      ["ch9-033", "ch9-036"],
+      ["ch9-036", "ch10-001"],
+      ["ch10-001", "ch10-006"],
+      ["ch10-006", "ch10-009"],
+      ["ch10-009", "ch10-boundary-join"],
+      ["ch10-boundary-join", "epilogue-002"],
+    ] as const) {
+      expect(everyRouteReaches(startId, nextMilestone, nodeById), startId).toBe(true);
+    }
+    expect(lineText("ch9-005")).toMatch(/same girl from my National Service years/i);
+    expect(lineText("ch9-007")).toContain("She wore a hijab");
+    expect(lineText("ch9-019")).toMatch(/Jabal Nur[\s\S]*five of us/i);
+    expect(lineText("ch9-021")).toMatch(/just Nadiah and me[\s\S]*hadn't manoeuvred/i);
+    expect(lineText("ch9-029")).toContain("We remembered book-ins");
+    expect(lineText("ch9-033")).toContain("again at Jabal Rahmah");
+    expect(lineText("ch9-036")).toMatch(/tradition[\s\S]*Adam and Hawa[\s\S]*after coming down to earth/i);
+    expect(lineText("ch9-037")).toContain("wondered whether this was a sign");
+    expect(lineText("ch10-001")).toContain("Madinah came after Makkah");
+    expect(lineText("ch10-003")).toContain("In Masjidil Nabawi, I found a moment alone");
+    expect(lineText("ch10-006")).toMatch(/small doa about love[\s\S]*cannot give its exact words/i);
+    expect(lineText("ch10-009")).toMatch(/unplanned sigh[\s\S]*something had come out with it/i);
+    expect(nodeById.get("ch10-009")?.stage.backgroundId).toBe("cg-nabawi-release");
+  });
+
+  it("keeps Nadiah's longing an inference and Aleem's boundary a quiet personal decision", () => {
+    expect(lineText("ch9-018")).toMatch(/how it felt to me[\s\S]*couldn't measure/i);
+    expect(lineText("ch9-042")).toMatch(/thought I saw longing[\s\S]*could not name what she was thinking/i);
+    expect(lineText("ch9-043")).toMatch(/my reading[\s\S]*no hidden piece of information/i);
+    expect(lineText("ch10-018")).toMatch(/impression I formed, never a confession she gave me/i);
+    expect(lineText("ch10-012")).toMatch(/old rule about Malay women[\s\S]*resentment[\s\S]*letting go/i);
+    expect(lineText("ch10-020")).toMatch(/did not need to press her for a place she hadn't offered/i);
+    expect(lineText("ch10-boundary-join")).toMatch(/no farewell conversation[\s\S]*stop seeking another moment alone[\s\S]*remain kind/i);
+    expect(lineText("ch9-011")).toMatch(/Kak Mariam[\s\S]*Abang Yusuf/i);
+    expect(lineText("ch9-014")).toContain("Their kindness");
   });
 
   it("keeps every stage complete and limits identical Chapter 1-2 shots to three nodes", () => {
@@ -389,6 +467,8 @@ describe("production story", () => {
       "University–December 2021",
       "Working life · February 2023 onward",
       "January 2026",
+      "Makkah · January 2026",
+      "Madinah · January 2026",
       "January 2026",
     ]);
     const script = story.nodes

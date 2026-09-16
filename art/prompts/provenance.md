@@ -533,6 +533,28 @@ The full approval and deterministic processing contract is recorded in the
 
 ## Files and processing
 
+### January 2026 Umrah expansion
+
+The independent `school-years-5.0.0` batch contains 16 sprites, seven
+backgrounds, and three CGs for displayed Chapters 10–11 and the revised
+epilogue. OpenAI's built-in image generator produced each selected source;
+the tool did not expose an exact model identifier. The
+[production record](umrah-production.md) documents the inventory, processing,
+and verification. Exact prompts, input references, and generation paths are
+recorded separately for [Aleem](umrah-aleem-sprites.md),
+[Nadiah, Mariam, and Yusuf](umrah-support-sprites.md), and
+[backgrounds and illustrations](umrah-scenes.md).
+
+Raw sources and generation metadata remain in `art/sources/umrah`; normalized
+masters live in its `normalized` directory and deployed WebPs in
+`public/assets/art`. Unusable transparency attempts are retained in `rejected`
+for provenance. Selected magenta sources use the established deterministic
+matting and spill cleanup. The separate `art:umrah:check` command checks the
+complete 26-asset inventory and generates contact sheets in `art/qa/umrah`.
+Imran and the arrival scene reuse their adulthood assets. Nurulain remains
+unseen. Generated artwork and derivatives are all-rights-reserved project
+material, consistent with the existing batches.
+
 | Asset family | Generated/source path | Deployed path | Deployed dimensions |
 | --- | --- | --- | --- |
 | Background masters | `art/sources/bg-*-master.png` | `public/assets/art/backgrounds/*.webp` | 1600×900 |

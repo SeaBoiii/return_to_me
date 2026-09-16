@@ -1,10 +1,10 @@
 # Return to Me: Before Nurul
 
-A responsive, installable visual novel following Aleem from school and National Service in Singapore through university, working life, and his arrival in the holy land in January 2026, before he meets Nurul. Eighteen reflective choices change immediate dialogue while preserving the remembered milestones.
+A responsive, installable visual novel following Aleem from school and National Service in Singapore through university, working life, and his January 2026 Umrah journey, before he meets Nurul. Twenty-two reflective choices change immediate dialogue while preserving the remembered milestones.
 
-**The Story I Wasn’t In** and its university arrival sequence lead into **Almost Us**, **Just Friends**, and the short lead-in **A Different Journey**. The story stops at arrival in the holy land; the prayers, fuller Umrah journey, and what follows belong to a later chapter.
+**The Story I Wasn’t In** and its university arrival sequence lead into **Almost Us**, **Just Friends**, and **A Different Journey**. Chapters 10–11, **The Same Girl** and **What I Could Finally Put Down**, continue through Makkah and then Madinah: a reunion with Nadiah, the two climbs, a private prayer, and a quiet decision. The brief epilogue ends with Mariam saying, “Her name is Nurulain.” Their introduction remains for the next chapter.
 
-The combined revision is `school-years-4.0.0`. Saves from both `school-years-3.0.0` (adulthood) and `before-nurul-3.0.0` (National Service) migrate automatically, retaining choices and replay positions. Earlier school-years editions still resume at their first unread expansion. Existing adulthood node IDs remain stable; the inserted National Service and university arrival nodes use separate namespaces.
+The story revision is `school-years-5.0.0`, with 13 chapter entries, 707 nodes, and 19 speaking identities. Saves from the merged v4 and adulthood v3 arrival endings resume at the new Umrah chapter. First-edition readers still resume at Chapter 3, JC-edition readers at National Service, and NS-only v3 readers at **Almost Us**. Migration preserves earlier choices and replay positions, removes obsolete arrival-ending progress, and unlocks the new chapter when appropriate. Earlier node IDs, storage keys, and installation identity remain stable.
 
 ## Local development
 
@@ -120,10 +120,24 @@ edges, stature, alignment, and the 8 MiB per-file precache limit, then creates
 light/dark character contact sheets and a scene overview in `art/qa/adulthood`.
 Use `npm run art:adulthood:validate` to check existing output without rewriting it.
 
+The independent Umrah batch adds 16 sprites, seven backgrounds, and three
+illustrated scenes. Its [production record](art/prompts/umrah-production.md)
+links the exact built-in image-generator prompts, identity references, and
+source provenance. Reproduce processing, physical validation, and light/dark
+contact sheets with:
+
+```bash
+npm run art:umrah:check
+```
+
+The `art:umrah:process`, `art:umrah:validate`, and `art:umrah:qa` commands also
+run separately. The batch uses the established master and deployment sizes,
+calibrated stature, transparent sprite edges, and 8 MiB per-file precache limit.
+
 Before publishing, complete [RELEASE_CHECKLIST.md](RELEASE_CHECKLIST.md), including the manual character/background approval and factual/tone read-through. The currently generated art is intentionally age-appropriate, uses fictional schools, and avoids readable generated text, trademarks, and copied game interfaces.
 
 ## Content and rights
 
-This project is inspired by remembered events and is told from Aleem's perspective. Names, dialogue, schools, and some details are fictionalized or reconstructed. Nadiah, Aisyah, Hakim, Jia Wen, Claire, Imran, and other former-partner or friend names are pseudonyms; exact grades and personal identifiers are omitted. The other men remain unnamed, and the story assigns no motive to Nadiah's choice not to wear hijab. Nurul is mentioned by name but does not appear in the scenes.
+This project is inspired by remembered events and is told from Aleem's perspective. Names, dialogue, schools, and some details are fictionalized or reconstructed. Nadiah, Aisyah, Hakim, Jia Wen, Claire, Imran, Kak Mariam, Abang Yusuf, and other former-partner or friend names are pseudonyms; exact grades and personal identifiers are omitted. The other men remain unnamed. Nadiah's familiar warmth and perceived longing are Aleem's impressions; her hijab is not a moral judgement. The private doa reconstructs its meaning, and Jabal Rahmah's association with Adam and Hawa is presented as a tradition Aleem knows. Nurulain is mentioned by name but does not appear in the scenes.
 
 Narrative, generated artwork, and imported voice assets are all rights reserved by default unless a specific license record states otherwise. There is no backend, account, analytics, or tracking.

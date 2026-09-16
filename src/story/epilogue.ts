@@ -1,22 +1,22 @@
 ﻿import type { StoryNode } from "../engine/types";
 import { ending, line } from "./helpers";
-import { adulthoodStages as stages } from "./adulthoodStages";
+import { umrahStages as stages } from "./umrahStages";
 
 export const epilogueNodes = [
   line(
     "epilogue-001",
     "epilogue",
-    stages.arrival,
-    "adult-aleem",
-    "For a moment, I stood still and let the fact of being here reach me. Nothing inside me had been neatly resolved. Yet I wanted to take the next step.",
+    stages.introduction,
+    "mariam",
+    "Aleem, there's someone I work with. A girl I know. I'd like to introduce you to her.",
     "epilogue-002",
   ),
   line(
     "epilogue-002",
     "epilogue",
-    stages.continuation,
-    "adult-aleem",
-    "Imran shifted his bag and waited for me. I picked up mine. There was more ahead than I could see from the doorway.",
+    stages.introduction,
+    "mariam",
+    "Her name is Nurulain.",
     "epilogue-end",
   ),
   ending(
@@ -24,6 +24,6 @@ export const epilogueNodes = [
     "epilogue",
     stages.continuation,
     "To be continued",
-    "The journey in the holy land begins in the next chapter.",
+    "Their story begins in the next chapter.",
   ),
 ] as const satisfies readonly StoryNode[];

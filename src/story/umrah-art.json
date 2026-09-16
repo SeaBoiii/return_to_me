@@ -1,0 +1,20 @@
+{
+  "families": [
+    { "id": "aleem-umrah", "name": "Aleem during Umrah", "chapter": "chapter-9", "height": 1050, "expressions": ["neutral", "surprised", "warm", "reflective", "relieved", "resolved"] },
+    { "id": "nadiah-umrah", "name": "Nadiah during the January 2026 journey", "chapter": "chapter-9", "height": 977, "expressions": ["neutral", "warm", "amused", "hesitant", "wistful"] },
+    { "id": "mariam", "name": "Kak Mariam, a fellow traveller", "chapter": "chapter-9", "height": 956, "expressions": ["neutral", "warm", "encouraging"] },
+    { "id": "yusuf", "name": "Abang Yusuf, Mariam's husband", "chapter": "chapter-9", "height": 1029, "expressions": ["neutral", "warm"] }
+  ],
+  "scenes": [
+    { "id": "bg-umrah-common-area", "kind": "background", "chapter": "chapter-9", "alt": "A comfortable shared indoor gathering area for the tour group." },
+    { "id": "bg-makkah-courtyard", "kind": "background", "chapter": "chapter-9", "alt": "The open courtyard of the Grand Mosque in Makkah, with space for quiet reflection." },
+    { "id": "bg-jabal-nur-ascent", "kind": "background", "chapter": "chapter-9", "alt": "A rocky stepped path ascending Jabal Nur above Makkah." },
+    { "id": "bg-jabal-nur-rest", "kind": "background", "chapter": "chapter-9", "alt": "A resting point along the Jabal Nur climb, overlooking the surrounding hills and city." },
+    { "id": "bg-jabal-rahmah", "kind": "background", "chapter": "chapter-9", "alt": "The rocky slope and white summit marker of Jabal Rahmah on the plain of Arafat." },
+    { "id": "bg-madinah-courtyard", "kind": "background", "chapter": "chapter-10", "alt": "The courtyard of Masjidil Nabawi in Madinah beneath its great shade umbrellas." },
+    { "id": "bg-nabawi-interior", "kind": "background", "chapter": "chapter-10", "alt": "A quiet prayer area inside Masjidil Nabawi, with distant worshippers and open carpet nearby." },
+    { "id": "cg-umrah-jabal-nur", "kind": "cg", "chapter": "chapter-9", "alt": "Aleem and Nadiah pause together during the climb of Jabal Nur, talking about their lives." },
+    { "id": "cg-umrah-jabal-rahmah", "kind": "cg", "chapter": "chapter-9", "alt": "Aleem and Nadiah find themselves together again on Jabal Rahmah, standing at a respectful distance." },
+    { "id": "cg-nabawi-release", "kind": "cg", "chapter": "chapter-10", "alt": "Aleem sits in private prayer inside Masjidil Nabawi, his shoulders easing as he breathes out." }
+  ]
+}

@@ -198,7 +198,7 @@ test('chains a completed first-edition save into the JC expansion', async ({
       }, SAVE_KEY),
     )
     .toMatchObject({
-      storyRevision: 'school-years-4.0.0',
+      storyRevision: 'school-years-5.0.0',
       currentNodeId: 'ch3-001',
       status: 'playing',
       unlockedChapters: [
@@ -233,7 +233,7 @@ test('resumes a completed JC edition at National Service and keeps later chapter
   await page.getByRole('button', { name: 'Continue', exact: true }).click();
   await expect(page.getByText('The Story I Wasn’t In', { exact: true })).toBeVisible();
   await expect.poll(() => page.evaluate((key) => JSON.parse(localStorage.getItem(key) ?? '{}') as unknown, SAVE_KEY)).toMatchObject({
-    storyRevision: 'school-years-4.0.0',
+    storyRevision: 'school-years-5.0.0',
     currentNodeId: 'ns-001',
     status: 'playing',
     history: [],
@@ -244,7 +244,7 @@ test('resumes a completed JC edition at National Service and keeps later chapter
   await page.getByRole('button', { name: 'Open chapter menu' }).click();
   const chapters = page.getByRole('dialog', { name: 'Chapter select' });
   await expect(chapters.getByRole('button', { name: /The Story I Wasn’t In/ })).toBeEnabled();
-  for (const title of ['Almost Us', 'Just Friends', 'A Different Journey', 'Arrival']) {
+  for (const title of ['Almost Us', 'Just Friends', 'A Different Journey', 'The Same Girl', 'What I Could Finally Put Down', 'A Name']) {
     await expect(chapters.getByRole('button', { name: new RegExp(title) })).toBeDisabled();
   }
   await chapters.getByRole('button', { name: 'Close' }).click();
@@ -254,7 +254,7 @@ test('resumes a completed JC edition at National Service and keeps later chapter
   await expect(page.getByText('The Story I Wasn’t In', { exact: true })).toBeVisible();
 });
 
-for (const previousRevision of ['school-years-3.0.0', 'before-nurul-3.0.0']) {
+for (const previousRevision of ['school-years-3.0.0', 'before-nurul-3.0.0', 'school-years-4.0.0']) {
   test(`distinguishes a completed ${previousRevision} save from the other branch`, async ({ page }) => {
     await openApp(page);
     await page.evaluate(({ key, revision }) => {
@@ -276,9 +276,9 @@ for (const previousRevision of ['school-years-3.0.0', 'before-nurul-3.0.0']) {
     await expect(page.getByRole('status')).toContainText('saved progress was updated');
     await page.getByRole('button', { name: 'Continue', exact: true }).click();
 
-    const completedAdulthood = previousRevision === 'school-years-3.0.0';
+    const completedAdulthood = previousRevision !== 'before-nurul-3.0.0';
     if (completedAdulthood) {
-      await expect(page.getByRole('heading', { name: 'To be continued' })).toBeVisible();
+      await expect(page.getByText('The Same Girl', { exact: true })).toBeVisible();
     } else {
       await expect(page.getByText('Almost Us', { exact: true })).toBeVisible();
     }
@@ -286,13 +286,111 @@ for (const previousRevision of ['school-years-3.0.0', 'before-nurul-3.0.0']) {
       JSON.parse(localStorage.getItem(key) ?? '{}') as unknown, SAVE_KEY,
     )).toMatchObject({
       storyRevision: story.revision,
-      currentNodeId: completedAdulthood ? 'epilogue-end' : 'ch6-001',
-      status: completedAdulthood ? 'ended' : 'playing',
+      currentNodeId: completedAdulthood ? 'ch9-001' : 'ch6-001',
+      status: 'playing',
       rememberedChoices: { 'ch5-choice-zoo': 'zoo-name-feeling' },
-      unlockedChapters: expect.arrayContaining(['chapter-ns', 'chapter-6']),
+      unlockedChapters: expect.arrayContaining([completedAdulthood ? 'chapter-9' : 'chapter-6']),
     });
   });
 }
+
+test('keeps a v4 reader in an earlier replay and unlocks the new Umrah chapter', async ({ page }) => {
+  await openApp(page);
+  await page.evaluate(({ key, chapters }) => {
+    localStorage.setItem(key, JSON.stringify({
+      version: 1,
+      storyId: 'return-to-me-school-years',
+      storyRevision: 'school-years-4.0.0',
+      currentNodeId: 'ch6-045',
+      status: 'playing',
+      history: [
+        { kind: 'line', nodeId: 'epilogue-001' },
+        { kind: 'line', nodeId: 'ch6-043' },
+      ],
+      rememberedChoices: { 'ch6-choice-silence': 'silence-time' },
+      unlockedChapters: chapters,
+      seenNodeIds: ['ch6-043', 'ch8-012', 'epilogue-001', 'epilogue-end'],
+      timestamp: Date.now(),
+    }));
+  }, {
+    key: SAVE_KEY,
+    chapters: story.chapters.filter((chapter) => !['chapter-9', 'chapter-10'].includes(chapter.id)).map((chapter) => chapter.id),
+  });
+  await page.reload();
+  await dismissNotice(page);
+  await expect(page.getByRole('status')).toContainText('saved progress was updated');
+  await page.getByRole('button', { name: 'Continue', exact: true }).click();
+  await expect(page.getByText('Almost Us', { exact: true })).toBeVisible();
+  await expect(page.getByLabel('Dialogue', { exact: true })).toContainText('Why didn’t you tell me earlier?');
+  await expect.poll(() => page.evaluate((key) =>
+    JSON.parse(localStorage.getItem(key) ?? '{}') as unknown, SAVE_KEY,
+  )).toMatchObject({
+    storyRevision: story.revision,
+    currentNodeId: 'ch6-045',
+    status: 'playing',
+    history: [{ kind: 'line', nodeId: 'ch6-043' }],
+    rememberedChoices: { 'ch6-choice-silence': 'silence-time' },
+    seenNodeIds: ['ch6-043', 'ch8-012'],
+    unlockedChapters: expect.arrayContaining(['chapter-9']),
+  });
+
+  await page.getByRole('button', { name: 'Open chapter menu' }).click();
+  const chapters = page.getByRole('dialog', { name: 'Chapter select' });
+  await expect(chapters.getByRole('button', { name: /The Same Girl/ })).toBeEnabled();
+  await expect(chapters.getByRole('button', { name: /What I Could Finally Put Down/ })).toBeDisabled();
+  await expect(chapters.getByRole('button', { name: /A Name/ })).toBeDisabled();
+  await chapters.getByRole('button', { name: 'Close' }).click();
+  await page.reload();
+  await dismissNotice(page);
+  await page.getByRole('button', { name: 'Continue', exact: true }).click();
+  await expect(page.getByText('Almost Us', { exact: true })).toBeVisible();
+});
+
+test('ends immediately after Mariam names Nurulain and resumes at the continuation', async ({ page }) => {
+  await openApp(page);
+  await page.evaluate(({ key, revision, chapters }) => {
+    localStorage.setItem(key, JSON.stringify({
+      version: 1,
+      storyId: 'return-to-me-school-years',
+      storyRevision: revision,
+      currentNodeId: 'epilogue-001',
+      status: 'playing',
+      history: [],
+      rememberedChoices: {},
+      unlockedChapters: chapters,
+      seenNodeIds: [],
+      timestamp: Date.now(),
+    }));
+  }, { key: SAVE_KEY, revision: story.revision, chapters: story.chapters.map((chapter) => chapter.id) });
+  await page.reload();
+  await dismissNotice(page);
+  await page.getByRole('button', { name: 'Continue', exact: true }).click();
+  const dialogue = page.getByLabel('Dialogue', { exact: true });
+  await expect(dialogue).toContainText("there's someone I work with");
+  await revealAndAdvance(page);
+  await expect(dialogue).toContainText('Kak Mariam');
+  await expect(dialogue).toContainText('Her name is Nurulain.');
+  await expect(page.getByRole('button', { name: 'Replay voice' })).toBeDisabled();
+  await revealAndAdvance(page);
+  await expect(page.getByRole('heading', { name: 'To be continued' })).toBeVisible();
+  await expect(page.getByRole('region', { name: 'To be continued' })).toContainText('Their story begins in the next chapter.');
+  await expect(page.getByLabel('Choice')).toBeHidden();
+  await expect(page.getByRole('button', { name: 'Advance dialogue' })).toBeHidden();
+  await expect.poll(() => page.evaluate((key) =>
+    JSON.parse(localStorage.getItem(key) ?? '{}') as unknown, SAVE_KEY,
+  )).toMatchObject({
+    currentNodeId: 'epilogue-end',
+    status: 'ended',
+    history: [
+      { kind: 'line', nodeId: 'epilogue-001' },
+      { kind: 'line', nodeId: 'epilogue-002' },
+    ],
+  });
+  await page.reload();
+  await dismissNotice(page);
+  await page.getByRole('button', { name: 'Continue', exact: true }).click();
+  await expect(page.getByRole('heading', { name: 'To be continued' })).toBeVisible();
+});
 
 test('unlocks National Service when advancing beyond the zoo and restores that position', async ({ page }) => {
   await openApp(page);
@@ -365,15 +463,15 @@ test('unlocks the first chapter only after reaching it', async ({ page }) => {
     chapterDialog.getByRole('button', { name: /A Different Classroom/ }),
   ).toBeDisabled();
   await expect(
-    chapterDialog.getByRole('button', { name: /Arrival/ }),
+    chapterDialog.getByRole('button', { name: /A Name/ }),
   ).toBeDisabled();
 });
 
-test('plays a complete route through eleven chapters and eighteen reconverging choices', async ({
+test('plays a complete route through thirteen chapters and twenty-two reconverging choices', async ({
   page,
 }, testInfo) => {
   test.skip(testInfo.project.name !== 'chromium', 'desktop route audit only');
-  test.setTimeout(180_000);
+  test.setTimeout(240_000);
 
   await openApp(page);
   await page.evaluate((key) => {
@@ -414,7 +512,7 @@ test('plays a complete route through eleven chapters and eighteen reconverging c
   }
 
   await expect(page.getByRole('heading', { name: 'To be continued' })).toBeVisible();
-  expect(choiceCount).toBe(18);
+  expect(choiceCount).toBe(22);
   await expect
     .poll(() =>
       page.evaluate((key) => {
@@ -437,8 +535,8 @@ test('plays a complete route through eleven chapters and eighteen reconverging c
     .toEqual({
       status: 'ended',
       currentNodeId: 'epilogue-end',
-      choiceCount: 18,
-      unlockedCount: 11,
+      choiceCount: 22,
+      unlockedCount: 13,
     });
 });
 test('keeps subtitles and voice settings usable without licensed clips', async ({
@@ -499,7 +597,7 @@ test('supports the core touch flow without horizontal overflow', async ({
   expect(dimensions.document).toBeLessThanOrEqual(dimensions.viewport + 1);
 });
 
-for (const artworkId of ['cg-jia-wen-boyfriend', 'cg-uss-confession']) {
+for (const artworkId of ['cg-jia-wen-boyfriend', 'cg-uss-confession', 'cg-umrah-jabal-nur', 'cg-umrah-jabal-rahmah', 'cg-nabawi-release']) {
   test(`preserves ${artworkId} composition above dialogue on portrait screens`, async ({
     page,
   }, testInfo) => {

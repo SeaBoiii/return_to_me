@@ -1,0 +1,11 @@
+{
+  "asset": "aleem-umrah-relieved",
+  "tool": "built-in image_gen",
+  "model": "unspecified",
+  "prompt": "Use case: identity-preserve. Create ONE new relieved expression sprite for visual novel Return to Me: Before Nurul. The supplied image is the exact Aleem identity/outfit anchor. Preserve the same late-twenties adult man's warm brown skin, slim build, swept black short hair, rectangular dark glasses, face, cream rolled-sleeve open overshirt, muted teal-blue T-shirt and navy trousers. Change facial performance and only a subtle natural posture: A soft exhale of relief: shoulders loosened, brows relaxed, eyes gently closed and a faint peaceful smile. Hands rest naturally, no prayer pose or supernatural effects. Style unchanged: soft semi-realistic cel shading, precise delicate outlines, natural adult anatomy. Same head-through-knees portrait composition, hands fully visible, centered silhouette with generous side/head margin, 1024x1536. Background MUST be a perfectly flat solid vivid magenta RGB 255,0,255 for chroma-key production. No transparency simulation, checkerboard, gradient, vignette, shadows on background, glow, floor, scenery, text, watermark, or props. Opaque skin and clothing, clean outlines with no magenta spill. One character only.",
+  "references": [
+    "art/sources/umrah/sprites/aleem-umrah-neutral-master.png"
+  ],
+  "source": "C:\\Users\\alsiddiq\\.codex\\generated_images\\01a08a0d-a799-7f80-b3f8-0174d3c99338\\exec-d5a3a951-4418-4b7e-a964-8a0609212d06.png",
+  "review": "Pending contact-sheet and alpha validation."
+}

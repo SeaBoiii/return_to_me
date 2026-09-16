@@ -2,6 +2,7 @@ import type { AssetEntry, AssetKind } from "../engine/types";
 import { appPathname } from "../pwa/basePath";
 import { storyAssetIds } from "./assets";
 import { adulthoodArtSpecs } from "./adulthoodArt";
+import { umrahArtSpecs } from "./umrahArt";
 
 interface ArtAssetSpec {
   readonly id: string;
@@ -78,6 +79,7 @@ const sprite = (
 
 const ART_SPECS = [
   ...adulthoodArtSpecs,
+  ...umrahArtSpecs,
   background(
     "bg-primary-classroom",
     "chapter-1",

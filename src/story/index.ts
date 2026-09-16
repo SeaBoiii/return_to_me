@@ -6,6 +6,8 @@ import { universityArrivalNodes } from "./universityArrival";
 import { chapterSixNodes } from "./chapterSix";
 import { chapterSevenNodes } from "./chapterSeven";
 import { chapterEightNodes } from "./chapterEight";
+import { chapterNineNodes } from "./chapterNine";
+import { chapterTenNodes } from "./chapterTen";
 import { chapterFourNodes } from "./chapterFour";
 import { chapterThreeNodes } from "./chapterThree";
 import { chapterTwoNodes } from "./chapterTwo";
@@ -25,6 +27,8 @@ export const storyNodes = [
   ...chapterSixNodes,
   ...chapterSevenNodes,
   ...chapterEightNodes,
+  ...chapterNineNodes,
+  ...chapterTenNodes,
   ...epilogueNodes,
 ] as const satisfies readonly StoryNode[];
 

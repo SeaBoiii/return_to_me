@@ -7,6 +7,11 @@ before it, so these scenes now appear as Chapters 7–9. Adulthood node IDs and
 artwork remain stable; the earlier university outfit has separate
 `aleem-uni-arrival` runtime assets.
 
+The `school-years-5.0.0` [Umrah expansion](umrah-production.md) continues beyond
+this batch's original arrival endpoint. It replaces the old arrival epilogue
+with a later name reveal while retaining the adulthood artwork and node IDs.
+Arrival-only descriptions below record this batch's original scope.
+
 Artwork generated with OpenAI's built-in image generator on 10–11 September
 2026; exact image model unspecified. Final visual review: 13 September 2026.
 Generated art and derivatives are all-rights-reserved project material.

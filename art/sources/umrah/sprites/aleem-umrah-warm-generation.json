@@ -1,0 +1,11 @@
+{
+  "asset": "aleem-umrah-warm",
+  "tool": "built-in image_gen",
+  "model": "unspecified",
+  "prompt": "Use case: identity-preserve. Create ONE new warm expression sprite for visual novel Return to Me: Before Nurul. The supplied image is the exact Aleem identity/outfit anchor. Preserve the same late-twenties adult man's warm brown skin, slim build, swept black short hair, rectangular dark glasses, face, cream rolled-sleeve open overshirt, muted teal-blue T-shirt and navy trousers. Change facial performance and only a subtle natural posture: Warm, easy affection: a small relaxed smile reaching his eyes, shoulders lowered, familiar natural friendliness. Style unchanged: soft semi-realistic cel shading, precise delicate outlines, natural adult anatomy. Same head-through-knees portrait composition, hands fully visible, centered silhouette with generous side/head margin, 1024x1536. Background MUST be a perfectly flat solid vivid magenta RGB 255,0,255 for chroma-key production. No transparency simulation, checkerboard, gradient, vignette, shadows on background, glow, floor, scenery, text, watermark, or props. Opaque skin and clothing, clean outlines with no magenta spill. One character only.",
+  "references": [
+    "art/sources/umrah/sprites/aleem-umrah-neutral-master.png"
+  ],
+  "source": "C:\\Users\\alsiddiq\\.codex\\generated_images\\01a08a0d-a799-7f80-b3f8-0174d3c99338\\exec-eb6f5e0f-b6d7-4b52-8523-7db564989ada.png",
+  "review": "Pending contact-sheet and alpha validation."
+}
