@@ -1,0 +1,11 @@
+{
+  "date": "2026-09-23",
+  "tool": "built-in image_gen",
+  "assetId": "nurulain-moved",
+  "prompt": "Use case: identity-preserve. Edit supplied neutral Nurulain sprite to create ONE nurulain-moved expression. Preserve exact adult Malay Singaporean woman identity, warm golden-brown skin, soft rounded oval face, dark eyes, same full dusty-rose hijab covering all hair neck shoulders chest, loose opaque beige tunic sleeves to wrists and taupe long skirt, proportions and head-through-below-knees1024x1536 composition. Expression: deeply touched by a sincere love confession, eyes gently shining, brows softly raised inward, small tender closed smile, shoulders relaxed, no tears rolling down or dramatic distress. Hands remain naturally together and visible. Delicate cel-shaded VN illustration unchanged. Uniform flat pure solid vivid magenta RGB255,0,255 background, fully opaque subject, clean edges. NO transparency, glow, halo, gradient, shadows, scenery, checkerboard, text or watermarks.",
+  "references": [
+    "art/sources/finale/sprites/nurulain-neutral-master.png"
+  ],
+  "originalPath": "C:/Users/seabo/.codex/generated_images/01a0cced-3c90-7e42-99c6-5c877ba3a64a/exec-6d948a66-7a82-4f6a-b8a2-bdaf35b5078f.png",
+  "status": "selected magenta source"
+}

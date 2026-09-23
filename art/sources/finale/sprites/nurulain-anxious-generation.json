@@ -1,0 +1,11 @@
+{
+  "date": "2026-09-23",
+  "tool": "built-in image_gen",
+  "assetId": "nurulain-anxious",
+  "prompt": "Use case: identity-preserve. Use supplied nurulain-neutral sprite as exact identity and outfit anchor. Create nurulain-anxious. Change ONLY face subtly: uncertain gently drawn brows, worried parted lips, gaze slightly lowered, shoulders held; anxious about being rushed into a relationship, not fearful of physical danger. Retain exact warm medium golden-brown skin, soft rounded oval face, adult Malay Singaporean identity, dusty-rose full chest-covering hijab, opaque loose beige long tunic to wrists and taupe long skirt, hands together, same scale/framing1024x1536 head through below knees. Same delicate cel-shaded illustration. IMPORTANT BACKGROUND: perfectly uniform flat vivid pure magenta RGB255,0,255, fully opaque character with crisp edges. No transparency, gradients, glow, shadow, halo, scenery, checkerboard or text. Do not copy any translucent effects. Single isolated character only.",
+  "references": [
+    "art/sources/finale/sprites/nurulain-neutral-master.png"
+  ],
+  "originalPath": "C:/Users/seabo/.codex/generated_images/01a0cced-3c90-7e42-99c6-5c877ba3a64a/exec-7e669faa-878f-4973-9e4e-2d044ef31a9d.png",
+  "status": "selected magenta source"
+}

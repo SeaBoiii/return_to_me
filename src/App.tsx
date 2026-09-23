@@ -325,10 +325,10 @@ function TitleScreen({
         <h1>
           Return <em>to</em> Me
         </h1>
-        <p className={styles.subtitle}>{story.subtitle}</p>
+        {story.subtitle && <p className={styles.subtitle}>{story.subtitle}</p>}
         <p className={styles.titleSummary}>
-          School corridors, National Service, university afternoons, and working
-          life. Follow Aleem through love, disappointment, and a different journey.
+          From school corridors to a sunset by the Kallang River. Follow Aleem
+          through love, disappointment, faith, and a new beginning with Nurul.
         </p>
 
         {storageMessage !== undefined && (
@@ -663,7 +663,7 @@ function GameScreen({ onTitle, onOpenPanel }: GameScreenProps) {
 
       {node.type === "end" ? (
         <section className={styles.endCard} aria-labelledby="ending-title">
-          <p className={styles.eyebrow}>{story.subtitle}</p>
+          <p className={styles.eyebrow}>{story.subtitle ?? story.title}</p>
           <h1 id="ending-title">{node.title}</h1>
           {node.text !== undefined && <p>{node.text}</p>}
           <div className={styles.endActions}>
@@ -786,7 +786,7 @@ function ChapterPanel({
   return (
     <Modal
       title="Chapter select"
-      eyebrow={story.subtitle}
+      eyebrow={story.subtitle ?? story.title}
       onClose={onClose}
     >
       <ol className={styles.chapterList}>
@@ -1240,14 +1240,14 @@ function CreditsPanel({ onClose }: { readonly onClose: () => void }) {
       <div className={styles.credits}>
         <section>
           <p className={styles.eyebrow}>Story</p>
-          <h3>{story.title}: {story.subtitle}</h3>
+          <h3>{story.title}{story.subtitle ? `: ${story.subtitle}` : ""}</h3>
           <p>
             Inspired by Aleem’s life journey from 2009 to 2026. Former-partner
             and friend names are pseudonyms; dialogue is reconstructed, and
             schools and identifying details remain fictionalised. The story
             distinguishes observed, reported, and inferred details without
-            treating ethnicity or religious dress as moral evidence. It ends
-            before Aleem meets Nurul.
+            treating ethnicity or religious dress as moral evidence. It closes
+            with Aleem and Nurul engaged and preparing for their wedding.
           </p>
         </section>
         <section>

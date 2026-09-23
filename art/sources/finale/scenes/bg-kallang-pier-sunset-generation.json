@@ -1,0 +1,11 @@
+{
+  "id": "bg-kallang-pier-sunset",
+  "generatedAt": "2026-09-23",
+  "generator": "OpenAI built-in image generator",
+  "model": "not exposed by tool",
+  "sourcePath": "C:\\Users\\seabo\\.codex\\generated_images\\01a0ccef-5a4e-7892-852f-c1a99b342f73\\exec-439fd877-2010-4b30-9bd0-a16f45f4b8f0.png",
+  "workspaceMaster": "art/sources/finale/scenes/bg-kallang-pier-sunset-master.png",
+  "references": [],
+  "prompt": "Use case: illustration-story. Asset type: one finished visual-novel background master, landscape 16:9, target 2048x1152. Style: soft semi-realistic cel-shaded illustration, restrained fine linework, nuanced natural light, crisp architectural silhouettes, gently painted textures matching the Return to Me visual novel. Empty environment with no people. Eye-level wide camera. Compose meaningful details within the central 70% width and upper 62% height, leaving lower 38% visually calm for a translucent dialogue panel and foreground open for character sprites. No text, numbers, signage, logos, watermark, speech bubbles, lettering, user interface, collage or image grid. Scene: A quiet pier beside Singapore's Kallang River at sunset. Wooden deck boards, simple dark railing, calm river reflecting warm apricot and rose sky, understated distant Singapore waterfront buildings and tropical greenery with no named landmark dominating. A modest bench faces the river. Gentle evening light and room for two people to sit and talk honestly; peaceful everyday setting, not a grand tourist attraction. Place the horizon and sunset reflections above the dialogue area. No people, boats, readable signage, invented recognizable landmarks or romance symbols.",
+  "outputHint": "Generated images are saved to C:\\Users\\seabo\\.codex\\generated_images\\01a0ccef-5a4e-7892-852f-c1a99b342f73 as C:\\Users\\seabo\\.codex\\generated_images\\01a0ccef-5a4e-7892-852f-c1a99b342f73\\exec-439fd877-2010-4b30-9bd0-a16f45f4b8f0.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

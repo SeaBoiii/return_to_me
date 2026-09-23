@@ -1,0 +1,14 @@
+{
+  "families": [
+    { "id": "nurulain", "name": "Nurulain", "chapter": "chapter-11", "height": 947, "expressions": ["neutral", "curious", "amused", "guarded", "anxious", "warm", "moved"] }
+  ],
+  "scenes": [
+    { "id": "bg-yakiniku-date", "kind": "background", "chapter": "chapter-11", "alt": "A warm yakiniku restaurant with beef cooking on a small table grill." },
+    { "id": "bg-kazakhstan-stay", "kind": "background", "chapter": "chapter-11", "alt": "A comfortable accommodation lounge during Aleem's trip to Kazakhstan." },
+    { "id": "bg-parents-restaurant", "kind": "background", "chapter": "chapter-11", "alt": "A welcoming restaurant table set for a meeting with Nurulain's parents." },
+    { "id": "bg-kallang-pier-sunset", "kind": "background", "chapter": "chapter-11", "alt": "A quiet pier and bench beside the Kallang River beneath a warm sunset." },
+    { "id": "cg-parents-meeting", "kind": "cg", "chapter": "chapter-11", "alt": "Aleem speaks sincerely with Nurulain's parents at a restaurant as Nurulain watches warmly." },
+    { "id": "cg-kallang-confession", "kind": "cg", "chapter": "chapter-11", "alt": "Aleem and Nurulain sit beside the Kallang River at sunset, speaking openly about their feelings." },
+    { "id": "cg-wedding-planning", "kind": "cg", "chapter": "epilogue", "alt": "Engaged and smiling, Aleem and Nurulain prepare for their wedding together at a cafe table." }
+  ]
+}

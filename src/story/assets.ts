@@ -1,9 +1,11 @@
 import { adulthoodBackgroundIds, adulthoodSpriteIds } from "./adulthoodArt";
 import { umrahBackgroundIds, umrahSpriteIds } from "./umrahArt";
+import { finaleBackgroundIds, finaleSpriteIds } from "./finaleArt";
 
 export const storyBackgroundIds = [
   ...adulthoodBackgroundIds,
   ...umrahBackgroundIds,
+  ...finaleBackgroundIds,
   "bg-primary-classroom",
   "bg-primary-corridor",
   "bg-primary-canteen",
@@ -58,6 +60,7 @@ export const storyBackgroundIds = [
 export const storySpriteAssetIds = [
   ...adulthoodSpriteIds,
   ...umrahSpriteIds,
+  ...finaleSpriteIds,
   "aleem-p6-neutral",
   "aleem-p6-smile",
   "aleem-p6-cheerful",

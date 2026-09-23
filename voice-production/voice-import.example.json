@@ -2,7 +2,7 @@
   "$schema": "./voice-import.schema.json",
   "schemaVersion": 1,
   "storyId": "return-to-me-school-years",
-  "contentRevision": "school-years-5.0.0",
+  "contentRevision": "school-years-6.0.0",
   "disclosure": "Character voices are licensed synthetic performances created for this story; no real person's voice is cloned.",
   "profiles": [
     {
@@ -116,6 +116,24 @@
     {
       "id": "yusuf",
       "speakerId": "yusuf",
+      "provider": "Example licensed synthetic voice provider",
+      "licenseReference": "licenses/provider-license-2026-01.md"
+    },
+    {
+      "id": "nurulain",
+      "speakerId": "nurulain",
+      "provider": "Example licensed synthetic voice provider",
+      "licenseReference": "licenses/provider-license-2026-01.md"
+    },
+    {
+      "id": "nurul-mother",
+      "speakerId": "nurul-mother",
+      "provider": "Example licensed synthetic voice provider",
+      "licenseReference": "licenses/provider-license-2026-01.md"
+    },
+    {
+      "id": "nurul-father",
+      "speakerId": "nurul-father",
       "provider": "Example licensed synthetic voice provider",
       "licenseReference": "licenses/provider-license-2026-01.md"
     }

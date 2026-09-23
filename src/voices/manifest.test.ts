@@ -54,6 +54,9 @@ describe("production content manifests", () => {
       "hakim",
       "mariam",
       "yusuf",
+      "nurulain",
+      "nurul-mother",
+      "nurul-father",
     ]);
     expect(voiceEntries).toHaveLength(0);
     expect(offlinePackManifests).toHaveLength(0);

@@ -1,0 +1,15 @@
+{
+  "date": "2026-09-23",
+  "tool": "built-in image_gen",
+  "references": [
+    "art/sources/umrah/sprites/aleem-umrah-neutral-master.png",
+    "art/sources/umrah/sprites/nadiah-umrah-neutral-master.png"
+  ],
+  "referenceRoles": [
+    "Aleem supplies skin tone and illustration style only.",
+    "Nadiah supplies illustration style and framing only; Nurulain has a distinct identity."
+  ],
+  "prompt": "Use case: illustration-story. Asset type: one isolated visual-novel character sprite identity anchor, nurulain-neutral, for Return to Me. Create a DISTINCT NEW adult Malay Singaporean woman Nurulain, late twenties, warm medium golden-brown skin closely matching Aleem in reference 1, soft rounded oval face, dark brown almond eyes, natural full brows, small rounded nose, kind approachable face whose smile can be bright. Reference1 Aleem is a SKIN TONE and illustration style reference ONLY, do not include him. Reference2 Nadiah is illustration finish/framing reference ONLY, do not copy her face or clothes. Nurul is165cm compared to Aleem183cm. She wears a plain muted warm dusty-rose full hijab draping generously over hair, neck, shoulders and entire chest; no hair or neck visible, face uncovered. Baggy opaque full-length long-sleeved pale warm stone-beige tunic with very loose sleeves to wrists and no waist shaping, over an opaque loose dark taupe ankle-length skirt. Hands relaxed together low in front, fingers visible and natural. Expression neutral attentive with a tiny welcoming closed-mouth smile, eyes softly looking toward viewer left. Soft semi-realistic cel-shaded visual-novel illustration, delicate clean linework, natural fabric shading, consistent with supplied style. Portrait1024x1536, one centered person from head through below knees, ample top and side margin, complete hands, skirt continues to low crop. Genuine transparent RGBA background, fully opaque figure, crisp antialiased silhouette, no scenery, floor shadow, glow, checkerboard, text, watermark, accessories, or props. This is the permanent character identity anchor, modest and ordinary, no fashion glamour.",
+  "originalPath": "C:/Users/seabo/.codex/generated_images/01a0cced-3c90-7e42-99c6-5c877ba3a64a/exec-89d8d55d-9dfb-4e7c-933b-1ad788e49234.png",
+  "status": "rejected: opaque halo background, retained as identity design"
+}

@@ -1,8 +1,13 @@
 # Return to Me Art Bible and Provenance
 
 This document records the production lineage for the artwork deployed in
-**Return to Me: Before Nurul**. It is an authoring record, not a claim that
+**Return to Me**. It is an authoring record, not a claim that
 the fictionalised characters are complete portraits of real people.
+
+The completed story's 23 September 2026 finale adds 14 assets. Its
+[production and verification record](finale-production.md),
+[Nurulain sprite prompts](finale-sprites.md), and
+[scene prompts](finale-scenes.md) extend the earlier edition records below.
 
 ## Generator and rights
 

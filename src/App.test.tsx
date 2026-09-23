@@ -144,7 +144,8 @@ describe("Return to Me application shell", () => {
     expect(
       screen.getByRole("heading", { level: 1, name: "Return to Me" }),
     ).toBeInTheDocument();
-    expect(screen.getByText(story.subtitle ?? "Before Nurul")).toBeInTheDocument();
+    expect(screen.queryByText("Before Nurul", { exact: true })).not.toBeInTheDocument();
+    expect(screen.getByText(/new beginning with Nurul/)).toBeInTheDocument();
     expect(screen.getByText(/Singapore · 2009–2026/)).toBeInTheDocument();
     expect(
       screen.getByRole("navigation", { name: "Game options" }),
@@ -379,7 +380,7 @@ describe("Return to Me application shell", () => {
     },
   );
 
-  it("shows the name-reveal continuation with the current story subtitle", async () => {
+  it("shows the completed story ending with its title and ongoing journey", async () => {
     persistSettings({ textSpeedMs: 0 });
     persistSave("epilogue-end");
     const user = userEvent.setup();
@@ -387,13 +388,13 @@ describe("Return to Me application shell", () => {
     await dismissNotice(user);
     await user.click(screen.getByRole("button", { name: "Continue" }));
 
-    const ending = screen.getByRole("region", { name: "To be continued" });
+    const ending = screen.getByRole("region", { name: "The End" });
     expect(
-      within(ending).getByText(story.subtitle ?? "Before Nurul"),
+      within(ending).getByText(story.title),
     ).toBeInTheDocument();
     expect(
       within(ending).getByText(
-        "Their story begins in the next chapter.",
+        "The story ends here. Our journey continues. Inshallah, a happily ever after.",
       ),
     ).toBeInTheDocument();
   });

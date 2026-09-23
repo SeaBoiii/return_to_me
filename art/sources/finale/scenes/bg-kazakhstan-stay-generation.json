@@ -1,0 +1,11 @@
+{
+  "id": "bg-kazakhstan-stay",
+  "generatedAt": "2026-09-23",
+  "generator": "OpenAI built-in image generator",
+  "model": "not exposed by tool",
+  "sourcePath": "C:\\Users\\seabo\\.codex\\generated_images\\01a0ccef-5a4e-7892-852f-c1a99b342f73\\exec-d53428a3-9ee4-4b28-9cce-e0dc1d789ed9.png",
+  "workspaceMaster": "art/sources/finale/scenes/bg-kazakhstan-stay-master.png",
+  "references": [],
+  "prompt": "Use case: illustration-story. Asset type: one finished visual-novel background master, landscape 16:9, target 2048x1152. Style: soft semi-realistic cel-shaded illustration, restrained fine linework, nuanced natural light, crisp architectural silhouettes, gently painted textures matching the Return to Me visual novel. Empty environment with no people. Eye-level wide camera. Compose meaningful details within the central 70% width and upper 62% height, leaving lower 38% visually calm for a translucent dialogue panel and foreground open for character sprites. No text, numbers, signage, logos, watermark, speech bubbles, lettering, user interface, collage or image grid. Scene: An ordinary contemporary accommodation lounge used during a friends' trip to Kazakhstan. Practical upholstered chairs, a low table with plain cups, neutral cream walls and a broad window with diffuse daylight but no specific city landmark, mountains, architecture, or seasonal weather. Comfortable understated travel setting, quiet space to message someone back home. Do not imply a named city, hotel, or sightseeing stop. No people, flags or decorative writing.",
+  "outputHint": "Generated images are saved to C:\\Users\\seabo\\.codex\\generated_images\\01a0ccef-5a4e-7892-852f-c1a99b342f73 as C:\\Users\\seabo\\.codex\\generated_images\\01a0ccef-5a4e-7892-852f-c1a99b342f73\\exec-d53428a3-9ee4-4b28-9cce-e0dc1d789ed9.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

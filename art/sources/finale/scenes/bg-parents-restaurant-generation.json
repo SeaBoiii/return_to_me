@@ -1,0 +1,11 @@
+{
+  "id": "bg-parents-restaurant",
+  "generatedAt": "2026-09-23",
+  "generator": "OpenAI built-in image generator",
+  "model": "not exposed by tool",
+  "sourcePath": "C:\\Users\\seabo\\.codex\\generated_images\\01a0ccef-5a4e-7892-852f-c1a99b342f73\\exec-fda68e4f-cc0d-4f65-9ad1-78397be65086.png",
+  "workspaceMaster": "art/sources/finale/scenes/bg-parents-restaurant-master.png",
+  "references": [],
+  "prompt": "Use case: illustration-story. Asset type: one finished visual-novel background master, landscape 16:9, target 2048x1152. Style: soft semi-realistic cel-shaded illustration, restrained fine linework, nuanced natural light, crisp architectural silhouettes, gently painted textures matching the Return to Me visual novel. Empty environment with no people. Eye-level wide camera. Compose meaningful details within the central 70% width and upper 62% height, leaving lower 38% visually calm for a translucent dialogue panel and foreground open for character sprites. No text, numbers, signage, logos, watermark, speech bubbles, lettering, user interface, collage or image grid. Scene: An ordinary comfortable restaurant in Singapore for a first meeting with someone's parents. A clean wooden dining table set for four with simple porcelain plates, glasses of water, and shared dishes, warm pendant light, muted cream walls and subtle greenery, comfortable chairs. Welcoming and sincere, not luxurious or ceremonial. Leave open space for visual-novel character staging; place the main table in the middle ground and keep the lower foreground calm. No diners, staff, alcohol, logos, menu text or celebration decorations.",
+  "outputHint": "Generated images are saved to C:\\Users\\seabo\\.codex\\generated_images\\01a0ccef-5a4e-7892-852f-c1a99b342f73 as C:\\Users\\seabo\\.codex\\generated_images\\01a0ccef-5a4e-7892-852f-c1a99b342f73\\exec-fda68e4f-cc0d-4f65-9ad1-78397be65086.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

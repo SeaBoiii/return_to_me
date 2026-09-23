@@ -1,0 +1,331 @@
+{
+  "capturedAt": "2026-09-23T06:51:10.847Z",
+  "url": "http://127.0.0.1:4173/return-to-me-test/",
+  "storyRevision": "school-years-6.0.0",
+  "browser": "chromium",
+  "views": [
+    {
+      "label": "desktop",
+      "width": 1440,
+      "height": 900,
+      "mobile": false
+    },
+    {
+      "label": "mobile",
+      "width": 390,
+      "height": 664,
+      "mobile": true
+    }
+  ],
+  "results": [
+    {
+      "view": "desktop",
+      "nodeId": "ch11-001",
+      "screenshot": "desktop-01-chapter-introduction.png",
+      "status": "passed",
+      "images": [
+        {
+          "src": "/return-to-me-test/assets/art/backgrounds/bg-umrah-common-area.webp",
+          "naturalWidth": 1600,
+          "naturalHeight": 900
+        },
+        {
+          "src": "/return-to-me-test/assets/art/characters/aleem-umrah/neutral.webp",
+          "naturalWidth": 768,
+          "naturalHeight": 1152
+        },
+        {
+          "src": "/return-to-me-test/assets/art/characters/mariam/encouraging.webp",
+          "naturalWidth": 768,
+          "naturalHeight": 1152
+        },
+        {
+          "src": "/return-to-me-test/assets/art/characters/yusuf/neutral.webp",
+          "naturalWidth": 768,
+          "naturalHeight": 1152
+        }
+      ],
+      "horizontalOverflow": 0
+    },
+    {
+      "view": "desktop",
+      "nodeId": "ch11-014",
+      "screenshot": "desktop-02-first-yakiniku.png",
+      "status": "passed",
+      "images": [
+        {
+          "src": "/return-to-me-test/assets/art/backgrounds/bg-yakiniku-date.webp",
+          "naturalWidth": 1600,
+          "naturalHeight": 900
+        },
+        {
+          "src": "/return-to-me-test/assets/art/characters/aleem-umrah/neutral.webp",
+          "naturalWidth": 768,
+          "naturalHeight": 1152
+        },
+        {
+          "src": "/return-to-me-test/assets/art/characters/nurulain/neutral.webp",
+          "naturalWidth": 768,
+          "naturalHeight": 1152
+        }
+      ],
+      "horizontalOverflow": 0
+    },
+    {
+      "view": "desktop",
+      "nodeId": "ch11-choice-reciprocity",
+      "screenshot": "desktop-03-reflective-choice.png",
+      "status": "passed",
+      "choiceOptionsVisible": 3,
+      "images": [
+        {
+          "src": "/return-to-me-test/assets/art/backgrounds/bg-yakiniku-date.webp",
+          "naturalWidth": 1600,
+          "naturalHeight": 900
+        },
+        {
+          "src": "/return-to-me-test/assets/art/characters/aleem-umrah/warm.webp",
+          "naturalWidth": 768,
+          "naturalHeight": 1152
+        },
+        {
+          "src": "/return-to-me-test/assets/art/characters/nurulain/warm.webp",
+          "naturalWidth": 768,
+          "naturalHeight": 1152
+        }
+      ],
+      "horizontalOverflow": 0
+    },
+    {
+      "view": "desktop",
+      "nodeId": "ch11-046",
+      "screenshot": "desktop-04-parents-dinner.png",
+      "status": "passed",
+      "images": [
+        {
+          "src": "/return-to-me-test/assets/art/cg/cg-parents-meeting.webp",
+          "naturalWidth": 1600,
+          "naturalHeight": 900
+        },
+        {
+          "src": "/return-to-me-test/assets/art/cg/cg-parents-meeting.webp",
+          "naturalWidth": 1600,
+          "naturalHeight": 900
+        }
+      ],
+      "horizontalOverflow": 0
+    },
+    {
+      "view": "desktop",
+      "nodeId": "ch11-069",
+      "screenshot": "desktop-05-sunset-confession.png",
+      "status": "passed",
+      "images": [
+        {
+          "src": "/return-to-me-test/assets/art/cg/cg-kallang-confession.webp",
+          "naturalWidth": 1600,
+          "naturalHeight": 900
+        },
+        {
+          "src": "/return-to-me-test/assets/art/cg/cg-kallang-confession.webp",
+          "naturalWidth": 1600,
+          "naturalHeight": 900
+        }
+      ],
+      "horizontalOverflow": 0
+    },
+    {
+      "view": "desktop",
+      "nodeId": "epilogue-001",
+      "screenshot": "desktop-06-wedding-planning.png",
+      "status": "passed",
+      "images": [
+        {
+          "src": "/return-to-me-test/assets/art/cg/cg-wedding-planning.webp",
+          "naturalWidth": 1600,
+          "naturalHeight": 900
+        },
+        {
+          "src": "/return-to-me-test/assets/art/cg/cg-wedding-planning.webp",
+          "naturalWidth": 1600,
+          "naturalHeight": 900
+        }
+      ],
+      "horizontalOverflow": 0
+    },
+    {
+      "view": "desktop",
+      "nodeId": "epilogue-end",
+      "screenshot": "desktop-07-final-ending.png",
+      "status": "passed",
+      "images": [
+        {
+          "src": "/return-to-me-test/assets/art/cg/cg-wedding-planning.webp",
+          "naturalWidth": 1600,
+          "naturalHeight": 900
+        },
+        {
+          "src": "/return-to-me-test/assets/art/cg/cg-wedding-planning.webp",
+          "naturalWidth": 1600,
+          "naturalHeight": 900
+        }
+      ],
+      "horizontalOverflow": 0
+    },
+    {
+      "view": "mobile",
+      "nodeId": "ch11-001",
+      "screenshot": "mobile-01-chapter-introduction.png",
+      "status": "passed",
+      "images": [
+        {
+          "src": "/return-to-me-test/assets/art/backgrounds/bg-umrah-common-area.webp",
+          "naturalWidth": 1600,
+          "naturalHeight": 900
+        },
+        {
+          "src": "/return-to-me-test/assets/art/characters/aleem-umrah/neutral.webp",
+          "naturalWidth": 768,
+          "naturalHeight": 1152
+        },
+        {
+          "src": "/return-to-me-test/assets/art/characters/mariam/encouraging.webp",
+          "naturalWidth": 768,
+          "naturalHeight": 1152
+        },
+        {
+          "src": "/return-to-me-test/assets/art/characters/yusuf/neutral.webp",
+          "naturalWidth": 768,
+          "naturalHeight": 1152
+        }
+      ],
+      "horizontalOverflow": 0
+    },
+    {
+      "view": "mobile",
+      "nodeId": "ch11-014",
+      "screenshot": "mobile-02-first-yakiniku.png",
+      "status": "passed",
+      "images": [
+        {
+          "src": "/return-to-me-test/assets/art/backgrounds/bg-yakiniku-date.webp",
+          "naturalWidth": 1600,
+          "naturalHeight": 900
+        },
+        {
+          "src": "/return-to-me-test/assets/art/characters/aleem-umrah/neutral.webp",
+          "naturalWidth": 768,
+          "naturalHeight": 1152
+        },
+        {
+          "src": "/return-to-me-test/assets/art/characters/nurulain/neutral.webp",
+          "naturalWidth": 768,
+          "naturalHeight": 1152
+        }
+      ],
+      "horizontalOverflow": 0
+    },
+    {
+      "view": "mobile",
+      "nodeId": "ch11-choice-reciprocity",
+      "screenshot": "mobile-03-reflective-choice.png",
+      "status": "passed",
+      "choiceOptionsVisible": 3,
+      "images": [
+        {
+          "src": "/return-to-me-test/assets/art/backgrounds/bg-yakiniku-date.webp",
+          "naturalWidth": 1600,
+          "naturalHeight": 900
+        },
+        {
+          "src": "/return-to-me-test/assets/art/characters/aleem-umrah/warm.webp",
+          "naturalWidth": 768,
+          "naturalHeight": 1152
+        },
+        {
+          "src": "/return-to-me-test/assets/art/characters/nurulain/warm.webp",
+          "naturalWidth": 768,
+          "naturalHeight": 1152
+        }
+      ],
+      "horizontalOverflow": 0
+    },
+    {
+      "view": "mobile",
+      "nodeId": "ch11-046",
+      "screenshot": "mobile-04-parents-dinner.png",
+      "status": "passed",
+      "images": [
+        {
+          "src": "/return-to-me-test/assets/art/cg/cg-parents-meeting.webp",
+          "naturalWidth": 1600,
+          "naturalHeight": 900
+        },
+        {
+          "src": "/return-to-me-test/assets/art/cg/cg-parents-meeting.webp",
+          "naturalWidth": 1600,
+          "naturalHeight": 900
+        }
+      ],
+      "horizontalOverflow": 0
+    },
+    {
+      "view": "mobile",
+      "nodeId": "ch11-069",
+      "screenshot": "mobile-05-sunset-confession.png",
+      "status": "passed",
+      "images": [
+        {
+          "src": "/return-to-me-test/assets/art/cg/cg-kallang-confession.webp",
+          "naturalWidth": 1600,
+          "naturalHeight": 900
+        },
+        {
+          "src": "/return-to-me-test/assets/art/cg/cg-kallang-confession.webp",
+          "naturalWidth": 1600,
+          "naturalHeight": 900
+        }
+      ],
+      "horizontalOverflow": 0
+    },
+    {
+      "view": "mobile",
+      "nodeId": "epilogue-001",
+      "screenshot": "mobile-06-wedding-planning.png",
+      "status": "passed",
+      "images": [
+        {
+          "src": "/return-to-me-test/assets/art/cg/cg-wedding-planning.webp",
+          "naturalWidth": 1600,
+          "naturalHeight": 900
+        },
+        {
+          "src": "/return-to-me-test/assets/art/cg/cg-wedding-planning.webp",
+          "naturalWidth": 1600,
+          "naturalHeight": 900
+        }
+      ],
+      "horizontalOverflow": 0
+    },
+    {
+      "view": "mobile",
+      "nodeId": "epilogue-end",
+      "screenshot": "mobile-07-final-ending.png",
+      "status": "passed",
+      "images": [
+        {
+          "src": "/return-to-me-test/assets/art/cg/cg-wedding-planning.webp",
+          "naturalWidth": 1600,
+          "naturalHeight": 900
+        },
+        {
+          "src": "/return-to-me-test/assets/art/cg/cg-wedding-planning.webp",
+          "naturalWidth": 1600,
+          "naturalHeight": 900
+        }
+      ],
+      "horizontalOverflow": 0
+    }
+  ],
+  "passed": true
+}

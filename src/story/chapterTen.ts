@@ -97,5 +97,5 @@ export const chapterTenNodes = [
   beat("ch10-026", stages.ordinaryCompany, "adult-aleem",
     "I thought about how I had felt before leaving home, alone in my room and almost ready to stop wanting love entirely. Here I was, sitting with people whose kindness had become familiar, feeling able to imagine a future again. I hadn't planned this version of the journey. I was grateful to be inside it.", "ch10-027"),
   beat("ch10-027", stages.introduction, "adult-aleem",
-    "Mariam turned towards me as our conversation found a pause. There was something she wanted to tell me; I could see it in the way she waited until she had my attention. I settled back in the chair and listened.", "epilogue-001"),
+    "Mariam turned towards me as our conversation found a pause. There was something she wanted to tell me; I could see it in the way she waited until she had my attention. I settled back in the chair and listened.", "ch11-001"),
 ] as const satisfies readonly StoryNode[];

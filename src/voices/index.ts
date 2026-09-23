@@ -187,6 +187,30 @@ export const voiceProfiles = [
       "Adult Singaporean English; easy, good-humoured companionship and quiet attentiveness. Mariam's husband, welcoming without intruding.",
     synthetic: true,
   },
+  {
+    id: "nurulain",
+    speakerId: "nurulain",
+    displayName: "Nurulain",
+    direction:
+      "Adult Singaporean English; curious and naturally conversational, sometimes guarded while getting to know Aleem. Let warmth grow through ordinary questions and shared ease, with a sincere, unhurried confession.",
+    synthetic: true,
+  },
+  {
+    id: "nurul-mother",
+    speakerId: "nurul-mother",
+    displayName: "Nurul's Mother",
+    direction:
+      "Adult Singaporean English; welcoming and gently curious about the person her daughter is getting to know. Conversational and attentive without interrogating him.",
+    synthetic: true,
+  },
+  {
+    id: "nurul-father",
+    speakerId: "nurul-father",
+    displayName: "Nurul's Father",
+    direction:
+      "Adult Singaporean English; calm, friendly curiosity at a family restaurant meeting. Grounded and considerate, without a formal or imposing performance.",
+    synthetic: true,
+  },
 ] as const satisfies readonly VoiceProfile[];
 
 /**

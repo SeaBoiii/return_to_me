@@ -26,20 +26,20 @@ test('publishes nested-path-safe manifest, icons, and service worker', async ({
 }) => {
   await openApp(page);
 
-  await expect(page).toHaveTitle(/Return to Me.*Before Nurul/);
+  await expect(page).toHaveTitle('Return to Me');
   await expect(page.locator('meta[name="description"]')).toHaveAttribute(
     'content',
-    /working life and a journey to the holy land/,
+    /Umrah, and a new beginning with Nurul/,
   );
 
   const manifestUrl = new URL('manifest.webmanifest', page.url()).href;
   const manifestResponse = await page.request.get(manifestUrl);
   expect(manifestResponse.ok()).toBe(true);
   const manifest = (await manifestResponse.json()) as BuiltManifest;
-  expect(manifest.name).toBe('Return to Me: Before Nurul');
+  expect(manifest.name).toBe('Return to Me');
   expect(manifest.id).toBe('/return-to-me-test/');
   expect(manifest.short_name).toBe('Return to Me');
-  expect(manifest.description).toMatch(/working life and a journey to the holy land/);
+  expect(manifest.description).toMatch(/Umrah, and a new beginning with Nurul/);
   expect(manifest.scope).toBe('/return-to-me-test/');
   expect(manifest.start_url).toBe('/return-to-me-test/');
   expect(manifest.icons).toEqual(
@@ -117,7 +117,7 @@ test('presents offline/install fallback and accepts an install prompt', async ({
   ).toBeDisabled();
 });
 
-test('loads the expanded art batches and resumes prayer in Madinah offline', async ({ page, context }) => {
+test('loads the expanded art batches and resumes prayer and the final ending offline', async ({ page, context }) => {
   await openApp(page);
   await page.evaluate(async () => { await navigator.serviceWorker.ready; });
   await page.reload();
@@ -160,9 +160,28 @@ test('loads the expanded art batches and resumes prayer in Madinah offline', asy
     }
     return unavailable;
   }, createArtAssetManifest('/return-to-me-test/').filter((asset) =>
-    ['chapter-ns', 'chapter-6', 'chapter-7', 'chapter-8', 'chapter-9', 'chapter-10'].includes(asset.preloadGroup ?? ''),
+    ['chapter-ns', 'chapter-6', 'chapter-7', 'chapter-8', 'chapter-9', 'chapter-10', 'chapter-11', 'epilogue'].includes(asset.preloadGroup ?? ''),
   ).map((asset) => asset.url));
   expect(missing).toEqual([]);
+
+  await page.evaluate(({ key, revision, chapters }) => {
+    localStorage.setItem(key, JSON.stringify({
+      version: 1,
+      storyId: 'return-to-me-school-years',
+      storyRevision: revision,
+      currentNodeId: 'epilogue-end',
+      status: 'ended',
+      history: [],
+      rememberedChoices: {},
+      unlockedChapters: chapters,
+      seenNodeIds: ['epilogue-001'],
+      timestamp: Date.now(),
+    }));
+  }, { key: SAVE_KEY, revision: story.revision, chapters: story.chapters.map((chapter) => chapter.id) });
+  await page.reload();
+  await dismissNotice(page);
+  await page.getByRole('button', { name: 'Continue', exact: true }).click();
+  await expect(page.getByRole('region', { name: 'The End' })).toContainText('Our journey continues. Inshallah, a happily ever after.');
 });
 
 test('keeps browser data across a service-worker-safe update check and reload', async ({

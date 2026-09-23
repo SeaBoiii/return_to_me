@@ -1,10 +1,10 @@
-# Return to Me: Before Nurul
+# Return to Me
 
-A responsive, installable visual novel following Aleem from school and National Service in Singapore through university, working life, and his January 2026 Umrah journey, before he meets Nurul. Twenty-two reflective choices change immediate dialogue while preserving the remembered milestones.
+A responsive, installable visual novel following Aleem from school and National Service in Singapore through university, working life, his January 2026 Umrah journey, and a new beginning with Nurulain. Twenty-five reflective choices change immediate dialogue while preserving the remembered milestones.
 
-**The Story I Wasn’t In** and its university arrival sequence lead into **Almost Us**, **Just Friends**, and **A Different Journey**. Chapters 10–11, **The Same Girl** and **What I Could Finally Put Down**, continue through Makkah and then Madinah: a reunion with Nadiah, the two climbs, a private prayer, and a quiet decision. The brief epilogue ends with Mariam saying, “Her name is Nurulain.” Their introduction remains for the next chapter.
+**The Story I Wasn’t In** and its university arrival sequence lead into **Almost Us**, **Just Friends**, and **A Different Journey**. Chapters 10–11, **The Same Girl** and **What I Could Finally Put Down**, continue through Makkah and then Madinah: a reunion with Nadiah, the two climbs, a private prayer, and a quiet decision. The final chapter, **A New Book**, follows Mariam’s introduction through messages, Yakiniku, Kazakhstan, meeting Nurul’s parents, and a sunset confession beside Kallang River. **Still Being Written** closes with their engagement and wedding preparations.
 
-The story revision is `school-years-5.0.0`, with 13 chapter entries, 707 nodes, and 19 speaking identities. Saves from the merged v4 and adulthood v3 arrival endings resume at the new Umrah chapter. First-edition readers still resume at Chapter 3, JC-edition readers at National Service, and NS-only v3 readers at **Almost Us**. Migration preserves earlier choices and replay positions, removes obsolete arrival-ending progress, and unlocks the new chapter when appropriate. Earlier node IDs, storage keys, and installation identity remain stable.
+The story revision is `school-years-6.0.0`, with 14 chapter entries, 803 nodes, and 22 speaking identities. Saves at the v5 introduction or continuation ending resume at **A New Book**. Earlier replay positions and choices are preserved, with the final chapter unlocked when the old ending was reached. Earlier migration chains retain their first unread expansion: merged v4 and adulthood v3 arrival endings resume at **The Same Girl**, first-edition readers at Chapter 3, JC-edition readers at National Service, and NS-only v3 readers at **Almost Us**. The story ID, storage keys, save format, and installation identity remain stable.
 
 ## Local development
 
@@ -134,10 +134,26 @@ The `art:umrah:process`, `art:umrah:validate`, and `art:umrah:qa` commands also
 run separately. The batch uses the established master and deployment sizes,
 calibrated stature, transparent sprite edges, and 8 MiB per-file precache limit.
 
+The finale adds seven Nurulain sprites, four backgrounds, and three illustrated
+scenes. Nurul’s 165 cm stature is calibrated against Aleem’s 183 cm stature;
+her full hijab and loose, opaque clothing remain consistent across expressions
+and scenes. Her parents appear in the restaurant illustration. The
+[finale production record](art/prompts/finale-production.md) documents the
+generation references, prompts, processing, and review:
+
+```bash
+npm run art:finale:check
+```
+
+The `art:finale:process`, `art:finale:validate`, and `art:finale:qa` commands
+also run separately. Art processing requires Python with Pillow and NumPy.
+The isolated pipeline preserves earlier art batches and generates light/dark
+character contact sheets and a scene overview under `art/qa/finale`.
+
 Before publishing, complete [RELEASE_CHECKLIST.md](RELEASE_CHECKLIST.md), including the manual character/background approval and factual/tone read-through. The currently generated art is intentionally age-appropriate, uses fictional schools, and avoids readable generated text, trademarks, and copied game interfaces.
 
 ## Content and rights
 
-This project is inspired by remembered events and is told from Aleem's perspective. Names, dialogue, schools, and some details are fictionalized or reconstructed. Nadiah, Aisyah, Hakim, Jia Wen, Claire, Imran, Kak Mariam, Abang Yusuf, and other former-partner or friend names are pseudonyms; exact grades and personal identifiers are omitted. The other men remain unnamed. Nadiah's familiar warmth and perceived longing are Aleem's impressions; her hijab is not a moral judgement. The private doa reconstructs its meaning, and Jabal Rahmah's association with Adam and Hawa is presented as a tradition Aleem knows. Nurulain is mentioned by name but does not appear in the scenes.
+This project is inspired by remembered events and is told from Aleem's perspective. Names, dialogue, schools, and some details are fictionalized or reconstructed. Nadiah, Aisyah, Hakim, Jia Wen, Claire, Imran, Kak Mariam, Abang Yusuf, and other former-partner or friend names are pseudonyms; exact grades and personal identifiers are omitted. The other men remain unnamed. Nadiah's familiar warmth and perceived longing are Aleem's impressions; her hijab is not a moral judgement. The private doa reconstructs its meaning, and Jabal Rahmah's association with Adam and Hawa is presented as a tradition Aleem knows. Nurulain’s early impressions are presented as things she later shared with Aleem; her first impression that he was a narcissist is not a diagnosis. Their mutual growth leads to an engagement, with their wedding still ahead. The Kazakhstan friends and Nurul’s parents remain unnamed.
 
 Narrative, generated artwork, and imported voice assets are all rights reserved by default unless a specific license record states otherwise. There is no backend, account, analytics, or tracking.

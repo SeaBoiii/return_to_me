@@ -1,0 +1,11 @@
+{
+  "date": "2026-09-23",
+  "tool": "built-in image_gen",
+  "assetId": "nurulain-amused",
+  "prompt": "Use case: background-extraction. Change ONLY BACKGROUND of this exact amused Nurulain sprite. Replace entire dark halo backdrop with uniformly flat solid vivid pure magenta RGB255,0,255. Remove ALL transparency and halo/glow. The woman must be FULLY OPAQUE including face clothing hands. Keep exact bright smile showing upper teeth, rounded face, dusty-rose full hijab, baggy beige tunic, taupe skirt, hands, size, framing and every character detail. 1024x1536. No scenery shadow gradient checkerboard text or watermark. Single opaque woman on pure flat magenta, ready for chroma key.",
+  "references": [
+    "art/sources/finale/rejected/nurulain-amused-halo.png"
+  ],
+  "originalPath": "C:/Users/seabo/.codex/generated_images/01a0cced-3c90-7e42-99c6-5c877ba3a64a/exec-291c8e78-9032-40e6-a047-ef344ad4e182.png",
+  "status": "selected magenta source"
+}

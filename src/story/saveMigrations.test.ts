@@ -9,6 +9,7 @@ import {
   BEFORE_NURUL_V3_REVISION,
   SCHOOL_YEARS_V4_REVISION,
   SCHOOL_YEARS_V5_REVISION,
+  SCHOOL_YEARS_V6_REVISION,
   schoolYearsSaveMigrations,
 } from "./saveMigrations";
 
@@ -37,7 +38,140 @@ const migratePublishedSave = (save: SaveV1) =>
   parseSave(JSON.stringify(save), { ...story, revision: SCHOOL_YEARS_V4_REVISION }, { migrations: schoolYearsSaveMigrations });
 
 const migrateToUmrah = (save: SaveV1) =>
+  parseSave(JSON.stringify(save), { ...story, revision: SCHOOL_YEARS_V5_REVISION }, { migrations: schoolYearsSaveMigrations });
+
+const migrateToFinale = (save: SaveV1) =>
   parseSave(JSON.stringify(save), story, { migrations: schoolYearsSaveMigrations });
+
+describe("final chapter save compatibility", () => {
+  it.each(["prologue-005", "ns-001", "uni-arrival-009", "ch6-choice-silence", "ch7-015", "ch8-012", "ch9-001", "ch10-027"])(
+    "preserves unfinished v5 progress at %s without unlocking the finale",
+    (currentNodeId) => {
+      const source = makePublishedSave({ storyRevision: SCHOOL_YEARS_V5_REVISION, currentNodeId });
+      const result = migrateToFinale(source);
+      expect(result.status).toBe("ok");
+      if (result.status === "ok") {
+        expect(result.migrated).toBe(true);
+        expect(result.save).toEqual({ ...source, storyRevision: SCHOOL_YEARS_V6_REVISION });
+        expect(result.save.unlockedChapters).not.toContain("chapter-11");
+      }
+    },
+  );
+
+  it.each(["epilogue-001", "epilogue-002", "epilogue-end"])(
+    "reopens the old introduction at %s as the unread final chapter",
+    (currentNodeId) => {
+      const source = makePublishedSave({
+        storyRevision: SCHOOL_YEARS_V5_REVISION,
+        currentNodeId,
+        status: currentNodeId === "epilogue-end" ? "ended" : "playing",
+        history: [
+          { kind: "choice", nodeId: "ch1-choice-sms", optionId: "sms-ask" },
+          { kind: "line", nodeId: "epilogue-001" },
+        ],
+        rememberedChoices: { "ch1-choice-sms": "sms-ask", "epilogue-old-choice": "old" },
+        unlockedChapters: ["prologue", "chapter-1", "chapter-10", "epilogue"],
+        seenNodeIds: ["ch1-choice-sms", "ch10-027", "epilogue-001", "epilogue-end"],
+      });
+      const result = migrateToFinale(source);
+      expect(result.status).toBe("ok");
+      if (result.status === "ok") {
+        expect(result.save).toEqual({
+          ...source,
+          storyRevision: SCHOOL_YEARS_V6_REVISION,
+          currentNodeId: "ch11-001",
+          status: "playing",
+          history: [{ kind: "choice", nodeId: "ch1-choice-sms", optionId: "sms-ask" }],
+          rememberedChoices: { "ch1-choice-sms": "sms-ask" },
+          unlockedChapters: ["prologue", "chapter-1", "chapter-10", "chapter-11"],
+          seenNodeIds: ["ch1-choice-sms", "ch10-027"],
+        });
+      }
+    },
+  );
+
+  it.each<[string, Partial<SaveV1>]>([
+    ["chapter unlock", { unlockedChapters: ["prologue", "chapter-1", "epilogue"] }],
+    ["history", { history: [{ kind: "line", nodeId: "epilogue-002" }] }],
+    ["seen nodes", { seenNodeIds: ["epilogue-end"] }],
+    ["remembered choice", { rememberedChoices: { "epilogue-old-choice": "old" } }],
+  ])("keeps an earlier replay position and opens the finale from %s", (_label, markers) => {
+    const source = makePublishedSave({
+      storyRevision: SCHOOL_YEARS_V5_REVISION,
+      currentNodeId: "ch1-001",
+      ...markers,
+    });
+    const result = migrateToFinale(source);
+    expect(result.status).toBe("ok");
+    if (result.status === "ok") {
+      expect(result.save.currentNodeId).toBe("ch1-001");
+      expect(result.save.status).toBe("playing");
+      expect(result.save.unlockedChapters).toContain("chapter-11");
+      expect(result.save.unlockedChapters).not.toContain("epilogue");
+      expect(result.save.history.every((entry) => !entry.nodeId.startsWith("epilogue-"))).toBe(true);
+      expect(result.save.seenNodeIds.every((id) => !id.startsWith("epilogue-"))).toBe(true);
+      expect(Object.keys(result.save.rememberedChoices).every((id) => !id.startsWith("epilogue-"))).toBe(true);
+    }
+  });
+
+  it.each([
+    [SCHOOL_YEARS_V1_REVISION, "ch3-001"],
+    [SCHOOL_YEARS_V2_REVISION, "ns-001"],
+    [BEFORE_NURUL_V3_REVISION, "ch6-001"],
+    [SCHOOL_YEARS_V3_REVISION, "ch9-001"],
+    [SCHOOL_YEARS_V4_REVISION, "ch9-001"],
+    [SCHOOL_YEARS_V5_REVISION, "ch11-001"],
+  ])("chains completed %s to its first unread chapter %s", (storyRevision, expectedId) => {
+    const result = migrateToFinale(makePublishedSave({
+      storyRevision,
+      currentNodeId: "epilogue-end",
+      status: "ended",
+      unlockedChapters: ["prologue", "chapter-1", "chapter-2", "epilogue"],
+      seenNodeIds: ["ch1-choice-sms", "epilogue-end"],
+    }));
+    expect(result.status).toBe("ok");
+    if (result.status === "ok") {
+      expect(result.save.storyRevision).toBe(SCHOOL_YEARS_V6_REVISION);
+      expect(result.save.currentNodeId).toBe(expectedId);
+      expect(result.save.status).toBe("playing");
+      expect(result.save.unlockedChapters).not.toContain("epilogue");
+      if (expectedId !== "ch11-001") expect(result.save.unlockedChapters).not.toContain("chapter-11");
+      if (!["ch9-001", "ch11-001"].includes(expectedId)) {
+        expect(result.save.unlockedChapters).not.toContain("chapter-9");
+      }
+    }
+  });
+
+  it.each(["ch11-001", "epilogue-001", "epilogue-end"])(
+    "does not remigrate current final-edition progress at %s",
+    (currentNodeId) => {
+      const source = makePublishedSave({
+        storyRevision: SCHOOL_YEARS_V6_REVISION,
+        currentNodeId,
+        status: currentNodeId === "epilogue-end" ? "ended" : "playing",
+        unlockedChapters: ["prologue", "chapter-11", "epilogue"],
+        history: [{ kind: "line", nodeId: "ch11-001" }],
+        seenNodeIds: ["ch11-001", "epilogue-001"],
+      });
+      const result = migrateToFinale(source);
+      expect(result.status).toBe("ok");
+      if (result.status === "ok") {
+        expect(result.migrated).toBe(false);
+        expect(result.save).toEqual(source);
+      }
+    },
+  );
+
+  it("rejects unrelated corrupt references and unknown revisions", () => {
+    expect(migrateToFinale(makePublishedSave({
+      storyRevision: SCHOOL_YEARS_V5_REVISION,
+      currentNodeId: "epilogue-end",
+      status: "ended",
+      seenNodeIds: ["unknown-node"],
+    })).status).toBe("corrupt");
+    expect(migrateToFinale(makePublishedSave({ storyRevision: "unknown-edition" })).status).toBe("incompatible");
+  });
+});
 
 describe("Umrah expansion save compatibility", () => {
   it.each(["prologue-005", "ns-001", "uni-arrival-009", "ch6-choice-silence", "ch7-015", "ch8-012"])(

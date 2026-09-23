@@ -3,6 +3,7 @@ import { appPathname } from "../pwa/basePath";
 import { storyAssetIds } from "./assets";
 import { adulthoodArtSpecs } from "./adulthoodArt";
 import { umrahArtSpecs } from "./umrahArt";
+import { finaleArtSpecs } from "./finaleArt";
 
 interface ArtAssetSpec {
   readonly id: string;
@@ -80,6 +81,7 @@ const sprite = (
 const ART_SPECS = [
   ...adulthoodArtSpecs,
   ...umrahArtSpecs,
+  ...finaleArtSpecs,
   background(
     "bg-primary-classroom",
     "chapter-1",

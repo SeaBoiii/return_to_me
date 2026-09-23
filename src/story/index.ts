@@ -8,6 +8,7 @@ import { chapterSevenNodes } from "./chapterSeven";
 import { chapterEightNodes } from "./chapterEight";
 import { chapterNineNodes } from "./chapterNine";
 import { chapterTenNodes } from "./chapterTen";
+import { chapterElevenNodes } from "./chapterEleven";
 import { chapterFourNodes } from "./chapterFour";
 import { chapterThreeNodes } from "./chapterThree";
 import { chapterTwoNodes } from "./chapterTwo";
@@ -29,13 +30,13 @@ export const storyNodes = [
   ...chapterEightNodes,
   ...chapterNineNodes,
   ...chapterTenNodes,
+  ...chapterElevenNodes,
   ...epilogueNodes,
 ] as const satisfies readonly StoryNode[];
 
-export const story = {
+export const story: StoryDefinition = {
   id: "return-to-me-school-years",
   title: "Return to Me",
-  subtitle: "Before Nurul",
   revision: STORY_REVISION,
   startNodeId: "prologue-001",
   chapters,

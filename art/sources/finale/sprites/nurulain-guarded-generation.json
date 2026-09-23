@@ -1,0 +1,11 @@
+{
+  "date": "2026-09-23",
+  "tool": "built-in image_gen",
+  "assetId": "nurulain-guarded",
+  "prompt": "Use case: identity-preserve. Edit this exact Nurulain neutral identity sprite into one guarded variant. Preserve exactly her adult Malay Singaporean face, warm golden-brown skin, dark eyes, age, body proportions, dusty rose full hijab draping over hair neck shoulders and entire chest, baggy opaque beige long tunic with sleeves to wrists, dark taupe loose long skirt, delicate cel-shaded linework and all framing. Change only facial performance and subtle posture: Her mouth settles into a restrained closed line, eyes thoughtful and cautious, shoulders slightly held. Quiet reserve, no hostility, no tears. Hands stay together. Portrait1024x1536 one isolated centered woman head to below knees, full hands intact, same scale and generous margins. Preserve perfectly flat solid vivid magenta RGB(255,0,255) chroma-key backdrop; woman fully opaque; no magenta spill, backdrop shadow, halo, glow, scenery, checkerboard, text or watermark.",
+  "references": [
+    "art/sources/finale/sprites/nurulain-neutral-master.png"
+  ],
+  "originalPath": "C:/Users/seabo/.codex/generated_images/01a0cced-3c90-7e42-99c6-5c877ba3a64a/exec-a60cfcdb-ef25-4906-a575-569cd9f5fe0d.png",
+  "status": "selected magenta source"
+}

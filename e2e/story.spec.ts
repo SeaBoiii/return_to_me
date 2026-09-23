@@ -198,7 +198,7 @@ test('chains a completed first-edition save into the JC expansion', async ({
       }, SAVE_KEY),
     )
     .toMatchObject({
-      storyRevision: 'school-years-5.0.0',
+      storyRevision: story.revision,
       currentNodeId: 'ch3-001',
       status: 'playing',
       unlockedChapters: [
@@ -233,7 +233,7 @@ test('resumes a completed JC edition at National Service and keeps later chapter
   await page.getByRole('button', { name: 'Continue', exact: true }).click();
   await expect(page.getByText('The Story I Wasn’t In', { exact: true })).toBeVisible();
   await expect.poll(() => page.evaluate((key) => JSON.parse(localStorage.getItem(key) ?? '{}') as unknown, SAVE_KEY)).toMatchObject({
-    storyRevision: 'school-years-5.0.0',
+    storyRevision: story.revision,
     currentNodeId: 'ns-001',
     status: 'playing',
     history: [],
@@ -244,7 +244,7 @@ test('resumes a completed JC edition at National Service and keeps later chapter
   await page.getByRole('button', { name: 'Open chapter menu' }).click();
   const chapters = page.getByRole('dialog', { name: 'Chapter select' });
   await expect(chapters.getByRole('button', { name: /The Story I Wasn’t In/ })).toBeEnabled();
-  for (const title of ['Almost Us', 'Just Friends', 'A Different Journey', 'The Same Girl', 'What I Could Finally Put Down', 'A Name']) {
+  for (const title of ['Almost Us', 'Just Friends', 'A Different Journey', 'The Same Girl', 'What I Could Finally Put Down', 'A New Book', 'Still Being Written']) {
     await expect(chapters.getByRole('button', { name: new RegExp(title) })).toBeDisabled();
   }
   await chapters.getByRole('button', { name: 'Close' }).click();
@@ -314,7 +314,7 @@ test('keeps a v4 reader in an earlier replay and unlocks the new Umrah chapter',
     }));
   }, {
     key: SAVE_KEY,
-    chapters: story.chapters.filter((chapter) => !['chapter-9', 'chapter-10'].includes(chapter.id)).map((chapter) => chapter.id),
+    chapters: story.chapters.filter((chapter) => !['chapter-9', 'chapter-10', 'chapter-11'].includes(chapter.id)).map((chapter) => chapter.id),
   });
   await page.reload();
   await dismissNotice(page);
@@ -338,7 +338,8 @@ test('keeps a v4 reader in an earlier replay and unlocks the new Umrah chapter',
   const chapters = page.getByRole('dialog', { name: 'Chapter select' });
   await expect(chapters.getByRole('button', { name: /The Same Girl/ })).toBeEnabled();
   await expect(chapters.getByRole('button', { name: /What I Could Finally Put Down/ })).toBeDisabled();
-  await expect(chapters.getByRole('button', { name: /A Name/ })).toBeDisabled();
+  await expect(chapters.getByRole('button', { name: /A New Book/ })).toBeDisabled();
+  await expect(chapters.getByRole('button', { name: /Still Being Written/ })).toBeDisabled();
   await chapters.getByRole('button', { name: 'Close' }).click();
   await page.reload();
   await dismissNotice(page);
@@ -346,9 +347,55 @@ test('keeps a v4 reader in an earlier replay and unlocks the new Umrah chapter',
   await expect(page.getByText('Almost Us', { exact: true })).toBeVisible();
 });
 
-test('ends immediately after Mariam names Nurulain and resumes at the continuation', async ({ page }) => {
+test('resumes a completed Umrah edition at the introduction to the final chapter', async ({ page }) => {
   await openApp(page);
-  await page.evaluate(({ key, revision, chapters }) => {
+  await page.evaluate(({ key, chapters }) => {
+    localStorage.setItem(key, JSON.stringify({
+      version: 1,
+      storyId: 'return-to-me-school-years',
+      storyRevision: 'school-years-5.0.0',
+      currentNodeId: 'epilogue-end',
+      status: 'ended',
+      history: [{ kind: 'line', nodeId: 'epilogue-002' }],
+      rememberedChoices: { 'ch10-choice-release': 'release-fear' },
+      unlockedChapters: chapters,
+      seenNodeIds: ['ch10-027', 'epilogue-001', 'epilogue-002', 'epilogue-end'],
+      timestamp: Date.now(),
+    }));
+  }, { key: SAVE_KEY, chapters: story.chapters.filter((chapter) => chapter.id !== 'chapter-11').map((chapter) => chapter.id) });
+  await page.reload();
+  await dismissNotice(page);
+  await expect(page.getByRole('status')).toContainText('saved progress was updated');
+  await page.getByRole('button', { name: 'Continue', exact: true }).click();
+  await expect(page.getByText('A New Book', { exact: true })).toBeVisible();
+  await expect(page.getByLabel('Dialogue', { exact: true })).toContainText("there's someone I work with");
+  await expect.poll(() => page.evaluate((key) => JSON.parse(localStorage.getItem(key) ?? '{}') as unknown, SAVE_KEY)).toMatchObject({
+    storyRevision: story.revision,
+    currentNodeId: 'ch11-001',
+    status: 'playing',
+    history: [],
+    rememberedChoices: { 'ch10-choice-release': 'release-fear' },
+    seenNodeIds: ['ch10-027'],
+  });
+  await page.getByRole('button', { name: 'Open chapter menu' }).click();
+  const chapters = page.getByRole('dialog', { name: 'Chapter select' });
+  await expect(chapters.getByRole('button', { name: /A New Book/ })).toBeEnabled();
+  await expect(chapters.getByRole('button', { name: /Still Being Written/ })).toBeDisabled();
+  await chapters.getByRole('button', { name: 'Close' }).click();
+  await revealAndAdvance(page);
+  await expect(page.getByLabel('Dialogue', { exact: true })).toContainText('Her name is Nurulain.');
+  await revealAndAdvance(page);
+  await expect(page.getByRole('heading', { name: 'The End' })).toBeHidden();
+  await expect(page.getByLabel('Dialogue', { exact: true })).toBeVisible();
+});
+
+test('ends with engagement and wedding preparations and resumes at the final card', async ({ page }) => {
+  await openApp(page);
+  await page.evaluate(({ key, settingsKey, revision, chapters }) => {
+    localStorage.setItem(settingsKey, JSON.stringify({
+      version: 1, textSpeedMs: 0, autoMode: false, skipSeen: false,
+      volume: 0.9, muted: true, reducedMotion: true,
+    }));
     localStorage.setItem(key, JSON.stringify({
       version: 1,
       storyId: 'return-to-me-school-years',
@@ -361,19 +408,22 @@ test('ends immediately after Mariam names Nurulain and resumes at the continuati
       seenNodeIds: [],
       timestamp: Date.now(),
     }));
-  }, { key: SAVE_KEY, revision: story.revision, chapters: story.chapters.map((chapter) => chapter.id) });
+  }, { key: SAVE_KEY, settingsKey: SETTINGS_KEY, revision: story.revision, chapters: story.chapters.map((chapter) => chapter.id) });
   await page.reload();
   await dismissNotice(page);
   await page.getByRole('button', { name: 'Continue', exact: true }).click();
-  const dialogue = page.getByLabel('Dialogue', { exact: true });
-  await expect(dialogue).toContainText("there's someone I work with");
-  await revealAndAdvance(page);
-  await expect(dialogue).toContainText('Kak Mariam');
-  await expect(dialogue).toContainText('Her name is Nurulain.');
+  await expect(page.getByText('Still Being Written', { exact: true })).toBeVisible();
   await expect(page.getByRole('button', { name: 'Replay voice' })).toBeDisabled();
-  await revealAndAdvance(page);
-  await expect(page.getByRole('heading', { name: 'To be continued' })).toBeVisible();
-  await expect(page.getByRole('region', { name: 'To be continued' })).toContainText('Their story begins in the next chapter.');
+  const epilogueLines = story.nodes.filter((node) => node.chapterId === 'epilogue' && node.type === 'line');
+  const displayedText: string[] = [];
+  for (let step = 0; step < epilogueLines.length; step += 1) {
+    displayedText.push(await page.getByLabel('Dialogue', { exact: true }).innerText());
+    await page.getByRole('button', { name: 'Advance dialogue' }).click();
+  }
+  expect(displayedText.join(' ')).toMatch(/engaged/i);
+  expect(displayedText.join(' ')).toMatch(/wedding/i);
+  await expect(page.getByRole('heading', { name: 'The End' })).toBeVisible();
+  await expect(page.getByRole('region', { name: 'The End' })).toContainText('The story ends here. Our journey continues. Inshallah, a happily ever after.');
   await expect(page.getByLabel('Choice')).toBeHidden();
   await expect(page.getByRole('button', { name: 'Advance dialogue' })).toBeHidden();
   await expect.poll(() => page.evaluate((key) =>
@@ -381,15 +431,12 @@ test('ends immediately after Mariam names Nurulain and resumes at the continuati
   )).toMatchObject({
     currentNodeId: 'epilogue-end',
     status: 'ended',
-    history: [
-      { kind: 'line', nodeId: 'epilogue-001' },
-      { kind: 'line', nodeId: 'epilogue-002' },
-    ],
+    history: epilogueLines.map((node) => ({ kind: 'line', nodeId: node.id })),
   });
   await page.reload();
   await dismissNotice(page);
   await page.getByRole('button', { name: 'Continue', exact: true }).click();
-  await expect(page.getByRole('heading', { name: 'To be continued' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'The End' })).toBeVisible();
 });
 
 test('unlocks National Service when advancing beyond the zoo and restores that position', async ({ page }) => {
@@ -463,11 +510,11 @@ test('unlocks the first chapter only after reaching it', async ({ page }) => {
     chapterDialog.getByRole('button', { name: /A Different Classroom/ }),
   ).toBeDisabled();
   await expect(
-    chapterDialog.getByRole('button', { name: /A Name/ }),
+    chapterDialog.getByRole('button', { name: /Still Being Written/ }),
   ).toBeDisabled();
 });
 
-test('plays a complete route through thirteen chapters and twenty-two reconverging choices', async ({
+test('plays a complete route through fourteen chapters and twenty-five reconverging choices', async ({
   page,
 }, testInfo) => {
   test.skip(testInfo.project.name !== 'chromium', 'desktop route audit only');
@@ -493,7 +540,7 @@ test('plays a complete route through thirteen chapters and twenty-two reconvergi
 
   let choiceCount = 0;
   for (let step = 0; step <= story.nodes.length; step += 1) {
-    if (await page.getByRole('heading', { name: 'To be continued' }).isVisible()) {
+    if (await page.getByRole('heading', { name: 'The End' }).isVisible()) {
       break;
     }
 
@@ -511,8 +558,8 @@ test('plays a complete route through thirteen chapters and twenty-two reconvergi
     await page.getByRole('button', { name: 'Advance dialogue' }).click();
   }
 
-  await expect(page.getByRole('heading', { name: 'To be continued' })).toBeVisible();
-  expect(choiceCount).toBe(22);
+  await expect(page.getByRole('heading', { name: 'The End' })).toBeVisible();
+  expect(choiceCount).toBe(25);
   await expect
     .poll(() =>
       page.evaluate((key) => {
@@ -535,8 +582,8 @@ test('plays a complete route through thirteen chapters and twenty-two reconvergi
     .toEqual({
       status: 'ended',
       currentNodeId: 'epilogue-end',
-      choiceCount: 22,
-      unlockedCount: 13,
+      choiceCount: 25,
+      unlockedCount: 14,
     });
 });
 test('keeps subtitles and voice settings usable without licensed clips', async ({
@@ -597,7 +644,7 @@ test('supports the core touch flow without horizontal overflow', async ({
   expect(dimensions.document).toBeLessThanOrEqual(dimensions.viewport + 1);
 });
 
-for (const artworkId of ['cg-jia-wen-boyfriend', 'cg-uss-confession', 'cg-umrah-jabal-nur', 'cg-umrah-jabal-rahmah', 'cg-nabawi-release']) {
+for (const artworkId of ['cg-jia-wen-boyfriend', 'cg-uss-confession', 'cg-umrah-jabal-nur', 'cg-umrah-jabal-rahmah', 'cg-nabawi-release', 'cg-parents-meeting', 'cg-kallang-confession', 'cg-wedding-planning']) {
   test(`preserves ${artworkId} composition above dialogue on portrait screens`, async ({
     page,
   }, testInfo) => {
@@ -641,6 +688,12 @@ for (const artworkId of ['cg-jia-wen-boyfriend', 'cg-uss-confession', 'cg-umrah-
       const image = element as HTMLImageElement;
       return image.complete && image.naturalWidth > 0;
     })).toBe(true);
+    // Measure the settled composition, not the entrance fade's scale transform.
+    await stage.evaluate(async (element) => {
+      await Promise.all(element.getAnimations().map((animation) => animation.finished));
+    });
+    const reveal = page.getByRole('button', { name: 'Reveal full line' });
+    if (await reveal.isVisible()) await reveal.click();
     const imageRect = await composition.boundingBox();
     const dialogueRect = await page.getByLabel('Dialogue', { exact: true }).boundingBox();
     const viewport = page.viewportSize();
