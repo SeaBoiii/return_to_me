@@ -586,7 +586,7 @@ test('plays a complete route through fourteen chapters and twenty-five reconverg
       unlockedCount: 14,
     });
 });
-test('keeps subtitles and voice settings usable without licensed clips', async ({
+test('keeps subtitles and voice settings usable on unvoiced lines', async ({
   page,
 }) => {
   await openApp(page);

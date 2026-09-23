@@ -214,8 +214,8 @@ export const voiceProfiles = [
 ] as const satisfies readonly VoiceProfile[];
 
 /**
- * Development intentionally remains playable without audio. The generated
- * module stays empty until a complete licensed production set is imported.
+ * The generated module contains complete imported chapters. Chapters without
+ * audio remain fully playable with subtitles; a full-story import is optional.
  */
 export const voiceEntries: readonly VoiceEntry[] = generatedVoiceEntries;
 

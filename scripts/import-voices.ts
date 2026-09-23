@@ -14,7 +14,7 @@ import { dirname, extname, isAbsolute, relative, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
 import { story } from "../src/story";
-import { voiceProfiles } from "../src/voices";
+import { offlinePackManifests, voiceEntries, voiceProfiles } from "../src/voices";
 import {
   isDevelopmentOnlyVoiceImportDocument,
   parseVoiceImportDocument,
@@ -34,8 +34,9 @@ Options:
   --dry-run  Validate the manifest and every MP3 without writing files.
   --help     Show this message.
 
-ffprobe and ffmpeg must both be available on PATH. Imports are complete-set,
-all-or-nothing operations; partial production manifests are rejected.
+ffprobe and ffmpeg must both be available on PATH. Omit chapterIds for a complete
+story import, or list complete chapters in chapterIds. Chapter batches are
+cumulative: include every previously imported chapter. Partial chapters are rejected.
 `;
 
 interface CommandResult {
@@ -280,7 +281,9 @@ const renderGeneratedModule = (
     )
     .join("\n");
 
+  const preparedChapterIds = new Set(prepared.map((entry) => entry.chapterId));
   const packs = story.chapters
+    .filter((chapter) => preparedChapterIds.has(chapter.id))
     .map((chapter) => {
       const chapterClips = prepared.filter(
         (entry) => entry.chapterId === chapter.id,
@@ -406,11 +409,20 @@ const main = async (): Promise<void> => {
       ? [{ id: node.id, speakerId: node.speakerId, chapterId: node.chapterId }]
       : [],
   );
+  const linesById = new Map(lines.map((line) => [line.id, line]));
   const manifest = parseVoiceImportDocument(parsedJson, {
     storyId: story.id,
     contentRevision: story.revision,
     lines,
     profiles: voiceProfiles,
+    chapterIds: story.chapters.map((chapter) => chapter.id),
+    importedChapterIds: [
+      ...offlinePackManifests.map((pack) => pack.chapterId),
+      ...voiceEntries.flatMap((entry) => {
+        const line = linesById.get(entry.lineId);
+        return line === undefined ? [] : [line.chapterId];
+      }),
+    ],
   });
   if (!dryRun && isDevelopmentOnlyVoiceImportDocument(manifest)) {
     throw new Error(
@@ -423,8 +435,14 @@ const main = async (): Promise<void> => {
     manifest.profiles.map((profile) => [profile.id, profile]),
   );
   const prepared: PreparedClip[] = [];
+  const selectedChapters = manifest.chapterIds === undefined
+    ? undefined
+    : new Set(manifest.chapterIds);
+  const selectedLines = lines.filter(
+    (line) => selectedChapters === undefined || selectedChapters.has(line.chapterId),
+  );
 
-  for (const [index, line] of lines.entries()) {
+  for (const [index, line] of selectedLines.entries()) {
     const clip = clipsByLine.get(line.id);
     if (clip === undefined) {
       throw new Error(`Internal validation error: clip ${line.id} disappeared.`);
@@ -454,8 +472,8 @@ const main = async (): Promise<void> => {
         cause: error,
       });
     }
-    if ((index + 1) % 25 === 0 || index + 1 === lines.length) {
-      process.stdout.write(`Validated ${index + 1}/${lines.length} clips.\n`);
+    if ((index + 1) % 25 === 0 || index + 1 === selectedLines.length) {
+      process.stdout.write(`Validated ${index + 1}/${selectedLines.length} clips.\n`);
     }
   }
 

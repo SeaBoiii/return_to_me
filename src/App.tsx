@@ -36,6 +36,17 @@ import { Modal } from "./app/Modal";
 import { useStory } from "./app/StoryContext";
 import styles from "./app/App.module.css";
 
+const voicedChapterIds = new Set(
+  offlinePackManifests.map((manifest) => manifest.chapterId),
+);
+const voicedChapterTitles = story.chapters
+  .filter((chapter) => voicedChapterIds.has(chapter.id))
+  .map((chapter) => chapter.title)
+  .join(", ");
+const hasUnvoicedChapters = story.chapters.some(
+  (chapter) => !voicedChapterIds.has(chapter.id),
+);
+
 type Panel =
   | "chapters"
   | "history"
@@ -409,6 +420,28 @@ function GameScreen({ onTitle, onOpenPanel }: GameScreenProps) {
   const [voiceFeedback, setVoiceFeedback] = useState<
     { readonly nodeId: string; readonly message: string } | undefined
   >(undefined);
+  const [replayVersion, setReplayVersion] = useState(0);
+
+  const playVoice = useCallback((nodeId: string) => {
+    const playback = audio.playLine(nodeId);
+    playbackRef.current = playback;
+    void playback.then((result) => {
+      if (playbackRef.current !== playback) return;
+      if (result.status === "blocked") {
+        setVoiceFeedback({
+          nodeId,
+          message: "Select replay to enable voice playback.",
+        });
+      } else if (result.status === "error") {
+        setVoiceFeedback({
+          nodeId,
+          message: "Voice unavailable; subtitles remain active.",
+        });
+      } else {
+        setVoiceFeedback(undefined);
+      }
+    });
+  }, [audio]);
 
   const lineText =
     node?.type === "line"
@@ -434,25 +467,12 @@ function GameScreen({ onTitle, onOpenPanel }: GameScreenProps) {
   useEffect(() => {
     audio.stop();
     if (node?.type === "line" && audio.hasVoice(node.id)) {
-      playbackRef.current = audio.playLine(node.id);
-      void playbackRef.current.then((result) => {
-        if (result.status === "blocked") {
-          setVoiceFeedback({
-            nodeId: node.id,
-            message: "Select replay to enable voice playback.",
-          });
-        } else if (result.status === "error") {
-          setVoiceFeedback({
-            nodeId: node.id,
-            message: "Voice unavailable; subtitles remain active.",
-          });
-        }
-      });
+      playVoice(node.id);
     } else {
       playbackRef.current = undefined;
     }
     return () => audio.stop();
-  }, [audio, node]);
+  }, [audio, node, playVoice]);
 
   const advance = useCallback(() => {
     if (node?.type !== "line") {
@@ -577,6 +597,7 @@ function GameScreen({ onTitle, onOpenPanel }: GameScreenProps) {
     settings.skipSeen,
     state.seenNodeIds,
     typewriter.complete,
+    replayVersion,
   ]);
 
   useEffect(() => () => audio.dispose(), [audio]);
@@ -700,7 +721,9 @@ function GameScreen({ onTitle, onOpenPanel }: GameScreenProps) {
               type="button"
               onClick={() => {
                 if (node.type === "line" && hasVoice) {
-                  void audio.playLine(node.id);
+                  setVoiceFeedback(undefined);
+                  playVoice(node.id);
+                  setReplayVersion((version) => version + 1);
                 }
               }}
               disabled={!hasVoice}
@@ -1168,13 +1191,17 @@ function OfflinePanel({
           <div className={styles.voicePending}>
             <strong>Voice packs are not included in this edition.</strong>
             <p>
-              The complete story remains playable with subtitles. Chapter
-              packs will appear here if approved 48 kHz mono MP3 files and
-              their licence records are added.
+              The complete story remains playable with subtitles. Available
+              chapter voice packs will appear here.
             </p>
           </div>
         ) : (
           <div className={styles.packList}>
+            <p>
+              Voiced chapters: {voicedChapterTitles}.
+              {hasUnvoicedChapters && " Other chapters remain subtitle-only."}
+              {" "}Download a pack to hear that chapter offline.
+            </p>
             {offlinePackManifests.map((manifest) => (
               <PackRow
                 key={manifest.id}
@@ -1262,21 +1289,21 @@ function CreditsPanel({ onClose }: { readonly onClose: () => void }) {
         </section>
         <section>
           <p className={styles.eyebrow}>Voice disclosure</p>
-          <h3>Provider-neutral synthetic voice pipeline</h3>
+          <h3>Synthetic character voices</h3>
           <p>{productionVoiceManifest.disclosure}</p>
           {voiceEntries.length === 0 ? (
             <p className={styles.voiceCreditNote}>
               This subtitles-only edition intentionally ships without voice
-              clips. Every line remains available as text; a voiced edition
-              requires a licensed clip and provenance record for every spoken
-              line.
+              clips. The complete story remains available as text.
             </p>
           ) : (
             <div className={styles.voiceCreditList}>
               <p className={styles.voiceCreditNote}>
-                {voiceEntries.length} licensed synthetic clips are imported.
-                Provider and licence details are grouped below so repeated
-                line-level records remain readable.
+                {voiceEntries.length} synthetic clips are included for:
+                {" "}{voicedChapterTitles}.
+                {hasUnvoicedChapters && " Other chapters remain subtitle-only."}
+                {" "}All dialogue remains available as text. Provider and
+                supplied licence references are listed below.
               </p>
               {voiceCreditRecords.map((record) => (
                 <article

@@ -40,7 +40,7 @@ Voice files are optional during development and for a subtitles-only deployment.
 
 The repository includes pull-request CI and a Pages workflow for pushes to `main` and manual dispatches. In the GitHub repository, set **Settings → Pages → Build and deployment → Source** to **GitHub Actions**.
 
-The workflow discovers the repository base path, executes the complete check suite, validates the selected audio state, builds `dist`, uploads the Pages artifact, and deploys to the `github-pages` environment. With zero imported production clips it publishes a subtitles-only edition. Once any production clip is imported, deployment requires complete licensed coverage, preventing an accidental partial-voice release.
+The workflow discovers the repository base path, executes the complete check suite, validates the selected audio state, builds `dist`, uploads the Pages artifact, and deploys to the `github-pages` environment. It supports a subtitles-only edition or complete voiced chapters alongside later subtitle-only chapters. Every imported chapter must include all its spoken lines, including choice branches.
 
 The same build supports a custom domain or a repository subpath. Test a nested path locally with:
 
@@ -66,15 +66,17 @@ npm run generate:icons
 
 ## Production voices
 
-The provider-neutral, all-or-nothing voice workflow is documented in [voice-production/README.md](voice-production/README.md). It derives the active speaking cast and spoken-line count from the story, then checks every profile and line, licenses and provenance, chapter pack sizes, and normalized MP3 properties through ffmpeg/ffprobe.
+The provider-neutral voice workflow is documented in [voice-production/README.md](voice-production/README.md). The current batch supplies 64 pre-rendered ElevenLabs clips for the prologue and Chapter 1, using the user's selected library voices. Later chapters remain subtitle-only. The game plays imported lines automatically and offers Replay voice, volume, mute, and optional chapter downloads for offline listening.
+
+Imports are atomic and may cover the full story or complete chapters selected with `chapterIds`. Each import replaces the deployed voice set, so include all previously imported chapters and their clips when adding the next chapter. The importer checks profiles, line coverage, provenance references, chapter pack sizes, and normalized MP3 properties through ffmpeg/ffprobe.
 
 ```bash
 npm run voices:check -- voice-production/production.voice-import.json
 npm run voices:import -- voice-production/production.voice-import.json
-npm run validate:release
+npm run validate:deploy
 ```
 
-Use `npm run validate:deploy` for the Pages-compatible gate: an empty production manifest is accepted as subtitles-only, while a non-empty manifest must cover every spoken line. `npm run validate:release` remains the stricter gate for an explicitly voiced edition.
+Use `npm run validate:deploy` for the Pages-compatible gate: an empty production manifest is accepted as subtitles-only, while each imported chapter must cover every spoken line. `npm run validate:release` remains the stricter gate requiring voice coverage for the entire story; it is expected to fail while later chapters are unvoiced. Automated provenance checks verify record completeness, not provider licensing rights; keep the underlying delivery and licence records locally.
 
 No API keys, private provider identifiers, or runtime TTS belong in the repository or deployed application.
 

@@ -2,6 +2,7 @@ import { expect, test } from '@playwright/test';
 
 import { story } from '../src/story';
 import { createArtAssetManifest } from '../src/story/artManifest';
+import { offlinePackManifests } from '../src/voices';
 import { dismissNotice, openApp, SAVE_KEY } from './helpers';
 
 // Each isolated browser installs the full illustrated story before going offline.
@@ -90,9 +91,10 @@ test('presents offline/install fallback and accepts an install prompt', async ({
 
   const offline = page.getByRole('dialog', { name: 'Offline & install' });
   await expect(offline).toContainText('Take the story with you');
-  await expect(offline).toContainText(
-    'Voice packs are not included in this edition',
-  );
+  await expect(offline).toContainText('Voiced chapters:');
+  for (const manifest of offlinePackManifests) {
+    await expect(offline.getByRole('heading', { name: manifest.title, exact: true })).toBeVisible();
+  }
   await expect(
     offline.getByRole('button', { name: 'Use browser install menu' }),
   ).toBeDisabled();

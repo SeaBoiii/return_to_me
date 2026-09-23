@@ -18,6 +18,8 @@ export interface VoiceImportDocument {
   readonly storyId: string;
   readonly contentRevision: string;
   readonly disclosure: string;
+  /** Omit for a full-story import; otherwise include every installed chapter. */
+  readonly chapterIds?: readonly string[];
   readonly profiles: readonly VoiceImportProfileInput[];
   readonly clips: readonly VoiceImportClipInput[];
 }
@@ -38,6 +40,9 @@ export interface VoiceImportContext {
   readonly contentRevision: string;
   readonly lines: readonly VoiceImportLineReference[];
   readonly profiles: readonly VoiceImportProfileReference[];
+  readonly chapterIds?: readonly string[];
+  /** A cumulative import must retain these chapters. */
+  readonly importedChapterIds?: readonly string[];
 }
 
 const developmentOnlyMarker = /\bdevelopment[- ]only\b/i;
@@ -200,8 +205,8 @@ const parseClip = (
 
 /**
  * Parse and validate the provider-neutral import document against the active
- * story. A production import is intentionally all-or-nothing: every spoken
- * line and every declared profile must be present exactly once.
+ * story. Every spoken line in the selected chapters must be present exactly
+ * once. Without chapterIds, the manifest must cover the entire story.
  */
 export const parseVoiceImportDocument = (
   value: unknown,
@@ -219,6 +224,7 @@ export const parseVoiceImportDocument = (
       "storyId",
       "contentRevision",
       "disclosure",
+      "chapterIds",
       "profiles",
       "clips",
     ],
@@ -247,6 +253,45 @@ export const parseVoiceImportDocument = (
       `manifest.contentRevision must be ${JSON.stringify(context.contentRevision)} for this build.`,
     );
   }
+
+  const knownChapters = new Set(
+    context.chapterIds ?? context.lines.map((line) => line.chapterId),
+  );
+  let chapterIds: string[] | undefined;
+  if (Object.hasOwn(value, "chapterIds")) {
+    chapterIds = [];
+    if (!Array.isArray(value.chapterIds) || value.chapterIds.length === 0) {
+      issues.push("manifest.chapterIds must be a non-empty array of chapter IDs.");
+    } else {
+      for (const [index, chapterId] of value.chapterIds.entries()) {
+        const path = `manifest.chapterIds[${index}]`;
+        if (typeof chapterId !== "string" || chapterId.trim().length === 0) {
+          issues.push(`${path} must be a non-empty string.`);
+          continue;
+        }
+        validateIdentifier(chapterId, path, issues);
+        if (chapterIds.includes(chapterId)) {
+          issues.push(`Chapter ID ${JSON.stringify(chapterId)} is duplicated.`);
+        }
+        if (!knownChapters.has(chapterId)) {
+          issues.push(`Chapter ID ${JSON.stringify(chapterId)} is unknown.`);
+        }
+        chapterIds.push(chapterId);
+      }
+    }
+  }
+  const selectedChapters = new Set(chapterIds ?? knownChapters);
+  for (const chapterId of new Set(context.importedChapterIds ?? [])) {
+    if (!selectedChapters.has(chapterId)) {
+      issues.push(
+        `Already imported chapter ${JSON.stringify(chapterId)} must remain in this cumulative import.`,
+      );
+    }
+  }
+  const selectedLines = context.lines.filter((line) =>
+    selectedChapters.has(line.chapterId),
+  );
+  const selectedSpeakers = new Set(selectedLines.map((line) => line.speakerId));
 
   const rawProfiles = value.profiles;
   const profiles = Array.isArray(rawProfiles)
@@ -284,7 +329,10 @@ export const parseVoiceImportDocument = (
     }
   }
   for (const profile of context.profiles) {
-    if (!importedProfiles.has(profile.id)) {
+    if (
+      (chapterIds === undefined || selectedSpeakers.has(profile.speakerId)) &&
+      !importedProfiles.has(profile.id)
+    ) {
       issues.push(`Required profile ${JSON.stringify(profile.id)} is missing.`);
     }
   }
@@ -304,6 +352,11 @@ export const parseVoiceImportDocument = (
       );
       continue;
     }
+    if (!selectedChapters.has(expected.chapterId)) {
+      issues.push(
+        `Clip ${JSON.stringify(clip.lineId)} belongs to unselected chapter ${JSON.stringify(expected.chapterId)}.`,
+      );
+    }
     if (clip.speakerId !== expected.speakerId) {
       issues.push(
         `Clip ${JSON.stringify(clip.lineId)} must use speaker ${JSON.stringify(expected.speakerId)}.`,
@@ -320,7 +373,7 @@ export const parseVoiceImportDocument = (
       );
     }
   }
-  for (const line of context.lines) {
+  for (const line of selectedLines) {
     if (!importedLines.has(line.id)) {
       issues.push(`Spoken line ${JSON.stringify(line.id)} is missing a clip.`);
     }
@@ -335,6 +388,7 @@ export const parseVoiceImportDocument = (
     storyId,
     contentRevision,
     disclosure,
+    ...(chapterIds === undefined ? {} : { chapterIds }),
     profiles,
     clips,
   };

@@ -23,6 +23,8 @@ export interface StoryValidationOptions {
   readonly offlinePacks?: readonly OfflinePackManifest[];
   /** Require one, and only one, voice entry for every line with a speaker. */
   readonly requireVoiceCoverage?: boolean;
+  /** Require complete spoken-line coverage in every chapter with clips or a pack. */
+  readonly requireCompleteChapterVoiceCoverage?: boolean;
 }
 
 const issue = (
@@ -266,6 +268,7 @@ export const validateVoiceCatalog = (
     offlinePacks === undefined
       ? undefined
       : new Set(offlinePacks.map((pack) => pack.id));
+  const packs = new Map(offlinePacks?.map((pack) => [pack.id, pack]));
 
   for (const duplicate of duplicateValues(voices.map((voice) => voice.id))) {
     issues.push(
@@ -340,6 +343,14 @@ export const validateVoiceCatalog = (
         ),
       );
     }
+    const pack = packs.get(voice.packId);
+    if (node !== undefined && pack !== undefined && node.chapterId !== pack.chapterId) {
+      issues.push(issue(
+        "voice-pack-chapter-mismatch",
+        `Voice "${voice.id}" belongs to chapter "${node.chapterId}", not pack chapter "${pack.chapterId}".`,
+        `${path}.packId`,
+      ));
+    }
   });
 
   return issues;
@@ -367,6 +378,13 @@ export const validateOfflinePackCatalog = (
         "offlinePacks",
       ),
     );
+  }
+  for (const duplicate of duplicateValues(packs.map((pack) => pack.chapterId))) {
+    issues.push(issue(
+      "duplicate-chapter-pack",
+      `Chapter "${duplicate}" has more than one offline voice pack.`,
+      "offlinePacks",
+    ));
   }
 
   packs.forEach((pack, index) => {
@@ -406,10 +424,29 @@ export const validateOfflinePackCatalog = (
       );
     }
 
-    const expectedUrls = voiceUrlsByPack.get(pack.id);
+    const expectedUrls = voiceUrlsByPack.get(pack.id) ?? new Set<string>();
+    if (pack.voiceUrls.length === 0) {
+      issues.push(issue(
+        "empty-offline-pack",
+        `Offline pack "${pack.id}" must include at least one voice URL.`,
+        `${path}.voiceUrls`,
+      ));
+    }
+    if (expectedUrls.size === 0) {
+      issues.push(issue(
+        "orphan-voice-pack",
+        `Offline pack "${pack.id}" has no associated voice clips.`,
+        path,
+      ));
+    }
+    if (pack.voiceUrls.some((url) => !expectedUrls.has(url))) {
+      issues.push(issue(
+        "undeclared-pack-url",
+        `Offline pack "${pack.id}" contains a URL not assigned to it by a voice entry.`,
+        `${path}.voiceUrls`,
+      ));
+    }
     if (
-      voices.length > 0 &&
-      expectedUrls !== undefined &&
       [...expectedUrls].some((url) => !pack.voiceUrls.includes(url))
     ) {
       issues.push(
@@ -673,7 +710,11 @@ export const validateStory = (
   }
   if (options.voices !== undefined) {
     issues.push(
-      ...validateVoiceCatalog(story, options.voices, options.offlinePacks),
+      ...validateVoiceCatalog(
+        story,
+        options.voices,
+        options.offlinePacks ?? (options.requireCompleteChapterVoiceCoverage ? [] : undefined),
+      ),
     );
   }
   if (options.offlinePacks !== undefined) {
@@ -686,13 +727,17 @@ export const validateStory = (
     );
   }
 
-  if (options.requireVoiceCoverage) {
+  if (options.requireVoiceCoverage || options.requireCompleteChapterVoiceCoverage) {
     const voiceCount = new Map<string, number>();
+    const voicedChapters = new Set(options.offlinePacks?.map((pack) => pack.chapterId));
     for (const voice of options.voices ?? []) {
       voiceCount.set(voice.lineId, (voiceCount.get(voice.lineId) ?? 0) + 1);
+      const node = nodes.get(voice.lineId);
+      if (node !== undefined) voicedChapters.add(node.chapterId);
     }
     for (const node of story.nodes) {
-      if (node.type === "line" && node.speakerId !== null) {
+      if (node.type === "line" && node.speakerId !== null
+          && (options.requireVoiceCoverage || voicedChapters.has(node.chapterId))) {
         const count = voiceCount.get(node.id) ?? 0;
         if (count !== 1) {
           issues.push(

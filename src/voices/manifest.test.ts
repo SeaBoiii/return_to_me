@@ -11,12 +11,13 @@ import {
 } from ".";
 
 describe("production content manifests", () => {
-  it("validates the text-only development manifest", () => {
+  it("validates complete voiced chapter packs alongside unvoiced chapters", () => {
     expect(
       validateStory(story, {
         assets: assetEntries,
         voices: voiceEntries,
         offlinePacks: offlinePackManifests,
+        requireCompleteChapterVoiceCoverage: true,
       }),
     ).toEqual([]);
   });
@@ -33,7 +34,7 @@ describe("production content manifests", () => {
     expect(productionVoiceManifest.contentRevision).toBe(story.revision);
   });
 
-  it("keeps the expanded cast provider-neutral and production audio empty", () => {
+  it("keeps the expanded cast provider-neutral", () => {
     expect(voiceProfiles.map((profile) => profile.id)).toEqual([
       "adult-aleem",
       "young-aleem",
@@ -58,15 +59,23 @@ describe("production content manifests", () => {
       "nurul-mother",
       "nurul-father",
     ]);
-    expect(voiceEntries).toHaveLength(0);
-    expect(offlinePackManifests).toHaveLength(0);
+  });
+
+  it("includes every spoken line and branch in the declared voiced chapters", () => {
+    const voicedChapters = new Set(offlinePackManifests.map((pack) => pack.chapterId));
+    const expectedLines = story.nodes.flatMap((node) =>
+      node.type === "line" && node.speakerId !== null && voicedChapters.has(node.chapterId)
+        ? [node.id] : [],
+    );
+    expect(new Set(voiceEntries.map((entry) => entry.lineId))).toEqual(new Set(expectedLines));
+    expect(voiceEntries).toHaveLength(expectedLines.length);
   });
 
   it("makes missing production voices fail strict validation", () => {
     const issues = validateStory(story, {
       assets: assetEntries,
-      voices: voiceEntries,
-      offlinePacks: offlinePackManifests,
+      voices: [],
+      offlinePacks: [],
       requireVoiceCoverage: true,
     });
     expect(

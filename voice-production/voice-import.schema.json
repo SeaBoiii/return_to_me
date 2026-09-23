@@ -18,6 +18,13 @@
     "storyId": { "type": "string", "minLength": 1 },
     "contentRevision": { "type": "string", "minLength": 1 },
     "disclosure": { "type": "string", "minLength": 1 },
+    "chapterIds": {
+      "description": "Complete chapters included in this cumulative import. Include every previously imported chapter. Omit to require the full story.",
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "$ref": "#/$defs/identifier" }
+    },
     "profiles": {
       "type": "array",
       "minItems": 1,

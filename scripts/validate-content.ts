@@ -18,6 +18,7 @@ import {
 } from "../src/voices";
 import {
   describeValidationMode,
+  requiresCompleteChapterVoiceCoverage,
   requiresCompleteVoiceCoverage,
   type ContentValidationMode,
 } from "./validation-mode";
@@ -30,7 +31,7 @@ Usage:
   npm run validate:release
 
 Options:
-  --deploy          Allow zero voice clips, but reject partial voice coverage.
+  --deploy          Allow unvoiced chapters; require complete coverage in every voiced chapter.
   --require-voices  Require one licensed static clip for every spoken line.
   --help            Show this message.
 `;
@@ -60,10 +61,7 @@ const validationMode: ContentValidationMode = args.has("--require-voices")
   : args.has("--deploy")
     ? "deploy"
     : "development";
-const requireVoices = requiresCompleteVoiceCoverage(
-  validationMode,
-  voiceEntries.length,
-);
+const requireVoices = requiresCompleteVoiceCoverage(validationMode);
 const projectRoot = fileURLToPath(new URL("../", import.meta.url));
 const publicRoot = resolve(projectRoot, "public");
 
@@ -84,6 +82,7 @@ const issues: ValidationIssue[] = [
     voices: voiceEntries,
     offlinePacks: offlinePackManifests,
     requireVoiceCoverage: requireVoices,
+    requireCompleteChapterVoiceCoverage: requiresCompleteChapterVoiceCoverage(validationMode),
   }),
 ];
 
@@ -201,18 +200,6 @@ for (const [index, voice] of voiceEntries.entries()) {
         "invalid-voice-provenance",
         `Voice "${voice.id}" needs provider, license, source reference, and synthetic disclosure metadata.`,
         `voiceEntries[${index}].provenance`,
-      ),
-    );
-  }
-}
-
-for (const [index, pack] of offlinePackManifests.entries()) {
-  if (pack.voiceUrls.length === 0) {
-    issues.push(
-      validationIssue(
-        "empty-offline-pack",
-        `Offline pack "${pack.id}" must include at least one voice URL.`,
-        `offlinePackManifests[${index}].voiceUrls`,
       ),
     );
   }
