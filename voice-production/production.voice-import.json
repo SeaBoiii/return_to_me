@@ -5,7 +5,10 @@
   "contentRevision": "school-years-6.0.0",
   "chapterIds": [
     "prologue",
-    "chapter-1"
+    "chapter-1",
+    "chapter-2",
+    "chapter-3",
+    "chapter-4"
   ],
   "disclosure": "Voices are synthetic performances generated with ElevenLabs using user-selected library voices. No voice cloning was performed for this project.",
   "profiles": [
@@ -24,6 +27,42 @@
     {
       "id": "alya",
       "speakerId": "alya",
+      "provider": "ElevenLabs",
+      "licenseReference": "ElevenLabs Terms of Service ? https://elevenlabs.io/terms-of-use"
+    },
+    {
+      "id": "hana",
+      "speakerId": "hana",
+      "provider": "ElevenLabs",
+      "licenseReference": "ElevenLabs Terms of Service ? https://elevenlabs.io/terms-of-use"
+    },
+    {
+      "id": "teen-aleem",
+      "speakerId": "aleem-sec",
+      "provider": "ElevenLabs",
+      "licenseReference": "ElevenLabs Terms of Service ? https://elevenlabs.io/terms-of-use"
+    },
+    {
+      "id": "faris",
+      "speakerId": "faris",
+      "provider": "ElevenLabs",
+      "licenseReference": "ElevenLabs Terms of Service ? https://elevenlabs.io/terms-of-use"
+    },
+    {
+      "id": "mutual-friend",
+      "speakerId": "mutual-friend",
+      "provider": "ElevenLabs",
+      "licenseReference": "ElevenLabs Terms of Service ? https://elevenlabs.io/terms-of-use"
+    },
+    {
+      "id": "syafiqa",
+      "speakerId": "syafiqa",
+      "provider": "ElevenLabs",
+      "licenseReference": "ElevenLabs Terms of Service ? https://elevenlabs.io/terms-of-use"
+    },
+    {
+      "id": "mei-lin",
+      "speakerId": "mei-lin",
       "provider": "ElevenLabs",
       "licenseReference": "ElevenLabs Terms of Service ? https://elevenlabs.io/terms-of-use"
     }
@@ -476,6 +515,1658 @@
       "profileId": "adult-aleem",
       "sourceFile": "development/elevenlabs-production/chapter-1/clips/ch1-048.mp3",
       "provenanceReference": "voice-production/elevenlabs-batch-2026-09-23.json#ch1-048"
+    },
+    {
+      "lineId": "ch2-001",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-001.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-001"
+    },
+    {
+      "lineId": "ch2-002",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-002.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-002"
+    },
+    {
+      "lineId": "ch2-003",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-003.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-003"
+    },
+    {
+      "lineId": "ch2-004",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-004.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-004"
+    },
+    {
+      "lineId": "ch2-005",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-005.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-005"
+    },
+    {
+      "lineId": "ch2-006",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-006.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-006"
+    },
+    {
+      "lineId": "ch2-007",
+      "speakerId": "hana",
+      "profileId": "hana",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-007.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-007"
+    },
+    {
+      "lineId": "ch2-008",
+      "speakerId": "aleem-sec",
+      "profileId": "teen-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-008.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-008"
+    },
+    {
+      "lineId": "ch2-009",
+      "speakerId": "hana",
+      "profileId": "hana",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-009.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-009"
+    },
+    {
+      "lineId": "ch2-010",
+      "speakerId": "aleem-sec",
+      "profileId": "teen-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-010.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-010"
+    },
+    {
+      "lineId": "ch2-011",
+      "speakerId": "hana",
+      "profileId": "hana",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-011.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-011"
+    },
+    {
+      "lineId": "ch2-012",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-012.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-012"
+    },
+    {
+      "lineId": "ch2-013",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-013.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-013"
+    },
+    {
+      "lineId": "ch2-014",
+      "speakerId": "hana",
+      "profileId": "hana",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-014.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-014"
+    },
+    {
+      "lineId": "ch2-015",
+      "speakerId": "aleem-sec",
+      "profileId": "teen-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-015.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-015"
+    },
+    {
+      "lineId": "ch2-016",
+      "speakerId": "hana",
+      "profileId": "hana",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-016.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-016"
+    },
+    {
+      "lineId": "ch2-017",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-017.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-017"
+    },
+    {
+      "lineId": "ch2-018",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-018.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-018"
+    },
+    {
+      "lineId": "ch2-019",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-019.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-019"
+    },
+    {
+      "lineId": "ch2-020",
+      "speakerId": "faris",
+      "profileId": "faris",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-020.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-020"
+    },
+    {
+      "lineId": "ch2-021",
+      "speakerId": "aleem-sec",
+      "profileId": "teen-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-021.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-021"
+    },
+    {
+      "lineId": "ch2-022",
+      "speakerId": "faris",
+      "profileId": "faris",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-022.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-022"
+    },
+    {
+      "lineId": "ch2-023",
+      "speakerId": "aleem-sec",
+      "profileId": "teen-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-023.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-023"
+    },
+    {
+      "lineId": "ch2-024",
+      "speakerId": "faris",
+      "profileId": "faris",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-024.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-024"
+    },
+    {
+      "lineId": "ch2-wingman-simple-001",
+      "speakerId": "aleem-sec",
+      "profileId": "teen-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-wingman-simple-001.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-wingman-simple-001"
+    },
+    {
+      "lineId": "ch2-wingman-simple-002",
+      "speakerId": "faris",
+      "profileId": "faris",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-wingman-simple-002.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-wingman-simple-002"
+    },
+    {
+      "lineId": "ch2-wingman-sincere-001",
+      "speakerId": "aleem-sec",
+      "profileId": "teen-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-wingman-sincere-001.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-wingman-sincere-001"
+    },
+    {
+      "lineId": "ch2-wingman-sincere-002",
+      "speakerId": "faris",
+      "profileId": "faris",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-wingman-sincere-002.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-wingman-sincere-002"
+    },
+    {
+      "lineId": "ch2-wingman-pressure-001",
+      "speakerId": "aleem-sec",
+      "profileId": "teen-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-wingman-pressure-001.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-wingman-pressure-001"
+    },
+    {
+      "lineId": "ch2-wingman-pressure-002",
+      "speakerId": "faris",
+      "profileId": "faris",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-wingman-pressure-002.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-wingman-pressure-002"
+    },
+    {
+      "lineId": "ch2-025",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-025.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-025"
+    },
+    {
+      "lineId": "ch2-026",
+      "speakerId": "faris",
+      "profileId": "faris",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-026.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-026"
+    },
+    {
+      "lineId": "ch2-027",
+      "speakerId": "aleem-sec",
+      "profileId": "teen-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-027.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-027"
+    },
+    {
+      "lineId": "ch2-028",
+      "speakerId": "faris",
+      "profileId": "faris",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-028.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-028"
+    },
+    {
+      "lineId": "ch2-029",
+      "speakerId": "aleem-sec",
+      "profileId": "teen-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-029.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-029"
+    },
+    {
+      "lineId": "ch2-030",
+      "speakerId": "hana",
+      "profileId": "hana",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-030.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-030"
+    },
+    {
+      "lineId": "ch2-031",
+      "speakerId": "aleem-sec",
+      "profileId": "teen-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-031.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-031"
+    },
+    {
+      "lineId": "ch2-032",
+      "speakerId": "hana",
+      "profileId": "hana",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-032.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-032"
+    },
+    {
+      "lineId": "ch2-033",
+      "speakerId": "aleem-sec",
+      "profileId": "teen-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-033.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-033"
+    },
+    {
+      "lineId": "ch2-034",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-034.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-034"
+    },
+    {
+      "lineId": "ch2-035",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-035.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-035"
+    },
+    {
+      "lineId": "ch2-036",
+      "speakerId": "hana",
+      "profileId": "hana",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-036.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-036"
+    },
+    {
+      "lineId": "ch2-037",
+      "speakerId": "aleem-sec",
+      "profileId": "teen-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-037.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-037"
+    },
+    {
+      "lineId": "ch2-038",
+      "speakerId": "hana",
+      "profileId": "hana",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-038.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-038"
+    },
+    {
+      "lineId": "ch2-039",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-039.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-039"
+    },
+    {
+      "lineId": "ch2-040",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-040.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-040"
+    },
+    {
+      "lineId": "ch2-041",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-041.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-041"
+    },
+    {
+      "lineId": "ch2-042",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-042.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-042"
+    },
+    {
+      "lineId": "ch2-043",
+      "speakerId": "aleem-sec",
+      "profileId": "teen-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-043.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-043"
+    },
+    {
+      "lineId": "ch2-044",
+      "speakerId": "hana",
+      "profileId": "hana",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-044.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-044"
+    },
+    {
+      "lineId": "ch2-045",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-045.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-045"
+    },
+    {
+      "lineId": "ch2-046",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-046.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-046"
+    },
+    {
+      "lineId": "ch2-047",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-047.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-047"
+    },
+    {
+      "lineId": "ch2-priority-hana-001",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-priority-hana-001.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-priority-hana-001"
+    },
+    {
+      "lineId": "ch2-priority-hana-002",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-priority-hana-002.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-priority-hana-002"
+    },
+    {
+      "lineId": "ch2-priority-server-001",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-priority-server-001.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-priority-server-001"
+    },
+    {
+      "lineId": "ch2-priority-server-002",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-priority-server-002.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-priority-server-002"
+    },
+    {
+      "lineId": "ch2-priority-study-001",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-priority-study-001.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-priority-study-001"
+    },
+    {
+      "lineId": "ch2-priority-study-002",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-priority-study-002.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-priority-study-002"
+    },
+    {
+      "lineId": "ch2-048",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-048.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-048"
+    },
+    {
+      "lineId": "ch2-049",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-049.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-049"
+    },
+    {
+      "lineId": "ch2-050",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-050.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-050"
+    },
+    {
+      "lineId": "ch2-051",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-051.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-051"
+    },
+    {
+      "lineId": "ch2-052",
+      "speakerId": "hana",
+      "profileId": "hana",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-052.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-052"
+    },
+    {
+      "lineId": "ch2-053",
+      "speakerId": "aleem-sec",
+      "profileId": "teen-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-053.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-053"
+    },
+    {
+      "lineId": "ch2-054",
+      "speakerId": "hana",
+      "profileId": "hana",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-054.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-054"
+    },
+    {
+      "lineId": "ch2-055",
+      "speakerId": "aleem-sec",
+      "profileId": "teen-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-055.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-055"
+    },
+    {
+      "lineId": "ch2-056",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-056.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-056"
+    },
+    {
+      "lineId": "ch2-057",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-057.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-057"
+    },
+    {
+      "lineId": "ch2-058",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-058.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-058"
+    },
+    {
+      "lineId": "ch2-059",
+      "speakerId": "hana",
+      "profileId": "hana",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-059.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-059"
+    },
+    {
+      "lineId": "ch2-060",
+      "speakerId": "aleem-sec",
+      "profileId": "teen-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-060.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-060"
+    },
+    {
+      "lineId": "ch2-061",
+      "speakerId": "hana",
+      "profileId": "hana",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-061.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-061"
+    },
+    {
+      "lineId": "ch2-062",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-062.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-062"
+    },
+    {
+      "lineId": "ch2-063",
+      "speakerId": "aleem-sec",
+      "profileId": "teen-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-063.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-063"
+    },
+    {
+      "lineId": "ch2-064",
+      "speakerId": "hana",
+      "profileId": "hana",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-064.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-064"
+    },
+    {
+      "lineId": "ch2-065",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-065.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-065"
+    },
+    {
+      "lineId": "ch2-066",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-066.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-066"
+    },
+    {
+      "lineId": "ch2-067",
+      "speakerId": "aleem-sec",
+      "profileId": "teen-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-067.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-067"
+    },
+    {
+      "lineId": "ch2-068",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-068.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-068"
+    },
+    {
+      "lineId": "ch2-069",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-069.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-069"
+    },
+    {
+      "lineId": "ch2-070",
+      "speakerId": "aleem-sec",
+      "profileId": "teen-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-070.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-070"
+    },
+    {
+      "lineId": "ch2-071",
+      "speakerId": "hana",
+      "profileId": "hana",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-071.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-071"
+    },
+    {
+      "lineId": "ch2-072",
+      "speakerId": "aleem-sec",
+      "profileId": "teen-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-072.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-072"
+    },
+    {
+      "lineId": "ch2-073",
+      "speakerId": "hana",
+      "profileId": "hana",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-073.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-073"
+    },
+    {
+      "lineId": "ch2-074",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-074.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-074"
+    },
+    {
+      "lineId": "ch2-075",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-075.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-075"
+    },
+    {
+      "lineId": "ch2-076",
+      "speakerId": "mutual-friend",
+      "profileId": "mutual-friend",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-076.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-076"
+    },
+    {
+      "lineId": "ch2-077",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-077.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-077"
+    },
+    {
+      "lineId": "ch2-friend-confirm-001",
+      "speakerId": "aleem-sec",
+      "profileId": "teen-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-friend-confirm-001.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-friend-confirm-001"
+    },
+    {
+      "lineId": "ch2-friend-confirm-002",
+      "speakerId": "mutual-friend",
+      "profileId": "mutual-friend",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-friend-confirm-002.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-friend-confirm-002"
+    },
+    {
+      "lineId": "ch2-friend-defend-001",
+      "speakerId": "aleem-sec",
+      "profileId": "teen-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-friend-defend-001.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-friend-defend-001"
+    },
+    {
+      "lineId": "ch2-friend-defend-002",
+      "speakerId": "mutual-friend",
+      "profileId": "mutual-friend",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-friend-defend-002.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-friend-defend-002"
+    },
+    {
+      "lineId": "ch2-friend-silent-001",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-friend-silent-001.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-friend-silent-001"
+    },
+    {
+      "lineId": "ch2-friend-silent-002",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-friend-silent-002.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-friend-silent-002"
+    },
+    {
+      "lineId": "ch2-078",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-078.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-078"
+    },
+    {
+      "lineId": "ch2-079",
+      "speakerId": "aleem-sec",
+      "profileId": "teen-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-079.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-079"
+    },
+    {
+      "lineId": "ch2-080",
+      "speakerId": "hana",
+      "profileId": "hana",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-080.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-080"
+    },
+    {
+      "lineId": "ch2-081",
+      "speakerId": "aleem-sec",
+      "profileId": "teen-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-081.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-081"
+    },
+    {
+      "lineId": "ch2-082",
+      "speakerId": "hana",
+      "profileId": "hana",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-082.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-082"
+    },
+    {
+      "lineId": "ch2-083",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-083.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-083"
+    },
+    {
+      "lineId": "ch2-084",
+      "speakerId": "aleem-sec",
+      "profileId": "teen-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-084.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-084"
+    },
+    {
+      "lineId": "ch2-085",
+      "speakerId": "hana",
+      "profileId": "hana",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-085.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-085"
+    },
+    {
+      "lineId": "ch2-086",
+      "speakerId": "aleem-sec",
+      "profileId": "teen-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-086.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-086"
+    },
+    {
+      "lineId": "ch2-087",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-087.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-087"
+    },
+    {
+      "lineId": "ch2-088",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-088.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-088"
+    },
+    {
+      "lineId": "ch2-089",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-089.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-089"
+    },
+    {
+      "lineId": "ch2-090",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-090.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-090"
+    },
+    {
+      "lineId": "ch2-091",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-091.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-091"
+    },
+    {
+      "lineId": "ch2-092",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-092.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-092"
+    },
+    {
+      "lineId": "ch2-093",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-093.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-093"
+    },
+    {
+      "lineId": "ch2-094",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-094.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-094"
+    },
+    {
+      "lineId": "ch2-095",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-095.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-095"
+    },
+    {
+      "lineId": "ch2-096",
+      "speakerId": "aleem-sec",
+      "profileId": "teen-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-096.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-096"
+    },
+    {
+      "lineId": "ch2-097",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-097.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-097"
+    },
+    {
+      "lineId": "ch2-098",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-098.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-098"
+    },
+    {
+      "lineId": "ch2-099",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-099.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-099"
+    },
+    {
+      "lineId": "ch2-100",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-100.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-100"
+    },
+    {
+      "lineId": "ch2-results-condemn-001",
+      "speakerId": "aleem-sec",
+      "profileId": "teen-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-results-condemn-001.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-results-condemn-001"
+    },
+    {
+      "lineId": "ch2-results-condemn-002",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-results-condemn-002.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-results-condemn-002"
+    },
+    {
+      "lineId": "ch2-results-honest-001",
+      "speakerId": "aleem-sec",
+      "profileId": "teen-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-results-honest-001.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-results-honest-001"
+    },
+    {
+      "lineId": "ch2-results-honest-002",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-results-honest-002.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-results-honest-002"
+    },
+    {
+      "lineId": "ch2-results-continue-001",
+      "speakerId": "aleem-sec",
+      "profileId": "teen-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-results-continue-001.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-results-continue-001"
+    },
+    {
+      "lineId": "ch2-results-continue-002",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-results-continue-002.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-results-continue-002"
+    },
+    {
+      "lineId": "ch2-101",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-101.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-101"
+    },
+    {
+      "lineId": "ch2-102",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-102.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-102"
+    },
+    {
+      "lineId": "ch2-103",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-103.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-103"
+    },
+    {
+      "lineId": "ch2-104",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-104.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-104"
+    },
+    {
+      "lineId": "ch2-105",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-105.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-105"
+    },
+    {
+      "lineId": "ch2-106",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-106.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-106"
+    },
+    {
+      "lineId": "ch2-107",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-107.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-107"
+    },
+    {
+      "lineId": "ch2-108",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-2/clips/ch2-108.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch2-108"
+    },
+    {
+      "lineId": "ch3-001",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-001.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-001"
+    },
+    {
+      "lineId": "ch3-002",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-002.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-002"
+    },
+    {
+      "lineId": "ch3-003",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-003.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-003"
+    },
+    {
+      "lineId": "ch3-004",
+      "speakerId": "aleem-sec",
+      "profileId": "teen-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-004.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-004"
+    },
+    {
+      "lineId": "ch3-005",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-005.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-005"
+    },
+    {
+      "lineId": "ch3-006",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-006.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-006"
+    },
+    {
+      "lineId": "ch3-007",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-007.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-007"
+    },
+    {
+      "lineId": "ch3-008",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-008.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-008"
+    },
+    {
+      "lineId": "ch3-009",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-009.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-009"
+    },
+    {
+      "lineId": "ch3-010",
+      "speakerId": "syafiqa",
+      "profileId": "syafiqa",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-010.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-010"
+    },
+    {
+      "lineId": "ch3-011",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-011.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-011"
+    },
+    {
+      "lineId": "ch3-012",
+      "speakerId": "aleem-sec",
+      "profileId": "teen-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-012.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-012"
+    },
+    {
+      "lineId": "ch3-013",
+      "speakerId": "syafiqa",
+      "profileId": "syafiqa",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-013.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-013"
+    },
+    {
+      "lineId": "ch3-014",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-014.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-014"
+    },
+    {
+      "lineId": "ch3-015",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-015.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-015"
+    },
+    {
+      "lineId": "ch3-016",
+      "speakerId": "syafiqa",
+      "profileId": "syafiqa",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-016.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-016"
+    },
+    {
+      "lineId": "ch3-017",
+      "speakerId": "aleem-sec",
+      "profileId": "teen-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-017.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-017"
+    },
+    {
+      "lineId": "ch3-018",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-018.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-018"
+    },
+    {
+      "lineId": "ch3-019",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-019.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-019"
+    },
+    {
+      "lineId": "ch3-020",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-020.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-020"
+    },
+    {
+      "lineId": "ch3-021",
+      "speakerId": "syafiqa",
+      "profileId": "syafiqa",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-021.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-021"
+    },
+    {
+      "lineId": "ch3-022",
+      "speakerId": "aleem-sec",
+      "profileId": "teen-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-022.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-022"
+    },
+    {
+      "lineId": "ch3-023",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-023.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-023"
+    },
+    {
+      "lineId": "ch3-024",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-024.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-024"
+    },
+    {
+      "lineId": "ch3-bus-proof-001",
+      "speakerId": "aleem-sec",
+      "profileId": "teen-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-bus-proof-001.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-bus-proof-001"
+    },
+    {
+      "lineId": "ch3-bus-proof-002",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-bus-proof-002.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-bus-proof-002"
+    },
+    {
+      "lineId": "ch3-bus-possibility-001",
+      "speakerId": "aleem-sec",
+      "profileId": "teen-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-bus-possibility-001.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-bus-possibility-001"
+    },
+    {
+      "lineId": "ch3-bus-possibility-002",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-bus-possibility-002.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-bus-possibility-002"
+    },
+    {
+      "lineId": "ch3-bus-friendship-001",
+      "speakerId": "aleem-sec",
+      "profileId": "teen-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-bus-friendship-001.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-bus-friendship-001"
+    },
+    {
+      "lineId": "ch3-bus-friendship-002",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-bus-friendship-002.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-bus-friendship-002"
+    },
+    {
+      "lineId": "ch3-bus-join",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-bus-join.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-bus-join"
+    },
+    {
+      "lineId": "ch3-025",
+      "speakerId": "syafiqa",
+      "profileId": "syafiqa",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-025.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-025"
+    },
+    {
+      "lineId": "ch3-026",
+      "speakerId": "aleem-sec",
+      "profileId": "teen-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-026.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-026"
+    },
+    {
+      "lineId": "ch3-027",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-027.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-027"
+    },
+    {
+      "lineId": "ch3-028",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-028.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-028"
+    },
+    {
+      "lineId": "ch3-029",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-029.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-029"
+    },
+    {
+      "lineId": "ch3-confession-direct-001",
+      "speakerId": "aleem-sec",
+      "profileId": "teen-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-confession-direct-001.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-confession-direct-001"
+    },
+    {
+      "lineId": "ch3-confession-direct-002",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-confession-direct-002.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-confession-direct-002"
+    },
+    {
+      "lineId": "ch3-confession-gentle-001",
+      "speakerId": "aleem-sec",
+      "profileId": "teen-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-confession-gentle-001.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-confession-gentle-001"
+    },
+    {
+      "lineId": "ch3-confession-gentle-002",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-confession-gentle-002.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-confession-gentle-002"
+    },
+    {
+      "lineId": "ch3-confession-defensive-001",
+      "speakerId": "aleem-sec",
+      "profileId": "teen-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-confession-defensive-001.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-confession-defensive-001"
+    },
+    {
+      "lineId": "ch3-confession-defensive-002",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-confession-defensive-002.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-confession-defensive-002"
+    },
+    {
+      "lineId": "ch3-confession-join",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-confession-join.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-confession-join"
+    },
+    {
+      "lineId": "ch3-030",
+      "speakerId": "syafiqa",
+      "profileId": "syafiqa",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-030.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-030"
+    },
+    {
+      "lineId": "ch3-031",
+      "speakerId": "aleem-sec",
+      "profileId": "teen-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-031.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-031"
+    },
+    {
+      "lineId": "ch3-032",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-032.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-032"
+    },
+    {
+      "lineId": "ch3-033",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-033.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-033"
+    },
+    {
+      "lineId": "ch3-034",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-034.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-034"
+    },
+    {
+      "lineId": "ch3-035",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-035.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-035"
+    },
+    {
+      "lineId": "ch3-036",
+      "speakerId": "aleem-sec",
+      "profileId": "teen-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-036.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-036"
+    },
+    {
+      "lineId": "ch3-037",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-037.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-037"
+    },
+    {
+      "lineId": "ch3-038",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-038.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-038"
+    },
+    {
+      "lineId": "ch3-belief-generalise-001",
+      "speakerId": "aleem-sec",
+      "profileId": "teen-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-belief-generalise-001.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-belief-generalise-001"
+    },
+    {
+      "lineId": "ch3-belief-generalise-002",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-belief-generalise-002.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-belief-generalise-002"
+    },
+    {
+      "lineId": "ch3-belief-protect-001",
+      "speakerId": "aleem-sec",
+      "profileId": "teen-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-belief-protect-001.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-belief-protect-001"
+    },
+    {
+      "lineId": "ch3-belief-protect-002",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-belief-protect-002.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-belief-protect-002"
+    },
+    {
+      "lineId": "ch3-belief-question-001",
+      "speakerId": "aleem-sec",
+      "profileId": "teen-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-belief-question-001.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-belief-question-001"
+    },
+    {
+      "lineId": "ch3-belief-question-002",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-belief-question-002.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-belief-question-002"
+    },
+    {
+      "lineId": "ch3-belief-join",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-belief-join.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-belief-join"
+    },
+    {
+      "lineId": "ch3-039",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-039.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-039"
+    },
+    {
+      "lineId": "ch3-040",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-3/clips/ch3-040.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch3-040"
+    },
+    {
+      "lineId": "ch4-001",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-4/clips/ch4-001.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch4-001"
+    },
+    {
+      "lineId": "ch4-002",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-4/clips/ch4-002.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch4-002"
+    },
+    {
+      "lineId": "ch4-003",
+      "speakerId": "aleem-sec",
+      "profileId": "teen-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-4/clips/ch4-003.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch4-003"
+    },
+    {
+      "lineId": "ch4-004",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-4/clips/ch4-004.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch4-004"
+    },
+    {
+      "lineId": "ch4-search-love-001",
+      "speakerId": "aleem-sec",
+      "profileId": "teen-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-4/clips/ch4-search-love-001.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch4-search-love-001"
+    },
+    {
+      "lineId": "ch4-search-love-002",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-4/clips/ch4-search-love-002.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch4-search-love-002"
+    },
+    {
+      "lineId": "ch4-search-proof-001",
+      "speakerId": "aleem-sec",
+      "profileId": "teen-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-4/clips/ch4-search-proof-001.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch4-search-proof-001"
+    },
+    {
+      "lineId": "ch4-search-proof-002",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-4/clips/ch4-search-proof-002.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch4-search-proof-002"
+    },
+    {
+      "lineId": "ch4-search-control-001",
+      "speakerId": "aleem-sec",
+      "profileId": "teen-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-4/clips/ch4-search-control-001.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch4-search-control-001"
+    },
+    {
+      "lineId": "ch4-search-control-002",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-4/clips/ch4-search-control-002.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch4-search-control-002"
+    },
+    {
+      "lineId": "ch4-search-join",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-4/clips/ch4-search-join.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch4-search-join"
+    },
+    {
+      "lineId": "ch4-005",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-4/clips/ch4-005.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch4-005"
+    },
+    {
+      "lineId": "ch4-006",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-4/clips/ch4-006.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch4-006"
+    },
+    {
+      "lineId": "ch4-007",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-4/clips/ch4-007.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch4-007"
+    },
+    {
+      "lineId": "ch4-008",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-4/clips/ch4-008.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch4-008"
+    },
+    {
+      "lineId": "ch4-009",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-4/clips/ch4-009.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch4-009"
+    },
+    {
+      "lineId": "ch4-010",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-4/clips/ch4-010.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch4-010"
+    },
+    {
+      "lineId": "ch4-011",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-4/clips/ch4-011.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch4-011"
+    },
+    {
+      "lineId": "ch4-012",
+      "speakerId": "mei-lin",
+      "profileId": "mei-lin",
+      "sourceFile": "development/elevenlabs-production/chapter-4/clips/ch4-012.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch4-012"
+    },
+    {
+      "lineId": "ch4-013",
+      "speakerId": "aleem-sec",
+      "profileId": "teen-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-4/clips/ch4-013.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch4-013"
+    },
+    {
+      "lineId": "ch4-014",
+      "speakerId": "mei-lin",
+      "profileId": "mei-lin",
+      "sourceFile": "development/elevenlabs-production/chapter-4/clips/ch4-014.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch4-014"
+    },
+    {
+      "lineId": "ch4-015",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-4/clips/ch4-015.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch4-015"
+    },
+    {
+      "lineId": "ch4-016",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-4/clips/ch4-016.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch4-016"
+    },
+    {
+      "lineId": "ch4-017",
+      "speakerId": "mei-lin",
+      "profileId": "mei-lin",
+      "sourceFile": "development/elevenlabs-production/chapter-4/clips/ch4-017.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch4-017"
+    },
+    {
+      "lineId": "ch4-018",
+      "speakerId": "aleem-sec",
+      "profileId": "teen-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-4/clips/ch4-018.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch4-018"
+    },
+    {
+      "lineId": "ch4-019",
+      "speakerId": "mei-lin",
+      "profileId": "mei-lin",
+      "sourceFile": "development/elevenlabs-production/chapter-4/clips/ch4-019.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch4-019"
+    },
+    {
+      "lineId": "ch4-020",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-4/clips/ch4-020.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch4-020"
+    },
+    {
+      "lineId": "ch4-021",
+      "speakerId": "aleem-sec",
+      "profileId": "teen-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-4/clips/ch4-021.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch4-021"
+    },
+    {
+      "lineId": "ch4-022",
+      "speakerId": "mei-lin",
+      "profileId": "mei-lin",
+      "sourceFile": "development/elevenlabs-production/chapter-4/clips/ch4-022.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch4-022"
+    },
+    {
+      "lineId": "ch4-023",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-4/clips/ch4-023.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch4-023"
+    },
+    {
+      "lineId": "ch4-024",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-4/clips/ch4-024.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch4-024"
+    },
+    {
+      "lineId": "ch4-025",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-4/clips/ch4-025.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch4-025"
+    },
+    {
+      "lineId": "ch4-026",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-4/clips/ch4-026.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch4-026"
+    },
+    {
+      "lineId": "ch4-027",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-4/clips/ch4-027.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch4-027"
+    },
+    {
+      "lineId": "ch4-028",
+      "speakerId": "aleem-sec",
+      "profileId": "teen-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-4/clips/ch4-028.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch4-028"
+    },
+    {
+      "lineId": "ch4-029",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-4/clips/ch4-029.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch4-029"
+    },
+    {
+      "lineId": "ch4-030",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-4/clips/ch4-030.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch4-030"
+    },
+    {
+      "lineId": "ch4-031",
+      "speakerId": "mei-lin",
+      "profileId": "mei-lin",
+      "sourceFile": "development/elevenlabs-production/chapter-4/clips/ch4-031.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch4-031"
+    },
+    {
+      "lineId": "ch4-032",
+      "speakerId": "aleem-sec",
+      "profileId": "teen-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-4/clips/ch4-032.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch4-032"
+    },
+    {
+      "lineId": "ch4-033",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-4/clips/ch4-033.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch4-033"
+    },
+    {
+      "lineId": "ch4-034",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-4/clips/ch4-034.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch4-034"
+    },
+    {
+      "lineId": "ch4-035",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-4/clips/ch4-035.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch4-035"
+    },
+    {
+      "lineId": "ch4-036",
+      "speakerId": "adult-aleem",
+      "profileId": "adult-aleem",
+      "sourceFile": "development/elevenlabs-production/chapter-4/clips/ch4-036.mp3",
+      "provenanceReference": "voice-production/elevenlabs-batch-2026-09-27.json#ch4-036"
     }
   ]
 }

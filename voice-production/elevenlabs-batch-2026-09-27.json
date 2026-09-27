@@ -1,0 +1,2185 @@
+{
+  "batch": "elevenlabs-v3-2026-09-27-chapters-2-4",
+  "storyId": "return-to-me-school-years",
+  "contentRevision": "school-years-6.0.0",
+  "provider": "ElevenLabs",
+  "model": "eleven_v3",
+  "generatedOn": "2026-09-27",
+  "termsReference": "https://elevenlabs.io/terms-of-use",
+  "sourceRecords": "Original masters, exact generation requests, provider receipts and processing reports are retained in the local voice-production/development/elevenlabs-production directory. Credentials and provider voice IDs are excluded from published manifests.",
+  "profiles": [
+    {
+      "id": "adult-aleem",
+      "speakerId": "adult-aleem",
+      "voiceName": "Clyde - Full, Diplomatic and Inviting",
+      "postprocess": {}
+    },
+    {
+      "id": "hana",
+      "speakerId": "hana",
+      "voiceName": "Cynthia",
+      "postprocess": {}
+    },
+    {
+      "id": "teen-aleem",
+      "speakerId": "aleem-sec",
+      "voiceName": "Mark - Casual, Relaxed and Light",
+      "postprocess": {
+        "pitch_semitones": 1.5,
+        "tempo": 1.06,
+        "formant": "preserved"
+      }
+    },
+    {
+      "id": "faris",
+      "speakerId": "faris",
+      "voiceName": "Adik M - Playful Cartoon Character",
+      "postprocess": {}
+    },
+    {
+      "id": "mutual-friend",
+      "speakerId": "mutual-friend",
+      "voiceName": "Cherry Twinkle - Bubbly and Sweet",
+      "postprocess": {}
+    },
+    {
+      "id": "syafiqa",
+      "speakerId": "syafiqa",
+      "voiceName": "Lori - Happy, Sweet and Compassionate",
+      "postprocess": {}
+    },
+    {
+      "id": "mei-lin",
+      "speakerId": "mei-lin",
+      "voiceName": "Ann - Content Creation",
+      "postprocess": {}
+    }
+  ],
+  "clips": [
+    {
+      "lineId": "ch2-001",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "d59db53e601502da0b0538edf9c83543014d5bbb13228a9841e111d42339fbb8",
+      "sourceSha256": "376e55e00ae368044610cfd4ff45282125bfec21e0e5b47e53add5ecd71cfaf8",
+      "deliveredSha256": "90d6c46b822c80fc38bfbcb9e2be459c34b66cfcda9af076e69a66513a1fba63",
+      "deliveredBytes": 193292
+    },
+    {
+      "lineId": "ch2-002",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "9e2702b77af64f781463cbbd3d29c68b84654186376010b34607783bb894662f",
+      "sourceSha256": "e87e9cc33851bc8e0260854c8619af3e62d1f7c2c6c393b8e07c298f7ef4acc9",
+      "deliveredSha256": "f5e08af0d003712fc3fd21af8902f68ffabb8d5f912d6df32a3d5f8818f6fc03",
+      "deliveredBytes": 144332
+    },
+    {
+      "lineId": "ch2-003",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "f8ced5889d29c2e11d2a61f79dd54cbafe87a4292d48b2236a387ba31453777c",
+      "sourceSha256": "3ca012c65e5d6186cb9ca43b056f4e2191261f001e62603033f707c29d561381",
+      "deliveredSha256": "b9ef352b6f143ccc4c91c798175a1fec0eab53fb2ca2d23bba54814b0767f8bc",
+      "deliveredBytes": 135692
+    },
+    {
+      "lineId": "ch2-004",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "294b9936c07e9b40e0fdebae9a069928bdc568fb19d76a70fc7fe5847d05eba3",
+      "sourceSha256": "02e188285c33f7ab7aa2910d57a19970992d6e15a691cbdbe9ea65fbedbfdd9e",
+      "deliveredSha256": "3a5661331199e2360ceac56c0cf2bc35f802fd9c5e41f79036aa15c2a81fe110",
+      "deliveredBytes": 145196
+    },
+    {
+      "lineId": "ch2-005",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "61ae55e2933431fd1cf0b8d32af693b6be270da22c72209f032386e083fbf169",
+      "sourceSha256": "7021d7d74b245b7d8b9af27ba8f45d334ec08f486f11d0a57be36c948ccb285e",
+      "deliveredSha256": "ee139042fac05056d6df7e3d53737b7418f1cc5f3b2891f4d7ddf1b460012d8a",
+      "deliveredBytes": 85580
+    },
+    {
+      "lineId": "ch2-006",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "1d52766785a29b4143dbf1faaea0df341175f16d3010e55b534ff59fdc9f403f",
+      "sourceSha256": "460db5812511d6c3d2edf07e567f52307a3cf5c554ea2cf151c889195ff1b7ec",
+      "deliveredSha256": "8b5197417ca215c7c8702e434c0940ee18b4ead859078263d21ccc9d6537d2ae",
+      "deliveredBytes": 173132
+    },
+    {
+      "lineId": "ch2-007",
+      "chapterId": "chapter-2",
+      "profileId": "hana",
+      "canonicalTextSha256": "692677a2c394b4170d4a933c8a57bb569d628e88f0f9eba27d4c78ec5d6bf35a",
+      "sourceSha256": "a3e13c43652c7687ed27e97e880dcdcfcc51bdedc035e92a672e0f5999f91e85",
+      "deliveredSha256": "3f6d33a3ad1e364679ee93672d801b3b55dabb13143928076f904d288c29e6fc",
+      "deliveredBytes": 37772
+    },
+    {
+      "lineId": "ch2-008",
+      "chapterId": "chapter-2",
+      "profileId": "teen-aleem",
+      "canonicalTextSha256": "a5cd1f64df45583dfa8fb7208181623a11dd1286624fc9e325c9c57efebaf41e",
+      "sourceSha256": "a986e8240946f96556fc47251a4a8fe67260929678aff9bd3f37c41f6bd44859",
+      "deliveredSha256": "2e92db084128968102e4e2d420150b33a6b3d9d86cf39c65f1e6ca762d529613",
+      "deliveredBytes": 48428
+    },
+    {
+      "lineId": "ch2-009",
+      "chapterId": "chapter-2",
+      "profileId": "hana",
+      "canonicalTextSha256": "149b412438e4c686bc03d3ed89cfaad713839322619cfbd792c0f9613acf726b",
+      "sourceSha256": "efaea6b6cbfbba4281a6b7b1779b6285cca9e8a1b1f2598a96cb53b1e65e5033",
+      "deliveredSha256": "ea2ab767762d46bfec2a98f25f899ee1e0545f992a2486d31f09fa7ae9e52704",
+      "deliveredBytes": 36620
+    },
+    {
+      "lineId": "ch2-010",
+      "chapterId": "chapter-2",
+      "profileId": "teen-aleem",
+      "canonicalTextSha256": "ed2c41240a2aeae30962031fcebeb403d6858f4bc31cea187c4cf22d0490f658",
+      "sourceSha256": "aa6f0c5c81bfa3972d7cde1c9811356ef8aaab6970bf9a5890b99080e1f769ec",
+      "deliveredSha256": "8813f64c2291188456e33903f8e5bd22384f83c12f56daab13789a5bf2e9841f",
+      "deliveredBytes": 34892
+    },
+    {
+      "lineId": "ch2-011",
+      "chapterId": "chapter-2",
+      "profileId": "hana",
+      "canonicalTextSha256": "e8883ea3dce7c98c57493b7da2582466d11467274ccf95dd39ad89243bd1c331",
+      "sourceSha256": "3dea3f8cb919193e2ec0456c542ac94617735a6ca7d37a3b15a0faccc6a0a68f",
+      "deliveredSha256": "2dee0b141a351cad6677c43e950daaa2715fee28938295bc28667c69fdcba0be",
+      "deliveredBytes": 57932
+    },
+    {
+      "lineId": "ch2-012",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "e949f89ba42bb46446610a3424ca03e20775633c52d5415e3e63ef6a685a4d28",
+      "sourceSha256": "ab52b74dccf3ee7b594f0e3a707b9e7be0016dc4cc311d3013d8fe6a86311f8b",
+      "deliveredSha256": "ed0b30ba0fca0fb8f9bdfb815cc2c9be9e6e27ff5b5061b4e1f693754209a34e",
+      "deliveredBytes": 107756
+    },
+    {
+      "lineId": "ch2-013",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "37b6e0d952631669b62efffed6adaa3f6c2e34e9864816f85697c8045da01562",
+      "sourceSha256": "7240597e41e9410afe0f917e0ff2aa59179ccaaf64a6a563578f69d179ca2958",
+      "deliveredSha256": "f8247460f7cfdb6119a8a0aa582658882e2db8d02c71d17d69d443aa53932e75",
+      "deliveredBytes": 147212
+    },
+    {
+      "lineId": "ch2-014",
+      "chapterId": "chapter-2",
+      "profileId": "hana",
+      "canonicalTextSha256": "813b2b68d673c0c64ccf919ae38b12ac4defde9b9114d5d8cb9df454e9f56470",
+      "sourceSha256": "bea292d3bc84eef1c1f8e74f0204624b00001ecb490d7d44494997a70eaa243e",
+      "deliveredSha256": "b4d8140fa7287a782a10c57f6890e211ce63afb15fcee8b7017e8db0c904c1a2",
+      "deliveredBytes": 66572
+    },
+    {
+      "lineId": "ch2-015",
+      "chapterId": "chapter-2",
+      "profileId": "teen-aleem",
+      "canonicalTextSha256": "ebc3c4b85e17ff317f0ac04aa27e4fdb340d72d3a431267eb28f65b54983699b",
+      "sourceSha256": "b8f8b5091ec0eb1f6cbe044634f81e6dd07e8ad4e5cfb423b66e8c308ba47c55",
+      "deliveredSha256": "c3cef0215a505925ec46dd7db3a06079c1530c46fde2e42249918e6d85abe62c",
+      "deliveredBytes": 63692
+    },
+    {
+      "lineId": "ch2-016",
+      "chapterId": "chapter-2",
+      "profileId": "hana",
+      "canonicalTextSha256": "492fb3ac0be5b6e497a16a9375bb86f88187d517fea024b924236df23ab60d07",
+      "sourceSha256": "babc0fd1a81fc42579e92a0324c662c6f1d07880d593ca74a12ca800277987a5",
+      "deliveredSha256": "e067a7992a6625909d6b27c05f0c136624c27ca9ceda9ff54f8c596f6e4fab4f",
+      "deliveredBytes": 47276
+    },
+    {
+      "lineId": "ch2-017",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "a95ea425642fc0fde04faaf0b12e1647bfb2fbf840ddae1341a5c7a7c62642c3",
+      "sourceSha256": "561cd44c6f8ab216a3caf03cb26a2129bc57db3ef0c7383fe37f1b39b9b2c28a",
+      "deliveredSha256": "dad5446f6119e469adfa6dd49f825fdb8e21945b92945ccb84e9236d15efbccf",
+      "deliveredBytes": 147212
+    },
+    {
+      "lineId": "ch2-018",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "97fa01d12379073be268ab5ee66587d27c705c3ea256a4f94d38ce3dc9b61fbd",
+      "sourceSha256": "37a677f3851fb40b85a729f235d8ff7d710a633c19de058db68ec78f4396f3c0",
+      "deliveredSha256": "b779911bc400a87d9797630eeedbb9de36e7a0f32cbeb7e99ec045f32141a364",
+      "deliveredBytes": 146060
+    },
+    {
+      "lineId": "ch2-019",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "1d3a2a1e6cf59e8a782720e4f54ca0b48a2999d3a7f2bbc0a491fa0fab676a20",
+      "sourceSha256": "67bdd4e6bcb146efcf885163f89ddcbc1857d052adc1cb5d59ff4ffe60b5bdef",
+      "deliveredSha256": "a5106e72990edd6319ed9c41e40875d1816e112614f518538a988582cf7a69e8",
+      "deliveredBytes": 132812
+    },
+    {
+      "lineId": "ch2-020",
+      "chapterId": "chapter-2",
+      "profileId": "faris",
+      "canonicalTextSha256": "992c62f60872c0126ca9bd609d1fabfebddea1d99d14175346b1d2f2c23bf0e6",
+      "sourceSha256": "72964e1610c75e60605f64334e4ef9fc9beb699f250ae8b9b00c4f6719871a64",
+      "deliveredSha256": "bfa9d979f7c420048d990fffcdc2f8e25c9f9ad03477bd00499f0aacb4ba2c84",
+      "deliveredBytes": 119276
+    },
+    {
+      "lineId": "ch2-021",
+      "chapterId": "chapter-2",
+      "profileId": "teen-aleem",
+      "canonicalTextSha256": "ad229a9b0b1c5986ff36c5b7e96b61b51f70d241e0ce8d1476f002d8b54ec37b",
+      "sourceSha256": "72536f8b28c870c644abbb87e7c2283d0cf75983ed287e86fd82a386f28da2b4",
+      "deliveredSha256": "cd350577077853ce0a1d57efe68a5ad205b0d022338806845eb5ab767a51d468",
+      "deliveredBytes": 20204
+    },
+    {
+      "lineId": "ch2-022",
+      "chapterId": "chapter-2",
+      "profileId": "faris",
+      "canonicalTextSha256": "9a538bc8c8692cc346968921db4f35d311265d013a7006671959e2b486c244ec",
+      "sourceSha256": "a049df8c4d75ebaff31f724cad90712390e646ab2e7b080afd3afb79f87371a8",
+      "deliveredSha256": "a6bba9ef1e899cb269d3f1f764bd71c60796ca942d5ee061fbb1f0002ecde057",
+      "deliveredBytes": 61676
+    },
+    {
+      "lineId": "ch2-023",
+      "chapterId": "chapter-2",
+      "profileId": "teen-aleem",
+      "canonicalTextSha256": "2036733cb6bbc3e5b38cf4a5da0ef8d014c31d0904940360a4ca620751c487bb",
+      "sourceSha256": "33194e8654a33b54d2e8bf4c7af5cc7846fea1f18c70fb493794a9e7e241c0f4",
+      "deliveredSha256": "332685b4454ee136a2d097171b49991ee4f004fd3a18629fa61c2373daff10fe",
+      "deliveredBytes": 18476
+    },
+    {
+      "lineId": "ch2-024",
+      "chapterId": "chapter-2",
+      "profileId": "faris",
+      "canonicalTextSha256": "d8907dcbb90556601c04cfd0b2511ad48a8e834a25c1b4a935b9259bf5cb2085",
+      "sourceSha256": "ba4f00d1cb3ec9e58e94391d6221611675e2acdd853b4e42f633f735c8bf7bbf",
+      "deliveredSha256": "d1a5552f4d292fdd4e2a6f7cd6053d7c0e2e7cc80d79b2e31b6675d7ba532403",
+      "deliveredBytes": 99116
+    },
+    {
+      "lineId": "ch2-wingman-simple-001",
+      "chapterId": "chapter-2",
+      "profileId": "teen-aleem",
+      "canonicalTextSha256": "cb510a5d6617d710cb7520571462846322daae03e1f9a4e5d187899154b3825d",
+      "sourceSha256": "65b8a8560da695e76b123f5ce4755f81455d35779648a55ba2732fc78734b161",
+      "deliveredSha256": "d1c37ebd4ebb30f1fd3a3994df5ac322a4a4cbb0d2beb012c465f7c4cc258bb4",
+      "deliveredBytes": 56492
+    },
+    {
+      "lineId": "ch2-wingman-simple-002",
+      "chapterId": "chapter-2",
+      "profileId": "faris",
+      "canonicalTextSha256": "0f10a70b7f58d9a95814eec4f83d7af723a5ed59a2d34598e6a68ca96cf9110c",
+      "sourceSha256": "b78d1e3f5e2037b1c0b6b9b17469f8d918efe2cd61a2c3a401f88780c5ab9d55",
+      "deliveredSha256": "6292eb2e541b94ba6e4132479725630d8121094dc0489841c52af2e34825de19",
+      "deliveredBytes": 49292
+    },
+    {
+      "lineId": "ch2-wingman-sincere-001",
+      "chapterId": "chapter-2",
+      "profileId": "teen-aleem",
+      "canonicalTextSha256": "81139bd82470e23c2c83d26c04b7515f68e96a8f2f6df375088ff1c36ff87a40",
+      "sourceSha256": "ea0003140ddb5125817af7d49c533a3da2e0705060a8d930dace234fbcacd300",
+      "deliveredSha256": "6e6e5cc89ecabdd17084f81812e70a5e37dd984a97e25260de546c5e5eaf64ba",
+      "deliveredBytes": 86444
+    },
+    {
+      "lineId": "ch2-wingman-sincere-002",
+      "chapterId": "chapter-2",
+      "profileId": "faris",
+      "canonicalTextSha256": "20bb5be4fb9f507ce4833d05622c9396b499de6cdef4e4925bdd7ef0402e41dd",
+      "sourceSha256": "43191bf6182fee233aeee369c4c1bfa36c468ab72aef153d8a1b0154276e2316",
+      "deliveredSha256": "6ff0dcfb0aacffec1ce1fecb393c7bc7eef5111e385c2b01767eecc1c2392741",
+      "deliveredBytes": 75212
+    },
+    {
+      "lineId": "ch2-wingman-pressure-001",
+      "chapterId": "chapter-2",
+      "profileId": "teen-aleem",
+      "canonicalTextSha256": "96a0e77a149bc28c2eeb15df33b0a7c2be84e7bbec6fc89e56a1b2a51d986ec8",
+      "sourceSha256": "7997e62e709b3f96b8cf75db87db122f881abb720108204e2b32bd808cf59f67",
+      "deliveredSha256": "7484cfb0993b3895cd8613c0f5579b099fdc558580f33d36cafc1bf765dfe0b6",
+      "deliveredBytes": 75500
+    },
+    {
+      "lineId": "ch2-wingman-pressure-002",
+      "chapterId": "chapter-2",
+      "profileId": "faris",
+      "canonicalTextSha256": "4b759d169d3a8defd357a1793a224337225b7d590db020709a90b6730c504470",
+      "sourceSha256": "93dbe0ff30a62c38f3a9bb301716c8dbc3d93b2e17f621345d56afb92c670447",
+      "deliveredSha256": "fac14d22d284558c8bc85c3f5aba2f70b150fc9cfb81f22145fa5364222220a4",
+      "deliveredBytes": 73196
+    },
+    {
+      "lineId": "ch2-025",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "a5964b606bb1585a03b06252a0386ee33ec690ecd45a76c749becc458d027c4d",
+      "sourceSha256": "87b36f49c1f0cbe13682ce5ef581275545a3a48fffb4d6c5f3b266cebaaca0cd",
+      "deliveredSha256": "76699b8dc1bb17715283d8c0be6768e929a071e25a0a6f402bafee34b5e9bb7a",
+      "deliveredBytes": 137420
+    },
+    {
+      "lineId": "ch2-026",
+      "chapterId": "chapter-2",
+      "profileId": "faris",
+      "canonicalTextSha256": "5d47fe2260cb742d97e256e12b4dc980e6b0da135891a5adfe4b98fd41f1e456",
+      "sourceSha256": "d06b6b125efe4255cb0a3ab5710c3c61c452e673b640e9869aae556b76303bb0",
+      "deliveredSha256": "bd84653917e6f31cbe913e5c87df9731b4a9590bf22bd601fc6a276e21c8a8af",
+      "deliveredBytes": 55052
+    },
+    {
+      "lineId": "ch2-027",
+      "chapterId": "chapter-2",
+      "profileId": "teen-aleem",
+      "canonicalTextSha256": "04024e98f76d8335b595a628298d9acb02c3ea16cdccbe530246ab93158eeca5",
+      "sourceSha256": "e2c6004bb006bb5abc505e055bedfc3960f65743d7d5e3f57902a6e1b113c86a",
+      "deliveredSha256": "b90d0ef1a7d4ed2febcf6ee70ddfe9dc950a684c7817f1feb0711fef6e84dd8d",
+      "deliveredBytes": 47564
+    },
+    {
+      "lineId": "ch2-028",
+      "chapterId": "chapter-2",
+      "profileId": "faris",
+      "canonicalTextSha256": "51e73da484b83e90f7e83c7ffddb3a5ba720d1f7269a88dd037694a6ca7c9fc8",
+      "sourceSha256": "c688641e03e495fb7ee6fc3f84e9269299c355eefcbe71a028db9895ac366d19",
+      "deliveredSha256": "ab5ff3bf598ecb48e78c6d6f59a8c539b39a210cca1d8c835a1da1ed208c2337",
+      "deliveredBytes": 76076
+    },
+    {
+      "lineId": "ch2-029",
+      "chapterId": "chapter-2",
+      "profileId": "teen-aleem",
+      "canonicalTextSha256": "a831db66fa628e6281e27aa5f80fcb68701489bbc32198fb2975b8f6ddfb0de5",
+      "sourceSha256": "ef6f7d95f316b59a2a550620b406f540b912aa4c28b5d17eade8da28cf1ed760",
+      "deliveredSha256": "82796736db9c8ebf3ac178d995581f9d7747cf877f9ed8ad88f70291e9ea50b9",
+      "deliveredBytes": 57356
+    },
+    {
+      "lineId": "ch2-030",
+      "chapterId": "chapter-2",
+      "profileId": "hana",
+      "canonicalTextSha256": "0ac811efea0d8170b09d05b4afae390bf9e66468f2f6756e33b4fce2131c4a80",
+      "sourceSha256": "5eff9b7c81303e2d43d884168299721dddde9d339f6769f3b8811d4192bf20fd",
+      "deliveredSha256": "a7642656abd066186877a193e0c66bbefb83c66f3c3a9ce3edeed5bdf1a468cf",
+      "deliveredBytes": 47276
+    },
+    {
+      "lineId": "ch2-031",
+      "chapterId": "chapter-2",
+      "profileId": "teen-aleem",
+      "canonicalTextSha256": "4f3507ede309ad00cc23df69852c88f02af5ab646b8ca77597fbb970bfc8302e",
+      "sourceSha256": "8f9759379fcb697ef868054f7bdba0a920717b4029bd3a21c08957df24d247d2",
+      "deliveredSha256": "4018e78bb74b4813295000a05618bd97dea298f5aacbd9ef4d7138128b685121",
+      "deliveredBytes": 51884
+    },
+    {
+      "lineId": "ch2-032",
+      "chapterId": "chapter-2",
+      "profileId": "hana",
+      "canonicalTextSha256": "76ac048d6d0c5acdd24daf155de58fce07018aef572d47a93725a036d7861ac7",
+      "sourceSha256": "35823d816230e17fc13ba3ca1faa76a18d13e49198c5786bea855c8f075be1c3",
+      "deliveredSha256": "703a1c3002510c336502e57c5e2c749817d46e8118516884c1c0260b5b23f1f1",
+      "deliveredBytes": 92492
+    },
+    {
+      "lineId": "ch2-033",
+      "chapterId": "chapter-2",
+      "profileId": "teen-aleem",
+      "canonicalTextSha256": "ab33fc124d28c2f3068cc7147a959cb3961c0cfc50b4dab8d5050563c3638a4b",
+      "sourceSha256": "8a180ee29ae2ab89eba343429cddc1f291221b817bbcdb8019b152774280c459",
+      "deliveredSha256": "686dfaa323697d033e4cf8c64dee5eec8a60bf875b18e8d92b87573c36e3cbe3",
+      "deliveredBytes": 24812
+    },
+    {
+      "lineId": "ch2-034",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "0bf4b3946d49a7e97215aef3e7d65d08d1f4d69f007d7e6667e43215e6505962",
+      "sourceSha256": "786e7a86dd96f2828ea27990d5a879fde018e459bbe9974de4a4362176b66d19",
+      "deliveredSha256": "eb1b3b968fafccbf5b7045e857c8beca55273b6af4975c2f1172fab664ca236c",
+      "deliveredBytes": 107756
+    },
+    {
+      "lineId": "ch2-035",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "3ec9510ed105253122a5e9a411398ea434a5521a05e893949daf1fe159b7c36d",
+      "sourceSha256": "fa87cfa56120b6940c50408ac78e880e418b34a6fd6efbadd9240d71af3fb5ed",
+      "deliveredSha256": "9751e96c4621e0f42d5e238a3b38eb92667e04f64adab10a72bc7f6c1b4b9779",
+      "deliveredBytes": 122156
+    },
+    {
+      "lineId": "ch2-036",
+      "chapterId": "chapter-2",
+      "profileId": "hana",
+      "canonicalTextSha256": "72749c2336e5f34957489989fded05425742d69d1706cd5657edf426d91d030a",
+      "sourceSha256": "5c71f7065a7a5aef155441ef9475d35007b8d7715d8471dc581376cd158a2c4d",
+      "deliveredSha256": "4a364c4d935c875ef3400b2c4a413fb8dd15ff6f1d7b405b910f1021f67a4121",
+      "deliveredBytes": 35756
+    },
+    {
+      "lineId": "ch2-037",
+      "chapterId": "chapter-2",
+      "profileId": "teen-aleem",
+      "canonicalTextSha256": "022b0c9da105f1b600028baa5f37fc7081ccbf9f9ea4d0b50752ceab4e95278a",
+      "sourceSha256": "95f08f7b0cf91562eba92a770dc83163804dec7c4181f3ac61a9f317a33052ef",
+      "deliveredSha256": "9c07bf8b9313957b74530abbdabd071d2acd56b20527aa1ec660705df98b7828",
+      "deliveredBytes": 32012
+    },
+    {
+      "lineId": "ch2-038",
+      "chapterId": "chapter-2",
+      "profileId": "hana",
+      "canonicalTextSha256": "aa93e969630b0c4c4920c55bb771c0c840f3cc6a45b1fbf394849d809dc12a9e",
+      "sourceSha256": "5789f755b83673e5011b8b8d856d7d2fb5d98cee4f3ddc6828fce0340237a4aa",
+      "deliveredSha256": "5e98c9d716d2caaa7815ca3afa6b34ef67f1b875e47d4cacbe466684132da2f4",
+      "deliveredBytes": 36620
+    },
+    {
+      "lineId": "ch2-039",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "07ae439bf23c50f8b1ccae4c2ad96cea23030f5ebedef0f1ee4d754e7c56e001",
+      "sourceSha256": "ee1d134283f1ef029e192340b2ab53692b52beb72dde0552b18011532d52a12a",
+      "deliveredSha256": "5d51bf5f4f486eaeff0d5e249f7c0b0299ba6139f828ede5837d7093f103dce5",
+      "deliveredBytes": 155852
+    },
+    {
+      "lineId": "ch2-040",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "1f4bffac35002a97fcef1c382331acb0ee5a910112cba9457341a35788850794",
+      "sourceSha256": "0bc726a3b30a258b37d3fdb377f2cca5bba275efe83f77be1283df9ff1cf236c",
+      "deliveredSha256": "6f5ebe023fbd36c160b53985b42a434f31d4b9862f78cc4076b3967d324af48a",
+      "deliveredBytes": 132812
+    },
+    {
+      "lineId": "ch2-041",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "e44a89d43a72bf18781a8ddeeff8121cf0019432cd3e523335e4f0e2dc762259",
+      "sourceSha256": "ed86956f4bfa5a2b739691167a3f3bc647db4f8547082d125a8cf3de5d79d3de",
+      "deliveredSha256": "e6c73fb356be04455f12d663f459bbb3e3ed59973451a39a6e5ab43d0b858980",
+      "deliveredBytes": 160460
+    },
+    {
+      "lineId": "ch2-042",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "c589f4bffe17e8ad9de3756098f64ee76ff6bc2e46631cf236d37def899d5d00",
+      "sourceSha256": "34bd1c7b88f403dca77bdb9a90c124cb14ab1bf7a2eea3c13b57d325b2fdb961",
+      "deliveredSha256": "340358bbbfdf8c7e7d6d8154566db7d805c96d92e09ba636d8eff53e62722f59",
+      "deliveredBytes": 138572
+    },
+    {
+      "lineId": "ch2-043",
+      "chapterId": "chapter-2",
+      "profileId": "teen-aleem",
+      "canonicalTextSha256": "2992ed5ee0a7ba94e383ba54855a5fb9f241d6643a145d8d7e9e562b403f7c34",
+      "sourceSha256": "a730f35abcf907bcefb4cb3bd49f9b943aa4a0000fb992142e76d0a291e895d8",
+      "deliveredSha256": "f3a84ea737a3755dbd148769848373fe47816757bde11e347ca906b0bd31895a",
+      "deliveredBytes": 80972
+    },
+    {
+      "lineId": "ch2-044",
+      "chapterId": "chapter-2",
+      "profileId": "hana",
+      "canonicalTextSha256": "f251d5c2e631b6fa0c9a77dab05c5b210ab39447b99a9da651d17cf4295ff600",
+      "sourceSha256": "9fc510a6c8a33bf85e2dc92ff07922e0f37b2b640bfc71c538e6249ad643dc50",
+      "deliveredSha256": "83ca2426bdcb9861f7cba48e4c4f4a3833824b4b74f63c41274288acfa67fde5",
+      "deliveredBytes": 55916
+    },
+    {
+      "lineId": "ch2-045",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "db157af46b8752b925aded5226376c21158b6b9a3f644e03031da01c26d528e2",
+      "sourceSha256": "17a15291922c00b87aac1a6781c289d76bd4713dd2351e29bfc54a4e2d8ac3fa",
+      "deliveredSha256": "86c591de4528d05ebe8a4d2b4441fa2d872efdefed18f4a8cf92c889ccc79545",
+      "deliveredBytes": 146060
+    },
+    {
+      "lineId": "ch2-046",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "81e2c23f78aeb115ccd809c8ee2ffa50a29e826497ee471d08c1bad25a9ce80c",
+      "sourceSha256": "772321cf452fd497b0e3355a800e52aea1ae9df8b4ffd0b3f4eb5fe4ce839aee",
+      "deliveredSha256": "ae748c5ba163827d6ee6441f0fc3a1386c5deb13e39315e1ca62a3047ffbd55f",
+      "deliveredBytes": 134540
+    },
+    {
+      "lineId": "ch2-047",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "f9f417cfb89beb22360139de8d06728b4cb7cc09f36a499a13076575371e80eb",
+      "sourceSha256": "cdf74290571a77d5bf612d8416347ac5bb13e18b86002b3fe24e28e9b43df750",
+      "deliveredSha256": "ecb62a036661ffe6f2b01d358c26076150b000abd20600e67339639a2bf5908f",
+      "deliveredBytes": 129932
+    },
+    {
+      "lineId": "ch2-priority-hana-001",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "6640d978b94c883061f471bf1e3313e975e056fc0731fc94a6b0855cda003a87",
+      "sourceSha256": "34623fe33be1bbfcbb519cf30a040233f4eebe88109779a54938590d06d5292b",
+      "deliveredSha256": "225498e2f7a1419d175b889369c0025019dff0b66614d1e143ef08d9169b7ee8",
+      "deliveredBytes": 138572
+    },
+    {
+      "lineId": "ch2-priority-hana-002",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "941b766a57a72707a965ba5f221bac9392e0cccd00d209abdccc30581972ea01",
+      "sourceSha256": "eacd8aab5c4f035a992c358469e88aefca9ada5c73c75ebfb8c555927163c9f1",
+      "deliveredSha256": "a530318b8eeaed07cc96fe6d1aaca0ba26aced8768eb525fea48d8ff09bd7a06",
+      "deliveredBytes": 151820
+    },
+    {
+      "lineId": "ch2-priority-server-001",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "58d38cad77fccf364fc9205b03a30f9f3152bf94190d33f1c8136c00fe273f37",
+      "sourceSha256": "26a3bcd7b75dd29ec284ff60f4fdb24f029094249bccd2db601b304bcba1a72e",
+      "deliveredSha256": "ecc69b26e9aa52eaa25d764bd1b6e6efe29712551077dc1cd30317547f3271c4",
+      "deliveredBytes": 143180
+    },
+    {
+      "lineId": "ch2-priority-server-002",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "1d7f9b9a5354065ff25b3bfb8f14952d84a329781a311fa7aa44ec1922f923fa",
+      "sourceSha256": "fbdd38f019dc54419dff30fe03a430beb2103720e11364e27f930548feaa11a3",
+      "deliveredSha256": "41e23b8bb2b4915798caa9cf3b3626a38fcda44cf8d6fb5d9ab5448bea09653a",
+      "deliveredBytes": 165356
+    },
+    {
+      "lineId": "ch2-priority-study-001",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "38c7ebd51d77b2a0e133fd17dbe60d899ef160deabffc2347a2349f9bf1818b8",
+      "sourceSha256": "d6b2725c8b62b9c65e6ef295cd6c9000fdef456c76fc5b9d7bb930dffd2568fe",
+      "deliveredSha256": "4c1a8dd2e7e2de14a2999c1bc4a19c9838892085594a62672371ba577c0ac343",
+      "deliveredBytes": 157580
+    },
+    {
+      "lineId": "ch2-priority-study-002",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "5df97d91a83d7d7e906cbb6e585f74bacc7ed4499a246e5efe0cecd589281c63",
+      "sourceSha256": "c0c97a9b1d45116a95c0047793c7675e4a653fe82791eab607b0655cc83e8b7d",
+      "deliveredSha256": "7721ae65c29774788d8e832871fb0adf32e88f45ba62f788379e14313132b0ab",
+      "deliveredBytes": 139436
+    },
+    {
+      "lineId": "ch2-048",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "f0c5ac3f8027bbc73e5ac9c851aee88fd54b42f8eca226c0495ca2302e59cce5",
+      "sourceSha256": "de4cf6ceff929e2489f772dc463af08dd18f59d249ed642aabf1baa5972fa879",
+      "deliveredSha256": "721901a991cfa2f7392175854a6ace470d6eb9bf61a4855f49c6104237b8d463",
+      "deliveredBytes": 140300
+    },
+    {
+      "lineId": "ch2-049",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "2fe33005e26d6e3cab684c36356386b6541bcf785c2a218365834bfe76b2dcfe",
+      "sourceSha256": "4a130a1cd72a06a7997fac98b85790cbe26a4d5dec1f3ff73d09902dceb675bb",
+      "deliveredSha256": "5de921dd02eb8f4fbd11f67796eb345a6e1c701e2eff27908e65f4b55e286d41",
+      "deliveredBytes": 140300
+    },
+    {
+      "lineId": "ch2-050",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "c09ec5d10815bb0fc861e2e56d33248933631d767ae190d05032c748294ffcda",
+      "sourceSha256": "475cb086d3fe50193ff570deee92a8a7bf50c392c63c893b356c71eeb0457058",
+      "deliveredSha256": "5b17100d0cfad3ad958541ed8b32e0cfc430b0521b232e65cba5c0586336370f",
+      "deliveredBytes": 176012
+    },
+    {
+      "lineId": "ch2-051",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "35cdd8785cbb9d136e17c23707b755904521519cb9fb80a7398b6585b550857f",
+      "sourceSha256": "a454b14c337f4169e0d0406149ef1642b1765f7b15e99474b1bafadb71674820",
+      "deliveredSha256": "c8f01c9ad063773cf4bf29162717ac3e93cb3a9ceda253dc7e287f199985be66",
+      "deliveredBytes": 146060
+    },
+    {
+      "lineId": "ch2-052",
+      "chapterId": "chapter-2",
+      "profileId": "hana",
+      "canonicalTextSha256": "f2101b607f62f2ebcaf56e07d26456e528e93401c3f31fd3b41659812a5a6f2e",
+      "sourceSha256": "b2b0455bf7826e59d6958468c7aa54bd6870cbd2036207828897a5e17c42a30c",
+      "deliveredSha256": "4880e9442ccf6391240c867b67dd1344bc20ce669071bd542f356d1900fd5aa6",
+      "deliveredBytes": 44396
+    },
+    {
+      "lineId": "ch2-053",
+      "chapterId": "chapter-2",
+      "profileId": "teen-aleem",
+      "canonicalTextSha256": "9e2f1e38d54bda3ec5a890e2e3b6c23b9e1a7cda5b7e712a1b4fd783803ba2a8",
+      "sourceSha256": "29f47f543ee4fa41915e63bcefcd09b248fa1865faa97c138277735c2dc3b22a",
+      "deliveredSha256": "2f61a0bd6ca57758bf8c124e1220865911a1b843fac6d2dfd3b21cc8b03119ac",
+      "deliveredBytes": 34028
+    },
+    {
+      "lineId": "ch2-054",
+      "chapterId": "chapter-2",
+      "profileId": "hana",
+      "canonicalTextSha256": "0610599c384c1a20b8f14e8a4d653cf9870786e51a801d46ccaaa840cfc69686",
+      "sourceSha256": "3c9ccd5c162335e8c4f289e45289cf530965f382a0296c5603f5032de86a386d",
+      "deliveredSha256": "b2854bc98ce1104b616bee9ad6e0c2745392acfe616a09a5a7d4dc1085961b55",
+      "deliveredBytes": 63692
+    },
+    {
+      "lineId": "ch2-055",
+      "chapterId": "chapter-2",
+      "profileId": "teen-aleem",
+      "canonicalTextSha256": "03649d8b3bf5601702a3400aa9e63fefde5162805d8a5d5bcfeb9a1adeebcd50",
+      "sourceSha256": "31ed5e7cb13918c083720396ba7cf4d4f1b096af6f2a923c81b12d02404664f6",
+      "deliveredSha256": "c5f85f6d64f884291732d949fb48c9207b2e3929d652ad0089c8a37c317ed678",
+      "deliveredBytes": 24812
+    },
+    {
+      "lineId": "ch2-056",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "4b51bf3babdc0faf759ba0e3154cc3f7ee5cf8fa997df9c26fa83fb4453545f2",
+      "sourceSha256": "d73dbd08070792731c92426086b037ee6317ffc0cb1b869dab093b5b35ed1f7b",
+      "deliveredSha256": "975a5728f92083974630b3147b0a61cf41a682d966042c97f678d0d824a3b19f",
+      "deliveredBytes": 116396
+    },
+    {
+      "lineId": "ch2-057",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "2e2c6f3c6976aba61a653f33b9b83151ddf9872fc7fd3df6b21bbe68f6dc195e",
+      "sourceSha256": "ba2074839525009f09ac1f9733fe9b9746426d51e5642de2cad6813b2e90b4c2",
+      "deliveredSha256": "1fefbdd202d1793b0fdacaa04a6e1f0cebd5d22dfbfdc6aa6ad39d6161b92320",
+      "deliveredBytes": 128780
+    },
+    {
+      "lineId": "ch2-058",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "2fda8c3d28b33c2a8851b59a4c3fe3bf43a07d7fd13b131e12076ea199a5a12f",
+      "sourceSha256": "106f25f1f19d5ab3c82a366908a5f482da439366d49d3c3356febe2542940f9b",
+      "deliveredSha256": "51bade731e7d444849f9dd24ad8c71b2a0ce4c4fa0f5e17c8b45ce68db7c0e3e",
+      "deliveredBytes": 144332
+    },
+    {
+      "lineId": "ch2-059",
+      "chapterId": "chapter-2",
+      "profileId": "hana",
+      "canonicalTextSha256": "b1891c358d73faae4f19186f45e745c89e1f6a9840563181221ea5eb63af7bbd",
+      "sourceSha256": "31bd26ae5e4c76360a9de794ecadba8fe5e9cbafc4a9101a32a457d6045a715a",
+      "deliveredSha256": "56267836459186d78c6841dd656b019b399cac3328617868c8172620888b6626",
+      "deliveredBytes": 88460
+    },
+    {
+      "lineId": "ch2-060",
+      "chapterId": "chapter-2",
+      "profileId": "teen-aleem",
+      "canonicalTextSha256": "681e54c64b3b2706d38ee0a5681a8bf1caf689744bf058cc81dcdfa29e5a14f7",
+      "sourceSha256": "b4a1d1da40804fc6a279c3bab53bd309878d0ae21ec4a8b9da44970df0417fa5",
+      "deliveredSha256": "f51f2eb5fa8d376447300a8dfa09e2f071fcf681458724a7cf1321da13f177e8",
+      "deliveredBytes": 35756
+    },
+    {
+      "lineId": "ch2-061",
+      "chapterId": "chapter-2",
+      "profileId": "hana",
+      "canonicalTextSha256": "8a833f11835eb55040f719b0676e7adfea3acca51fdb85c4ab360f0aff9a0064",
+      "sourceSha256": "b99e2782d3db7952865009de368002688f59a5b8e2001f9e1adf403bacc7cff2",
+      "deliveredSha256": "77c4e120b1fee9ef4d469f22221985fb399d1d512895dd39a8204a47bd79d02e",
+      "deliveredBytes": 118412
+    },
+    {
+      "lineId": "ch2-062",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "f61ba9c7daabeeecbe3928e506e7ff50d99c8fa0de557814c315333b99d3a82f",
+      "sourceSha256": "334e534dcec9cc82c6fe46cf48c3b4db16c0dcc026a289acd81e68bc0d1cdb48",
+      "deliveredSha256": "ff32beb5d55e3eea19b951528d068764adc4bb21c6137802f5711de3395ffe09",
+      "deliveredBytes": 107756
+    },
+    {
+      "lineId": "ch2-063",
+      "chapterId": "chapter-2",
+      "profileId": "teen-aleem",
+      "canonicalTextSha256": "7aa4e6d6a8e73da05c92d359903fc2c405d824a09550bc41129547b46770670f",
+      "sourceSha256": "c06aa34e34e0d78224e3513e8bfb203a24af6e2739b79ad8273cc9e39114e923",
+      "deliveredSha256": "6e53853c15fd056a3219cdfd21164d98c7653bde65e68af309d5cb31edf85828",
+      "deliveredBytes": 64556
+    },
+    {
+      "lineId": "ch2-064",
+      "chapterId": "chapter-2",
+      "profileId": "hana",
+      "canonicalTextSha256": "39e46a4fa5a1de06bd6c9f259251ed7bc9202f2a98cca4d59b8189804b9e1c18",
+      "sourceSha256": "10aaae79176ec701ed2f67bc9f7cb45baffaa614bf8c74e2363529f1a2216caa",
+      "deliveredSha256": "82ab71dce18a169ed337aaf51625de075a1805d7b841b7fea215347530faba21",
+      "deliveredBytes": 42380
+    },
+    {
+      "lineId": "ch2-065",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "384aca3d3009cf73899bca5f452d26b72994b4119ac1cc62195ca54f401d58dc",
+      "sourceSha256": "382ee8a9648d5d96f155ecfad8175506d866a61354638b4d6b2d1dd3737dc94c",
+      "deliveredSha256": "d70739dbea591ded780eae2699f2b5489fe569a0eb3193b4c133d1c6afcfde35",
+      "deliveredBytes": 87596
+    },
+    {
+      "lineId": "ch2-066",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "9f199c440e7d762e78e6e42d0f21db8e9eb475d61f6c5abf3f196e512391d663",
+      "sourceSha256": "a903c65bd42e1591952e224e4df31f80a10b74a7320ab7d4da2b0151db8bb726",
+      "deliveredSha256": "631c25a7a3c8687f565ecc551ccc50ff2738bebbd1b71ed98cd0eb4866a88ac7",
+      "deliveredBytes": 164492
+    },
+    {
+      "lineId": "ch2-067",
+      "chapterId": "chapter-2",
+      "profileId": "teen-aleem",
+      "canonicalTextSha256": "a430a44f956722e2ce087c1c6413b8ea70868a6f3ab08c502d1ca6049acb4d29",
+      "sourceSha256": "b4cc3af84f4df6816257fb9b1519759417bc4b4b7c5743d1a30093d71f8660ea",
+      "deliveredSha256": "e49e7d9bda0985c60c411fd21166fd113ee61aa79c3c01d4ed524a68e7fe3980",
+      "deliveredBytes": 25676
+    },
+    {
+      "lineId": "ch2-068",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "7e904fc23855cc7159a9cc989ea0f98590adb568b62f438d4ac4214e2edc1c3e",
+      "sourceSha256": "bd74ce8e7f9ca0aecfb69b514137692c0b4708361a5770e1621c7d656d71e11c",
+      "deliveredSha256": "7eed2468fd9c19db09af535f97915f793804facf9336fbd8425267bdd679ab6a",
+      "deliveredBytes": 109772
+    },
+    {
+      "lineId": "ch2-069",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "ac6a329c0b56f7d6f2f02d4bc021094c51fb0fd7aade0cb102aa8330e52c01f5",
+      "sourceSha256": "9b1f0a3eb3137f405f0148ea85a7b774169f20c808d6bba084c936357ef2259c",
+      "deliveredSha256": "f4baa601a00adab2d110b9c32159595bbefdd9f49f28e3ef9d522802236c8ab9",
+      "deliveredBytes": 145196
+    },
+    {
+      "lineId": "ch2-070",
+      "chapterId": "chapter-2",
+      "profileId": "teen-aleem",
+      "canonicalTextSha256": "4bb06504894d7f19a1ad78c2025c330900f72939deaa8ec84210bfdce3fee3d2",
+      "sourceSha256": "eda71b4780dbe961449deb7add5744a6563e593f89f0ae427f49136bd5b95151",
+      "deliveredSha256": "d8e50b297a1d96fbbdd3b5d96b6d51f9a6d2ddc0445669468e87b6270f1cc81c",
+      "deliveredBytes": 20204
+    },
+    {
+      "lineId": "ch2-071",
+      "chapterId": "chapter-2",
+      "profileId": "hana",
+      "canonicalTextSha256": "de41057d6aa32079430b924fa6b96484c9ab601df62dd100d6f6932212796fe5",
+      "sourceSha256": "7f6611e9bc6ba53a102328d03f608560b8164ffe511c7da98516452f12ddae87",
+      "deliveredSha256": "86830909657fe7713bcb4b02bf3db9794fc45255e35327a5d3e72599d940f98d",
+      "deliveredBytes": 60812
+    },
+    {
+      "lineId": "ch2-072",
+      "chapterId": "chapter-2",
+      "profileId": "teen-aleem",
+      "canonicalTextSha256": "e4c8b765458d434fe2010fb5485e5e9a58a7df5a5c7606670f18eede6f83ad45",
+      "sourceSha256": "e1a840c634ac554343696f611ced97a43b660f4320e585a3db3305901b71573a",
+      "deliveredSha256": "72aa9bb7d580b58992afa8ce1ca101a237929b28c184fb0b2cd46717e85b0cd3",
+      "deliveredBytes": 26540
+    },
+    {
+      "lineId": "ch2-073",
+      "chapterId": "chapter-2",
+      "profileId": "hana",
+      "canonicalTextSha256": "6b3e7ae75cd381a649f1b88be08d403f4fb86d51a2daec6e4f5edabb989c012f",
+      "sourceSha256": "54de4c470e94ade8d9ca29ae9deb47853cd797202614284c5577ab21fdb56e0f",
+      "deliveredSha256": "ecd0b670c704b7d968ce279e58137e986571d78a414dda2f4a7e5d85f5e47a56",
+      "deliveredBytes": 96236
+    },
+    {
+      "lineId": "ch2-074",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "915e65796666a7728ea99fedc1dce65c8acdce001b6ac5ca4dacf604eacbf375",
+      "sourceSha256": "d481fc6b51ed1ca3a940b457995806c3197c53f7333a41e9bb02b11c3a4b9595",
+      "deliveredSha256": "3f68798303d804310d580ddd3594997e5334c904271f0eb00bd5d06567c1bbcf",
+      "deliveredBytes": 147212
+    },
+    {
+      "lineId": "ch2-075",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "a19243e8c7ab0f406b5962aed7357d69f327ee1aba5af69eb43aa6af59c2f0f8",
+      "sourceSha256": "7d35419fe40067724f3ae214c0a1f1565948ec993f829fc7875f267bbe737673",
+      "deliveredSha256": "75c5d8285ec2235b13d590ac6929504f2b6888bd65ca6124dbcc2d1cd7c2e9ab",
+      "deliveredBytes": 158732
+    },
+    {
+      "lineId": "ch2-076",
+      "chapterId": "chapter-2",
+      "profileId": "mutual-friend",
+      "canonicalTextSha256": "7224633c7797ed7ba420ac6f04e6d8a11eb7952be943584037303a6c54e1f3d4",
+      "sourceSha256": "b62c23930594098da8a0a65141d67cdaab6fbbf332accf5b9b401845886ce342",
+      "deliveredSha256": "bf7c02fcccea8762fd63e91d31eb44355ea46e592bb36b84055528652aa08bb1",
+      "deliveredBytes": 74060
+    },
+    {
+      "lineId": "ch2-077",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "4b106c7119077c9c9ddde188afd1feafd40363b969217f68abc3b053d7dac997",
+      "sourceSha256": "e3aaf068199e784eccb7897351be9392be056efb3828df1d259bfbc9b0832ad2",
+      "deliveredSha256": "7878a941cc90eece4f995ee2aba9f6755c829c90bd08adbc155906a144f4e47b",
+      "deliveredBytes": 99116
+    },
+    {
+      "lineId": "ch2-friend-confirm-001",
+      "chapterId": "chapter-2",
+      "profileId": "teen-aleem",
+      "canonicalTextSha256": "675141c0cf425280772f1413bf6aafc111bffbe15c16ca0702bf4806b341e104",
+      "sourceSha256": "e5c49b9b78cb2b1f52e562cd83b8eb56a45bb8908f089c1d4a5919a1482b5f66",
+      "deliveredSha256": "62a4bcfc98be7b5964b7da430bd361473eb4a5bdc81577d46027cdb4439290c2",
+      "deliveredBytes": 53900
+    },
+    {
+      "lineId": "ch2-friend-confirm-002",
+      "chapterId": "chapter-2",
+      "profileId": "mutual-friend",
+      "canonicalTextSha256": "3bb2baed19b97be5e1751f13569d4eed12c4c5b30d0a6e6a392a9f010a14b671",
+      "sourceSha256": "ded9f18cd66d7f45defd0f7fc4b4874fe7538dc74d35016fc4a300f77693c390",
+      "deliveredSha256": "815d11797a6799f9a543f843df9f697a8370bb764a4bc06db561944a6a8a7351",
+      "deliveredBytes": 69452
+    },
+    {
+      "lineId": "ch2-friend-defend-001",
+      "chapterId": "chapter-2",
+      "profileId": "teen-aleem",
+      "canonicalTextSha256": "b171c01c8b3b55df8157dc08f69fd472591ddb4f98841e672f44c8be2c46c368",
+      "sourceSha256": "a3a45499348dd78ec502bffb758babd90c1b5121e80a6b44a9d753a71e12e4a5",
+      "deliveredSha256": "a51248e13ee482efe5666a24cf0d2fb43fb82a4adad247bb2a60d1eed2a94ba4",
+      "deliveredBytes": 63692
+    },
+    {
+      "lineId": "ch2-friend-defend-002",
+      "chapterId": "chapter-2",
+      "profileId": "mutual-friend",
+      "canonicalTextSha256": "3d6fddacc81b45e92930b73dfd957b0f66e1e3c269ae20eb5140ec727d579682",
+      "sourceSha256": "26fd759c941886898773790488e041ab88135efd32f11f45ef8668109cb64098",
+      "deliveredSha256": "4710599841c7867503eeb20dc0d7bbb9549a35eaea0ad207b53a2b9726299ab3",
+      "deliveredBytes": 89612
+    },
+    {
+      "lineId": "ch2-friend-silent-001",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "679f3f79fea5392f70c03ecb0e1c1529011ddabb4e299169fe3a3806e96421a7",
+      "sourceSha256": "9baa9b00ec58391ed831964b073df12177d171d37322eaef121007e37ff0cbaf",
+      "deliveredSha256": "17e7a48544e2bf3d87cffddd99bc81573431c6123de3b74ebc927a8d44438cd1",
+      "deliveredBytes": 104012
+    },
+    {
+      "lineId": "ch2-friend-silent-002",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "52ba89205eb20d4c0d48c9bb25491b20d5b240743484581a6776a3a77df7fb1c",
+      "sourceSha256": "2b75318f77be6f6615db095f77a80088502531cc4ec6bda321f369997e098103",
+      "deliveredSha256": "e7f192ac08f761b646a0de40e517a80790aa5640e3e89e6b6dc50c333a2aee59",
+      "deliveredBytes": 117260
+    },
+    {
+      "lineId": "ch2-078",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "4d794ebb7c66b9c60f3e0e095aa8057a26041206b6541d40b5c975d4c0fd86ea",
+      "sourceSha256": "60d4e9215986e962a5279314d4804cdc2a85b5d2b00b1d2c75f443e0781d980d",
+      "deliveredSha256": "c62fac70923b1691d4d08f1cfec969ee5b01155d0b37e3190464ee586152ae22",
+      "deliveredBytes": 104012
+    },
+    {
+      "lineId": "ch2-079",
+      "chapterId": "chapter-2",
+      "profileId": "teen-aleem",
+      "canonicalTextSha256": "3ee68194f001766453767c369095fa6a5bebffb23ec8bfa8b3cf08daa8384ccf",
+      "sourceSha256": "5e298a992aca157e6720e096bbc2905d9bbc679045e2a45402391ff958fd4eb5",
+      "deliveredSha256": "43b255d3d603cfd9de752d9743b21185e04c88311423f24fd8ae8c9963f20825",
+      "deliveredBytes": 42956
+    },
+    {
+      "lineId": "ch2-080",
+      "chapterId": "chapter-2",
+      "profileId": "hana",
+      "canonicalTextSha256": "ba12c7282aa116ff2a4ecefe54a481bde310f23864442ccd02c83160e22f02fd",
+      "sourceSha256": "d85575e4c23cd8158eebac3b3ffbdfefba095e9c6f0b2b7bbbd4770cd8992f67",
+      "deliveredSha256": "dae467907b8a603a4ad518777cbc5054e9cd63701bea9ddc787eb8bf8d888b22",
+      "deliveredBytes": 121292
+    },
+    {
+      "lineId": "ch2-081",
+      "chapterId": "chapter-2",
+      "profileId": "teen-aleem",
+      "canonicalTextSha256": "920fef1704f6d99e7fef8576493c46baf7544a36ec765b0261b93b56f626a78f",
+      "sourceSha256": "a3f94ee2ca7f1edfce485a48941f8884b5b74c7f8f51affeff949b638524aec2",
+      "deliveredSha256": "01fb8ee6395f9964d8fc6c986eec13b8112952de588eb59656dbaa1caf79d44c",
+      "deliveredBytes": 54764
+    },
+    {
+      "lineId": "ch2-082",
+      "chapterId": "chapter-2",
+      "profileId": "hana",
+      "canonicalTextSha256": "c235fce0e97c219ebfc1c4565f9776eec572f40cf5cd2ebb02a11e0190267112",
+      "sourceSha256": "c0bc80126f615a6bc0a7b08a1f8abf1bea8907dd59d5ac4302299853c146ddd2",
+      "deliveredSha256": "937418019210ee3a466a32730978dd1597fd7511895468d942edc39154f452d5",
+      "deliveredBytes": 139436
+    },
+    {
+      "lineId": "ch2-083",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "52999b3a28aec160b215173209b7d305e73a7079215c16698695c7b4d8d5df41",
+      "sourceSha256": "d77deda502f606e1d62b5933b19e4d854b9d8980bbfac882f7b0ec7ba0f1b9ff",
+      "deliveredSha256": "72ff2734f9f5a9600038abeb138178e53638fa210c7780786b856b00f2adac0e",
+      "deliveredBytes": 143180
+    },
+    {
+      "lineId": "ch2-084",
+      "chapterId": "chapter-2",
+      "profileId": "teen-aleem",
+      "canonicalTextSha256": "6f5a1a0f251b8315ed5d84d81dead19c3d4b7b75c868bbedce74bcfa1b74aec6",
+      "sourceSha256": "f05983cbe204f4cf60447d3d041b594b36fd4cacd4fd0f21170dbb73bcb4149c",
+      "deliveredSha256": "6a276e5fe6f24794758da3536dfcbc2d34623b784f2cbc77f275370f1d3f026f",
+      "deliveredBytes": 112652
+    },
+    {
+      "lineId": "ch2-085",
+      "chapterId": "chapter-2",
+      "profileId": "hana",
+      "canonicalTextSha256": "f464f39b69026bbfcc08a63e25d330d909414330c540a1c836e0187108bdf231",
+      "sourceSha256": "ed3999fcc96ff577d1ef91d8b87071133fe38678360c179e77d3a04c4e727f79",
+      "deliveredSha256": "686e2987db5844f03a1dd90110faa45888fefa42cffb97d5654d9018f9209c1c",
+      "deliveredBytes": 156716
+    },
+    {
+      "lineId": "ch2-086",
+      "chapterId": "chapter-2",
+      "profileId": "teen-aleem",
+      "canonicalTextSha256": "9db438a277d273f81bba8251426fcb44575cc8f34947185b3b004ee6f4d4ed40",
+      "sourceSha256": "520ca670a5cfddd90b302b306371b058cb69063f95ee133895425f970c870cd1",
+      "deliveredSha256": "b7e335e519202d973a13f392206836094e1ef5eaed4e2fd9c3fc4da2e93b942f",
+      "deliveredBytes": 37484
+    },
+    {
+      "lineId": "ch2-087",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "8d2e45de762d39c1c30c57ccb3ea69919c39c50a28e661ef44b8b677627bfb1e",
+      "sourceSha256": "0cb3afcb8eb5c81946f8704a326b0b52e6cdd0467e219c71f9f182e7c049012e",
+      "deliveredSha256": "2b79bf7d632f0b523163bdfd505fa2f4b3c42ba8a83acfc518aad643eea6ef0f",
+      "deliveredBytes": 145196
+    },
+    {
+      "lineId": "ch2-088",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "b2d717ec4a035bc4b9675a9f34e4f3e6e78dc7e1b300305c66939b7b61e6a345",
+      "sourceSha256": "16a5530a3299864531b68ce52004b9773bbae2f3e10b6f93b6e10e2769abfaf1",
+      "deliveredSha256": "0737f66e53cef106a0bfcc57514f67f66ecc4e91503db3e884d8bb8a87f5de90",
+      "deliveredBytes": 101996
+    },
+    {
+      "lineId": "ch2-089",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "118c9d335d7d379cadf8c4f89e09d073d88ca263cddcf04dbb34d04f409ef033",
+      "sourceSha256": "d2548a795d2356b2e6d77143cf264cfa54f9815962dc57126b74ec6a3e6ac0db",
+      "deliveredSha256": "5c6b97c9b6ec1059b1da16a0dc7210eb0cba273c6a9c24205ff592efdb64f45d",
+      "deliveredBytes": 164492
+    },
+    {
+      "lineId": "ch2-090",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "e188612fc3d2ddb42c20aa18c6141d3eb5bf3c151ee9b96a6d0d688cf8da28df",
+      "sourceSha256": "5c8b225c88486dd875f6180d65953ce97d740c7362536ccb625feff440d18b93",
+      "deliveredSha256": "28de621eae0840329c1f5cc33f779fda4a98ab5e30ec5b53204b8a44d8d03f96",
+      "deliveredBytes": 148940
+    },
+    {
+      "lineId": "ch2-091",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "7f8a07d8e9b28889467328dac3f5799f5d31e7d2b02dc90a461fecc452557ba4",
+      "sourceSha256": "8078737ca1a6e8fda20e976bf7bb5994a722d500d576b9e97482880fbebe471b",
+      "deliveredSha256": "034656f189bedafa017f45a06b96b8bd6c017170f887fcf7941d46ece80d0991",
+      "deliveredBytes": 150092
+    },
+    {
+      "lineId": "ch2-092",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "e2132d6f5c7a50ffa6a82cc245397ae66f8ab21b4d67daf1b58d8bfed813e11d",
+      "sourceSha256": "6fdc6fd8abba66d2edef77b9e2b0d366ba3112e40866ed65a1c3c39ea6adfb0b",
+      "deliveredSha256": "a59e808cec0164001eb3f6ab1299eea52c168242a491a29aed6e8f78ebe3993c",
+      "deliveredBytes": 146060
+    },
+    {
+      "lineId": "ch2-093",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "f82e3888a70906d5bf9334bc58c4df2460425c44b270c4d5e09e6b85ac3111c0",
+      "sourceSha256": "3ecf2af1b4596e497805c14250740338202669c3390253bc80bbfe8ba80723f8",
+      "deliveredSha256": "eccc6378a6f129a25b0129f0d0457bb5e049b3cd6314bea492023b71bf0f3c7f",
+      "deliveredBytes": 137420
+    },
+    {
+      "lineId": "ch2-094",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "9e24437a14ac69426f44a8a2784a6a18f28aad5d3c4144ce2a71907b084ec6a6",
+      "sourceSha256": "3e2e88b39cc0a4839302bc3efeffd9ba0e39feaebc2c5085d3987720e6f5d97b",
+      "deliveredSha256": "581f6f3f8833ae8a04125aacb025d4de0ae658895698dd8546e71ea2ae57449b",
+      "deliveredBytes": 139436
+    },
+    {
+      "lineId": "ch2-095",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "0335b886f2096f48a8c6875c679b42c0eb8f53ebad19bf0246f7cdf1b6e2b7ee",
+      "sourceSha256": "e8e9f2b9679085c6f6acb22ab920e32f5795dd53223a70bc934aae0148b9379e",
+      "deliveredSha256": "6eef92713dd22502b632ffccb6c78d694f5f301b9b2ba3eccdac7314fd73b02f",
+      "deliveredBytes": 139436
+    },
+    {
+      "lineId": "ch2-096",
+      "chapterId": "chapter-2",
+      "profileId": "teen-aleem",
+      "canonicalTextSha256": "d57d0d322f69e93d299e8129461666c192a83448b99644ea8d08e10fc917d7cc",
+      "sourceSha256": "37085f88badcbdcf12aa65730007ef328789de7285d9d98cf432414b23b131f5",
+      "deliveredSha256": "38bdcdb6b736c89c3191f4284f73582fa57d06457bdb066561a7d4038aa951ca",
+      "deliveredBytes": 43820
+    },
+    {
+      "lineId": "ch2-097",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "c361a16846593bd105451e2bbb8ad535e6b1078057ab07d9d8014a214094f4b9",
+      "sourceSha256": "1b80de4850d5592b64231f0a1696d679d5f79781abbaa91e892dfc4d9d4dd06f",
+      "deliveredSha256": "6c6e37bd9f88afbe12a17e279a6a581e22c96754593882fee56a9c159c59e56a",
+      "deliveredBytes": 134540
+    },
+    {
+      "lineId": "ch2-098",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "36295562da2617b7b3ab06589b4baf9758cea506a85ce02b45fdbe1611f98887",
+      "sourceSha256": "13e9d9de601361d827baf263f2a1035a5ef10e73c142b3f1497f324125a8b7e8",
+      "deliveredSha256": "2e51d9edc01b3b1ecc9be0308430f9f844ffb5d6c725314892e278508533a97e",
+      "deliveredBytes": 154700
+    },
+    {
+      "lineId": "ch2-099",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "0d86d36334d3d030bf0be9a6941fe98a53fd741c852430c0954075054eec414a",
+      "sourceSha256": "82e1f669479f5e314c6fe855e0413e275322577961f66d8eb48230dda8fd8837",
+      "deliveredSha256": "6b6c7d70ede13ea1cdaf10e13fb1c24cd67f41a22de5e2663188a80c3a725114",
+      "deliveredBytes": 112652
+    },
+    {
+      "lineId": "ch2-100",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "b40b1e43c97de428bddffd3eb05ce373748dfa402af62e5cdc21067a624f157b",
+      "sourceSha256": "3aca13d6f839eb96f3a6274a57ea525cda4b47780a6010ea9cf97461cd4cdd3b",
+      "deliveredSha256": "d231e7d8e87ef1282cb068d4b3ce40b7be7097d37b1b49943d6cc515887f41f6",
+      "deliveredBytes": 148940
+    },
+    {
+      "lineId": "ch2-results-condemn-001",
+      "chapterId": "chapter-2",
+      "profileId": "teen-aleem",
+      "canonicalTextSha256": "5c7d0371cfae8709528c70c041eab529d4577066cf5b0dbbfde7048c92f24120",
+      "sourceSha256": "75da42dd9a6ea3f0e7b443ab632f758da676428db64b3526c543f219626f316d",
+      "deliveredSha256": "2f08fa924a804cc05b31a59a5b3563aafb048ecd7cf748e81ae866250a7e0f93",
+      "deliveredBytes": 59372
+    },
+    {
+      "lineId": "ch2-results-condemn-002",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "d765b101af38f253c39363c9e7a5e7d860abb4554bdfa9e1d4bfb24d80078750",
+      "sourceSha256": "22f88c50909c3ecce90227232e02f95363036b7d1fba6e7ad5b336f647319fab",
+      "deliveredSha256": "3c36d452c46287f54a4522e2ad76f37d4133883d78af523950991db54eb033dc",
+      "deliveredBytes": 161612
+    },
+    {
+      "lineId": "ch2-results-honest-001",
+      "chapterId": "chapter-2",
+      "profileId": "teen-aleem",
+      "canonicalTextSha256": "9fb840932e3b518c0623ed02b358f9cc4f955ece4b6966ff9634a727ad470c17",
+      "sourceSha256": "9267f899f5f9fa5b82936466a73fb282568e42701e5f49d3bf5bce051c0b392a",
+      "deliveredSha256": "ef2618255ec2209d5b25d66baa786d441e285a5715aae722efbe02598e15489a",
+      "deliveredBytes": 56492
+    },
+    {
+      "lineId": "ch2-results-honest-002",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "79b8be2bc6d65879b42a402e077413a3a6d628767ac5f2f8c1361d4331fde354",
+      "sourceSha256": "aef032a86070b2ea2625d1c0bf80e6567f014d294deefde27d30eeba164ba438",
+      "deliveredSha256": "0ecaaf58fd5e1f75256a13dc0c1258c8165c14cfbffc8f0b5faf9464c1d8be74",
+      "deliveredBytes": 143180
+    },
+    {
+      "lineId": "ch2-results-continue-001",
+      "chapterId": "chapter-2",
+      "profileId": "teen-aleem",
+      "canonicalTextSha256": "68ccec6f560485b930bbf2473e18bf6aaccee38850055454c3d115acbba382dc",
+      "sourceSha256": "46f9022b189b3c7040a04e8ea25cf5b46b2025f6b9fd757c66b1b0bb45be57c4",
+      "deliveredSha256": "70c37370793b4f2038294ae91df3dd5b85bfa747c622ea993ab1927d1d653ff0",
+      "deliveredBytes": 59372
+    },
+    {
+      "lineId": "ch2-results-continue-002",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "b000256eea4ea2f5133bc4b334dc05e8613a7b23b8ab634bd16dac9c970a3359",
+      "sourceSha256": "e37dc165e36d8602006e3307f6e2259cfc7e35c8a01db41b22899e94a57883b4",
+      "deliveredSha256": "37d53c3047c4cffdeba714677ae24a732af3848d79b62241ac530e67da4b9e89",
+      "deliveredBytes": 133676
+    },
+    {
+      "lineId": "ch2-101",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "4eb18990c98fdbeac3a9b4c4eb2e438595f8ef72d3e022e1f292823db3510656",
+      "sourceSha256": "305fa79ab6631574027ccc8b2e56706fcb04c36ba51305820f5edf62df721902",
+      "deliveredSha256": "f59c0937db5606d7c1a075380ce9d74c6a9cdf124f3e98208efb06d24b23bac0",
+      "deliveredBytes": 125900
+    },
+    {
+      "lineId": "ch2-102",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "2c70e6536ef1796b252ee28e6e60321576842b142985cba30c0ee70fe22642ef",
+      "sourceSha256": "b9b963cac45cfa323f59ad3daf83f7c338f5fba6bd3e288f07eb377c013a7711",
+      "deliveredSha256": "a3439d34d4568292e6cc0f349f9ca5ebe85e2c0678b68bd8b90e77e4340e8fb2",
+      "deliveredBytes": 141452
+    },
+    {
+      "lineId": "ch2-103",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "bad3cbc79a5b6e4ecd5e40225ed9f88222bbe046c2231a0a03f0e70ddc36b203",
+      "sourceSha256": "dbe49e6c6cb3da8f4ad0712a31c8e420eff662acc98e963818aa296078cd052b",
+      "deliveredSha256": "fcfb27b4c999f8f00d461887e26e5ea3decce3a443899f9c3ba85aea6a624ac1",
+      "deliveredBytes": 143180
+    },
+    {
+      "lineId": "ch2-104",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "bc074eb5889743112355629eace5061e3a842c0d9f11f7744241fcc66d047c50",
+      "sourceSha256": "2b69bc53e7450e87a0ee970fdcd0eb7494d704aef53bce264d03e8d17ff84c1d",
+      "deliveredSha256": "03c4c8111a2e73cc17d90462eba12ba2b2693bbebe0b22606f334304502bb5cc",
+      "deliveredBytes": 136556
+    },
+    {
+      "lineId": "ch2-105",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "e9c6e6cbaedfb4e26a94f89497b213d1a277d07ee0e523f2f5aed36c6ff93296",
+      "sourceSha256": "18bc32e4c33e4d439e4e1823417a69d2a5f47da0f598cb5a021416966ad5d381",
+      "deliveredSha256": "c303babbed33c47f049f9ec87ffa7346e615c727950a98c28a8d11a361d33981",
+      "deliveredBytes": 124172
+    },
+    {
+      "lineId": "ch2-106",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "3b5a8f67893575449778bd6350658b2a45c99e239f413e9416d8d6912829c617",
+      "sourceSha256": "f0d5bdccc0dc823756127bfdc13b13a7d6563506b7174784bda227bf6a7c8dd4",
+      "deliveredSha256": "9b4e53280fef50e47bc7d65d474d80c0c6df3bc2b1f08a75c54217ba77ddbdae",
+      "deliveredBytes": 148076
+    },
+    {
+      "lineId": "ch2-107",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "dd0145b81f2de50494b72eed167b6e21cf830b737bde50507db18b0d6db611b6",
+      "sourceSha256": "eda35f90bd448b42c525470313589d98a6e3a184b45f16d09305dd5f28bd07fc",
+      "deliveredSha256": "7c057c87c7c98a27388a8ca3d0c3fbfec3b1a0f7005cfe89005ca1768096b38d",
+      "deliveredBytes": 148076
+    },
+    {
+      "lineId": "ch2-108",
+      "chapterId": "chapter-2",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "922a4136cae8984a01473c16669af530833bec55c7c11b467891f8fe32dacdb3",
+      "sourceSha256": "64685a9f22910f82ff217678518b4cfb348cdb1f4d4f133456f351d2c9e7e035",
+      "deliveredSha256": "811293835598912ed194f23b6a989c018a905dcbc566ac14dc35805a1606315e",
+      "deliveredBytes": 92492
+    },
+    {
+      "lineId": "ch3-001",
+      "chapterId": "chapter-3",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "f80358eada90ec5f480c1d397c7ab690d4f5525e67a23372dc363013b611a6e1",
+      "sourceSha256": "a85436683922d398ab3e1b8bcee7b9904a9b40e25863b2b902d8fcd6c7d30429",
+      "deliveredSha256": "c241e8a3e75a992cf14729beaf643ab309ace7ffe26ab49388ea3a8476f0fa46",
+      "deliveredBytes": 174860
+    },
+    {
+      "lineId": "ch3-002",
+      "chapterId": "chapter-3",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "e66d44aa83d31f9ffa97bdcfe6b1c62b5f863653f5451428fdc859daa97705bc",
+      "sourceSha256": "0998b3e4ef9bd01727c0cdbd959b5f53f6d2fb3623d2cb89ccbe912a00db36b5",
+      "deliveredSha256": "e434ba18c7a2aa2e09b23e660e6ede7e3c786b53bf7093b7a0e493c7a76055e3",
+      "deliveredBytes": 163340
+    },
+    {
+      "lineId": "ch3-003",
+      "chapterId": "chapter-3",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "3d4708d82b7ccf7125a9256bbe865a37d04e2ff213cff42fbb86bdb43e09b548",
+      "sourceSha256": "31949ba0935864695e6a33eda4355c62eebb64ad76167cbc80391d6d2d0358ed",
+      "deliveredSha256": "59afe644034972685346f7b31640dd6493c8388e0e60ae8f848c81b2d4d5c80d",
+      "deliveredBytes": 185516
+    },
+    {
+      "lineId": "ch3-004",
+      "chapterId": "chapter-3",
+      "profileId": "teen-aleem",
+      "canonicalTextSha256": "05b24c94b8332319787a825f7f3d620e05a703ed06cb45320bf851bc49864d1c",
+      "sourceSha256": "0e0d42e17397ba85515583dbe158a31f4637436b374c0b98536a10dd7e51f3eb",
+      "deliveredSha256": "1ee474d3f01eef444e969bd41e3dd7ee1d3a65bf00a90a6cc33330e4b2f11505",
+      "deliveredBytes": 55628
+    },
+    {
+      "lineId": "ch3-005",
+      "chapterId": "chapter-3",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "4ba2ecb99dd8b286ef9dc204b0c611b4847f6bb0dfc15183a1b3d1a5abcf5498",
+      "sourceSha256": "6e08803a762d170e9c1d8aadd08fc378ee128660ef959c15f3e3883cdcf9021f",
+      "deliveredSha256": "2f56c602b031add0e40ddfa8b43487644649fa7d20c704edad0ffe15becae496",
+      "deliveredBytes": 163340,
+      "note": "The second take restores a missing word; isolated transcription matches all 36 canonical tokens. Original take and replacement audit are retained locally."
+    },
+    {
+      "lineId": "ch3-006",
+      "chapterId": "chapter-3",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "1ea6ea8f4b8910ff0bde9f26736b31625047d30183a896b9c921616d5b1d4923",
+      "sourceSha256": "03163c2679e0b7a0b8d055710335ec635f871c04c51f521caa07e98dbefcfbd8",
+      "deliveredSha256": "2f2b259a84f61f51275c265f91c310b50d7e73bb4ae45aeb754a8c7d8cda6c30",
+      "deliveredBytes": 139436
+    },
+    {
+      "lineId": "ch3-007",
+      "chapterId": "chapter-3",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "afd7d4774b0bd6822b533fc0c708e5c1efb061a7f4567b60ae5051093c707b8d",
+      "sourceSha256": "69ba63f8ef87fdef43b01520edd10bd2abc4420bbc99d6d6545b0cbaac176dd5",
+      "deliveredSha256": "ef99ba71a8b54a7bf6bd6c4ca01c4435f7bb658353f2016045c480ae8ec11311",
+      "deliveredBytes": 181772
+    },
+    {
+      "lineId": "ch3-008",
+      "chapterId": "chapter-3",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "b3d3a6252b6c2b061f587d504b8150fd8de8f3c53e862e837b00d88c59223ad8",
+      "sourceSha256": "3f2f5da089322744ae6396b9e4e85a8f59d40e673650aa5efd947e95456742b3",
+      "deliveredSha256": "54aca98d60b0d6e0c4303c637463eba1b961e4afbb4b001d89a1a402f9513b2b",
+      "deliveredBytes": 142316
+    },
+    {
+      "lineId": "ch3-009",
+      "chapterId": "chapter-3",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "2aecc9bc55628d690a9c2269503414be3882d4df98689b97ebc441138f0897cc",
+      "sourceSha256": "f66f0c014714e0862c5d24ff0cccb66c860e426c77edbe15d9bfd45fdfad791e",
+      "deliveredSha256": "45a2d8379793f9ba42761666f2dc1defcac910027445f45547f8c013442027ec",
+      "deliveredBytes": 150092
+    },
+    {
+      "lineId": "ch3-010",
+      "chapterId": "chapter-3",
+      "profileId": "syafiqa",
+      "canonicalTextSha256": "d44326f6e790dad2e66e429c5c374560a3a3fd6288ebd310b8eca6228456281c",
+      "sourceSha256": "06c912a19e933ad9b34fbe78b5fcfe55b1a8268cf51da27d7dde041c1f23227a",
+      "deliveredSha256": "0ad9a5d72b756a899884fd91a9da4fd9c20c245a1c0ae09cbf33e6b1b5ddb41c",
+      "deliveredBytes": 67436
+    },
+    {
+      "lineId": "ch3-011",
+      "chapterId": "chapter-3",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "d858c540f1ec9674a7babf9fbb6753176676b3ba75a1ef51b4fc07286c614c99",
+      "sourceSha256": "94cbc44ca793cf6932236589a5ca1d46f64ac546ed14d4ac4e13897df01a6f48",
+      "deliveredSha256": "3cfc3755a347a3ee3ca7c251c42b26c3c9ee3dd286c4935aa2fa5582451ee188",
+      "deliveredBytes": 173996
+    },
+    {
+      "lineId": "ch3-012",
+      "chapterId": "chapter-3",
+      "profileId": "teen-aleem",
+      "canonicalTextSha256": "6191d1074e29562456a4cbbd560a9d0af4ed694bbc7166694e36f0d9fa7d8387",
+      "sourceSha256": "962f9a07611820f227bc9688b9c43c9779320191135a624bbdc44040fa6a4dd8",
+      "deliveredSha256": "fe29e37244a5604eacb15c01b8fd04673ee64e676713c31e7b0c94301e3686a2",
+      "deliveredBytes": 43820
+    },
+    {
+      "lineId": "ch3-013",
+      "chapterId": "chapter-3",
+      "profileId": "syafiqa",
+      "canonicalTextSha256": "b37ff2847d3b6400983ddf079f84dd19e8d46dd287309fd81e4197666ac55056",
+      "sourceSha256": "fb7b941b68087364ef0006a15de294b67cf9958541b0fd9c15abcf31f64a89bc",
+      "deliveredSha256": "ba95aa61670558d0897320152b7829c317cb87ea4c6c8acf78bc248c449b62b1",
+      "deliveredBytes": 67436
+    },
+    {
+      "lineId": "ch3-014",
+      "chapterId": "chapter-3",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "99cd06b95edc130382e0c828a8ad0f10c6a3fb3d46a7ba2b4a4832c730028a2f",
+      "sourceSha256": "753bc80769ee08309e3e50bd790a04f2b5f3cdbc48f858fc74c087bb99d098c2",
+      "deliveredSha256": "66289d6bc1d62f90564318340abe76da9c14687c7562d88891be0974f338f08b",
+      "deliveredBytes": 150956
+    },
+    {
+      "lineId": "ch3-015",
+      "chapterId": "chapter-3",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "012040bc64c4d6c9798ec2cbd51a5e693142a3b5b7e51562a43e90331dca8f13",
+      "sourceSha256": "025eb27d4ba0b81c5005ddf6cf975eb709a167f4bff148ded9339960f196d73e",
+      "deliveredSha256": "f5fa5dd9d519f704c538a6f337c36bf98e3fcccd3a9b3b3d1ae7ea239043efa2",
+      "deliveredBytes": 148076
+    },
+    {
+      "lineId": "ch3-016",
+      "chapterId": "chapter-3",
+      "profileId": "syafiqa",
+      "canonicalTextSha256": "fb1b0bea8129f1efe8c1a781b94d8fc5c7555cc1a1e8bf0283b9b2cd24ecb11f",
+      "sourceSha256": "748773d6c89da020ff913f406c857a93ffb4c840f7c3cb483d869a141afab3aa",
+      "deliveredSha256": "819fb9be89ef67364021612c8dd329f3bba617a413573294a3330dd4ad61b923",
+      "deliveredBytes": 40652
+    },
+    {
+      "lineId": "ch3-017",
+      "chapterId": "chapter-3",
+      "profileId": "teen-aleem",
+      "canonicalTextSha256": "d8567a525549dcec907c3872240c2548c2254babeb9749a725327ff1ccaa3da6",
+      "sourceSha256": "614133e50c8fbed005ae11bc849af673b3e1134f8581ac95d511258d7a4382be",
+      "deliveredSha256": "04c9228940f18424bc011d10cbd59c155e556d3b09d3fe99b8cec0263c596014",
+      "deliveredBytes": 39212
+    },
+    {
+      "lineId": "ch3-018",
+      "chapterId": "chapter-3",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "e14d517db709a16b24cee67ac67ea72839333002e04b514e958ca4ecb51839bc",
+      "sourceSha256": "d64d45788a7da1850895f236ef59f790c582122d0ba52342139c851ad49dc704",
+      "deliveredSha256": "b918cabff2635381432aaae6e73dbaf733e92249d27deabd1acf5192828469f3",
+      "deliveredBytes": 150092
+    },
+    {
+      "lineId": "ch3-019",
+      "chapterId": "chapter-3",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "fd82321da07fe56020409b1f835e0585b6d98c7c3803612fe2702bad401378da",
+      "sourceSha256": "e37db222ef1d21a7b6b177f5d5e91a68359ff3435685c18e63d254a017737b95",
+      "deliveredSha256": "885e02c74e1f9b66e0a34d1146dfce020216db06e0ede6be5af4df6e4b7879e1",
+      "deliveredBytes": 181772
+    },
+    {
+      "lineId": "ch3-020",
+      "chapterId": "chapter-3",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "0b1c720a69b05a185d87b66f9ca0759bde7b961428528766462608976e1d3062",
+      "sourceSha256": "073697412210b2023eaa8fedcca494c348f402ec7cd510745ca4546838d57a94",
+      "deliveredSha256": "b331307b769e04c2540aa20aaa4bc82b8996a5f9c53815eb4acfcd503bc69a64",
+      "deliveredBytes": 125036
+    },
+    {
+      "lineId": "ch3-021",
+      "chapterId": "chapter-3",
+      "profileId": "syafiqa",
+      "canonicalTextSha256": "694a5a00e1e66d69b5679061b82a8453447a5f3099f8afde99fdb128ba044eba",
+      "sourceSha256": "3441b29a6031ed1be0d6990735061f0f25c1fa2b7fe5aeca6c98ab4a969fc87c",
+      "deliveredSha256": "ec5470ae660ed138cb372f747d02840dd5857539533253c3a83647849819918c",
+      "deliveredBytes": 55916
+    },
+    {
+      "lineId": "ch3-022",
+      "chapterId": "chapter-3",
+      "profileId": "teen-aleem",
+      "canonicalTextSha256": "2ff68aa10db917628d23c6964aed2d6b25dd33bbd2e2609487a7b2e3f11d36f9",
+      "sourceSha256": "5bc9be02d90b3b52e43f7716fb7cc06d9a00254bada21307fc25cae0c62e80aa",
+      "deliveredSha256": "cf3c3cfba3492f8f9c947a9afc63d7b39254a537b1c49aa1e5a18b173eb7be9a",
+      "deliveredBytes": 68300
+    },
+    {
+      "lineId": "ch3-023",
+      "chapterId": "chapter-3",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "ec3edd197af1af0610660eeb400ebd8a764d88e26008941b97384e4f7bb6b1f2",
+      "sourceSha256": "e7619eb06b078b8fd0e676d54c008d1212ccb369a3b929b7b20884f0febc44c9",
+      "deliveredSha256": "d192289036348f77ce2c38fb624e0bd53d16c07796487f69ac4152b8892e6304",
+      "deliveredBytes": 159596
+    },
+    {
+      "lineId": "ch3-024",
+      "chapterId": "chapter-3",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "36e11608b8a24b60cac866a3db72b0b35a30f780daa1f95e351092e5273c4a0e",
+      "sourceSha256": "dd5e7566f422dfd9955b11e947d749a8353c278b47b36bd58d2a415a25ac3670",
+      "deliveredSha256": "9d61192826e160167ef59a5ac62c2c40c285f10cb3ccb80c06e55a833b4200d6",
+      "deliveredBytes": 143180
+    },
+    {
+      "lineId": "ch3-bus-proof-001",
+      "chapterId": "chapter-3",
+      "profileId": "teen-aleem",
+      "canonicalTextSha256": "0384f020ef0e08de9863a51815f2e8b38a26b2ff76fdb0063f3197cd92307b97",
+      "sourceSha256": "ea063ed4dfe578740d5a2e27f7a96bba3629f83b4be02fde117f780320809d98",
+      "deliveredSha256": "e25834fb3e09eb1b7e0ff04c454d42d7150a6439ad8bd6313f4856fb6a22b809",
+      "deliveredBytes": 99980
+    },
+    {
+      "lineId": "ch3-bus-proof-002",
+      "chapterId": "chapter-3",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "e0b31429367746e1204a0e5bc4bf09321a9a61d004372d15209729fbfb964030",
+      "sourceSha256": "25b10dc0f5994f3ff6fb5171bc0f9345e2a07838fca9fd45cbfa03a5af21c761",
+      "deliveredSha256": "bb5d3068da2b1742beb579d159bc6332c751cf99b973affbcc91c09d8cd213cc",
+      "deliveredBytes": 151820
+    },
+    {
+      "lineId": "ch3-bus-possibility-001",
+      "chapterId": "chapter-3",
+      "profileId": "teen-aleem",
+      "canonicalTextSha256": "36bae1da8a4d84b008038772617f581efbabbb081986eecf0e623579f8972654",
+      "sourceSha256": "55f3e41e558ffd68bab09c649c2c219bdc6ee9b853033040754024204d1df138",
+      "deliveredSha256": "c92de65023f261d1ce0a8154a064b880ec1a5329c0193fb272d56091e4447299",
+      "deliveredBytes": 79244
+    },
+    {
+      "lineId": "ch3-bus-possibility-002",
+      "chapterId": "chapter-3",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "e086e00fe5e30a937d0f5fd6b16f8125e5f03f502b0e142f2bf97034d9fca7d7",
+      "sourceSha256": "f5291150fb1e0509cb5af96d5bdd7fcb8dd89d0792e9e57f35cc773a1fd66103",
+      "deliveredSha256": "7b1d14a42e217c1adc6ab00bd9339ad07a441c0c1bfdaa69cccc663251183a33",
+      "deliveredBytes": 130796
+    },
+    {
+      "lineId": "ch3-bus-friendship-001",
+      "chapterId": "chapter-3",
+      "profileId": "teen-aleem",
+      "canonicalTextSha256": "b9a672ee5a08aa01a69ecd7110fc6d7383e16484aef3807dd2dfc0621e36c25c",
+      "sourceSha256": "b0f034d5dfc31a36c64e05c2538a7ecba312f45317357a3bb28ead9e1b5f145a",
+      "deliveredSha256": "52fdc0cbc1745463b8e76580571cf924b52c6418cd3929902c0ee00c50411088",
+      "deliveredBytes": 55628
+    },
+    {
+      "lineId": "ch3-bus-friendship-002",
+      "chapterId": "chapter-3",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "420ddaf277c7a0939e145495ab12516981a715f73262bce4bab09c149bc331bc",
+      "sourceSha256": "a8d0be7cead6b2e85664a725c7326372458efcfbd2b85efcfe64e77b81a2e77d",
+      "deliveredSha256": "b9d31a927cb7a846d19bcaefff5abab45a3ad1709a706eb07b4c998cb24894f0",
+      "deliveredBytes": 142316
+    },
+    {
+      "lineId": "ch3-bus-join",
+      "chapterId": "chapter-3",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "9f27652ffc759ad1167e18e1b4557e24d492cd9f63f4942e603635711282b74f",
+      "sourceSha256": "13465e82c41318ceb2aee3ccfa36309469fefb1e60e7807438df462c040539be",
+      "deliveredSha256": "a8c414486302a6f53fc30c8e292230748b6539df0cbd3edf2e26eddd8c061d66",
+      "deliveredBytes": 186380
+    },
+    {
+      "lineId": "ch3-025",
+      "chapterId": "chapter-3",
+      "profileId": "syafiqa",
+      "canonicalTextSha256": "5b7f3694211b19552d3ce2fa169b30c485564bec2cb944b36329ac511ab6ebb1",
+      "sourceSha256": "3049f599d72643dd779f8b2d08fbf09ab764fd72a87061ac916a01750d9ac949",
+      "deliveredSha256": "47c5d9c181c2d203c05e5124e267dae01b63a13c4b3f86c5a143ff82f0f168c2",
+      "deliveredBytes": 72332
+    },
+    {
+      "lineId": "ch3-026",
+      "chapterId": "chapter-3",
+      "profileId": "teen-aleem",
+      "canonicalTextSha256": "8071e3640acf034e7f34d7b5de34f2f507eadf341aeda29517bca30f960e6bb2",
+      "sourceSha256": "bd6095ca2e9604f67fb755668cd622e259e28abdc288c19c3e1a201658bccecb",
+      "deliveredSha256": "539b810ea5537c78b1d8e29a5025625d3092ac0f5d7001b0f52c01b9ebfbdb91",
+      "deliveredBytes": 37484
+    },
+    {
+      "lineId": "ch3-027",
+      "chapterId": "chapter-3",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "24a4489267c242654c6c9701785753f14cfa77886a48cc134be7f0b58c51d943",
+      "sourceSha256": "824f6186ec9c41692512fe267a168125c9b5b7211dc1528dbaad8efdb3be8224",
+      "deliveredSha256": "8e539be48a0bc2a416fc83df2a0fbf45115650fea8db9d1f91500e6f0956c52c",
+      "deliveredBytes": 159596
+    },
+    {
+      "lineId": "ch3-028",
+      "chapterId": "chapter-3",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "bc8e1920f611c713d306fda5bdc694b82cee616efdae343652eacb60264e7004",
+      "sourceSha256": "e96e1a287a00da301ae355c26fec2ee9729cac715a1910a562cd6eaf33d0727a",
+      "deliveredSha256": "b2769d156e289721fd1415d4b09de00516be32756921b55640420dcae588fd38",
+      "deliveredBytes": 159596
+    },
+    {
+      "lineId": "ch3-029",
+      "chapterId": "chapter-3",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "1d19b68f350b5b7b71095498c90c575cf9a9a35f3d7761ade0fdfd1ca0493b5c",
+      "sourceSha256": "c502ff602e28c9cf030630b056b7f0bc82eb225912eee61ef62b0afdcf4f49d6",
+      "deliveredSha256": "94f0c5f00e1e5d141b6427a3a58e477418cf47d8c2bac6552ba0d5b90da9f3af",
+      "deliveredBytes": 116396
+    },
+    {
+      "lineId": "ch3-confession-direct-001",
+      "chapterId": "chapter-3",
+      "profileId": "teen-aleem",
+      "canonicalTextSha256": "0617c3414de93f98bd9eb148350d6d1d32f9865cd9a0027b8eb50454a44a95d2",
+      "sourceSha256": "2061e7b9080a7a85966e59f143892764cc4eab323eadccae6feba62a15392c63",
+      "deliveredSha256": "3149d5aaba2eea50445437ddc3d983accf6c08854ce128157ec591220f266e21",
+      "deliveredBytes": 50156
+    },
+    {
+      "lineId": "ch3-confession-direct-002",
+      "chapterId": "chapter-3",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "f4d768e0930f9f1a6dd0c426e62e090946802e11fc4c7fce258c309900d53f5d",
+      "sourceSha256": "aa1b95cf1102935ca0dc9b10e0943dcaff3b8511417693ddeb733a22a9f7800f",
+      "deliveredSha256": "709ca78b2150618c591164eaf3370fa028967a284f434b14e1b06d97610c33f2",
+      "deliveredBytes": 124172
+    },
+    {
+      "lineId": "ch3-confession-gentle-001",
+      "chapterId": "chapter-3",
+      "profileId": "teen-aleem",
+      "canonicalTextSha256": "3822f4c5bd2c256f500d555de66c61309b6090aa4f99e849c2c6cbbd123cf501",
+      "sourceSha256": "fdb78174f2d53752d33682eab1d43ffdb8e3d5a8bfbecb9eb5083e360530c70a",
+      "deliveredSha256": "48592f431062d7a46d6c734ae81f7dbaf9a4bf215f9a85f220812c0e090c84d6",
+      "deliveredBytes": 80108
+    },
+    {
+      "lineId": "ch3-confession-gentle-002",
+      "chapterId": "chapter-3",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "5e1bc295d50e57241f7db0e26015c28251c69caf1004a8be2e7d6dbd99388799",
+      "sourceSha256": "d25cf52d3f380ff3cc4d9c077ec2ea94062ca1404ac507e55bc04f10cbc48116",
+      "deliveredSha256": "ef382f63a9ec46c1a2202c04570a5665e96134e3da80dbe795912bb8d85e1292",
+      "deliveredBytes": 140300
+    },
+    {
+      "lineId": "ch3-confession-defensive-001",
+      "chapterId": "chapter-3",
+      "profileId": "teen-aleem",
+      "canonicalTextSha256": "cd96e29eefaf14512b0146f9309b7c029abbb61d6218362f0310980f4c085760",
+      "sourceSha256": "57ea5226200b5e6cf3ed08ab7236ad7817bd760b5535c240bee9b57b721ea72e",
+      "deliveredSha256": "fb1a6f6203e5fff7ade30be8757ce72e33ee6765b9efadf37728568be52f7066",
+      "deliveredBytes": 94508
+    },
+    {
+      "lineId": "ch3-confession-defensive-002",
+      "chapterId": "chapter-3",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "b01f419b78d05e4f99bde127d5103c1a3dc85103d551c526a47aea9bc220b831",
+      "sourceSha256": "ab75fb3c1c64a2c1eddac091bd89c24466b5f7609416e810dfe3d03b4d9dbc69",
+      "deliveredSha256": "67b805c55af9b320c3e538e1ca0f8cd093296f18183ac077335e4f051559dbaf",
+      "deliveredBytes": 138572
+    },
+    {
+      "lineId": "ch3-confession-join",
+      "chapterId": "chapter-3",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "c00b8b369a063e90c68ee883d81c84cb63e19ce8b6c610877d13908d55cab9c2",
+      "sourceSha256": "7d723ac846a2ea01af50d7bd5394e50b83b76d406a7c5c09700b2022d20b2615",
+      "deliveredSha256": "aaf635ff18dc44d977ea39846bd0e4465ef75593aec67123303a189f364d5038",
+      "deliveredBytes": 137420
+    },
+    {
+      "lineId": "ch3-030",
+      "chapterId": "chapter-3",
+      "profileId": "syafiqa",
+      "canonicalTextSha256": "36d286189e0e80b96b0ecba0bb56036db46fc2e06a19d5a34a129f9538219adc",
+      "sourceSha256": "0d4a1ae60be81cd0a030a115049f3773e1abe006ff96d8912fd33bb9727973db",
+      "deliveredSha256": "32be10b8fdfc52f965434d6bf6a687f6f5b0817af706d681730210d9fa716294",
+      "deliveredBytes": 115532
+    },
+    {
+      "lineId": "ch3-031",
+      "chapterId": "chapter-3",
+      "profileId": "teen-aleem",
+      "canonicalTextSha256": "b59c029e03420b759d36993f780d42d809fae3720f97c558e4a0a558c5bf878b",
+      "sourceSha256": "4c05063ed3a020cd9f446e4d52d8fe0eddeb432c6569a47435aa43fac55c9291",
+      "deliveredSha256": "8af5b0bbc06a4cbaffc46aeff57e3ded07cc0434a8678962d6050d7144660510",
+      "deliveredBytes": 54764
+    },
+    {
+      "lineId": "ch3-032",
+      "chapterId": "chapter-3",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "343c1672ff1d8dc61d8605202222f52c784a5fb73dabc520789047143f1dc62a",
+      "sourceSha256": "8c64ac67a6acac80c9dc4bd248c547376bf79e599b4d3b6c18571e88ba98c9cc",
+      "deliveredSha256": "0ba4b5c5ae32bcb9a66a84c74b93a686ded0d9cca1cc9591c21cd4df43c1751e",
+      "deliveredBytes": 161612
+    },
+    {
+      "lineId": "ch3-033",
+      "chapterId": "chapter-3",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "f32b67c3fc937db7eb532383ba1abd5b34def80dc726e20eeaf7aaa8b61048a3",
+      "sourceSha256": "25a17e8ae44670bcd42d655c2f1901a401681e1d444b0bfdc62b030612077091",
+      "deliveredSha256": "18ae53f5f5456cd3cb16b95091ca7d1f6692ad2386bdaf013dba4068617d7873",
+      "deliveredBytes": 162476
+    },
+    {
+      "lineId": "ch3-034",
+      "chapterId": "chapter-3",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "f38b55a1bf047905a4d693aecc26f41d8668414a0324ea0ed30b48300d550699",
+      "sourceSha256": "ab74baf1a1b516feb7ce414fdd77064102be023756e6c371a073b755a2c469cb",
+      "deliveredSha256": "2ab70cc84e66b3137371a7ec5bf8b0b729f2dcdcc513f3d4a8a9778724aa122a",
+      "deliveredBytes": 150092
+    },
+    {
+      "lineId": "ch3-035",
+      "chapterId": "chapter-3",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "ccc5e233732d72bea966af203864968a55a7881f9bc448b6799fb02844deecd9",
+      "sourceSha256": "749f469b038a50b2883beac6310ce05aaa5d1315440f2f1cb55eeae385454404",
+      "deliveredSha256": "708784c3e3b56c72553137cb73173f00daf33384fa6fdd73706bed2ee204ce63",
+      "deliveredBytes": 152972
+    },
+    {
+      "lineId": "ch3-036",
+      "chapterId": "chapter-3",
+      "profileId": "teen-aleem",
+      "canonicalTextSha256": "b1ba67ae46ca8d9711143b943db4d271a2e184e5e0021a9fbc80434ff11170e7",
+      "sourceSha256": "9715e8e673eca30da8cc7121cf8a35765830ac25b0f5a1e0023beba5350c3a12",
+      "deliveredSha256": "03b93583da28be595f628efe86d570e9dc91c05555219b5c0cdc28e96c097e8d",
+      "deliveredBytes": 53900
+    },
+    {
+      "lineId": "ch3-037",
+      "chapterId": "chapter-3",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "84e3b3204ad101b5fbdfaa0b2dff2ec242d6434116bb7c9e3b8482dc13b91ff9",
+      "sourceSha256": "98309341ae19c384d0bb1334c3bc70c82d9c79d19f255f45ef6ed0103ae9ba33",
+      "deliveredSha256": "bf5e63f10dfec464eea6d42b96e2d163bce10636051135c56eb52163c065a198",
+      "deliveredBytes": 160460
+    },
+    {
+      "lineId": "ch3-038",
+      "chapterId": "chapter-3",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "4b5607c71bb91dc46e218b5da2d5028a4424fc29c8e9c31ba82aa23f212748c1",
+      "sourceSha256": "8592fa2fc271858df133a76e5f855897fbcb366bb9886487b1c1caeab543679d",
+      "deliveredSha256": "2f9f633cb327356df0eea9cacea30419ca8b5619c59cb9f17a5fa53d1aaaa59c",
+      "deliveredBytes": 158732
+    },
+    {
+      "lineId": "ch3-belief-generalise-001",
+      "chapterId": "chapter-3",
+      "profileId": "teen-aleem",
+      "canonicalTextSha256": "0d748597656439e05e36d24dd60b7e49cac3c36ec9865c6446c663268419d591",
+      "sourceSha256": "7aa42e733b7f3b92d0f8e021b73efd301c5a7d5246c4bd87634a04fb61856ef9",
+      "deliveredSha256": "6dbf335560d39632d4ea32f0789988a0f854ccf3e48184076a0bc771d85bf81e",
+      "deliveredBytes": 95660
+    },
+    {
+      "lineId": "ch3-belief-generalise-002",
+      "chapterId": "chapter-3",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "02a4c2e06faa199e4e2d2e431af86acea8dd82fb158f6ffb6446857d099196b2",
+      "sourceSha256": "4e7e9abe4ae78ade00bbfab0d92d6b0ea01682f1af830b58978d744cead411c0",
+      "deliveredSha256": "a73310ad0a57c6446f585e5a541ba0ea21d8586a02cedfb63646c38b49352ab2",
+      "deliveredBytes": 201932
+    },
+    {
+      "lineId": "ch3-belief-protect-001",
+      "chapterId": "chapter-3",
+      "profileId": "teen-aleem",
+      "canonicalTextSha256": "4176bfa9342dc0add36ff83608bd6a2e44dab03b07cb780d9e4ef80b66916cdc",
+      "sourceSha256": "06c43f9b7be674ed3672ad06e3ad2d8cbbb4cc837e8305ab67d9574ed6f6991c",
+      "deliveredSha256": "a9927e87c61978915a87b5ec38da00af316a6a3d709d70d1fedc0f925774cdf5",
+      "deliveredBytes": 104588
+    },
+    {
+      "lineId": "ch3-belief-protect-002",
+      "chapterId": "chapter-3",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "bcf52736162fa70914c3a78370ba07c4675b61a70e654e304751153f2ed8d449",
+      "sourceSha256": "6fa94fe862490cfc4df2a83c06cb281d6c6c2d32c6455d35218f8c505ace6781",
+      "deliveredSha256": "dd11e341c7634e294371b1c5a30a6f52cc4932b160fd84eb96dcf8c596b902e4",
+      "deliveredBytes": 216332
+    },
+    {
+      "lineId": "ch3-belief-question-001",
+      "chapterId": "chapter-3",
+      "profileId": "teen-aleem",
+      "canonicalTextSha256": "e5495441b8313891dba254bebde245cc11f1f4f03c297baf0ed3614dc8c04d17",
+      "sourceSha256": "036d37fa97d52985eaaba16a3281e4ee5126be90b80f7e13fc491b3cddc8d133",
+      "deliveredSha256": "5c3a0646590c3165c47caf4d31006a994302af8a85e7df788072afd7095c0666",
+      "deliveredBytes": 93644
+    },
+    {
+      "lineId": "ch3-belief-question-002",
+      "chapterId": "chapter-3",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "a5cfeb78715511bb51661c8ac8121e68489a32d129dc4eb71b169b9c14f034a6",
+      "sourceSha256": "1558f37fae94f3cca29f23bee17780168bd27ec3b21bfaa3d53bdf08b9e5a642",
+      "deliveredSha256": "48c66ba99e70c51c2fe5247e8672c69fb2467bcdb7164f248e750edd59cf4517",
+      "deliveredBytes": 181772
+    },
+    {
+      "lineId": "ch3-belief-join",
+      "chapterId": "chapter-3",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "da8542652d7aa7445568ed9b04a35333e8c1583540d74e7af37f60087367246a",
+      "sourceSha256": "598c23706d45d1e616b89c37110beaee8685eeaa3a4524af7432ca9fb6eb43ef",
+      "deliveredSha256": "a33a647f3076c46390d51c1bfa8cb28da621049289cbd29e8d705ad62413a53f",
+      "deliveredBytes": 212300
+    },
+    {
+      "lineId": "ch3-039",
+      "chapterId": "chapter-3",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "a0397052779199a491f4f8da01041dda4f69a9789fcf695e0758473c82e2fda8",
+      "sourceSha256": "503a28b0df6d38e74eff610c8a6aecd9390c0fe2e2ba4be331941161f9ba282c",
+      "deliveredSha256": "62a32de873bba35d47df9229fda00714b37a80403d00f8527411b8b7139d80de",
+      "deliveredBytes": 161612
+    },
+    {
+      "lineId": "ch3-040",
+      "chapterId": "chapter-3",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "3fa7e5c8e005d1e5562801134364163760ae899d384f3a1ae8012a157d254e50",
+      "sourceSha256": "76099e0310175404c229e81487272ce079010c27c2533b3ebacd7ac7af1e001d",
+      "deliveredSha256": "6e81cafc4608355e344087013383930b4442f4fcfb6dcfd4c1fbce7fed9bb5ca",
+      "deliveredBytes": 207692
+    },
+    {
+      "lineId": "ch4-001",
+      "chapterId": "chapter-4",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "a922082a6d4f0bd062376bc1685263273beacbffd083d596456f98bd55f27c01",
+      "sourceSha256": "2d534879d339863e5f2bf56c2f3dcd8b665806650714cedf9bebb46af2af9b28",
+      "deliveredSha256": "834d6ba470e90da411dd84dbc08ea6c90f92b8a4333726d246de867ffe30c021",
+      "deliveredBytes": 180620
+    },
+    {
+      "lineId": "ch4-002",
+      "chapterId": "chapter-4",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "aba40e551383c6245711384cee7595f56869c43af08ba39927aa3a8ddef82132",
+      "sourceSha256": "095e5d6015fa612552bd3f078f33319bdb5fca2240481f1dc6ab067217e33b65",
+      "deliveredSha256": "4f9b1308bc06854a41432904fe9adf527c1dbae493b51bc1c3975b9f57a23b9e",
+      "deliveredBytes": 199052
+    },
+    {
+      "lineId": "ch4-003",
+      "chapterId": "chapter-4",
+      "profileId": "teen-aleem",
+      "canonicalTextSha256": "796a0867a5e9de937bf7345b9ec8596161ea389cc25ab72724d0fd44e35890fc",
+      "sourceSha256": "871699220ec5ee29834291649cd9adaba029809928b59425331b87451fc420eb",
+      "deliveredSha256": "89175688399f045224830e4bd64574d56bed9c1ef78a43afb7d50600dd3b926f",
+      "deliveredBytes": 86444
+    },
+    {
+      "lineId": "ch4-004",
+      "chapterId": "chapter-4",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "80c9619aeb3c64e2feeb3debbfa49749734f966d83960fd4c97d888baa92340d",
+      "sourceSha256": "bb276d42468d491e19b69705152e032e542e3e28c5eaa42700ba734341d614e1",
+      "deliveredSha256": "0e04412d2d65867d0d583c347d7d6e62fd95ee124837cf3ce73e9676354af343",
+      "deliveredBytes": 176876
+    },
+    {
+      "lineId": "ch4-search-love-001",
+      "chapterId": "chapter-4",
+      "profileId": "teen-aleem",
+      "canonicalTextSha256": "9a8a4836848a35ef36e8b6f5a8dcf7f3fede8830af77550c6781f1c7a63c2ac8",
+      "sourceSha256": "f2db3f903b72fa9c0c3808e68a21400e041644bce6e778250326eda237925617",
+      "deliveredSha256": "278742c7d283b798b8334f1aab67608a784ae1d7e2e84eebcc48c8f7ac3cb5df",
+      "deliveredBytes": 95372
+    },
+    {
+      "lineId": "ch4-search-love-002",
+      "chapterId": "chapter-4",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "8576c420de8d9380fdb1ba7b75f6a21018132a9a5046d0496c73440da5d1b003",
+      "sourceSha256": "ed8f4a10b04d474e7f28f0f93d6e74a6d0a41569c33107a7965e73d263804dd5",
+      "deliveredSha256": "5b606ab801fa0ba239f09502484b11030a647caa8bff96d1cb3e87883eccd993",
+      "deliveredBytes": 131660
+    },
+    {
+      "lineId": "ch4-search-proof-001",
+      "chapterId": "chapter-4",
+      "profileId": "teen-aleem",
+      "canonicalTextSha256": "270250979cc723b1bec8f5d7378dd28392a5604183259ad735fcf38a6fef46e6",
+      "sourceSha256": "95a66aeb89474e29c813153713da0be07e99169afcf72c530d8e2b5ad5b11c38",
+      "deliveredSha256": "be5d9181ad36138ff4699517f5b96271a38425c92611f694c021886f8a7602ad",
+      "deliveredBytes": 94508
+    },
+    {
+      "lineId": "ch4-search-proof-002",
+      "chapterId": "chapter-4",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "fadceec5d8bb43f961674957f9a9d25aeca5a912afe251bbefd9c120984fb3ed",
+      "sourceSha256": "09bbefb9285ed6fb3acf3a19b8add69dee9a10ec8ef7b1c2e24033f40900bc0d",
+      "deliveredSha256": "65c65958d98cbf2bc81f45287d3572bea88064f6e47e615ed4dd06d427da13e5",
+      "deliveredBytes": 174860
+    },
+    {
+      "lineId": "ch4-search-control-001",
+      "chapterId": "chapter-4",
+      "profileId": "teen-aleem",
+      "canonicalTextSha256": "e64d17f2a2e21c3a9c0963313d2fd56538fd80a1f8ff2669171921e6ee41973e",
+      "sourceSha256": "0998487fc5c228b0959a5bd421ac6a7b2a0a46a6351a8f3faf71b52fa23aaef8",
+      "deliveredSha256": "27348180d73934d6ad236d78dfd689736ad56065d8066ca7cb2475127312aac3",
+      "deliveredBytes": 93644
+    },
+    {
+      "lineId": "ch4-search-control-002",
+      "chapterId": "chapter-4",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "e8b5f452a5d529de5bd135657b19fbdb99540353b3632042c56371e527be7523",
+      "sourceSha256": "faf02646d175e6f68f7a87b8bffa6406cabeae1ce44e4cb13512c2b8cf2d26d9",
+      "deliveredSha256": "0b9921196324b849fb5eca30df3acd39331f514f9c58214b7fcb82124672d21f",
+      "deliveredBytes": 190412
+    },
+    {
+      "lineId": "ch4-search-join",
+      "chapterId": "chapter-4",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "607bc6e6e923c3df645334eea13897d2cad3f056bcd9ec46605498ba1608f022",
+      "sourceSha256": "a72211a794d364b200d7828bb098e61df4f341f071a809823086108071913e88",
+      "deliveredSha256": "1d21ee8ab6b4143fd44b535ef4b4fc7145b67ab995f168b3bc0e9d432fcbd812",
+      "deliveredBytes": 201932
+    },
+    {
+      "lineId": "ch4-005",
+      "chapterId": "chapter-4",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "2241b6f05cec1c35a760c0f7c4d22c69028c1438741bdd44fe2fdb29084bcc21",
+      "sourceSha256": "7a78b96f3692b3a60fb06c19e698df9bc0d53c220ee79111646b2419f7f0417e",
+      "deliveredSha256": "147b8670f44a267b0384829f6d4dac92a6104cb7b2fed5ebcdbad037ea9b395a",
+      "deliveredBytes": 180620
+    },
+    {
+      "lineId": "ch4-006",
+      "chapterId": "chapter-4",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "c322d778f658fb9524ea010bec7d1154ec94d496a306094f6150b420e817e9a5",
+      "sourceSha256": "81c3be42dcb2014a83ead57bb335bd78c03a63abc2799f3f190a6f9189aade55",
+      "deliveredSha256": "e3b5a3e8c26054b78a2e0518afcddbf6e1ccf3312810ee643758f6cab42d33df",
+      "deliveredBytes": 154700
+    },
+    {
+      "lineId": "ch4-007",
+      "chapterId": "chapter-4",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "7853179e9a9a11ec85eeccbb896e4a767bff11020ef4cc59ed84729338bcafdb",
+      "sourceSha256": "4951e3680b9b46782a2be31bcf63e2005ad2e3d24f8b011bb47cf78b66c423eb",
+      "deliveredSha256": "04d1319c57b23bedec03695ce431237844a293ddd398449ef500e0daf34413d0",
+      "deliveredBytes": 173132
+    },
+    {
+      "lineId": "ch4-008",
+      "chapterId": "chapter-4",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "422feee1283762658faa897199f84c5fc2de1a57593e35955ae41bf12866e513",
+      "sourceSha256": "919e9d5f3aba36e3fb7e475da370977b0b86739c2d25eb1f4632cc8e1b1f4c9a",
+      "deliveredSha256": "fa17a1676e182804371994525b31aa5a737b972b658f53e88d74723fbbb2f3bf",
+      "deliveredBytes": 206540
+    },
+    {
+      "lineId": "ch4-009",
+      "chapterId": "chapter-4",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "c1e3ee025154f2c1cc0913e48a3961f6b618aa62351d8d829b4d2f4c3dd0f4f0",
+      "sourceSha256": "61db2f916a8de6604aab3f0381f8417c0cdd0aba0e8f61714bbcb5c7ff2cad96",
+      "deliveredSha256": "dc436d61facf24d3feca9cd61f0703d7c75316f6d4a91f3200524c8b0b57c905",
+      "deliveredBytes": 154700
+    },
+    {
+      "lineId": "ch4-010",
+      "chapterId": "chapter-4",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "ad4dfc6e53f72dc0d49c3494c5f7c8f486952184f9b641c158b5d571440fd879",
+      "sourceSha256": "12c8267af281f5054c7b41923fc937f5bf13349d79eff9e59f093acdba1cf7ee",
+      "deliveredSha256": "7c55bcfa47e58b0351509af74a7943668a5b5cae018644ef65c160b696065561",
+      "deliveredBytes": 176012
+    },
+    {
+      "lineId": "ch4-011",
+      "chapterId": "chapter-4",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "e3bcc4c62d179aab0a449da98ed3c9326b59a90db539a6e1e1246f9b7e1f219d",
+      "sourceSha256": "d3b1130b52efcc14e17b6a8180e9d1d3da3f917cd59cef2aecffe2016b0ffff8",
+      "deliveredSha256": "e0022f846815c2a5b8f892c9e07b5ca362ae255633a1d8607e5b3df44000af60",
+      "deliveredBytes": 137420
+    },
+    {
+      "lineId": "ch4-012",
+      "chapterId": "chapter-4",
+      "profileId": "mei-lin",
+      "canonicalTextSha256": "8e4f817d6b6890427ab3880a7bf22396e4ba9ac2332e86fe9eaabd98ce5e50cf",
+      "sourceSha256": "0307128d0be8eea3c2c97c104ff4eba7f6d7aa4dc9c0a5f021c0bcea9f2ec5e2",
+      "deliveredSha256": "063ed24fca970c8653f742c8337c0eb12481f217174deb3a98f9808467cfa06e",
+      "deliveredBytes": 99116
+    },
+    {
+      "lineId": "ch4-013",
+      "chapterId": "chapter-4",
+      "profileId": "teen-aleem",
+      "canonicalTextSha256": "c05754fb2d079356b8632d4650518341dc9eb02f927bae632b8e501478c08798",
+      "sourceSha256": "fc171c4cb03a373eda79cebe626bdd615a07883572ec0a77132592a228e4afd5",
+      "deliveredSha256": "70069016753b2ef6ce46885930786c6557fa13e8efb21027ddb2321fbd35e595",
+      "deliveredBytes": 54764
+    },
+    {
+      "lineId": "ch4-014",
+      "chapterId": "chapter-4",
+      "profileId": "mei-lin",
+      "canonicalTextSha256": "3fdce016a10822b6302b667fa41066d2298c353a556dca7b06c3c8af27f130e3",
+      "sourceSha256": "ac6b275bcbc684148a243f11e083659a3e441afcb22e80c11adc22bc37d747d9",
+      "deliveredSha256": "31b908789127e5ddf2ee1aa1d9e696744afdfedccde781bb154700ccad0c76f8",
+      "deliveredBytes": 41516
+    },
+    {
+      "lineId": "ch4-015",
+      "chapterId": "chapter-4",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "40aea7926fbdaa009774a0c6366b6838dd8c4d8081a773447c5865d7dd435b5f",
+      "sourceSha256": "f4b08893af173021a831f2b4bb60e85563f9e82d51b886f4671f9097976cb929",
+      "deliveredSha256": "120651dee51422edba1436064a9b222d801df8e8a4dd31bad9dcf7cf5f60717d",
+      "deliveredBytes": 158732
+    },
+    {
+      "lineId": "ch4-016",
+      "chapterId": "chapter-4",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "206665068fd51a1df1b2162d8702548c15f744becb1763b6445536911054d971",
+      "sourceSha256": "db762e8b7f8511254ae5c9aad222f9b4af33d28c7eb7dd6fa77e86ca6b25e1cc",
+      "deliveredSha256": "b3af38acf1cbcf1459ea0c6de84a21b321374f5f2931db30ccbc845e43a0740e",
+      "deliveredBytes": 152972
+    },
+    {
+      "lineId": "ch4-017",
+      "chapterId": "chapter-4",
+      "profileId": "mei-lin",
+      "canonicalTextSha256": "55ab76b31ebb350744860faae0698da5e88bea4ec5a155e4beea5576b7c06f90",
+      "sourceSha256": "8a9f3e9d4afa677cd3c9810dadb1412777a6cf1d4c1cc299a2835dc4494a9de2",
+      "deliveredSha256": "947ea31b2989bb32271f29236b4cfcac036fecdce3fccdd7ad73d00572687a00",
+      "deliveredBytes": 101996
+    },
+    {
+      "lineId": "ch4-018",
+      "chapterId": "chapter-4",
+      "profileId": "teen-aleem",
+      "canonicalTextSha256": "e29f04a80613a5483cccecbcacc2f50d37ac581107ecd2e86ffe3488454108d7",
+      "sourceSha256": "7abd80ee7295f4fd1543bcb7ecedba38d9c7c99810448fcb776343795e25c481",
+      "deliveredSha256": "cb0413c45441afa797c7c6af3598d029450c618ade2ff0061500b2ea08a44313",
+      "deliveredBytes": 34892
+    },
+    {
+      "lineId": "ch4-019",
+      "chapterId": "chapter-4",
+      "profileId": "mei-lin",
+      "canonicalTextSha256": "9987ff59ed8a02023d22c1b690a5c60fbb983769cfbd3dcb96ead013c0ba5953",
+      "sourceSha256": "0ba3b2d746006cedb1a9326d29e21f2e940f4f94b25bc66d7a234e80da64be7c",
+      "deliveredSha256": "ed4ab1fbe56ad2040e245dfb0abb1ea7eccf7e5682f5f5ae0c3a9d4a48aa2e3e",
+      "deliveredBytes": 64556
+    },
+    {
+      "lineId": "ch4-020",
+      "chapterId": "chapter-4",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "aa2b61c261570751c736b78a8799ab9de6527d67e1f85b30ef3f8d560b5d9450",
+      "sourceSha256": "42594fb718376679bcc79418ffab50dcc741ae704c413a8d28e5a0053771ef24",
+      "deliveredSha256": "441ec989bd6a627f914184d5bf7b66ef3dcca2315bc81fe29f1c80df0ad5edd7",
+      "deliveredBytes": 159596
+    },
+    {
+      "lineId": "ch4-021",
+      "chapterId": "chapter-4",
+      "profileId": "teen-aleem",
+      "canonicalTextSha256": "088e363cba13e81f7da4315382ea3c1b0f5c6dc886d12ae80e7bf0932a997fd3",
+      "sourceSha256": "128c3147eb50b5adac2f1833cc236fd4bd8de8241904188f11fbca4e63a42fe6",
+      "deliveredSha256": "ac716c3ded892b73abad5990a236d59b43c4a52db6a00e139c8b8a337bd75e49",
+      "deliveredBytes": 83852
+    },
+    {
+      "lineId": "ch4-022",
+      "chapterId": "chapter-4",
+      "profileId": "mei-lin",
+      "canonicalTextSha256": "71cbb43c5fb5d0cb1225992522b449f4add252077b14d86ca2e52c5d62b38626",
+      "sourceSha256": "1d2e5cf9dd6d4d25d1068d166c4f1b34d8dc4258ffa1864a3c5a129b55e77cb8",
+      "deliveredSha256": "2a5c389255a00d582441cb175f9884999bec3611719961db1db670c218965fbe",
+      "deliveredBytes": 50156
+    },
+    {
+      "lineId": "ch4-023",
+      "chapterId": "chapter-4",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "7733375134a467aaa6cb4720686e1135ba287abf0eb8cbe0879919912bf9bed0",
+      "sourceSha256": "68fd0b113c9619321bedc63d4896ef162795cbc2fcc7e02624f50276d93cfe94",
+      "deliveredSha256": "54fa59b8010513a4d5af568d236a5e5fbe16ee48ce1874620eee931f036173f2",
+      "deliveredBytes": 180620
+    },
+    {
+      "lineId": "ch4-024",
+      "chapterId": "chapter-4",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "fffc8c6a1fa074743de29f7d0245d53ff400bba7c0d1cb335b76e6d0879c584c",
+      "sourceSha256": "80c7f7fa6b5f92657b19574795846f1b5785b1569a8a022aca5894bbeaf9cc1f",
+      "deliveredSha256": "52ff2292d9df49ea28d86c4d998415ba741f4ce866a10934519ae7618f5eb416",
+      "deliveredBytes": 195020
+    },
+    {
+      "lineId": "ch4-025",
+      "chapterId": "chapter-4",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "aa7c3b22aa69a96b03b76610d4b3b3fa7e4980268fe1a29805d6eb17ba001781",
+      "sourceSha256": "bd1487a9cc1db304d62b0483affe59986ace208044398532b683e728970c5453",
+      "deliveredSha256": "1da8df47f0506d2ad266e962b81487c0a1d71a7788e41b1e511de50a942d7a4a",
+      "deliveredBytes": 170252
+    },
+    {
+      "lineId": "ch4-026",
+      "chapterId": "chapter-4",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "dada3d3c8dde39f0d24146a8609e381d223ec8d9110b50d6ae3bb9a880886f94",
+      "sourceSha256": "ebdfbdef2b0dceaedf425b410c57334c334900c4f66f811b8574efd569cda470",
+      "deliveredSha256": "1b2015502a0b38ecad34cb5125413a38fdb5cf775f0daaf7a33a54c683ba0631",
+      "deliveredBytes": 176012
+    },
+    {
+      "lineId": "ch4-027",
+      "chapterId": "chapter-4",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "b5ff0d293de2ba2cadca4f823c6ee9394a0cacc6ba1ca4c8501df688f009a319",
+      "sourceSha256": "2594283c7588cc0e65b256cc3d582f400cb8c2d506a6783514f3e4b0094d75d9",
+      "deliveredSha256": "d00095b32e9b36e553c80cc6ae3afb5a307052a39388b2f39d05ea21424a665d",
+      "deliveredBytes": 180620
+    },
+    {
+      "lineId": "ch4-028",
+      "chapterId": "chapter-4",
+      "profileId": "teen-aleem",
+      "canonicalTextSha256": "b5a17ecad9a717d568b0b14b40499efc5105e7a363e9d1627bc46d79fd142eda",
+      "sourceSha256": "b0bf91cdfaeb551604c18299472edc3d28464aca446632717b602c812191d155",
+      "deliveredSha256": "346b36d12d104b88838a6d546d383f880d80eb6d6e4c023f0666c60464eab90c",
+      "deliveredBytes": 73772
+    },
+    {
+      "lineId": "ch4-029",
+      "chapterId": "chapter-4",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "e4d43880f0b075db8ef78e4570413a6d14be7df35e4dbcb4d8f1cb8299d0fd25",
+      "sourceSha256": "1a7c0fe451220f038913ce6e8ebe7c373eb678a2e974005fd493c09ec43bc688",
+      "deliveredSha256": "c888e1b40628c9846b20768ab1e0c0c13ca6efdf881c9e898b1075f64faea537",
+      "deliveredBytes": 148076
+    },
+    {
+      "lineId": "ch4-030",
+      "chapterId": "chapter-4",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "c770e8a7ab0632fafdec828b573c273d70fc3cd77d8f416e1c76017198848c0e",
+      "sourceSha256": "77f4cac0dbeb1f0a5ca3be55987a6e9ae3593cd73eade8f7f6fac8b7778d2fdd",
+      "deliveredSha256": "4a761e941397f666ded9a8e98ec6b2f40a223173ffe9dbcd5da9a72f922c60fd",
+      "deliveredBytes": 124172
+    },
+    {
+      "lineId": "ch4-031",
+      "chapterId": "chapter-4",
+      "profileId": "mei-lin",
+      "canonicalTextSha256": "8391e1680725c6f5ceea309d4ae79f3a2d0cbdbc3e2ffbe52441d98b54c09336",
+      "sourceSha256": "53c2cf493cac293e34920025a434d370af560ee7079daabe9389a0bf405c15f3",
+      "deliveredSha256": "4811160e1df18f939622f61db0594e15e40a9c9155efd98e3962d2a82e046cff",
+      "deliveredBytes": 83852
+    },
+    {
+      "lineId": "ch4-032",
+      "chapterId": "chapter-4",
+      "profileId": "teen-aleem",
+      "canonicalTextSha256": "6639c49e180246af4f864328801aa459787452899c98ae50418d5ddb1ce5cb13",
+      "sourceSha256": "f1236a1c811e2ed37c251d91ed76e5634f8c37da128bb77a600f2a23f0298d7b",
+      "deliveredSha256": "9d098f620e13b805b14dda1f92f188125842feb4aa07e4fc1757d2aa78fa165e",
+      "deliveredBytes": 51020
+    },
+    {
+      "lineId": "ch4-033",
+      "chapterId": "chapter-4",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "64aa6a8a939b6cff7804cda5efbe711167f2fb2e0bce1c5d9f4826a0e348612f",
+      "sourceSha256": "5baa457b656f43f9a511f7ba13557b6979ab5a17960d28b476c4300f06634a31",
+      "deliveredSha256": "d7f410d68ee60a3e316d269bd61bafa212ade931a6193bced80d80febb7ba2bf",
+      "deliveredBytes": 190412
+    },
+    {
+      "lineId": "ch4-034",
+      "chapterId": "chapter-4",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "5994162686573bee6c530055e7e47dd59b735b9d94ceef4285b2246a4ede9379",
+      "sourceSha256": "feb552e4f33381fc847927d4cfff5cd2dd27051518296b0492f1a4a4d5ec5be7",
+      "deliveredSha256": "94ebae9c0603031ec1cd93a2469cfc1047c9f9f5ac9dc6ea3ef60a1ee738894d",
+      "deliveredBytes": 206540
+    },
+    {
+      "lineId": "ch4-035",
+      "chapterId": "chapter-4",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "3129a34ffec3871c21f7024f3d86ca885016d2ce6d453e26a1272f96d5bf5ead",
+      "sourceSha256": "f1c200befb60f5d701d20f69ffa86174a349880ac92c23d6948008bec3362ab1",
+      "deliveredSha256": "9cd6ae9591c76e1e3c3afc555141d43503a36e4ccab8acaab9003070679a4e59",
+      "deliveredBytes": 199916
+    },
+    {
+      "lineId": "ch4-036",
+      "chapterId": "chapter-4",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "f8b8a82a778841f8b34e191bae1a1d62ba35d0c62f39c3543368d46f7687d482",
+      "sourceSha256": "f7d3a81b1c0584fe6d361985d7d4968951bf6dad20d15a81f6025b93f46522a4",
+      "deliveredSha256": "40e1f578c02916534c156cbab3656b08585a0d7252db7cc616b61b6a68797938",
+      "deliveredBytes": 148076
+    }
+  ]
+}

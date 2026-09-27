@@ -2,8 +2,8 @@
 
 The deployed game never calls a speech API. Voice acting is imported as
 pre-rendered MP3 files, with provider and licence references. Imports may cover
-complete chapters while the remaining story stays subtitle-only. The first
-production batch contains 64 ElevenLabs clips for the prologue and Chapter 1,
+complete chapters while the remaining story stays subtitle-only. The current
+production delivery contains 300 ElevenLabs clips for the prologue and Chapters 1–4,
 using the user's selected library voices. Never put provider API
 keys, session cookies, private voice IDs, or runtime text-to-speech code in this
 repository or in the deployed application.
@@ -40,7 +40,7 @@ To import chapter by chapter, set the optional `chapterIds` array to the
 complete cumulative set of chapters to include:
 
 ```json
-"chapterIds": ["prologue", "chapter-1"]
+"chapterIds": ["prologue", "chapter-1", "chapter-2", "chapter-3", "chapter-4"]
 ```
 
 Include exactly one clip for every spoken line in every selected chapter,
@@ -49,8 +49,8 @@ speaker do not receive clips. List the profiles used by those chapters.
 Unknown or duplicate chapter IDs and incomplete selected chapters are rejected.
 Chapters outside the selection remain subtitle-only.
 
-The selection is cumulative, not an append operation. When Chapter 2 is ready,
-add its ID and clips to the existing prologue/Chapter 1 manifest and retain
+The selection is cumulative, not an append operation. When Chapter 5 is ready,
+add its ID and clips to the existing prologue/Chapters 1–4 manifest and retain
 the earlier clips and profiles. Omitting a previously imported chapter from
 the next manifest is rejected to preserve its deployed files and offline pack.
 

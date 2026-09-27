@@ -71,7 +71,7 @@ test('plays imported narration under the nested base and keeps subtitles after a
 });
 
 test('downloads chapters independently and plays the imported voices offline', async ({ page, context }) => {
-  test.setTimeout(90_000);
+  test.setTimeout(120_000);
   await observeAudio(page);
   await openApp(page);
   await page.evaluate(async () => { await navigator.serviceWorker.ready; });
@@ -80,24 +80,35 @@ test('downloads chapters independently and plays the imported voices offline', a
   await dismissNotice(page);
   await page.getByRole('button', { name: 'Offline & install', exact: true }).click();
   const panel = page.getByRole('dialog', { name: 'Offline & install' });
-  const prologuePack = offlinePackManifests.find((pack) => pack.chapterId === 'prologue');
-  const chapterPack = offlinePackManifests.find((pack) => pack.chapterId === 'chapter-1');
-  if (!prologuePack || !chapterPack) throw new Error('Expected both imported voice packs.');
-  const prologueRow = panel.getByRole('article').filter({ has: page.getByRole('heading', { name: prologuePack.title, exact: true }) });
-  const chapterRow = panel.getByRole('article').filter({ has: page.getByRole('heading', { name: chapterPack.title, exact: true }) });
-  await expect(prologueRow.getByRole('status')).toHaveText('not downloaded');
-  await prologueRow.getByRole('button', { name: 'Download', exact: true }).click();
-  await expect(prologueRow.getByRole('status')).toHaveText('ready', { timeout: 30_000 });
-  await expect(chapterRow.getByRole('status')).toHaveText('not downloaded');
-  await chapterRow.getByRole('button', { name: 'Download', exact: true }).click();
-  await expect(chapterRow.getByRole('status')).toHaveText('ready', { timeout: 30_000 });
-  await prologueRow.getByRole('button', { name: 'Verify', exact: true }).click();
-  await expect(prologueRow.getByRole('status')).toHaveText('ready');
+  expect(offlinePackManifests.length).toBeGreaterThan(1);
+  const rows = offlinePackManifests.map((pack) => panel.getByRole('article').filter({
+    has: page.getByRole('heading', { name: pack.title, exact: true }),
+  }));
+  for (const row of rows) await expect(row.getByRole('status')).toHaveText('not downloaded');
+  for (const [index, row] of rows.entries()) {
+    await row.getByRole('button', { name: 'Download', exact: true }).click();
+    await expect(row.getByRole('status')).toHaveText('ready', { timeout: 30_000 });
+    const nextRow = rows[index + 1];
+    if (nextRow) await expect(nextRow.getByRole('status')).toHaveText('not downloaded');
+    await row.getByRole('button', { name: 'Verify', exact: true }).click();
+    await expect(row.getByRole('status')).toHaveText('ready');
+  }
 
-  await context.setOffline(true);
-  for (const profile of ['adult-aleem', 'young-aleem', 'alya']) {
+  // Exercise every imported chapter and every cast profile as coverage grows.
+  const sampleLineIds = new Set<string>();
+  for (const pack of offlinePackManifests) {
+    const clip = voiceEntries.find((entry) => entry.packId === pack.id);
+    if (!clip) throw new Error(`Expected an imported clip for ${pack.chapterId}.`);
+    sampleLineIds.add(clip.lineId);
+  }
+  for (const profile of new Set(voiceEntries.map((entry) => entry.provenance.profile))) {
     const clip = voiceEntries.find((entry) => entry.provenance.profile === profile);
     if (!clip) throw new Error(`Expected an imported ${profile} clip.`);
+    sampleLineIds.add(clip.lineId);
+  }
+
+  await context.setOffline(true);
+  for (const clip of voiceEntries.filter((entry) => sampleLineIds.has(entry.lineId))) {
     await saveAt(page, clip.lineId);
     const replay = page.getByRole('button', { name: 'Replay voice', exact: true });
     await expect(replay).toBeEnabled();
@@ -106,7 +117,8 @@ test('downloads chapters independently and plays the imported voices offline', a
     await expect(page.getByLabel('Dialogue', { exact: true })).not.toContainText('Voice unavailable');
   }
 
-  const unvoiced = story.nodes.find((node) => node.type === 'line' && node.chapterId === 'chapter-2' && node.speakerId !== null);
+  const voicedChapters = new Set(offlinePackManifests.map((pack) => pack.chapterId));
+  const unvoiced = story.nodes.find((node) => node.type === 'line' && !voicedChapters.has(node.chapterId) && node.speakerId !== null);
   if (!unvoiced || unvoiced.type !== 'line') throw new Error('Expected a later unvoiced chapter.');
   await saveAt(page, unvoiced.id);
   await expect(page.getByRole('button', { name: 'Replay voice', exact: true })).toBeDisabled();
