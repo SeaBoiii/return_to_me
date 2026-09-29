@@ -66,7 +66,7 @@ npm run generate:icons
 
 ## Production voices
 
-The provider-neutral voice workflow is documented in [voice-production/README.md](voice-production/README.md). The current delivery supplies 300 pre-rendered ElevenLabs clips for the prologue and Chapters 1–4, including every choice branch, using the user's selected library voices. Later chapters remain subtitle-only. The game plays imported lines automatically and offers Replay voice, volume, mute, and five optional chapter downloads for offline listening.
+The provider-neutral voice workflow is documented in [voice-production/README.md](voice-production/README.md). The current delivery supplies 517 pre-rendered ElevenLabs clips for the prologue and Chapters 1–7, including every choice branch, using the user's selected library voices. Later chapters remain subtitle-only. The game plays imported lines automatically and offers Replay voice, volume, mute, and eight optional offline voice packs.
 
 Imports are atomic and may cover the full story or complete chapters selected with `chapterIds`. Each import replaces the deployed voice set, so include all previously imported chapters and their clips when adding the next chapter. The importer checks profiles, line coverage, provenance references, chapter pack sizes, and normalized MP3 properties through ffmpeg/ffprobe.
 
