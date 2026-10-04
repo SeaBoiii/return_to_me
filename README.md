@@ -29,12 +29,13 @@ npm run lint
 npm run typecheck
 npm run validate
 npm run validate:deploy
+npm run validate:release
 npm run test
 npm run test:e2e
 npm run build
 ```
 
-Voice files are optional during development and for a subtitles-only deployment. The game remains fully playable through subtitles and never calls a runtime speech service.
+Development builds can omit voice files, and the deployment workflow also supports subtitles-only editions. The game remains fully playable through subtitles and never calls a runtime speech service.
 
 ## GitHub Pages
 
@@ -66,17 +67,18 @@ npm run generate:icons
 
 ## Production voices
 
-The provider-neutral voice workflow is documented in [voice-production/README.md](voice-production/README.md). The current delivery supplies 517 pre-rendered ElevenLabs clips for the prologue and Chapters 1–7, including every choice branch, using the user's selected library voices. Later chapters remain subtitle-only. The game plays imported lines automatically and offers Replay voice, volume, mute, and eight optional offline voice packs.
+The provider-neutral voice workflow is documented in [voice-production/README.md](voice-production/README.md). The complete edition supplies 775 pre-rendered ElevenLabs clips covering every spoken line in the prologue, Chapters 1–12, and epilogue, including every choice branch, using the user's selected library voices. The game plays imported lines automatically and offers Replay voice, volume, mute, and 14 optional offline voice packs.
 
-Imports are atomic and may cover the full story or complete chapters selected with `chapterIds`. Each import replaces the deployed voice set, so include all previously imported chapters and their clips when adding the next chapter. The importer checks profiles, line coverage, provenance references, chapter pack sizes, and normalized MP3 properties through ffmpeg/ffprobe.
+Imports are atomic and may cover the full story or complete chapters selected with `chapterIds`. The current manifest includes all 14 chapter entries. Each import replaces the deployed voice set, so subsequent imports must retain all previously imported chapters and their clips. The importer checks profiles, line coverage, provenance references, chapter pack sizes, and normalized MP3 properties through ffmpeg/ffprobe.
 
 ```bash
 npm run voices:check -- voice-production/production.voice-import.json
 npm run voices:import -- voice-production/production.voice-import.json
 npm run validate:deploy
+npm run validate:release
 ```
 
-Use `npm run validate:deploy` for the Pages-compatible gate: an empty production manifest is accepted as subtitles-only, while each imported chapter must cover every spoken line. `npm run validate:release` remains the stricter gate requiring voice coverage for the entire story; it is expected to fail while later chapters are unvoiced. Automated provenance checks verify record completeness, not provider licensing rights; keep the underlying delivery and licence records locally.
+Use `npm run validate:deploy` for the Pages-compatible gate: an empty production manifest is accepted as subtitles-only, while each imported chapter must cover every spoken line. `npm run validate:release` requires voice coverage for the entire story. The complete 775-clip edition passes both gates. Automated provenance checks verify record completeness, not provider licensing rights; keep the underlying delivery and licence records locally.
 
 No API keys, private provider identifiers, or runtime TTS belong in the repository or deployed application.
 

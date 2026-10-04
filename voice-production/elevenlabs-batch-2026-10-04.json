@@ -1,0 +1,2404 @@
+{
+  "batch": "elevenlabs-v3-2026-10-04-final-chapters",
+  "storyId": "return-to-me-school-years",
+  "contentRevision": "school-years-6.0.0",
+  "provider": "ElevenLabs",
+  "model": "eleven_v3",
+  "generatedOn": "2026-10-04",
+  "termsReference": "https://elevenlabs.io/terms-of-use",
+  "sourceRecords": "Original masters, exact generation requests, provider receipts and processing reports are retained in the local voice-production/development/elevenlabs-production directory. Credentials and provider voice IDs are excluded from published manifests.",
+  "profiles": [
+    {
+      "id": "adult-aleem",
+      "speakerId": "adult-aleem",
+      "voiceName": "Clyde - Full, Diplomatic and Inviting",
+      "postprocess": {}
+    },
+    {
+      "id": "claire",
+      "speakerId": "claire",
+      "voiceName": " Cruella - Dangerously charming",
+      "postprocess": {}
+    },
+    {
+      "id": "aleem-adult",
+      "speakerId": "aleem-adult",
+      "voiceName": "Mark - Casual, Relaxed and Light",
+      "postprocess": {}
+    },
+    {
+      "id": "imran",
+      "speakerId": "imran",
+      "voiceName": "Severin - Powerful & Commanding",
+      "postprocess": {}
+    },
+    {
+      "id": "nadiah",
+      "speakerId": "nadiah",
+      "voiceName": "Vicki - Soft, Smooth and Slow",
+      "postprocess": {}
+    },
+    {
+      "id": "mariam",
+      "speakerId": "mariam",
+      "voiceName": "Daisy Sweetwood - Charming little kind ",
+      "postprocess": {}
+    },
+    {
+      "id": "yusuf",
+      "speakerId": "yusuf",
+      "voiceName": "David - Deep, Southern, Cowboy",
+      "postprocess": {}
+    },
+    {
+      "id": "nurulain",
+      "speakerId": "nurulain",
+      "voiceName": "Lisa- Warm, Playful and Inviting",
+      "postprocess": {}
+    },
+    {
+      "id": "nurul-mother",
+      "speakerId": "nurul-mother",
+      "voiceName": "Lyan",
+      "postprocess": {}
+    },
+    {
+      "id": "nurul-father",
+      "speakerId": "nurul-father",
+      "voiceName": "Victor - Deep, Malevolent and Ancient",
+      "postprocess": {}
+    }
+  ],
+  "clips": [
+    {
+      "lineId": "ch7-001",
+      "chapterId": "chapter-7",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "908dc363f604d836160ddb0ae8922113a77c06eb13ede79ef34874aa8e5a16df",
+      "sourceSha256": "aa456c1ea24e0743b965a373c1a3bc221488a7737071d4311e900c523d2651c7",
+      "deliveredSha256": "2f0c0fce9fdfa147ea8fde5815aa49cd8f758247333dd720791ddf4647ac79ba",
+      "deliveredBytes": 216332
+    },
+    {
+      "lineId": "ch7-002",
+      "chapterId": "chapter-7",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "f46cadf1c4c6c11e648069faf2a9e763a0b60762952b85d8215368f73d14b7cc",
+      "sourceSha256": "4730fb9289052e9eb711c8e74da4bd306e2ec6da9d886f9f41698eec7097aae2",
+      "deliveredSha256": "c13ca64435bf3b85709ff3d4241f08d91a3e960272ad0b61b783045ee8836e87",
+      "deliveredBytes": 214316
+    },
+    {
+      "lineId": "ch7-003",
+      "chapterId": "chapter-7",
+      "profileId": "claire",
+      "canonicalTextSha256": "89399b79546e7f7e0300b18e2afd1871ef5eb2e18c8b853a6ae71c511fae5a53",
+      "sourceSha256": "2968d8f51a016489ab72add0bb59b9dbefcd77da9efc9f9813dc375faf157c03",
+      "deliveredSha256": "2a74d7ab71a42eeb12b7a5d1a09e0542e7b8c539c840a015cc1ba886274260eb",
+      "deliveredBytes": 75212
+    },
+    {
+      "lineId": "ch7-004",
+      "chapterId": "chapter-7",
+      "profileId": "aleem-adult",
+      "canonicalTextSha256": "82e334e18ec0da6d9512f8336f04cbdf26b77a355af01260939153fb8ad57eb3",
+      "sourceSha256": "5a44fa9c97a7604f0d18e389bb3f3f31e248c9ef44e38ac05c8bc49cdede1bcc",
+      "deliveredSha256": "76f47852b22223a805c6bb2ae9cff594930339eef3de081c9268d91fb6df1673",
+      "deliveredBytes": 39500
+    },
+    {
+      "lineId": "ch7-005",
+      "chapterId": "chapter-7",
+      "profileId": "claire",
+      "canonicalTextSha256": "b45507ef71b13ebb8af07e3286e71034b8530971d1f0826a705980dc52139845",
+      "sourceSha256": "f0d64321bb13bc1854611ac16b476ca23b06ec1568c50e11ffee0630a3d49893",
+      "deliveredSha256": "b6024f21b33c244a4b443345834d68fb447e484a45fbbde283e8e2a7e82df105",
+      "deliveredBytes": 45260
+    },
+    {
+      "lineId": "ch7-006",
+      "chapterId": "chapter-7",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "b4a7972ce1d7c2b7d196ffc618cfc0380c77805824c7a61b3ee9657aecf41b17",
+      "sourceSha256": "5ae89328a2ede4074029eaf0d6efe16ca3df643ffa712e236f28a663da48da2e",
+      "deliveredSha256": "e08827c01f7543adfe0e5642bb7f848d721feb4d97a90ec4bfcf6f455815fbee",
+      "deliveredBytes": 233612
+    },
+    {
+      "lineId": "ch7-007",
+      "chapterId": "chapter-7",
+      "profileId": "claire",
+      "canonicalTextSha256": "04d25a91ac486d015d876ec9df6bf4238c840392c1f2bdfa0c6468ed89ef5041",
+      "sourceSha256": "56a1878a8546f9e1e76e589e4882ada7625a43b34c861139e084da2c9af6f6b2",
+      "deliveredSha256": "2aa7fa6cd54da7a46d2134c634b06cbcf5bbb39cd31ed48ae3685063b0dbc3c3",
+      "deliveredBytes": 91340
+    },
+    {
+      "lineId": "ch7-008",
+      "chapterId": "chapter-7",
+      "profileId": "aleem-adult",
+      "canonicalTextSha256": "f747d5d6edaf6f5a04e0e3f18df53be75f4ab19bcaac3fd1928e7535a520eb61",
+      "sourceSha256": "d1e506fd118277c2ec5e477a8ec55702ee8a98d207aed5d0f8d8e1cca3229d93",
+      "deliveredSha256": "8b3417125841d3ecce6f4d76b36a09e6aed8892dfe639d6715f825e09866180a",
+      "deliveredBytes": 29996
+    },
+    {
+      "lineId": "ch7-009",
+      "chapterId": "chapter-7",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "887c46ced74c2fdcec84a09195834e59c3b40db6ff5ee718b757bb8f6e98c97b",
+      "sourceSha256": "2d26cef6079155d514370cac377e726f6f7ebcf907aa1c17ede507c9c7c53290",
+      "deliveredSha256": "6956772d199a42cd88bdf485c68809ff9bc61a26b659138a85955fb6c1f18e8d",
+      "deliveredBytes": 226700
+    },
+    {
+      "lineId": "ch7-pantry-routine",
+      "chapterId": "chapter-7",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "e3deba0d942a26683502ddd4562916826b4a1a6a49ccee108e579489e071d0db",
+      "sourceSha256": "a32da6bfa1bd4e5c009dd7c1fa161abaa702dab6d15cf93184c15b7b1717c4ce",
+      "deliveredSha256": "839479230a2e985ec9727515ef5aebf7c48f3ba804b215aa37e9aac655a50f2c",
+      "deliveredBytes": 229580
+    },
+    {
+      "lineId": "ch7-010",
+      "chapterId": "chapter-7",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "3b99d2d51913160f2af38b21af17f66dfb22e80453e22ffbb71e66773f8467d4",
+      "sourceSha256": "7dea590f8ad13f7549b83a5338605b885a03f18fdbef14bcb80912799c12fdb8",
+      "deliveredSha256": "07f008cd28b49c9ad84e0927f12c6b8ad808f799ca6fafe02001f28b49ef9199",
+      "deliveredBytes": 272780
+    },
+    {
+      "lineId": "ch7-011",
+      "chapterId": "chapter-7",
+      "profileId": "claire",
+      "canonicalTextSha256": "b021d408c9359b24eec87d1798e9a0f2f337cf84bce53de0153a5759903819e4",
+      "sourceSha256": "cb213625160d7236a9ac12af7f4c4917e76e4b949ebf77d27c9ad1119fd13ba4",
+      "deliveredSha256": "74b5208bdab2277404c22e0b24891801e10cfbcaf80df31aaa1276210b2e9e44",
+      "deliveredBytes": 59660
+    },
+    {
+      "lineId": "ch7-012",
+      "chapterId": "chapter-7",
+      "profileId": "aleem-adult",
+      "canonicalTextSha256": "59fab2ebe599b5ab832538a761445692c276cd77cd5853282ec737d3c9f60d4a",
+      "sourceSha256": "3763b1a72e72283df06f0bb2f59236241fd562f9b0e4a7d557d4ba5a6db3eb04",
+      "deliveredSha256": "46d172d26ae8328400751b11dcc8f5122b28cc407b2390ad681d85a9e53d6ff5",
+      "deliveredBytes": 37772
+    },
+    {
+      "lineId": "ch7-013",
+      "chapterId": "chapter-7",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "b8539c272d9777e19463fbff3bbc567166e70ad2a5ee813737367c7282df1abc",
+      "sourceSha256": "9bdb2f97bf4a283c4da5db73c1eee47a6775e68a68670e4202a0168a23477e49",
+      "deliveredSha256": "8f5b54a98ddb45a43277c7dbe4e6fb752cbe86b0e6e98bb572c09f3646c6ed5a",
+      "deliveredBytes": 259532
+    },
+    {
+      "lineId": "ch7-014",
+      "chapterId": "chapter-7",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "14d864dd29ac522468650b5d5f9cce62a20ae525e8a9f407e0e6e4d065778cf9",
+      "sourceSha256": "2f424a7c5cf32e5c9f6c3c13b02104ebd4b97b0c74e1cde2ca6227c8bb27aa8b",
+      "deliveredSha256": "0576d42f163f8a0dfe1f8db1fc46772ac00ff5b9aea8df1b799b333614d3e5b4",
+      "deliveredBytes": 279692
+    },
+    {
+      "lineId": "ch7-before-valentines",
+      "chapterId": "chapter-7",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "ec0102711b609daba5a2a825c1c5a698bd3b767b221c17bcdb4284a7e3a43d5c",
+      "sourceSha256": "2495fceb4b202f42360505395e87b5e7864d797981534ba890f6a0e674a4a402",
+      "deliveredSha256": "63838c858191a4d34cef2c2425ee9fa5bf31d6a8857efff958c44c6e07c13434",
+      "deliveredBytes": 246860
+    },
+    {
+      "lineId": "ch7-015",
+      "chapterId": "chapter-7",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "f60d393d4d3093890f20fcaadff0dd86e970e419c219be313cb44b48a4aaca89",
+      "sourceSha256": "6e19ce2e18f445894f08758e87773def45ee79a525f560b85a6ee8db0785dbd4",
+      "deliveredSha256": "22c6126c915ebf7e2fa2b09ae70071a82348f02efe977b1930845e148f2dbadc",
+      "deliveredBytes": 236492
+    },
+    {
+      "lineId": "ch7-016",
+      "chapterId": "chapter-7",
+      "profileId": "aleem-adult",
+      "canonicalTextSha256": "c5708187fe516b555dfe8c2f46764047db8588a00bf36589de013b8e0faf5b18",
+      "sourceSha256": "bc5e92b4bbea62c7e0ceb54d3cfae6f3c0aa11f0e988f0dd2d930855fedd2459",
+      "deliveredSha256": "471e4564d5c87f8784d2383bdd14f7514164a68469a8da8d49d5b112872b08c4",
+      "deliveredBytes": 85580
+    },
+    {
+      "lineId": "ch7-017",
+      "chapterId": "chapter-7",
+      "profileId": "claire",
+      "canonicalTextSha256": "1db1520cf2c542445493f0f5249b4359df0853d432c9f59cc936be48506c6068",
+      "sourceSha256": "4daaea0b3ce95ba5cb5c3976673da2bfc27533eb0b984991165728cb7739f0f4",
+      "deliveredSha256": "b2c52f6ed24b354bd88f4697ec1d57bccab2aad8ae0d9e554eb7081625439aa6",
+      "deliveredBytes": 160460
+    },
+    {
+      "lineId": "ch7-018",
+      "chapterId": "chapter-7",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "83b6a93b198a1a90b50a1d70754d885c79fc59be9fdeab4cbb27981c393e1ee0",
+      "sourceSha256": "487cc2d664df95b09143b50c6dcc6d5835934dd36090272122e9cfea80175486",
+      "deliveredSha256": "193775e0dcd18f5b9ac078ded2bc16a1987c710ba16c5f65c08a230216d65db0",
+      "deliveredBytes": 216332
+    },
+    {
+      "lineId": "ch7-rejection-thanks",
+      "chapterId": "chapter-7",
+      "profileId": "aleem-adult",
+      "canonicalTextSha256": "233bf083557b473e0dc1e0c809600f87624902931ef8e3a927956d50458c03f5",
+      "sourceSha256": "fafed2614373c254c09c4ef17df230bc8b1584cb53f35abf19c83dfef80807fa",
+      "deliveredSha256": "7d3c4193f1ffe3abfe07848781cbd395e2fadc6e9f6d885b0921adbf673808d9",
+      "deliveredBytes": 148940
+    },
+    {
+      "lineId": "ch7-rejection-minute",
+      "chapterId": "chapter-7",
+      "profileId": "aleem-adult",
+      "canonicalTextSha256": "ce684c2a06651873cc11346a767bcb561b1c67cfd4af596be852d21f6894048d",
+      "sourceSha256": "194720456a158deadee4d726c7d31ce0d2c4199a59c2236cf25cf37eb57325a7",
+      "deliveredSha256": "7ff60f7e16463e1b009c2324dae7cb3c093e36b22d7acad1b654e12cb174c829",
+      "deliveredBytes": 144332
+    },
+    {
+      "lineId": "ch7-rejection-respect",
+      "chapterId": "chapter-7",
+      "profileId": "aleem-adult",
+      "canonicalTextSha256": "34083ed1367e80d796c3daf18b1d75cb54984b882cd780e402384df157009ad4",
+      "sourceSha256": "27488b50af407ef60bd2bc810d9f74188102c7c8dcda16b766c94e334eed00b7",
+      "deliveredSha256": "294205fe09ce90107e2c63dfa1be1634b1ff9aa7c1149c4b5750ed1d6045157d",
+      "deliveredBytes": 176012
+    },
+    {
+      "lineId": "ch7-rejection-join",
+      "chapterId": "chapter-7",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "26c7937c3da9214c08c2fc9c49a153fc735944c63b0205a8d3f30f1192d4aaa4",
+      "sourceSha256": "c1176b9ddcb7e711b50c9898496b5a6c6ab6e2549ddb8e591d98dcbff7faa0fa",
+      "deliveredSha256": "d4d32f6c204e5ef63b6b9465ff82030f379ae33be6e17a1b6ce1e9e37205699b",
+      "deliveredBytes": 248012
+    },
+    {
+      "lineId": "ch7-019",
+      "chapterId": "chapter-7",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "6c33b9e1153b7307fd8b11df221f1214e292ea6f5ab10c678a80364a99d389d7",
+      "sourceSha256": "5bbeffaf82e86d9157e1dd62c8cde1d1a497b9880732ae3b68ba6c271344934c",
+      "deliveredSha256": "8e1753ef78025e2b217e785aca91caf3ca9fbd53c6bea05e6035418c78b2d07d",
+      "deliveredBytes": 224972,
+      "note": "A verified replacement restores canonical wording. Original and selected takes, isolated transcription and replacement audits are retained locally."
+    },
+    {
+      "lineId": "ch7-020",
+      "chapterId": "chapter-7",
+      "profileId": "aleem-adult",
+      "canonicalTextSha256": "009c798790f69f63823660a9ac7ceae3390fdd4aeb89a4dc376da90d278185e1",
+      "sourceSha256": "591f2afe1370d04206ca8a85f45cfe5081aa444c01a8ab5dc4258b4bc098ea37",
+      "deliveredSha256": "71cf16f2ced63e15634ccc467cdc776e8a2a878bd526a2dc56dd981da9dd57d4",
+      "deliveredBytes": 76940
+    },
+    {
+      "lineId": "ch7-021",
+      "chapterId": "chapter-7",
+      "profileId": "claire",
+      "canonicalTextSha256": "6f48de220279b0940836177d193c28084f92fbec223e9f6616085abf526f8d60",
+      "sourceSha256": "84c77360e6faa1be46e5c44a1f0b2bf8bdadf7d8dc7f596fc5ff9385f53293b7",
+      "deliveredSha256": "6f3400a19cdc408f56925783f78528bf8f685070dec32c35925702a1d52c646f",
+      "deliveredBytes": 49292
+    },
+    {
+      "lineId": "ch7-022",
+      "chapterId": "chapter-7",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "551fc41567fe11ce72fc1b6291bb65c0f6737953108362dedf94dd3b76cc2ef1",
+      "sourceSha256": "01de48e4ab0d16e95c05d34102a14d1da42db5513e6bc7868daa6e3793f5bbc3",
+      "deliveredSha256": "a96173f3d8aebaf6b83625d72d26853cd530977738700b1c5d52610b726df4cb",
+      "deliveredBytes": 248012
+    },
+    {
+      "lineId": "ch7-staying-friends",
+      "chapterId": "chapter-7",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "68c2bcc56e48cb4a1030361bebaaa83e8e989d00f503bb8a317c78eb8e0f1668",
+      "sourceSha256": "3b8cdb99c4738c76373faa0355d4247e232307d27642551da9e535055b49c1c8",
+      "deliveredSha256": "3ca19cd2665dc5da7c11096ad6b78c4710fbfb513b7377bbbc7212c96d4fa5e5",
+      "deliveredBytes": 233612
+    },
+    {
+      "lineId": "ch7-023",
+      "chapterId": "chapter-7",
+      "profileId": "claire",
+      "canonicalTextSha256": "4b87df086ae4c293291db6ab63f4513b642b82c661dfa2a1e753393528eb485e",
+      "sourceSha256": "a275c3151eeb55123c5a2c25791fd483159fed034c10955f4aff4e400eb55691",
+      "deliveredSha256": "ad239a8b06808a0c946cdb577cdff5889b01d3c195256790403ceea95eb41b86",
+      "deliveredBytes": 123020
+    },
+    {
+      "lineId": "ch7-024",
+      "chapterId": "chapter-7",
+      "profileId": "aleem-adult",
+      "canonicalTextSha256": "8ff446eda9c22e5aab19d609eaf472282cb5a76043f2623070364c8abe1c22e3",
+      "sourceSha256": "edbe72468aa2eb14bf30a996a39398efa1771c97119f9d41f3b3344903279efb",
+      "deliveredSha256": "24249619475cc464048fb7fee624b18cb1152cfdfcf243a4f9e2d4ae7efd1cc0",
+      "deliveredBytes": 45260
+    },
+    {
+      "lineId": "ch7-025",
+      "chapterId": "chapter-7",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "a87d3412a6c65ae36b1ff2285818c927ad7736e0df91b3c12c01680ab7eab731",
+      "sourceSha256": "f6bc38c72422388b2a4f9dcd3b56743b36de68ae283928ef20e715d541d977cc",
+      "deliveredSha256": "cd53c298a3ab959bc50e62ef5aa54c2b9d3fc6b038adf8af834d709246acc317",
+      "deliveredBytes": 206540
+    },
+    {
+      "lineId": "ch7-026",
+      "chapterId": "chapter-7",
+      "profileId": "claire",
+      "canonicalTextSha256": "13ae6e90ab91f312d9204c9faf6920cd7a0e573fd41c99533a9e0ac0c76bdc91",
+      "sourceSha256": "1f105f7f9c707b633aa06a44bf8206c5899273890d61d6c69aea2f792f9ef9bc",
+      "deliveredSha256": "1f2fe44a9b8e6c069c6468601a51445d8325f768a3a7f4ad173ff7840f83f4cf",
+      "deliveredBytes": 61676
+    },
+    {
+      "lineId": "ch7-027",
+      "chapterId": "chapter-7",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "3a55929c4a856cea56b4f5583d540a98b0e07509222d24d7062b55c5432ae47c",
+      "sourceSha256": "eda3bb2d438b618c18a5d0789feac7ad9a8cfa2215ee0565fb70ac46f44fe2fe",
+      "deliveredSha256": "13f591575a934dccabb410b68e88126df1e974622409df22dfdbd8641d356fc4",
+      "deliveredBytes": 275660
+    },
+    {
+      "lineId": "ch7-cafe-photo",
+      "chapterId": "chapter-7",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "dbc88941280ab52922708d967b10db063e38d8d0348c34315bbb6685809c28f1",
+      "sourceSha256": "fc419fadfae3907cb4882832cfde26c26ab5b20c4e7870027f281dd26e65e241",
+      "deliveredSha256": "8a48f2175170e32b2a9e60fd343b1dac8a0c22999fddd8caa54c233739f9901e",
+      "deliveredBytes": 258380
+    },
+    {
+      "lineId": "ch7-028",
+      "chapterId": "chapter-7",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "e90cbcde7662fe65cda26b5184bea8cb57ef9a8f74cfec25c1e42b801f09b07f",
+      "sourceSha256": "2cfb950005d996278624103a196205d199c91eb65acf564fb53a647245eb84aa",
+      "deliveredSha256": "0f3d5d924b6f9ed37f80e299d923d1a99dea9a98116e93a30939a2c9597ce8dd",
+      "deliveredBytes": 218060
+    },
+    {
+      "lineId": "ch7-companionship-company",
+      "chapterId": "chapter-7",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "0277e40e2e93554a88a87f9ae4233782637d8648cdfaf95ee3207919da550676",
+      "sourceSha256": "20f228cbb30884d7172a7a0590a32da28d063a97d5b9ae0a7a048de83003c55c",
+      "deliveredSha256": "a1bf280e659882f2078f55239a328d15307fb2c39c99e3e0596d6515248b9703",
+      "deliveredBytes": 263276
+    },
+    {
+      "lineId": "ch7-companionship-hope",
+      "chapterId": "chapter-7",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "6599bc6ac9dd95abbd32cbce7405134259a812e0027634c3e3429de039607859",
+      "sourceSha256": "d8ad8945148e6e74fe5c8decb3e7610c54f1aa24c14dd9a77b64bd714a891630",
+      "deliveredSha256": "c9a1790b792d95854c32b85628c29ceae4b58e29a167f8126a4ac96237414012",
+      "deliveredBytes": 214316
+    },
+    {
+      "lineId": "ch7-companionship-alone",
+      "chapterId": "chapter-7",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "986200df256e9a7c56dfcbbf53e0c8c98b84e80265a03b15e3a2f9d8c3fc20ed",
+      "sourceSha256": "a4b8382e8a5d5fa6fb2df97500aaf6b18b6233d22c78d10c7f21cdc447c1ee1c",
+      "deliveredSha256": "dcfccc5ee3626ba2f94ade8af55b938c7e31f44a05a62e5121273b01fad6df1b",
+      "deliveredBytes": 229580
+    },
+    {
+      "lineId": "ch7-companionship-join",
+      "chapterId": "chapter-7",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "b0da5a2ff07b86ee318230e3128429bfab3f6629701dc06d6bbeefb945296fbb",
+      "sourceSha256": "6672fefda20293e08975f3474bfbcc25e3dad95c4c2a5ffc149c6a1dc603a6d4",
+      "deliveredSha256": "b8f8aa7172ada1959816540a7d44e4d18934eac1f3e63fd581b72369ea2e2844",
+      "deliveredBytes": 230732
+    },
+    {
+      "lineId": "ch7-waterfront-goodnight",
+      "chapterId": "chapter-7",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "2f68d88289323f5d359500b0ed6810f4550a5895015c46f0138e159112161cdc",
+      "sourceSha256": "042f5cfb08820f445973634bc9f535992c7fbf67f763d0423c9e584bad9e0415",
+      "deliveredSha256": "fd0b6efffd28fec238295e1ebe7f6ae1670054b4682458600439441d09cc1130",
+      "deliveredBytes": 238220
+    },
+    {
+      "lineId": "ch7-029",
+      "chapterId": "chapter-7",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "12cb74d31b188300c72041f72a9097e1bcf9d96ebc31957d697bd6d0ee2126b1",
+      "sourceSha256": "8d93b2dfd946e0260a3705ed75cef5dce873be5486cea1b45617654839fadac6",
+      "deliveredSha256": "9d65f7d08f6c5c6311d9a0c98151d91b2a65d3c50f36f4f81a629ea9cadfd0a9",
+      "deliveredBytes": 253772
+    },
+    {
+      "lineId": "ch7-030",
+      "chapterId": "chapter-7",
+      "profileId": "claire",
+      "canonicalTextSha256": "ab727b70ae2e4733261206052fa0d527a3d9bd56441581db098c10ec1f296b9b",
+      "sourceSha256": "d3a640bf3cf6740510e2ed52aa294469e119161dd86fa4462e034a9986257c4e",
+      "deliveredSha256": "d16b811eac857b7ac6709f0936766dd75ab8057f8937c92ff4094fe588d78d42",
+      "deliveredBytes": 124172
+    },
+    {
+      "lineId": "ch7-031",
+      "chapterId": "chapter-7",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "5e8db7ffbb65543b473619f940ff21f17859ec81effbca1bc1a65358fdceb5e1",
+      "sourceSha256": "cd8cf051cd8cd07daa303c3472322dacc8543c0645d7756be1b439f8817c641c",
+      "deliveredSha256": "8d7f0fd60970545e392085ee2f330976d72f696a53402a90d0cba4844f0e20ae",
+      "deliveredBytes": 197900
+    },
+    {
+      "lineId": "ch7-032",
+      "chapterId": "chapter-7",
+      "profileId": "aleem-adult",
+      "canonicalTextSha256": "687ab1d6cbe500b4ef0a78a446f0cb70a0848085790da6a3df0f719a5f3473b5",
+      "sourceSha256": "41a1578f33cb46041a815bbf4b59dda9aad84f2bf15e111ae3add65a027d1144",
+      "deliveredSha256": "08504a9dfcefa42828a76548c65305d29574232fcec7ef468d41e8d59d4a6cf2",
+      "deliveredBytes": 39500
+    },
+    {
+      "lineId": "ch7-033",
+      "chapterId": "chapter-7",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "1f0b506644788ea76cb0920b4b92d7c2a1b6b59fa50b20e1f2b011fef57ced0a",
+      "sourceSha256": "7eb35ce4720fc02effa62d5fe34cd98da92c9d2f934713f1583f341258fb4b13",
+      "deliveredSha256": "1cafc356f1022df89eb62f5e39297dea78a762c33d7515efa97a8f6ea513da82",
+      "deliveredBytes": 245132
+    },
+    {
+      "lineId": "ch7-changed-plans",
+      "chapterId": "chapter-7",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "cc90d83a463313c6b9d15ef19ca7e60b19710ba9dcbb68d6fbdbd05231bb03c5",
+      "sourceSha256": "95d25437ca1bb97ea97fd7f4699f60af55e28e6f06c85ea9cd13351bb86e7dd5",
+      "deliveredSha256": "f85a1660f50e07ea88d2236d17e567ca6070a9ddccfed024e50b779577839f0e",
+      "deliveredBytes": 233612
+    },
+    {
+      "lineId": "ch7-034",
+      "chapterId": "chapter-7",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "78ba65d83981821b2c51ad8b3b83dbbf5b9f95541eccddc09665c2087d2d908c",
+      "sourceSha256": "64695867aca931e21a898a0dd28f6657c08847fd9d1f7844d565ff61dcf360d9",
+      "deliveredSha256": "afc2de3d6bd142d1e278d865933e69d2bf549cffa7b5453f8e4d7e039b550c50",
+      "deliveredBytes": 187532
+    },
+    {
+      "lineId": "ch7-035",
+      "chapterId": "chapter-7",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "4ac4f978a251dd39e084a2e68d419f0469e74d4a7576cfa5d58035f6d3eea674",
+      "sourceSha256": "7525617e94413ba9b6b712ac4fd76160145581090bf1455a2224050127aad532",
+      "deliveredSha256": "6a96dbd9b249636131b941faec236278910ad6988b8aea21d7a4021e9e51b24a",
+      "deliveredBytes": 237356
+    },
+    {
+      "lineId": "ch7-036",
+      "chapterId": "chapter-7",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "33a1b51acc725ef4258c60865948a106d73ba5c7ffb41f062d3f38c05d5dca86",
+      "sourceSha256": "c1e78b8542d76b837f4fada53876562770b8abce241b4c628b142429948eacbf",
+      "deliveredSha256": "964661fc2e8c7b113d8d2e748211c362bdca972328d13e6debbfb3c9e3fd7d7f",
+      "deliveredBytes": 226700
+    },
+    {
+      "lineId": "ch7-037",
+      "chapterId": "chapter-7",
+      "profileId": "aleem-adult",
+      "canonicalTextSha256": "99521196b182fee5da67e0c3fbce94f23edaab32856f76737c75e73f7b247ca4",
+      "sourceSha256": "3ec5e988b290c21f316382888b27fe2d1a075b964956c1d7b91be4465d1cdf9d",
+      "deliveredSha256": "02f32a6d53866c9f3b4883d62d5e5ffd28b0616d5f87f6d8ccae09b6fdcbe272",
+      "deliveredBytes": 53900
+    },
+    {
+      "lineId": "ch7-038",
+      "chapterId": "chapter-7",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "f2f1b77956181f123f853f7901df1099996b3b922c72469a9d7ffdd129d9d03a",
+      "sourceSha256": "fe709c0e7f38c8884330799cd27bd74337075c7cae94af0f2f6c7d7c350c847f",
+      "deliveredSha256": "b576cd4d08b62e250523072c5d24dd0400c3e05a28c7f6c7516c8bd209da953d",
+      "deliveredBytes": 213452
+    },
+    {
+      "lineId": "ch8-001",
+      "chapterId": "chapter-8",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "4a2d0cf53b61619a1f2ee066264533595b58360082a7b0bca2bc58447b856ace",
+      "sourceSha256": "58ced6459072de2e6ab8be66450f2c535e622543c6b2a7d1c9526e79821506f4",
+      "deliveredSha256": "c9c63442941a4008fd276b87c75aeb5fac9e2b053cd4c90339d8be7b7afe015e",
+      "deliveredBytes": 253772
+    },
+    {
+      "lineId": "ch8-002",
+      "chapterId": "chapter-8",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "de7d2ea367ccb1fef300f08054bf94d6e76b387e162ff889edf0f06efc573438",
+      "sourceSha256": "6e3734a30e949f9c1df00a940562172341db66c01c9a09e9550bfd9a3b2dabdc",
+      "deliveredSha256": "c10c43fdd6bc0be0461f85ff218210eac65f44791ed47ba7d8fbaddc32ffb585",
+      "deliveredBytes": 223820
+    },
+    {
+      "lineId": "ch8-003",
+      "chapterId": "chapter-8",
+      "profileId": "aleem-adult",
+      "canonicalTextSha256": "a2bc42a73d8b6aa0366c0c15187b47cc1f29ebf814118131ef4564b78987cb3b",
+      "sourceSha256": "03dc3c753a39e580be4f6c261e44f9410515eab5445c8854cf3a8f4070de1262",
+      "deliveredSha256": "2ec2824f8e4338158373bf427a18fd004dc7a1d9258039c3a45539bdc052064b",
+      "deliveredBytes": 50156
+    },
+    {
+      "lineId": "ch8-004",
+      "chapterId": "chapter-8",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "b0537ae032fc6f3ff6bbd993d2d819f4bf87a776893f043b85c229619979e3f0",
+      "sourceSha256": "0f943fe0779842fb418738c8917bfc10b48c075a3e7737d7687ca466b0357a49",
+      "deliveredSha256": "8b7828ad9f0f6ff4021e58d99a154b3bf49be5fcca908bb9c79a5dd7d8c7236a",
+      "deliveredBytes": 193292
+    },
+    {
+      "lineId": "ch8-005",
+      "chapterId": "chapter-8",
+      "profileId": "imran",
+      "canonicalTextSha256": "8d6b4868c1a2f38db44514e46a51e814949a189046903966694c1f745c9fed24",
+      "sourceSha256": "088fbc88aba0e9d889bd801e04bad0ccf12682e41d3df7f1f904e24e4b6f7267",
+      "deliveredSha256": "66f2cee030f9f5671bee9b6c7ba32db8280b4b0adf68947edb86bbba6a2c330d",
+      "deliveredBytes": 95372
+    },
+    {
+      "lineId": "ch8-006",
+      "chapterId": "chapter-8",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "a247b881adf19c26c308b42a7508e87e75c375cffb677f56878f0111b896a3bd",
+      "sourceSha256": "7510be5e0efa4a22b2d71a5baad61f16c7e500ad13db32b3f876f5fe346aeb05",
+      "deliveredSha256": "0b0a1be54918024b38deadfc996271b8b85255f40559dc6ba7f7c366bc49cd07",
+      "deliveredBytes": 235340
+    },
+    {
+      "lineId": "ch8-007",
+      "chapterId": "chapter-8",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "0b7bcb5050e29ba3525bfd56365ba7d82e43e3ab0992eec7ba6c33a001fc499a",
+      "sourceSha256": "6669e3e7188e31363c7369c67cf39f7cdd60274dd6c8bb141a42510d02daff0a",
+      "deliveredSha256": "6b4fc9f9dee89a5aae1622b01cb88835314957cece5f29fe3a986cf8fef53a8b",
+      "deliveredBytes": 219212
+    },
+    {
+      "lineId": "ch8-008",
+      "chapterId": "chapter-8",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "26e50d311ce6e5980c93c698d647840c2fc712b729db6c1866cfa022691aba24",
+      "sourceSha256": "1e2bc3c7e0f5a37ef61004aa2c52492bb287c080130446e8c5888bc4294e7f23",
+      "deliveredSha256": "84d8c4c3937433740453b7a703de3fcfd8cb6a89e263a5890da5125aeeb91576",
+      "deliveredBytes": 217196
+    },
+    {
+      "lineId": "ch8-009",
+      "chapterId": "chapter-8",
+      "profileId": "imran",
+      "canonicalTextSha256": "8d9fba616335f3a3eb18114f8845a03acce21bb3a4b44c9f39217b687ddc774b",
+      "sourceSha256": "7735151aa842816f13ebe996b984b35eb805d79e3ea6341d7d9201fb5ffe6f7e",
+      "deliveredSha256": "7d202975a06a9a505772db84202b1f5839c33e037248820399a3a062e6258e3b",
+      "deliveredBytes": 90476
+    },
+    {
+      "lineId": "ch8-010",
+      "chapterId": "chapter-8",
+      "profileId": "aleem-adult",
+      "canonicalTextSha256": "26186090957648b5ea4c7c17bbafb2e841ad99bd9d13fd2e1ea8db89ae403ea2",
+      "sourceSha256": "1857da820aef08f7105097e9c88223eb437ec277cb74725d3e438593a3c8d1bc",
+      "deliveredSha256": "7cdeb933230f0ba4fa3437b7e666fc0009672e30fbbeceb83e5c0b1b4fbe9567",
+      "deliveredBytes": 24236
+    },
+    {
+      "lineId": "ch8-011",
+      "chapterId": "chapter-8",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "7f2f96c484e63307b34c30a0914cebbd860318f98f5562510aacc946636baee1",
+      "sourceSha256": "10696afb0215a66ef624c356e300ab02099a6c15de767046ccf4999401fb173e",
+      "deliveredSha256": "e29d47d91abecdf0ceca6f0e94bb106e6e3e6f974b08498d04638253406b88de",
+      "deliveredBytes": 228716
+    },
+    {
+      "lineId": "ch8-012",
+      "chapterId": "chapter-8",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "7cba76c260712cdad16a74edec1d88bb8acc78b167dbdaddbc4f33acb2bfd7dc",
+      "sourceSha256": "45181d3c335c5b8ce395819d7ec6fcbadd5d306bef5b14787837d2adbf48f479",
+      "deliveredSha256": "4f782517cd5cc85fa070b436601ad4888de381f0f19c78448c945d0aee81db70",
+      "deliveredBytes": 242252
+    },
+    {
+      "lineId": "ch9-001",
+      "chapterId": "chapter-9",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "4c1d411446454c112d95ae5d5939f8e1c1b58be7a2dffdc95e62c8861d3b6028",
+      "sourceSha256": "b659671cf7365c19e6b1ea01a549e9e1f46f288b81129f164b891341ea11a6d0",
+      "deliveredSha256": "de22ab9511ccaa3d485689175b66c3f558260694f0952d39b7147dc5aaa7bd0e",
+      "deliveredBytes": 219212
+    },
+    {
+      "lineId": "ch9-002",
+      "chapterId": "chapter-9",
+      "profileId": "imran",
+      "canonicalTextSha256": "369fef9d4f4753744f97ea285cb5bf3988959bafe5fd831ba0d5f3ec3b1b8ed6",
+      "sourceSha256": "8f211197c2544a2cf657f909dcb44e41679dffd8d3fedcd38f5f8ff0b50fb238",
+      "deliveredSha256": "5c6564cc4f0c26af93dbd2d3ca459fe545dad3e9bd7dcf996407aa107cef5964",
+      "deliveredBytes": 71180
+    },
+    {
+      "lineId": "ch9-003",
+      "chapterId": "chapter-9",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "4bf05941f78f887409cb51dfa128c965cf75ce88fb14927ba40997cb39c6c868",
+      "sourceSha256": "dd8db5de9cfce0640330d84a2c551f37df7f478b4dbd27e135238f4175868a7c",
+      "deliveredSha256": "6ff5382c383c541cc1fb35f89453c5ef741e1f893d01a59848a622e1b6fec71f",
+      "deliveredBytes": 225836
+    },
+    {
+      "lineId": "ch9-004",
+      "chapterId": "chapter-9",
+      "profileId": "nadiah",
+      "canonicalTextSha256": "5da587a9dc2a21758dc43b091de8a773cfa3ed363902990b553efb1db536116f",
+      "sourceSha256": "48753c718ba786dc00431118ddcccbb741ca1fda79b6635fff52f3f4dadcdbc9",
+      "deliveredSha256": "4cf793309acb4c11896b8e816ebc2e7acf78a2cbd7229e1961147eb4841cb7c0",
+      "deliveredBytes": 46412
+    },
+    {
+      "lineId": "ch9-005",
+      "chapterId": "chapter-9",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "ac9a215a597aea52cedb3c62f5064090288ca42f665859cd46c16a188c184692",
+      "sourceSha256": "a1f496a27c87d476e0b99a13e14bf2f2636694081e1c2c88bca3f27cc77121dd",
+      "deliveredSha256": "60a137925ba2d69a98cb4a4b2b237a0992c8d84cee87de8ed0a008ae39466fce",
+      "deliveredBytes": 219212
+    },
+    {
+      "lineId": "ch9-006",
+      "chapterId": "chapter-9",
+      "profileId": "aleem-adult",
+      "canonicalTextSha256": "89071b20018434debb3c5ad49b6676ac884424a53c037088005785a2943329e2",
+      "sourceSha256": "10c0b65f790f12a3bec4ffca54c62b4189ea75138c04880a468bd9b3d89058a2",
+      "deliveredSha256": "48bc43b5c2d208cf77b827461050a61e7698abf5a4bffbe8f1e4e0288cdf759e",
+      "deliveredBytes": 64556
+    },
+    {
+      "lineId": "ch9-007",
+      "chapterId": "chapter-9",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "cbcf1253ac574198073222ba39331295b2463cbf3bccd99b5b6277624800df46",
+      "sourceSha256": "97b918ae4741143b844d8d7028e99903ea6b8282c5d86fb33968be307c450988",
+      "deliveredSha256": "c822727ba6e85ab16826a0065c9417b1827636770b4fccdea292879c7a2ca7d4",
+      "deliveredBytes": 248012
+    },
+    {
+      "lineId": "ch9-008",
+      "chapterId": "chapter-9",
+      "profileId": "nadiah",
+      "canonicalTextSha256": "91afc78a012c60e6d031df1fc21e2e4935b98e9fd0da46ab56a53a8a35dd5701",
+      "sourceSha256": "0670db9c8aa3d956589a605131044fe98d23a3ad579b2ead15375c9393f07ed8",
+      "deliveredSha256": "f8939c90b553a3915bc3d3c1ceb94fcd97eae817367fab36da3f6cd377033cbb",
+      "deliveredBytes": 72332
+    },
+    {
+      "lineId": "ch9-009",
+      "chapterId": "chapter-9",
+      "profileId": "aleem-adult",
+      "canonicalTextSha256": "b87d11a357a4de75d67ffcd07696d29bcf4ff241d6416baa6c05a60fc21c575d",
+      "sourceSha256": "473dcce0e8c9da6ef2e3889e048d984d1284412983f597d3eba594ff8ba82bbc",
+      "deliveredSha256": "0816db13c8546ea6012c0aa42bd959dadb28831c95b0f1047865ea396dd6a872",
+      "deliveredBytes": 40652
+    },
+    {
+      "lineId": "ch9-010",
+      "chapterId": "chapter-9",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "0b2cca9ba7a1c8fcac1a9f47239c17187404a88e2f4a2b810c6ea56cc53ad6ad",
+      "sourceSha256": "2861444cb9e22e9c5e2dc982a5dab368321039794be3bc68b4216e156e011a49",
+      "deliveredSha256": "ae7883c2c82b604719211bb337fe5af37ce8735d95055cb1cab86c2f930130e6",
+      "deliveredBytes": 242252
+    },
+    {
+      "lineId": "ch9-reunion-after",
+      "chapterId": "chapter-9",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "8c212515327aa27a0e4cdf79754c8803c30912d8e49657ebd0b099aa733a3110",
+      "sourceSha256": "1f433e0bc2b825bef4f12eef1a404040216f901ee4dd62c8618c2296d6ff5940",
+      "deliveredSha256": "2a66588713785f5bcef116085369ddf0f078a999d01d2c3960f150b5db07ea40",
+      "deliveredBytes": 267020
+    },
+    {
+      "lineId": "ch9-011",
+      "chapterId": "chapter-9",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "5e8b6ca6808d4a26820047c4532d479675f9a6d608a377ea68eaabbcaf891209",
+      "sourceSha256": "294f9057abef8fe87f0e0a3356589a7de9eb53ff118ef1e2f4cb742cab531cb5",
+      "deliveredSha256": "93a731b4af655fc27b82924ab1041ba6f633b1b98d64821e223f6231333b1696",
+      "deliveredBytes": 219212,
+      "note": "Delivery-only phonetic spelling or emphasis preserves the canonical spoken words. Selected retake plans, provider receipts, isolated transcription and original takes are retained locally."
+    },
+    {
+      "lineId": "ch9-012",
+      "chapterId": "chapter-9",
+      "profileId": "mariam",
+      "canonicalTextSha256": "9bda8426d6929b74348567c50e1b249c3cfe579623473e0b0b6d0cec6950ba4b",
+      "sourceSha256": "b6b345532bb5a6c4d50308d663c8e548b4f9d3ba4a1c85709687905b577eadf8",
+      "deliveredSha256": "8df9914fd169ff4908cd08e14b7002420e853206372cb60254973901cc9523e7",
+      "deliveredBytes": 60812
+    },
+    {
+      "lineId": "ch9-013",
+      "chapterId": "chapter-9",
+      "profileId": "yusuf",
+      "canonicalTextSha256": "c70d3c069659633d2a821578d973621440c2a073d41d5262a9613df7078f6c02",
+      "sourceSha256": "abf2c7803f94b1cb0b4df55de44f8cbefe55ec72def071349b5995336e8f5a94",
+      "deliveredSha256": "bfd3f2ecad4cb1637cd6b623aea94bb26daed21134e02e7451fa907ea7320b37",
+      "deliveredBytes": 66572
+    },
+    {
+      "lineId": "ch9-014",
+      "chapterId": "chapter-9",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "b349e09c6b242170765bc9bf3b3f68c024e8c2e4014f46c25ee6d9f4425bad33",
+      "sourceSha256": "96d245622eaecdbca7c4e7ac67f8f3758c053cdcb372b980336073502edc0ec8",
+      "deliveredSha256": "23d5f2a12494b2855012aa717932ba1f3cd5a0d60ec5e91f55feb7958cdefa50",
+      "deliveredBytes": 262412
+    },
+    {
+      "lineId": "ch9-015",
+      "chapterId": "chapter-9",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "6f3201346e1625f285df322b981f49ff0c96f434f78cb5a6a8837f8cfa3d77d8",
+      "sourceSha256": "8f0114df50b3dca99a770d9e2490bef1b35d7ee4a2ab1d32478b04d051246359",
+      "deliveredSha256": "d0cbbb369c637818cd5326adaa781d51a80ed715c41713849e612b434e57e67a",
+      "deliveredBytes": 237356
+    },
+    {
+      "lineId": "ch9-016",
+      "chapterId": "chapter-9",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "a8632a70287e4b793b0f022ddcfb02df729eadd5a23f64dc57cb28355208eeb6",
+      "sourceSha256": "97d605f897f77682e2ddc1f157a7270b3c1c666f8617dc0b44c41ee05a148cd2",
+      "deliveredSha256": "87ccab330da0986f6ce2b7647b698154b495dafd8097b0f9a25f19bc65d12577",
+      "deliveredBytes": 288332
+    },
+    {
+      "lineId": "ch9-017",
+      "chapterId": "chapter-9",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "f02dd305aaaf8b53edfb1753f91afe69b6012259e9aacc2ac252f17b2f5f948d",
+      "sourceSha256": "6d0c3570434e3711eb4ea629ef9df268d318964120e81a5786326222be25364a",
+      "deliveredSha256": "f4e529f8657dd26722ba2b970bfd811182160d9397822ae263229b6fa6eaf459",
+      "deliveredBytes": 210572
+    },
+    {
+      "lineId": "ch9-018",
+      "chapterId": "chapter-9",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "163f96bcafad2db188e1197a3a7cec1dfab1db9de349057f884a4d076e8defde",
+      "sourceSha256": "8897a48cf0975b81cc68b6b459d95c376a4a9457298c91e313cdef6120a2d8e2",
+      "deliveredSha256": "da5444f9babe9194dd27657db933e7ccae12d8681c75749e05beff894c8c3231",
+      "deliveredBytes": 237356
+    },
+    {
+      "lineId": "ch9-019",
+      "chapterId": "chapter-9",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "f10adad86bbb8880a28548b653617c8cdea3bbde53665b0bccf0419539807f4b",
+      "sourceSha256": "321e4a38d4c9c493c50bf40f4360b6f7b784c343573501e1d82a1e898c138b2d",
+      "deliveredSha256": "6ab776a16fa09258f859e9a46a5d9f438ae051aafebc5664777d37a3afbbcd5d",
+      "deliveredBytes": 259532
+    },
+    {
+      "lineId": "ch9-020",
+      "chapterId": "chapter-9",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "4986024801da85d3c9fe1663fa1e57c4c9a6da566c2026a453aeb9827183ad5c",
+      "sourceSha256": "4c84c951642e3b81866286a866a2873f046c325ddcba85f025c6148571657600",
+      "deliveredSha256": "8c80fc8e399a36e7f459c1c0c5f15fec50b0714acb42e1f167dbd2a7a2d5c9ac",
+      "deliveredBytes": 224972
+    },
+    {
+      "lineId": "ch9-climb-rhythm",
+      "chapterId": "chapter-9",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "7eca96c5e3fd6f0a976d71b58b56a091e27b61455db8bab4652dbe0febd2d8b7",
+      "sourceSha256": "3cdc791be0aaba79e44d77aa63539666f8b5f482894b65e74eca882826e71d49",
+      "deliveredSha256": "8043666217225f2cb2aa1b068c107ac1f5840409bb354458ec6a210d2ab6ad3e",
+      "deliveredBytes": 242252
+    },
+    {
+      "lineId": "ch9-021",
+      "chapterId": "chapter-9",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "9b6d0a8c674a4eca0d1a8cd47dfbc9f3fdfd249aed6f157b88e88c1d897909b8",
+      "sourceSha256": "62d06ffc6a1974b5d27c04053306911e1863198cc9402b3a6aea68cfe31ea5a8",
+      "deliveredSha256": "e9ba24acafd252e6c1f51732ca37de785bc76f518dcbc69c0b2240d2da5ea566",
+      "deliveredBytes": 271916
+    },
+    {
+      "lineId": "ch9-022",
+      "chapterId": "chapter-9",
+      "profileId": "nadiah",
+      "canonicalTextSha256": "773c500aa25f4d3830263cbc3a506de22c1162e26f5dc5f1cf3f582069b416c7",
+      "sourceSha256": "1c322f0d6b4c7244f548ccfc9ec28c85337ec411e57d5ed91e9c869586b66723",
+      "deliveredSha256": "18a2055ba8c17c239dab395b914f3a0b2a2489091da97c034d77a0286d496d92",
+      "deliveredBytes": 37772
+    },
+    {
+      "lineId": "ch9-023",
+      "chapterId": "chapter-9",
+      "profileId": "aleem-adult",
+      "canonicalTextSha256": "c0db40a21aa0851b93c8b0ebc8b85d3a9f80bda7e9bf00285b864a36185e34c9",
+      "sourceSha256": "5eff9e59f689958f90f2ca2cea5759d8eb972a1c84b6d08451936483c8a03451",
+      "deliveredSha256": "03e58a489d270442ed00ba776076ff5b35f1569eaf724e55f8f32e9320eaae06",
+      "deliveredBytes": 50156
+    },
+    {
+      "lineId": "ch9-024",
+      "chapterId": "chapter-9",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "8a21de5987ef4021d54366a9758990f469c121255c9091414a442f2301f82cfa",
+      "sourceSha256": "e55a22288365d5f8caa7afdeaa37de7272d5c3ea4fa52af35320f4166f9ade8c",
+      "deliveredSha256": "8463eb80768c02cc74257cf2bfcc579aade0528081debc939a1b02dc4e769be3",
+      "deliveredBytes": 227852
+    },
+    {
+      "lineId": "ch9-025",
+      "chapterId": "chapter-9",
+      "profileId": "nadiah",
+      "canonicalTextSha256": "4cc21093b86bcdcf252e350a822df885ac0ad6fbf646d12a227720cf64a1039f",
+      "sourceSha256": "33640a08fd832e4469eccacc8c9f5b8c605ad800604f7f8454e4cd26c9f70ee6",
+      "deliveredSha256": "6e4ef200618d0a195a4b20ad3333783b90a8c450954e22c85a50c2ba040726c2",
+      "deliveredBytes": 108620
+    },
+    {
+      "lineId": "ch9-sharing-tired",
+      "chapterId": "chapter-9",
+      "profileId": "aleem-adult",
+      "canonicalTextSha256": "e0363354323bc4a8f1130e05dd8eabc32ebf7be3e1ff7c9d46744987410209b3",
+      "sourceSha256": "6ba1bd6a76eb296168532502b9eb6e48750cbb604a4fb83d610041746935f161",
+      "deliveredSha256": "3de60e70b1b4b00906b7608acf6435152282587d6f5b42917c3d07fa626f0118",
+      "deliveredBytes": 125900
+    },
+    {
+      "lineId": "ch9-sharing-ordinary",
+      "chapterId": "chapter-9",
+      "profileId": "aleem-adult",
+      "canonicalTextSha256": "80f7161a463fc98fff928673b90eb315d68dc5e58eef6af3d0dafa7357c3160f",
+      "sourceSha256": "1fcee5cd33d28933a6e3705c15f78cdaaa232dcec3a19ca9e31e2d0ad887ae36",
+      "deliveredSha256": "dc140f3b770f3a7dc93f7c397eb644115d613fab7544a01def4ab0c3a9a06dc7",
+      "deliveredBytes": 147212
+    },
+    {
+      "lineId": "ch9-sharing-peace",
+      "chapterId": "chapter-9",
+      "profileId": "aleem-adult",
+      "canonicalTextSha256": "9a0bafd42ca1b0f9890855d39bb3b67cd5cf186ac25a1b77d4615d80032bd885",
+      "sourceSha256": "143a12ef70b01366d7cad6fe6a26b43ecaa3304bb79a63131c04ea80a613305f",
+      "deliveredSha256": "b31f6171d333103c68cc41c9d09b7230e8f4476b52f9ec9612ff873bf3d37873",
+      "deliveredBytes": 125900
+    },
+    {
+      "lineId": "ch9-sharing-join",
+      "chapterId": "chapter-9",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "cff17ee87cdc934248de5be270db3ede455660b39fa744f145e803e97aff21e0",
+      "sourceSha256": "9f87a73f096b7f388b81fd6ddab56e4f3ca8251b364708ff192e35926d3d446d",
+      "deliveredSha256": "d037c7cda3a395b26a1e07f872b8409177e07ae6fe6986d710ef3d2f622bf7da",
+      "deliveredBytes": 258380
+    },
+    {
+      "lineId": "ch9-present-lives",
+      "chapterId": "chapter-9",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "ebfb2bbe7c43607f313e70287df9652a6741163d992748c29173b16e880d05ff",
+      "sourceSha256": "020c737cecd757ddc9682d87be76a8c092e6824c1256e6efe7c8e464a953aa9a",
+      "deliveredSha256": "d2b494b2e8ffe41f805cfb52f6c3c377658ef96250521050b2ffc204f194f5eb",
+      "deliveredBytes": 280556
+    },
+    {
+      "lineId": "ch9-026",
+      "chapterId": "chapter-9",
+      "profileId": "aleem-adult",
+      "canonicalTextSha256": "755e06b44a6a14ad2b1abacf23198e2d81c14846930416d457aec73bbd127768",
+      "sourceSha256": "f357132ae88907a6e08f0e7c6110785c10b8c831e886bd3723d45345d1299805",
+      "deliveredSha256": "c5737dab075e13773a3fd0d90a764c5b80e7d87fb3ed51203fcb9bcfdb19673e",
+      "deliveredBytes": 82700
+    },
+    {
+      "lineId": "ch9-027",
+      "chapterId": "chapter-9",
+      "profileId": "nadiah",
+      "canonicalTextSha256": "83b43d3c10040980278255dcd06d75b38755899057a7bf4e1d34435438326faf",
+      "sourceSha256": "6c31f766eb0ef667f9d84486bf197a267fcb9de5d53f8c270354ee9a66d1e88f",
+      "deliveredSha256": "70ff1cb0a69f34c7b945129a6400b981527094ea06b0c237d48ca4739ec60703",
+      "deliveredBytes": 92492
+    },
+    {
+      "lineId": "ch9-028",
+      "chapterId": "chapter-9",
+      "profileId": "aleem-adult",
+      "canonicalTextSha256": "55dbaad8c188789b21a7941b069a31b6ed544676f7217de7a2daf7ba24478b7a",
+      "sourceSha256": "eb124af0ea7761836366a889488d39ffd99eba52def131772616a167208a80f6",
+      "deliveredSha256": "c8ba6e4e4968aef3707085a691d12f4286c2c1bd9d8725ec9283d3a0b2a0de5c",
+      "deliveredBytes": 55916
+    },
+    {
+      "lineId": "ch9-029",
+      "chapterId": "chapter-9",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "fadae3410b923c702ad74a403cd0b010743c9f19e5d50a8d2447783e24fe0bb8",
+      "sourceSha256": "d6024d7872e5fc08c426a713691e9e4ee19c3428ac9b9e6f44d34884897bfa40",
+      "deliveredSha256": "f28e9d9c97ea06ea4963fa24a49ecee4ec664a13e115016f0995ab33e795fd1c",
+      "deliveredBytes": 248876
+    },
+    {
+      "lineId": "ch9-030",
+      "chapterId": "chapter-9",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "2b2ea1135d4c99d3e78f0653fb1c3effb9d85ecc5e3d2a3202cd01869a8bbe23",
+      "sourceSha256": "a25d955122218bd254e56801866c57e5ccc290b53f297e94284cd933477cffa9",
+      "deliveredSha256": "b3e4111799c1d7422027cbb10f76058456f43745288b95f0cded518b04f8d609",
+      "deliveredBytes": 245132
+    },
+    {
+      "lineId": "ch9-memory-ease",
+      "chapterId": "chapter-9",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "39c8b1d097752e332c13e1227d9e274115d80df5dd9d5835dbdbf5ee91606df4",
+      "sourceSha256": "4e62fc6921a6e3576c10175b5f18f23798255a01c04d7570e92e7d003ad35abc",
+      "deliveredSha256": "75b76c87a28f92ef0ce916f35d139a9d767b9afb922f129d90c72119b07deef3",
+      "deliveredBytes": 267020
+    },
+    {
+      "lineId": "ch9-031",
+      "chapterId": "chapter-9",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "0f8d04cf13bc633e11a331fa770cfe8a2ce7052191a0bb3711fdb33a03903354",
+      "sourceSha256": "e7694146e64b1e3d886de380be688dd65a418478f232a21b7c52878add92167a",
+      "deliveredSha256": "9b97888e32de4c6d3f0e8986bb7c4fae88ad8300024310cc759c6da3e74a769f",
+      "deliveredBytes": 269900
+    },
+    {
+      "lineId": "ch9-032",
+      "chapterId": "chapter-9",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "1b8dc2f2836934ed2521235973d3ee3ad9bad31c8cb98b7a47d7a9b381edd85e",
+      "sourceSha256": "0e05ceaf39b7d358fb4b2bdf3a09e8f4a4d20c93e60b31c783232642b409c0b6",
+      "deliveredSha256": "8401e3ac0094e3f2dc7cae2e9228a7d8fe873347a384afbf8dee560e137426b0",
+      "deliveredBytes": 266156
+    },
+    {
+      "lineId": "ch9-033",
+      "chapterId": "chapter-9",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "a68e2105dec9d6159741867127f975949ab600418f28265802e4bfd992e9cb7e",
+      "sourceSha256": "195df5d5e51e581b8058793a256ad4d6cf4a71391cb3da04abc281f853ee60ed",
+      "deliveredSha256": "9def7927b6c499b715c2dc1c174c08a2dba0cbb0e6b32e5fcfbf5a14083d31c4",
+      "deliveredBytes": 248012
+    },
+    {
+      "lineId": "ch9-034",
+      "chapterId": "chapter-9",
+      "profileId": "nadiah",
+      "canonicalTextSha256": "b7bbccfffbab137fa0b134cbf6004ce50006a36d364e1f1c91eae9aa8d06198b",
+      "sourceSha256": "96ee388d419dda975e3aea08f69cab56c9be49e5aa905da5bbc7b65e39952fe4",
+      "deliveredSha256": "6df2a286495dabc39211cbc187f135397751f2ab7f66428a9973c95342b85532",
+      "deliveredBytes": 20492,
+      "note": "Original take retained with an explicit pronunciation-listening note and unselected comparison takes in local production records."
+    },
+    {
+      "lineId": "ch9-035",
+      "chapterId": "chapter-9",
+      "profileId": "aleem-adult",
+      "canonicalTextSha256": "ad14093b3a0a628da38c9ed63e4edb482c56728c9171e4d29680a76ca6493183",
+      "sourceSha256": "a60ffc298a71adf4020506efce1e83ab8fbf319bfa56fc7f5bcab174d5b7ea4d",
+      "deliveredSha256": "71ce466ca4313fc4320f0e649df21010e826927f8cf0b4f1471b8c868b16fb42",
+      "deliveredBytes": 40652
+    },
+    {
+      "lineId": "ch9-rahmah-pause",
+      "chapterId": "chapter-9",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "12f15b9c562261d518b5b80681c75d29ca5f8f033d619473441e02ee5f049062",
+      "sourceSha256": "a12162484ed185e474052d13759af94c193fddd1dfe2a3d534ae91da79a81832",
+      "deliveredSha256": "2743352f99d426d2ae07f62ec4210b46489ba275a29925f789b0e0c4a0c90cac",
+      "deliveredBytes": 245996
+    },
+    {
+      "lineId": "ch9-036",
+      "chapterId": "chapter-9",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "96ee4b162023374c24ed0f1246c6521880280112ec4b908ef97d43e7a9d466be",
+      "sourceSha256": "324fe964fce9ed17e9b0445e7092ca969148065f688b65b8370bd82fe5d5aba9",
+      "deliveredSha256": "6d120ecf6726b406d4b52dca53d88f5ac489b1fe2fd0272424814fe7684405ed",
+      "deliveredBytes": 235340
+    },
+    {
+      "lineId": "ch9-037",
+      "chapterId": "chapter-9",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "460c3a9d4fdf3ef1742765065604ef6e4a602e60291248c3f72a30fffe91fad9",
+      "sourceSha256": "3786c7e6094b3daf0efc87739900112df915c58a33808a8c4b0a47b6dff553ba",
+      "deliveredSha256": "33f09891c2d1acf1322219bd85d82fdd7083eaf83f1f96b1128608992d4c8fb6",
+      "deliveredBytes": 295820
+    },
+    {
+      "lineId": "ch9-sign-reunion",
+      "chapterId": "chapter-9",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "4d8c20e42875c77f8e880367eb39641e9c5440dd7c431403f8c2c4bdc83ac15c",
+      "sourceSha256": "0932fd9ac15aa7313e4c983ea561516c06bdb430378dc872320b4264524ebe61",
+      "deliveredSha256": "cbf41e9bf6b1fae6e8e7c5bb719219344e80617fc2e7fc8623ba7076e1379106",
+      "deliveredBytes": 194156
+    },
+    {
+      "lineId": "ch9-sign-forgiveness",
+      "chapterId": "chapter-9",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "74ea286c6e5990b1c14b1673dd5da26a20432d3f9a67810073ddbc63f07290cf",
+      "sourceSha256": "7b1108e5d9de9440eb2830721460160417a1659adfce66120c930dc85a800af9",
+      "deliveredSha256": "27def79274a27a3252d136d992a7ad1f8f612bd5edeae06ad3b854c37b4a8b7c",
+      "deliveredBytes": 160460
+    },
+    {
+      "lineId": "ch9-sign-open",
+      "chapterId": "chapter-9",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "c1be6d5efd82d9fb32c366322534b4aca6280d4f2507c438101c0217db324360",
+      "sourceSha256": "45b1494eaa6ff207716ea567501d9a6724999f82d43c303960ab86987ff8f3dd",
+      "deliveredSha256": "b0abf3159d30b101732c31faa4e431ee9f7c99e3c21f7f8396439f46432c51af",
+      "deliveredBytes": 159596
+    },
+    {
+      "lineId": "ch9-sign-join",
+      "chapterId": "chapter-9",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "3ebd219618fa9775fa66378bcb97ef4f714a4524b48ee3c05f3d8c954c1f7439",
+      "sourceSha256": "82cd92860f8cece3a820173be648668af0ba74858f00d8079bf669b54492a0bc",
+      "deliveredSha256": "c7fe069b0a93de8e8e10fd772448b8641f77d23916cc3152f0f17b42e21bf3d2",
+      "deliveredBytes": 265292
+    },
+    {
+      "lineId": "ch9-038",
+      "chapterId": "chapter-9",
+      "profileId": "nadiah",
+      "canonicalTextSha256": "37bf25db4f89c0b902568248b9f00b348ab39037e454592fc03730039fa2759c",
+      "sourceSha256": "f74468567eab726f0cc471e5f80fcbfbbb3c17bb9706eb38c096ebd98067f760",
+      "deliveredSha256": "cd03d553d2fe1d6ec36c482752b79e0a7cb91622d884f638db78e97e52166c3e",
+      "deliveredBytes": 49292
+    },
+    {
+      "lineId": "ch9-039",
+      "chapterId": "chapter-9",
+      "profileId": "aleem-adult",
+      "canonicalTextSha256": "60938dfe4cb84545a64a50631cd2d4c0de939bcbbf0bee1b64ad63f9941f461b",
+      "sourceSha256": "25b84666ae49f0482eee92629e8732fd3ebd0b43e2ddc38fe909b6fdb9f09aab",
+      "deliveredSha256": "8d8bf66ab1c627ac5c93535cde5a9c5390d8462d97d17f92f8ebdbc30934efee",
+      "deliveredBytes": 57932
+    },
+    {
+      "lineId": "ch9-040",
+      "chapterId": "chapter-9",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "c8c5ef081e1c44abb9f9c5d1f58acf46272bb32368844d693aa3f0d1f5322fbf",
+      "sourceSha256": "a2684c49a2df62e942a12328f651b485012d665258d7f38303fa58565a721398",
+      "deliveredSha256": "571b3cc8bd1bb45ba3ade703af72c37f9cadc38f47b966f6faddd9be76984b63",
+      "deliveredBytes": 259532
+    },
+    {
+      "lineId": "ch9-rahmah-after",
+      "chapterId": "chapter-9",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "142153f138623d0d6336fc476ee7b3ba7c94d1531ccf9e5b98abf591606e7f02",
+      "sourceSha256": "dc26354b442ffce77b451f78082d77328fb73a553f2846f3d52aac2889b2f44a",
+      "deliveredSha256": "3df70021a3e86dd82db6449ba7c79d1f018010fa6e0de292f052e13cf3f82a69",
+      "deliveredBytes": 269036
+    },
+    {
+      "lineId": "ch9-041",
+      "chapterId": "chapter-9",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "dc1ed4b4d6098e9642194df1fd6a8de2d50227e946321425bfe229a35bbe1b86",
+      "sourceSha256": "e1bb2de25d26c3efff1ad8ef0cabbf6554accf967d9ba8a719ef2b4ef8addc97",
+      "deliveredSha256": "dff330eef9d255b56da5062a1bdc12dd04b3da33445ed2d2f9c6b5327ae61286",
+      "deliveredBytes": 283436
+    },
+    {
+      "lineId": "ch9-042",
+      "chapterId": "chapter-9",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "825f03ea301c48fd40cd75715af5c0591e8104019fb2380aa34aabf5e3982060",
+      "sourceSha256": "e7fcda15327746550e81bc8853480977339e4b9e1263b27bff1728186e091437",
+      "deliveredSha256": "bd6cde64eff2d7cdabe7f894cc5889404ef507ff496785c4273f7d6d3cd04be9",
+      "deliveredBytes": 236492
+    },
+    {
+      "lineId": "ch9-043",
+      "chapterId": "chapter-9",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "c450d1fdb59ed7dc1815c98b727140f375e23c4449b641f6452452e4c6a024c5",
+      "sourceSha256": "7f0e0e24f40a6952d98400d7250ccbe418c70a4f07630f999001bc047aa7bf59",
+      "deliveredSha256": "3e50b71cda7d6be6ff71e6b2c22ceddf02bad0149442feb815248d4e452218e0",
+      "deliveredBytes": 248876
+    },
+    {
+      "lineId": "ch9-uncertain-warmth",
+      "chapterId": "chapter-9",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "1a2dae3cab19c4ee4b60e693ef2d97c7ae9fe1fc847ec828a4c983dde237ad1c",
+      "sourceSha256": "47c21e35f781f5bcc8444867904ed1d260a4ea536b2ecb334d1ec6b22d365c90",
+      "deliveredSha256": "28d19bd0edbcaa6cc6eec04c796da53dc5b65ac11292511ab1663b65550b782b",
+      "deliveredBytes": 260396
+    },
+    {
+      "lineId": "ch9-044",
+      "chapterId": "chapter-9",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "ec4f1de350872b30c0ac3fef862ecbd72207179c379e0d119d759bf407b39b66",
+      "sourceSha256": "30d7351bce207d9613af0fc5e94866aa29db920b433a318c01b2fe0948b83e32",
+      "deliveredSha256": "1557259e3310c9c0fd99bc5bbdac4300f4580ffc8888b163945546be28264bbd",
+      "deliveredBytes": 301580,
+      "note": "Delivery-only phonetic spelling or emphasis preserves the canonical spoken words. Selected retake plans, provider receipts, isolated transcription and original takes are retained locally."
+    },
+    {
+      "lineId": "ch10-001",
+      "chapterId": "chapter-10",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "6b0e7e8a1edae06618b407dfff4eb096226a9cd0f62f3b559585f1c37fd494b2",
+      "sourceSha256": "38d4b20683bed5babad8df69af7f1f4a2d64ad0e79f7b716b657139a57e82b73",
+      "deliveredSha256": "0a41c3066b7757c29c8af719705bba69e470b0dcfc94554685d9358f78859443",
+      "deliveredBytes": 249740
+    },
+    {
+      "lineId": "ch10-002",
+      "chapterId": "chapter-10",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "9af5dfff848403d9e6aba64016201a407fa98306f46aac79ffb4cd03481a7af6",
+      "sourceSha256": "40b61a5359d488c20756ecfb9db1144b4d2eb196569dc9fd090a3ea66e5ad8ab",
+      "deliveredSha256": "54f8cc3ca85e7a483381e5fdfe6af687356e666a50ce813b3c2cec206fcb60d2",
+      "deliveredBytes": 205676
+    },
+    {
+      "lineId": "ch10-003",
+      "chapterId": "chapter-10",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "ada9f9fd8d1795c5d451d28cc049fc28e4140ee1d64db264c538b49e5282762f",
+      "sourceSha256": "59ecb49f3b94479605c914dd2fc075de2af28330609ae7cf5e502667e1847d02",
+      "deliveredSha256": "e19597aa3a8613569c219f657951e6251cf858849b09101b4ddeaf4bf240f67d",
+      "deliveredBytes": 282572
+    },
+    {
+      "lineId": "ch10-004",
+      "chapterId": "chapter-10",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "bec1cd14e359658f6736b8e5ee8ba6799a76e7f56e90056b7be584b62efa7ba9",
+      "sourceSha256": "3db98c918b6f7d34b1cf1169ad1bb68d57651293eab8fa300cf25f6e55821db3",
+      "deliveredSha256": "8253ab824edb8f67ebe70289cafa0e27d436ba5df9e41db6850a272373e3d52b",
+      "deliveredBytes": 263276
+    },
+    {
+      "lineId": "ch10-005",
+      "chapterId": "chapter-10",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "0d8080b5c314455ea434486443538562ee3732cf00618f6ac5124a3e0ae5cdf1",
+      "sourceSha256": "7a549835037b9b230b5239c94338600ace77be0af8676c3f1fb6cd26ef244c80",
+      "deliveredSha256": "3777c89c0c3b540c4612ab2c75d2687ca8806a871d4b65c0282cc34f3d024fd2",
+      "deliveredBytes": 260396
+    },
+    {
+      "lineId": "ch10-prayer-honesty",
+      "chapterId": "chapter-10",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "5114eece965157ca67e9bb729a5519f0a1c0f0b8a5fac3020f58e5bb71a702e9",
+      "sourceSha256": "133793bf4f90a207bb097a3af42054a5f94c8a986e8188c637b478781437c3ae",
+      "deliveredSha256": "cedf9c566d6dfe9bfb49cbff8ed4739a5c760e3426497d1439ba7b2e5fd42c48",
+      "deliveredBytes": 273932
+    },
+    {
+      "lineId": "ch10-006",
+      "chapterId": "chapter-10",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "95026f848966507652837395ae6c3af931c16fa6f0703603fedb0daebb010ce1",
+      "sourceSha256": "197ad935a78bca97f3c925763fb1ccd0abdda96f05faea3a27fd975b93a610f5",
+      "deliveredSha256": "5ef87334b155c960f5b4f347fa03345e69a930207d2f14f806acb638ebb56e10",
+      "deliveredBytes": 284300
+    },
+    {
+      "lineId": "ch10-007",
+      "chapterId": "chapter-10",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "979c2e1ac7568ae2772ff7c4a4fc3983602f290691d57e4ba5965d8dbe9edebb",
+      "sourceSha256": "bf440380aec9615a5e7aa76980f5aceafabd4c77046cf9f60d498264e437bb3d",
+      "deliveredSha256": "1cd515614ef4c78eb21de800dc73e6c338eacc60be09d48bb74c03b8334950c5",
+      "deliveredBytes": 271052
+    },
+    {
+      "lineId": "ch10-008",
+      "chapterId": "chapter-10",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "c69aa335586e9c521a0b0cbb9de255dafdad81bca2bde8f67fd987aa7616ed55",
+      "sourceSha256": "731ff56323afbcd530307466fe9ecdccde20aa5ec00a773d5594e238d2b2ad91",
+      "deliveredSha256": "d5d68cc0dad2e01c94987e7bfac9dd1577a005cf85e53732dee7553b399f8b4c",
+      "deliveredBytes": 261260
+    },
+    {
+      "lineId": "ch10-009",
+      "chapterId": "chapter-10",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "621ec240cfd5641a192be49f0a37d94b6961da9ca0bbf1026a80ea00bac868c0",
+      "sourceSha256": "d29687bd068b5f0f9290ca039a8e17e987528ff2b23b8ba46ae9ec426b969928",
+      "deliveredSha256": "5a9e19a064f95fdccec9d1bbd17a3b4483e1d56882370a0923e8681ea7e9c2b3",
+      "deliveredBytes": 243980
+    },
+    {
+      "lineId": "ch10-010",
+      "chapterId": "chapter-10",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "4cc428adda54b9c0316d7be6881649c6a06032a96c3744a4921454e4d9711ed3",
+      "sourceSha256": "d0c8e15daf0548ab7a2544e5403f56d7395456802fc358cb308795974a66a67f",
+      "deliveredSha256": "e24f01bc92d79535cbf5e6c5462356df86ff2a263ed548a56434e9f3cc7776aa",
+      "deliveredBytes": 291212
+    },
+    {
+      "lineId": "ch10-release-stillness",
+      "chapterId": "chapter-10",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "0ba867963d6858304e027322ac4e13622f990e69fd5bc22db360d9dab39872cc",
+      "sourceSha256": "52039dd1c8cba82f4fff12a86585cf330f715213bbfeec437cac7fe97db0a7c3",
+      "deliveredSha256": "3bebebce1e2c9aaa861a487f8c477e57b865b14778c5761a265e14114ef0d02a",
+      "deliveredBytes": 269036
+    },
+    {
+      "lineId": "ch10-011",
+      "chapterId": "chapter-10",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "6d8d134333617abc6387d90d4d03f99b6fd4df1b13e19cc40813fda5ebadd546",
+      "sourceSha256": "fbfd5d6469a14226f28e5efbbf5b5df2e03aa81042693ca9996b63e612b1187c",
+      "deliveredSha256": "3fd8060b3a5ad039ce1a34c39e69acae22936a346f37b1d5069ae0fcf3722fd5",
+      "deliveredBytes": 264140,
+      "note": "Original take retained with an explicit pronunciation-listening note and unselected comparison takes in local production records."
+    },
+    {
+      "lineId": "ch10-release-resentment",
+      "chapterId": "chapter-10",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "578b480faec1b0805966a036ee5fb5905183b17f004ec2b9cbf736f87808c2f2",
+      "sourceSha256": "7d992bf7ee144b9637140645a6250bd27febe96cd3e4e97a84d09bb8f7d866c9",
+      "deliveredSha256": "f81cb077a88790240effe957bfe72178998a3ab569978bc862fc912774914b6d",
+      "deliveredBytes": 171980
+    },
+    {
+      "lineId": "ch10-release-proof",
+      "chapterId": "chapter-10",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "aaf74f72fe278b221d3703c1896460e461ecc3f573a0a88e032d9beebe98234d",
+      "sourceSha256": "a03668956c34b20d25dfbf583b675af20ed423976b02269af9f8e3c4bd5d7368",
+      "deliveredSha256": "5bc23b563c9b232708089d0f2f6ab171a92302d021475a829c88750f39e6ddca",
+      "deliveredBytes": 171116
+    },
+    {
+      "lineId": "ch10-release-fear",
+      "chapterId": "chapter-10",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "ab2c8bcb99c3d035520cd89c82a3ac6e1bb69454907f24897c103cff02912343",
+      "sourceSha256": "6838adfafa87f6f0f74c60a735463205376375baf0e9e9e46c9de5d65e4cac1c",
+      "deliveredSha256": "9bb74d1a351ba275b89fa437ef40ca56d723065705575a804e797171231b5ea9",
+      "deliveredBytes": 171116
+    },
+    {
+      "lineId": "ch10-release-join",
+      "chapterId": "chapter-10",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "ebc1168f7647351a9f7e73586a4cf9d63f0e26c2fc57434edb68899d244f9f52",
+      "sourceSha256": "4cb8b632f4d78970973318fc4fe03aa2417cc6f06608d3db7b69ab4c91cc0fab",
+      "deliveredSha256": "c3626842e3ea694c526e27b6fa995a0859d353d48351e202e7a6fede6c8d4a0a",
+      "deliveredBytes": 245996
+    },
+    {
+      "lineId": "ch10-012",
+      "chapterId": "chapter-10",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "3ee2e9a916452a1489af382dd4bbdc40b9c37ff52439108bbfcfa66e07b51dc1",
+      "sourceSha256": "14a25ecbafb833dcfa262f8e72881a858a224d7847baf8bdd3a8d05565971f42",
+      "deliveredSha256": "5daac4669529f5f25939ea2428671df41070097141a6de526c4234c101a93d8d",
+      "deliveredBytes": 271052
+    },
+    {
+      "lineId": "ch10-room-ahead",
+      "chapterId": "chapter-10",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "a2bc5df6479fe53b06567ab3f127146038ef9071ec1416e9ff52df01f87060ea",
+      "sourceSha256": "7627482f9eb9b8dea92c94ce3264069546abcdee5ea43833f37ffd16522a86c5",
+      "deliveredSha256": "a8341573e7afbd1d8ca53303af7571ff9b7ccf2aea5c80ab54f9da2336a07c50",
+      "deliveredBytes": 258380
+    },
+    {
+      "lineId": "ch10-013",
+      "chapterId": "chapter-10",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "601f959bbf564d80fdc262738f345d1378963b44c514078bedced14a83af6e3f",
+      "sourceSha256": "7eb46c20f661627edec1d1e117cde3287ed6a2f6261d4d1561f3e1109918512c",
+      "deliveredSha256": "e931901e43fa0f3b643988d38fcacf46a6b171e3ed35704916d6b4b98af4a370",
+      "deliveredBytes": 243980
+    },
+    {
+      "lineId": "ch10-014",
+      "chapterId": "chapter-10",
+      "profileId": "imran",
+      "canonicalTextSha256": "201f22cdc3633327fddc87fd04a3a42dcb8424dfe85a12c3e7167bc49c2be258",
+      "sourceSha256": "d91014aace3aecc2e5eae03307d73c9e3e367262a3189d4dc7e59841be507ead",
+      "deliveredSha256": "953770588fe225b26f0a55bf3bd08db462f24a93fc801bd83c86fed0a41a882a",
+      "deliveredBytes": 32012
+    },
+    {
+      "lineId": "ch10-015",
+      "chapterId": "chapter-10",
+      "profileId": "aleem-adult",
+      "canonicalTextSha256": "a063bdee513630e42b6786484016122cf8194389c952cb1fb8e929419868c944",
+      "sourceSha256": "dd96aa432d004d06186095b398219eedbb76e260d3616e4cf683299c3acc085d",
+      "deliveredSha256": "c7f548a793b7e89456d5ffb1cabf53e4ed7ec39bc7bb152f91df074e81b77e25",
+      "deliveredBytes": 45260
+    },
+    {
+      "lineId": "ch10-016",
+      "chapterId": "chapter-10",
+      "profileId": "imran",
+      "canonicalTextSha256": "2a4bf3eb1660e0292680f750a397c5ae491d745736a0fd0f5dcee1ed73f44a55",
+      "sourceSha256": "c2631ecbdaa99ee28e450451ac839f0f931ecd0e14d016d1351f6fdea026c1a4",
+      "deliveredSha256": "8c1d8f3938e1e80f23ef18fdb89f58dec81627753c3d529eebbbc472b4958f25",
+      "deliveredBytes": 52172
+    },
+    {
+      "lineId": "ch10-017",
+      "chapterId": "chapter-10",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "3032ef84a42a7cba0f8b87990ae1d0410ecd0bff4a680f3f7fddcac71ad31f01",
+      "sourceSha256": "7c0acf0887d69904137e86c70b1ffc5606c771ce7688e0c71080267ca032322e",
+      "deliveredSha256": "1e959f86529cc6796de3f9cbf3f565b280d726eadb4ba8c872f694702f9012f5",
+      "deliveredBytes": 219212
+    },
+    {
+      "lineId": "ch10-018",
+      "chapterId": "chapter-10",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "60422b3268cbb6b7e7ad37fa7414ed294052988059e47faddaff83e4efabcbc8",
+      "sourceSha256": "6bb526a753efa67d49a3b886f79d1d0919499e933fe9e08620c89a5eaf8c1611",
+      "deliveredSha256": "bd34ab0ba4251ac999a8164d431d55e469c93d98ef71504cb897d74fd056454f",
+      "deliveredBytes": 267020
+    },
+    {
+      "lineId": "ch10-019",
+      "chapterId": "chapter-10",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "4bb7f6cf3ede268abe2d335eade71e98907f995cb1f3c76551e19ec76d8f1b7b",
+      "sourceSha256": "b37ef8b7f96b296d6cd700f17c8dec68cce0f1e934052612ca12c8f52da9d2f1",
+      "deliveredSha256": "e04d46c9a400d9d129a28423c34d336149e07370927ed6b36bf14ec9ba09c4df",
+      "deliveredBytes": 239372
+    },
+    {
+      "lineId": "ch10-020",
+      "chapterId": "chapter-10",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "782dea53c6650d043dd7f70bbdcfdcc0bdaff372c53b59bf92491481cea96adc",
+      "sourceSha256": "b58dbd3c89c6c532ad762acf117fecce8e8fc1eee857ca68a9f580fab7a0e269",
+      "deliveredSha256": "e65c012caa9e64409e3661192ab3a01d4f1d46e5fe79e59899f390128595fde0",
+      "deliveredBytes": 260396
+    },
+    {
+      "lineId": "ch10-boundary-kindness",
+      "chapterId": "chapter-10",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "fa709c67bdd8b7ec3a8292eb91af3b5ab05f46a4b17e61ab9ec7cea247a5eab4",
+      "sourceSha256": "59455029927fba7dfca6998c5b2b6d2ef827fee2bd7db05018acd31a0f187316",
+      "deliveredSha256": "68cc101ed878aa91bf87bfacabb4a03529123456edd78a05236d7f9177a3c01c",
+      "deliveredBytes": 160460
+    },
+    {
+      "lineId": "ch10-boundary-peace",
+      "chapterId": "chapter-10",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "3bffe61465484b2f91b06199d5728d7b384230695280267c690b6f757ca40ae8",
+      "sourceSha256": "f3a470c65263178aa2fd7312033756d148be0ce4bf6b50f5802b9f03f55c9366",
+      "deliveredSha256": "04088a46e21f72324f0fdfcc9749ae31ed1b1a95eefe13358ed302d71126e481",
+      "deliveredBytes": 160460
+    },
+    {
+      "lineId": "ch10-boundary-waiting",
+      "chapterId": "chapter-10",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "156bf73062c2f226e72f44283fd3d77d347065767f843f06c694fde5d35cdfa8",
+      "sourceSha256": "033e1b769c99f65ab80a4b39dd7e30504bd90493f76da9ca326bd0711a68c81e",
+      "deliveredSha256": "a73a46b29f8520327a2a7f7175d02529f4a55bf8900c7c2bf0170cc2bb0e0c62",
+      "deliveredBytes": 162476
+    },
+    {
+      "lineId": "ch10-boundary-join",
+      "chapterId": "chapter-10",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "93c1ef7b18d8abb1ffd06673222e6569a53387d47c8a87863716483a57e723e1",
+      "sourceSha256": "735b555fae33c0740641e6bb56012683a25a3c41712f364bc7962bb0d09e3a0b",
+      "deliveredSha256": "5808199b51820d8aed34ccc5d000b982eb04a05348ab225394defc6ca319f5ff",
+      "deliveredBytes": 282572
+    },
+    {
+      "lineId": "ch10-boundary-practice",
+      "chapterId": "chapter-10",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "557f06e7647b3cbcdef5c32022affc64cd0a406b0a5aaf47b8bc55b8f28b8f0f",
+      "sourceSha256": "f443fc9c3e459fb265180ea8e6471843150617d43a65e0c2eb920601a365766a",
+      "deliveredSha256": "9b1422050ae21cf97c1d8f3069969bb0a0cd8193cfd827b047f48cdf22d4fbd5",
+      "deliveredBytes": 255500
+    },
+    {
+      "lineId": "ch10-021",
+      "chapterId": "chapter-10",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "a3597ed3244221a7469c1cdc8cc09a5a0522a1638baa153cc2edad8cbdded15e",
+      "sourceSha256": "17c8a312a4fe7a7fa1144ae12b8f0e79f58e74793de5faf52a2900c50aa8bc3b",
+      "deliveredSha256": "73bcdd5cd5a1b4d715877427711dc1f38cfc034b2b40584fb04984b5b5ecb6f2",
+      "deliveredBytes": 234476
+    },
+    {
+      "lineId": "ch10-022",
+      "chapterId": "chapter-10",
+      "profileId": "mariam",
+      "canonicalTextSha256": "d0932f2d300511e68106667166a68d1fefe897cfa1ef1776324c392e16efa1d2",
+      "sourceSha256": "a67647abce3de74e697f357ab1614d890b7a22121c573533498d47623d2e694f",
+      "deliveredSha256": "6c448772b5439a59e59867514960a664a7ad0f62d3d55ffe80f6fd8d3e9c84c2",
+      "deliveredBytes": 92492
+    },
+    {
+      "lineId": "ch10-023",
+      "chapterId": "chapter-10",
+      "profileId": "aleem-adult",
+      "canonicalTextSha256": "b8d24cc3ed379035093e7627b6743828d53f028763cc55b7fd374bccdba7e08c",
+      "sourceSha256": "adff923dc50d4d55b441f6f3b12425d5bfce7ec0d65fd908f450bd27e086baa0",
+      "deliveredSha256": "74e11bcf94aacdabb0d0641d24b380e54bfcbb23fdb0687e01041b7a01095e71",
+      "deliveredBytes": 42380
+    },
+    {
+      "lineId": "ch10-024",
+      "chapterId": "chapter-10",
+      "profileId": "yusuf",
+      "canonicalTextSha256": "8b5679e5666fa4c51fdcd4dad1cdba872131d7f1553752779cb61aca3ab45f3a",
+      "sourceSha256": "b432e0d5f0b493a1688342f24ea1435dc81a4e2f138c56f3bb2d1934e86d3853",
+      "deliveredSha256": "182feda3bca447bcabcc2e36acf5d1ac467bf617d569126cbfce506363c35211",
+      "deliveredBytes": 52172
+    },
+    {
+      "lineId": "ch10-025",
+      "chapterId": "chapter-10",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "db34467e2da60e8ace1f85941af42033388a2ad362cf5c3e1027248149576bc8",
+      "sourceSha256": "f10d45053a3979abc0940c23ac6e6b29fdc5a07b35c54d0485b06c3ae8415beb",
+      "deliveredSha256": "0a904e4ac12d400d0b3a66f9e08f907fc7b99eda5b687dca45606add1f018206",
+      "deliveredBytes": 252620
+    },
+    {
+      "lineId": "ch10-couple-ease",
+      "chapterId": "chapter-10",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "568e4f62cee8e520bde8722b7776d704850308cc1360c8c24a8ee6ae0ec9e5c2",
+      "sourceSha256": "81d568d2ef73a0d22751597d5a250f74bf781e4af8c02766c8044841bff4d2b7",
+      "deliveredSha256": "699eb4626e8ae57650edf83d10674dba4dc8d0829a3dcf7bff6c52cb1b899d81",
+      "deliveredBytes": 256652
+    },
+    {
+      "lineId": "ch10-026",
+      "chapterId": "chapter-10",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "f360b610cf762482f63f9d5c04fa7e13ea90d3134258eff178dca44738caccda",
+      "sourceSha256": "7104d7a055f8ed0650e68c582ced1a5cdca6fee88b1a641b64b3236b2e16c2d9",
+      "deliveredSha256": "30ff56e38e898af45ba005de56da96df7a55144e4813489b69d31d3d11f890b3",
+      "deliveredBytes": 237356
+    },
+    {
+      "lineId": "ch10-027",
+      "chapterId": "chapter-10",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "30c53b2422321f1129cd98032f4dc9f6d90de844afd117e865797f254f5e2b2e",
+      "sourceSha256": "f1b48c125e4c0a91adf553ef70237b3747b0260e2ecf1a56395b319a6169f58c",
+      "deliveredSha256": "80c129a1191da4a6a34847616a80610a55ef4a0839e64e8e69a867a054e69149",
+      "deliveredBytes": 145196
+    },
+    {
+      "lineId": "ch11-001",
+      "chapterId": "chapter-11",
+      "profileId": "mariam",
+      "canonicalTextSha256": "3a9ca978048cd140e925e118742c1f3902c020fb81f2579f3ed716734787e0fb",
+      "sourceSha256": "d6f04f727da5c9179aa9e1c3bb11201a9b2800137cd625eec466727b00affa7c",
+      "deliveredSha256": "cebb5c9cd0461dfb7989839b966967dd179a2105ae7f6847ace2a222f298f600",
+      "deliveredBytes": 88460
+    },
+    {
+      "lineId": "ch11-002",
+      "chapterId": "chapter-11",
+      "profileId": "mariam",
+      "canonicalTextSha256": "6c317c3597e1d248b73c6a839b60917d50103980bf8f746f97de30b0d2209de4",
+      "sourceSha256": "f7ec9f1d094d6d4d6435aa3472296c181626572e02754a9e242c20bdc322fe8f",
+      "deliveredSha256": "3c39914c335b8092af4683b6d8c4911c16a8cdf44600aa8e9ac5be58d6c86313",
+      "deliveredBytes": 37772
+    },
+    {
+      "lineId": "ch11-003",
+      "chapterId": "chapter-11",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "a5b29cc65cfd82217a17c66fd1e20cc6fd498dad88b2bcf2edcda250b4138d32",
+      "sourceSha256": "9019f29ceafc16044772e13ab1124b84007b14800c81d47eb5ffa28e3f6c130c",
+      "deliveredSha256": "7527309e85284a31ab0d58777e4d817970d27b477f518e3e1b0b614555abde22",
+      "deliveredBytes": 236492
+    },
+    {
+      "lineId": "ch11-004",
+      "chapterId": "chapter-11",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "5d21eedf2641a3547dee050860488d63c02204f478361cf370ceceacca7d63d5",
+      "sourceSha256": "2414a0f4b25ff2530e2c349b8ea7e81b8f669405527684d466c9b0f94ea87973",
+      "deliveredSha256": "bec465e5a4db4f88c6e97ae5b3fe54699c0cb8d653b88546547a4abb9a2d549a",
+      "deliveredBytes": 233612
+    },
+    {
+      "lineId": "ch11-005",
+      "chapterId": "chapter-11",
+      "profileId": "aleem-adult",
+      "canonicalTextSha256": "1191ae8e38329ea1960ba0c25937a14f0f03641ca4e65468422e87ca00d5fa41",
+      "sourceSha256": "a9bc0973bdccba71c9e75cc65138e6c905d9b5c503ec7a97328ca9b329ab9a0e",
+      "deliveredSha256": "db39e9d6b72252eb457198e16c69845a0e3fcc9ec3e152c1315e7fe63a6aee4a",
+      "deliveredBytes": 56780
+    },
+    {
+      "lineId": "ch11-006",
+      "chapterId": "chapter-11",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "c8c8a0d8f7cef97c433182f877b65d349f557cabe9df6036d26e8ed49b657df8",
+      "sourceSha256": "340b25b7419c0ea5058979fce35965f96eabbfd1dea21fe088b2ca8dc3f964d0",
+      "deliveredSha256": "20e0caa95bbdee80cba7c75030edd7d4641b7aec675a0d53abd4f948894eb14e",
+      "deliveredBytes": 268172
+    },
+    {
+      "lineId": "ch11-007",
+      "chapterId": "chapter-11",
+      "profileId": "nurulain",
+      "canonicalTextSha256": "6abf14587b59d53f4aa7989062ff6d8a5184c88ee81a64da3ddf6a4b52dbc94c",
+      "sourceSha256": "aa45b29efea66d251473a49722ab4c9bfa2cb7a40d8d9f165af0bf01e5e60d6d",
+      "deliveredSha256": "72d9772ced6e9bc4799a55d37e4a3bd729de877e29a695d7e1e8befe70c38fa5",
+      "deliveredBytes": 45260
+    },
+    {
+      "lineId": "ch11-008",
+      "chapterId": "chapter-11",
+      "profileId": "aleem-adult",
+      "canonicalTextSha256": "064d2299ec220a8d8c89ee45ece3aba57909a15dbe5742dc4728d39255c87a16",
+      "sourceSha256": "5a7e1d194c550734dcaa1a92e5d797809028b82816470c11ad8b5dba76f6f20e",
+      "deliveredSha256": "edf735cd712db1c8ea8bd8350390199c616428baa6d530c7a7e37341b4a6ff5e",
+      "deliveredBytes": 27980
+    },
+    {
+      "lineId": "ch11-009",
+      "chapterId": "chapter-11",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "05dffd7c7d7e10bddc479e3d588f93ae236c69bdeefee92c624b84e275d9d796",
+      "sourceSha256": "b500878a8854dabfd0fe63fca660871d56573d0a3d217f5f27fc03aacac2a438",
+      "deliveredSha256": "0b5ce73f0e255824a27cf68f53edd950e9da1ecad53cd3b12a23016a179bab09",
+      "deliveredBytes": 267020
+    },
+    {
+      "lineId": "ch11-010",
+      "chapterId": "chapter-11",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "eab1adcf48143f5a35fa7cea32896225fb641f79d70a53a2a57cb5eb6cda59c0",
+      "sourceSha256": "2f8df6fdf0bc7fe329ecb57207451766545a1026e456d542de7dd3f106a7e6b6",
+      "deliveredSha256": "9af5b5d0456cf4473cc79d9a362856b641849848aaf7f54fcaf2fe100600a46a",
+      "deliveredBytes": 261260,
+      "note": "A verified replacement restores canonical wording. Original and selected takes, isolated transcription and replacement audits are retained locally."
+    },
+    {
+      "lineId": "ch11-011",
+      "chapterId": "chapter-11",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "53349cfa8ab80107461abca0546e4176e5a8f1dbee38c599444115e941945ef3",
+      "sourceSha256": "f63d8c50dc51e30c3e2775b98059bec4c4dede2cdb6c40191dd025b70eca8543",
+      "deliveredSha256": "6763f60e24a8fd70c53a3ea503cecb845b4b5d3daacd6007ceb6af2ce1d62fbc",
+      "deliveredBytes": 248012
+    },
+    {
+      "lineId": "ch11-012",
+      "chapterId": "chapter-11",
+      "profileId": "nurulain",
+      "canonicalTextSha256": "89a20e2447fa1fdaebf39583534a900f722b331279343975ed752850e685639a",
+      "sourceSha256": "d0f43a3bd21bcf9cab9e5d85abf939fabfb4de5fbf39915bf0de152f91b4ff4a",
+      "deliveredSha256": "f668a6e988a9001618ba5d34eeba22684e6c89848085b5621fa5a994b0619887",
+      "deliveredBytes": 47276
+    },
+    {
+      "lineId": "ch11-013",
+      "chapterId": "chapter-11",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "e2025c34876d5adf2f42f6904951cfde7755aa6b2c5320c9fb2bbe6372eecc1a",
+      "sourceSha256": "4976cea87fdb206e9ec02029d3854d4807fb91e87eab9f14ac9403eb325b8636",
+      "deliveredSha256": "261ac593104772506379977757e41f1226cd71136bfb7a75a1846fdcfe805ef0",
+      "deliveredBytes": 283436
+    },
+    {
+      "lineId": "ch11-014",
+      "chapterId": "chapter-11",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "298e37bb1d98f65345429c30697a53190e8a13534dc14a5ff6a8446d82fec4f3",
+      "sourceSha256": "5c6c33c8dedee11aa2b7970dea7753753a9164417cf592cb82bab60d86a3bf23",
+      "deliveredSha256": "2f2ae67a8196751ca8ee36fe19ec165409a9250793b814972d4005b244258f6b",
+      "deliveredBytes": 226700
+    },
+    {
+      "lineId": "ch11-015",
+      "chapterId": "chapter-11",
+      "profileId": "nurulain",
+      "canonicalTextSha256": "dbe8ac5b5c032fe1054c83bd3146d0eb92837800b1d473bc02dd10f10a09b194",
+      "sourceSha256": "4871ab97276187eb574badf42b0048bf33cd8dc7383296abfcdf896c11c55817",
+      "deliveredSha256": "2712a25c798455ab3f8b976842706ba26f747684294b5b89613510f1b225ce1f",
+      "deliveredBytes": 55916
+    },
+    {
+      "lineId": "ch11-016",
+      "chapterId": "chapter-11",
+      "profileId": "aleem-adult",
+      "canonicalTextSha256": "2ce4549d601be7a712cd474b2ac689f082b780e9cfc20d4e11ef02f9c12d600c",
+      "sourceSha256": "296b2c846f4861969200f4560b511b0be3970ac1d0c087a634cf1d1c1320ff46",
+      "deliveredSha256": "a40c26f8098f8b38c739441724908a6f82c26127f06a225ebf43a8f9313eacc5",
+      "deliveredBytes": 27116
+    },
+    {
+      "lineId": "ch11-017",
+      "chapterId": "chapter-11",
+      "profileId": "nurulain",
+      "canonicalTextSha256": "15cbc40f3f7486c986c102c00cfaf96475cf116e9e02c51ebf20467914c5f02d",
+      "sourceSha256": "4fe1232d551a23715abc32975404de1a49b84701d82ea98ac012900269feb61c",
+      "deliveredSha256": "79d0a180f8c5ef40d6f56435563647570548a8a9c17bcaf3a66e26adbac058dd",
+      "deliveredBytes": 37772
+    },
+    {
+      "lineId": "ch11-018",
+      "chapterId": "chapter-11",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "4e6e6db87cc89c99a40cba0fee59052ffb37ee3427ea24de95114622e1d52640",
+      "sourceSha256": "e5edf1043ddc114dc60e4f596b2d357a6e751170a1569b2e8a838b0c98d01d02",
+      "deliveredSha256": "bc517ccbe894171862a443054a8dc07b305b45071094e20fe538d76828e5eb20",
+      "deliveredBytes": 241100
+    },
+    {
+      "lineId": "ch11-019",
+      "chapterId": "chapter-11",
+      "profileId": "aleem-adult",
+      "canonicalTextSha256": "b78aa965c62a0125ebe6239e374250ecbda2a1a58bef206a2559faf244a98418",
+      "sourceSha256": "7120f0e5947b4f87ce475a03487c5ae364df4243afe77e010c668d105e914bde",
+      "deliveredSha256": "3dda312438cfa5187f321f59a95857d4880d486aea15c64fb05afadb029eebbf",
+      "deliveredBytes": 75212
+    },
+    {
+      "lineId": "ch11-020",
+      "chapterId": "chapter-11",
+      "profileId": "nurulain",
+      "canonicalTextSha256": "10f68c0e880b4245dc66349351681c83dede8ff8b6a300df3eaf814848e27271",
+      "sourceSha256": "aef756f8db19c26ec182a5290efda7f7f502a12d124282869a7b92a95c581bf5",
+      "deliveredSha256": "6850245dcff2980dd05744a12d309692f320ef44021cf275c410cfc4bb36501b",
+      "deliveredBytes": 61676
+    },
+    {
+      "lineId": "ch11-021",
+      "chapterId": "chapter-11",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "3bac2e065cfb6eadfbcc00207c7bc47c865b1917c09029eec46682aca9163b94",
+      "sourceSha256": "8bbe877857aa9f1ddac2fd355b304e2c8cbb95528ded22dbc783798bf92d350d",
+      "deliveredSha256": "946081f33819b8cc67e049f3f3b2abad246f4a26f3b67052b291ce5c63bbffee",
+      "deliveredBytes": 245996
+    },
+    {
+      "lineId": "ch11-yakiniku-pause",
+      "chapterId": "chapter-11",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "288a89b05a1896a3ca2043b8ea793433f1541d562b3be0b1eff83dff0db7c4b0",
+      "sourceSha256": "363b17f33ac97222a0b7e6aae2c83ade060d63bc606033b3cfb4c6c91e9d2f65",
+      "deliveredSha256": "1124f979da6def62a71cb6f8cc4e45172114bb3f33ee98364f6051de5fc1f1d2",
+      "deliveredBytes": 208556
+    },
+    {
+      "lineId": "ch11-022",
+      "chapterId": "chapter-11",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "f4b4427b79a2b0ef2c0ec4203819255066a70681db6c3c811d81ebaa326f3083",
+      "sourceSha256": "025ce537c496a50c216de25a3fd21108e29ed47a51913f50c615d829ff710edd",
+      "deliveredSha256": "4fe0a46a6b5cf19535a0df3d1cf11153e199985de97c3440ce224a671645316a",
+      "deliveredBytes": 246860
+    },
+    {
+      "lineId": "ch11-023",
+      "chapterId": "chapter-11",
+      "profileId": "aleem-adult",
+      "canonicalTextSha256": "582979b079457d55d07e0d80bf7939859317f33cbedbf97daa50b2d9177d8db8",
+      "sourceSha256": "faa77e6259256118379d3f41ac51f8b6650d3ff6a80666d3213ac738b3939873",
+      "deliveredSha256": "42b61636863c9c58ea54b4a010ee222038a2287427b987280f674abbeba45906",
+      "deliveredBytes": 108620
+    },
+    {
+      "lineId": "ch11-024",
+      "chapterId": "chapter-11",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "a87b504f2063dfbd85582712f3b30e8f89d94f74799165d9940cb8c49809d674",
+      "sourceSha256": "f5083afed1ec97fa30736b8e2017bf1dbc38af2af79b5d143fd86e8340877b3d",
+      "deliveredSha256": "a0565c95f12625ea40dc1b371af126702d01f4bfba7b313a2c722735e0adbac9",
+      "deliveredBytes": 226700
+    },
+    {
+      "lineId": "ch11-025",
+      "chapterId": "chapter-11",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "82ca4a93344258544bf6a914c157ff298431156811bd6b8f8c437687de8b6942",
+      "sourceSha256": "63892151a82eaedf7f894eaa8c1e2d30546a7c5c5c253bd21138bd72b033f0cf",
+      "deliveredSha256": "9be86239a5041345197f1f4b5b648de4bac3ba6f6723eee1f2c91647582a390e",
+      "deliveredBytes": 204812
+    },
+    {
+      "lineId": "ch11-reciprocity-greeting",
+      "chapterId": "chapter-11",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "f7129976732b8a4544aac8874bac08b25e58f79daeddacad27625de9cbee4eac",
+      "sourceSha256": "0323dcbb50b527eb4ec3b8908a1f9963bc3453ab06157b18d89ac54d18194807",
+      "deliveredSha256": "c7102ede8f5c5db880b83a49266e3677fa579f44ee116885b3c2a40f9d62e5b3",
+      "deliveredBytes": 151820
+    },
+    {
+      "lineId": "ch11-reciprocity-return",
+      "chapterId": "chapter-11",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "e3848065f0020453565fe4f80770eeb4667c1212764a6040709ad6f830a34ab9",
+      "sourceSha256": "2c6a2a3cdad04e44357fb383571bf985fae2044de3d8734ec80366948c86a786",
+      "deliveredSha256": "75df12a4eedbe7dc984d27a7b77c7fa3033bfb4e2f583b28ac607f790903c758",
+      "deliveredBytes": 154700
+    },
+    {
+      "lineId": "ch11-reciprocity-ease",
+      "chapterId": "chapter-11",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "5d79ce68dd4ceb6bfa839739f9368b4bcd7f630230c62ca5d5250722ad50065a",
+      "sourceSha256": "35517e81c022d10e69d8a0ab22048c9a7e2fae5729b8e501b282aa81d915b16c",
+      "deliveredSha256": "8733a185fedaa06a7450f6baa0c88be691235507f92c3b6baad0c7653cddaf15",
+      "deliveredBytes": 145196
+    },
+    {
+      "lineId": "ch11-reciprocity-join",
+      "chapterId": "chapter-11",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "fba786d3eea0dc579e06616f91d21d14ab070a8c29090354faa8e4ee17bdc31f",
+      "sourceSha256": "2bff487863b4828a74e50a3e42111cc54e0095e2f9a8f4f56ec610c18bbe4622",
+      "deliveredSha256": "31deaff9132d0a32ee146e9c4cbde6b9d87c36b7f73dfc7c5bc6b1fdd368cadc",
+      "deliveredBytes": 232460
+    },
+    {
+      "lineId": "ch11-026",
+      "chapterId": "chapter-11",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "6f26b2ee6d0f73d688a61c6ada0055699f0942374afcc1d16660244b675690ca",
+      "sourceSha256": "8e498a38c931e063791cf56062b527806296a6d470125670c1a88f950d286bf8",
+      "deliveredSha256": "6ad1d0ed4084ade19463612bedbb9d1816ba5deee05b2c28255fa0c07a49a5b9",
+      "deliveredBytes": 290060
+    },
+    {
+      "lineId": "ch11-meetings-listening",
+      "chapterId": "chapter-11",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "0cb117f86fd2b40136beb02aa743940861801229e28dc05f058cf73178b132af",
+      "sourceSha256": "a553525047a1e80f7cca8c910a299ecc1f2ed3dab278a4033fd752caebb61bf0",
+      "deliveredSha256": "5884242f4beb1b77a996de7bfc2408607de92662d867b1e5567f37ef9f320216",
+      "deliveredBytes": 245996
+    },
+    {
+      "lineId": "ch11-027",
+      "chapterId": "chapter-11",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "afc8f6ada41af135d60186c03b34832932b6a1b34a964d61afb53e67943dcf50",
+      "sourceSha256": "33170a1cf9837b5a920d59f6998ee073919ac9a95b071f2bee7320f80b993136",
+      "deliveredSha256": "ba95c0ee3f17878fcd5b092e3c10986cbe536e3552d0ebae30f319e06705ffd1",
+      "deliveredBytes": 240236
+    },
+    {
+      "lineId": "ch11-028",
+      "chapterId": "chapter-11",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "f1e7afd7e363322a6717b565962c769b4b89c3f6ac9ab6bc6651ddee08a37288",
+      "sourceSha256": "0c04a61cfe57144d8252893aaf8e6aa190ef510d9b84863180709097caf700de",
+      "deliveredSha256": "ccba11c325c8431630ad550149d7e32de5a42bc742a42346642cfddd05264993",
+      "deliveredBytes": 253772
+    },
+    {
+      "lineId": "ch11-029",
+      "chapterId": "chapter-11",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "ab3d57656de07713b2495b7cc94726082746fc20726e13ec6deef7d9997adfbb",
+      "sourceSha256": "fe5381d6880ef33ef69ba52a3a45d82887ae9453251ba644be997be2a992e34b",
+      "deliveredSha256": "591528d8c3fae0cb5d69d3856355d7750ec82b45458129ecc4c538faa85b1bb6",
+      "deliveredBytes": 162476
+    },
+    {
+      "lineId": "ch11-030",
+      "chapterId": "chapter-11",
+      "profileId": "nurulain",
+      "canonicalTextSha256": "9ff1257d106c90a90af9ee3dfd2785d82caa16f14a7f73d497d9ad2dc4edc415",
+      "sourceSha256": "c5e33ba3924382894255e6eaff737490d173921eea8a2fab3c8d082e7c727c1b",
+      "deliveredSha256": "3e8d81e77f05f079968ae498f1d9322bdf3a785c954001aacc7330aedd82e6af",
+      "deliveredBytes": 14732
+    },
+    {
+      "lineId": "ch11-031",
+      "chapterId": "chapter-11",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "b9b3a3928c67f9dd1638bd17643f38cfb37e40f0d2dca876591161e0bd2a1531",
+      "sourceSha256": "25121605dc469774a87a62df5ba98dc1b75726f2d181c81c6237f6d8e8b4225b",
+      "deliveredSha256": "5da3b4cdc967f161bed581571bdf210afd1d340d7a270a49d33c9488e1b9861f",
+      "deliveredBytes": 232460
+    },
+    {
+      "lineId": "ch11-032",
+      "chapterId": "chapter-11",
+      "profileId": "aleem-adult",
+      "canonicalTextSha256": "a4634c1da2e8de9bfc3e6ec411c91eceb1262542993c58412f87366578a1f034",
+      "sourceSha256": "503681c4cb7bfbb4f2aa40c38ba4abcd98821c3d44d0becf4c52303e7ee322ed",
+      "deliveredSha256": "10ff77b9f522258fc7819737805b5de58559e56c0a46c986555803b7b89d9ec7",
+      "deliveredBytes": 78956
+    },
+    {
+      "lineId": "ch11-033",
+      "chapterId": "chapter-11",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "2fd83a8fde8c1beb00800ef72f81697c1fdabaf059db9b8af24e85218e4ce92c",
+      "sourceSha256": "18f35a78708640a5e0e64a7929ea8e20acb1c7268a7d483e6ab75cdb89e6f737",
+      "deliveredSha256": "a50cd03b402721db73ec950de8f1daa30973582623a9c327fb2a45389b7e5134",
+      "deliveredBytes": 241100
+    },
+    {
+      "lineId": "ch11-034",
+      "chapterId": "chapter-11",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "0d648a2ccdc24af2072f31bd65c9fa265d92e27bd2b418d54f12dbd1cbb193ff",
+      "sourceSha256": "7663af24cebafe6ab4cdfeec1e26c0df887bc8122d5767dd0681262ec0042bec",
+      "deliveredSha256": "f9d0fa696e2cde4ce2f226be6bad9786e7e8c35d686f0fa41f4dd74899847b89",
+      "deliveredBytes": 226700
+    },
+    {
+      "lineId": "ch11-035",
+      "chapterId": "chapter-11",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "7474baad7c55fcdfbc5a63ea9a17535888173e25e1a8f254a0aa6119e9bd7974",
+      "sourceSha256": "1a8f465ebc263ce6fbd6a1ae0b4d6690022c9c682aa30eb354e58d6625423a0c",
+      "deliveredSha256": "c0740d670cf341c4c8db254acfda7dc31a9a2d693b7782c3ed383c712f481895",
+      "deliveredBytes": 217196
+    },
+    {
+      "lineId": "ch11-patience-pace",
+      "chapterId": "chapter-11",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "b7141aea1c52e2ee722215dac07f0509d204a5f7b64909914fe192763ca1fe12",
+      "sourceSha256": "00dd0a4e5f6d5bb55705943d4bb04187e783dc747a9c744b5fab886ab8dc8620",
+      "deliveredSha256": "279ee5ccc1fa18e3985449637842050d21734ab8c0aa6825535dedc84fbebcad",
+      "deliveredBytes": 144332
+    },
+    {
+      "lineId": "ch11-patience-listen",
+      "chapterId": "chapter-11",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "22fba0f7532716fa8db7be5bac3ec4fc2bea64735c7c3aa2754c48a4ff8f67fc",
+      "sourceSha256": "7151fe1a554abbdaeb9aebf7b6875c52a2adf2d6d4f2d9ab340dc41b4a318247",
+      "deliveredSha256": "52db7dd71461b79e50b1d568ea6253dc5f99dc2790e11a49c1bc39027a5afc47",
+      "deliveredBytes": 145196
+    },
+    {
+      "lineId": "ch11-patience-consistent",
+      "chapterId": "chapter-11",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "e783bee5a4ec1e1f303462f1b5cf68a99a573769b37b100ad16be5d5d2622ea7",
+      "sourceSha256": "28ebae1e8e234f95af76f6f43c04aa62fefaedfcb565a26a1d155399a567e5e4",
+      "deliveredSha256": "d4d713c91d29554b1536b956161525a1c7ca2ba1017916cae25ed718663c2784",
+      "deliveredBytes": 153836
+    },
+    {
+      "lineId": "ch11-patience-join",
+      "chapterId": "chapter-11",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "44343747d185cdaf145f3dd1ec77705aee6a5a65959d0d57efd53a39e18f43a6",
+      "sourceSha256": "6c80bac80abc6e3aa1079a7cda0338496892cd5eb6fc1ccaf3e8de5ebfc94907",
+      "deliveredSha256": "4140e205d59f18c866e637cce238efacf165163c5506cbf623fc9ae230b1b84f",
+      "deliveredBytes": 196172
+    },
+    {
+      "lineId": "ch11-036",
+      "chapterId": "chapter-11",
+      "profileId": "aleem-adult",
+      "canonicalTextSha256": "187ec651eaaf313f96bfab1b578fd6123da9944eff1b9ff6b0613d5a03ee3fe8",
+      "sourceSha256": "caccb9811791a855cb18d531891a92771feff1061df0792c39cd64677d6dc65d",
+      "deliveredSha256": "948fcc4471dba8130f2a3c9479f72acbc631f99c0186f5b7de17feb3d24669f6",
+      "deliveredBytes": 38636
+    },
+    {
+      "lineId": "ch11-037",
+      "chapterId": "chapter-11",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "a8ca546a4c0614493bb689d98c12bb39d7ec2deb0401090b6b9fa72db32a520a",
+      "sourceSha256": "061ca6f51fe3af68e11599875d10082224350f661f119a1fe12984690b5c1a1f",
+      "deliveredSha256": "c3194d9f18a515db62b9dcfa08d2e82c0f126df1d478ae577916953f2b7aea68",
+      "deliveredBytes": 230732
+    },
+    {
+      "lineId": "ch11-038",
+      "chapterId": "chapter-11",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "41433d28a53bfe97dfdc98ea279a919e23e29ac1c431638a9439dc44440d3d59",
+      "sourceSha256": "3a459fa5d1fd526eb402463d669800bf510f2707f1d773581155f118e98f5958",
+      "deliveredSha256": "78ebac68c975945d099a510209d28d5f71e55d63368527a2785b1d1030af1883",
+      "deliveredBytes": 243980
+    },
+    {
+      "lineId": "ch11-kazakhstan-answer",
+      "chapterId": "chapter-11",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "a60c8c8aa8e678b2a50ff19d7ed79b75dc9048bd825042eccf9c5cb39cdeccda",
+      "sourceSha256": "df0dd3274376229983776abf8d0ac18adb4c17604ca9bc90bc18d7e729536b6b",
+      "deliveredSha256": "8735869402f46de59e8f182926861aafd25406abcfbf30460b10360448a6e512",
+      "deliveredBytes": 227852
+    },
+    {
+      "lineId": "ch11-039",
+      "chapterId": "chapter-11",
+      "profileId": "nurulain",
+      "canonicalTextSha256": "f28afccfc6336e0b509a562ff17ce2ebc96443b32f1f9ad93dccebee0427b3d5",
+      "sourceSha256": "9242c285f8e1ff9354166ff3b08010fbc3a3c6111f901d5bf221fb7827c83b75",
+      "deliveredSha256": "554bac73fb8a4154fba2491ba3fe0eeb70bbf5cc455f31e401ffeddfbee2344d",
+      "deliveredBytes": 25100
+    },
+    {
+      "lineId": "ch11-040",
+      "chapterId": "chapter-11",
+      "profileId": "aleem-adult",
+      "canonicalTextSha256": "01f79a47083b9b32b6a7a8e74fb130b98c6cfe345df365477a636381db0b563c",
+      "sourceSha256": "7fb9d0cecee80724d0b8e64a17007982db163f109db148be8b1d1ab5cb36fa8d",
+      "deliveredSha256": "eacb1fcdab7028d327f0d30b6fceca625646c437de135078293ea12ea029d7fe",
+      "deliveredBytes": 30860
+    },
+    {
+      "lineId": "ch11-041",
+      "chapterId": "chapter-11",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "1c363948ce4450dd8d385dfaf29a69479a5a50dbef260b58d387cabb68675ce7",
+      "sourceSha256": "79de080d3d9158f1f6d91a89d307df299964b0fd7afe92e8995a190aa771135c",
+      "deliveredSha256": "c2969bfa5c9f248b75f98a9a18e7c8324279cc4ff5ec3d38022585c7fa8c1e57",
+      "deliveredBytes": 268172
+    },
+    {
+      "lineId": "ch11-042",
+      "chapterId": "chapter-11",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "be26c64125fb816f027bebafa8d6e3e608ef19396bf52c7e6668a8ca2fbfcdee",
+      "sourceSha256": "ba99e50d2929113909b37e5edf122344671f90cf12a4165bb42046f7fc341b23",
+      "deliveredSha256": "a5c828c513b5b376aa8254fd79d99505673f444969faa9c5d12eb1f03e3c9e55",
+      "deliveredBytes": 203660
+    },
+    {
+      "lineId": "ch11-043",
+      "chapterId": "chapter-11",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "44d4d5d14d85f15b2cf35ec7fdd08f4103fea8cfb5f0ae522753129c0b3ec10c",
+      "sourceSha256": "d49fb79a41db2abe73efb1f0b208e1143bf724bc55dbbf93642ec1736e2d836a",
+      "deliveredSha256": "9f1abb76a787042b51578a947ee9e54b20a386e3890400e3c995806a1172ec88",
+      "deliveredBytes": 201932
+    },
+    {
+      "lineId": "ch11-044",
+      "chapterId": "chapter-11",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "80b0ebdb4165b58eb73c0481c25140fc2867a8c89ccadbfb45df7712812c1672",
+      "sourceSha256": "656416c11199a19dec77dbb32e2d7b6afb916123d6533da9d3209578da2ae65f",
+      "deliveredSha256": "d014c521148e0546d78cba6fab6612df93c9a36c5d22ca672654fffddb9efdb5",
+      "deliveredBytes": 243116
+    },
+    {
+      "lineId": "ch11-045",
+      "chapterId": "chapter-11",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "b5d80c9271386ad463529f25e3ba1deaac2e7b9224d222d2cafed9517678425f",
+      "sourceSha256": "632a3101325622ed899bff518280b20edb6f6b2f9ce2ea331ad7b835f2536810",
+      "deliveredSha256": "47a5faca94e6aefb6bae7a727a5402169bd3bb33be198572b41c4045c65aec2a",
+      "deliveredBytes": 246860
+    },
+    {
+      "lineId": "ch11-046",
+      "chapterId": "chapter-11",
+      "profileId": "nurul-mother",
+      "canonicalTextSha256": "710ca7639d1f590f160275364a43f613a9f8d686ce6d85ebb195b2b7f17c5ea8",
+      "sourceSha256": "9fa9ea82c17434a8b11dfe9e641cb4d7f1247cee8fffd7e1de6e70a585c918d0",
+      "deliveredSha256": "12880d4682a91fce9ca7a017d60e452f5043a42c7f0b25e5a0fd24eef5c37e60",
+      "deliveredBytes": 43532
+    },
+    {
+      "lineId": "ch11-047",
+      "chapterId": "chapter-11",
+      "profileId": "aleem-adult",
+      "canonicalTextSha256": "b467267099ee79151c61559f2916c2bc6eafc705ab0d5ed531c80e8c8e882994",
+      "sourceSha256": "ff526ef2249e43107d78a93991d5c36a0e50633d33a311eecd7626c442a86b1d",
+      "deliveredSha256": "eb13b4ddf34611c407dc128f9bd76682d115e97ead8a9ea6daac58394cc77e06",
+      "deliveredBytes": 39500
+    },
+    {
+      "lineId": "ch11-048",
+      "chapterId": "chapter-11",
+      "profileId": "nurul-father",
+      "canonicalTextSha256": "81e998389f05190e766a3448f84d6dc66367889d2a5476846d32fb2f4c9cd463",
+      "sourceSha256": "69bd532eb57321c7aea5d5396a09d7d6368a1624e748c3031096c72048e50536",
+      "deliveredSha256": "01116f1550098b7d03ddabaf9e409ca3c04e0e1a1bab25d20b4d5a2ba25ee6e6",
+      "deliveredBytes": 52172
+    },
+    {
+      "lineId": "ch11-049",
+      "chapterId": "chapter-11",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "7cdc6efb73d7002685304c50bb2ebd5059368186b8da3b996429108de9ca5c53",
+      "sourceSha256": "f991e3fbaa955cd5603e2ef3890f93ba064cadb8b38a91b13ff9a969407880d4",
+      "deliveredSha256": "7d65a823134a95b6f4ae4546747b86679958c8f9203127d1bf8e439df127b498",
+      "deliveredBytes": 224972
+    },
+    {
+      "lineId": "ch11-parents-listening",
+      "chapterId": "chapter-11",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "dccfa8d3978a5ad3eec02608b6f9c4350c2387b680e8155e66c046c5c12b0b45",
+      "sourceSha256": "ef5e8f05b4c06f49afa4547e9798feb36b12e022037a513758c7a526a77bbae8",
+      "deliveredSha256": "e88152dd2242ead09c89a5c2248833271cca59ed5ccaa5d2da7072df6bd4a0e0",
+      "deliveredBytes": 227852
+    },
+    {
+      "lineId": "ch11-050",
+      "chapterId": "chapter-11",
+      "profileId": "nurul-mother",
+      "canonicalTextSha256": "f7ed8345dec50c69a8f8e0d3b48c41ddc8f5fa1974aadb16493f61ad29db757a",
+      "sourceSha256": "7301bff3c12cfbee9f72842e67114a392e7bb48bcc879cec19f207f8c7ddf7e5",
+      "deliveredSha256": "48d21e3ea30e22e637ab2d3b3dc49f3a5189856e1156bea09e2a34e98a8f2659",
+      "deliveredBytes": 32876
+    },
+    {
+      "lineId": "ch11-051",
+      "chapterId": "chapter-11",
+      "profileId": "aleem-adult",
+      "canonicalTextSha256": "6ad3e6993da47593456a203685fb4352d902f7ea56fa8ce922b552eaa71eea23",
+      "sourceSha256": "2ce7404a9ff396b9bf44e469aa8d6ccefcc100e23c09eeb2fa29c8027639743e",
+      "deliveredSha256": "737640409754c9accba848a08ef3bcdca9e7718370b43fdba6513660d077a6e0",
+      "deliveredBytes": 109772
+    },
+    {
+      "lineId": "ch11-052",
+      "chapterId": "chapter-11",
+      "profileId": "nurulain",
+      "canonicalTextSha256": "1dac78a51a7bca0f7b363268887e548cbef547725d38508524578165adde1b11",
+      "sourceSha256": "5b7a7fa1ef097406d6950e842d400a6254dc368acb31fe2b62c06706018a592a",
+      "deliveredSha256": "0b106d55fdc3147abd71987b397dfa2beb02f18f9bab3cda5bac17c574ebf784",
+      "deliveredBytes": 27116
+    },
+    {
+      "lineId": "ch11-053",
+      "chapterId": "chapter-11",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "3f05bb5f767a6105a8de16458174edcf9f2c92400057c436f3a2619f9d8050ec",
+      "sourceSha256": "7a989a3df02ac6c935c88389916460ca90c3e7dfcfd82f24eaf0d732fd52d01f",
+      "deliveredSha256": "3fabca7de4da2c2ea2d97123116857b91e61e6af84e7c8a01da99418327caf97",
+      "deliveredBytes": 220940
+    },
+    {
+      "lineId": "ch11-054",
+      "chapterId": "chapter-11",
+      "profileId": "nurul-father",
+      "canonicalTextSha256": "7695343e7de03bba6ad01f3b4d609e7f8642be680f0e429ef93fcf812ca51ecf",
+      "sourceSha256": "80230da32303c7541bea964a406ba7ba4ed16bb1259e63f439ea5806b173343d",
+      "deliveredSha256": "efa49a775d25cc00ae8c2d034b6b1474d69213888801ccb17bca1deb6ed5fa2c",
+      "deliveredBytes": 45260
+    },
+    {
+      "lineId": "ch11-055",
+      "chapterId": "chapter-11",
+      "profileId": "aleem-adult",
+      "canonicalTextSha256": "7b04bdd8b4e834474c7579006da73b64c93dbf0c31ff6f447fcd798cff93f0b5",
+      "sourceSha256": "1a8db1c3915c72a7340ebbba97961a73cb58c90dabd48677e4c20ea2b4fd5306",
+      "deliveredSha256": "fac606a7d89a2feefd70a8a02cf5cc377c3ca60724a625e90d566f807a1408e7",
+      "deliveredBytes": 108620
+    },
+    {
+      "lineId": "ch11-056",
+      "chapterId": "chapter-11",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "14ede2dbfd73086f89a930b2ba900c1e36edcbd1cb745ea4f91c4b6ea5e38d28",
+      "sourceSha256": "9f0917e6ea19146145088b1b4a924de5ccb158b6525f06cca1a7ace17466b2fd",
+      "deliveredSha256": "4cee227cf09764086ebbb0f17f622ca5c01db4be32f34592d30ca02b20cd1d2c",
+      "deliveredBytes": 234476
+    },
+    {
+      "lineId": "ch11-057",
+      "chapterId": "chapter-11",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "31336969a7415f6a4e80e106f970a66049a52fbdd8f58656e19e819034ebe905",
+      "sourceSha256": "6513ce7c3828e2cfba9ef3a30892cc3787721dafb206cf84ef5fa2dafa907275",
+      "deliveredSha256": "696bc922dfbeafd5934be6b124c7f871f95ef9b77b5efce33e23f81954fb73d9",
+      "deliveredBytes": 269900,
+      "note": "Delivery-only phonetic spelling or emphasis preserves the canonical spoken words. Selected retake plans, provider receipts, isolated transcription and original takes are retained locally."
+    },
+    {
+      "lineId": "ch11-058",
+      "chapterId": "chapter-11",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "ca0dc302a855110454f244af905cba04a3058a1ce370dfa3520e6a4625089100",
+      "sourceSha256": "fe7df822ea0b5749cab9e284a67261a1594e113b4237406b2d3637d5efc5ea72",
+      "deliveredSha256": "4baa52d5989051ac4aa734779600db439f57ed41bd4e5a9fb500072288f75f10",
+      "deliveredBytes": 203660
+    },
+    {
+      "lineId": "ch11-059",
+      "chapterId": "chapter-11",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "01539afa00957e0fb966b9f7c719356a869d0d64163b6f67265fb35223b09474",
+      "sourceSha256": "26e7f864370a6aa73c6939eed452fcbbb704cad14c12788d1d16fb5e62eee78c",
+      "deliveredSha256": "c8c5e54bdec86cb6086e2ea74aba29c47b49e9b7e86db73fea21add46f803a5b",
+      "deliveredBytes": 233612
+    },
+    {
+      "lineId": "ch11-060",
+      "chapterId": "chapter-11",
+      "profileId": "nurulain",
+      "canonicalTextSha256": "c8f47bb247e126ff465bf87714d8d289e1a59f1b19f18c6f527f047b4511e933",
+      "sourceSha256": "ab6e069aa3ce3d7d6c7a790daddf3f9b59e63de88c5cd5986f5e9072f5018119",
+      "deliveredSha256": "e24d63a99e627baa181c6d9a77db0ff685c794acadbb162702d971eaee7bbeab",
+      "deliveredBytes": 29132
+    },
+    {
+      "lineId": "ch11-061",
+      "chapterId": "chapter-11",
+      "profileId": "aleem-adult",
+      "canonicalTextSha256": "b56aceba3c5ca73ec5596f2d8d54982017049749112bc7a70ec1d4007d6e520b",
+      "sourceSha256": "eb90b704d5ad54c27424046c9a212233e457a172a22110a9426ee282cba9a8bf",
+      "deliveredSha256": "82ce595fefe3c7150d956002aaf95f6a10cba65aa68104212027a51a908b70bf",
+      "deliveredBytes": 27980
+    },
+    {
+      "lineId": "ch11-062",
+      "chapterId": "chapter-11",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "7a60c719152b1170e2f297ea0eef9036950e0fce1d4870f8eaefd3525f763476",
+      "sourceSha256": "0886f82dedb157b92b0f143e75362663d9f50d6337b45c024241bbfa24240b1f",
+      "deliveredSha256": "8318e7218d87898cc6c14712a5e519fc9a7215489bff7d8f0e1a7204376636e0",
+      "deliveredBytes": 214316
+    },
+    {
+      "lineId": "ch11-pier-past",
+      "chapterId": "chapter-11",
+      "profileId": "aleem-adult",
+      "canonicalTextSha256": "3af533e5cc530feab967f185880a01d9f405a13eaacb4f527658468ce8671b51",
+      "sourceSha256": "76d8d40d1bfa508610ed6f97582604ac10be30a499c73fade4ae91a4b6092e51",
+      "deliveredSha256": "4f3f2e819b749d1519bacd33e29ab5461b9cfeb05b0f2fe128af600640ebec12",
+      "deliveredBytes": 159596
+    },
+    {
+      "lineId": "ch11-063",
+      "chapterId": "chapter-11",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "b645e76c6f8394bb54711636a32e70dc9c47854d6528214eaae9e851edc82dd8",
+      "sourceSha256": "d8ae5bf60a1b2df114812936b7887529e1ed84529fbde4a26e1d24ece989d90d",
+      "deliveredSha256": "40c8a3d467daebedb176e1f5062633b1d389684e2dac114791dc9ea6f65cd3d2",
+      "deliveredBytes": 228716
+    },
+    {
+      "lineId": "ch11-pier-surprise",
+      "chapterId": "chapter-11",
+      "profileId": "aleem-adult",
+      "canonicalTextSha256": "51a3b0d13ebb803f6c7a3b0edbefd00205697823417dc6f964dd1903bc3a60a6",
+      "sourceSha256": "80d4eaf9e2b616c79b0990341d41148944375a3cff49e94a07b9088b3b4e22cb",
+      "deliveredSha256": "3e2c60b890fd904c9033e7f70e3f02d4bac5906dbf3c965a6ecf020fc491b442",
+      "deliveredBytes": 35756
+    },
+    {
+      "lineId": "ch11-064",
+      "chapterId": "chapter-11",
+      "profileId": "nurulain",
+      "canonicalTextSha256": "d3cbaf43c2950a2b30b03301708a04fa9b0810c700a51cfbb09de92635a648b0",
+      "sourceSha256": "18a5a4839cbda4808f4614c3bd8eb7cc678ebc1abaaa3fd718392a7b9ae72388",
+      "deliveredSha256": "dc31a4557cf6c288ddb62d3a8a13d7538fdebe9995dc0b720a2584d42430482e",
+      "deliveredBytes": 35756
+    },
+    {
+      "lineId": "ch11-065",
+      "chapterId": "chapter-11",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "dc0dba162a53e5755b5ff3add8076ab6569e3a62f357fa2cf8c087b99910d8c3",
+      "sourceSha256": "08c073a11e16898386178ebcd85bc32d9f030a515c6707c8d5e42d24aa518ee9",
+      "deliveredSha256": "eb1fbe5c49b4ef03f87b5fe87cb1831e294a303d8e6e3904a335ec7c9ec5434f",
+      "deliveredBytes": 258380
+    },
+    {
+      "lineId": "ch11-pier-quiet",
+      "chapterId": "chapter-11",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "cc17434a29c85d852be2516cb2ed3c4d6547560ae27bc840f2d0e27f65e2d672",
+      "sourceSha256": "29a822173b5eec19630dcba5a2fd835040a6650f87445eaed944f73612ec3fa0",
+      "deliveredSha256": "69dd4050b6432af35b49064968afd4d37171349ef4c915a85c2f39f1967a5abd",
+      "deliveredBytes": 227852
+    },
+    {
+      "lineId": "ch11-openness-surprise",
+      "chapterId": "chapter-11",
+      "profileId": "aleem-adult",
+      "canonicalTextSha256": "bbf4e311290503206b76c1058520196eb8d3d30ba01e8dd671d7bba9c2a8269e",
+      "sourceSha256": "d5636104e52e3561a7cd50ac64144fce0ee14ebc4e8aaf378ad8a85871019b2c",
+      "deliveredSha256": "37c65e8d2a8f6af6e3ebacc9798da3460ad3a41ed6e22e40b9cb2faf15fd429e",
+      "deliveredBytes": 99980
+    },
+    {
+      "lineId": "ch11-openness-grateful",
+      "chapterId": "chapter-11",
+      "profileId": "aleem-adult",
+      "canonicalTextSha256": "bcf05c8ed11893577c4d17de810e40a3ffc2b258d4cbf17c1bd1e0923c8a27ad",
+      "sourceSha256": "08689cb38fb3cceb38b8a59313eb35f730c9150273d3abe3b1d02a03ea8e607a",
+      "deliveredSha256": "2fc683d3265cc109cac1244d6b2e1c27fb6885f22a38fc4315559aa62ceaa9ba",
+      "deliveredBytes": 95372
+    },
+    {
+      "lineId": "ch11-openness-ready",
+      "chapterId": "chapter-11",
+      "profileId": "aleem-adult",
+      "canonicalTextSha256": "f63fe9a0ccb0da8725ed74191432f3729100e42a8976788d15663849046822a8",
+      "sourceSha256": "cd022794506c3fced5f40c6fff01308141598eaeb921cdfba802fc0efcd0cfee",
+      "deliveredSha256": "91f129a89d054d6bb043ad34fb3c8cad0017b5077f65118d9f0ff5f7425beb44",
+      "deliveredBytes": 125036
+    },
+    {
+      "lineId": "ch11-openness-join",
+      "chapterId": "chapter-11",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "905bf44603c9a7bee5476a655de62c2a6dfb9dc9abcbcc938548d8dbb3330833",
+      "sourceSha256": "9ea07b907b2d4358ce46e67fd26b3b0cadb514ed586cb8bd3cedeb3aed11127d",
+      "deliveredSha256": "8489ed8fb1d1689a25f2b1bf1b58f362ec93cfe1b102875a90b66e2334d572fc",
+      "deliveredBytes": 237356
+    },
+    {
+      "lineId": "ch11-066",
+      "chapterId": "chapter-11",
+      "profileId": "aleem-adult",
+      "canonicalTextSha256": "76391244e7621aa80e326cfee41dc38034460569b00dac35e842deb3bc2583be",
+      "sourceSha256": "120c211c9963885ea0a0262e37869451882d36cb63ab008e9012baf1f623624a",
+      "deliveredSha256": "c446b38ad6317bea4c1e345a616b2474bd925708bd288525872ddb53dc5ba047",
+      "deliveredBytes": 117260
+    },
+    {
+      "lineId": "ch11-067",
+      "chapterId": "chapter-11",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "3f66f8b8364af80d2e64fea49cdae5d91a30b34ccd28b6251004fe496780ae5c",
+      "sourceSha256": "5ae19f1d48d60a413eef9c45810ce8669d515bd1b42358841e42afc6b6e38845",
+      "deliveredSha256": "e9067504c6286ffe05ff8de8ea4254c0dce146d86f0e31a02cd8520ff067b0fc",
+      "deliveredBytes": 276812
+    },
+    {
+      "lineId": "ch11-pier-gratitude",
+      "chapterId": "chapter-11",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "3122fc1031d83b34e9d647bffb27250e4ac267b577c44c0f56a20fff0b685528",
+      "sourceSha256": "f5a99b1b4d2b71d2b64ec9469a74466ca400e3dce361efeea666a19f784b1b4d",
+      "deliveredSha256": "25d02f9e4a5e02aa381daf9da4cbbf2178c88bb42583e59666822d28635f6094",
+      "deliveredBytes": 222956
+    },
+    {
+      "lineId": "ch11-068",
+      "chapterId": "chapter-11",
+      "profileId": "aleem-adult",
+      "canonicalTextSha256": "203178a1b239e22a8b7c1126f7579ecbfc6e1796429fa056d86978a4fecbe656",
+      "sourceSha256": "d8051f2e7475f713df8da20d7b506a69afba0e9ce975d1a0176ce3b3754cc89e",
+      "deliveredSha256": "a1d5c05eb4d35e2a2fc41f54823703a2992822ba9ef9154b32a57c80fd9a5751",
+      "deliveredBytes": 29996
+    },
+    {
+      "lineId": "ch11-069",
+      "chapterId": "chapter-11",
+      "profileId": "nurulain",
+      "canonicalTextSha256": "11bf5271e2c09668207a84798f10c53994fcf45a51d2298b60fe4e2adf994198",
+      "sourceSha256": "4c84c84d621e182f978a366a88b8950a984a01a6a3120b635b6b4af11722c4ad",
+      "deliveredSha256": "3a8b2c47dfc4058dee873baafac5817eed482d858e1fe7fc8ec558b16cf5d831",
+      "deliveredBytes": 27980
+    },
+    {
+      "lineId": "ch11-070",
+      "chapterId": "chapter-11",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "99224c4b08d77a77beb6d21eb635a676f0ebba28b555907eb372735036af0503",
+      "sourceSha256": "4a8d905b37d7c6e2ba9dce7354b531026473a7076c86cd4ade2b9a3eea17562b",
+      "deliveredSha256": "331c7071aa767cbbb1df17dd5cabc351c88d6e73e9174592c38ccd0f7472d403",
+      "deliveredBytes": 216332
+    },
+    {
+      "lineId": "epilogue-001",
+      "chapterId": "epilogue",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "b8858a3a0b791ba35f5bdc6a487db6337d12fec5002e597c1ccf9848c4a90e0b",
+      "sourceSha256": "bcb5adeaba98e00284e9e4101810479fa8854383c9d826ead4741639f9c3a58b",
+      "deliveredSha256": "06ae4aa7d0af6393f7b0ec357969f9b6fa059746404f527e788b4f10475f6493",
+      "deliveredBytes": 232460
+    },
+    {
+      "lineId": "epilogue-002",
+      "chapterId": "epilogue",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "112773bfbfabc43554dc5f2a5537219e4856cecac2c2d6f7730de487995ee6a9",
+      "sourceSha256": "066856783a4c41279d20bb0f995a29e882c0530625cfaf8a5cd14f9f2800a1d4",
+      "deliveredSha256": "53c20cb4cbd480334829e8a095473b49faf1bb0e073649bb06daed0617494b9d",
+      "deliveredBytes": 203660
+    },
+    {
+      "lineId": "epilogue-003",
+      "chapterId": "epilogue",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "cb92d7924e1a59e8cbb9f99698635b7788235c75de5f28fd0c56d000db879245",
+      "sourceSha256": "e01fac5e73fe7c05bfed0b9ccbb7844162ecd327010e89f206d78ee1dbf47e06",
+      "deliveredSha256": "eef43a3365bf9eeb8557c4efb237428f645f5f1b26e76df180995e3800c476ad",
+      "deliveredBytes": 245132
+    },
+    {
+      "lineId": "epilogue-004",
+      "chapterId": "epilogue",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "55687d939a974d44925a19039b0d400c786f8ccfe6daa5486985fbb6538ea8aa",
+      "sourceSha256": "e0e089f8429f6316087bc0c812717e303ce1c4877cca2e53013133f84729a912",
+      "deliveredSha256": "c473aa667852d3ebda5a183adde2ed8619f7a1be43b3befbb1743cef53071cc9",
+      "deliveredBytes": 256652
+    },
+    {
+      "lineId": "epilogue-005",
+      "chapterId": "epilogue",
+      "profileId": "adult-aleem",
+      "canonicalTextSha256": "d66dd34a8077d83b7e97e1f26467330becc474e3249f45f4df831ceb02b143aa",
+      "sourceSha256": "b70749bdc786cbefd43412345fbfb7f7d5c9c3390d6a22444f40b29a367ffea9",
+      "deliveredSha256": "4ccff239be99f3556c4ca508d6ee7a8e80541a55f223f58a1c3e9b6ff4189f0a",
+      "deliveredBytes": 222956,
+      "note": "A verified replacement restores canonical wording. Original and selected takes, isolated transcription and replacement audits are retained locally."
+    }
+  ]
+}

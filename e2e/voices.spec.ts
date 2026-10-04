@@ -71,7 +71,7 @@ test('plays imported narration under the nested base and keeps subtitles after a
 });
 
 test('downloads chapters independently and plays the imported voices offline', async ({ page, context }) => {
-  test.setTimeout(120_000);
+  test.setTimeout(180_000);
   await observeAudio(page);
   await openApp(page);
   await page.evaluate(async () => { await navigator.serviceWorker.ready; });
@@ -117,12 +117,13 @@ test('downloads chapters independently and plays the imported voices offline', a
     await expect(page.getByLabel('Dialogue', { exact: true })).not.toContainText('Voice unavailable');
   }
 
-  const voicedChapters = new Set(offlinePackManifests.map((pack) => pack.chapterId));
-  const unvoiced = story.nodes.find((node) => node.type === 'line' && !voicedChapters.has(node.chapterId) && node.speakerId !== null);
-  if (!unvoiced || unvoiced.type !== 'line') throw new Error('Expected a later unvoiced chapter.');
-  await saveAt(page, unvoiced.id);
-  await expect(page.getByRole('button', { name: 'Replay voice', exact: true })).toBeDisabled();
-  await expect(page.getByLabel('Dialogue', { exact: true })).toContainText(unvoiced.text);
+  await saveAt(page, 'epilogue-005');
+  await page.getByRole('button', { name: 'Replay voice', exact: true }).click();
+  await expectPlaying(page, 'epilogue-005');
   await revealAndAdvance(page);
-  await expect(page.getByLabel('Dialogue', { exact: true })).not.toContainText(unvoiced.text);
+  await expect(page.getByRole('region', { name: 'The End' })).toContainText(
+    'The story ends here. Our journey continues. Inshallah, a happily ever after.',
+  );
+  await expect(page.evaluate((key) => JSON.parse(localStorage.getItem(key) ?? '{}') as unknown, SAVE_KEY))
+    .resolves.toMatchObject({ currentNodeId: 'epilogue-end', status: 'ended' });
 });

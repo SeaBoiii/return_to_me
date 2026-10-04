@@ -1,10 +1,12 @@
 # Static voice production
 
 The deployed game never calls a speech API. Voice acting is imported as
-pre-rendered MP3 files, with provider and licence references. Imports may cover
-complete chapters while the remaining story stays subtitle-only. The current
-production delivery contains 517 ElevenLabs clips for the prologue and Chapters 1–7,
-using the user's selected library voices, with eight optional offline voice packs.
+pre-rendered MP3 files, with provider and licence references. The complete
+production delivery contains 775 ElevenLabs clips covering every spoken line in
+the prologue, Chapters 1–12, and epilogue, including every choice branch. It uses
+the user's selected library voices, with 14 optional offline voice packs.
+The importer also supports cumulative selections of complete chapters for
+staged releases.
 Never put provider API keys, session cookies, private voice IDs, or runtime
 text-to-speech code in this repository or in the deployed application.
 
@@ -36,8 +38,9 @@ the active speaking cast. Its single clip is illustrative only. Without
 `chapterIds`, a real import must contain exactly one clip for every spoken
 `LineNode` in the active story.
 
-To import chapter by chapter, set the optional `chapterIds` array to the
-complete cumulative set of chapters to include:
+For a staged release, set the optional `chapterIds` array to the complete
+cumulative set of chapters to include. The current complete edition selects
+all 14 chapter entries:
 
 ```json
 "chapterIds": [
@@ -48,7 +51,13 @@ complete cumulative set of chapters to include:
   "chapter-4",
   "chapter-5",
   "chapter-ns",
-  "chapter-6"
+  "chapter-6",
+  "chapter-7",
+  "chapter-8",
+  "chapter-9",
+  "chapter-10",
+  "chapter-11",
+  "epilogue"
 ]
 ```
 
@@ -61,11 +70,10 @@ speaker do not receive clips. List the profiles used by those chapters.
 Unknown or duplicate chapter IDs and incomplete selected chapters are rejected.
 Chapters outside the selection remain subtitle-only.
 
-The selection is cumulative, not an append operation. When displayed Chapter 8,
-**Just Friends**, is ready, add `chapter-7` and its clips to the existing
-prologue/Chapters 1–7 manifest and retain the earlier clips and profiles.
-Omitting a previously imported chapter from
-the next manifest is rejected to preserve its deployed files and offline pack.
+The selection is cumulative, not an append operation. Subsequent imports must
+retain all previously imported chapters, clips, and profiles, including when
+replacing a take in the complete edition. Omitting a previously imported chapter
+from the next manifest is rejected to preserve its deployed files and offline pack.
 
 Keep the import JSON beside its `clips/` folder. Every `sourceFile` must be a
 relative path contained by that folder tree; absolute paths, traversal, symlink
@@ -102,10 +110,11 @@ does it replace the bounded `public/voices/` directory and regenerate
 input order, URLs are grouped into one offline pack per chapter, durations come
 from ffprobe, and expected pack byte sizes come from the delivered files.
 
-Finally run the chapter-complete deployment check:
+Finally run the deployment and full-story release checks:
 
 ```sh
 npm run validate:deploy
+npm run validate:release
 ```
 
 The GitHub Pages gate accepts an empty production manifest as a subtitles-only
@@ -113,15 +122,16 @@ edition or complete voiced chapters alongside later subtitle-only chapters.
 It rejects incomplete imported chapters, undeclared or missing files, unknown
 profiles, missing provenance, revision mismatches, and pack byte-size mismatches.
 `npm run validate:release` is the stricter full-story voiced-release gate and
-requires every spoken line in every chapter. Its failure is expected while
-later chapters remain unvoiced. Ordinary `npm run validate` remains text-only
-friendly during development.
+requires every spoken line in every chapter. The complete 775-clip delivery
+passes both gates. Ordinary `npm run validate` remains text-only friendly
+during development.
 
-The Offline & install panel lists only available chapter packs. The story and
-artwork install separately; players can download, verify, and remove voice
-packs individually. Imported lines stream when online and play from the voice
-cache once downloaded. Unvoiced lines retain subtitles and a disabled Replay
-voice control. Failure to load a clip never prevents reading or advancing.
+The Offline & install panel lists all 14 available chapter packs in the complete
+edition. The story and artwork install separately; players can download, verify,
+and remove voice packs individually. Imported lines stream when online and play
+from the voice cache once downloaded. In builds with partial voice coverage,
+unvoiced lines retain subtitles and a disabled Replay voice control. Failure to
+load a clip never prevents reading or advancing.
 
 Automated checks confirm that provenance fields and files are present; they do
 not verify provider licensing rights. Keep private source files, voice IDs,

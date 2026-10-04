@@ -11,12 +11,13 @@ import {
 } from ".";
 
 describe("production content manifests", () => {
-  it("validates complete voiced chapter packs alongside unvoiced chapters", () => {
+  it("validates voice coverage for the complete story", () => {
     expect(
       validateStory(story, {
         assets: assetEntries,
         voices: voiceEntries,
         offlinePacks: offlinePackManifests,
+        requireVoiceCoverage: true,
         requireCompleteChapterVoiceCoverage: true,
       }),
     ).toEqual([]);
@@ -61,10 +62,12 @@ describe("production content manifests", () => {
     ]);
   });
 
-  it("includes every spoken line and branch in the declared voiced chapters", () => {
-    const voicedChapters = new Set(offlinePackManifests.map((pack) => pack.chapterId));
+  it("includes every spoken line and branch with a pack for every chapter", () => {
+    expect(new Set(offlinePackManifests.map((pack) => pack.chapterId))).toEqual(
+      new Set(story.chapters.map((chapter) => chapter.id)),
+    );
     const expectedLines = story.nodes.flatMap((node) =>
-      node.type === "line" && node.speakerId !== null && voicedChapters.has(node.chapterId)
+      node.type === "line" && node.speakerId !== null
         ? [node.id] : [],
     );
     expect(new Set(voiceEntries.map((entry) => entry.lineId))).toEqual(new Set(expectedLines));

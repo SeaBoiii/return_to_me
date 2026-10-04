@@ -413,7 +413,7 @@ test('ends with engagement and wedding preparations and resumes at the final car
   await dismissNotice(page);
   await page.getByRole('button', { name: 'Continue', exact: true }).click();
   await expect(page.getByText('Still Being Written', { exact: true })).toBeVisible();
-  await expect(page.getByRole('button', { name: 'Replay voice' })).toBeDisabled();
+  await expect(page.getByRole('button', { name: 'Replay voice' })).toBeEnabled();
   const epilogueLines = story.nodes.filter((node) => node.chapterId === 'epilogue' && node.type === 'line');
   const displayedText: string[] = [];
   for (let step = 0; step < epilogueLines.length; step += 1) {
