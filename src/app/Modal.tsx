@@ -37,8 +37,36 @@ export function Modal({
 
   useEffect(() => {
     const previous = document.activeElement as HTMLElement | null;
+    const root = panelRef.current?.closest('[data-modal-backdrop]');
+    const oldInert = new Map<HTMLElement, boolean>();
+    const branches: Array<{ parent: HTMLElement; child: Element }> = [];
+    let child = root;
+    while (child?.parentElement) {
+      const parent = child.parentElement;
+      branches.push({ parent, child });
+      if (parent === document.body) break;
+      child = parent;
+    }
+    const containBackground = () => {
+      for (const { parent, child } of branches) for (const sibling of parent.children) {
+        if (sibling === child || sibling.hasAttribute('data-modal-backdrop')) continue;
+        const element = sibling as HTMLElement;
+        if (!oldInert.has(element)) oldInert.set(element, element.inert);
+        element.inert = true;
+      }
+    };
+    containBackground();
+    const observer = new MutationObserver(containBackground);
+    for (const { parent } of branches) observer.observe(parent, { childList: true });
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
     panelRef.current?.focus();
-    return () => previous?.focus();
+    return () => {
+      observer.disconnect();
+      for (const [element, inert] of oldInert) element.inert = inert;
+      document.body.style.overflow = previousOverflow;
+      if (previous?.isConnected) previous.focus();
+    };
   }, []);
 
   const handleKeyDown = (event: KeyboardEvent<HTMLDivElement>) => {
@@ -63,10 +91,13 @@ export function Modal({
 
     const first = focusable[0];
     const last = focusable.at(-1);
-    if (event.shiftKey && document.activeElement === first) {
+    if (event.shiftKey && (document.activeElement === first || document.activeElement === panelRef.current)) {
       event.preventDefault();
       last?.focus();
     } else if (!event.shiftKey && document.activeElement === last) {
+      event.preventDefault();
+      first?.focus();
+    } else if (!event.shiftKey && document.activeElement === panelRef.current) {
       event.preventDefault();
       first?.focus();
     }
@@ -74,6 +105,7 @@ export function Modal({
 
   return (
     <div
+      data-modal-backdrop="true"
       className={styles.modalBackdrop}
       onMouseDown={(event) => {
         if (event.target === event.currentTarget) {
@@ -108,7 +140,7 @@ export function Modal({
             </button>
           )}
         </header>
-        <div className={styles.modalBody}>{children}</div>
+        <div className={styles.modalBody} role="region" aria-label={`${title} content`} tabIndex={0}>{children}</div>
       </div>
     </div>
   );

@@ -101,6 +101,26 @@ describe("save persistence", () => {
 });
 
 describe("settings persistence", () => {
+  it("loads older settings with standard text size and playback modes off", () => {
+    const storage = new MemoryStorage();
+    storage.setItem("settings", JSON.stringify({ version: 1, textSpeedMs: 42, autoMode: true, skipSeen: true, muted: true, volume: 0.3, reducedMotion: true }));
+    expect(loadSettings({ storage, key: "settings" })).toMatchObject({ status: "ok", settings: {
+      textSize: 18, textSpeedMs: 42, autoMode: false, skipSeen: false, muted: true, volume: 0.3, reducedMotion: true,
+    } });
+  });
+
+  it.each([18, 21, 24] as const)("persists text size %s but never active Auto/Skip", (textSize) => {
+    const storage = new MemoryStorage();
+    expect(saveSettings({ ...DEFAULT_SETTINGS, textSize, autoMode: true, skipSeen: true }, { storage, key: "settings" })).toEqual({ ok: true });
+    expect(JSON.parse(storage.getItem("settings") ?? "{}")).toMatchObject({ textSize, autoMode: false, skipSeen: false });
+    expect(loadSettings({ storage, key: "settings" }).settings.textSize).toBe(textSize);
+  });
+
+  it("rejects an unsupported text size without accepting arbitrary layout values", () => {
+    const storage = new MemoryStorage();
+    storage.setItem("settings", JSON.stringify({ ...DEFAULT_SETTINGS, textSize: 200 }));
+    expect(loadSettings({ storage, key: "settings" })).toMatchObject({ status: "corrupt", settings: DEFAULT_SETTINGS });
+  });
   it("uses defaults for corrupt data and round-trips valid settings", () => {
     const storage = new MemoryStorage();
     storage.setItem("settings", "{no");

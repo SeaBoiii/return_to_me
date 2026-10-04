@@ -153,6 +153,22 @@ export interface AssetProvenance {
   readonly license?: string;
 }
 
+/** Normalised coordinates inside the image that must remain visible. */
+export interface AssetProtectedBounds {
+  readonly x: number;
+  readonly y: number;
+  readonly width: number;
+  readonly height: number;
+}
+
+export interface MobileAssetVariant {
+  readonly url: string;
+  readonly width: number;
+  readonly height: number;
+  readonly focalPoint: AssetFocalPoint;
+  readonly protectedBounds: AssetProtectedBounds;
+}
+
 export interface AssetEntry {
   readonly id: AssetId;
   readonly kind: AssetKind;
@@ -161,6 +177,8 @@ export interface AssetEntry {
   readonly width: number;
   readonly height: number;
   readonly focalPoint: AssetFocalPoint;
+  readonly protectedBounds?: AssetProtectedBounds;
+  readonly mobile?: MobileAssetVariant;
   readonly preloadGroup: string;
   readonly alt?: string;
   readonly provenance?: AssetProvenance;
@@ -242,6 +260,8 @@ export interface SettingsV1 {
   readonly volume: number;
   readonly muted: boolean;
   readonly reducedMotion: boolean;
+  /** Optional in older settings; interpreted as 18px when absent. */
+  readonly textSize?: 18 | 21 | 24;
 }
 
 export const DEFAULT_SETTINGS: SettingsV1 = Object.freeze({
@@ -252,6 +272,7 @@ export const DEFAULT_SETTINGS: SettingsV1 = Object.freeze({
   volume: 0.9,
   muted: false,
   reducedMotion: false,
+  textSize: 18,
 });
 
 export type StoryAction =

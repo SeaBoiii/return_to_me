@@ -1,39 +1,20 @@
-import {
-  type CSSProperties,
-  useCallback,
-  useEffect,
-  useMemo,
-  useRef,
-  useState,
-} from "react";
-import {
-  AudioManager,
-  getCurrentNode,
-  getDialogueHistory,
-  type OfflinePackManifest,
-  type StagePosition,
-  type StageTransition,
-  type StoryNode,
-} from "./engine";
+import { useEffect, useRef, useState } from "react";
+import { getDialogueHistory } from "./engine";
 import {
   createInstallPromptController,
-  OfflinePackCancelledError,
-  OfflinePackManager,
   type InstallAvailability,
-  type OfflinePackStatus,
   registerReturnToMeServiceWorker,
   type ServiceWorkerUpdateState,
 } from "./pwa";
+import { getArtUrl, protectActiveArt } from "./pwa/artContent";
 import { story } from "./story";
 import { getAssetEntry } from "./art/manifest";
-import {
-  offlinePackManifests,
-  productionVoiceManifest,
-  voiceEntries,
-  voiceProfiles,
-} from "./voices";
+import { offlinePackManifests, productionVoiceManifest, voiceEntries, voiceProfiles } from "./voices";
 import { Modal } from "./app/Modal";
+import { Reader } from "./app/Reader";
+import { OfflineLibrary } from "./app/OfflineLibrary";
 import { useStory } from "./app/StoryContext";
+import type { Panel } from "./app/panels";
 import styles from "./app/App.module.css";
 
 const voicedChapterIds = new Set(
@@ -47,206 +28,7 @@ const hasUnvoicedChapters = story.chapters.some(
   (chapter) => !voicedChapterIds.has(chapter.id),
 );
 
-type Panel =
-  | "chapters"
-  | "history"
-  | "settings"
-  | "offline"
-  | "credits"
-  | "help"
-  | null;
-
-const speakerNames = new Map<string, string>(
-  story.speakers.map((speaker) => [speaker.id, speaker.name]),
-);
-
-const positionMap: Record<
-  Exclude<StagePosition, { readonly x: number; readonly y: number }>,
-  { x: number; y: number }
-> = {
-  "far-left": { x: 10, y: 100 },
-  left: { x: 28, y: 100 },
-  center: { x: 50, y: 100 },
-  right: { x: 72, y: 100 },
-  "far-right": { x: 90, y: 100 },
-};
-const stageTransitionClasses: Record<StageTransition, string> = {
-  none: styles.stageTransitionNone!,
-  cut: styles.stageTransitionCut!,
-  fade: styles.stageTransitionFade!,
-  dissolve: styles.stageTransitionDissolve!,
-  slide: styles.stageTransitionSlide!,
-};
-
-function stagePositionStyle(
-  position: StagePosition,
-  layer = 1,
-  flipHorizontal = false,
-): CSSProperties {
-  const point =
-    typeof position === "string" ? positionMap[position] : position;
-  return {
-    left: `${point.x}%`,
-    bottom: `${100 - point.y}%`,
-    zIndex: layer,
-    transform: `translateX(-50%)${flipHorizontal ? " scaleX(-1)" : ""}`,
-  };
-}
-
-function Stage({ node, reducedMotion }: { node: StoryNode; reducedMotion: boolean }) {
-  const background = getAssetEntry(node.stage.backgroundId);
-
-  return (
-    <figure
-      className={`${styles.stage} ${
-        reducedMotion
-          ? styles.noMotion
-          : stageTransitionClasses[node.stage.transition]
-      }`}
-      data-transition={node.stage.transition}
-      data-art-kind={background?.kind}
-      aria-label={`Scene: ${node.stage.mood}`}
-    >
-      {background !== undefined ? (
-        <img
-          className={styles.background}
-          src={background.url}
-          alt=""
-          width={background.width}
-          height={background.height}
-          style={{
-            objectPosition: `${background.focalPoint.x * 100}% ${
-              background.focalPoint.y * 100
-            }%`,
-          }}
-          draggable={false}
-        />
-      ) : (
-        <div className={styles.missingBackground} aria-hidden="true" />
-      )}
-
-      <div className={styles.sceneTint} data-mood={node.stage.mood} />
-
-      {background?.kind === "cg" && (
-        <img
-          className={styles.cgComposition}
-          data-testid="cg-composition"
-          src={background.url}
-          alt=""
-          width={background.width}
-          height={background.height}
-          draggable={false}
-        />
-      )}
-
-      <div className={styles.spriteLayer} aria-hidden="true">
-        {node.stage.sprites.map((sprite) => {
-          const asset = getAssetEntry(sprite.assetId);
-          if (asset === undefined) {
-            return null;
-          }
-          const isSpeaker =
-            node.type !== "line" ||
-            node.speakerId === null ||
-            node.speakerId === sprite.characterId ||
-            node.speakerId === "adult-aleem";
-          const facing = sprite.facing ?? "right";
-          const flipHorizontal =
-            (facing === "left") !== (sprite.mirror ?? false);
-          return (
-            <img
-              key={sprite.id}
-              className={`${styles.sprite} ${
-                isSpeaker ? styles.spriteFocused : styles.spriteResting
-              }`}
-              src={asset.url}
-              alt=""
-              width={asset.width}
-              height={asset.height}
-              style={{
-                ...stagePositionStyle(
-                  sprite.position,
-                  sprite.layer,
-                  flipHorizontal,
-                ),
-                objectPosition: `${asset.focalPoint.x * 100}% ${
-                  asset.focalPoint.y * 100
-                }%`,
-              }}
-              data-facing={facing}
-              data-mirrored={flipHorizontal ? "true" : "false"}
-              draggable={false}
-            />
-          );
-        })}
-      </div>
-
-      {node.stage.overlay !== undefined && (
-        <section
-          className={`${styles.stageOverlay} ${
-            styles[`overlay_${node.stage.overlay.kind}`]
-          }`}
-          aria-label={node.stage.overlay.label}
-          data-overlay-kind={node.stage.overlay.kind}
-        >
-          {node.stage.overlay.title !== undefined && (
-            <h3>{node.stage.overlay.title}</h3>
-          )}
-          {node.stage.overlay.lines.map((line, index) => (
-            <p key={`${line}-${index}`}>{line}</p>
-          ))}
-        </section>
-      )}
-      <figcaption className={styles.srOnly}>{node.stage.mood}</figcaption>
-    </figure>
-  );
-}
-
-function useTypewriter(
-  text: string,
-  nodeId: string,
-  speedMs: number,
-  reducedMotion: boolean,
-) {
-  const effectiveSpeed = reducedMotion ? 0 : speedMs;
-  const [progress, setProgress] = useState({
-    nodeId,
-    visibleCharacters: effectiveSpeed === 0 ? text.length : 0,
-  });
-  const visibleCharacters =
-    effectiveSpeed === 0
-      ? text.length
-      : progress.nodeId === nodeId
-        ? progress.visibleCharacters
-        : 0;
-
-  useEffect(() => {
-    if (effectiveSpeed === 0) {
-      return;
-    }
-
-    const interval = window.setInterval(() => {
-      setProgress((current) => {
-        const count =
-          current.nodeId === nodeId ? current.visibleCharacters : 0;
-        if (count >= text.length) {
-          window.clearInterval(interval);
-          return { nodeId, visibleCharacters: text.length };
-        }
-        return { nodeId, visibleCharacters: count + 1 };
-      });
-    }, effectiveSpeed);
-    return () => window.clearInterval(interval);
-  }, [effectiveSpeed, nodeId, text]);
-
-  return {
-    visibleText: text.slice(0, visibleCharacters),
-    complete: visibleCharacters >= text.length,
-    reveal: () => setProgress({ nodeId, visibleCharacters: text.length }),
-  };
-}
-
-function Notice({ onContinue }: { onContinue: () => void }) {
+function Notice({ onContinue, label = "Continue to title" }: { onContinue: () => void; label?: string }) {
   return (
     <Modal
       title="A note before we begin"
@@ -279,9 +61,8 @@ function Notice({ onContinue }: { onContinue: () => void }) {
         className={styles.primaryButton}
         type="button"
         onClick={onContinue}
-        autoFocus
       >
-        Continue to title
+        {label}
       </button>
     </Modal>
   );
@@ -296,6 +77,7 @@ interface TitleScreenProps {
   readonly onContinue: () => void;
   readonly onOpenPanel: (panel: Exclude<Panel, null>) => void;
   readonly onInstall: () => void;
+  readonly onResumeReplay: () => void;
 }
 
 function TitleScreen({
@@ -307,14 +89,19 @@ function TitleScreen({
   onContinue,
   onOpenPanel,
   onInstall,
+  onResumeReplay,
 }: TitleScreenProps) {
+  const { savedProgress, replayProgress } = useStory();
+  const savedChapter = savedProgress.status === "ok" ? story.chapters.find(chapter =>
+    story.nodes.some(node => node.id === savedProgress.save.currentNodeId && node.chapterId === chapter.id)) : undefined;
   const dawn = getAssetEntry("bg-dawn-window");
+  useEffect(() => { if (dawn) protectActiveArt([getArtUrl(dawn.url)]); }, [dawn]);
   return (
     <main id="main-content" className={styles.titleScreen}>
       {dawn !== undefined && (
         <img
           className={styles.titleBackground}
-          src={dawn.url}
+          src={getArtUrl(dawn.url)}
           alt=""
           width={dawn.width}
           height={dawn.height}
@@ -349,22 +136,15 @@ function TitleScreen({
         )}
 
         <div className={styles.titleActions}>
-          <button
-            className={styles.primaryButton}
-            type="button"
-            onClick={onNewGame}
-          >
-            New Game
+          <button className={canContinue ? styles.primaryButton : styles.secondaryButton}
+            type="button" onClick={onContinue} disabled={!canContinue} aria-label="Continue">
+            Continue {savedChapter && <small className={styles.resumeChapter}>{savedChapter.title}</small>}
           </button>
-          <button
-            className={styles.secondaryButton}
-            type="button"
-            onClick={onContinue}
-            disabled={!canContinue}
-          >
-            Continue
-          </button>
+          <button className={canContinue ? styles.secondaryButton : styles.primaryButton}
+            type="button" onClick={onNewGame}>New Game</button>
         </div>
+        {replayProgress.status === "ok" && !replayProgress.replay.completed && unlockedChapters.includes(replayProgress.replay.chapterId) &&
+          <button className={styles.textButton} onClick={onResumeReplay}>Resume replay</button>}
 
         <nav className={styles.titleNav} aria-label="Game options">
           <button
@@ -395,404 +175,12 @@ function TitleScreen({
           </button>
         )}
         {installState === "installed" && (
-          <p className={styles.installedPill}>Installed for offline play</p>
+          <p className={styles.installedPill}>App installed</p>
         )}
       </div>
       <p className={styles.titleFooter}>
         Singapore · 2009–2026 <span aria-hidden="true">•</span> No analytics
       </p>
-    </main>
-  );
-}
-
-interface GameScreenProps {
-  readonly onTitle: () => void;
-  readonly onOpenPanel: (panel: Exclude<Panel, null>) => void;
-}
-
-function GameScreen({ onTitle, onOpenPanel }: GameScreenProps) {
-  const { state, settings, dispatch, updateSettings } = useStory();
-  const node = getCurrentNode(story, state);
-  const audio = useMemo(() => new AudioManager(voiceEntries), []);
-  const playbackRef = useRef<ReturnType<AudioManager["playLine"]> | undefined>(
-    undefined,
-  );
-  const [voiceFeedback, setVoiceFeedback] = useState<
-    { readonly nodeId: string; readonly message: string } | undefined
-  >(undefined);
-  const [replayVersion, setReplayVersion] = useState(0);
-
-  const playVoice = useCallback((nodeId: string) => {
-    const playback = audio.playLine(nodeId);
-    playbackRef.current = playback;
-    void playback.then((result) => {
-      if (playbackRef.current !== playback) return;
-      if (result.status === "blocked") {
-        setVoiceFeedback({
-          nodeId,
-          message: "Select replay to enable voice playback.",
-        });
-      } else if (result.status === "error") {
-        setVoiceFeedback({
-          nodeId,
-          message: "Voice unavailable; subtitles remain active.",
-        });
-      } else {
-        setVoiceFeedback(undefined);
-      }
-    });
-  }, [audio]);
-
-  const lineText =
-    node?.type === "line"
-      ? node.text
-      : node?.type === "choice"
-        ? node.prompt
-        : node?.text ?? "";
-  const typewriter = useTypewriter(
-    lineText,
-    node?.id ?? "none",
-    settings.textSpeedMs,
-    settings.reducedMotion,
-  );
-
-  useEffect(() => {
-    audio.setVolume(settings.volume);
-  }, [audio, settings.volume]);
-
-  useEffect(() => {
-    audio.setMuted(settings.muted);
-  }, [audio, settings.muted]);
-
-  useEffect(() => {
-    audio.stop();
-    if (node?.type === "line" && audio.hasVoice(node.id)) {
-      playVoice(node.id);
-    } else {
-      playbackRef.current = undefined;
-    }
-    return () => audio.stop();
-  }, [audio, node, playVoice]);
-
-  const advance = useCallback(() => {
-    if (node?.type !== "line") {
-      return;
-    }
-    if (!typewriter.complete) {
-      typewriter.reveal();
-      return;
-    }
-    audio.stop();
-    dispatch({ type: "ADVANCE" });
-  }, [audio, dispatch, node, typewriter]);
-
-  useEffect(() => {
-    const handleShortcut = (event: globalThis.KeyboardEvent) => {
-      if (
-        event.defaultPrevented ||
-        event.repeat ||
-        event.altKey ||
-        event.ctrlKey ||
-        event.metaKey ||
-        document.querySelector("[role='dialog']") !== null
-      ) {
-        return;
-      }
-
-      const target = event.target;
-      if (
-        target instanceof Element &&
-        target.closest(
-          "button, input, select, textarea, a, summary, [role='button'], [role='link'], [contenteditable='true']",
-        ) !== null
-      ) {
-        return;
-      }
-
-      const key = event.key.toLowerCase();
-      if (
-        node?.type === "line" &&
-        (event.key === "Enter" || event.key === " " || event.code === "Space")
-      ) {
-        event.preventDefault();
-        advance();
-      } else if (key === "h") {
-        event.preventDefault();
-        onOpenPanel("history");
-      } else if (key === "a") {
-        event.preventDefault();
-        updateSettings({ autoMode: !settings.autoMode });
-      }
-    };
-
-    window.addEventListener("keydown", handleShortcut);
-    return () => window.removeEventListener("keydown", handleShortcut);
-  }, [advance, node?.type, onOpenPanel, settings.autoMode, updateSettings]);
-
-  useEffect(() => {
-    if (
-      node?.type !== "line" ||
-      !settings.skipSeen ||
-      !state.seenNodeIds.includes(node.id)
-    ) {
-      return;
-    }
-
-    const timeout = window.setTimeout(() => {
-      audio.stop();
-      dispatch({ type: "ADVANCE" });
-    }, 120);
-    return () => window.clearTimeout(timeout);
-  }, [audio, dispatch, node, settings.skipSeen, state.seenNodeIds]);
-
-  useEffect(() => {
-    if (
-      node?.type !== "line" ||
-      !settings.autoMode ||
-      !typewriter.complete ||
-      (settings.skipSeen && state.seenNodeIds.includes(node.id))
-    ) {
-      return;
-    }
-
-    let cancelled = false;
-    const waitForReading = async () => {
-      const words = node.text.trim().split(/\s+/).length;
-      await new Promise<void>((resolve) => {
-        window.setTimeout(
-          resolve,
-          Math.min(5_500, Math.max(1_200, words * 190)),
-        );
-      });
-    };
-    const continueAfterVoice = async () => {
-      const playback = playbackRef.current;
-      if (playback === undefined) {
-        await waitForReading();
-      } else {
-        const result = await playback;
-        if (result.status === "stopped") {
-          return;
-        }
-        if (
-          result.status === "blocked" ||
-          result.status === "error" ||
-          result.status === "missing"
-        ) {
-          await waitForReading();
-        }
-      }
-      if (!cancelled) {
-        dispatch({ type: "ADVANCE" });
-      }
-    };
-    void continueAfterVoice();
-    return () => {
-      cancelled = true;
-    };
-  }, [
-    dispatch,
-    node,
-    settings.autoMode,
-    settings.skipSeen,
-    state.seenNodeIds,
-    typewriter.complete,
-    replayVersion,
-  ]);
-
-  useEffect(() => () => audio.dispose(), [audio]);
-
-  if (node === undefined) {
-    return (
-      <main className={styles.fatalState}>
-        <h1>We lost our place.</h1>
-        <p>The current story node could not be restored safely.</p>
-        <button className={styles.primaryButton} type="button" onClick={onTitle}>
-          Return to title
-        </button>
-      </main>
-    );
-  }
-
-  const chapter = story.chapters.find(
-    (candidate) => candidate.id === node.chapterId,
-  );
-  const speaker =
-    node.type === "line" && node.speakerId !== null
-      ? speakerNames.get(node.speakerId)
-      : undefined;
-  const hasVoice = node.type === "line" && audio.hasVoice(node.id);
-
-
-  return (
-    <main
-      id="main-content"
-      className={styles.gameScreen}
-    >
-      <Stage
-        key={node.id}
-        node={node}
-        reducedMotion={settings.reducedMotion}
-      />
-
-      <header className={styles.gameHeader}>
-        <button
-          className={styles.menuButton}
-          type="button"
-          onClick={() => onOpenPanel("chapters")}
-          aria-label="Open chapter menu"
-        >
-          <span aria-hidden="true" />
-          <span aria-hidden="true" />
-          <span aria-hidden="true" />
-        </button>
-        <div className={styles.chapterTitle}>
-          <span>{chapter?.period}</span>
-          <strong>{chapter?.title}</strong>
-        </div>
-        <button
-          className={styles.titleReturn}
-          type="button"
-          onClick={onTitle}
-        >
-          Title
-        </button>
-      </header>
-
-      <div className={styles.quickControls} aria-label="Reading controls">
-        <button
-          type="button"
-          aria-pressed={settings.autoMode}
-          onClick={() =>
-            updateSettings({ autoMode: !settings.autoMode })
-          }
-          title="Auto mode (A)"
-        >
-          Auto <span>{settings.autoMode ? "on" : "off"}</span>
-        </button>
-        <button
-          type="button"
-          aria-pressed={settings.skipSeen}
-          onClick={() =>
-            updateSettings({ skipSeen: !settings.skipSeen })
-          }
-          title="Skip previously seen text"
-        >
-          Skip <span>{settings.skipSeen ? "on" : "off"}</span>
-        </button>
-      </div>
-
-      {node.type === "end" ? (
-        <section className={styles.endCard} aria-labelledby="ending-title">
-          <p className={styles.eyebrow}>{story.subtitle ?? story.title}</p>
-          <h1 id="ending-title">{node.title}</h1>
-          {node.text !== undefined && <p>{node.text}</p>}
-          <div className={styles.endActions}>
-            <button
-              className={styles.primaryButton}
-              type="button"
-              onClick={onTitle}
-            >
-              Return to title
-            </button>
-            <button
-              className={styles.secondaryButton}
-              type="button"
-              onClick={() => onOpenPanel("chapters")}
-            >
-              Chapter select
-            </button>
-          </div>
-        </section>
-      ) : (
-        <section
-          className={styles.dialogueArea}
-          aria-label={node.type === "choice" ? "Choice" : "Dialogue"}
-        >
-          <div className={styles.dialogueToolbar}>
-            <button
-              type="button"
-              onClick={() => onOpenPanel("history")}
-              title="Dialogue history (H)"
-            >
-              History
-            </button>
-            <button
-              type="button"
-              onClick={() => {
-                if (node.type === "line" && hasVoice) {
-                  setVoiceFeedback(undefined);
-                  playVoice(node.id);
-                  setReplayVersion((version) => version + 1);
-                }
-              }}
-              disabled={!hasVoice}
-              title={
-                hasVoice
-                  ? "Replay this line"
-                  : "No voice clip is included for this line"
-              }
-            >
-              Replay voice
-            </button>
-            <button type="button" onClick={() => onOpenPanel("settings")}>
-              Settings
-            </button>
-            <button type="button" onClick={() => onOpenPanel("help")}>
-              Keys
-            </button>
-          </div>
-
-          <div className={styles.dialogueBox}>
-            {speaker !== undefined && (
-              <p className={styles.speakerName}>{speaker}</p>
-            )}
-            <p className={styles.srOnly} aria-live="polite" aria-atomic="true">
-              {speaker === undefined ? "" : `${speaker}: `}
-              {lineText}
-            </p>
-            <p className={styles.dialogueText} aria-hidden="true">
-              {typewriter.visibleText}
-              {!typewriter.complete && (
-                <span className={styles.textCursor} aria-hidden="true" />
-              )}
-            </p>
-
-            {node.type === "choice" ? (
-              <div className={styles.choices}>
-                {node.choices.map((option, index) => (
-                  <button
-                    key={option.id}
-                    type="button"
-                    onClick={() =>
-                      dispatch({ type: "CHOOSE", optionId: option.id })
-                    }
-                  >
-                    <span aria-hidden="true">{index + 1}</span>
-                    {option.label}
-                  </button>
-                ))}
-              </div>
-            ) : (
-              <button
-                className={styles.advanceButton}
-                type="button"
-                onClick={advance}
-                aria-label={
-                  typewriter.complete ? "Advance dialogue" : "Reveal full line"
-                }
-              >
-                <span aria-hidden="true">›</span>
-              </button>
-            )}
-          </div>
-          {voiceFeedback?.nodeId === node.id && (
-            <p className={styles.voiceStatus} role="status">
-              {voiceFeedback.message}
-            </p>
-          )}
-        </section>
-      )}
     </main>
   );
 }
@@ -806,6 +194,13 @@ function ChapterPanel({
   readonly onSelect: (chapterId: string) => void;
   readonly onClose: () => void;
 }) {
+  const { savedProgress, replayProgress } = useStory();
+  const savedNode = savedProgress.status === "ok" ? story.nodes.find(node => node.id === savedProgress.save.currentNodeId) : undefined;
+  const completedChapters = new Set(savedProgress.status === 'ok' ? story.nodes.filter(node => {
+    if (node.type === 'end') return savedProgress.save.status === 'ended' && savedProgress.save.currentNodeId === node.id;
+    return node.type === 'line' && savedProgress.save.seenNodeIds.includes(node.id)
+      && story.nodes.some(next => next.id === node.next && next.chapterId !== node.chapterId);
+  }).map(node => node.chapterId) : []);
   return (
     <Modal
       title="Chapter select"
@@ -822,19 +217,21 @@ function ChapterPanel({
                 disabled={!available}
                 onClick={() => onSelect(chapter.id)}
               >
-                <span>{String(index).padStart(2, "0")}</span>
+                <span>{index === 0 ? "P" : chapter.id === "epilogue" ? "E" : String(index).padStart(2, "0")}</span>
                 <span>
                   <strong>{chapter.title}</strong>
                   <small>{chapter.period}</small>
                 </span>
-                <i aria-hidden="true">{available ? "›" : "Locked"}</i>
+                <i>{!available ? "Locked" : savedNode?.chapterId === chapter.id && !completedChapters.has(chapter.id)
+                  ? "Current · Replay" : completedChapters.has(chapter.id) ? "Completed · Replay" : "Replay"}</i>
               </button>
             </li>
           );
         })}
       </ol>
+      {replayProgress.status === "ok" && !replayProgress.replay.completed && <p className={styles.panelHint}>Starting a different replay replaces only the replay in progress.</p>}
       <p className={styles.panelHint}>
-        Chapters unlock naturally as you reach them. Choices change immediate
+        Replay chapters without changing your main reading position. Chapters unlock naturally as you reach them. Choices change immediate
         dialogue and later recollections, but every route returns to the true
         milestones.
       </p>
@@ -880,6 +277,11 @@ function SettingsPanel({
   return (
     <Modal title="Settings" onClose={onClose}>
       <div className={styles.settingsGrid}>
+        <label><span>Reading size</span>
+          <select value={settings.textSize ?? 18} onChange={event => updateSettings({ textSize: Number(event.currentTarget.value) as 18 | 21 | 24 })}>
+            <option value={18}>Standard — 18</option><option value={21}>Large — 21</option><option value={24}>Extra large — 24</option>
+          </select>
+        </label>
         <label>
           <span>
             Text speed <small>{settings.textSpeedMs === 0 ? "Instant" : `${settings.textSpeedMs} ms`}</small>
@@ -994,224 +396,6 @@ function SettingsPanel({
           </div>
         )}
       </div>
-    </Modal>
-  );
-}
-
-const formatBytes = (bytes: number): string => {
-  if (bytes <= 0) {
-    return "Size pending";
-  }
-  const megabytes = bytes / (1024 * 1024);
-  return `${megabytes >= 10 ? megabytes.toFixed(0) : megabytes.toFixed(1)} MB`;
-};
-
-function PackRow({
-  manifest,
-  manager,
-}: {
-  readonly manifest: OfflinePackManifest;
-  readonly manager: OfflinePackManager;
-}) {
-  const [status, setStatus] = useState<OfflinePackStatus>({
-    packId: manifest.id,
-    state: "checking",
-    cachedFiles: 0,
-    totalFiles: manifest.voiceUrls.length,
-    cachedBytes: 0,
-    expectedBytes: manifest.expectedBytes,
-  });
-
-  useEffect(() => {
-    let active = true;
-    void manager.status(manifest).then((next) => {
-      if (active) {
-        setStatus(next);
-      }
-    });
-    const unsubscribe = manager.subscribe((next) => {
-      if (next.packId === manifest.id) {
-        setStatus(next);
-      }
-    });
-    return () => {
-      active = false;
-      unsubscribe();
-    };
-  }, [manager, manifest]);
-
-  const progress =
-    status.totalFiles === 0
-      ? 0
-      : Math.round((status.cachedFiles / status.totalFiles) * 100);
-  const isDownloading = status.state === "downloading";
-
-  return (
-    <article className={styles.packRow}>
-      <div>
-        <h3>{manifest.title}</h3>
-        <p>
-          {formatBytes(manifest.expectedBytes)} · {status.cachedFiles}/
-          {status.totalFiles} clips
-        </p>
-      </div>
-      <progress max="100" value={progress}>
-        {progress}%
-      </progress>
-      <p className={styles.packStatus} role="status">
-        {status.state.replace("-", " ")}
-        {status.error === undefined ? "" : ` — ${status.error}`}
-      </p>
-      <div className={styles.packActions}>
-        {isDownloading ? (
-          <button type="button" onClick={() => manager.cancel(manifest.id)}>
-            Cancel
-          </button>
-        ) : status.state === "ready" ? (
-          <>
-            <button
-              type="button"
-              onClick={() => void manager.verify(manifest)}
-            >
-              Verify
-            </button>
-            <button
-              type="button"
-              onClick={() => void manager.remove(manifest)}
-            >
-              Remove
-            </button>
-          </>
-        ) : status.state === "error" || status.state === "partial" ? (
-          <>
-            <button
-              type="button"
-              onClick={() => {
-                void manager
-                  .download(manifest)
-                  .catch((error: unknown) => {
-                    if (!(error instanceof OfflinePackCancelledError)) {
-                      setStatus((current) => ({
-                        ...current,
-                        state: "error",
-                        error:
-                          error instanceof Error
-                            ? error.message
-                            : "Download failed.",
-                      }));
-                    }
-                  });
-              }}
-            >
-              Retry
-            </button>
-            <button
-              type="button"
-              onClick={() => void manager.remove(manifest)}
-            >
-              Remove
-            </button>
-          </>
-        ) : (
-          <button
-            type="button"
-            onClick={() => {
-              void manager
-                .download(manifest)
-                .catch((error: unknown) => {
-                  if (!(error instanceof OfflinePackCancelledError)) {
-                    setStatus((current) => ({
-                      ...current,
-                      state: "error",
-                      error:
-                        error instanceof Error
-                          ? error.message
-                          : "Download failed.",
-                    }));
-                  }
-                });
-            }}
-          >
-            Download
-          </button>
-        )}
-      </div>
-    </article>
-  );
-}
-
-function OfflinePanel({
-  installState,
-  onInstall,
-  onClose,
-}: {
-  readonly installState: InstallAvailability;
-  readonly onInstall: () => void;
-  readonly onClose: () => void;
-}) {
-  const manager = useMemo(
-    () => new OfflinePackManager({ basePath: import.meta.env.BASE_URL }),
-    [],
-  );
-
-  return (
-    <Modal title="Offline & install" onClose={onClose} wide>
-      <section className={styles.installSection}>
-        <div>
-          <p className={styles.eyebrow}>App shell</p>
-          <h3>Take the story with you</h3>
-          <p>
-            The interface, story, and artwork are cached with the installed
-            app. Voice is optional and downloaded one chapter at a time.
-          </p>
-        </div>
-        <button
-          className={styles.secondaryButton}
-          type="button"
-          onClick={onInstall}
-          disabled={installState !== "available"}
-        >
-          {installState === "installed"
-            ? "Installed"
-            : installState === "available"
-              ? "Install app"
-              : "Use browser install menu"}
-        </button>
-      </section>
-
-      <section className={styles.packsSection}>
-        <div className={styles.sectionHeading}>
-          <div>
-            <p className={styles.eyebrow}>Optional downloads</p>
-            <h3>Chapter voice packs</h3>
-          </div>
-          <p>Synthetic voice · subtitles always included</p>
-        </div>
-        {offlinePackManifests.length === 0 ? (
-          <div className={styles.voicePending}>
-            <strong>Voice packs are not included in this edition.</strong>
-            <p>
-              The complete story remains playable with subtitles. Available
-              chapter voice packs will appear here.
-            </p>
-          </div>
-        ) : (
-          <div className={styles.packList}>
-            <p>
-              Voiced chapters: {voicedChapterTitles}.
-              {hasUnvoicedChapters && " Other chapters remain subtitle-only."}
-              {" "}Download a pack to hear that chapter offline.
-            </p>
-            {offlinePackManifests.map((manifest) => (
-              <PackRow
-                key={manifest.id}
-                manifest={manifest}
-                manager={manager}
-              />
-            ))}
-          </div>
-        )}
-      </section>
     </Modal>
   );
 }
@@ -1390,13 +574,23 @@ export default function App() {
     state,
     savedProgress,
     storageMessage,
-    dispatch,
+    settings,
+    sessionMode,
+    replayChapterId,
+    startReplay,
+    resumeReplay,
+    returnToMain,
+    updateSettings,
     startNew,
     continueGame,
   } = useStory();
   const [screen, setScreen] = useState<"title" | "game">("title");
   const [panel, setPanel] = useState<Panel>(null);
-  const [showNotice, setShowNotice] = useState(true);
+  const [showNotice, setShowNotice] = useState(() => {
+    try { return localStorage.getItem("return-to-me:notice:v1") !== "acknowledged"; } catch { return true; }
+  });
+  const [readerSession, setReaderSession] = useState(0);
+  const [pauseRequest, setPauseRequest] = useState(0);
   const [confirmNew, setConfirmNew] = useState(false);
   const [installState, setInstallState] =
     useState<InstallAvailability>("unavailable");
@@ -1439,6 +633,7 @@ export default function App() {
 
   const launchNew = () => {
     startNew();
+    setReaderSession(value => value + 1);
     setConfirmNew(false);
     setPanel(null);
     setScreen("game");
@@ -1446,18 +641,28 @@ export default function App() {
 
   const launchContinue = () => {
     if (continueGame()) {
+      setReaderSession(value => value + 1);
       setPanel(null);
       setScreen("game");
     }
   };
 
   const selectChapter = (chapterId: string) => {
-    if (state.status === "idle" && savedProgress.status === "ok") {
-      dispatch({ type: "LOAD_SAVE", save: savedProgress.save });
+    if (startReplay(chapterId)) {
+      setReaderSession(value => value + 1);
+      setPanel(null);
+      setScreen("game");
     }
-    dispatch({ type: "JUMP_TO_CHAPTER", chapterId });
-    setPanel(null);
-    setScreen("game");
+  };
+  const launchReplay = () => {
+    if (resumeReplay()) {
+      setReaderSession(value => value + 1);
+      setPanel(null); setScreen("game");
+    }
+  };
+  const acknowledge = () => {
+    try { localStorage.setItem("return-to-me:notice:v1", "acknowledged"); } catch { /* Reading remains available. */ }
+    setShowNotice(false); setPanel(null);
   };
 
   const promptInstall = () => {
@@ -1465,7 +670,7 @@ export default function App() {
   };
 
   return (
-    <div className={styles.app}>
+    <div className={styles.app} data-reduced-motion={settings.reducedMotion}>
       {screen === "title" ? (
         <TitleScreen
           unlockedChapters={unlocked}
@@ -1480,17 +685,21 @@ export default function App() {
             }
           }}
           onContinue={launchContinue}
+          onResumeReplay={launchReplay}
           onOpenPanel={setPanel}
           onInstall={promptInstall}
         />
       ) : (
-        <GameScreen
+        <Reader
+          key={`${readerSession}:${sessionMode}:${replayChapterId ?? ""}`}
+          panelOpen={panel !== null || showNotice || confirmNew}
+          pauseRequest={pauseRequest}
           onTitle={() => setScreen("title")}
           onOpenPanel={setPanel}
         />
       )}
 
-      {showNotice && <Notice onContinue={() => setShowNotice(false)} />}
+      {(showNotice || panel === "notice") && <Notice onContinue={acknowledge} label={screen === 'game' ? 'Back to story' : 'Continue to title'} />}
 
       {confirmNew && (
         <Modal
@@ -1521,6 +730,24 @@ export default function App() {
         </Modal>
       )}
 
+      {panel === "menu" && <Modal title="Reading menu" onClose={() => setPanel(null)}>
+        <div className={styles.readingMenu}>
+          <button onClick={() => { setPauseRequest(value => value + 1); setPanel(null); }}>Pause reading</button>
+          {sessionMode === "replay" && <button className={styles.primaryButton} onClick={() => {
+            if (returnToMain()) { setReaderSession(value => value + 1); setPanel(null); }
+          }}>Return to main story</button>}
+          <button onClick={() => setPanel("chapters")}>Chapters &amp; replay</button>
+          <button onClick={() => setPanel("settings")}>Settings</button>
+          <button onClick={() => setPanel("offline")}>Offline &amp; install</button>
+          <button aria-pressed={settings.skipSeen} onClick={() => updateSettings({ skipSeen: !settings.skipSeen, autoMode: false })}>
+            Skip seen text · {settings.skipSeen ? "on" : "off"}</button>
+          <button onClick={() => setPanel("help")}>How to play &amp; keyboard controls</button>
+          <button onClick={() => setPanel("notice")}>About this story &amp; content note</button>
+          <button onClick={() => setPanel("credits")}>Credits</button>
+          <button onClick={() => { setPanel(null); setScreen("title"); }}>Return to title</button>
+        </div>
+      </Modal>}
+
       {panel === "chapters" && (
         <ChapterPanel
           unlocked={unlocked}
@@ -1541,7 +768,10 @@ export default function App() {
         />
       )}
       {panel === "offline" && (
-        <OfflinePanel
+        <OfflineLibrary
+          {...(story.nodes.find(node => node.id === state.currentNodeId)?.chapterId ? { currentChapterId: story.nodes.find(node => node.id === state.currentNodeId)!.chapterId } : {})}
+          shellReady={updateState.offlineReady}
+          {...(updateState.error ? { shellError: updateState.error } : {})}
           installState={installState}
           onInstall={promptInstall}
           onClose={() => setPanel(null)}
@@ -1568,7 +798,7 @@ export default function App() {
       )}
       {updateState.offlineReady && !updateState.updateAvailable && (
         <p className={styles.srOnly} role="status">
-          Return to Me is ready for offline play.
+          The app and story text are ready offline. Download artwork and voices in Offline & install.
         </p>
       )}
     </div>

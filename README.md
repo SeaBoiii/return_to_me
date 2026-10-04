@@ -1,5 +1,8 @@
 # Return to Me
 
+The mobile redesign's completed checks, measurements and device-testing limits are
+recorded in [MOBILE_REDESIGN_QA.md](MOBILE_REDESIGN_QA.md).
+
 A responsive, installable visual novel following Aleem from school and National Service in Singapore through university, working life, his January 2026 Umrah journey, and a new beginning with Nurulain. Twenty-five reflective choices change immediate dialogue while preserving the remembered milestones.
 
 **The Story I Wasn’t In** and its university arrival sequence lead into **Almost Us**, **Just Friends**, and **A Different Journey**. Chapters 10–11, **The Same Girl** and **What I Could Finally Put Down**, continue through Makkah and then Madinah: a reunion with Nadiah, the two climbs, a private prayer, and a quiet decision. The final chapter, **A New Book**, follows Mariam’s introduction through messages, Yakiniku, Kazakhstan, meeting Nurul’s parents, and a sunset confession beside Kallang River. **Still Being Written** closes with their engagement and wedding preparations.
@@ -12,7 +15,7 @@ Use Node.js 24 and npm. From a fresh clone:
 
 ```bash
 npm ci
-npx playwright install chromium
+npx playwright install chromium webkit
 npm run dev
 ```
 
@@ -32,6 +35,9 @@ npm run validate:deploy
 npm run validate:release
 npm run test
 npm run test:e2e
+npm run test:offline-upgrade
+npm run test:offline-upgrade -- --webkit
+npm run art:mobile:check
 npm run build
 ```
 
@@ -53,11 +59,51 @@ npm run preview
 
 Vite normalizes the base path; story art, voice packs, the web manifest, and the service worker remain beneath it.
 
+## Reading and replay
+
+Portrait phones and tablets use separate artwork, dialogue, and control areas.
+Short landscape screens put the scene beside the passage. Reading sizes of
+18, 21, and 24 pixels persist between visits. Tap a passage to reveal it, then
+tap again or use Next to continue; scrolling and text selection do not advance.
+The artwork button opens the complete illustration.
+
+History, voice playback, Auto, and Next remain within thumb reach. The reading
+menu contains chapter replay, settings, downloads, Skip, and the content note.
+Menus, artwork viewing, and manual pause suspend narration, text animation, and
+automatic progression together. Returning from a hidden tab requires Resume.
+Auto and Skip start off on every reading session.
+
+Continue always opens the main bookmark. Chapter replay has an independent
+persisted slot, choices, and history, ends at its chapter boundary, and cannot
+unlock unread chapters. Resume replay is offered separately. The main save key
+and schema are unchanged; replay uses `return-to-me:replay:v1`.
+
 ## Offline install
 
-The application shell, UI, story data, and visual assets are precached after the first online visit. Voice audio is excluded from the initial installation and can be downloaded, verified, retried, cancelled, and removed one chapter at a time from the in-game manager.
+Only application code, story text, essential metadata, and icons are precached.
+Artwork loads as needed, using the appropriate orientation variant and a
+content hash. After the visible scene loads, the reader can warm the next known
+scene; it stops at choices and respects the browser's data-saving preference.
+The automatic reading cache is capped at 32 MiB. No voices are fetched in muted
+mode.
+
+Offline & install offers 14 chapter artwork packs and 14 voice packs. Artwork
+packs contain every branch and both orientations. Shared files are deduplicated
+and retained while another downloaded pack needs them. A shared two-transfer
+queue continues after closing the panel; progress, remaining bytes, cancellation,
+retry, and verification remain available on reopening. Retained downloads are
+separate from the automatic reading cache.
+
+Older cached artwork is verified and adopted before legacy cache cleanup, with
+resumable migration and no new network downloads during adoption. Existing voice
+downloads keep their cache identities. Installation, offline text, artwork, and
+voices have separate status indicators; missing media never blocks story text.
 
 Service workers run in production builds over HTTPS or on localhost. Use the in-game Install button when the browser offers installation. A waiting service-worker revision is activated only after the player accepts the update prompt.
+
+On iPhone or iPad, use Safari's Share menu → Add to Home Screen. Chrome and Edge
+offer Install app or Add to Home Screen in their browser menu. The offline panel
+also supplies these instructions when an automatic install prompt is unavailable.
 
 The PNG icons are reproducible from their code-native source:
 
@@ -153,6 +199,28 @@ The `art:finale:process`, `art:finale:validate`, and `art:finale:qa` commands
 also run separately. Art processing requires Python with Pillow and NumPy.
 The isolated pipeline preserves earlier art batches and generates light/dark
 character contact sheets and a scene overview under `art/qa/finale`.
+
+The mobile redesign adds twelve independent **960×1200 portrait illustrations**
+and individual framing metadata for all 22 illustrated scenes and 57 backgrounds.
+All 220 original image files remain unchanged. The renderer crops only when the
+recorded faces, gestures, and story props stay visible; otherwise it contains
+the illustration. New portraits total 1,977,714 bytes (about 1.89 MiB).
+The [mobile production record](art/mobile-portrait/README.md) links native
+masters, exact prompts, approved reference hashes, provenance, protected bounds,
+and contact sheets. Run `npm run art:mobile:check` to reproduce exports and QA;
+`npm run art:mobile:validate` checks existing outputs without rewriting them.
+
+Builds regenerate the content-hashed chapter artwork inventory. Validation
+rejects stale hashes, missing orientation variants, invalid subject bounds,
+and files above 8 MiB. Browser tests use desktop Chromium, mobile Chromium,
+and mobile WebKit; the offline upgrade harness builds and activates workers
+on a real local origin. Playwright WebKit's `setOffline` bypasses service-worker
+responses, so its offline proof uses origin network refusal instead. This does
+not substitute for a physical-device Safari check. Windows WebKit also cannot
+decode the downloaded MP3 as a Blob even when the same HTTP file plays. Cached
+voices therefore have a bounded original-URL fallback; unavailable offline audio
+keeps subtitles and navigation working. Chromium tests exercise actual downloaded
+audio from every chapter and cast profile, plus playback through worker updates.
 
 Before publishing, complete [RELEASE_CHECKLIST.md](RELEASE_CHECKLIST.md), including the manual character/background approval and factual/tone read-through. The currently generated art is intentionally age-appropriate, uses fictional schools, and avoids readable generated text, trademarks, and copied game interfaces.
 

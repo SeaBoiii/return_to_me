@@ -1,0 +1,555 @@
+[
+  {
+    "id": "bg-uni-orientation",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-uni-orientation.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "bg-uni-study",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-uni-study.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "bg-uni-dorm",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-uni-dorm.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "bg-uni-dropoff",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-uni-dropoff.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "bg-uss-evening",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-uss-evening.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "bg-office-pantry",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-office-pantry.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "bg-city-cafe",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-city-cafe.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "bg-waterfront-night",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-waterfront-night.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "bg-adult-bedroom",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-adult-bedroom.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "bg-airport-departure",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-airport-departure.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "bg-holy-land-arrival",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-holy-land-arrival.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "cg-jia-wen-boyfriend",
+    "kind": "cg",
+    "path": "public/assets/art/cg/cg-jia-wen-boyfriend.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "cg-uss-confession",
+    "kind": "cg",
+    "path": "public/assets/art/cg/cg-uss-confession.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "bg-umrah-common-area",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-umrah-common-area.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "bg-makkah-courtyard",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-makkah-courtyard.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "bg-jabal-nur-ascent",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-jabal-nur-ascent.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "bg-jabal-nur-rest",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-jabal-nur-rest.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "bg-jabal-rahmah",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-jabal-rahmah.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "bg-madinah-courtyard",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-madinah-courtyard.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "bg-nabawi-interior",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-nabawi-interior.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "cg-umrah-jabal-nur",
+    "kind": "cg",
+    "path": "public/assets/art/cg/cg-umrah-jabal-nur.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "cg-umrah-jabal-rahmah",
+    "kind": "cg",
+    "path": "public/assets/art/cg/cg-umrah-jabal-rahmah.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "cg-nabawi-release",
+    "kind": "cg",
+    "path": "public/assets/art/cg/cg-nabawi-release.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "bg-yakiniku-date",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-yakiniku-date.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "bg-kazakhstan-stay",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-kazakhstan-stay.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "bg-parents-restaurant",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-parents-restaurant.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "bg-kallang-pier-sunset",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-kallang-pier-sunset.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "cg-parents-meeting",
+    "kind": "cg",
+    "path": "public/assets/art/cg/cg-parents-meeting.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "cg-kallang-confession",
+    "kind": "cg",
+    "path": "public/assets/art/cg/cg-kallang-confession.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "cg-wedding-planning",
+    "kind": "cg",
+    "path": "public/assets/art/cg/cg-wedding-planning.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "bg-primary-classroom",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-primary-classroom.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "bg-primary-corridor",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-primary-corridor.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "bg-primary-canteen",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-primary-canteen.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "bg-graduation-gate",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-graduation-gate.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "bg-bus-stop",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-bus-stop.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "bg-bedroom-2009",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-bedroom-2009.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "bg-bedroom-2009-warm",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-bedroom-2009-warm.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "bg-alya-bedroom-2010",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-alya-bedroom-2010.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "bg-boys-classroom",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-boys-classroom.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "bg-boys-school-corridor",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-boys-school-corridor.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "bg-boys-classroom-overcast",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-boys-classroom-overcast.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "bg-language-classroom",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-language-classroom.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "bg-language-classroom-late",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-language-classroom-late.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "bg-language-courtyard",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-language-courtyard.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "bg-language-corridor-rain",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-language-corridor-rain.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "bg-bedroom-pc-day",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-bedroom-pc-day.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "bg-bedroom-pc-night",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-bedroom-pc-night.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "bg-exam-hall",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-exam-hall.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "bg-results-hall",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-results-hall.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "bg-dark-bedroom",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-dark-bedroom.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "bg-dawn-window",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-dawn-window.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "cg-wrong-message",
+    "kind": "cg",
+    "path": "public/assets/art/cg/cg-wrong-message.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "cg-first-confession",
+    "kind": "cg",
+    "path": "public/assets/art/cg/cg-first-confession.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "cg-graduation-promise",
+    "kind": "cg",
+    "path": "public/assets/art/cg/cg-graduation-promise.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "cg-server-night",
+    "kind": "cg",
+    "path": "public/assets/art/cg/cg-server-night.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "cg-results",
+    "kind": "cg",
+    "path": "public/assets/art/cg/cg-results.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "cg-faris-wingman",
+    "kind": "cg",
+    "path": "public/assets/art/cg/cg-faris-wingman.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "cg-hana-breakup",
+    "kind": "cg",
+    "path": "public/assets/art/cg/cg-hana-breakup.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "cg-o-level-exam",
+    "kind": "cg",
+    "path": "public/assets/art/cg/cg-o-level-exam.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "bg-hdb-dining",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-hdb-dining.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "bg-jc-walkway",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-jc-walkway.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "bg-jc-classroom",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-jc-classroom.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "bg-bus-interior-morning",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-bus-interior-morning.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "bg-bus-interior-evening",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-bus-interior-evening.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "bg-jc-study-area",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-jc-study-area.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "bg-a-level-results",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-a-level-results.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "bg-zoo-path",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-zoo-path.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "bg-zoo-shelter",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-zoo-shelter.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "cg-shared-earpiece",
+    "kind": "cg",
+    "path": "public/assets/art/cg/cg-shared-earpiece.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "cg-syafiqa-sighting",
+    "kind": "cg",
+    "path": "public/assets/art/cg/cg-syafiqa-sighting.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "cg-zoo-distance",
+    "kind": "cg",
+    "path": "public/assets/art/cg/cg-zoo-distance.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "bg-raya-living-room-2016",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-raya-living-room-2016.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "bg-ns-camp-gate",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-ns-camp-gate.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "bg-ns-bunk-night",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-ns-bunk-night.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "bg-university-lecture-theatre",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-university-lecture-theatre.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "bg-university-corridor",
+    "kind": "background",
+    "path": "public/assets/art/backgrounds/bg-university-corridor.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "cg-raya-first-sight",
+    "kind": "cg",
+    "path": "public/assets/art/cg/cg-raya-first-sight.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "cg-relationship-montage",
+    "kind": "cg",
+    "path": "public/assets/art/cg/cg-relationship-montage.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "cg-close-friends-reveal",
+    "kind": "cg",
+    "path": "public/assets/art/cg/cg-close-friends-reveal.webp",
+    "width": 1600,
+    "height": 900
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "asset_id": "cg-close-friends-reveal",
+  "tool": "image_gen.imagegen",
+  "mode": "built-in",
+  "prompt": "Use case: identity-preserve. Asset type: a newly composed portrait illustration for a visual novel mobile scene panel. Recompose the first landscape reference as a true 4:5 portrait image, not a crop, not letterboxed. Preserve the same story moment, approved character identities, ages, clothing, emotions, environment and warm polished illustrated visual-novel style. References after image 1 are approved character identity guides, not poses to paste. Keep all important faces, hands, gestures and story props comfortably within the central region x8–92%, y20–80%, leaving plausible environment above and below so short screen crops can work. Natural anatomy and coherent perspective. No lettering, subtitles, interface, border, watermark, diagram, guide lines or transparency. Do not make characters older or change their ethnic appearance. The characters are fictional. Recompose the same discovery scene for portrait: shocked, hurt young adult Aleem with rectangular glasses and olive-green tee sits on his National Service bunk in dim blue night light. A foreground hand holds a smartphone showing the same screenshot: Nadiah at a theme park beside another young man in a white tee, seen mostly from the back, roller-coaster track behind them. Crucially, Nadiah is NOT wearing hijab in the phone photograph, as the original image and canonical story explicitly show; preserve her face, long loose dark hair and cream blouse from the original phone photograph. Reference3 supplies her facial identity only, not its hijab or outfit. The whole phone screen and Aleem’s face must both be large and fully visible, positioned diagonally within the central protected region. Keep his troubled expression and the mundane photo; no villainous caricature, no romantic contact added to the photographed pair, no text or fake messages.",
+  "referenced_image_paths": [
+    "public/assets/art/cg/cg-close-friends-reveal.webp",
+    "public/assets/art/characters/aleem-ns/neutral.webp",
+    "public/assets/art/characters/nadiah/neutral.webp"
+  ],
+  "transparent_background": false,
+  "reference_roles": [
+    "Original scene: identity, story action, clothing, setting and style",
+    "Approved character identity: aleem-ns",
+    "Approved character identity: nadiah"
+  ],
+  "original_generated_path": "C:\\Users\\seabo\\.codex\\generated_images\\01a0ccef-5a4e-7892-852f-c1a99b342f73\\exec-d099d16f-7345-4fb9-a055-12563e8560ed.png",
+  "output_hint": "Generated images are saved to C:\\Users\\seabo\\.codex\\generated_images\\01a0ccef-5a4e-7892-852f-c1a99b342f73 as C:\\Users\\seabo\\.codex\\generated_images\\01a0ccef-5a4e-7892-852f-c1a99b342f73\\exec-d099d16f-7345-4fb9-a055-12563e8560ed.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "source_path": "art/mobile-portrait/sources/cg-close-friends-reveal-master.png",
+  "selected": true
+}

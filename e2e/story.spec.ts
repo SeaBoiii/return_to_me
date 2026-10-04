@@ -1,11 +1,13 @@
 import { expect, test } from '@playwright/test';
 import { story } from '../src/story';
+import { artAssets } from '../src/art/manifest';
 
 import {
   SAVE_KEY,
   SETTINGS_KEY,
   dismissNotice,
   openApp,
+  openReadingPanel,
   revealAndAdvance,
   startNewGame,
 } from './helpers';
@@ -166,7 +168,7 @@ test('chains a completed first-edition save into the JC expansion', async ({
   await page.reload();
   await dismissNotice(page);
 
-  await expect(page.getByRole('status')).toContainText(
+  await expect(page.getByRole('main').getByRole('status')).toContainText(
     'saved progress was updated for the expanded story edition',
   );
   await page.getByRole('button', { name: 'Continue', exact: true }).click();
@@ -229,7 +231,7 @@ test('resumes a completed JC edition at National Service and keeps later chapter
   }, SAVE_KEY);
   await page.reload();
   await dismissNotice(page);
-  await expect(page.getByRole('status')).toContainText('saved progress was updated');
+  await expect(page.getByRole('main').getByRole('status')).toContainText('saved progress was updated');
   await page.getByRole('button', { name: 'Continue', exact: true }).click();
   await expect(page.getByText('The Story I Wasn’t In', { exact: true })).toBeVisible();
   await expect.poll(() => page.evaluate((key) => JSON.parse(localStorage.getItem(key) ?? '{}') as unknown, SAVE_KEY)).toMatchObject({
@@ -273,7 +275,7 @@ for (const previousRevision of ['school-years-3.0.0', 'before-nurul-3.0.0', 'sch
     }, { key: SAVE_KEY, revision: previousRevision });
     await page.reload();
     await dismissNotice(page);
-    await expect(page.getByRole('status')).toContainText('saved progress was updated');
+    await expect(page.getByRole('main').getByRole('status')).toContainText('saved progress was updated');
     await page.getByRole('button', { name: 'Continue', exact: true }).click();
 
     const completedAdulthood = previousRevision !== 'before-nurul-3.0.0';
@@ -318,7 +320,7 @@ test('keeps a v4 reader in an earlier replay and unlocks the new Umrah chapter',
   });
   await page.reload();
   await dismissNotice(page);
-  await expect(page.getByRole('status')).toContainText('saved progress was updated');
+  await expect(page.getByRole('main').getByRole('status')).toContainText('saved progress was updated');
   await page.getByRole('button', { name: 'Continue', exact: true }).click();
   await expect(page.getByText('Almost Us', { exact: true })).toBeVisible();
   await expect(page.getByLabel('Dialogue', { exact: true })).toContainText('Why didn’t you tell me earlier?');
@@ -365,7 +367,7 @@ test('resumes a completed Umrah edition at the introduction to the final chapter
   }, { key: SAVE_KEY, chapters: story.chapters.filter((chapter) => chapter.id !== 'chapter-11').map((chapter) => chapter.id) });
   await page.reload();
   await dismissNotice(page);
-  await expect(page.getByRole('status')).toContainText('saved progress was updated');
+  await expect(page.getByRole('main').getByRole('status')).toContainText('saved progress was updated');
   await page.getByRole('button', { name: 'Continue', exact: true }).click();
   await expect(page.getByText('A New Book', { exact: true })).toBeVisible();
   await expect(page.getByLabel('Dialogue', { exact: true })).toContainText("there's someone I work with");
@@ -595,20 +597,17 @@ test('keeps subtitles and voice settings usable on unvoiced lines', async ({
   const dialogue = page.getByLabel('Dialogue', { exact: true });
   await expect(dialogue).toContainText('Inspired by real events');
   const replay = page.getByRole('button', { name: 'Replay voice' });
-  await expect(replay).toBeDisabled();
-  await expect(replay).toHaveAttribute(
-    'title',
-    'No voice clip is included for this line',
-  );
+  await expect(replay).toBeHidden();
+  await expect(page.getByRole('button', { name: 'Play voice', exact: true })).toBeDisabled();
 
-  await page.getByRole('button', { name: 'Settings', exact: true }).click();
+  await openReadingPanel(page, 'Settings');
   let settings = page.getByRole('dialog', { name: 'Settings' });
   const mute = settings.getByRole('checkbox', { name: /Mute voices/ });
   await expect(mute).not.toBeChecked();
   await mute.check();
   await settings.getByRole('button', { name: 'Close' }).click();
 
-  await page.getByRole('button', { name: 'Settings', exact: true }).click();
+  await openReadingPanel(page, 'Settings');
   settings = page.getByRole('dialog', { name: 'Settings' });
   await expect(
     settings.getByRole('checkbox', { name: /Mute voices/ }),
@@ -626,7 +625,7 @@ test('keeps subtitles and voice settings usable on unvoiced lines', async ({
 test('supports the core touch flow without horizontal overflow', async ({
   page,
 }, testInfo) => {
-  test.skip(testInfo.project.name !== 'mobile', 'mobile project only');
+  test.skip(testInfo.project.name === 'chromium', 'portrait touch projects only');
 
   await openApp(page);
   await startNewGame(page);
@@ -644,7 +643,8 @@ test('supports the core touch flow without horizontal overflow', async ({
   expect(dimensions.document).toBeLessThanOrEqual(dimensions.viewport + 1);
 });
 
-for (const artworkId of ['cg-jia-wen-boyfriend', 'cg-uss-confession', 'cg-umrah-jabal-nur', 'cg-umrah-jabal-rahmah', 'cg-nabawi-release', 'cg-parents-meeting', 'cg-kallang-confession', 'cg-wedding-planning']) {
+for (const asset of artAssets.filter(entry => entry.kind === 'cg')) {
+  const artworkId = asset.id;
   test(`preserves ${artworkId} composition above dialogue on portrait screens`, async ({
     page,
   }, testInfo) => {
@@ -671,50 +671,74 @@ for (const artworkId of ['cg-jia-wen-boyfriend', 'cg-uss-confession', 'cg-umrah-
     await page.getByRole('button', { name: 'Continue', exact: true }).click();
 
     const stage = page.locator('figure[data-art-kind="cg"]');
-    await expect(stage).toBeVisible();
     const composition = page.getByTestId('cg-composition');
-    const background = stage.locator(':scope > img').first();
-    await expect(background).toHaveAttribute('src', new RegExp(`${artworkId}\\.webp$`));
-
-    if (testInfo.project.name !== 'mobile') {
-      await expect(composition).toBeHidden();
-      await expect(background).toHaveCSS('object-fit', 'cover');
-      return;
+    const initialViewport = page.viewportSize();
+    if (!initialViewport) throw new Error('Missing test viewport');
+    const viewports = testInfo.project.name === 'chromium' ? [initialViewport]
+      : [initialViewport, { width: 844, height: 390 }];
+    for (const viewport of viewports) {
+      await page.setViewportSize(viewport);
+      const portrait = viewport.height > viewport.width;
+      const selected = (portrait ? asset.mobile : undefined) ?? asset;
+      await expect(stage).toBeVisible();
+      await expect(composition).toHaveAttribute('data-variant', portrait && asset.mobile ? 'mobile' : 'original');
+      await expect.poll(() => composition.evaluate((element) => {
+        const image = element as HTMLImageElement;
+        return image.complete && image.naturalWidth > 0;
+      })).toBe(true);
+      const readGeometry = () => composition.evaluate((element, selected) => {
+        const image = element as HTMLImageElement;
+        const rect = image.getBoundingClientRect();
+        const style = getComputedStyle(image);
+        const scale = style.objectFit === 'cover'
+          ? Math.max(rect.width / selected.width, rect.height / selected.height)
+          : Math.min(rect.width / selected.width, rect.height / selected.height);
+        const bounds = selected.protectedBounds;
+        if (!bounds) throw new Error('CG has no protected subject bounds');
+        const focus = selected.focalPoint;
+        const left = (rect.width - selected.width * scale) * focus.x;
+        const top = (rect.height - selected.height * scale) * focus.y;
+        return { width: rect.width, height: rect.height, naturalWidth: image.naturalWidth, naturalHeight: image.naturalHeight,
+          correctUrl: new URL(image.currentSrc).pathname.endsWith(selected.url), hashed: new URL(image.currentSrc).searchParams.has('art'),
+          subject: { left: left + bounds.x * selected.width * scale, top: top + bounds.y * selected.height * scale,
+            right: left + (bounds.x + bounds.width) * selected.width * scale,
+            bottom: top + (bounds.y + bounds.height) * selected.height * scale } };
+      }, selected);
+      // Rotation and ResizeObserver-driven fitting settle independently in WebKit.
+      await expect.poll(async () => {
+        const frame = await readGeometry();
+        return frame.subject.left >= -2 && frame.subject.top >= -2
+          && frame.subject.right <= frame.width + 2 && frame.subject.bottom <= frame.height + 2;
+      }).toBe(true);
+      const geometry = await readGeometry();
+      expect(geometry.correctUrl).toBe(true);
+      expect(geometry.hashed).toBe(true);
+      expect(geometry.naturalWidth).toBe(selected.width);
+      expect(geometry.naturalHeight).toBe(selected.height);
+      expect(geometry.subject.left).toBeGreaterThanOrEqual(-2);
+      expect(geometry.subject.top).toBeGreaterThanOrEqual(-2);
+      expect(geometry.subject.right).toBeLessThanOrEqual(geometry.width + 2);
+      expect(geometry.subject.bottom).toBeLessThanOrEqual(geometry.height + 2);
+      const stageRect = await stage.boundingBox();
+      const dialogueRect = await page.getByLabel('Dialogue', { exact: true }).boundingBox();
+      if (!stageRect || !dialogueRect) throw new Error('Reader regions missing');
+      expect(stageRect.height).toBeGreaterThan(100);
+      if (testInfo.project.name !== 'chromium') {
+        if (portrait) expect(stageRect.y + stageRect.height).toBeLessThanOrEqual(dialogueRect.y + 1);
+        else expect(stageRect.x + stageRect.width).toBeLessThanOrEqual(dialogueRect.x + 1);
+      }
     }
-
-    await expect(composition).toBeVisible();
-    await expect(composition).toHaveCSS('object-fit', 'contain');
-    await expect.poll(() => composition.evaluate((element) => {
-      const image = element as HTMLImageElement;
-      return image.complete && image.naturalWidth > 0;
-    })).toBe(true);
-    // Measure the settled composition, not the entrance fade's scale transform.
-    await stage.evaluate(async (element) => {
-      await Promise.all(element.getAnimations().map((animation) => animation.finished));
-    });
-    const reveal = page.getByRole('button', { name: 'Reveal full line' });
-    if (await reveal.isVisible()) await reveal.click();
-    const imageRect = await composition.boundingBox();
-    const dialogueRect = await page.getByLabel('Dialogue', { exact: true }).boundingBox();
-    const viewport = page.viewportSize();
-    expect(imageRect).not.toBeNull();
-    expect(dialogueRect).not.toBeNull();
-    expect(viewport).not.toBeNull();
-    if (imageRect === null || dialogueRect === null || viewport === null) return;
-
-    expect(imageRect.width / imageRect.height).toBeCloseTo(16 / 9, 2);
-    expect(imageRect.x).toBeGreaterThanOrEqual(0);
-    expect(imageRect.y).toBeGreaterThanOrEqual(0);
-    expect(imageRect.x + imageRect.width).toBeLessThanOrEqual(viewport.width + 1);
-    expect(imageRect.y + imageRect.height).toBeLessThanOrEqual(dialogueRect.y + 1);
-    expect(imageRect.y + imageRect.height).toBeLessThanOrEqual(viewport.height);
+    await page.getByRole('button', { name: 'View artwork' }).click();
+    const artwork = page.getByRole('dialog', { name: 'Artwork' });
+    await expect(artwork.getByRole('img')).toBeVisible();
+    await expect(artwork.getByRole('img')).toHaveCSS('object-fit', 'contain');
   });
 }
 
 test('keeps intrusive thoughts labelled, static, and contained on mobile', async ({
   page,
 }, testInfo) => {
-  test.skip(testInfo.project.name !== 'mobile', 'mobile project only');
+  test.skip(testInfo.project.name === 'chromium', 'portrait touch projects only');
 
   await openApp(page);
   await page.evaluate(

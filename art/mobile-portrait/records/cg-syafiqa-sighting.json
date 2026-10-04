@@ -1,0 +1,21 @@
+{
+  "asset_id": "cg-syafiqa-sighting",
+  "tool": "image_gen.imagegen",
+  "mode": "built-in",
+  "prompt": "Use case: identity-preserve. Asset type: a newly composed portrait illustration for a visual novel mobile scene panel. Recompose the first landscape reference as a true 4:5 portrait image, not a crop, not letterboxed. Preserve the same story moment, approved character identities, ages, clothing, emotions, environment and warm polished illustrated visual-novel style. References after image 1 are approved character identity guides, not poses to paste. Keep all important faces, hands, gestures and story props comfortably within the central region x8–92%, y20–80%, leaving plausible environment above and below so short screen crops can work. Natural anatomy and coherent perspective. No lettering, subtitles, interface, border, watermark, diagram, guide lines or transparency. Do not make characters older or change their ethnic appearance. The characters are fictional. The same junior-college walkway moment: Aleem stands in the nearer foreground, quietly hurt and looking back towards Syafiqa who walks away further down the corridor, glancing back slightly. Both wear the same white school shirts, green ties, grey trousers/grey skirt. Keep his glasses and her tied-back black hair. Use depth rather than horizontal separation to fit both faces and the direction of her departure in portrait. Preserve the emotional distance; they do not touch or smile happily. Corridor roof and greenery extend around them, both face silhouettes lie in the middle 60% of image height.",
+  "referenced_image_paths": [
+    "public/assets/art/cg/cg-syafiqa-sighting.webp",
+    "public/assets/art/characters/aleem-jc/neutral.webp",
+    "public/assets/art/characters/syafiqa/neutral.webp"
+  ],
+  "transparent_background": false,
+  "reference_roles": [
+    "Original scene: identity, story action, clothing, setting and style",
+    "Approved character identity: aleem-jc",
+    "Approved character identity: syafiqa"
+  ],
+  "original_generated_path": "C:\\Users\\seabo\\.codex\\generated_images\\01a0ccef-5a4e-7892-852f-c1a99b342f73\\exec-313bba10-5914-4cf4-9156-cf8f2eeee3f2.png",
+  "output_hint": "Generated images are saved to C:\\Users\\seabo\\.codex\\generated_images\\01a0ccef-5a4e-7892-852f-c1a99b342f73 as C:\\Users\\seabo\\.codex\\generated_images\\01a0ccef-5a4e-7892-852f-c1a99b342f73\\exec-313bba10-5914-4cf4-9156-cf8f2eeee3f2.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "source_path": "art/mobile-portrait/sources/cg-syafiqa-sighting-master.png",
+  "selected": true
+}

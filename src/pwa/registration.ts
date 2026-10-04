@@ -35,11 +35,22 @@ export function registerReturnToMeServiceWorker(): ServiceWorkerUpdateController
   };
 
   const updateSW = registerSW({
-    immediate: true,
+    immediate: false,
     onOfflineReady: () => updateState({ offlineReady: true }),
     onNeedRefresh: () => updateState({ updateAvailable: true }),
     onRegisteredSW: (_serviceWorkerUrl, nextRegistration) => {
       registration = nextRegistration;
+      // onOfflineReady fires for an installation, not every later reload.
+      void navigator.serviceWorker.ready.then((ready) => {
+        const channel = new MessageChannel();
+        const timeout = window.setTimeout(() => channel.port1.close(), 5_000);
+        channel.port1.onmessage = (event: MessageEvent<{ shellReady?: boolean }>) => {
+          window.clearTimeout(timeout);
+          updateState({ offlineReady: event.data.shellReady === true });
+          channel.port1.close();
+        };
+        ready.active?.postMessage({ type: 'OFFLINE_STATUS' }, [channel.port2]);
+      });
     },
     onRegisterError: (error) =>
       updateState({

@@ -62,7 +62,9 @@ export default defineConfig(({ mode }) => {
         },
         injectManifest: {
           globPatterns: ["**/*.{js,css,html,ico,png,svg,webp,json,woff2}"],
-          globIgnores: ["**/voices/**"],
+          globIgnores: ["**/voices/**", "**/assets/art/**"],
+          // Only Vite's fingerprinted bundles skip content revisioning.
+          dontCacheBustURLsMatching: /assets\/[^/]+-[A-Za-z0-9_-]+\.(?:js|css)$/,
           maximumFileSizeToCacheInBytes: 8 * 1024 * 1024
         },
         devOptions: {

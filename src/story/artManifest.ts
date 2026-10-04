@@ -4,6 +4,7 @@ import { storyAssetIds } from "./assets";
 import { adulthoodArtSpecs } from "./adulthoodArt";
 import { umrahArtSpecs } from "./umrahArt";
 import { finaleArtSpecs } from "./finaleArt";
+import { createMobileArtOverrides } from "./mobileArt";
 
 interface ArtAssetSpec {
   readonly id: string;
@@ -1306,12 +1307,15 @@ const defaultBaseUrl = (): string =>
 
 export const createArtAssetManifest = (
   baseUrl = defaultBaseUrl(),
-): readonly AssetEntry[] =>
-  ART_SPECS.map(({ path, promptReference, ...spec }) => ({
+): readonly AssetEntry[] => {
+  const mobileOverrides = createMobileArtOverrides(baseUrl);
+  return ART_SPECS.map(({ path, promptReference, ...spec }) => ({
     ...spec,
     url: appPathname(path, baseUrl),
     provenance: generatedProvenance(promptReference),
+    ...mobileOverrides[spec.id],
   }));
+};
 
 export const artAssets = createArtAssetManifest();
 

@@ -8,7 +8,7 @@ export default defineConfig({
   fullyParallel: true,
   forbidOnly: Boolean(process.env.CI),
   retries: process.env.CI ? 2 : 0,
-  workers: process.env.CI ? 1 : undefined,
+  workers: process.env.CI ? 1 : 4,
   reporter: [["list"], ["html", { open: "never" }]],
   use: {
     baseURL: `http://127.0.0.1:${port}${basePath}`,
@@ -16,7 +16,8 @@ export default defineConfig({
   },
   projects: [
     { name: "chromium", use: { ...devices["Desktop Chrome"] } },
-    { name: "mobile", use: { ...devices["iPhone 13"], browserName: "chromium" } }
+    { name: "mobile", use: { ...devices["iPhone 13"], browserName: "chromium" } },
+    { name: "webkit", use: { ...devices["iPhone 13"], browserName: "webkit" } }
   ],
   webServer: {
     command: `npm run build && npm run preview -- --host 127.0.0.1 --port ${port}`,

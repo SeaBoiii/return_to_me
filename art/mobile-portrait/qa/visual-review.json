@@ -1,0 +1,1505 @@
+{
+  "status": "passed",
+  "review_scope": "Visual inspection of every selected native generation, all22 original CGs, all57 original backgrounds, and final protected-bounds contact sheets. Runtime UI and cache verification belong to application integration QA.",
+  "generated_portraits": 12,
+  "reviewed_original_cgs": 22,
+  "reviewed_backgrounds": 57,
+  "original_files_preserved": 220,
+  "new_public_bytes": 1977714,
+  "export_dimensions": [
+    960,
+    1200
+  ],
+  "generation_method": "Built-in image_gen.imagegen; twelve selected genuine recompositions, one rejected zoo prompt attempt retained.",
+  "character_identity_and_actions": "Selected portraits checked against original scenes and approved supporting character sprites; important faces/actions/props preserved. No obvious added-limb or malformed-hand defects found at native review scale.",
+  "framing_policy": "Actual protected bounds, with contain fallback for viewports that cannot preserve them. Do not reinterpret these bounds as a mandatory crop.",
+  "limitations": [
+    "The three-moment montage and phone reveal retain broad protected regions and will be smaller when contained on very shallow panels.",
+    "Syafiqa sighting preserves the approved original two-person depiction; narration mentions an additional boy outside the pictured composition.",
+    "Original p6 Aleem/Alya sprite framing differs: stage sizing must reconcile the knees-cropped boy with the full-body girl. No original sprite bytes were edited."
+  ],
+  "verification": {
+    "command": "python -B scripts/mobile-art.py check",
+    "regression_guards_passed": 6,
+    "hash_and_original_preservation": "passed",
+    "module_root_and_nested_base_urls": "passed for79 scene entries at / and /return-to-me-test/",
+    "contact_sheet_hashes": [
+      {
+        "path": "art/mobile-portrait/qa/reviewed-background-1.jpg",
+        "bytes": 618482,
+        "sha256": "20b34b16fe18b57d07548fbfd8c6b4f7bcb9c59fbaa50264e6c514f69dc30417"
+      },
+      {
+        "path": "art/mobile-portrait/qa/reviewed-background-2.jpg",
+        "bytes": 620162,
+        "sha256": "8a470a253828ee8d1f40198eaa54227ebe1d3e198e8564d9fdcc52551925b630"
+      },
+      {
+        "path": "art/mobile-portrait/qa/reviewed-background-3.jpg",
+        "bytes": 551797,
+        "sha256": "690980e3238ca13d400ddb311e10454287ad2c67b808e4227a8a26a99075b495"
+      },
+      {
+        "path": "art/mobile-portrait/qa/reviewed-background-4.jpg",
+        "bytes": 510663,
+        "sha256": "de394b1bb79c20f5da093cca8e973dfb0d70a85e8df95524a3b587ae4d5ff8d8"
+      },
+      {
+        "path": "art/mobile-portrait/qa/reviewed-background-5.jpg",
+        "bytes": 425458,
+        "sha256": "ec7617509bdc80ed0ed104cf7f20c59488ee71c50000853839ad2875fad57598"
+      },
+      {
+        "path": "art/mobile-portrait/qa/reviewed-cg-1.jpg",
+        "bytes": 682206,
+        "sha256": "8be6ce413c33c5043edc91b4c965ff7ab037f501c28c44964797d71af67bd7f8"
+      },
+      {
+        "path": "art/mobile-portrait/qa/reviewed-cg-2.jpg",
+        "bytes": 522848,
+        "sha256": "3b71870ec803036f5c6494b2ec118d3b1530d83a5e303c3e57edf8ff118aeb30"
+      },
+      {
+        "path": "art/mobile-portrait/qa/portraits-1.jpg",
+        "bytes": 261212,
+        "sha256": "a4626eeb1d48fbf02664c3e09ca12ceca1ec4438536793a0725514abb19d2438"
+      },
+      {
+        "path": "art/mobile-portrait/qa/portraits-2.jpg",
+        "bytes": 245936,
+        "sha256": "00273531f74960833846c7fa12462bfad090ff086596e732d3b50d54bd097335"
+      },
+      {
+        "path": "art/mobile-portrait/qa/portraits-3.jpg",
+        "bytes": 246773,
+        "sha256": "a3db0f9a381314cd844cc0b5f0a42fe8151469f95e388fdee6fa8c621e5d3387"
+      }
+    ],
+    "inventory_sha256": "ff9c01ec6b131a39c979e35dacb186a69c527b5c3f902a99192815451ac2f7ca",
+    "manifest_sha256": "7e17ad767f63892ace6a7566bd6a2e35787b8ec34b1e92cc878f04ea48ab8c4c"
+  },
+  "scenes": [
+    {
+      "id": "bg-uni-orientation",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Central courtyard and entrance stairs establish orientation; peripheral reception tables are expendable.",
+      "original_protected_bounds": {
+        "x": 0.34,
+        "y": 0.3,
+        "width": 0.34,
+        "height": 0.4
+      },
+      "mobile_protected_bounds": {
+        "x": 0.34,
+        "y": 0.3,
+        "width": 0.34,
+        "height": 0.4
+      }
+    },
+    {
+      "id": "bg-uni-study",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Retain the middle study tables and campus greenery.",
+      "original_protected_bounds": {
+        "x": 0.3,
+        "y": 0.3,
+        "width": 0.4,
+        "height": 0.44
+      },
+      "mobile_protected_bounds": {
+        "x": 0.3,
+        "y": 0.3,
+        "width": 0.4,
+        "height": 0.44
+      }
+    },
+    {
+      "id": "bg-uni-dorm",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Window skyline and desk-side room space anchor the dorm; retain part of bed when possible.",
+      "original_protected_bounds": {
+        "x": 0.47,
+        "y": 0.18,
+        "width": 0.36,
+        "height": 0.52
+      },
+      "mobile_protected_bounds": {
+        "x": 0.47,
+        "y": 0.18,
+        "width": 0.36,
+        "height": 0.52
+      }
+    },
+    {
+      "id": "bg-uni-dropoff",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Keep the illuminated covered entry and wet paving.",
+      "original_protected_bounds": {
+        "x": 0.42,
+        "y": 0.27,
+        "width": 0.35,
+        "height": 0.39
+      },
+      "mobile_protected_bounds": {
+        "x": 0.42,
+        "y": 0.27,
+        "width": 0.35,
+        "height": 0.39
+      }
+    },
+    {
+      "id": "bg-uss-evening",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Central themed street and festoon lights establish the evening park.",
+      "original_protected_bounds": {
+        "x": 0.34,
+        "y": 0.23,
+        "width": 0.35,
+        "height": 0.42
+      },
+      "mobile_protected_bounds": {
+        "x": 0.34,
+        "y": 0.23,
+        "width": 0.35,
+        "height": 0.42
+      }
+    },
+    {
+      "id": "bg-office-pantry",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Keep coffee counter transition and shared window table.",
+      "original_protected_bounds": {
+        "x": 0.43,
+        "y": 0.27,
+        "width": 0.37,
+        "height": 0.48
+      },
+      "mobile_protected_bounds": {
+        "x": 0.43,
+        "y": 0.27,
+        "width": 0.37,
+        "height": 0.48
+      }
+    },
+    {
+      "id": "bg-city-cafe",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Window-side two-seat cafe table is the key prop.",
+      "original_protected_bounds": {
+        "x": 0.35,
+        "y": 0.31,
+        "width": 0.36,
+        "height": 0.43
+      },
+      "mobile_protected_bounds": {
+        "x": 0.35,
+        "y": 0.31,
+        "width": 0.36,
+        "height": 0.43
+      }
+    },
+    {
+      "id": "bg-waterfront-night",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Protect the waterfront bench, railing and central skyline.",
+      "original_protected_bounds": {
+        "x": 0.4,
+        "y": 0.34,
+        "width": 0.34,
+        "height": 0.37
+      },
+      "mobile_protected_bounds": {
+        "x": 0.4,
+        "y": 0.34,
+        "width": 0.34,
+        "height": 0.37
+      }
+    },
+    {
+      "id": "bg-adult-bedroom",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Keep the night window, bedside lamp and visible bed edge.",
+      "original_protected_bounds": {
+        "x": 0.4,
+        "y": 0.26,
+        "width": 0.36,
+        "height": 0.47
+      },
+      "mobile_protected_bounds": {
+        "x": 0.4,
+        "y": 0.26,
+        "width": 0.36,
+        "height": 0.47
+      }
+    },
+    {
+      "id": "bg-airport-departure",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Aircraft and gate seating establish the departure; side palms are decorative.",
+      "original_protected_bounds": {
+        "x": 0.33,
+        "y": 0.22,
+        "width": 0.4,
+        "height": 0.41
+      },
+      "mobile_protected_bounds": {
+        "x": 0.33,
+        "y": 0.22,
+        "width": 0.4,
+        "height": 0.41
+      }
+    },
+    {
+      "id": "bg-holy-land-arrival",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Central arch and terminal exit define arrival.",
+      "original_protected_bounds": {
+        "x": 0.32,
+        "y": 0.18,
+        "width": 0.36,
+        "height": 0.55
+      },
+      "mobile_protected_bounds": {
+        "x": 0.32,
+        "y": 0.18,
+        "width": 0.36,
+        "height": 0.55
+      }
+    },
+    {
+      "id": "cg-jia-wen-boyfriend",
+      "strategy": "generated-portrait",
+      "review": "passed",
+      "composition_note": "All three faces and the couple's joined hands; Aleem remains separate and disappointed.",
+      "original_protected_bounds": {
+        "x": 0.16,
+        "y": 0.02,
+        "width": 0.66,
+        "height": 0.74
+      },
+      "mobile_protected_bounds": {
+        "x": 0.14,
+        "y": 0.15,
+        "width": 0.68,
+        "height": 0.51
+      }
+    },
+    {
+      "id": "cg-uss-confession",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Both faces and conversational pose; retain some themed street around them.",
+      "original_protected_bounds": {
+        "x": 0.31,
+        "y": 0.025,
+        "width": 0.39,
+        "height": 0.95
+      },
+      "mobile_protected_bounds": {
+        "x": 0.31,
+        "y": 0.025,
+        "width": 0.39,
+        "height": 0.95
+      }
+    },
+    {
+      "id": "bg-umrah-common-area",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Shared tables and bright rear window remain recognizable.",
+      "original_protected_bounds": {
+        "x": 0.34,
+        "y": 0.28,
+        "width": 0.36,
+        "height": 0.42
+      },
+      "mobile_protected_bounds": {
+        "x": 0.34,
+        "y": 0.28,
+        "width": 0.36,
+        "height": 0.42
+      }
+    },
+    {
+      "id": "bg-makkah-courtyard",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Retain recognizable mosque arcade and minaret; broad courtyard edges are expendable.",
+      "original_protected_bounds": {
+        "x": 0.3,
+        "y": 0.005,
+        "width": 0.39,
+        "height": 0.72
+      },
+      "mobile_protected_bounds": {
+        "x": 0.3,
+        "y": 0.005,
+        "width": 0.39,
+        "height": 0.72
+      }
+    },
+    {
+      "id": "bg-jabal-nur-ascent",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Protect the ascending steps and rocky ridge.",
+      "original_protected_bounds": {
+        "x": 0.37,
+        "y": 0.13,
+        "width": 0.35,
+        "height": 0.58
+      },
+      "mobile_protected_bounds": {
+        "x": 0.37,
+        "y": 0.13,
+        "width": 0.35,
+        "height": 0.58
+      }
+    },
+    {
+      "id": "bg-jabal-nur-rest",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Keep resting ledge and city below.",
+      "original_protected_bounds": {
+        "x": 0.32,
+        "y": 0.35,
+        "width": 0.38,
+        "height": 0.4
+      },
+      "mobile_protected_bounds": {
+        "x": 0.32,
+        "y": 0.35,
+        "width": 0.38,
+        "height": 0.4
+      }
+    },
+    {
+      "id": "bg-jabal-rahmah",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Summit marker and rocky hill must survive the crop.",
+      "original_protected_bounds": {
+        "x": 0.27,
+        "y": 0.1,
+        "width": 0.38,
+        "height": 0.59
+      },
+      "mobile_protected_bounds": {
+        "x": 0.27,
+        "y": 0.1,
+        "width": 0.38,
+        "height": 0.59
+      }
+    },
+    {
+      "id": "bg-madinah-courtyard",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Preserve green dome and umbrella/arcade context.",
+      "original_protected_bounds": {
+        "x": 0.33,
+        "y": 0.2,
+        "width": 0.37,
+        "height": 0.53
+      },
+      "mobile_protected_bounds": {
+        "x": 0.33,
+        "y": 0.2,
+        "width": 0.37,
+        "height": 0.53
+      }
+    },
+    {
+      "id": "bg-nabawi-interior",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Centered repeating arches and prayer carpet preserve the space.",
+      "original_protected_bounds": {
+        "x": 0.34,
+        "y": 0.22,
+        "width": 0.33,
+        "height": 0.5
+      },
+      "mobile_protected_bounds": {
+        "x": 0.34,
+        "y": 0.22,
+        "width": 0.33,
+        "height": 0.5
+      }
+    },
+    {
+      "id": "cg-umrah-jabal-nur",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Both faces, seated hands and rock ledge; do not lose either companion.",
+      "original_protected_bounds": {
+        "x": 0.21,
+        "y": 0.04,
+        "width": 0.58,
+        "height": 0.73
+      },
+      "mobile_protected_bounds": {
+        "x": 0.21,
+        "y": 0.04,
+        "width": 0.58,
+        "height": 0.73
+      }
+    },
+    {
+      "id": "cg-umrah-jabal-rahmah",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Both faces and the summit marker between them; keep modest separate stance.",
+      "original_protected_bounds": {
+        "x": 0.21,
+        "y": 0.06,
+        "width": 0.47,
+        "height": 0.73
+      },
+      "mobile_protected_bounds": {
+        "x": 0.21,
+        "y": 0.06,
+        "width": 0.47,
+        "height": 0.73
+      }
+    },
+    {
+      "id": "cg-nabawi-release",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Face, resting hands and crossed-leg prayer posture; full seated body matters.",
+      "original_protected_bounds": {
+        "x": 0.24,
+        "y": 0.045,
+        "width": 0.39,
+        "height": 0.88
+      },
+      "mobile_protected_bounds": {
+        "x": 0.24,
+        "y": 0.045,
+        "width": 0.39,
+        "height": 0.88
+      }
+    },
+    {
+      "id": "bg-yakiniku-date",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Protect the tabletop grill and beef plates; this is the specific first-date setting.",
+      "original_protected_bounds": {
+        "x": 0.3,
+        "y": 0.35,
+        "width": 0.4,
+        "height": 0.38
+      },
+      "mobile_protected_bounds": {
+        "x": 0.3,
+        "y": 0.35,
+        "width": 0.4,
+        "height": 0.38
+      }
+    },
+    {
+      "id": "bg-kazakhstan-stay",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Central sofa, low table and window establish the shared stay.",
+      "original_protected_bounds": {
+        "x": 0.33,
+        "y": 0.26,
+        "width": 0.39,
+        "height": 0.43
+      },
+      "mobile_protected_bounds": {
+        "x": 0.33,
+        "y": 0.26,
+        "width": 0.39,
+        "height": 0.43
+      }
+    },
+    {
+      "id": "bg-parents-restaurant",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Protect the four-seat dinner table and central restaurant context.",
+      "original_protected_bounds": {
+        "x": 0.32,
+        "y": 0.3,
+        "width": 0.36,
+        "height": 0.43
+      },
+      "mobile_protected_bounds": {
+        "x": 0.32,
+        "y": 0.3,
+        "width": 0.36,
+        "height": 0.43
+      }
+    },
+    {
+      "id": "bg-kallang-pier-sunset",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Keep bench, river and sunset together.",
+      "original_protected_bounds": {
+        "x": 0.3,
+        "y": 0.24,
+        "width": 0.4,
+        "height": 0.44
+      },
+      "mobile_protected_bounds": {
+        "x": 0.3,
+        "y": 0.24,
+        "width": 0.4,
+        "height": 0.44
+      }
+    },
+    {
+      "id": "cg-parents-meeting",
+      "strategy": "generated-portrait",
+      "review": "passed",
+      "composition_note": "All four faces, Aleem's open gesture and parental attentive expressions.",
+      "original_protected_bounds": {
+        "x": 0.13,
+        "y": 0.06,
+        "width": 0.76,
+        "height": 0.55
+      },
+      "mobile_protected_bounds": {
+        "x": 0.095,
+        "y": 0.22,
+        "width": 0.85,
+        "height": 0.34
+      }
+    },
+    {
+      "id": "cg-kallang-confession",
+      "strategy": "generated-portrait",
+      "review": "passed",
+      "composition_note": "Both faces, Aleem's open hand and Nurul's lap hands; river sunset remains visible.",
+      "original_protected_bounds": {
+        "x": 0.29,
+        "y": 0.055,
+        "width": 0.43,
+        "height": 0.77
+      },
+      "mobile_protected_bounds": {
+        "x": 0.26,
+        "y": 0.22,
+        "width": 0.52,
+        "height": 0.43
+      }
+    },
+    {
+      "id": "cg-wedding-planning",
+      "strategy": "generated-portrait",
+      "review": "passed",
+      "composition_note": "Both faces and hands, Nurul's pen and entire open planning notebook.",
+      "original_protected_bounds": {
+        "x": 0.23,
+        "y": 0.01,
+        "width": 0.5,
+        "height": 0.73
+      },
+      "mobile_protected_bounds": {
+        "x": 0.19,
+        "y": 0.22,
+        "width": 0.6,
+        "height": 0.46
+      }
+    },
+    {
+      "id": "bg-primary-classroom",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Chalkboard and center aisle identify the primary classroom.",
+      "original_protected_bounds": {
+        "x": 0.34,
+        "y": 0.23,
+        "width": 0.38,
+        "height": 0.5
+      },
+      "mobile_protected_bounds": {
+        "x": 0.34,
+        "y": 0.23,
+        "width": 0.38,
+        "height": 0.5
+      }
+    },
+    {
+      "id": "bg-primary-corridor",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Central corridor depth and open railing establish the location.",
+      "original_protected_bounds": {
+        "x": 0.31,
+        "y": 0.33,
+        "width": 0.37,
+        "height": 0.49
+      },
+      "mobile_protected_bounds": {
+        "x": 0.31,
+        "y": 0.33,
+        "width": 0.37,
+        "height": 0.49
+      }
+    },
+    {
+      "id": "bg-primary-canteen",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Retain the canteen benches and table arrangement.",
+      "original_protected_bounds": {
+        "x": 0.28,
+        "y": 0.37,
+        "width": 0.39,
+        "height": 0.37
+      },
+      "mobile_protected_bounds": {
+        "x": 0.28,
+        "y": 0.37,
+        "width": 0.39,
+        "height": 0.37
+      }
+    },
+    {
+      "id": "bg-graduation-gate",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Protect the school gate as the story landmark.",
+      "original_protected_bounds": {
+        "x": 0.36,
+        "y": 0.31,
+        "width": 0.35,
+        "height": 0.39
+      },
+      "mobile_protected_bounds": {
+        "x": 0.36,
+        "y": 0.31,
+        "width": 0.35,
+        "height": 0.39
+      }
+    },
+    {
+      "id": "bg-bus-stop",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Left shelter, sign and bench distinguish a bus stop from an ordinary path.",
+      "original_protected_bounds": {
+        "x": 0.08,
+        "y": 0.22,
+        "width": 0.37,
+        "height": 0.62
+      },
+      "mobile_protected_bounds": {
+        "x": 0.08,
+        "y": 0.22,
+        "width": 0.37,
+        "height": 0.62
+      }
+    },
+    {
+      "id": "bg-bedroom-2009",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Desk and small phone are the important early-message props.",
+      "original_protected_bounds": {
+        "x": 0.24,
+        "y": 0.38,
+        "width": 0.36,
+        "height": 0.38
+      },
+      "mobile_protected_bounds": {
+        "x": 0.24,
+        "y": 0.38,
+        "width": 0.36,
+        "height": 0.38
+      }
+    },
+    {
+      "id": "bg-bedroom-2009-warm",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Same phone/desk composition as the cool room; retain the warm lighting change.",
+      "original_protected_bounds": {
+        "x": 0.24,
+        "y": 0.38,
+        "width": 0.36,
+        "height": 0.38
+      },
+      "mobile_protected_bounds": {
+        "x": 0.24,
+        "y": 0.38,
+        "width": 0.36,
+        "height": 0.38
+      }
+    },
+    {
+      "id": "bg-alya-bedroom-2010",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Bedside phone and lamp are the communication props; window is supporting context.",
+      "original_protected_bounds": {
+        "x": 0.12,
+        "y": 0.3,
+        "width": 0.38,
+        "height": 0.44
+      },
+      "mobile_protected_bounds": {
+        "x": 0.12,
+        "y": 0.3,
+        "width": 0.38,
+        "height": 0.44
+      }
+    },
+    {
+      "id": "bg-boys-classroom",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Whiteboard and desk rows anchor this classroom.",
+      "original_protected_bounds": {
+        "x": 0.34,
+        "y": 0.26,
+        "width": 0.36,
+        "height": 0.48
+      },
+      "mobile_protected_bounds": {
+        "x": 0.34,
+        "y": 0.26,
+        "width": 0.36,
+        "height": 0.48
+      }
+    },
+    {
+      "id": "bg-boys-school-corridor",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Protect corridor vanishing point and school windows.",
+      "original_protected_bounds": {
+        "x": 0.34,
+        "y": 0.33,
+        "width": 0.34,
+        "height": 0.44
+      },
+      "mobile_protected_bounds": {
+        "x": 0.34,
+        "y": 0.33,
+        "width": 0.34,
+        "height": 0.44
+      }
+    },
+    {
+      "id": "bg-boys-classroom-overcast",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Match the classroom framing while preserving the overcast mood.",
+      "original_protected_bounds": {
+        "x": 0.34,
+        "y": 0.26,
+        "width": 0.36,
+        "height": 0.48
+      },
+      "mobile_protected_bounds": {
+        "x": 0.34,
+        "y": 0.26,
+        "width": 0.36,
+        "height": 0.48
+      }
+    },
+    {
+      "id": "bg-language-classroom",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Whiteboard and nearest lesson desks establish the language class.",
+      "original_protected_bounds": {
+        "x": 0.29,
+        "y": 0.26,
+        "width": 0.38,
+        "height": 0.49
+      },
+      "mobile_protected_bounds": {
+        "x": 0.29,
+        "y": 0.26,
+        "width": 0.38,
+        "height": 0.49
+      }
+    },
+    {
+      "id": "bg-language-classroom-late",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Match the language room framing with the late blue lighting.",
+      "original_protected_bounds": {
+        "x": 0.29,
+        "y": 0.26,
+        "width": 0.38,
+        "height": 0.49
+      },
+      "mobile_protected_bounds": {
+        "x": 0.29,
+        "y": 0.26,
+        "width": 0.38,
+        "height": 0.49
+      }
+    },
+    {
+      "id": "bg-language-courtyard",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Courtyard planter/bench and corridor corner form the recognizable meeting place.",
+      "original_protected_bounds": {
+        "x": 0.42,
+        "y": 0.29,
+        "width": 0.35,
+        "height": 0.48
+      },
+      "mobile_protected_bounds": {
+        "x": 0.42,
+        "y": 0.29,
+        "width": 0.35,
+        "height": 0.48
+      }
+    },
+    {
+      "id": "bg-language-corridor-rain",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Keep rainy corridor depth and classroom doorway together.",
+      "original_protected_bounds": {
+        "x": 0.27,
+        "y": 0.25,
+        "width": 0.38,
+        "height": 0.58
+      },
+      "mobile_protected_bounds": {
+        "x": 0.27,
+        "y": 0.25,
+        "width": 0.38,
+        "height": 0.58
+      }
+    },
+    {
+      "id": "bg-bedroom-pc-day",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Computer screen and desk are essential; bed/window may crop.",
+      "original_protected_bounds": {
+        "x": 0.24,
+        "y": 0.31,
+        "width": 0.33,
+        "height": 0.48
+      },
+      "mobile_protected_bounds": {
+        "x": 0.24,
+        "y": 0.31,
+        "width": 0.33,
+        "height": 0.48
+      }
+    },
+    {
+      "id": "bg-bedroom-pc-night",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Preserve computer screen and desk in the night variation.",
+      "original_protected_bounds": {
+        "x": 0.24,
+        "y": 0.31,
+        "width": 0.33,
+        "height": 0.48
+      },
+      "mobile_protected_bounds": {
+        "x": 0.24,
+        "y": 0.31,
+        "width": 0.33,
+        "height": 0.48
+      }
+    },
+    {
+      "id": "bg-exam-hall",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Protect exam desks and front wall; side rows may crop.",
+      "original_protected_bounds": {
+        "x": 0.32,
+        "y": 0.35,
+        "width": 0.36,
+        "height": 0.43
+      },
+      "mobile_protected_bounds": {
+        "x": 0.32,
+        "y": 0.35,
+        "width": 0.36,
+        "height": 0.43
+      }
+    },
+    {
+      "id": "bg-results-hall",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Keep front stage and long center aisle.",
+      "original_protected_bounds": {
+        "x": 0.34,
+        "y": 0.3,
+        "width": 0.34,
+        "height": 0.46
+      },
+      "mobile_protected_bounds": {
+        "x": 0.34,
+        "y": 0.3,
+        "width": 0.34,
+        "height": 0.46
+      }
+    },
+    {
+      "id": "bg-dark-bedroom",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Unlit computer and quiet window define the withdrawal scene.",
+      "original_protected_bounds": {
+        "x": 0.26,
+        "y": 0.29,
+        "width": 0.35,
+        "height": 0.5
+      },
+      "mobile_protected_bounds": {
+        "x": 0.26,
+        "y": 0.29,
+        "width": 0.35,
+        "height": 0.5
+      }
+    },
+    {
+      "id": "bg-dawn-window",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Dawn-lit window and its light across the bed define this scene.",
+      "original_protected_bounds": {
+        "x": 0.43,
+        "y": 0.08,
+        "width": 0.38,
+        "height": 0.49
+      },
+      "mobile_protected_bounds": {
+        "x": 0.43,
+        "y": 0.08,
+        "width": 0.38,
+        "height": 0.49
+      }
+    },
+    {
+      "id": "cg-wrong-message",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Aleem's startled face and the small phone in his hand.",
+      "original_protected_bounds": {
+        "x": 0.36,
+        "y": 0.13,
+        "width": 0.29,
+        "height": 0.59
+      },
+      "mobile_protected_bounds": {
+        "x": 0.36,
+        "y": 0.13,
+        "width": 0.29,
+        "height": 0.59
+      }
+    },
+    {
+      "id": "cg-first-confession",
+      "strategy": "generated-portrait",
+      "review": "passed",
+      "composition_note": "Both children's faces and Aleem's held schoolbook.",
+      "original_protected_bounds": {
+        "x": 0.26,
+        "y": 0.045,
+        "width": 0.51,
+        "height": 0.8
+      },
+      "mobile_protected_bounds": {
+        "x": 0.2,
+        "y": 0.16,
+        "width": 0.6,
+        "height": 0.53
+      }
+    },
+    {
+      "id": "cg-graduation-promise",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Both waving children, bags and full school-day silhouettes at the gate.",
+      "original_protected_bounds": {
+        "x": 0.29,
+        "y": 0.14,
+        "width": 0.4,
+        "height": 0.83
+      },
+      "mobile_protected_bounds": {
+        "x": 0.29,
+        "y": 0.14,
+        "width": 0.4,
+        "height": 0.83
+      }
+    },
+    {
+      "id": "cg-server-night",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Aleem's face, game monitor, keyboard hands and school notebook; monitor cannot be cropped out.",
+      "original_protected_bounds": {
+        "x": 0.13,
+        "y": 0.14,
+        "width": 0.49,
+        "height": 0.74
+      },
+      "mobile_protected_bounds": {
+        "x": 0.13,
+        "y": 0.14,
+        "width": 0.49,
+        "height": 0.74
+      }
+    },
+    {
+      "id": "cg-results",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Face and held results paper with both hands.",
+      "original_protected_bounds": {
+        "x": 0.32,
+        "y": 0.08,
+        "width": 0.3,
+        "height": 0.7
+      },
+      "mobile_protected_bounds": {
+        "x": 0.32,
+        "y": 0.08,
+        "width": 0.3,
+        "height": 0.7
+      }
+    },
+    {
+      "id": "cg-faris-wingman",
+      "strategy": "generated-portrait",
+      "review": "passed",
+      "composition_note": "All three faces and Faris's presenting hand; avoid losing Aleem at rear left.",
+      "original_protected_bounds": {
+        "x": 0.21,
+        "y": 0.105,
+        "width": 0.57,
+        "height": 0.56
+      },
+      "mobile_protected_bounds": {
+        "x": 0.14,
+        "y": 0.14,
+        "width": 0.67,
+        "height": 0.43
+      }
+    },
+    {
+      "id": "cg-hana-breakup",
+      "strategy": "generated-portrait",
+      "review": "passed",
+      "composition_note": "Both faces and the separated hands across the desk; retain the emotional distance.",
+      "original_protected_bounds": {
+        "x": 0.2,
+        "y": 0.07,
+        "width": 0.6,
+        "height": 0.73
+      },
+      "mobile_protected_bounds": {
+        "x": 0.15,
+        "y": 0.22,
+        "width": 0.77,
+        "height": 0.49
+      }
+    },
+    {
+      "id": "cg-o-level-exam",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Face, writing hand, exam paper and desk edge.",
+      "original_protected_bounds": {
+        "x": 0.25,
+        "y": 0.07,
+        "width": 0.41,
+        "height": 0.82
+      },
+      "mobile_protected_bounds": {
+        "x": 0.25,
+        "y": 0.07,
+        "width": 0.41,
+        "height": 0.82
+      }
+    },
+    {
+      "id": "bg-hdb-dining",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Breakfast table with cups and dishes is the relevant family setting.",
+      "original_protected_bounds": {
+        "x": 0.36,
+        "y": 0.42,
+        "width": 0.4,
+        "height": 0.48
+      },
+      "mobile_protected_bounds": {
+        "x": 0.36,
+        "y": 0.42,
+        "width": 0.4,
+        "height": 0.48
+      }
+    },
+    {
+      "id": "bg-jc-walkway",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Keep the corridor corner, steps and courtyard planter.",
+      "original_protected_bounds": {
+        "x": 0.34,
+        "y": 0.25,
+        "width": 0.35,
+        "height": 0.56
+      },
+      "mobile_protected_bounds": {
+        "x": 0.34,
+        "y": 0.25,
+        "width": 0.35,
+        "height": 0.56
+      }
+    },
+    {
+      "id": "bg-jc-classroom",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Classroom board and forward-facing desks establish JC.",
+      "original_protected_bounds": {
+        "x": 0.3,
+        "y": 0.26,
+        "width": 0.38,
+        "height": 0.52
+      },
+      "mobile_protected_bounds": {
+        "x": 0.3,
+        "y": 0.26,
+        "width": 0.38,
+        "height": 0.52
+      }
+    },
+    {
+      "id": "bg-bus-interior-morning",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Keep the adjacent paired seats and center aisle; meaningful for shared-earpiece continuity.",
+      "original_protected_bounds": {
+        "x": 0.27,
+        "y": 0.28,
+        "width": 0.45,
+        "height": 0.59
+      },
+      "mobile_protected_bounds": {
+        "x": 0.27,
+        "y": 0.28,
+        "width": 0.45,
+        "height": 0.59
+      }
+    },
+    {
+      "id": "bg-bus-interior-evening",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Same paired seats in evening lighting.",
+      "original_protected_bounds": {
+        "x": 0.27,
+        "y": 0.28,
+        "width": 0.45,
+        "height": 0.59
+      },
+      "mobile_protected_bounds": {
+        "x": 0.27,
+        "y": 0.28,
+        "width": 0.45,
+        "height": 0.59
+      }
+    },
+    {
+      "id": "bg-jc-study-area",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Protect open books, pens and shared study table.",
+      "original_protected_bounds": {
+        "x": 0.27,
+        "y": 0.44,
+        "width": 0.42,
+        "height": 0.37
+      },
+      "mobile_protected_bounds": {
+        "x": 0.27,
+        "y": 0.44,
+        "width": 0.42,
+        "height": 0.37
+      }
+    },
+    {
+      "id": "bg-a-level-results",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Open classroom doorway and corridor establish results day.",
+      "original_protected_bounds": {
+        "x": 0.31,
+        "y": 0.23,
+        "width": 0.4,
+        "height": 0.56
+      },
+      "mobile_protected_bounds": {
+        "x": 0.31,
+        "y": 0.23,
+        "width": 0.4,
+        "height": 0.56
+      }
+    },
+    {
+      "id": "bg-zoo-path",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Winding path and green fencing identify the zoo walk.",
+      "original_protected_bounds": {
+        "x": 0.32,
+        "y": 0.28,
+        "width": 0.36,
+        "height": 0.47
+      },
+      "mobile_protected_bounds": {
+        "x": 0.32,
+        "y": 0.28,
+        "width": 0.36,
+        "height": 0.47
+      }
+    },
+    {
+      "id": "bg-zoo-shelter",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Shelter roof and bench are the story location.",
+      "original_protected_bounds": {
+        "x": 0.36,
+        "y": 0.18,
+        "width": 0.39,
+        "height": 0.56
+      },
+      "mobile_protected_bounds": {
+        "x": 0.36,
+        "y": 0.18,
+        "width": 0.39,
+        "height": 0.56
+      }
+    },
+    {
+      "id": "cg-shared-earpiece",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Both faces, shared white earphone leads and phone below; right-biased focus.",
+      "original_protected_bounds": {
+        "x": 0.36,
+        "y": 0.065,
+        "width": 0.47,
+        "height": 0.9
+      },
+      "mobile_protected_bounds": {
+        "x": 0.36,
+        "y": 0.065,
+        "width": 0.47,
+        "height": 0.9
+      }
+    },
+    {
+      "id": "cg-syafiqa-sighting",
+      "strategy": "generated-portrait",
+      "review": "passed",
+      "composition_note": "Aleem's hurt foreground expression and Syafiqa looking away; preserves the original CG's two-person depiction.",
+      "original_protected_bounds": {
+        "x": 0.13,
+        "y": 0.02,
+        "width": 0.67,
+        "height": 0.72
+      },
+      "mobile_protected_bounds": {
+        "x": 0.12,
+        "y": 0.12,
+        "width": 0.77,
+        "height": 0.46
+      }
+    },
+    {
+      "id": "cg-zoo-distance",
+      "strategy": "generated-portrait",
+      "review": "passed",
+      "composition_note": "Aleem and Mei Lin's faces, eyelines and physical gap beneath the zoo shelter.",
+      "original_protected_bounds": {
+        "x": 0.18,
+        "y": 0.015,
+        "width": 0.68,
+        "height": 0.77
+      },
+      "mobile_protected_bounds": {
+        "x": 0.15,
+        "y": 0.14,
+        "width": 0.74,
+        "height": 0.51
+      }
+    },
+    {
+      "id": "bg-raya-living-room-2016",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Retain ketupat decorations and snack table so Hari Raya remains recognizable.",
+      "original_protected_bounds": {
+        "x": 0.3,
+        "y": 0.06,
+        "width": 0.38,
+        "height": 0.74
+      },
+      "mobile_protected_bounds": {
+        "x": 0.3,
+        "y": 0.06,
+        "width": 0.38,
+        "height": 0.74
+      }
+    },
+    {
+      "id": "bg-ns-camp-gate",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Open parade area with institutional low buildings establishes camp.",
+      "original_protected_bounds": {
+        "x": 0.32,
+        "y": 0.3,
+        "width": 0.38,
+        "height": 0.45
+      },
+      "mobile_protected_bounds": {
+        "x": 0.32,
+        "y": 0.3,
+        "width": 0.38,
+        "height": 0.45
+      }
+    },
+    {
+      "id": "bg-ns-bunk-night",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Bunk, pillow and bedside light define the quiet camp night.",
+      "original_protected_bounds": {
+        "x": 0.38,
+        "y": 0.38,
+        "width": 0.39,
+        "height": 0.42
+      },
+      "mobile_protected_bounds": {
+        "x": 0.38,
+        "y": 0.38,
+        "width": 0.39,
+        "height": 0.42
+      }
+    },
+    {
+      "id": "bg-university-lecture-theatre",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Center aisle and gathering student groups establish the lecture theatre.",
+      "original_protected_bounds": {
+        "x": 0.31,
+        "y": 0.24,
+        "width": 0.36,
+        "height": 0.56
+      },
+      "mobile_protected_bounds": {
+        "x": 0.31,
+        "y": 0.24,
+        "width": 0.36,
+        "height": 0.56
+      }
+    },
+    {
+      "id": "bg-university-corridor",
+      "strategy": "reviewed-original",
+      "review": "passed",
+      "composition_note": "Lecture door, waiting bench and open campus view define the corridor.",
+      "original_protected_bounds": {
+        "x": 0.32,
+        "y": 0.3,
+        "width": 0.39,
+        "height": 0.44
+      },
+      "mobile_protected_bounds": {
+        "x": 0.32,
+        "y": 0.3,
+        "width": 0.39,
+        "height": 0.44
+      }
+    },
+    {
+      "id": "cg-raya-first-sight",
+      "strategy": "generated-portrait",
+      "review": "passed",
+      "composition_note": "Both faces, Raya clothing and snack table; a shallow scene must contain this larger protected area.",
+      "original_protected_bounds": {
+        "x": 0.17,
+        "y": 0.05,
+        "width": 0.69,
+        "height": 0.87
+      },
+      "mobile_protected_bounds": {
+        "x": 0.11,
+        "y": 0.08,
+        "width": 0.76,
+        "height": 0.65
+      }
+    },
+    {
+      "id": "cg-relationship-montage",
+      "strategy": "generated-portrait",
+      "review": "passed",
+      "composition_note": "All three narrative moments: bunk call, abstract messages, cafe couple. Use contain when the full collage cannot fit.",
+      "original_protected_bounds": {
+        "x": 0.05,
+        "y": 0.03,
+        "width": 0.94,
+        "height": 0.77
+      },
+      "mobile_protected_bounds": {
+        "x": 0.06,
+        "y": 0.025,
+        "width": 0.94,
+        "height": 0.89
+      }
+    },
+    {
+      "id": "cg-close-friends-reveal",
+      "strategy": "generated-portrait",
+      "review": "passed",
+      "composition_note": "Aleem's face and complete phone photograph, including Nadiah without hijab beside the other man.",
+      "original_protected_bounds": {
+        "x": 0.11,
+        "y": 0.01,
+        "width": 0.74,
+        "height": 0.98
+      },
+      "mobile_protected_bounds": {
+        "x": 0.25,
+        "y": 0.13,
+        "width": 0.7,
+        "height": 0.74
+      }
+    }
+  ]
+}

@@ -5,6 +5,13 @@
 }
 
 :root {
+  --surface: #0b1423;
+  --surface-raised: #19283c;
+  --text: #f7f1e7;
+  --muted: #bcc8d3;
+  --gold: #f3cd82;
+  --gold-border: #ad8848;
+  --border: #354357;
   color-scheme: dark;
   font-family:
     "Return Sans", "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont,
@@ -14,6 +21,14 @@
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   --focus: #ffe3a5;
+}
+
+[data-reduced-motion="true"] *,
+[data-reduced-motion="true"] *::before,
+[data-reduced-motion="true"] *::after {
+  animation: none !important;
+  transition: none !important;
+  scroll-behavior: auto !important;
 }
 
 * {
@@ -42,7 +57,11 @@ textarea {
 
 button {
   color: inherit;
+  min-width: 48px;
+  min-height: 48px;
 }
+
+summary { min-height: 48px; padding-block: 12px; cursor: pointer; }
 
 button,
 a,

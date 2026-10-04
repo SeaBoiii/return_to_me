@@ -75,8 +75,19 @@ Choose one publication path and complete only its checks.
 - [ ] Autosave, Continue, chapter unlocks, history, settings, auto, seen skip, voice replay, and reset checked manually.
 - [ ] v5 introduction/ending saves resume at **A New Book**, earlier replay positions and choices survive, older editions resume their first unread expansion, and the completed v6 ending persists across reloads.
 - [ ] Install, offline shell, and update prompt checked in a production preview; for a voiced edition, chapter voice download, cancellation, retry, verification, and removal are also checked.
-- [ ] `npm ci`, `npx playwright install chromium`, and `npm run check` pass from a clean checkout.
+- [ ] `npm ci`, `npx playwright install chromium webkit`, and `npm run check` pass from a clean checkout.
 - [ ] `npm run validate:deploy` passes for the selected release format.
 - [ ] The approved Chapter 6 manuscript/tone review, character/environment proof approval, full art QA, and explicit promotion gate are recorded.
 - [ ] A GitHub Pages production build has been checked at the repository subpath with all Chapter 6 art and PWA metadata loading correctly.
 - [ ] GitHub Pages source is set to GitHub Actions and the `main` deployment succeeds at its repository subpath.
+
+## Mobile reader regression checks
+
+- [ ] `npm run art:mobile:check` passes with twelve portrait variants, 79 individually reviewed scene bounds, and all 220 original images unchanged.
+- [ ] All 25 choices, longest passages, 18/21/24px text, 48px controls, art viewing, text selection, and scrolling work on small phones, portrait tablets, and short landscape screens.
+- [ ] Main-save bytes remain unchanged throughout replay, including reload, chapter completion, and return to the main story.
+- [ ] Menus, hidden tabs, artwork viewing, and manual pause suspend audio, typewriter, Auto, and Skip together; hidden-tab return requires Resume.
+- [ ] Artwork downloads survive close/reopen, cancellation, and retry; shared files remain while another pack needs them; quota and interrupted migration recover safely.
+- [ ] `npm run test:offline-upgrade` and `npm run test:offline-upgrade -- --webkit` verify real worker upgrades, changed artwork hashes, and preserved downloaded voices. The WebKit harness documents native-media automation limitations.
+- [ ] A physical iPhone/iPad Safari check confirms native voice playback after artwork/voice downloads and airplane-mode rotation. Automated Windows WebKit covers layout, controls, offline artwork and byte ranges, but cannot establish this platform-specific audio result.
+- [ ] Cold-start measurement confirms no unrelated chapter artwork or audio downloads before reading.

@@ -1355,7 +1355,7 @@
 
 .updateToast {
   position: fixed;
-  z-index: 150;
+  z-index: 80;
   right: 1rem;
   bottom: 1rem;
   display: flex;
@@ -1717,3 +1717,15 @@
     min-height: 30px;
   }
 }
+
+/* Shared sheets and title controls use the same touch sizes as the reader. */
+.resumeChapter { display: block; margin-top: 4px; font-size: .8rem; font-weight: 400; letter-spacing: 0; }
+.readingMenu { display: grid; gap: 8px; }
+.readingMenu button { min-height: 48px; padding: 12px 16px; border: 1px solid var(--border); border-radius: 8px; background: var(--surface-raised); text-align: left; cursor: pointer; }
+.readingMenu button[aria-pressed="true"] { color: var(--gold); border-color: var(--gold-border); }
+.settingsGrid select { min-height: 48px; padding: 8px 12px; border: 1px solid var(--border); border-radius: 6px; color: var(--text); background: var(--surface-raised); }
+.settingsGrid input[type="range"] { min-height: 48px; }
+.toggleRow { min-height: 60px; }
+.iconButton, .textButton, .titleNav button, .packActions button { min-height: 48px; min-width: 48px; }
+.chapterList button { min-height: 64px; }
+.chapterList i { white-space: normal; text-align: right; }

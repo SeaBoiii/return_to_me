@@ -1,0 +1,25 @@
+.library { display: grid; gap: 1.25rem; color: var(--text, #eee7da); }
+.library h3, .library h4, .library p { margin: 0; }
+.library button { min-height: 48px; padding: .65rem 1rem; border: 1px solid var(--border, #43516a); border-radius: .6rem; color: inherit; background: var(--surface-raised, #19263a); font: inherit; cursor: pointer; }
+.library button:hover { background: #243348; }
+.library button:focus-visible { outline: 3px solid var(--gold, #e0bd7b); outline-offset: 3px; }
+.library button:disabled { opacity: .6; cursor: default; }
+.install { display: flex; align-items: flex-start; gap: 1.25rem; padding-bottom: 1.25rem; border-bottom: 1px solid var(--border, #43516a); }
+.install div { flex: 1; }
+.install p { margin-top: .6rem; line-height: 1.6; }
+.install button { flex-shrink: 0; }
+.tabs, .actions { display: flex; flex-wrap: wrap; gap: .6rem; }
+.tabs button[aria-pressed="true"] { color: #142035; background: var(--gold, #e0bd7b); border-color: transparent; }
+.note, .storage, .detail { color: var(--muted, #b9c3cf); font-size: .9rem; line-height: 1.5; }
+.chapters { display: grid; gap: 1.5rem; }
+.chapterHeading, .packHeading { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: .5rem; }
+.chapterHeading { margin-bottom: .7rem; }
+.chapterHeading span { font-size: .8rem; color: var(--gold, #e0bd7b); }
+.packs { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .8rem; }
+.pack { display: grid; gap: .65rem; min-width: 0; padding: 1rem; border: 1px solid var(--border, #43516a); border-radius: .8rem; background: var(--surface-raised, #162337); }
+.packHeading span { font-size: .8rem; color: var(--muted, #b9c3cf); }
+.status { font-size: .9rem; }
+.pack progress { width: 100%; height: .55rem; accent-color: var(--gold, #e0bd7b); }
+.secondary { background: transparent !important; }
+.error { color: #ffc4b9; font-size: .9rem; line-height: 1.5; overflow-wrap: anywhere; }
+@media (max-width: 600px) { .install { flex-direction: column; } .packs { grid-template-columns: 1fr; } .library button { padding: .7rem .8rem; } }

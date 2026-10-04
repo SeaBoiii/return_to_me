@@ -9,12 +9,22 @@ export async function openApp(page: Page): Promise<void> {
 }
 
 export async function dismissNotice(page: Page): Promise<void> {
+  await page.locator('#main-content').waitFor();
   const notice = page.getByRole('dialog', {
     name: 'A note before we begin',
   });
-  await expect(notice).toBeVisible();
+  if (!(await notice.isVisible())) return;
   await notice.getByRole('button', { name: 'Continue to title' }).click();
   await expect(notice).toBeHidden();
+}
+
+export async function openReadingPanel(page: Page, name: string): Promise<void> {
+  let button = page.getByRole('button', { name, exact: true });
+  if (!(await button.isVisible())) {
+    await page.getByRole('button', { name: 'Open reading menu' }).click();
+    button = page.getByRole('button', { name, exact: true });
+  }
+  await button.click();
 }
 
 export async function startNewGame(page: Page): Promise<void> {

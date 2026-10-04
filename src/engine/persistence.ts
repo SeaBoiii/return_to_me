@@ -551,7 +551,9 @@ const sanitiseSettings = (
     value.volume < 0 ||
     value.volume > 1 ||
     typeof value.muted !== "boolean" ||
-    typeof value.reducedMotion !== "boolean"
+    typeof value.reducedMotion !== "boolean" ||
+    (value.textSize !== undefined &&
+      value.textSize !== 18 && value.textSize !== 21 && value.textSize !== 24)
   ) {
     return undefined;
   }
@@ -559,11 +561,13 @@ const sanitiseSettings = (
   return {
     version: 1,
     textSpeedMs: value.textSpeedMs,
-    autoMode: value.autoMode,
-    skipSeen: value.skipSeen,
+    // Playback modes are session controls, never restored as active.
+    autoMode: false,
+    skipSeen: false,
     volume: value.volume,
     muted: value.muted,
     reducedMotion: value.reducedMotion,
+    textSize: value.textSize ?? 18,
   };
 };
 

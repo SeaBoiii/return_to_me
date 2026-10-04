@@ -84,7 +84,10 @@ function validateManifest(manifest: OfflinePackManifest): void {
   }
 }
 
-async function responseSize(response: Response): Promise<number> {
+async function responseSize(response: Response, verify = false): Promise<number> {
+  const header = response.headers.get('content-length');
+  const bytes = header === null ? NaN : Number(header);
+  if (!verify && Number.isSafeInteger(bytes) && bytes >= 0) return bytes;
   return (await response.arrayBuffer()).byteLength;
 }
 
@@ -97,7 +100,7 @@ function isAbortError(error: unknown): boolean {
 }
 
 function normalizedError(error: unknown): string {
-  return error instanceof Error ? error.message : 'Unknown download error.';
+  return error instanceof Error || error instanceof DOMException ? error.message : 'Unknown download error.';
 }
 
 function combineAbortSignals(
@@ -158,7 +161,7 @@ export class OfflinePackManager {
     return () => this.listeners.delete(listener);
   }
 
-  async status(manifest: OfflinePackManifest): Promise<OfflinePackStatus> {
+  async status(manifest: OfflinePackManifest, verify = false): Promise<OfflinePackStatus> {
     validateManifest(manifest);
     if (!this.supported) {
       return this.makeStatus(manifest, 'unsupported', {
@@ -174,7 +177,7 @@ export class OfflinePackManager {
       }),
     );
     try {
-      const inspection = await this.inspect(manifest);
+      const inspection = await this.inspect(manifest, verify);
       const state = this.stateFromInspection(manifest, inspection);
       const result = this.makeStatus(manifest, state, inspection);
       this.emit(result);
@@ -191,7 +194,7 @@ export class OfflinePackManager {
   }
 
   verify(manifest: OfflinePackManifest): Promise<OfflinePackStatus> {
-    return this.status(manifest);
+    return this.status(manifest, true);
   }
 
   download(
@@ -376,9 +379,7 @@ export class OfflinePackManager {
 
         const body = await response.arrayBuffer();
         const headers = new Headers(response.headers);
-        if (!headers.has('content-length')) {
-          headers.set('content-length', String(body.byteLength));
-        }
+        headers.set('content-length', String(body.byteLength));
         await cache.put(
           request,
           new Response(body, {
@@ -428,6 +429,7 @@ export class OfflinePackManager {
 
   private async inspect(
     manifest: OfflinePackManifest,
+    verify = false,
   ): Promise<CacheInspection> {
     const cacheStorage = this.cacheStorage;
     if (!cacheStorage) {
@@ -455,7 +457,7 @@ export class OfflinePackManager {
         continue;
       }
       cachedFiles += 1;
-      cachedBytes += await responseSize(response);
+      cachedBytes += await responseSize(response, verify);
     }
 
     return { cachedFiles, cachedBytes, missingUrls };

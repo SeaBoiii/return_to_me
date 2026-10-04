@@ -1,0 +1,21 @@
+{
+  "asset_id": "cg-parents-meeting",
+  "tool": "image_gen.imagegen",
+  "mode": "built-in",
+  "prompt": "Use case: identity-preserve. Asset type: a newly composed portrait illustration for a visual novel mobile scene panel. Recompose the first landscape reference as a true 4:5 portrait image, not a crop, not letterboxed. Preserve the same story moment, approved character identities, ages, clothing, emotions, environment and warm polished illustrated visual-novel style. References after image 1 are approved character identity guides, not poses to paste. Keep all important faces, hands, gestures and story props comfortably within the central region x8–92%, y20–80%, leaving plausible environment above and below so short screen crops can work. Natural anatomy and coherent perspective. No lettering, subtitles, interface, border, watermark, diagram, guide lines or transparency. Do not make characters older or change their ethnic appearance. The characters are fictional.  Preserve all FOUR adults sharing a sincere restaurant dinner. Aleem, adult rectangular glasses, golden-brown skin and muted green long-sleeve collared work shirt, talks with an open conversational hand. Beside him Nurulain wears the exact dusty-rose hijab covering hair, neck and chest, loose opaque beige tunic and dark taupe skirt. Opposite them Nurulain's warm fuller mother with round face wears a warm taupe fully covering hijab and loose modest long dress; her slim middle-aged father has short salt-and-pepper hair and a light blue collared shirt. Preserve all four original identities and ages. Recompose in portrait around a compact round/oval dining table with the parents slightly farther away and Aleem/Nurul nearer the camera, using three-quarter profiles so all FOUR faces remain fully visible, not backs of heads. Keep smiling mother and attentive father, Nurul's quiet affectionate look toward Aleem, his earnest confidence. Include natural hands, dinner dishes and glasses. Faces and Aleem's conversational hand inside y20-75%, generous architectural headroom and table below.",
+  "referenced_image_paths": [
+    "public/assets/art/cg/cg-parents-meeting.webp",
+    "public/assets/art/characters/aleem-work/neutral.webp",
+    "public/assets/art/characters/nurulain/neutral.webp"
+  ],
+  "transparent_background": false,
+  "reference_roles": [
+    "Original scene: identity, story action, clothing, setting and style",
+    "Approved character identity: aleem-work",
+    "Approved character identity: nurulain"
+  ],
+  "original_generated_path": "C:\\Users\\seabo\\.codex\\generated_images\\01a0ccef-5a4e-7892-852f-c1a99b342f73\\exec-e8f51bcc-a885-41ac-903a-c5edeb3b3832.png",
+  "output_hint": "Generated images are saved to C:\\Users\\seabo\\.codex\\generated_images\\01a0ccef-5a4e-7892-852f-c1a99b342f73 as C:\\Users\\seabo\\.codex\\generated_images\\01a0ccef-5a4e-7892-852f-c1a99b342f73\\exec-e8f51bcc-a885-41ac-903a-c5edeb3b3832.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "source_path": "art/mobile-portrait/sources/cg-parents-meeting-master.png",
+  "selected": true
+}

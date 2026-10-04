@@ -1,0 +1,539 @@
+{
+  "schema_version": 1,
+  "processor": "scripts/mobile-art.py",
+  "export": {
+    "width": 960,
+    "height": 1200,
+    "webp_quality": 86,
+    "max_bytes": 8388608
+  },
+  "reviewed_scene_count": 79,
+  "inventory": {
+    "path": "art/mobile-portrait/inventory.json",
+    "bytes": 58408,
+    "sha256": "ff9c01ec6b131a39c979e35dacb186a69c527b5c3f902a99192815451ac2f7ca"
+  },
+  "original_baseline": {
+    "path": "art/mobile-portrait/original-art-baseline.json",
+    "bytes": 37334,
+    "sha256": "d8019f23173ba67ffe1be9b59165e0d06808e5bf0ca90a7ae820cce343b55c0e"
+  },
+  "canonical_snapshot": {
+    "path": "art/mobile-portrait/canonical-scenes.json",
+    "bytes": 13284,
+    "sha256": "e15dd173f5a2a7423422f6aeaacf6421676cea0cffdfd6dd0e7d136fd616022d"
+  },
+  "mobile_module": {
+    "path": "src/story/mobileArt.ts",
+    "bytes": 32625,
+    "sha256": "674e09224ac288f8b7f81e8fbc089a5513f6c68eb55d01970763c7150fcc76dd"
+  },
+  "portrait_count": 12,
+  "total_portrait_bytes": 1977714,
+  "portraits": [
+    {
+      "id": "cg-first-confession",
+      "source": {
+        "path": "art/mobile-portrait/sources/cg-first-confession-master.png",
+        "bytes": 1947114,
+        "sha256": "5d9f770fec29726c9fc4bef778c100e690a710cd49fdaf76632994819c510ca2"
+      },
+      "source_dimensions": [
+        1122,
+        1402
+      ],
+      "output": {
+        "path": "public/assets/art/portrait/cg-first-confession.webp",
+        "bytes": 124716,
+        "sha256": "5e187d74397524fd997dc495ace9f3f578ca03814ddf069680d0d5a1d0c5be4a"
+      },
+      "generation_record": {
+        "path": "art/mobile-portrait/records/cg-first-confession.json",
+        "bytes": 2845,
+        "sha256": "29642db957980e04d748f59b80707cdbdde7840f808f8e0aa0b38e1746fb1090"
+      },
+      "references": [
+        {
+          "path": "public/assets/art/cg/cg-first-confession.webp",
+          "bytes": 128058,
+          "sha256": "347bf8845e8cec01563b65d8196cb0085e28ee57cad30afcda81e2069632935b"
+        },
+        {
+          "path": "public/assets/art/characters/aleem-p6/neutral.webp",
+          "bytes": 250460,
+          "sha256": "d58dd19d1292768209c994f8aec4da138a5016dafe7ba0f54af653dbdcc6de9c"
+        },
+        {
+          "path": "public/assets/art/characters/alya/neutral.webp",
+          "bytes": 178966,
+          "sha256": "3dc1ec4cb4fdbb4f8f422b627c5554a97352542a0b095cdbbd0e59ed9b763f07"
+        }
+      ]
+    },
+    {
+      "id": "cg-faris-wingman",
+      "source": {
+        "path": "art/mobile-portrait/sources/cg-faris-wingman-master.png",
+        "bytes": 2381133,
+        "sha256": "4b53f2a20ec4ca4281ceb02034dc4da28830af67e8449a461dfd12e4f96e256b"
+      },
+      "source_dimensions": [
+        1122,
+        1402
+      ],
+      "output": {
+        "path": "public/assets/art/portrait/cg-faris-wingman.webp",
+        "bytes": 208148,
+        "sha256": "288e6034b6de3c77ec8463e37dfd30d32ec111a44c49dcff9c0ad2241cb1e07a"
+      },
+      "generation_record": {
+        "path": "art/mobile-portrait/records/cg-faris-wingman.json",
+        "bytes": 3027,
+        "sha256": "7685c75f0463e2fe28e39d420c8b832715326bad539032d1d54a858f30ea55e6"
+      },
+      "references": [
+        {
+          "path": "public/assets/art/cg/cg-faris-wingman.webp",
+          "bytes": 223760,
+          "sha256": "95aecf851cd2cdf448ae5a30a66cef7eb07f90840dde4367f5d19cdeb49de2ee"
+        },
+        {
+          "path": "public/assets/art/characters/aleem-sec/neutral.webp",
+          "bytes": 283594,
+          "sha256": "6f2a9a794c4ff1b4f99b6d6b85b46cd155b22e5f1ffac318842cf67c8f82d741"
+        },
+        {
+          "path": "public/assets/art/characters/hana/neutral.webp",
+          "bytes": 226708,
+          "sha256": "fed7e996ad21ffeb25aba79cdc1537cade749808bee12ed0607971143b716cfe"
+        },
+        {
+          "path": "public/assets/art/characters/faris/neutral.webp",
+          "bytes": 211242,
+          "sha256": "8faaab53419b06569a80762412774a717063da85493434204de40e52444873e1"
+        }
+      ]
+    },
+    {
+      "id": "cg-hana-breakup",
+      "source": {
+        "path": "art/mobile-portrait/sources/cg-hana-breakup-master.png",
+        "bytes": 1874204,
+        "sha256": "d83ae91dfd4b73137a48cec976de9746c6f7bfdcb2e403501684bd3c4181854f"
+      },
+      "source_dimensions": [
+        1122,
+        1402
+      ],
+      "output": {
+        "path": "public/assets/art/portrait/cg-hana-breakup.webp",
+        "bytes": 117276,
+        "sha256": "f7f025e3cb6caaada816b9b8080cd3483291073808a7fa22332e9eeb0af9116c"
+      },
+      "generation_record": {
+        "path": "art/mobile-portrait/records/cg-hana-breakup.json",
+        "bytes": 2861,
+        "sha256": "ec8b801da8c659d5665cfc950c04b30c0122cb2f42b1b2faca7957969b9bee86"
+      },
+      "references": [
+        {
+          "path": "public/assets/art/cg/cg-hana-breakup.webp",
+          "bytes": 109864,
+          "sha256": "046726666a03ca982e73e7fe15a6fff9320397d24c91988faa00b70347bcecc2"
+        },
+        {
+          "path": "public/assets/art/characters/aleem-sec/neutral.webp",
+          "bytes": 283594,
+          "sha256": "6f2a9a794c4ff1b4f99b6d6b85b46cd155b22e5f1ffac318842cf67c8f82d741"
+        },
+        {
+          "path": "public/assets/art/characters/hana/neutral.webp",
+          "bytes": 226708,
+          "sha256": "fed7e996ad21ffeb25aba79cdc1537cade749808bee12ed0607971143b716cfe"
+        }
+      ]
+    },
+    {
+      "id": "cg-syafiqa-sighting",
+      "source": {
+        "path": "art/mobile-portrait/sources/cg-syafiqa-sighting-master.png",
+        "bytes": 2163765,
+        "sha256": "a9ed6c9a8a1c4dc3cf31a2dbd2ed25f2d5ba1884fab5c7486e77e9aee915492c"
+      },
+      "source_dimensions": [
+        1122,
+        1402
+      ],
+      "output": {
+        "path": "public/assets/art/portrait/cg-syafiqa-sighting.webp",
+        "bytes": 162070,
+        "sha256": "08406a47bbf68bb6e35c1a634196ab27a088bda3dd23f1ab5341f8c1e59cdd03"
+      },
+      "generation_record": {
+        "path": "art/mobile-portrait/records/cg-syafiqa-sighting.json",
+        "bytes": 2837,
+        "sha256": "a81b77d845ff7094f72addb82ee788ab7547561457586087cd8b6ae627e20495"
+      },
+      "references": [
+        {
+          "path": "public/assets/art/cg/cg-syafiqa-sighting.webp",
+          "bytes": 185526,
+          "sha256": "5c63d2d2c337cb86db122132e3dcab09d1ea26f445f36e8b9858e360c5850279"
+        },
+        {
+          "path": "public/assets/art/characters/aleem-jc/neutral.webp",
+          "bytes": 305374,
+          "sha256": "452fabdc0c55444f9199eb0e3491c6a8305a11d96929c5d76364123ee0052cd5"
+        },
+        {
+          "path": "public/assets/art/characters/syafiqa/neutral.webp",
+          "bytes": 304460,
+          "sha256": "cb5b4669ab8e44b07eb58224a1e3964d505b4e887cc2a375cc5579de80395000"
+        }
+      ]
+    },
+    {
+      "id": "cg-zoo-distance",
+      "source": {
+        "path": "art/mobile-portrait/sources/cg-zoo-distance-master.png",
+        "bytes": 2609642,
+        "sha256": "1322af183269ef84fd62a336603904af6b6ed62f2f02a3f67252971bd1933b6c"
+      },
+      "source_dimensions": [
+        1122,
+        1402
+      ],
+      "output": {
+        "path": "public/assets/art/portrait/cg-zoo-distance.webp",
+        "bytes": 249276,
+        "sha256": "4f782b7822bf82b5922d04f1873b605a739abaafdf34470ae450758417721e18"
+      },
+      "generation_record": {
+        "path": "art/mobile-portrait/records/cg-zoo-distance.json",
+        "bytes": 3005,
+        "sha256": "1f37f386135dc2829745a13e1cd9a14878c21409bdd4039b665854699c88d61e"
+      },
+      "references": [
+        {
+          "path": "public/assets/art/cg/cg-zoo-distance.webp",
+          "bytes": 207010,
+          "sha256": "140a85d6e93c14770b14c670101d3c55ab54f1331115286ffb763bdd9055ed81"
+        },
+        {
+          "path": "public/assets/art/characters/aleem-casual/neutral.webp",
+          "bytes": 339134,
+          "sha256": "49ff7d51b3d6df029eacab54ea7096f013eda4891653d2656c45b5bc3fdfa2aa"
+        },
+        {
+          "path": "public/assets/art/characters/mei-lin-casual/neutral.webp",
+          "bytes": 255796,
+          "sha256": "4b97e0c4cfd39e42a3b56c8647a1f35b69c348addd1c10b343caede3544bc51c"
+        }
+      ]
+    },
+    {
+      "id": "cg-raya-first-sight",
+      "source": {
+        "path": "art/mobile-portrait/sources/cg-raya-first-sight-master.png",
+        "bytes": 2138700,
+        "sha256": "533457d9061d1d48a2596cbc25a5cd5373ab30a8cf4f661326a14c8ae6793641"
+      },
+      "source_dimensions": [
+        1122,
+        1402
+      ],
+      "output": {
+        "path": "public/assets/art/portrait/cg-raya-first-sight.webp",
+        "bytes": 162714,
+        "sha256": "b25de8ee6e16f9da90f954bcc4f0360ab0e623be37092ea90df5cbbac16a59f1"
+      },
+      "generation_record": {
+        "path": "art/mobile-portrait/records/cg-raya-first-sight.json",
+        "bytes": 2983,
+        "sha256": "2cffad1acf29778d33dc8937a81190fba1d0726a63393ab0d953327787984894"
+      },
+      "references": [
+        {
+          "path": "public/assets/art/cg/cg-raya-first-sight.webp",
+          "bytes": 177844,
+          "sha256": "680848cd4d91a9f1f88d07309f487e9474b28896869200a17f54d415536b9062"
+        },
+        {
+          "path": "public/assets/art/characters/aleem-raya/shy-smile.webp",
+          "bytes": 451330,
+          "sha256": "a9b484756395f7824923f02bc32dd11cd2eec71dd420091ed410b4f0e4285d45"
+        },
+        {
+          "path": "public/assets/art/characters/nadiah/neutral.webp",
+          "bytes": 346916,
+          "sha256": "c349898cf3b33c05428470ec5476ea5c86e1c87efaaf483826995a8e761b8267"
+        }
+      ]
+    },
+    {
+      "id": "cg-relationship-montage",
+      "source": {
+        "path": "art/mobile-portrait/sources/cg-relationship-montage-master.png",
+        "bytes": 2201845,
+        "sha256": "7e593294798c55a584ec6a2fba764c9c7fe0123a6d0603a86053b9e7d2237146"
+      },
+      "source_dimensions": [
+        1122,
+        1402
+      ],
+      "output": {
+        "path": "public/assets/art/portrait/cg-relationship-montage.webp",
+        "bytes": 158910,
+        "sha256": "3aad924e675be44e8b2d53aea07a391af070f497a9065a94247356c204ad0101"
+      },
+      "generation_record": {
+        "path": "art/mobile-portrait/records/cg-relationship-montage.json",
+        "bytes": 3191,
+        "sha256": "e26214ee577dc6c4cf2efe209aaff298068070299610cc0cfa0f47a5cb362999"
+      },
+      "references": [
+        {
+          "path": "public/assets/art/cg/cg-relationship-montage.webp",
+          "bytes": 141912,
+          "sha256": "71391b5412eacd9f153f0bf196b8ea08ff514deab62d5a77b1621290631d2ce2"
+        },
+        {
+          "path": "public/assets/art/characters/aleem-ns/neutral.webp",
+          "bytes": 345962,
+          "sha256": "5f2c1119b8023f8d3831364662840daa7c5832571db161e400b04ddd599379d9"
+        },
+        {
+          "path": "public/assets/art/characters/nadiah/neutral.webp",
+          "bytes": 346916,
+          "sha256": "c349898cf3b33c05428470ec5476ea5c86e1c87efaaf483826995a8e761b8267"
+        }
+      ]
+    },
+    {
+      "id": "cg-close-friends-reveal",
+      "source": {
+        "path": "art/mobile-portrait/sources/cg-close-friends-reveal-master.png",
+        "bytes": 1879133,
+        "sha256": "cccfb7ade588d25dc36382b6a59d198eeb6398bac425073a65eccb594bec7e54"
+      },
+      "source_dimensions": [
+        1122,
+        1402
+      ],
+      "output": {
+        "path": "public/assets/art/portrait/cg-close-friends-reveal.webp",
+        "bytes": 101614,
+        "sha256": "c4f7ffd566bfbc3133a1a65ede5833331b1dee18ea20863d9a26a470b44463ce"
+      },
+      "generation_record": {
+        "path": "art/mobile-portrait/records/cg-close-friends-reveal.json",
+        "bytes": 3202,
+        "sha256": "833a40cc790499f75fe5f586c7ea4ce982d7ef4de2fe09ec6ee742cf1ef7bd50"
+      },
+      "references": [
+        {
+          "path": "public/assets/art/cg/cg-close-friends-reveal.webp",
+          "bytes": 100050,
+          "sha256": "0b9336b87ceffef1bbf5d739043c655f2d5716dae6b12beb7d48edf03f94a3ad"
+        },
+        {
+          "path": "public/assets/art/characters/aleem-ns/neutral.webp",
+          "bytes": 345962,
+          "sha256": "5f2c1119b8023f8d3831364662840daa7c5832571db161e400b04ddd599379d9"
+        },
+        {
+          "path": "public/assets/art/characters/nadiah/neutral.webp",
+          "bytes": 346916,
+          "sha256": "c349898cf3b33c05428470ec5476ea5c86e1c87efaaf483826995a8e761b8267"
+        }
+      ]
+    },
+    {
+      "id": "cg-jia-wen-boyfriend",
+      "source": {
+        "path": "art/mobile-portrait/sources/cg-jia-wen-boyfriend-master.png",
+        "bytes": 2083529,
+        "sha256": "812925b8993017f723860ee1b45e5d77094e447ebd643a16cacc56896faad4c5"
+      },
+      "source_dimensions": [
+        1122,
+        1402
+      ],
+      "output": {
+        "path": "public/assets/art/portrait/cg-jia-wen-boyfriend.webp",
+        "bytes": 154962,
+        "sha256": "447bbf6f5f923d34a1f72f24294e589193186a91592cb24c4ce5d07ac094f679"
+      },
+      "generation_record": {
+        "path": "art/mobile-portrait/records/cg-jia-wen-boyfriend.json",
+        "bytes": 3185,
+        "sha256": "2285b4670d959ab6ffcff21c9c885a684d4cd4b9be0992a513b7343730199ca3"
+      },
+      "references": [
+        {
+          "path": "public/assets/art/cg/cg-jia-wen-boyfriend.webp",
+          "bytes": 172326,
+          "sha256": "f4b89defd40f7c08602e6b5cb33a90c91ce2e308286cbc1ed923f28a406becc3"
+        },
+        {
+          "path": "public/assets/art/characters/aleem-uni/neutral.webp",
+          "bytes": 300504,
+          "sha256": "2c42743c45be53e192e40c0e86bb7aae4f52c88adbe3f16a666f1dac07102d90"
+        },
+        {
+          "path": "public/assets/art/characters/jia-wen/neutral.webp",
+          "bytes": 233740,
+          "sha256": "19b1a8397cd60c716cdef9ed7e93d463cf672500d10feee4b003d73d77067bad"
+        }
+      ]
+    },
+    {
+      "id": "cg-parents-meeting",
+      "source": {
+        "path": "art/mobile-portrait/sources/cg-parents-meeting-master.png",
+        "bytes": 2135507,
+        "sha256": "6b5b56cb362327f6f07f1fa52441d03bdc960c94f171698d872a92d2d330f0fc"
+      },
+      "source_dimensions": [
+        1122,
+        1402
+      ],
+      "output": {
+        "path": "public/assets/art/portrait/cg-parents-meeting.webp",
+        "bytes": 165084,
+        "sha256": "8e9ef3a0480ebb82cb992f85567960250ae88cac940ce7c251f23530ce205008"
+      },
+      "generation_record": {
+        "path": "art/mobile-portrait/records/cg-parents-meeting.json",
+        "bytes": 3332,
+        "sha256": "7b6ac1921ec3b619df27646550722f125459f9fd52e3fe97ab7b5d015305bcba"
+      },
+      "references": [
+        {
+          "path": "public/assets/art/cg/cg-parents-meeting.webp",
+          "bytes": 192944,
+          "sha256": "bb6543a702f58fbc35a7317624d01177adf9fc9ab9e31a42b6ff15927a1203b2"
+        },
+        {
+          "path": "public/assets/art/characters/aleem-work/neutral.webp",
+          "bytes": 315612,
+          "sha256": "269f910b5ca9b5f45042a68ab641963b9a91d881b75e5a83afbc13e9c8250f58"
+        },
+        {
+          "path": "public/assets/art/characters/nurulain/neutral.webp",
+          "bytes": 232688,
+          "sha256": "b1e634033c7ea1fed53ac4daafe5836190ea766ac593eac292b5871ff1be4917"
+        }
+      ]
+    },
+    {
+      "id": "cg-kallang-confession",
+      "source": {
+        "path": "art/mobile-portrait/sources/cg-kallang-confession-master.png",
+        "bytes": 2383364,
+        "sha256": "d40bdf6585eb8c79fc0d0f1963a213a5186e10d02d4eb7b5b07b60d8706b0465"
+      },
+      "source_dimensions": [
+        1122,
+        1402
+      ],
+      "output": {
+        "path": "public/assets/art/portrait/cg-kallang-confession.webp",
+        "bytes": 229174,
+        "sha256": "a8fe7e5808715c94120ead806d526161482d088a44d126c23e94e65e4ca6ab58"
+      },
+      "generation_record": {
+        "path": "art/mobile-portrait/records/cg-kallang-confession.json",
+        "bytes": 3100,
+        "sha256": "9aab099b7312a883049e0ab468da92f7dd7bc934c29eb4daea86d0967415616d"
+      },
+      "references": [
+        {
+          "path": "public/assets/art/cg/cg-kallang-confession.webp",
+          "bytes": 223126,
+          "sha256": "e79da0ec9a41e111175236f5ec028707594a0a4cd4c3f56772b3b68842e37bfd"
+        },
+        {
+          "path": "public/assets/art/characters/aleem-umrah/neutral.webp",
+          "bytes": 327646,
+          "sha256": "299708809f7256a0ca76eeff248375cdd58df23fcb56d45fea9f99ba8d1458c7"
+        },
+        {
+          "path": "public/assets/art/characters/nurulain/neutral.webp",
+          "bytes": 232688,
+          "sha256": "b1e634033c7ea1fed53ac4daafe5836190ea766ac593eac292b5871ff1be4917"
+        }
+      ]
+    },
+    {
+      "id": "cg-wedding-planning",
+      "source": {
+        "path": "art/mobile-portrait/sources/cg-wedding-planning-master.png",
+        "bytes": 1988474,
+        "sha256": "5da9d6da7cfb7ff9a50b6657e60569195fd259d0c80937dff56cd5ce567dbfe3"
+      },
+      "source_dimensions": [
+        1122,
+        1402
+      ],
+      "output": {
+        "path": "public/assets/art/portrait/cg-wedding-planning.webp",
+        "bytes": 143770,
+        "sha256": "c69451cf2c31625766d4459bd2d9b7e96a7b74b22fad25b07e2f631103063e87"
+      },
+      "generation_record": {
+        "path": "art/mobile-portrait/records/cg-wedding-planning.json",
+        "bytes": 3139,
+        "sha256": "cee4c1388578cc99a4b9d48d9e88868c3d21ab6bbdfcd24c5f4b26358164de6d"
+      },
+      "references": [
+        {
+          "path": "public/assets/art/cg/cg-wedding-planning.webp",
+          "bytes": 153380,
+          "sha256": "3f4d74f04356c111cd33c2bd27c8d127bce2b792057ef730764d8ea7ff4b494b"
+        },
+        {
+          "path": "public/assets/art/characters/aleem-umrah/neutral.webp",
+          "bytes": 327646,
+          "sha256": "299708809f7256a0ca76eeff248375cdd58df23fcb56d45fea9f99ba8d1458c7"
+        },
+        {
+          "path": "public/assets/art/characters/nurulain/neutral.webp",
+          "bytes": 232688,
+          "sha256": "b1e634033c7ea1fed53ac4daafe5836190ea766ac593eac292b5871ff1be4917"
+        }
+      ]
+    }
+  ],
+  "retained_rejected_attempts": [
+    {
+      "generation_record": {
+        "path": "art/mobile-portrait/records/cg-zoo-distance-attempt-1-rejected.json",
+        "bytes": 3072,
+        "sha256": "8601783ab83f530785dda1b948d360cb34b593b0b86bec392472f0f0775112df"
+      },
+      "source": {
+        "path": "art/mobile-portrait/sources/cg-zoo-distance-attempt-1-rejected-master.png",
+        "bytes": 2389327,
+        "sha256": "cb1a030dca8a0ebf815f9fab6c409b8bdc30defeebc80c0bb2e8bfadcd26d190"
+      },
+      "references": [
+        {
+          "path": "public/assets/art/cg/cg-zoo-distance.webp",
+          "bytes": 207010,
+          "sha256": "140a85d6e93c14770b14c670101d3c55ab54f1331115286ffb763bdd9055ed81"
+        },
+        {
+          "path": "public/assets/art/characters/aleem-casual/neutral.webp",
+          "bytes": 339134,
+          "sha256": "49ff7d51b3d6df029eacab54ea7096f013eda4891653d2656c45b5bc3fdfa2aa"
+        },
+        {
+          "path": "public/assets/art/characters/syafiqa/neutral.webp",
+          "bytes": 304460,
+          "sha256": "cb5b4669ab8e44b07eb58224a1e3964d505b4e887cc2a375cc5579de80395000"
+        }
+      ]
+    }
+  ]
+}

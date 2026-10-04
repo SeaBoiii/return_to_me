@@ -1,0 +1,56 @@
+{
+  "scene_count": 79,
+  "portrait_count": 12,
+  "files": [
+    {
+      "path": "art/mobile-portrait/qa/reviewed-background-1.jpg",
+      "bytes": 618482,
+      "sha256": "20b34b16fe18b57d07548fbfd8c6b4f7bcb9c59fbaa50264e6c514f69dc30417"
+    },
+    {
+      "path": "art/mobile-portrait/qa/reviewed-background-2.jpg",
+      "bytes": 620162,
+      "sha256": "8a470a253828ee8d1f40198eaa54227ebe1d3e198e8564d9fdcc52551925b630"
+    },
+    {
+      "path": "art/mobile-portrait/qa/reviewed-background-3.jpg",
+      "bytes": 551797,
+      "sha256": "690980e3238ca13d400ddb311e10454287ad2c67b808e4227a8a26a99075b495"
+    },
+    {
+      "path": "art/mobile-portrait/qa/reviewed-background-4.jpg",
+      "bytes": 510663,
+      "sha256": "de394b1bb79c20f5da093cca8e973dfb0d70a85e8df95524a3b587ae4d5ff8d8"
+    },
+    {
+      "path": "art/mobile-portrait/qa/reviewed-background-5.jpg",
+      "bytes": 425458,
+      "sha256": "ec7617509bdc80ed0ed104cf7f20c59488ee71c50000853839ad2875fad57598"
+    },
+    {
+      "path": "art/mobile-portrait/qa/reviewed-cg-1.jpg",
+      "bytes": 682206,
+      "sha256": "8be6ce413c33c5043edc91b4c965ff7ab037f501c28c44964797d71af67bd7f8"
+    },
+    {
+      "path": "art/mobile-portrait/qa/reviewed-cg-2.jpg",
+      "bytes": 522848,
+      "sha256": "3b71870ec803036f5c6494b2ec118d3b1530d83a5e303c3e57edf8ff118aeb30"
+    },
+    {
+      "path": "art/mobile-portrait/qa/portraits-1.jpg",
+      "bytes": 261212,
+      "sha256": "a4626eeb1d48fbf02664c3e09ca12ceca1ec4438536793a0725514abb19d2438"
+    },
+    {
+      "path": "art/mobile-portrait/qa/portraits-2.jpg",
+      "bytes": 245936,
+      "sha256": "00273531f74960833846c7fa12462bfad090ff086596e732d3b50d54bd097335"
+    },
+    {
+      "path": "art/mobile-portrait/qa/portraits-3.jpg",
+      "bytes": 246773,
+      "sha256": "a3db0f9a381314cd844cc0b5f0a42fe8151469f95e388fdee6fa8c621e5d3387"
+    }
+  ]
+}

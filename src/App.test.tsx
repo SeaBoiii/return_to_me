@@ -50,9 +50,10 @@ const renderApp = () =>
 const dismissNotice = async (
   user: ReturnType<typeof userEvent.setup>,
 ): Promise<void> => {
-  const notice = screen.getByRole("dialog", {
+  const notice = screen.queryByRole("dialog", {
     name: "A note before we begin",
   });
+  if (!notice) return;
   await user.click(
     within(notice).getByRole("button", { name: "Continue to title" }),
   );
@@ -168,6 +169,10 @@ describe("Return to Me application shell", () => {
     });
     continueButton.focus();
     await user.tab();
+    expect(within(notice).getByRole("region", {
+      name: "A note before we begin content",
+    })).toHaveFocus();
+    await user.tab();
     expect(continueButton).toHaveFocus();
     await user.click(continueButton);
 
@@ -275,6 +280,9 @@ describe("Return to Me application shell", () => {
     await dismissNotice(user);
     await user.click(screen.getByRole("button", { name: "Continue" }));
 
+    await user.click(screen.getByRole("button", { name: "Open reading menu" }));
+    await user.click(screen.getByRole("button", { name: /Skip seen text/ }));
+    await user.keyboard("{Escape}");
     const dialogue = screen.getByRole("region", { name: "Dialogue" });
     const liveLine = dialogue.querySelector<HTMLElement>("[aria-live='polite']");
     await waitFor(
@@ -365,7 +373,7 @@ describe("Return to Me application shell", () => {
 
       const stage = screen.getByRole("figure", { name: /Scene:/ });
       if (kind === "intrusive") {
-        expect(stage.className).toMatch(/noMotion/);
+        expect(stage).toHaveAttribute("data-transition", "none");
       }
 
       const results = await axe.run(container, {
@@ -440,9 +448,7 @@ describe("Return to Me application shell", () => {
 
     const readingControls = screen.getByLabelText("Reading controls");
     const auto = within(readingControls).getByRole("button", { name: /Auto/ });
-    const skip = within(readingControls).getByRole("button", { name: /Skip/ });
     expect(auto).toHaveAttribute("aria-pressed", "false");
-    expect(skip).toHaveAttribute("aria-pressed", "false");
 
     const dialogue = screen.getByRole("region", { name: "Dialogue" });
     expect(
@@ -451,7 +457,7 @@ describe("Return to Me application shell", () => {
       }),
     ).toBeEnabled();
     expect(
-      within(dialogue).getByRole("button", { name: "Replay voice" }),
-    ).toBeDisabled();
+      within(dialogue).queryByRole("button", { name: "Replay voice" }),
+    ).not.toBeInTheDocument();
   });
 });

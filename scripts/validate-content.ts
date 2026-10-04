@@ -263,13 +263,23 @@ const validateDeployedFile = async (
 };
 
 await Promise.all(
-  assetEntries.map((asset, index) =>
-    validateDeployedFile(
-      asset.url,
-      `Asset "${asset.id}"`,
-      `assetEntries[${index}].url`,
-    ),
-  ),
+  assetEntries.flatMap((asset, index) => [asset, ...(asset.mobile ? [asset.mobile] : [])].map(async (variant, variantIndex) => {
+    const label = `Asset "${asset.id}"${variantIndex ? ' mobile variant' : ''}`;
+    const path = `assetEntries[${index}]${variantIndex ? '.mobile' : ''}`;
+    const size = await validateDeployedFile(variant.url, label, `${path}.url`);
+    if (size !== undefined && size > 8 * 1024 * 1024) {
+      issues.push(validationIssue('oversize-artwork', `${label} exceeds the 8 MiB limit.`, path));
+    }
+    const bounds = variant.protectedBounds;
+    if (bounds && (![bounds.x, bounds.y, bounds.width, bounds.height].every(Number.isFinite)
+      || bounds.x < 0 || bounds.y < 0 || bounds.width <= 0 || bounds.height <= 0
+      || bounds.x + bounds.width > 1.001 || bounds.y + bounds.height > 1.001)) {
+      issues.push(validationIssue('invalid-subject-bounds', `${label} has invalid protected subject bounds.`, path));
+    }
+    if (!Number.isInteger(variant.width) || !Number.isInteger(variant.height) || variant.width <= 0 || variant.height <= 0) {
+      issues.push(validationIssue('invalid-artwork-dimensions', `${label} needs positive integer dimensions.`, path));
+    }
+  })),
 );
 
 const voiceSizes = new Map<string, number>();

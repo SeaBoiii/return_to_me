@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "project": {
+    "name": "return-to-me",
+    "productType": "Mobile-first illustrated visual novel",
+    "stack": [
+      "react",
+      "vite"
+    ]
+  },
+  "sources": {
+    "tokens": [
+      "src/styles.css"
+    ],
+    "components": [
+      "src/app/Reader.tsx",
+      "src/app/Modal.tsx"
+    ],
+    "assets": [
+      "public/assets"
+    ],
+    "instructions": []
+  },
+  "design": {
+    "colorMode": "dark",
+    "colors": {
+      "surface": "#0b1423",
+      "text": "#f7f1e7",
+      "gold": "#f3cd82"
+    },
+    "typography": {
+      "reading": "Georgia / serif, 18, 21 or 24px",
+      "interface": "system sans-serif"
+    },
+    "spacing": {},
+    "radius": {},
+    "shadows": {},
+    "motion": {},
+    "density": "comfortable"
+  },
+  "components": {
+    "installed": [],
+    "preferredPrimitives": [
+      "Existing Modal",
+      "Existing story context",
+      "Native buttons and form controls"
+    ],
+    "patterns": []
+  },
+  "constraints": {
+    "must": [],
+    "avoid": []
+  },
+  "decisions": [
+    "Portrait artwork above a separately scrolling dialogue panel on phones and tablets",
+    "Dedicated thumb controls with 48px targets",
+    "Navy and warm gold identity preserved",
+    "12 portrait CGs based on approved references; desktop originals preserved",
+    "Chapter replay preserves main bookmark",
+    "Fast start with opt-in artwork and voice downloads"
+  ],
+  "evidence": [
+    {
+      "fact": "project.stack:react",
+      "source": "package.json"
+    },
+    {
+      "fact": "project.stack:vite",
+      "source": "package.json"
+    },
+    {
+      "fact": "21st search and usage unavailable: authentication required; reused existing project primitives",
+      "source": "local CLI on 2026-10-05"
+    }
+  ],
+  "generatedAt": "2026-10-04T16:05:04.204Z"
+}
