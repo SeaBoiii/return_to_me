@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-057",
+  "chapterId": "chapter-11",
+  "speakerId": "adult-aleem",
+  "text": "Nurul would later tell me that seeing me there changed something for her. She saw my confidence, and finally felt the affection behind what I was doing. What had first seemed intimidating began to make sense as sincerity. I was serious about getting to know her and being with her. That was what reached her during the conversation.",
+  "voiceUrl": "voices/chapter-11/ch11-057.mp3",
+  "durationMs": 22464,
+  "audioSha256": "696bc922dfbeafd5934be6b124c7f871f95ef9b77b5efce33e23f81954fb73d9",
+  "audioBytes": 269900,
+  "textSha256": "31336969a7415f6a4e80e106f970a66049a52fbdd8f58656e19e819034ebe905",
+  "fingerprint": "48e3fc7854101cc5fd1948d410ff4f4dbca369aa1408397b493ce0a7f7c4dae3",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "3181d65da8b2108f039324596fe435a13a714bcc610f30bcc98cbc647b09e075",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:36:37.535Z",
+  "elapsedMs": 1181,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

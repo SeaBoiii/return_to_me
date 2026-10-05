@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-003",
+  "chapterId": "chapter-11",
+  "speakerId": "adult-aleem",
+  "text": "Nurulain. A name I had never attached to a memory, a disappointment, or something I wished I had said differently. I listened to Kak Mariam and felt a small, unfamiliar willingness. I could get to know someone. That was all an introduction needed to mean for now.",
+  "voiceUrl": "voices/chapter-11/ch11-003.mp3",
+  "durationMs": 19680,
+  "audioSha256": "7527309e85284a31ab0d58777e4d817970d27b477f518e3e1b0b614555abde22",
+  "audioBytes": 236492,
+  "textSha256": "a5b29cc65cfd82217a17c66fd1e20cc6fd498dad88b2bcf2edcda250b4138d32",
+  "fingerprint": "bb10eac8d9c9cf6de4a71a5cee62d926b0ca65a34d3a4cae14188fc2db790544",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "c7b4881c26b0eb0b2414e631278747415dbf7eb3712c473c9fdf201aac0c355f",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:59.940Z",
+  "elapsedMs": 487,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

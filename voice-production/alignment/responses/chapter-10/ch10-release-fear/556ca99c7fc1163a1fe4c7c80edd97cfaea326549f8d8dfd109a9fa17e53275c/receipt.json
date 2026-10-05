@@ -1,0 +1,20 @@
+{
+  "lineId": "ch10-release-fear",
+  "chapterId": "chapter-10",
+  "speakerId": "adult-aleem",
+  "text": "I didn't want to reach every new person already expecting the familiar ending. For once that expectation felt like something I could set beside me. I could meet the next part of my life when it actually arrived.",
+  "voiceUrl": "voices/chapter-10/ch10-release-fear.mp3",
+  "durationMs": 14232,
+  "audioSha256": "9bb74d1a351ba275b89fa437ef40ca56d723065705575a804e797171231b5ea9",
+  "audioBytes": 171116,
+  "textSha256": "ab2c8bcb99c3d035520cd89c82a3ac6e1bb69454907f24897c103cff02912343",
+  "fingerprint": "556ca99c7fc1163a1fe4c7c80edd97cfaea326549f8d8dfd109a9fa17e53275c",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "9b188fc16363659caa4c222da8b2f9e3eab3a0db67949c0a656d1db40c7d5256",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:55.502Z",
+  "elapsedMs": 424,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

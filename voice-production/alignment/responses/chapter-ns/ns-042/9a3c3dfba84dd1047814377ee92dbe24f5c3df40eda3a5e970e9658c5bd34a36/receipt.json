@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-042",
+  "chapterId": "chapter-ns",
+  "speakerId": "aleem-young-adult",
+  "text": "Aisyah sent me your Close Friends story. I didn't know you were at USS, and I saw who you were with. I need you to tell me what is happening.",
+  "voiceUrl": "voices/chapter-ns/ns-042.mp3",
+  "durationMs": 10392,
+  "audioSha256": "bfa23902c94bc781d44b9e0a43086eab8044fe46ac4cf7ee12ddf7867a8521d7",
+  "audioBytes": 125036,
+  "textSha256": "7e22d3b5e7ab59e7bbfc3d9d8b0352a001a6d8bdc623a03b1a568244c2e89405",
+  "fingerprint": "9a3c3dfba84dd1047814377ee92dbe24f5c3df40eda3a5e970e9658c5bd34a36",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "e31516d15f8825162228b271fe776f9b7ce3512ae6f6b1bd6713d80250fa3df9",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:14.388Z",
+  "elapsedMs": 593,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

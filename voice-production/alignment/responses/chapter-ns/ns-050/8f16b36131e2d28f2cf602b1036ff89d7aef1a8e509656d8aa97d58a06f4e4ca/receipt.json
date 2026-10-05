@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-050",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "That thought was prejudice, not revelation. Nadiah's choices belonged to Nadiah. My pain deepened an unfair generalisation that had begun years earlier; it did not transform the generalisation into evidence about Malay women.",
+  "voiceUrl": "voices/chapter-ns/ns-050.mp3",
+  "durationMs": 16464,
+  "audioSha256": "ec3c08a661f809733f2f1159eb3e73291bddcbbe0ad209a6b254e6c675615f3b",
+  "audioBytes": 197900,
+  "textSha256": "59edcd29580a53ccc0487ff4f1d96861fec12cebca94ada44f25a42c646a8a3a",
+  "fingerprint": "8f16b36131e2d28f2cf602b1036ff89d7aef1a8e509656d8aa97d58a06f4e4ca",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "22e956815d2ecc57675b9a5a0939a2581e3f7172b88b2cf93dfa8c026873e878",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:16.606Z",
+  "elapsedMs": 414,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

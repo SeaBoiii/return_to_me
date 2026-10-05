@@ -1,0 +1,20 @@
+{
+  "lineId": "ch5-zoo-signal-002",
+  "chapterId": "chapter-5",
+  "speakerId": "adult-aleem",
+  "text": "Interpreting the name as a boundary helped me behave respectfully. But Mei Lin never confirmed that intention. A compassionate inference was still an inference, and I would later treat it as settled fact.",
+  "voiceUrl": "voices/chapter-5/ch5-zoo-signal-002.mp3",
+  "durationMs": 13824,
+  "audioSha256": "ce06b767b7770443ad2c4042e5f7d47ed0088110eeb68317b75e0e52ca03d71f",
+  "audioBytes": 166220,
+  "textSha256": "2692ba39efc63c35f497488324706978be1c5b912336f1af9e804b3917ef7fed",
+  "fingerprint": "3c917110a3b8c4c0782d0e268f4dc0ddf211f186baa06dec70326fff019e7aa6",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "b192fad3ffac132e02988b240c30b49f8d7a80db641f1b08d3c3a538499f7ec7",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:04.621Z",
+  "elapsedMs": 460,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-023",
+  "chapterId": "chapter-2",
+  "speakerId": "aleem-sec",
+  "text": "Help how?",
+  "voiceUrl": "voices/chapter-2/ch2-023.mp3",
+  "durationMs": 1512,
+  "audioSha256": "332685b4454ee136a2d097171b49991ee4f004fd3a18629fa61c2373daff10fe",
+  "audioBytes": 18476,
+  "textSha256": "2036733cb6bbc3e5b38cf4a5da0ef8d014c31d0904940360a4ca620751c487bb",
+  "fingerprint": "a2cbcb43ff213737b7bf949ace9cd09b74b85158799414edbee588dc151753f7",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "e49916c2fb01e8102360f3c64b97ea9664524cb21d80719d1850c166114b6ff6",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:25.304Z",
+  "elapsedMs": 341,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

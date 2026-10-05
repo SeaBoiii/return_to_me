@@ -1,0 +1,20 @@
+{
+  "lineId": "ch7-032",
+  "chapterId": "chapter-7",
+  "speakerId": "aleem-adult",
+  "text": "I'm glad you told me. I hope it goes well. Really.",
+  "voiceUrl": "voices/chapter-7/ch7-032.mp3",
+  "durationMs": 3264,
+  "audioSha256": "08504a9dfcefa42828a76548c65305d29574232fcec7ef468d41e8d59d4a6cf2",
+  "audioBytes": 39500,
+  "textSha256": "687ab1d6cbe500b4ef0a78a446f0cb70a0848085790da6a3df0f719a5f3473b5",
+  "fingerprint": "c6437926b2918b3a6096e4cb2382b5e8f29b7796fc275ecc58fa1fdbffa087ce",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "78bac4b680852466c4a6d0245a669cba411ea9551ae21b5b96cdd30818fd2eff",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:40.565Z",
+  "elapsedMs": 319,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

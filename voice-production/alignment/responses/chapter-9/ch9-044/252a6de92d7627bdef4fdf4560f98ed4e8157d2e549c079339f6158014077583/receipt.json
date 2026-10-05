@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-044",
+  "chapterId": "chapter-9",
+  "speakerId": "adult-aleem",
+  "text": "The hope did not disappear simply because I noticed the uncertainty. I could still remember our conversation on Jabal Nur and feel grateful for every minute. I could still think of Jabal Rahmah and wonder. But beneath that wondering, another question had begun to make itself heard: could I keep this peace even if we never became us again?",
+  "voiceUrl": "voices/chapter-9/ch9-044.mp3",
+  "durationMs": 25104,
+  "audioSha256": "1557259e3310c9c0fd99bc5bbdac4300f4580ffc8888b163945546be28264bbd",
+  "audioBytes": 301580,
+  "textSha256": "ec4f1de350872b30c0ac3fef862ecbd72207179c379e0d119d759bf407b39b66",
+  "fingerprint": "252a6de92d7627bdef4fdf4560f98ed4e8157d2e549c079339f6158014077583",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "75d0f1b0318262c1e0c5e4489c887f5f36b6468f7d88105093497283f22e09c3",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:36:36.586Z",
+  "elapsedMs": 382,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

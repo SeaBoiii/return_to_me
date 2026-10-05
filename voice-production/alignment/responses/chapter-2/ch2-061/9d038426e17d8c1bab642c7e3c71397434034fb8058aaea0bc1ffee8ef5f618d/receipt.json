@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-061",
+  "chapterId": "chapter-2",
+  "speakerId": "hana",
+  "text": "I know you do. I am not asking you to stop caring about it. I am asking whether there is still room for me.",
+  "voiceUrl": "voices/chapter-2/ch2-061.mp3",
+  "durationMs": 9840,
+  "audioSha256": "77c4e120b1fee9ef4d469f22221985fb399d1d512895dd39a8204a47bd79d02e",
+  "audioBytes": 118412,
+  "textSha256": "8a833f11835eb55040f719b0676e7adfea3acca51fdb85c4ab360f0aff9a0064",
+  "fingerprint": "9d038426e17d8c1bab642c7e3c71397434034fb8058aaea0bc1ffee8ef5f618d",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "e44952d6e8dadaf3f5701c835ba698a3d4c6a3bf4fa587cab7fff72bd3bb15c0",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:33.651Z",
+  "elapsedMs": 572,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

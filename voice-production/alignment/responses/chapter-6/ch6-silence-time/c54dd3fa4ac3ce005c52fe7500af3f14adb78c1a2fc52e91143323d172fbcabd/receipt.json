@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-silence-time",
+  "chapterId": "chapter-6",
+  "speakerId": "adult-aleem",
+  "text": "Maybe this was what I had rushed before: the ordinary hours that made somebody indispensable. I wanted to give us those hours. I could imagine a day when she looked at me differently, and the friendship changed without either of us having to risk an awkward beginning.",
+  "voiceUrl": "voices/chapter-6/ch6-silence-time.mp3",
+  "durationMs": 18240,
+  "audioSha256": "c6de6f1f48e0c37c3e0ea3d95a7b4e0a89af44eb20ec4f5d89bedf7f75e5c4e8",
+  "audioBytes": 219212,
+  "textSha256": "8ed363a175adfb5f6d13b1f5d1e34bd0ae68c9a1fe685e29b337da839e2df120",
+  "fingerprint": "c54dd3fa4ac3ce005c52fe7500af3f14adb78c1a2fc52e91143323d172fbcabd",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "7baaffc948f1008b02f549ad820ee4d60f0fed1591e0be462fb6bed474c5116a",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:24.633Z",
+  "elapsedMs": 485,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

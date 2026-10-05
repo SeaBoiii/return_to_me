@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-068",
+  "chapterId": "chapter-11",
+  "speakerId": "aleem-adult",
+  "text": "Nurul, I love you.",
+  "voiceUrl": "voices/chapter-11/ch11-068.mp3",
+  "durationMs": 2472,
+  "audioSha256": "a1d5c05eb4d35e2a2fc41f54823703a2992822ba9ef9154b32a57c80fd9a5751",
+  "audioBytes": 29996,
+  "textSha256": "203178a1b239e22a8b7c1126f7579ecbfc6e1796429fa056d86978a4fecbe656",
+  "fingerprint": "15cf5c7e9ba4e82b226fa9a9e1059050a38e3b678ba5628428ba94692d8ba07b",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "46f1fcd24d53fabfefc289f02d93e5d567b7103a077ad2973dec4bb406e33b0c",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:12.161Z",
+  "elapsedMs": 359,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

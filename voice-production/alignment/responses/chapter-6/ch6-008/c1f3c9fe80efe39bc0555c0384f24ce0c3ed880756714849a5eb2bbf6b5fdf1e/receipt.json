@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-008",
+  "chapterId": "chapter-6",
+  "speakerId": "adult-aleem",
+  "text": "When orientation ended, the group chat grew quieter. Ours did the opposite. A question about where to find a tutorial room became a complaint about lunch, then a photograph of a queue, then a conversation that wandered past midnight without either of us announcing that we were staying.",
+  "voiceUrl": "voices/chapter-6/ch6-008.mp3",
+  "durationMs": 17520,
+  "audioSha256": "a2c948ba6e874e2e199a237916eaec3142426dfb41a907ed1c3e3666530ee75a",
+  "audioBytes": 210572,
+  "textSha256": "d4a4f920b38e8eee3551be4d660997b84ed5624fed89a8ac9cd31f0d83153150",
+  "fingerprint": "c1f3c9fe80efe39bc0555c0384f24ce0c3ed880756714849a5eb2bbf6b5fdf1e",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "c992eda779755e8085caedc4e578915425bfbaf29d40a36831637e65f8d820c9",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:22.722Z",
+  "elapsedMs": 478,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch7-015",
+  "chapterId": "chapter-7",
+  "speakerId": "adult-aleem",
+  "text": "On 14 February, I could barely follow our ordinary conversation. By the waterfront, couples kept stopping for photographs while we moved aside to let people pass. The date was suddenly embarrassingly obvious. I had chosen a day that said the thing for me, and still needed to say it myself.",
+  "voiceUrl": "voices/chapter-7/ch7-015.mp3",
+  "durationMs": 19680,
+  "audioSha256": "22c6126c915ebf7e2fa2b09ae70071a82348f02efe977b1930845e148f2dbadc",
+  "audioBytes": 236492,
+  "textSha256": "f60d393d4d3093890f20fcaadff0dd86e970e419c219be313cb44b48a4aaca89",
+  "fingerprint": "e26ff424044c62ea0f828c8abee4f0974efb3ad77baded93d3f5635a0dd9a130",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "d6e77633305f79cee20e65b7504abc76409fa5de925fde7f8f0dc563d2383303",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:36.159Z",
+  "elapsedMs": 486,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

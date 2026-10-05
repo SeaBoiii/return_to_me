@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-099",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "I held the folded paper for a moment. Part of me still expected a rescue: some kinder arithmetic, some proof that worry had exaggerated everything.",
+  "voiceUrl": "voices/chapter-2/ch2-099.mp3",
+  "durationMs": 9360,
+  "audioSha256": "6b6c7d70ede13ea1cdaf10e13fb1c24cd67f41a22de5e2663188a80c3a725114",
+  "audioBytes": 112652,
+  "textSha256": "0d86d36334d3d030bf0be9a6941fe98a53fd741c852430c0954075054eec414a",
+  "fingerprint": "107445621a697138e628d165bc9561664db98ff982ec02762e25894f0cbe61de",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "ae81101c3a387fef2968bf4fd0df26641810fbaaee9ee58e6e15d02dda9448ed",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:40.764Z",
+  "elapsedMs": 442,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

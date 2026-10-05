@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-052",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "My family supported me without having a solution. Food appeared near me. Somebody stayed at the table when conversation was impossible. Their concern could not shorten grief, but it kept grief from becoming the only presence in the house.",
+  "voiceUrl": "voices/chapter-ns/ns-052.mp3",
+  "durationMs": 15192,
+  "audioSha256": "93e7fceca561d4ba3500029a5efdcd02bfd319b5f34bbf13f024a9a65e4a7d72",
+  "audioBytes": 182636,
+  "textSha256": "7becc1bd1f2a004dca429e148d9f5abf564287fc50cfde2096f35cccfe4ef13a",
+  "fingerprint": "96b9dd9dd6d1a18a47ba0bac66f3beabdd286e0d4a17555c1bc1ba57f37349f4",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "8e7e2a13ae73292cdaabf753955be99876d1d372783e862c9ac5f81964cd82fc",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:16.901Z",
+  "elapsedMs": 414,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

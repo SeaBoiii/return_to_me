@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-009",
+  "chapterId": "chapter-11",
+  "speakerId": "adult-aleem",
+  "text": "That was the sort of answer I sent. Accurate. Finished. No question travelling back with it. Nurul would find another opening: something about me, something about the people I mentioned. I would answer that too. From my side of the phone, I thought I was allowing things to happen naturally. She was doing most of the happening.",
+  "voiceUrl": "voices/chapter-11/ch11-009.mp3",
+  "durationMs": 22224,
+  "audioSha256": "0b5ce73f0e255824a27cf68f53edd950e9da1ecad53cd3b12a23016a179bab09",
+  "audioBytes": 267020,
+  "textSha256": "05dffd7c7d7e10bddc479e3d588f93ae236c69bdeefee92c624b84e275d9d796",
+  "fingerprint": "86630a80884b6b37e5b4392d456ac4e20d02c9958c3e637426a205c853fb1eb2",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "32b608d43d63a6a869b4f47812f6660676cdf9c880c6e8fe006d9ad51f2dc2b8",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:00.829Z",
+  "elapsedMs": 505,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

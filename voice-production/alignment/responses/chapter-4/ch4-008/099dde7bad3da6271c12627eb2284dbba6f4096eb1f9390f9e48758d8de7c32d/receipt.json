@@ -1,0 +1,20 @@
+{
+  "lineId": "ch4-008",
+  "chapterId": "chapter-4",
+  "speakerId": "adult-aleem",
+  "text": "Desperation is not always loud. Mine looked organised. Ask clearly. Receive answer. Withdraw politely. Try again elsewhere. The motion kept me from noticing I was treating connection like a locked door that enough keys might open.",
+  "voiceUrl": "voices/chapter-4/ch4-008.mp3",
+  "durationMs": 17184,
+  "audioSha256": "fa17a1676e182804371994525b31aa5a737b972b658f53e88d74723fbbb2f3bf",
+  "audioBytes": 206540,
+  "textSha256": "422feee1283762658faa897199f84c5fc2de1a57593e35955ae41bf12866e513",
+  "fingerprint": "099dde7bad3da6271c12627eb2284dbba6f4096eb1f9390f9e48758d8de7c32d",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "26ac9746427563934c76f4ec790dfbf4f018c930cbd8381bd2d8bfde5516677e",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:55.654Z",
+  "elapsedMs": 613,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-037",
+  "chapterId": "chapter-11",
+  "speakerId": "adult-aleem",
+  "text": "It was a small change on the screen. Inside me, it felt larger. I wanted the answer for its own sake. When she replied, I read what she said instead of only feeling relieved that she had replied. There was something to follow up on, something to remember when we next spoke.",
+  "voiceUrl": "voices/chapter-11/ch11-037.mp3",
+  "durationMs": 19200,
+  "audioSha256": "c3194d9f18a515db62b9dcfa08d2e82c0f126df1d478ae577916953f2b7aea68",
+  "audioBytes": 230732,
+  "textSha256": "a8ca546a4c0614493bb689d98c12bb39d7ec2deb0401090b6b9fa72db32a520a",
+  "fingerprint": "14c418f49e4c86bce15be0b2db5b1ff64f9cd18a1a5b796b65f5ae5937dd5ae4",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "b1a02ac82395f490a55deaedf59d8631845e7a67bbc16c82c4fe5f45a1553c64",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:06.561Z",
+  "elapsedMs": 490,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

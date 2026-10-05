@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-041",
+  "chapterId": "chapter-6",
+  "speakerId": "adult-aleem",
+  "text": "For stretches of the afternoon, we were almost ourselves. We argued about where to go next, laughed at a photograph, stood in a queue with nothing to do except talk. Then she looked away and the knowledge returned. I had become good at keeping things from her. Now I had to keep this too, until I didn't.",
+  "voiceUrl": "voices/chapter-6/ch6-041.mp3",
+  "durationMs": 21744,
+  "audioSha256": "c569f91117c313c4e75b7c0a6487db7329c1fb104e9bf967e029cf420782804b",
+  "audioBytes": 261260,
+  "textSha256": "40fd8e4059c8f0fa3c15e62432954262ad3fd5704e16c9ef474f49ebd81aa593",
+  "fingerprint": "bfeb8bdb8ba2412c21220ba4acb1c1238611c041c34d1df3a2c92834494daf3e",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "cc07ecec13cba8d7ed9dde99f07a01e36921611ec4b74153cba4d7ac9eaa249b",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:30.117Z",
+  "elapsedMs": 456,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

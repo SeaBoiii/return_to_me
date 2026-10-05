@@ -1,0 +1,20 @@
+{
+  "lineId": "uni-arrival-010",
+  "chapterId": "chapter-ns",
+  "speakerId": "aleem-young-adult",
+  "text": "She will turn out the same. That one looks suspicious. Don't be fooled because she seems kind. You know how this ends.",
+  "voiceUrl": "voices/chapter-ns/uni-arrival-010.mp3",
+  "durationMs": 8232,
+  "audioSha256": "d22c11f3677d83c49d32e79d688263a7c39cef1b172dcc5addeec7af7170929a",
+  "audioBytes": 99116,
+  "textSha256": "6f2e23f995bf9b9622966d13e187f9344a87c9cd562e49f868aebc08fb4508e7",
+  "fingerprint": "55bfa75074b18439fe7f91d48eaf2cf3daeef4fdec94d3687cdb5244a3af75ca",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "3e406d95f72314fca44c2584b69eb8902f58cba39f381c0c741e1b50e1e9f228",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:19.552Z",
+  "elapsedMs": 387,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

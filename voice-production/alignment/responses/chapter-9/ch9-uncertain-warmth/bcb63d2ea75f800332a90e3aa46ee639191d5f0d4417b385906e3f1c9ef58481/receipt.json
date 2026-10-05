@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-uncertain-warmth",
+  "chapterId": "chapter-9",
+  "speakerId": "adult-aleem",
+  "text": "Sometimes she would come back from one of those quiet moments and ask me to continue what I had been saying. I would, grateful that she wanted to hear it, aware of how quickly gratitude could become hope. I didn't want to punish her for a thought she hadn't shared. I also didn't want to ignore the small uncertainty I felt beside the warmth.",
+  "voiceUrl": "voices/chapter-9/ch9-uncertain-warmth.mp3",
+  "durationMs": 21672,
+  "audioSha256": "28d19bd0edbcaa6cc6eec04c796da53dc5b65ac11292511ab1663b65550b782b",
+  "audioBytes": 260396,
+  "textSha256": "1a2dae3cab19c4ee4b60e693ef2d97c7ae9fe1fc847ec828a4c983dde237ad1c",
+  "fingerprint": "bcb63d2ea75f800332a90e3aa46ee639191d5f0d4417b385906e3f1c9ef58481",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "7e03d8be9d2f1bce792cfade6ddcfbce4c6150e8fe6c8b01424a00871f06eed5",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:52.998Z",
+  "elapsedMs": 704,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

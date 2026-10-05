@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-009",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "Then I looked across the room and saw Nadiah. She wore a hijab that framed her face softly, and for one suspended instant every other detail seemed to move behind her. She looked up at almost the same moment.",
+  "voiceUrl": "voices/chapter-ns/ns-009.mp3",
+  "durationMs": 15432,
+  "audioSha256": "8442b923c6eb62f0922c04923bdc55262d23e5f6873b2b59392e7720e8be80e7",
+  "audioBytes": 185516,
+  "textSha256": "cc5b939b02e2651fb7483b13accfdc42c5edfe1b0432a17742d5e28c5cedb287",
+  "fingerprint": "258a7169d11954c254b2b0707b6e184c34bb69ac08eabfecaafb1e910b029d74",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "20ba253ddb7520f1a59ed9e6c803d616999ddb1d396d44670f9ec690b11a31c8",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:08.421Z",
+  "elapsedMs": 559,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

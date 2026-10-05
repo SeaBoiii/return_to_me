@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-028",
+  "chapterId": "chapter-6",
+  "speakerId": "adult-aleem",
+  "text": "Those were the lines I replayed. Her checking that I got home, her saving a seat, her asking whether I was free before making plans. They were real kindnesses. I stacked them carefully in my mind, each one evidence for a conclusion we had never spoken about together.",
+  "voiceUrl": "voices/chapter-6/ch6-028.mp3",
+  "durationMs": 19680,
+  "audioSha256": "33617342fe8dedd125353ce54319c9beff7470e446008db3c1aa33bfb213bba6",
+  "audioBytes": 236492,
+  "textSha256": "f30bc561b6c8a32c08e62c035d72387667f2c81ae927ae0cd3124dda1c825244",
+  "fingerprint": "8a14be656930de467f2b407b55c10f953ce40480a6e3edbc48f958663c9a682c",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "8c37464cb57ff093407e68df8cc80fd084c12863699dc86c966d2299c95479c7",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:27.318Z",
+  "elapsedMs": 418,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

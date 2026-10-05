@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-040",
+  "chapterId": "chapter-ns",
+  "speakerId": "aleem-young-adult",
+  "text": "Not here. Breathe. Put the phone down. Finish what you need to finish, then talk when you can form a sentence.",
+  "voiceUrl": "voices/chapter-ns/ns-040.mp3",
+  "durationMs": 7824,
+  "audioSha256": "ac167666f35f1ab0a1379d81cbd1cc6c8442e333ea6d129f4b0213b08517d00f",
+  "audioBytes": 94220,
+  "textSha256": "29c739eed88d9d7ed991016fa5e2e47153e68b10591968f92dfd29aede6e12ee",
+  "fingerprint": "1b020140875deb61a5d7dd883b7adbeb7388a4fc021145482691c90eed0c928e",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "a4b70063b20e95fc0e998e2e2e16c846d1680dfbc250c6c1425af1437e28bd23",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:13.926Z",
+  "elapsedMs": 361,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

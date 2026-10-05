@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-095",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "Some questions opened. Others remained locked no matter how carefully I read them. I wrote what I could, crossed out what I could not defend, and watched minutes leave.",
+  "voiceUrl": "voices/chapter-2/ch2-095.mp3",
+  "durationMs": 11592,
+  "audioSha256": "6eef92713dd22502b632ffccb6c78d694f5f301b9b2ba3eccdac7314fd73b02f",
+  "audioBytes": 139436,
+  "textSha256": "0335b886f2096f48a8c6875c679b42c0eb8f53ebad19bf0246f7cdf1b6e2b7ee",
+  "fingerprint": "936c32ae95c6fd555398c08f84d76df588d49c46cdb0fce15438bf81f127c7bf",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "92722cb41c702aed395f56830640d3899c06f493cff301f37ed695f483cdd646",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:40.181Z",
+  "elapsedMs": 447,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

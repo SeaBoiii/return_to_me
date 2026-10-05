@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-052",
+  "chapterId": "chapter-11",
+  "speakerId": "nurulain",
+  "text": "At least you know now.",
+  "voiceUrl": "voices/chapter-11/ch11-052.mp3",
+  "durationMs": 2232,
+  "audioSha256": "0b106d55fdc3147abd71987b397dfa2beb02f18f9bab3cda5bac17c574ebf784",
+  "audioBytes": 27116,
+  "textSha256": "1dac78a51a7bca0f7b363268887e548cbef547725d38508524578165adde1b11",
+  "fingerprint": "80a4168ad747475e095024628ab004f7050fd328181738b5df82d681ec947e82",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "a0a56fc14e6492ae25c27b9a95c184aea111a6374f969ec58f35c01582b2cd68",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:08.872Z",
+  "elapsedMs": 337,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

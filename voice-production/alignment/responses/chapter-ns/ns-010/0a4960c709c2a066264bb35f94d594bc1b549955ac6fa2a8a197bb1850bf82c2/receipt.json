@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-010",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "We held each other's gaze long enough for me to feel noticed and briefly embarrassed by how completely I had stopped listening. I knew almost nothing about her. Attraction rushed ahead and offered to fill every empty space.",
+  "voiceUrl": "voices/chapter-ns/ns-010.mp3",
+  "durationMs": 15120,
+  "audioSha256": "8dd52883732b6210083fd729a138eb575b17914f7eb6a0f0f92c256799293e13",
+  "audioBytes": 181772,
+  "textSha256": "ec8d4b41f1ca8b7d0f124eb4482b6d5d365f4ac059f7b6e5591c4e5ce933d44a",
+  "fingerprint": "0a4960c709c2a066264bb35f94d594bc1b549955ac6fa2a8a197bb1850bf82c2",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "1dc14f37622a4b72d6d5a0cad158dbe674dc855449903b909201c89f55503ae4",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:08.932Z",
+  "elapsedMs": 834,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

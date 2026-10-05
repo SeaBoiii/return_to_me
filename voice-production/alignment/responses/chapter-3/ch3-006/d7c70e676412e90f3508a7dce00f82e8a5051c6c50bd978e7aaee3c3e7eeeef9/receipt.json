@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-006",
+  "chapterId": "chapter-3",
+  "speakerId": "adult-aleem",
+  "text": "Still, I did not give up. The route available to me led to a junior college people around me casually called weak. I repeated the word before anyone could use it against me.",
+  "voiceUrl": "voices/chapter-3/ch3-006.mp3",
+  "durationMs": 11592,
+  "audioSha256": "2f2b259a84f61f51275c265f91c310b50d7e73bb4ae45aeb754a8c7d8cda6c30",
+  "audioBytes": 139436,
+  "textSha256": "1ea6ea8f4b8910ff0bde9f26736b31625047d30183a896b9c921616d5b1d4923",
+  "fingerprint": "d7c70e676412e90f3508a7dce00f82e8a5051c6c50bd978e7aaee3c3e7eeeef9",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "e646188fe2a5d9d0907212b954d0c16f602319fc9aac6e29bba330508f6bda1d",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:44.372Z",
+  "elapsedMs": 412,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

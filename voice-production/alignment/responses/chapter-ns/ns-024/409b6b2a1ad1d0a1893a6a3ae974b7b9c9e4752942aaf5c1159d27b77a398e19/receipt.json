@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-024",
+  "chapterId": "chapter-ns",
+  "speakerId": "aleem-young-adult",
+  "text": "Reached. The bunk is exactly as glamorous as I left it. I already miss talking without checking the time.",
+  "voiceUrl": "voices/chapter-ns/ns-024.mp3",
+  "durationMs": 7032,
+  "audioSha256": "62e12d08f62f5e98005334db1b007d778c77ca7b974f476e982ea15a1a77bad2",
+  "audioBytes": 84716,
+  "textSha256": "25911e0b325ca065fdebfe21c5b4744af5311697ec5ce6ee22f506baffc4781c",
+  "fingerprint": "409b6b2a1ad1d0a1893a6a3ae974b7b9c9e4752942aaf5c1159d27b77a398e19",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "4ba2de2a495f366d7602ccd9f238a024f5e4af0d015602965d1bb4be26fa5f68",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:10.600Z",
+  "elapsedMs": 364,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

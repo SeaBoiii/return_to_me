@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-patience-consistent",
+  "chapterId": "chapter-11",
+  "speakerId": "adult-aleem",
+  "text": "One serious proposal wasn't the whole of sincerity. There would be another greeting, another question, another chance to remember something she had said. Those were things I could give my attention to now.",
+  "voiceUrl": "voices/chapter-11/ch11-patience-consistent.mp3",
+  "durationMs": 12792,
+  "audioSha256": "d4d713c91d29554b1536b956161525a1c7ca2ba1017916cae25ed718663c2784",
+  "audioBytes": 153836,
+  "textSha256": "e783bee5a4ec1e1f303462f1b5cf68a99a573769b37b100ad16be5d5d2622ea7",
+  "fingerprint": "01e51be103da0d7a140773759a56e9306f1813fbe6e4bd62dc394fdad75feb68",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "394c1e9938bb26821ca2ddc4b7b235eaf0c4f206441f57d5aad5215c604709bd",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:06.065Z",
+  "elapsedMs": 455,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

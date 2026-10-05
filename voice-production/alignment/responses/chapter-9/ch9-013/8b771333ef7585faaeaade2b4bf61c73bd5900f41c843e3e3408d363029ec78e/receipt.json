@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-013",
+  "chapterId": "chapter-9",
+  "speakerId": "yusuf",
+  "text": "Careful how you answer. If you hesitate, she will decide you haven't.",
+  "voiceUrl": "voices/chapter-9/ch9-013.mp3",
+  "durationMs": 5520,
+  "audioSha256": "bfd3f2ecad4cb1637cd6b623aea94bb26daed21134e02e7451fa907ea7320b37",
+  "audioBytes": 66572,
+  "textSha256": "c70d3c069659633d2a821578d973621440c2a073d41d5262a9613df7078f6c02",
+  "fingerprint": "8b771333ef7585faaeaade2b4bf61c73bd5900f41c843e3e3408d363029ec78e",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "bd188e16b5246ca9e7ae10a01180a9f97e8fbdca980541475c4f85d613f67070",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:45.601Z",
+  "elapsedMs": 403,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

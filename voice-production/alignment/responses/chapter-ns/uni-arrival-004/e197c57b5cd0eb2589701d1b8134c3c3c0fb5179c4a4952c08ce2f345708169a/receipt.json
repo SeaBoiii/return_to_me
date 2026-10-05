@@ -1,0 +1,20 @@
+{
+  "lineId": "uni-arrival-004",
+  "chapterId": "chapter-ns",
+  "speakerId": "aleem-young-adult",
+  "text": "I don't know. Muslim Society sounds like a room where someone will make me volunteer for three committees before I find the exit.",
+  "voiceUrl": "voices/chapter-ns/uni-arrival-004.mp3",
+  "durationMs": 5760,
+  "audioSha256": "48f05407f894f0f3fd72eb8558ad4927be8447379bc1b40675dd7eae6459b2cd",
+  "audioBytes": 69452,
+  "textSha256": "0992e42068766fc9bacd4ee73e6f023c9698c01fa1d8cb00685e044c2cf69e46",
+  "fingerprint": "e197c57b5cd0eb2589701d1b8134c3c3c0fb5179c4a4952c08ce2f345708169a",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "aa38728e573d63b02899e004e93d68e9f6b52a3fb744ac7b8623ccc91b1b62a6",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:18.703Z",
+  "elapsedMs": 348,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

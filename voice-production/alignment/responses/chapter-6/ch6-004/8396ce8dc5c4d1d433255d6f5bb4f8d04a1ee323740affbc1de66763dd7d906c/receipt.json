@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-004",
+  "chapterId": "chapter-6",
+  "speakerId": "jia-wen",
+  "text": "You already called my name. Twice. Am I supposed to attend twice also?",
+  "voiceUrl": "voices/chapter-6/ch6-004.mp3",
+  "durationMs": 5760,
+  "audioSha256": "6cc81ec8f507ab258ad67b481192e043ef6b5eed570ed29519a750ea00798dfd",
+  "audioBytes": 69452,
+  "textSha256": "5674c5c098d7b9fa9e585c3e6e79789b141adbcf176a2e4e4ba66fdee904ba85",
+  "fingerprint": "8396ce8dc5c4d1d433255d6f5bb4f8d04a1ee323740affbc1de66763dd7d906c",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "0071d62339481d55de54d0ec1edabaf42b759edf77d740674fc8614965cd8fb7",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:22.219Z",
+  "elapsedMs": 333,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-meetings-listening",
+  "chapterId": "chapter-11",
+  "speakerId": "adult-aleem",
+  "text": "I could catch myself and return to what she had been saying. It was a little awkward sometimes. I would ask her to go on, then wait while she found the thread again. But I wanted her to finish. I was beginning to understand how much of a person I could miss while preparing my own next sentence.",
+  "voiceUrl": "voices/chapter-11/ch11-meetings-listening.mp3",
+  "durationMs": 20472,
+  "audioSha256": "5884242f4beb1b77a996de7bfc2408607de92662d867b1e5567f37ef9f320216",
+  "audioBytes": 245996,
+  "textSha256": "0cb117f86fd2b40136beb02aa743940861801229e28dc05f058cf73178b132af",
+  "fingerprint": "983bc4a1447d5c8ec3ba040c18e6be5e0b4984dfc5fa8d04a97b54472147b4ca",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "8d8a02e8e19c1450e70628c2ee41892674df1e66e13fa9bd6dd77b3dcbbe7f91",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:04.122Z",
+  "elapsedMs": 444,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

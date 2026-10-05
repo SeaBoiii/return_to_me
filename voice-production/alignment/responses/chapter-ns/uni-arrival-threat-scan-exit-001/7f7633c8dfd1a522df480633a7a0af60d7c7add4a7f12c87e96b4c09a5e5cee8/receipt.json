@@ -1,0 +1,20 @@
+{
+  "lineId": "uni-arrival-threat-scan-exit-001",
+  "chapterId": "chapter-ns",
+  "speakerId": "aleem-young-adult",
+  "text": "Look at the door. Not at them. Find the corridor, move your feet, and deal with everything else outside.",
+  "voiceUrl": "voices/chapter-ns/uni-arrival-threat-scan-exit-001.mp3",
+  "durationMs": 5832,
+  "audioSha256": "5f45418806db292adf788d35c6ac13a6fb0cad00f5c11720d7ad10158ad3ad57",
+  "audioBytes": 70316,
+  "textSha256": "877bc536e036e0989a304f7736a78dcdd20cb635a5d3495a7493e6dbcb4b5174",
+  "fingerprint": "7f7633c8dfd1a522df480633a7a0af60d7c7add4a7f12c87e96b4c09a5e5cee8",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "e539edc5a279730ae5a4b7ac1c4bafd2a2f566d093591771cf917d69e96c51cf",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:20.085Z",
+  "elapsedMs": 367,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

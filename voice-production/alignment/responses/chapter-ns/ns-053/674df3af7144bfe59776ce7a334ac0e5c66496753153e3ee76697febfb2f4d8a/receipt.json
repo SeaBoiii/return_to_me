@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-053",
+  "chapterId": "chapter-ns",
+  "speakerId": "aleem-young-adult",
+  "text": "I know everyone is trying. I just cannot switch this off because the day has moved on. Everything I believed about us keeps replaying with a different meaning.",
+  "voiceUrl": "voices/chapter-ns/ns-053.mp3",
+  "durationMs": 9432,
+  "audioSha256": "3bf7301225cdb977deb7ef86a0c62a649502c91a153754b7ec8506e591032ac9",
+  "audioBytes": 113516,
+  "textSha256": "7dc6316cf08e09e5a24c94f0e9fbf3b13d74b98a7df4a41d1cc77389378df3b9",
+  "fingerprint": "674df3af7144bfe59776ce7a334ac0e5c66496753153e3ee76697febfb2f4d8a",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "2da32c5ecfaab00551e0b73548be8dd31e6f8b43ed42be57b9b38583a0416d32",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:17.018Z",
+  "elapsedMs": 407,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

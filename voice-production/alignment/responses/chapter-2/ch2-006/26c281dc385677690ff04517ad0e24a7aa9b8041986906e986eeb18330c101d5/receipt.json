@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-006",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "Hana sat a few places away. She was tall, with long straight hair and glasses that she nudged upward whenever she concentrated. She listened before speaking, then asked questions that made the teacher pause.",
+  "voiceUrl": "voices/chapter-2/ch2-006.mp3",
+  "durationMs": 14400,
+  "audioSha256": "8b5197417ca215c7c8702e434c0940ee18b4ead859078263d21ccc9d6537d2ae",
+  "audioBytes": 173132,
+  "textSha256": "1d52766785a29b4143dbf1faaea0df341175f16d3010e55b534ff59fdc9f403f",
+  "fingerprint": "26c281dc385677690ff04517ad0e24a7aa9b8041986906e986eeb18330c101d5",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "5ef23ff0079f2f1d21dd6bd6310eefe0cd8a6538034f3ba0b39552343d3938aa",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:22.869Z",
+  "elapsedMs": 715,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

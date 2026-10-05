@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-discovery-verdict-001",
+  "chapterId": "chapter-ns",
+  "speakerId": "aleem-young-adult",
+  "text": "I am not stupid. People hide things because the truth would expose them. Asking will only give her time to make the story sound harmless.",
+  "voiceUrl": "voices/chapter-ns/ns-discovery-verdict-001.mp3",
+  "durationMs": 7584,
+  "audioSha256": "671d3acc196dcbeeedf0bd49a3f01100b25fe3e445df3b0f35d8e2611e727597",
+  "audioBytes": 91340,
+  "textSha256": "0c4958785ab41a86521e2cc9d92f7557e18ef4431edf480a7f152b1055f6c7eb",
+  "fingerprint": "83b4e0a42ce953681929dfb815a9e9b4a17122a3207afa7ac85f3b48729d9866",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "fb4c03faffc49cf4b661462eed5909d4f374b7564bf8c39e3440c0fab06a4fa8",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:13.358Z",
+  "elapsedMs": 383,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

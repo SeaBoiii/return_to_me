@@ -1,0 +1,20 @@
+{
+  "lineId": "ch10-026",
+  "chapterId": "chapter-10",
+  "speakerId": "adult-aleem",
+  "text": "I thought about how I had felt before leaving home, alone in my room and almost ready to stop wanting love entirely. Here I was, sitting with people whose kindness had become familiar, feeling able to imagine a future again. I hadn't planned this version of the journey. I was grateful to be inside it.",
+  "voiceUrl": "voices/chapter-10/ch10-026.mp3",
+  "durationMs": 19752,
+  "audioSha256": "30ff56e38e898af45ba005de56da96df7a55144e4813489b69d31d3d11f890b3",
+  "audioBytes": 237356,
+  "textSha256": "f360b610cf762482f63f9d5c04fa7e13ea90d3134258eff178dca44738caccda",
+  "fingerprint": "15da620305b387199fb2297ce2fdac029132ee27dcf53af4a3ee9068f031a06d",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "70f38962f16bb39f8c73033142fcd5e4be7b32069b0fb4dfbc3e2b76fad8bcbb",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:59.271Z",
+  "elapsedMs": 408,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

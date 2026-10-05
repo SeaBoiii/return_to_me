@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-035",
+  "chapterId": "chapter-6",
+  "speakerId": "adult-aleem",
+  "text": "Then I saw them together. She reached for his hand with an ease that needed no explanation. He leaned closer to hear her, and she smiled the way people smile when they are continuing a conversation that belongs to them. There was nothing uncertain about what I was seeing.",
+  "voiceUrl": "voices/chapter-6/ch6-035.mp3",
+  "durationMs": 17040,
+  "audioSha256": "e8d1be9729f5eb23d8e53f425062750f9b9778f1431935cb61df968bd2090992",
+  "audioBytes": 204812,
+  "textSha256": "eb8c2961f5eb47358c5b2ae81242e858f268bf21d5985c93566c05f1b204a83d",
+  "fingerprint": "861a9cc402efc966fe10293144e34c7b97b3b6440334f26a222bd1d55ab4bb89",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "acf55f94f89786dae50b287de40acf9ddafa9e7149d791a30316154294ed2e77",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:29.100Z",
+  "elapsedMs": 573,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

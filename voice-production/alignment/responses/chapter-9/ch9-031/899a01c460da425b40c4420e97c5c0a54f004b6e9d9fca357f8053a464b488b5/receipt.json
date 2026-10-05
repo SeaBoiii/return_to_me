@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-031",
+  "chapterId": "chapter-9",
+  "speakerId": "adult-aleem",
+  "text": "When a silence came, I let it stay. I had once been frightened that a conversation ending meant I was becoming less important. Beside her here, I could take a breath without immediately finding a question. After a while she said something small about the climb, and we continued from there. Nothing had been lost in the pause.",
+  "voiceUrl": "voices/chapter-9/ch9-031.mp3",
+  "durationMs": 22464,
+  "audioSha256": "9b97888e32de4c6d3f0e8986bb7c4fae88ad8300024310cc759c6da3e74a769f",
+  "audioBytes": 269900,
+  "textSha256": "0f8d04cf13bc633e11a331fa770cfe8a2ce7052191a0bb3711fdb33a03903354",
+  "fingerprint": "899a01c460da425b40c4420e97c5c0a54f004b6e9d9fca357f8053a464b488b5",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "f2b44ae199ade309ed3e31f732a6494fd216aecbe550cf5b2dbe54e967008bdd",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:49.919Z",
+  "elapsedMs": 509,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

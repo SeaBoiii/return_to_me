@@ -1,0 +1,20 @@
+{
+  "lineId": "ch7-010",
+  "chapterId": "chapter-7",
+  "speakerId": "adult-aleem",
+  "text": "Outside work, Claire talked more slowly. She would turn her cup round while deciding how to describe something, then say exactly what she meant. I liked that. After all the meanings I had once hunted between somebody else's words, her plainness felt restful. I began wanting to be the person she chose for these conversations.",
+  "voiceUrl": "voices/chapter-7/ch7-010.mp3",
+  "durationMs": 22704,
+  "audioSha256": "07f008cd28b49c9ad84e0927f12c6b8ad808f799ca6fafe02001f28b49ef9199",
+  "audioBytes": 272780,
+  "textSha256": "3b99d2d51913160f2af38b21af17f66dfb22e80453e22ffbb71e66773f8467d4",
+  "fingerprint": "eb2995c2398865470640383d52eb08b42c5d58c1d82b5a45b28f1d8d9cdb3ccc",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "4fd83f075d21c2c8e011822182bdb0689c87fb3292ee89397f7d5880129777c5",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:35.029Z",
+  "elapsedMs": 530,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

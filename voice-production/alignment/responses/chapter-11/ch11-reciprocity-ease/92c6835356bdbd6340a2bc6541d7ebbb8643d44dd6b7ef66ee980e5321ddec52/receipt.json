@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-reciprocity-ease",
+  "chapterId": "chapter-11",
+  "speakerId": "adult-aleem",
+  "text": "I had spent so long trying to become someone another person might choose. Here I could eat, laugh at myself, and finish a thought. I wanted to stay present enough to enjoy that ease with her.",
+  "voiceUrl": "voices/chapter-11/ch11-reciprocity-ease.mp3",
+  "durationMs": 12072,
+  "audioSha256": "8733a185fedaa06a7450f6baa0c88be691235507f92c3b6baad0c7653cddaf15",
+  "audioBytes": 145196,
+  "textSha256": "5d79ce68dd4ceb6bfa839739f9368b4bcd7f630230c62ca5d5250722ad50065a",
+  "fingerprint": "92c6835356bdbd6340a2bc6541d7ebbb8643d44dd6b7ef66ee980e5321ddec52",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "f1cdd3d9e83bc180f5b0fe7fb5f5f07652655f6a8c6e75c98d5162ca70ba3441",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:03.673Z",
+  "elapsedMs": 385,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

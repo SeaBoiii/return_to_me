@@ -1,0 +1,20 @@
+{
+  "lineId": "ch10-021",
+  "chapterId": "chapter-10",
+  "speakerId": "adult-aleem",
+  "text": "The group still had its familiar places for me. Kak Mariam would catch my eye and ask how I was. Abang Yusuf could turn a small observation into a conversation that wandered pleasantly for a while. I joined them and found I had more attention to give. I wasn't spending every spare moment trying to interpret someone else.",
+  "voiceUrl": "voices/chapter-10/ch10-021.mp3",
+  "durationMs": 19512,
+  "audioSha256": "73bcdd5cd5a1b4d715877427711dc1f38cfc034b2b40584fb04984b5b5ecb6f2",
+  "audioBytes": 234476,
+  "textSha256": "a3597ed3244221a7469c1cdc8cc09a5a0522a1638baa153cc2edad8cbdded15e",
+  "fingerprint": "4efaf4c6fa9fb23e73255e44c877f11493c0d05be619a54f4b2845d55c3194e6",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "f26b598ec8a74baf67c93f8c9a2d4226f7a6d6eb31bcea5d0347a3232f50277b",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:58.538Z",
+  "elapsedMs": 511,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

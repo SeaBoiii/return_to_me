@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-wingman-pressure-002",
+  "chapterId": "chapter-2",
+  "speakerId": "faris",
+  "text": "Good. I will ask, not corner her. Wingman service with ethics.",
+  "voiceUrl": "voices/chapter-2/ch2-wingman-pressure-002.mp3",
+  "durationMs": 6072,
+  "audioSha256": "fac14d22d284558c8bc85c3f5aba2f70b150fc9cfb81f22145fa5364222220a4",
+  "audioBytes": 73196,
+  "textSha256": "4b759d169d3a8defd357a1793a224337225b7d590db020709a90b6730c504470",
+  "fingerprint": "87cbce8f09940157eba3363f484cb0b27e7f982bbdff6f10169a26fe7d1b9d42",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "8fa8c04afd64bcea6ddd5f89bc5e64cdf05a47ba16e60b6c2fab5f5995ce2113",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:26.320Z",
+  "elapsedMs": 368,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

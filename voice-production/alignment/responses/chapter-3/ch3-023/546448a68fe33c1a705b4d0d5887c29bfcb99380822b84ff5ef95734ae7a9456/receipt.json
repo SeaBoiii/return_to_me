@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-023",
+  "chapterId": "chapter-3",
+  "speakerId": "adult-aleem",
+  "text": "She laughed, and the wasted minutes felt transformed into something chosen. Soon she waited for me too. We never called it a promise. We simply began expecting the other person to appear.",
+  "voiceUrl": "voices/chapter-3/ch3-023.mp3",
+  "durationMs": 13272,
+  "audioSha256": "d192289036348f77ce2c38fb624e0bd53d16c07796487f69ac4152b8892e6304",
+  "audioBytes": 159596,
+  "textSha256": "ec3edd197af1af0610660eeb400ebd8a764d88e26008941b97384e4f7bb6b1f2",
+  "fingerprint": "546448a68fe33c1a705b4d0d5887c29bfcb99380822b84ff5ef95734ae7a9456",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "a53d0c6072568c9e135e9765c2d1da9b5853bda6c6b287b94e7d41d52bbe5c50",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:47.164Z",
+  "elapsedMs": 440,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch4-009",
+  "chapterId": "chapter-4",
+  "speakerId": "adult-aleem",
+  "text": "By J2, the pace of school left less room for that cycle. The calendar filled with timed practices, consultations, and teachers reminding us how quickly A Levels would stop being a distant phrase.",
+  "voiceUrl": "voices/chapter-4/ch4-009.mp3",
+  "durationMs": 12864,
+  "audioSha256": "dc436d61facf24d3feca9cd61f0703d7c75316f6d4a91f3200524c8b0b57c905",
+  "audioBytes": 154700,
+  "textSha256": "c1e3ee025154f2c1cc0913e48a3961f6b618aa62351d8d829b4d2f4c3dd0f4f0",
+  "fingerprint": "14ffe4d8a30869c0cba6477f6116b9f8d7c7182c7dae4519da38aeba6e41e389",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "ebca3790be83e41a08d466c7e62918331008f513d9e2758de2defc98872bb4d0",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:55.783Z",
+  "elapsedMs": 407,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-047",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "Her answer did not fit the clean categories I needed. Care and harm could exist in the same history. A person could be confused rather than calculating and still make choices that left somebody else devastated.",
+  "voiceUrl": "voices/chapter-ns/ns-047.mp3",
+  "durationMs": 14640,
+  "audioSha256": "ae129f00f53b06c69933d69dda1426557164893bcfdeb0d3d9b8b041d6252e25",
+  "audioBytes": 176012,
+  "textSha256": "445d58ad9a97359d4ed68ddc958e702a2fbe36843ba4aa43e3ae0df9c9a90b65",
+  "fingerprint": "a0dd9add69e3c3bf5db0c85d0502bb8e3531a6ac4c9d1283b6d40c26f23e3746",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "8832a3882e53ec5ae73dedaf5ac07dfc79bac6b602dc85cbe006506b3306549a",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:16.269Z",
+  "elapsedMs": 624,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

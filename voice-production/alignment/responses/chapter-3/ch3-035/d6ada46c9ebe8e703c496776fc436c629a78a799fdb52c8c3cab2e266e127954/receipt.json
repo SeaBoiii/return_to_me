@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-035",
+  "chapterId": "chapter-3",
+  "speakerId": "adult-aleem",
+  "text": "Seeing them did not prove they were together. It did not rewrite her no into a debt she owed me. But hurt is impatient with careful distinctions, and mine supplied a conclusion immediately.",
+  "voiceUrl": "voices/chapter-3/ch3-035.mp3",
+  "durationMs": 12720,
+  "audioSha256": "708784c3e3b56c72553137cb73173f00daf33384fa6fdd73706bed2ee204ce63",
+  "audioBytes": 152972,
+  "textSha256": "ccc5e233732d72bea966af203864968a55a7881f9bc448b6799fb02844deecd9",
+  "fingerprint": "d6ada46c9ebe8e703c496776fc436c629a78a799fdb52c8c3cab2e266e127954",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "479588a5a3180c4a7cf5e40798049564b51f17819f18c6ba0fa4c17e2c7ba65a",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:51.381Z",
+  "elapsedMs": 708,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

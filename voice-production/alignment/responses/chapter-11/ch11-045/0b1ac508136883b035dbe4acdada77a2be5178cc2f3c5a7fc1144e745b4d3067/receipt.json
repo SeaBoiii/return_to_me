@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-045",
+  "chapterId": "chapter-11",
+  "speakerId": "adult-aleem",
+  "text": "We met at a restaurant. Her mother had a warm, rounded face; her father was a slim Malay uncle with an easy presence. They were two people curious about the man their daughter was seeing. Standing there before we settled at the table, I felt the importance of it without feeling that I had to hide behind it.",
+  "voiceUrl": "voices/chapter-11/ch11-045.mp3",
+  "durationMs": 20544,
+  "audioSha256": "47a5faca94e6aefb6bae7a727a5402169bd3bb33be198572b41c4045c65aec2a",
+  "audioBytes": 246860,
+  "textSha256": "b5d80c9271386ad463529f25e3ba1deaac2e7b9224d222d2cafed9517678425f",
+  "fingerprint": "0b1ac508136883b035dbe4acdada77a2be5178cc2f3c5a7fc1144e745b4d3067",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "8932e8707fb9bc79a3d7f6020f7e0c7e261a6c76cb6647640aaa9af08f3d4f85",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:07.881Z",
+  "elapsedMs": 492,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

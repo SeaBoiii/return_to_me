@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-reunion-after",
+  "chapterId": "chapter-9",
+  "speakerId": "adult-aleem",
+  "text": "I sat down with the fact of it once she had moved away. The same Nadiah. I could still picture myself in camp, trying to keep the shock from showing on my face. Yet the person who had just greeted her was older. My own voice had surprised me almost as much as hers: a little awkward, but free of the accusation I had imagined it would carry.",
+  "voiceUrl": "voices/chapter-9/ch9-reunion-after.mp3",
+  "durationMs": 22224,
+  "audioSha256": "2a66588713785f5bcef116085369ddf0f078a999d01d2c3960f150b5db07ea40",
+  "audioBytes": 267020,
+  "textSha256": "8c212515327aa27a0e4cdf79754c8803c30912d8e49657ebd0b099aa733a3110",
+  "fingerprint": "5f3e6021808e9587b2687410a0ab305e4014e93ee7be3e626c8bab73e037448d",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "93df2a9af2ef1d9e0c156af14c1847e324f94b53886b1e0505c0fd81e8c2dc38",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:45.169Z",
+  "elapsedMs": 513,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

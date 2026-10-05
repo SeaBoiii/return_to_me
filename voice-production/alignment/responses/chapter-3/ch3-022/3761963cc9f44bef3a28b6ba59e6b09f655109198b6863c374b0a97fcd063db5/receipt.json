@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-022",
+  "chapterId": "chapter-3",
+  "speakerId": "aleem-sec",
+  "text": "And listen to you blame traffic for being late by myself? Cannot. I need the full performance.",
+  "voiceUrl": "voices/chapter-3/ch3-022.mp3",
+  "durationMs": 5664,
+  "audioSha256": "cf3c3cfba3492f8f9c947a9afc63d7b39254a537b1c49aa1e5a18b173eb7be9a",
+  "audioBytes": 68300,
+  "textSha256": "2ff68aa10db917628d23c6964aed2d6b25dd33bbd2e2609487a7b2e3f11d36f9",
+  "fingerprint": "3761963cc9f44bef3a28b6ba59e6b09f655109198b6863c374b0a97fcd063db5",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "99b689739cde01812d07f9d59c60c48f9f7121f6f849574412d9dacbe0d90a00",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:46.751Z",
+  "elapsedMs": 354,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

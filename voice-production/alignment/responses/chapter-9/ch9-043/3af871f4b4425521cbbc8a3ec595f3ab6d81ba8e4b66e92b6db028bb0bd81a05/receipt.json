@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-043",
+  "chapterId": "chapter-9",
+  "speakerId": "adult-aleem",
+  "text": "That was my reading of her, unfinished and uncertain. She hadn't offered me a story about another man, and I had no hidden piece of information to examine. I had her warmth, her hesitation, and my own memories. For once I tried to leave those things separate while I worked out what they meant for me.",
+  "voiceUrl": "voices/chapter-9/ch9-043.mp3",
+  "durationMs": 20712,
+  "audioSha256": "3e50b71cda7d6be6ff71e6b2c22ceddf02bad0149442feb815248d4e452218e0",
+  "audioBytes": 248876,
+  "textSha256": "c450d1fdb59ed7dc1815c98b727140f375e23c4449b641f6452452e4c6a024c5",
+  "fingerprint": "3af871f4b4425521cbbc8a3ec595f3ab6d81ba8e4b66e92b6db028bb0bd81a05",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "726705962cc21ad54972910e5109ee92f98e166a4994c5d501106fd1ecc98dcc",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:52.736Z",
+  "elapsedMs": 618,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

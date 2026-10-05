@@ -1,0 +1,20 @@
+{
+  "lineId": "uni-arrival-005",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "I sighed, then followed because I did not want to disappoint a new friend over one brief visit. A lecture theatre had been reserved for the club. Voices and ordinary laughter reached us through the open door.",
+  "voiceUrl": "voices/chapter-ns/uni-arrival-005.mp3",
+  "durationMs": 13344,
+  "audioSha256": "8d88d9b1c97cf1181ffd4797e81484508e59efad54c5f429f639d26fdbb20209",
+  "audioBytes": 160460,
+  "textSha256": "935791f8d03d264d01ce9c0bd00cd567902b49629d5da62e7d21b715f2428b33",
+  "fingerprint": "0b73501210c6de204fd1243b3523a6a78ba8c4efa8f4ef0acd207f18b647f643",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "143a68e39921209304692fe8704e32794abf7d9d6b42532de52f64633dc84855",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:18.793Z",
+  "elapsedMs": 381,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

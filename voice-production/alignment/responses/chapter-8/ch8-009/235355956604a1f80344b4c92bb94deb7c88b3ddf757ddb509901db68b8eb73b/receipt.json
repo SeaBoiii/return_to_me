@@ -1,0 +1,20 @@
+{
+  "lineId": "ch8-009",
+  "chapterId": "chapter-8",
+  "speakerId": "imran",
+  "text": "Passport still there? Good. Come, let's go. One thing at a time.",
+  "voiceUrl": "voices/chapter-8/ch8-009.mp3",
+  "durationMs": 7512,
+  "audioSha256": "7d202975a06a9a505772db84202b1f5839c33e037248820399a3a062e6258e3b",
+  "audioBytes": 90476,
+  "textSha256": "8d9fba616335f3a3eb18114f8845a03acce21bb3a4b44c9f39217b687ddc774b",
+  "fingerprint": "235355956604a1f80344b4c92bb94deb7c88b3ddf757ddb509901db68b8eb73b",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "30442bce7b67cd7ab4cda8983627ae25bdc81cf0c7b4977f8cfbbb488b03dffc",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:43.104Z",
+  "elapsedMs": 419,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

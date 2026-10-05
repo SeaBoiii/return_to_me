@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-belief-generalise-001",
+  "chapterId": "chapter-3",
+  "speakerId": "aleem-sec",
+  "text": "Alya, Hana, now Syafiqa. Maybe Malay girls simply will not tell me the truth until I discover it somewhere else.",
+  "voiceUrl": "voices/chapter-3/ch3-belief-generalise-001.mp3",
+  "durationMs": 7944,
+  "audioSha256": "6dbf335560d39632d4ea32f0789988a0f854ccf3e48184076a0bc771d85bf81e",
+  "audioBytes": 95660,
+  "textSha256": "0d748597656439e05e36d24dd60b7e49cac3c36ec9865c6446c663268419d591",
+  "fingerprint": "61e0e586c0f3393b6e76dd76ae82757f0be6df7f9c9e503e41f0c00ec10d3255",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "cac53ce128f07f874a39a3590948a6847063266ab98da265042db63088050c3b",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:51.835Z",
+  "elapsedMs": 460,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

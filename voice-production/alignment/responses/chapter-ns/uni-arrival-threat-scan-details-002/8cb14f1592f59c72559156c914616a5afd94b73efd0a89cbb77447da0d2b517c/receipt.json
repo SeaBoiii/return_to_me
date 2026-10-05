@@ -1,0 +1,20 @@
+{
+  "lineId": "uni-arrival-threat-scan-details-002",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "Concrete details briefly competed with the imagined markers. They did not make me comfortable, but they gave my attention a path that did not pass through somebody else's identity.",
+  "voiceUrl": "voices/chapter-ns/uni-arrival-threat-scan-details-002.mp3",
+  "durationMs": 10704,
+  "audioSha256": "147e8ac1cd4f877ea695637a463c6b1391e88ab171b406cb5794035f617d3c5a",
+  "audioBytes": 128780,
+  "textSha256": "019b686e2d445cf314f75d3ab375c430cf0513016484221c7332781f55036f8c",
+  "fingerprint": "8cb14f1592f59c72559156c914616a5afd94b73efd0a89cbb77447da0d2b517c",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "33a7e7c4d7dc4e1b74e7925c729e93dd465dda7379794e7e431ee02ba08eef43",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:19.948Z",
+  "elapsedMs": 391,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

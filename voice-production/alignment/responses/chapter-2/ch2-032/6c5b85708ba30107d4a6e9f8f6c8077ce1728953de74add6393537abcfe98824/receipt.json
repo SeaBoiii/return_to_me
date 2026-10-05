@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-032",
+  "chapterId": "chapter-2",
+  "speakerId": "hana",
+  "text": "I like you too. I was not sure whether you were interested or just always lost after class.",
+  "voiceUrl": "voices/chapter-2/ch2-032.mp3",
+  "durationMs": 7680,
+  "audioSha256": "703a1c3002510c336502e57c5e2c749817d46e8118516884c1c0260b5b23f1f1",
+  "audioBytes": 92492,
+  "textSha256": "76ac048d6d0c5acdd24daf155de58fce07018aef572d47a93725a036d7861ac7",
+  "fingerprint": "6c5b85708ba30107d4a6e9f8f6c8077ce1728953de74add6393537abcfe98824",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "d38ed610beec01fecf0a615e60a23f08229e518dd448ce7019dec9b651c57e8a",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:27.388Z",
+  "elapsedMs": 398,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

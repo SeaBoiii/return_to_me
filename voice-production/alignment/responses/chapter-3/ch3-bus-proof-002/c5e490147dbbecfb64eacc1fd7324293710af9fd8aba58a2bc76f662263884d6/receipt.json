@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-bus-proof-002",
+  "chapterId": "chapter-3",
+  "speakerId": "adult-aleem",
+  "text": "I treated repetition as proof because certainty was comforting. But intimacy can be real without being romantic, and another person's comfort is not consent to the meaning you privately assign it.",
+  "voiceUrl": "voices/chapter-3/ch3-bus-proof-002.mp3",
+  "durationMs": 12624,
+  "audioSha256": "bb5d3068da2b1742beb579d159bc6332c751cf99b973affbcc91c09d8cd213cc",
+  "audioBytes": 151820,
+  "textSha256": "e0b31429367746e1204a0e5bc4bf09321a9a61d004372d15209729fbfb964030",
+  "fingerprint": "c5e490147dbbecfb64eacc1fd7324293710af9fd8aba58a2bc76f662263884d6",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "da96f15dd85b83206f2b13d07557fe3399950a68d9a6705b4cc5df8277ebd848",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:47.728Z",
+  "elapsedMs": 598,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

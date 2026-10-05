@@ -1,0 +1,20 @@
+{
+  "lineId": "ch1-040",
+  "chapterId": "chapter-1",
+  "speakerId": "adult-aleem",
+  "text": "At twelve, uncertainty felt more insulting than a clean ending. I wanted a date, a reason, a single mistake I could point to. She could only offer the messy truth: her feelings had changed before her words did.",
+  "voiceUrl": "voices/chapter-1/ch1-040.mp3",
+  "durationMs": 16152,
+  "audioSha256": "c78499dee140bbada16d8deb20fbc17dec3a58793838f638ef3e4f547cd8af15",
+  "audioBytes": 194156,
+  "textSha256": "ef30d51eafbca8c9c28db52fc7cbd4329294a716d1fc3293841eba7b620682ba",
+  "fingerprint": "562217df31b126579f16f28f9d572c505ea17a2f1737cb2c01d1d2769bd504f4",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "05aff3c7b6753cc880f307edfabadfb9161c519a0180f7ed4df17d61a6a42273",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:19.545Z",
+  "elapsedMs": 474,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

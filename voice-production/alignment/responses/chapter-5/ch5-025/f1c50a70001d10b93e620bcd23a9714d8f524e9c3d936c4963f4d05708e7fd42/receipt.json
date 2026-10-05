@@ -1,0 +1,20 @@
+{
+  "lineId": "ch5-025",
+  "chapterId": "chapter-5",
+  "speakerId": "adult-aleem",
+  "text": "The first mention was ordinary. The next caught my attention. By the time I perceived a pattern, irritation sat underneath every new subject, waiting to hear his name before I heard what Mei Lin was actually saying.",
+  "voiceUrl": "voices/chapter-5/ch5-025.mp3",
+  "durationMs": 14952,
+  "audioSha256": "317445ac9f237f1ce8ce22b67900c1ec1314aa7cd011c5b8661172f0be18374e",
+  "audioBytes": 179756,
+  "textSha256": "710a2929cbe2de2a8cbab57a732295067b161c34fd47f22eef87ed9b81181690",
+  "fingerprint": "f1c50a70001d10b93e620bcd23a9714d8f524e9c3d936c4963f4d05708e7fd42",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "981f28e807209434055fc500f6b5e91ed4afc93ef3acd3aad804ed9361b36d4b",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:03.870Z",
+  "elapsedMs": 585,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

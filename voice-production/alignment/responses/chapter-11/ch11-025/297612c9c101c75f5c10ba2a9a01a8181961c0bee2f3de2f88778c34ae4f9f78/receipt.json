@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-025",
+  "chapterId": "chapter-11",
+  "speakerId": "adult-aleem",
+  "text": "That was when I first wondered whether she could be the one. The thought arrived quietly while she was still right there, talking to me. I didn't need to turn it into an announcement. I wanted another meal, another conversation, more chances to know the woman who had made this one possible.",
+  "voiceUrl": "voices/chapter-11/ch11-025.mp3",
+  "durationMs": 17040,
+  "audioSha256": "9be86239a5041345197f1f4b5b648de4bac3ba6f6723eee1f2c91647582a390e",
+  "audioBytes": 204812,
+  "textSha256": "82ca4a93344258544bf6a914c157ff298431156811bd6b8f8c437687de8b6942",
+  "fingerprint": "297612c9c101c75f5c10ba2a9a01a8181961c0bee2f3de2f88778c34ae4f9f78",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "4828f283e6a72d61f451733876b6c9f5ed974fced32c5cb4f56f9afc531cc283",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:03.283Z",
+  "elapsedMs": 469,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

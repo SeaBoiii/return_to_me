@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-037",
+  "chapterId": "chapter-9",
+  "speakerId": "adult-aleem",
+  "text": "Once could be chance. Twice, my hopeful heart whispered, surely meant something. I looked at the space around us, then at her, and wondered whether this was a sign. The thought came with such warmth that I wanted to stay inside it. I had arrived believing love might be finished for me. Now I was wondering about another beginning.",
+  "voiceUrl": "voices/chapter-9/ch9-037.mp3",
+  "durationMs": 24624,
+  "audioSha256": "33f09891c2d1acf1322219bd85d82fdd7083eaf83f1f96b1128608992d4c8fb6",
+  "audioBytes": 295820,
+  "textSha256": "460c3a9d4fdf3ef1742765065604ef6e4a602e60291248c3f72a30fffe91fad9",
+  "fingerprint": "ca080a447443959443e330d96728100c3ce9da5c0084892c1839569772a2e248",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "f921bc2a12c2bb1012bc3d92704721a6735e4804da3c5319dcb278109dd826b1",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:50.918Z",
+  "elapsedMs": 667,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

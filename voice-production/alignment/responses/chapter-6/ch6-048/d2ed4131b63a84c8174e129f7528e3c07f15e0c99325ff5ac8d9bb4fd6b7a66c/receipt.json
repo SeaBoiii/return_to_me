@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-048",
+  "chapterId": "chapter-6",
+  "speakerId": "adult-aleem",
+  "text": "I wanted to lay out everything I had done. Every journey, every late reply I had stayed awake for, every afternoon arranged around her. It felt like more than friendship, so much more that I had allowed myself to treat us as already together. Hearing the missing agreement spoken aloud made my face burn.",
+  "voiceUrl": "voices/chapter-6/ch6-048.mp3",
+  "durationMs": 23832,
+  "audioSha256": "f8969f056da12b03c74a766b060f01c944d225fe7ecba921db9cca91aaa59e99",
+  "audioBytes": 286316,
+  "textSha256": "b202aef063919d301cc999bc8b22e2636abade684f6bef485c5d65a24368c7ab",
+  "fingerprint": "d2ed4131b63a84c8174e129f7528e3c07f15e0c99325ff5ac8d9bb4fd6b7a66c",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "1108b4a548003a4698c84008a1c4ddea16aea8125549337fb926cd42a47b0db2",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:32.276Z",
+  "elapsedMs": 678,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

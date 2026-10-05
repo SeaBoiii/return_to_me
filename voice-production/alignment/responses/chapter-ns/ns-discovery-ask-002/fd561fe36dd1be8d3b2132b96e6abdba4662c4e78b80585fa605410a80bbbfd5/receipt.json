@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-discovery-ask-002",
+  "chapterId": "chapter-ns",
+  "speakerId": "aisyah",
+  "text": "I know they have history, and I saw the story. I don't know what they agreed today. You need to ask Nadiah, not let me answer for her.",
+  "voiceUrl": "voices/chapter-ns/ns-discovery-ask-002.mp3",
+  "durationMs": 9840,
+  "audioSha256": "6c0cdc62ea39139a8e775103b8429d6ea3880721a6ed00bcf2dc532d50410f6a",
+  "audioBytes": 118412,
+  "textSha256": "c1844507b59478a7c9f61d172bec7eb7a383949ec9cefd7fb125265bbe6bf2b2",
+  "fingerprint": "fd561fe36dd1be8d3b2132b96e6abdba4662c4e78b80585fa605410a80bbbfd5",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "7d9c3f2f54ffe03f9ab78a3ed766f379fe8992dd922ebc432a0eeefb74129b28",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:12.970Z",
+  "elapsedMs": 429,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

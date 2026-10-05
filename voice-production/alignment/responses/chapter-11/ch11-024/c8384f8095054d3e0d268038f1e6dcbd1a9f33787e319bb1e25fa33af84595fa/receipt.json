@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-024",
+  "chapterId": "chapter-11",
+  "speakerId": "adult-aleem",
+  "text": "I didn't give her my whole history across that table. I simply wanted her to know I noticed. I had grown used to being the one reaching, keeping a thread alive, finding a reason to speak. With Nurul, a conversation could arrive because she had thought of me. It felt like a breath of fresh air.",
+  "voiceUrl": "voices/chapter-11/ch11-024.mp3",
+  "durationMs": 18864,
+  "audioSha256": "a0565c95f12625ea40dc1b371af126702d01f4bfba7b313a2c722735e0adbac9",
+  "audioBytes": 226700,
+  "textSha256": "a87b504f2063dfbd85582712f3b30e8f89d94f74799165d9940cb8c49809d674",
+  "fingerprint": "c8384f8095054d3e0d268038f1e6dcbd1a9f33787e319bb1e25fa33af84595fa",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "3c40753f8e30ab41f03dcec862ad984d5149f645ba6a957a4babe3b9b5f1b974",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:03.227Z",
+  "elapsedMs": 461,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

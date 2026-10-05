@@ -1,0 +1,20 @@
+{
+  "lineId": "ch4-004",
+  "chapterId": "chapter-4",
+  "speakerId": "adult-aleem",
+  "text": "That explanation contained one useful idea: a clear, respectful question can be healthier than months of private assumptions. It also concealed my desperation to make the next yes cancel every earlier no.",
+  "voiceUrl": "voices/chapter-4/ch4-004.mp3",
+  "durationMs": 14712,
+  "audioSha256": "0e04412d2d65867d0d583c347d7d6e62fd95ee124837cf3ce73e9676354af343",
+  "audioBytes": 176876,
+  "textSha256": "80c9619aeb3c64e2feeb3debbfa49749734f966d83960fd4c97d888baa92340d",
+  "fingerprint": "5fa803bb61b3d9b36edf7d6e1112d88143f44ce5655ba3858b1f3085ec46a1da",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "1f7568cfb691c11c861325266584ae9f43668e75643d0601eab93cb2051b0f35",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:53.931Z",
+  "elapsedMs": 565,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -115,6 +115,21 @@ npm run generate:icons
 
 The provider-neutral voice workflow is documented in [voice-production/README.md](voice-production/README.md). The complete edition supplies 775 pre-rendered ElevenLabs clips covering every spoken line in the prologue, Chapters 1–12, and epilogue, including every choice branch, using the user's selected library voices. The game plays imported lines automatically and offers Replay voice, volume, mute, and 14 optional offline voice packs.
 
+Voiced passages reveal whole words at their measured speech onset using
+[ElevenLabs forced alignment](https://elevenlabs.io/docs/eleven-api/guides/cookbooks/forced-alignment).
+All 775 final MP3s have been aligned; the recordings and story text remain unchanged.
+Text follows the audio's actual position through buffering, pause/resume and replay.
+Muted or unavailable voices retain the chosen text speed. Instant text, reduced
+motion and manual Reveal still show the complete passage immediately.
+
+Alignment metadata ships with the offline app; readers never contact ElevenLabs.
+`npm run voices:alignment:check` verifies full coverage, current audio/text hashes,
+preserved provider responses and exact generated cues, and runs automatically in
+`npm run validate`. `npm run voices:align` uses the local `ELEVENLABS_API_KEY` environment variable to
+produce missing timings; completed, matching responses are reused. See the
+[alignment production record](voice-production/alignment/README.md) for provenance,
+regeneration and quality-review limits.
+
 Imports are atomic and may cover the full story or complete chapters selected with `chapterIds`. The current manifest includes all 14 chapter entries. Each import replaces the deployed voice set, so subsequent imports must retain all previously imported chapters and their clips. The importer checks profiles, line coverage, provenance references, chapter pack sizes, and normalized MP3 properties through ffmpeg/ffprobe.
 
 ```bash

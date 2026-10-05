@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-012",
+  "chapterId": "chapter-11",
+  "speakerId": "nurulain",
+  "text": "Would you like to meet? We can eat and talk properly.",
+  "voiceUrl": "voices/chapter-11/ch11-012.mp3",
+  "durationMs": 3912,
+  "audioSha256": "f668a6e988a9001618ba5d34eeba22684e6c89848085b5621fa5a994b0619887",
+  "audioBytes": 47276,
+  "textSha256": "89a20e2447fa1fdaebf39583534a900f722b331279343975ed752850e685639a",
+  "fingerprint": "dbd183b1a43a8975377cf50de228a3dc6de4c04bea23b4f27dcf1e155fb8ccfe",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "2cbcb9c4f7c9ac194c4ad250b64b0829671d82c9918004683be24936a8293f68",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:01.156Z",
+  "elapsedMs": 321,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

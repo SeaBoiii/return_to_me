@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-031",
+  "chapterId": "chapter-11",
+  "speakerId": "adult-aleem",
+  "text": "I thought about giving her another reassuring sentence. Instead, I found myself considering something I had never done before. I wanted to meet her parents. I wanted to sit with the people who knew and loved her, let them know who I was, and show her that my interest had a sincere direction.",
+  "voiceUrl": "voices/chapter-11/ch11-031.mp3",
+  "durationMs": 19344,
+  "audioSha256": "5da3b4cdc967f161bed581571bdf210afd1d340d7a270a49d33c9488e1b9861f",
+  "audioBytes": 232460,
+  "textSha256": "b9b3a3928c67f9dd1638bd17643f38cfb37e40f0d2dca876591161e0bd2a1531",
+  "fingerprint": "f1c7cc04c463eba43339c6073ddfafa5e8aaa0fddc2032f93462b85448c5fb40",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "77f26ca0084f1ea908009a74281fe67c67431601737158222d68f54231b87c51",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:05.113Z",
+  "elapsedMs": 507,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

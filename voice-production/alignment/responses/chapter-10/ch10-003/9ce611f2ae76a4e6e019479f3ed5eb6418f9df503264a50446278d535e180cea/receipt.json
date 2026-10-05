@@ -1,0 +1,20 @@
+{
+  "lineId": "ch10-003",
+  "chapterId": "chapter-10",
+  "speakerId": "adult-aleem",
+  "text": "In Masjidil Nabawi, I found a moment alone. There were other people around, but no one was waiting for me to speak or watching for the right expression on my face. I sat and allowed myself to become still. The quiet did not arrive all at once. My mind kept trying to continue conversations that weren't happening anymore.",
+  "voiceUrl": "voices/chapter-10/ch10-003.mp3",
+  "durationMs": 23520,
+  "audioSha256": "e19597aa3a8613569c219f657951e6251cf858849b09101b4ddeaf4bf240f67d",
+  "audioBytes": 282572,
+  "textSha256": "ada9f9fd8d1795c5d451d28cc049fc28e4140ee1d64db264c538b49e5282762f",
+  "fingerprint": "9ce611f2ae76a4e6e019479f3ed5eb6418f9df503264a50446278d535e180cea",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "9c3a3c34554af76e8ae6bf70df3e1528012ffeafe6a333224e2ee32feb86fba1",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:53.477Z",
+  "elapsedMs": 527,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch5-002",
+  "chapterId": "chapter-5",
+  "speakerId": "adult-aleem",
+  "text": "When I saw my outcome, I checked it more than once. The exact grades remain private. What matters is that I had done well—well enough to feel a future opening where I once believed every useful door had closed.",
+  "voiceUrl": "voices/chapter-5/ch5-002.mp3",
+  "durationMs": 13200,
+  "audioSha256": "b14e925fab87bcf7273eeab8e63b5d4384a352cbf897da53ce6bf202662f4873",
+  "audioBytes": 158732,
+  "textSha256": "8fff88d8708b3fa3582d85ec116079084468fa00aa781545ac072b8a373314ae",
+  "fingerprint": "43306492875d244e1c93b857b533c0fc88a6986d9fb35c32988ca2cffde8e71a",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "9df416f704f862db8e92d97a31a8e15a226a9b75e75ac02b98ad77e08aa7118c",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:00.407Z",
+  "elapsedMs": 482,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

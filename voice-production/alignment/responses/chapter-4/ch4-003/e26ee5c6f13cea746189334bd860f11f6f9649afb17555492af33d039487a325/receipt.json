@@ -1,0 +1,20 @@
+{
+  "lineId": "ch4-003",
+  "chapterId": "chapter-4",
+  "speakerId": "aleem-sec",
+  "text": "Maybe I have been waiting too long every time. Maybe the confident guys simply ask, accept the answer, and move on.",
+  "voiceUrl": "voices/chapter-4/ch4-003.mp3",
+  "durationMs": 7176,
+  "audioSha256": "89175688399f045224830e4bd64574d56bed9c1ef78a43afb7d50600dd3b926f",
+  "audioBytes": 86444,
+  "textSha256": "796a0867a5e9de937bf7345b9ec8596161ea389cc25ab72724d0fd44e35890fc",
+  "fingerprint": "e26ee5c6f13cea746189334bd860f11f6f9649afb17555492af33d039487a325",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "523442513cc3545ffd48d54d76a74470e6ac32240dd6c05265536414924f5bff",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:53.361Z",
+  "elapsedMs": 391,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

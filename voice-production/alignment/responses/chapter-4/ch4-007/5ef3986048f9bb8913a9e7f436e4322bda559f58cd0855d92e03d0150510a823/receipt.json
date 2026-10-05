@@ -1,0 +1,20 @@
+{
+  "lineId": "ch4-007",
+  "chapterId": "chapter-4",
+  "speakerId": "adult-aleem",
+  "text": "After each attempt, I performed recovery: never mind, all good, no worries. Then I carried the rejection home and stacked it beside the others until individual disappointments became a theory about myself.",
+  "voiceUrl": "voices/chapter-4/ch4-007.mp3",
+  "durationMs": 14400,
+  "audioSha256": "04d1319c57b23bedec03695ce431237844a293ddd398449ef500e0daf34413d0",
+  "audioBytes": 173132,
+  "textSha256": "7853179e9a9a11ec85eeccbb896e4a767bff11020ef4cc59ed84729338bcafdb",
+  "fingerprint": "5ef3986048f9bb8913a9e7f436e4322bda559f58cd0855d92e03d0150510a823",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "f1338c8accf67d4e2e1f9affbb461c8ac6630f6133c5ad9cfb00c6f497f01513",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:55.372Z",
+  "elapsedMs": 425,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

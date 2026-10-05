@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-confrontation-disclosure-002",
+  "chapterId": "chapter-ns",
+  "speakerId": "nadiah",
+  "text": "You should have heard it from me. I avoided a difficult conversation until the silence became more hurtful than the truth. I am sorry for making you discover it this way.",
+  "voiceUrl": "voices/chapter-ns/ns-confrontation-disclosure-002.mp3",
+  "durationMs": 14400,
+  "audioSha256": "8efbbd894d285b1b798d70f010e3ea399b0d6f3e2b495efad2767ef521a81d0c",
+  "audioBytes": 173132,
+  "textSha256": "99177767ce6f8695e5a994a7c1209daa2a6df29e3103e964f01f77263644b988",
+  "fingerprint": "6aa95d9bc2ff886d19cb2c301596365dda64fd23fde41224bed5501c0597403f",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "868386a2bb0eff9d180e50f98c4dcf5ff44ce285e903b0d253b87fd1570dffd4",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:15.295Z",
+  "elapsedMs": 430,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

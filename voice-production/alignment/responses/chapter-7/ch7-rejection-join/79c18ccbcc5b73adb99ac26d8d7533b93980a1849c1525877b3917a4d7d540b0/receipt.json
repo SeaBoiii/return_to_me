@@ -1,0 +1,20 @@
+{
+  "lineId": "ch7-rejection-join",
+  "chapterId": "chapter-7",
+  "speakerId": "adult-aleem",
+  "text": "There was no negotiation. I accepted her answer, though disappointment followed me home. For once I did not have to reconstruct a hidden message. She had told me something definite about the future she wanted. The difficult part was learning how to remain beside her without treating that future as a challenge.",
+  "voiceUrl": "voices/chapter-7/ch7-rejection-join.mp3",
+  "durationMs": 20640,
+  "audioSha256": "d4d32f6c204e5ef63b6b9465ff82030f379ae33be6e17a1b6ce1e9e37205699b",
+  "audioBytes": 248012,
+  "textSha256": "26c7937c3da9214c08c2fc9c49a153fc735944c63b0205a8d3f30f1192d4aaa4",
+  "fingerprint": "79c18ccbcc5b73adb99ac26d8d7533b93980a1849c1525877b3917a4d7d540b0",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "e4bab3425f6abaeaabdf525ed21bc85d28290920a06be8b84067a8d0d284fde7",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:37.074Z",
+  "elapsedMs": 478,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

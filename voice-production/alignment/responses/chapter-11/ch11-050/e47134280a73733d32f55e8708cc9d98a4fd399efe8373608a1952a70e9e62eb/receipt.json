@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-050",
+  "chapterId": "chapter-11",
+  "speakerId": "nurul-mother",
+  "text": "And how has it been, getting to know Nurul?",
+  "voiceUrl": "voices/chapter-11/ch11-050.mp3",
+  "durationMs": 2712,
+  "audioSha256": "48d21e3ea30e22e637ab2d3b3dc49f3a5189856e1156bea09e2a34e98a8f2659",
+  "audioBytes": 32876,
+  "textSha256": "f7ed8345dec50c69a8f8e0d3b48c41ddc8f5fa1974aadb16493f61ad29db757a",
+  "fingerprint": "e47134280a73733d32f55e8708cc9d98a4fd399efe8373608a1952a70e9e62eb",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "27db3a8e91a99e14f75cdd2125e51cf600fc8bb7205dc84114c468d573c3a0fd",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:08.530Z",
+  "elapsedMs": 319,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

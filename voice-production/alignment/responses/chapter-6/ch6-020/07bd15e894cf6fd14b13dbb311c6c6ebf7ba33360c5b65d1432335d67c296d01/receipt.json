@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-020",
+  "chapterId": "chapter-6",
+  "speakerId": "aleem-adult",
+  "text": "Thought you said you had work to finish. I was helping you escape.",
+  "voiceUrl": "voices/chapter-6/ch6-020.mp3",
+  "durationMs": 3840,
+  "audioSha256": "494c88b0acfb42ebec6bd84821e215a600d6fe337a6c69c436c6704b7bc55805",
+  "audioBytes": 46412,
+  "textSha256": "f9818e5511333ce1048689a139315917df5650cc557d5771ce8675c6a6701322",
+  "fingerprint": "07bd15e894cf6fd14b13dbb311c6c6ebf7ba33360c5b65d1432335d67c296d01",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "6701dcc6e734cae2d0b3edd759750bb90f2bd5b7c6fb0d501e4f43ccdc52f509",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:25.706Z",
+  "elapsedMs": 326,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

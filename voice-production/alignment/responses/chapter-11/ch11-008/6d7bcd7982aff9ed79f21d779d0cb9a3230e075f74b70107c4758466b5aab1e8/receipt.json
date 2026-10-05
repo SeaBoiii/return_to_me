@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-008",
+  "chapterId": "chapter-11",
+  "speakerId": "aleem-adult",
+  "text": "Sometimes. Depends if everyone's free.",
+  "voiceUrl": "voices/chapter-11/ch11-008.mp3",
+  "durationMs": 2304,
+  "audioSha256": "edf735cd712db1c8ea8bd8350390199c616428baa6d530c7a7e37341b4a6ff5e",
+  "audioBytes": 27980,
+  "textSha256": "064d2299ec220a8d8c89ee45ece3aba57909a15dbe5742dc4728d39255c87a16",
+  "fingerprint": "6d7bcd7982aff9ed79f21d779d0cb9a3230e075f74b70107c4758466b5aab1e8",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "2dc69e960f3ed5ce4f79c93cd8a4b0ec7a958680e0214fef6ec4628a06ecccab",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:00.406Z",
+  "elapsedMs": 336,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

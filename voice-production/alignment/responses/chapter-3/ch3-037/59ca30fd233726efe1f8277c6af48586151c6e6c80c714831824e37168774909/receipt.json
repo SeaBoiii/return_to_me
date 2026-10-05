@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-037",
+  "chapterId": "chapter-3",
+  "speakerId": "adult-aleem",
+  "text": "Later, through a separate conversation, I learned that she had liked him before I confessed. That information was firmer than what I had seen, and it struck the same bruise Alya's wrong message had left years earlier.",
+  "voiceUrl": "voices/chapter-3/ch3-037.mp3",
+  "durationMs": 13344,
+  "audioSha256": "bf5e63f10dfec464eea6d42b96e2d163bce10636051135c56eb52163c065a198",
+  "audioBytes": 160460,
+  "textSha256": "84e3b3204ad101b5fbdfaa0b2dff2ec242d6434116bb7c9e3b8482dc13b91ff9",
+  "fingerprint": "59ca30fd233726efe1f8277c6af48586151c6e6c80c714831824e37168774909",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "1842edcb7a854337e803639748add92a92928797c9bffaba86bfbafe3b487067",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:51.370Z",
+  "elapsedMs": 453,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

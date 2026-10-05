@@ -1,0 +1,20 @@
+{
+  "lineId": "ch5-008",
+  "chapterId": "chapter-5",
+  "speakerId": "adult-aleem",
+  "text": "My good news and her disappointment occupied the same afternoon. Supporting her did not require me to apologise for succeeding. Celebrating myself did not require me to hurry her out of grief.",
+  "voiceUrl": "voices/chapter-5/ch5-008.mp3",
+  "durationMs": 12072,
+  "audioSha256": "b21ac5244336d9855256328e1314cf4cb1d88d0e2f88dfc6087b7ed877b139e6",
+  "audioBytes": 145196,
+  "textSha256": "4d3b635a06dc5611eb0232de96d141d95371c0538b32840586fff992a3eb5539",
+  "fingerprint": "852398df866f8633d0bef76fe438f9a8abf04e0e66be188f49e8fe1ace271238",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "5e75c12d844f65950cbfbef5cedb51717aaf1cb9e48f8928bdadf955b38b948f",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:01.345Z",
+  "elapsedMs": 523,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

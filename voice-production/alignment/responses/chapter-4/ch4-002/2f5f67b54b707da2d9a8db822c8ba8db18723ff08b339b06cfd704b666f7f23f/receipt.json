@@ -1,0 +1,20 @@
+{
+  "lineId": "ch4-002",
+  "chapterId": "chapter-4",
+  "speakerId": "adult-aleem",
+  "text": "A crush could form from a few friendly conversations. A moment of attention became possibility. Once possibility appeared, I wanted a verdict quickly, as though enough courage repeated often enough would eventually produce the answer I preferred.",
+  "voiceUrl": "voices/chapter-4/ch4-002.mp3",
+  "durationMs": 16560,
+  "audioSha256": "4f9b1308bc06854a41432904fe9adf527c1dbae493b51bc1c3975b9f57a23b9e",
+  "audioBytes": 199052,
+  "textSha256": "aba40e551383c6245711384cee7595f56869c43af08ba39927aa3a8ddef82132",
+  "fingerprint": "2f5f67b54b707da2d9a8db822c8ba8db18723ff08b339b06cfd704b666f7f23f",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "dbfa26eb770ce34fbe399e2adb04eaac5344d409044413c08665383115fac200",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:53.438Z",
+  "elapsedMs": 475,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

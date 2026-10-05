@@ -1,0 +1,20 @@
+{
+  "lineId": "ch1-015",
+  "chapterId": "chapter-1",
+  "speakerId": "alya",
+  "text": "What if you become very handsome in secondary school and forget me?",
+  "voiceUrl": "voices/chapter-1/ch1-015.mp3",
+  "durationMs": 5832,
+  "audioSha256": "8603dd91a4d1c24851776f09a81b7db622e49f949639d50a4f23b9f5462cde19",
+  "audioBytes": 70316,
+  "textSha256": "5232c827c526d96b36b2bf2792afce54ed661e9e2842088241c7b0f3073f554f",
+  "fingerprint": "fdb6c87ae8d02b12bd313c22d2e3146e86b57df887515e0905b8a4ca72f9607d",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "b46529b658e93574e7f41e5e204bcef750197310b658eb9f98fa8dc6599dfd57",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:13.736Z",
+  "elapsedMs": 580,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

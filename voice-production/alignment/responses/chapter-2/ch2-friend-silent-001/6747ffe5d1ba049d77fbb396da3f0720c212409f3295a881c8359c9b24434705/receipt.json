@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-friend-silent-001",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "I said nothing. My friend waited, then gently repeated that I should speak to Hana myself. Silence did not make the news less real.",
+  "voiceUrl": "voices/chapter-2/ch2-friend-silent-001.mp3",
+  "durationMs": 8640,
+  "audioSha256": "17e7a48544e2bf3d87cffddd99bc81573431c6123de3b74ebc927a8d44438cd1",
+  "audioBytes": 104012,
+  "textSha256": "679f3f79fea5392f70c03ecb0e1c1529011ddabb4e299169fe3a3806e96421a7",
+  "fingerprint": "6747ffe5d1ba049d77fbb396da3f0720c212409f3295a881c8359c9b24434705",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "a36b6c9cef2d29860383fc03fbbde287651fe10ed31497ffd58df41f935d063e",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:36.766Z",
+  "elapsedMs": 472,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

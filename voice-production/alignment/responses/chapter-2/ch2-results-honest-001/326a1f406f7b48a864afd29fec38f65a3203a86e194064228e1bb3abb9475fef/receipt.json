@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-results-honest-001",
+  "chapterId": "chapter-2",
+  "speakerId": "aleem-sec",
+  "text": "This is the consequence of my choices. I cannot pretend the warnings were not there.",
+  "voiceUrl": "voices/chapter-2/ch2-results-honest-001.mp3",
+  "durationMs": 4680,
+  "audioSha256": "ef2618255ec2209d5b25d66baa786d441e285a5715aae722efbe02598e15489a",
+  "audioBytes": 56492,
+  "textSha256": "9fb840932e3b518c0623ed02b358f9cc4f955ece4b6966ff9634a727ad470c17",
+  "fingerprint": "326a1f406f7b48a864afd29fec38f65a3203a86e194064228e1bb3abb9475fef",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "65060523437276ffdbd6cb3ffa8d81ed9afcd71f00ff824886e2e3a881ce0ff4",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:41.549Z",
+  "elapsedMs": 365,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

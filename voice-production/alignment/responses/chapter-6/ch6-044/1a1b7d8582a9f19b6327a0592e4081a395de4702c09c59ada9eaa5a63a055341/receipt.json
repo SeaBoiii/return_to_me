@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-044",
+  "chapterId": "chapter-6",
+  "speakerId": "adult-aleem",
+  "text": "She looked at me without speaking. Somewhere behind us, somebody called for their family to stand closer for a picture. I could hear every little sound that should have disappeared for a moment like this. The world continued at exactly its usual volume.",
+  "voiceUrl": "voices/chapter-6/ch6-044.mp3",
+  "durationMs": 15912,
+  "audioSha256": "f6241c580ef072f4015c49eb36374a88e5d01843fcb13d00176d2d4b18eb5901",
+  "audioBytes": 191276,
+  "textSha256": "af74dd7e8b93a03004c1751a8edff93fd64a0b72975cc7d41f8406173575db93",
+  "fingerprint": "1a1b7d8582a9f19b6327a0592e4081a395de4702c09c59ada9eaa5a63a055341",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "c21945afac808de22ec5e2bf9341300bb8b5cba627f682527657fe4bd1f38cb7",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:30.608Z",
+  "elapsedMs": 435,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

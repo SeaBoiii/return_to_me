@@ -1,0 +1,20 @@
+{
+  "lineId": "ch1-001",
+  "chapterId": "chapter-1",
+  "speakerId": "adult-aleem",
+  "text": "Our classroom wore the colours of the morning: pale walls, warm sun, and rows of light-blue uniforms. Ceiling fans pushed the same hot air in patient circles above us.",
+  "voiceUrl": "voices/chapter-1/ch1-001.mp3",
+  "durationMs": 12312,
+  "audioSha256": "a020cf3bfcc99253af0455dad6723175bb73cce14804fe82b85bf822d62ebfc0",
+  "audioBytes": 148076,
+  "textSha256": "f2dede2ea547ce933c1952b75c86167d44df322944bcf6dee898c42d7b50d196",
+  "fingerprint": "3fc5c513f6cb149ef5c90e1de755c2b1121f04677175685c3806cc3017f307a8",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "e59741b23a3f26a55c7eb441277ecd6c69ea94af23ecdf79510c557924b4361e",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:11.306Z",
+  "elapsedMs": 611,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

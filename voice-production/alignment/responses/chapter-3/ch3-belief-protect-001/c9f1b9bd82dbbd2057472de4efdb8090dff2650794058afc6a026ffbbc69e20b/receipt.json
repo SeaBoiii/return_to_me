@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-belief-protect-001",
+  "chapterId": "chapter-3",
+  "speakerId": "aleem-sec",
+  "text": "People say the kindest reason, not the truest one. From now on, I need to watch what they do and find the answer myself.",
+  "voiceUrl": "voices/chapter-3/ch3-belief-protect-001.mp3",
+  "durationMs": 8688,
+  "audioSha256": "a9927e87c61978915a87b5ec38da00af316a6a3d709d70d1fedc0f925774cdf5",
+  "audioBytes": 104588,
+  "textSha256": "4176bfa9342dc0add36ff83608bd6a2e44dab03b07cb780d9e4ef80b66916cdc",
+  "fingerprint": "c9f1b9bd82dbbd2057472de4efdb8090dff2650794058afc6a026ffbbc69e20b",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "d80ac07b08562026786270432b8d789af11444d5d079833bf3380eb1190d40d7",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:52.038Z",
+  "elapsedMs": 380,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

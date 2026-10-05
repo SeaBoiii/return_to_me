@@ -1,0 +1,20 @@
+{
+  "lineId": "ch5-014",
+  "chapterId": "chapter-5",
+  "speakerId": "adult-aleem",
+  "text": "The morning was warm before we reached the entrance. Families moved around us with bags, folded maps, and children already negotiating for snacks. Mei Lin arrived carrying enough water for a minor expedition.",
+  "voiceUrl": "voices/chapter-5/ch5-014.mp3",
+  "durationMs": 13272,
+  "audioSha256": "ac833875b95eb804e5b4b2cb554570fab60f9095e1c743439c738b6fb6227fbe",
+  "audioBytes": 159596,
+  "textSha256": "fd88a144f5f6d153118234408c26cf488a0a5f6caad63f736c2b5e3ce86c752e",
+  "fingerprint": "f6dc8a8f8fd73cc2fe0833abc1ff1a3429bef9c8a3f625eb1a60c60249537042",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "a89240651371a61fa5bce2b64335d0312071a76f0fff13be675faa67164e5ecf",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:02.125Z",
+  "elapsedMs": 432,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

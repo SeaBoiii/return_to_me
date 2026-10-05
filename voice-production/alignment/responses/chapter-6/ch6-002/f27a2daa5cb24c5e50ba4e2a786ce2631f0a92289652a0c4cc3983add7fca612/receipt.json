@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-002",
+  "chapterId": "chapter-6",
+  "speakerId": "adult-aleem",
+  "text": "I had also brought my old rules with me. With Malay girls, I kept conversations safely practical. Directions, group work, nothing that might become a crush. I called it knowing my type. Really, I was still arranging my life around the fear of being hurt in a familiar way.",
+  "voiceUrl": "voices/chapter-6/ch6-002.mp3",
+  "durationMs": 19512,
+  "audioSha256": "acb35010ba513516925df1cc44f11c54ee42907fadb3650a5fb2ae3daa5ddec2",
+  "audioBytes": 234476,
+  "textSha256": "cd2f35ff77ad35815c9bcd4b287e68cd73f0f75730f9ef5bc94a053ef9e47187",
+  "fingerprint": "f27a2daa5cb24c5e50ba4e2a786ce2631f0a92289652a0c4cc3983add7fca612",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "0303de39e27c5d640ce7ba4968e0bb6dd5eae7eebf16bf2ff03f8ddb39d8b6e9",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:21.900Z",
+  "elapsedMs": 450,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

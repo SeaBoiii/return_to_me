@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-041",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "I waited a few hours. Calming down did not make me neutral; it only gave my hurt a quieter voice. When I finally messaged Nadiah, restraint and accusation travelled together in every line.",
+  "voiceUrl": "voices/chapter-ns/ns-041.mp3",
+  "durationMs": 14712,
+  "audioSha256": "dc520c248723f623b3ee33d38110ed06211864d838c04533807fc485258508ef",
+  "audioBytes": 176876,
+  "textSha256": "8f27fc421de78a3a13e3d365cb30960e2e89cf968d27d90b87e88e08638a71db",
+  "fingerprint": "d41a11091a2d0cdcd635920ef6a78e30efd13e696192a444fa0154d56b1abe1e",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "34d0091f5c3c421bdb54a3f927a78becc4503aca90132f45db89aabcf9872783",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:14.170Z",
+  "elapsedMs": 560,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

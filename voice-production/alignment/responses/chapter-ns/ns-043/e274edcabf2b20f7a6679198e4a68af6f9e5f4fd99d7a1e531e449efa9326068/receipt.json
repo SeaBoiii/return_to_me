@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-043",
+  "chapterId": "chapter-ns",
+  "speakerId": "nadiah",
+  "text": "I should have told you I was going, and I should have spoken about him before you had to see anything through somebody else. I understand why this hurt you.",
+  "voiceUrl": "voices/chapter-ns/ns-043.mp3",
+  "durationMs": 12792,
+  "audioSha256": "52465446715c9664f67f3c28b99549c4521bd220818c1ecf9397bd93c6fdc958",
+  "audioBytes": 153836,
+  "textSha256": "0a48689632196e2efe43b2985f1af5613e771da7b9b9199e6d916cd4486d6df0",
+  "fingerprint": "e274edcabf2b20f7a6679198e4a68af6f9e5f4fd99d7a1e531e449efa9326068",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "5d6e4edcdd7e7a50b1ecbcaf4d736e2f5112f68d2a4378799f9991eab91992df",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:14.386Z",
+  "elapsedMs": 452,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

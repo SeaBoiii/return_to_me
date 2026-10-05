@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-039",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "She knew what I was doing and walked the second circle anyway. It was an ordinary kindness. I wish I had understood then how relationships are built from attention to ordinary things.",
+  "voiceUrl": "voices/chapter-2/ch2-039.mp3",
+  "durationMs": 12960,
+  "audioSha256": "5d51bf5f4f486eaeff0d5e249f7c0b0299ba6139f828ede5837d7093f103dce5",
+  "audioBytes": 155852,
+  "textSha256": "07ae439bf23c50f8b1ccae4c2ad96cea23030f5ebedef0f1ee4d754e7c56e001",
+  "fingerprint": "809a63f8b1066088cf29d3f170d7a7ee1ef2aacf9bb5d2b140a5449ef7cd28b6",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "da15b63f60dcf0bf9e4975bffa643c285b98ac41b3fdf008dbe3df98f994123f",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:28.767Z",
+  "elapsedMs": 577,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

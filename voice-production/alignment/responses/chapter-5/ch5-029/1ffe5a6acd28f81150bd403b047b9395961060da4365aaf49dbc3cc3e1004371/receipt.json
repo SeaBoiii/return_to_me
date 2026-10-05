@@ -1,0 +1,20 @@
+{
+  "lineId": "ch5-029",
+  "chapterId": "chapter-5",
+  "speakerId": "aleem-sec",
+  "text": "One good day is enough for today.",
+  "voiceUrl": "voices/chapter-5/ch5-029.mp3",
+  "durationMs": 2496,
+  "audioSha256": "fc6841ef75b1ca79f28bbed39fa0efa51b4f1cd15b7143a02007e927b579cc13",
+  "audioBytes": 30284,
+  "textSha256": "a02b261b0549f09a1ca2290c773e128919b6df5175f074a9c570adc7326729af",
+  "fingerprint": "1ffe5a6acd28f81150bd403b047b9395961060da4365aaf49dbc3cc3e1004371",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "2572b1ac8c761a3de81bbb0f185438fe6d9824f483c945f23f5bb5f9f167f1f0",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:05.261Z",
+  "elapsedMs": 320,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

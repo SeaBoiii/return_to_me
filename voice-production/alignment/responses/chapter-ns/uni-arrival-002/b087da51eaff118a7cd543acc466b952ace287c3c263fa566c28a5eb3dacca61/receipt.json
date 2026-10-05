@@ -1,0 +1,20 @@
+{
+  "lineId": "uni-arrival-002",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "Hakim—a pseudonym for a friend I made during orientation—had the easy confidence of somebody who could enter an unfamiliar room and assume he was welcome. During the first club recruitment week, he asked me to visit the Muslim Society.",
+  "voiceUrl": "voices/chapter-ns/uni-arrival-002.mp3",
+  "durationMs": 15264,
+  "audioSha256": "6349b25d1e48e6444c8fc2f63f254c9ee518e2cca0479072aa5c42bbe318931e",
+  "audioBytes": 183500,
+  "textSha256": "7cd440a39f92a8f013e6f245e54380057c3ca4dc82607340043927f2a26c5baf",
+  "fingerprint": "b087da51eaff118a7cd543acc466b952ace287c3c263fa566c28a5eb3dacca61",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "3af214a18b4a5eb673d7f5c30bd1c539662c653bfbe5b8f6b8a8454f3385858b",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:18.350Z",
+  "elapsedMs": 423,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

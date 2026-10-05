@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-004",
+  "chapterId": "chapter-9",
+  "speakerId": "nadiah",
+  "text": "Aleem? Eh. You're in this group also?",
+  "voiceUrl": "voices/chapter-9/ch9-004.mp3",
+  "durationMs": 3840,
+  "audioSha256": "4cf793309acb4c11896b8e816ebc2e7acf78a2cbd7229e1961147eb4841cb7c0",
+  "audioBytes": 46412,
+  "textSha256": "5da587a9dc2a21758dc43b091de8a773cfa3ed363902990b553efb1db536116f",
+  "fingerprint": "b458de438c6a2d6a66ad2ebf196de48774943ee08c0d97b269511a02204760f7",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "3c81cad294921a1d537ff88f9f68e2db04d8a8ac6b732c55bcedb9fbed0fbd6c",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:43.931Z",
+  "elapsedMs": 324,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

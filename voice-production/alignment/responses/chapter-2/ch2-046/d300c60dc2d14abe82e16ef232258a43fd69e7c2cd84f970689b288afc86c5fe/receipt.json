@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-046",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "But achievement came with an alarm bell. The server did not care whether I had class the next morning. Problems arrived whenever players were awake, which seemed to be always.",
+  "voiceUrl": "voices/chapter-2/ch2-046.mp3",
+  "durationMs": 11184,
+  "audioSha256": "ae748c5ba163827d6ee6441f0fc3a1386c5deb13e39315e1ca62a3047ffbd55f",
+  "audioBytes": 134540,
+  "textSha256": "81e2c23f78aeb115ccd809c8ee2ffa50a29e826497ee471d08c1bad25a9ce80c",
+  "fingerprint": "d300c60dc2d14abe82e16ef232258a43fd69e7c2cd84f970689b288afc86c5fe",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "d2f000f8f15a20414255fa4b67a01592805a118ece4bfd4cc0054302acc14c80",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:29.715Z",
+  "elapsedMs": 496,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

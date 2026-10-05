@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-040",
+  "chapterId": "chapter-6",
+  "speakerId": "aleem-adult",
+  "text": "Saving my energy. Long day ahead. The complaints need to last.",
+  "voiceUrl": "voices/chapter-6/ch6-040.mp3",
+  "durationMs": 4560,
+  "audioSha256": "e7d3553ebe036ffec6b779ca977ce5745fa572a92caf2c41606d4174b573dc92",
+  "audioBytes": 55052,
+  "textSha256": "30ed5604cec948b76402c2c6322a04e779b45220ccdf81b590db96af9e53f63d",
+  "fingerprint": "80288c4770ec7877f7a217d69ea759c7dfe901da2494cdbaf5f61326b53db366",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "ea8fd94add12d132510f26f8cef92bbbcda4d35fe1dc35f7ad8580da746c8467",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:29.925Z",
+  "elapsedMs": 335,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

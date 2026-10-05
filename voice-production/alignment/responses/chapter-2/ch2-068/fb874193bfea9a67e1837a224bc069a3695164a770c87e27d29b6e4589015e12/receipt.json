@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-068",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "The break arrived carrying server plans. Catching up moved to the following week, then the next month, always close enough to sound possible.",
+  "voiceUrl": "voices/chapter-2/ch2-068.mp3",
+  "durationMs": 9120,
+  "audioSha256": "7eed2468fd9c19db09af535f97915f793804facf9336fbd8425267bdd679ab6a",
+  "audioBytes": 109772,
+  "textSha256": "7e904fc23855cc7159a9cc989ea0f98590adb568b62f438d4ac4214e2edc1c3e",
+  "fingerprint": "fb874193bfea9a67e1837a224bc069a3695164a770c87e27d29b6e4589015e12",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "baf28a5b08a7a0f5b436f1ecd015d0a6221c1a5a2a2da8c06d7ff74f5136b788",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:34.717Z",
+  "elapsedMs": 329,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

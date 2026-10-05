@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-092",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "I reduced my time online, but habits do not disappear when the timetable becomes frightening. Some nights I revised. Some nights I escaped into problems I still knew how to solve.",
+  "voiceUrl": "voices/chapter-2/ch2-092.mp3",
+  "durationMs": 12144,
+  "audioSha256": "a59e808cec0164001eb3f6ab1299eea52c168242a491a29aed6e8f78ebe3993c",
+  "audioBytes": 146060,
+  "textSha256": "e2132d6f5c7a50ffa6a82cc245397ae66f8ab21b4d67daf1b58d8bfed813e11d",
+  "fingerprint": "84419552bd3e31032a6f977706db18a06c6ab90261147924f9b4b36db30375cd",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "236c29ee8ce360bb38d18aae8743fe9f3e66830f65eb1ec5775d664b3d200ff5",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:39.659Z",
+  "elapsedMs": 451,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

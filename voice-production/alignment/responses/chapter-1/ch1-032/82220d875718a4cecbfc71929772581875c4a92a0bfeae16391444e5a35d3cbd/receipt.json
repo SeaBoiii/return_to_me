@@ -1,0 +1,20 @@
+{
+  "lineId": "ch1-032",
+  "chapterId": "chapter-1",
+  "speakerId": "adult-aleem",
+  "text": "I saw Alya's name and smiled before reading. The body can celebrate half a second faster than the mind understands.",
+  "voiceUrl": "voices/chapter-1/ch1-032.mp3",
+  "durationMs": 8064,
+  "audioSha256": "5084dd0e7a5e915aadf68e292a53ebc770eaa662a5a3a6a82157877a57288c9f",
+  "audioBytes": 97100,
+  "textSha256": "949f4b61dff5af2c913b25acc1f212972843e632fd55bd1c8b9a8202dba11778",
+  "fingerprint": "82220d875718a4cecbfc71929772581875c4a92a0bfeae16391444e5a35d3cbd",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "51c1a9a90ffbf4edd422cd16ca9b9752f51f1d9658d3edfa1c3ac11d33814a25",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:17.330Z",
+  "elapsedMs": 770,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

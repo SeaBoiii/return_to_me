@@ -1,0 +1,20 @@
+{
+  "lineId": "ch8-005",
+  "chapterId": "chapter-8",
+  "speakerId": "imran",
+  "text": "Let's look at it together. You don't have to figure out everything by yourself.",
+  "voiceUrl": "voices/chapter-8/ch8-005.mp3",
+  "durationMs": 7920,
+  "audioSha256": "66f2cee030f9f5671bee9b6c7ba32db8280b4b0adf68947edb86bbba6a2c330d",
+  "audioBytes": 95372,
+  "textSha256": "8d6b4868c1a2f38db44514e46a51e814949a189046903966694c1f745c9fed24",
+  "fingerprint": "23cc53e235516f0743e8b24c3388ab1bf0b431b769d86bca0f725d99f84c3f3c",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "51a63ebf64856cc9b8a9a18907f7a6de859aabce5fe54107dadb0e5d2fbecbb0",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:42.325Z",
+  "elapsedMs": 342,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

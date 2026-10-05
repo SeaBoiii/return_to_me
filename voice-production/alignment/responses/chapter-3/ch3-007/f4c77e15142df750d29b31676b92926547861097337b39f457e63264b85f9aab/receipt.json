@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-007",
+  "chapterId": "chapter-3",
+  "speakerId": "adult-aleem",
+  "text": "A school is not weak. It is rooms, teachers, ambitions, tired students, second chances, and hundreds of lives moving at different speeds. But at sixteen, prestige felt like a measurement of the person wearing the uniform.",
+  "voiceUrl": "voices/chapter-3/ch3-007.mp3",
+  "durationMs": 15120,
+  "audioSha256": "ef99ba71a8b54a7bf6bd6c4ca01c4435f7bb658353f2016045c480ae8ec11311",
+  "audioBytes": 181772,
+  "textSha256": "afd7d4774b0bd6822b533fc0c708e5c1efb061a7f4567b60ae5051093c707b8d",
+  "fingerprint": "f4c77e15142df750d29b31676b92926547861097337b39f457e63264b85f9aab",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "165b3975baf8e36cd7df78ccfb18008ebf4a6a885bdbcb79a91032734d44e842",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:44.647Z",
+  "elapsedMs": 466,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

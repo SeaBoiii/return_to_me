@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-073",
+  "chapterId": "chapter-2",
+  "speakerId": "hana",
+  "text": "I wanted you to want to be present. I do not know how to turn that into instructions.",
+  "voiceUrl": "voices/chapter-2/ch2-073.mp3",
+  "durationMs": 7992,
+  "audioSha256": "ecd0b670c704b7d968ce279e58137e986571d78a414dda2f4a7e5d85f5e47a56",
+  "audioBytes": 96236,
+  "textSha256": "6b3e7ae75cd381a649f1b88be08d403f4fb86d51a2daec6e4f5edabb989c012f",
+  "fingerprint": "39075569179a6394a6a599b1def6682f7023bffc1f34f94b850f95ab9ab40d80",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "9f9146d5c8275046cb6921e079590ce979e5e62978578efecd2ed46ee59f320f",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:35.304Z",
+  "elapsedMs": 426,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

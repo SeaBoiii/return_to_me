@@ -1,0 +1,20 @@
+{
+  "lineId": "ch5-038",
+  "chapterId": "chapter-5",
+  "speakerId": "adult-aleem",
+  "text": "By then I had academic evidence that a bad result did not define me. Emotionally, I was still building rules from incomplete endings. Those rules would follow me into the relationship that came next.",
+  "voiceUrl": "voices/chapter-5/ch5-038.mp3",
+  "durationMs": 13344,
+  "audioSha256": "106ffcb4f53caa559ecf4ec30369be88499ef942cd8aeb822945d2df9ac91753",
+  "audioBytes": 160460,
+  "textSha256": "8edc449802bd67632dc0c45e62fc2b49f672b0610f91f15d3e8ae5cee76240a6",
+  "fingerprint": "6dea72b492714cf14941e34092c9530587db6cfc444b057b9058a48597c2ac90",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "2e704c030ff14d457fcc2124aaa9c0189573dbed61bffdebd2d72d6c5a1a9f78",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:06.772Z",
+  "elapsedMs": 470,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

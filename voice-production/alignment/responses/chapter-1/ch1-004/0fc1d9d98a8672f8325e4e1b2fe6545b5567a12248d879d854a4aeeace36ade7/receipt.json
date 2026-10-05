@@ -1,0 +1,20 @@
+{
+  "lineId": "ch1-004",
+  "chapterId": "chapter-1",
+  "speakerId": "aleem-p6",
+  "text": "I was thinking. Deeply.",
+  "voiceUrl": "voices/chapter-1/ch1-004.mp3",
+  "durationMs": 2952,
+  "audioSha256": "7625ef6ecf1fb0a03005b8e2e4cc2442e3d4a2489224a93d2cdf0423ce5ea49c",
+  "audioBytes": 35756,
+  "textSha256": "f9c8601a3e7a79883f9ef1620275c69559576bb97f735065174df2e9be8c8c9b",
+  "fingerprint": "0fc1d9d98a8672f8325e4e1b2fe6545b5567a12248d879d854a4aeeace36ade7",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "ee5f40ae4b436168978be0e8581d21ce909985c6bc42245e746c165efdf310f8",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:36:36.476Z",
+  "elapsedMs": 778,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

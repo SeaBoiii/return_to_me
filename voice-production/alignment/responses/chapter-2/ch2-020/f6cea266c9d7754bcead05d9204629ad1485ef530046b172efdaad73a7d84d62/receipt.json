@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-020",
+  "chapterId": "chapter-2",
+  "speakerId": "faris",
+  "text": "You wait until Hana leaves before you walk to the gate, then somehow reach the gate at the same time. Very subtle, bro.",
+  "voiceUrl": "voices/chapter-2/ch2-020.mp3",
+  "durationMs": 9912,
+  "audioSha256": "bfa9d979f7c420048d990fffcdc2f8e25c9f9ad03477bd00499f0aacb4ba2c84",
+  "audioBytes": 119276,
+  "textSha256": "992c62f60872c0126ca9bd609d1fabfebddea1d99d14175346b1d2f2c23bf0e6",
+  "fingerprint": "f6cea266c9d7754bcead05d9204629ad1485ef530046b172efdaad73a7d84d62",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "3abd2d593f44c26644d0803d1bf3c1bacd2ba443eacbd592aec2300b0f71fe01",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:24.814Z",
+  "elapsedMs": 379,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

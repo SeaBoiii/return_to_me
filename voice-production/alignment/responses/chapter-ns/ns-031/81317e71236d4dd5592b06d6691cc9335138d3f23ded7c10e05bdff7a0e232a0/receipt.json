@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-031",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "Months passed. I began treating the relationship as an answer to older fears: here was a Malay woman who seemed to contradict every suspicious rule I had built. Instead of releasing the category, I made Nadiah its exception.",
+  "voiceUrl": "voices/chapter-ns/ns-031.mp3",
+  "durationMs": 16464,
+  "audioSha256": "c241d1e80ab8a320c3354c94fe2419e991a48376828769620b87056d4ac0c82c",
+  "audioBytes": 197900,
+  "textSha256": "a1a7a14425d6a389e4bdbcc35be86e58b430b1abb5bc73a2483e9ce3c7c17e9a",
+  "fingerprint": "81317e71236d4dd5592b06d6691cc9335138d3f23ded7c10e05bdff7a0e232a0",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "4b72bfe1008ae8549929ea8f981cc4946be6e48bda3ee3db25fee3873ff73f07",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:11.752Z",
+  "elapsedMs": 438,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

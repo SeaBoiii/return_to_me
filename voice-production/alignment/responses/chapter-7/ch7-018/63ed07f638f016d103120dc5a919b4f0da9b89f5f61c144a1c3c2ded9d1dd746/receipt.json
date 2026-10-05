@@ -1,0 +1,20 @@
+{
+  "lineId": "ch7-018",
+  "chapterId": "chapter-7",
+  "speakerId": "adult-aleem",
+  "text": "I nodded too quickly. Some part of me had prepared for this answer; preparation did very little when it arrived in her voice. I looked out at the water so I could stop managing my expression for a moment. She let the silence stay instead of filling it with a softer possibility.",
+  "voiceUrl": "voices/chapter-7/ch7-018.mp3",
+  "durationMs": 18000,
+  "audioSha256": "193775e0dcd18f5b9ac078ded2bc16a1987c710ba16c5f65c08a230216d65db0",
+  "audioBytes": 216332,
+  "textSha256": "83b6a93b198a1a90b50a1d70754d885c79fc59be9fdeab4cbb27981c393e1ee0",
+  "fingerprint": "63ed07f638f016d103120dc5a919b4f0da9b89f5f61c144a1c3c2ded9d1dd746",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "6bc97a237349aa021333a719828bff5bfc0d64e066216b4240ee2f33f3be4283",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:36.579Z",
+  "elapsedMs": 489,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

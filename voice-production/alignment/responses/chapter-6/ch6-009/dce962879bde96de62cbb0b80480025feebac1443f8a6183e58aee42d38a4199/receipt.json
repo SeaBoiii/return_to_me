@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-009",
+  "chapterId": "chapter-6",
+  "speakerId": "jia-wen",
+  "text": "What time you finish tomorrow? I have this horrible gap between classes. Too short to go back, too long to pretend I'm being productive.",
+  "voiceUrl": "voices/chapter-6/ch6-009.mp3",
+  "durationMs": 8952,
+  "audioSha256": "03ca5dc09e3e7404ad1a1ea63f22a3f25f969210bea1ec18ea3aaba7f32188ef",
+  "audioBytes": 107756,
+  "textSha256": "4b46d78cc6bbf1f77d59b7b8ca87a450eaa820b606c996c78d273f99664be7f2",
+  "fingerprint": "dce962879bde96de62cbb0b80480025feebac1443f8a6183e58aee42d38a4199",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "61cef870769bba2c0b43343e25e11d5587505e232b0600f1ab5a2994274ecd8b",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:23.131Z",
+  "elapsedMs": 380,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch7-003",
+  "chapterId": "chapter-7",
+  "speakerId": "claire",
+  "text": "That one leaks. Unless you want coffee on your shirt before your first meeting, take the blue one.",
+  "voiceUrl": "voices/chapter-7/ch7-003.mp3",
+  "durationMs": 6240,
+  "audioSha256": "2a74d7ab71a42eeb12b7a5d1a09e0542e7b8c539c840a015cc1ba886274260eb",
+  "audioBytes": 75212,
+  "textSha256": "89399b79546e7f7e0300b18e2afd1871ef5eb2e18c8b853a6ae71c511fae5a53",
+  "fingerprint": "f6a9c7c9adde65ef77297684a402526080bb74b53212b6cdcede5feed36495dd",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "95dd7dae6a86c88f868a9069a8af617b8f87c3cc67fd08184c196ca41c5e1627",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:33.969Z",
+  "elapsedMs": 363,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

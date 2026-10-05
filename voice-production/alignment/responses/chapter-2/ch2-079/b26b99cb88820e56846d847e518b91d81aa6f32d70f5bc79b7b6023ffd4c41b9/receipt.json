@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-079",
+  "chapterId": "chapter-2",
+  "speakerId": "aleem-sec",
+  "text": "Someone told me you have moved on. Is that true?",
+  "voiceUrl": "voices/chapter-2/ch2-079.mp3",
+  "durationMs": 3552,
+  "audioSha256": "43b255d3d603cfd9de752d9743b21185e04c88311423f24fd8ae8c9963f20825",
+  "audioBytes": 42956,
+  "textSha256": "3ee68194f001766453767c369095fa6a5bebffb23ec8bfa8b3cf08daa8384ccf",
+  "fingerprint": "b26b99cb88820e56846d847e518b91d81aa6f32d70f5bc79b7b6023ffd4c41b9",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "44984e64af938dab46ba2ce980181f7e83b52ea5e62b440715ad216b86f721b3",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:37.208Z",
+  "elapsedMs": 438,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch4-029",
+  "chapterId": "chapter-4",
+  "speakerId": "adult-aleem",
+  "text": "There was care in that restraint and fear inside it too. I stayed beside her without asking for more, telling myself the friendship was enough and trying not to inspect the word enough too closely.",
+  "voiceUrl": "voices/chapter-4/ch4-029.mp3",
+  "durationMs": 12312,
+  "audioSha256": "c888e1b40628c9846b20768ab1e0c0c13ca6efdf881c9e898b1075f64faea537",
+  "audioBytes": 148076,
+  "textSha256": "e4d43880f0b075db8ef78e4570413a6d14be7df35e4dbcb4d8f1cb8299d0fd25",
+  "fingerprint": "71cae8298bd6dbfdde5758e00871973ccdb4cdcf90a0efa75e4e46099846d274",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "9597d104e658b8a0e0aad1e64863b83d57d6bfd2dada7bdf386e5a578896ba51",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:58.826Z",
+  "elapsedMs": 462,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

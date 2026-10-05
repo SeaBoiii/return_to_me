@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-040",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "At home, another world was taking shape. I had started running a Minecraft server: part community, part small business, part endlessly demanding machine.",
+  "voiceUrl": "voices/chapter-2/ch2-040.mp3",
+  "durationMs": 11040,
+  "audioSha256": "6f5ebe023fbd36c160b53985b42a434f31d4b9862f78cc4076b3967d324af48a",
+  "audioBytes": 132812,
+  "textSha256": "1f4bffac35002a97fcef1c382331acb0ee5a910112cba9457341a35788850794",
+  "fingerprint": "1562be9df04175d5cfede9565023b4856874af70810d028bcda47da8c70ef7e1",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "804b703b53ae8d9cf692f788155448456fb9d9b79fdbec154a740c4b9af5ca28",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:28.687Z",
+  "elapsedMs": 445,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

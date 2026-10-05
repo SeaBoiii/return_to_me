@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-029",
+  "chapterId": "chapter-9",
+  "speakerId": "adult-aleem",
+  "text": "We remembered book-ins, the strange way a short weekend used to hold so much, how much conversation we had fitted into the edges of a day. I had kept those memories shut away with the ending for years. Now one of them came back and made me smile. She remembered it too. I hadn't imagined every good thing.",
+  "voiceUrl": "voices/chapter-9/ch9-029.mp3",
+  "durationMs": 20712,
+  "audioSha256": "f28e9d9c97ea06ea4963fa24a49ecee4ec664a13e115016f0995ab33e795fd1c",
+  "audioBytes": 248876,
+  "textSha256": "fadae3410b923c702ad74a403cd0b010743c9f19e5d50a8d2447783e24fe0bb8",
+  "fingerprint": "eeee89193e854573b34dbd3381ea24a292878a91115f7c93350ea03b2c13d2ef",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "c39d4c301a7238c64b975350f65f151202edeec5b97636a6b7a6d4730e48ee65",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:49.396Z",
+  "elapsedMs": 521,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

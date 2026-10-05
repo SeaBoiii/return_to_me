@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-sign-open",
+  "chapterId": "chapter-9",
+  "speakerId": "adult-aleem",
+  "text": "I had been so tired of hoping that I scarcely recognised how good it felt. Perhaps my life still held room for something I hadn't planned. I wanted to remain open to that feeling a little longer.",
+  "voiceUrl": "voices/chapter-9/ch9-sign-open.mp3",
+  "durationMs": 13272,
+  "audioSha256": "b0abf3159d30b101732c31faa4e431ee9f7c99e3c21f7f8396439f46432c51af",
+  "audioBytes": 159596,
+  "textSha256": "c1be6d5efd82d9fb32c366322534b4aca6280d4f2507c438101c0217db324360",
+  "fingerprint": "ee46beb019e21a73f3cb71deaf134cf02cd60d8ac0c24a0254ea08cbae3400b8",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "ce691ac951ec32293dd63d03b9c25be2dca0fb37c0dc2689c26610b1ae289d63",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:51.558Z",
+  "elapsedMs": 628,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

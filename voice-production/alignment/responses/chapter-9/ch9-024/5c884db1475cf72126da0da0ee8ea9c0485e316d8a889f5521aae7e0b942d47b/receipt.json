@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-024",
+  "chapterId": "chapter-9",
+  "speakerId": "adult-aleem",
+  "text": "She laughed and caught her breath. We paused where there was room to stand comfortably. For a little while we looked out instead of at each other. I could feel the effort in my legs and hear my own breathing settle. When she asked how I had been, the question had enough space around it for an honest answer.",
+  "voiceUrl": "voices/chapter-9/ch9-024.mp3",
+  "durationMs": 18960,
+  "audioSha256": "8463eb80768c02cc74257cf2bfcc579aade0528081debc939a1b02dc4e769be3",
+  "audioBytes": 227852,
+  "textSha256": "8a21de5987ef4021d54366a9758990f469c121255c9091414a442f2301f82cfa",
+  "fingerprint": "5c884db1475cf72126da0da0ee8ea9c0485e316d8a889f5521aae7e0b942d47b",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "0a4107ae9abfd9008094f88ebe2418daa11d9f62e83b51b79f4b62112e1f682c",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:47.719Z",
+  "elapsedMs": 477,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-038",
+  "chapterId": "chapter-11",
+  "speakerId": "adult-aleem",
+  "text": "I could picture her beyond the conversation with me now: having her own day, dealing with things I wasn't there to see, deciding what she wanted to share. I asked about those things. Sometimes I told her something from the trip, and she asked more. Our messages began to feel like a place we both brought our lives to.",
+  "voiceUrl": "voices/chapter-11/ch11-038.mp3",
+  "durationMs": 20304,
+  "audioSha256": "78ebac68c975945d099a510209d28d5f71e55d63368527a2785b1d1030af1883",
+  "audioBytes": 243980,
+  "textSha256": "41433d28a53bfe97dfdc98ea279a919e23e29ac1c431638a9439dc44440d3d59",
+  "fingerprint": "51b7ea3586bffe56539572fb723baa29c73e1333438457da081bf570ebaa2f4b",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "a9fe7249a5af45b6e0b9a787af590e4a5405b3ca1c99dd906bb9ad9b59bfcff6",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:06.798Z",
+  "elapsedMs": 499,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

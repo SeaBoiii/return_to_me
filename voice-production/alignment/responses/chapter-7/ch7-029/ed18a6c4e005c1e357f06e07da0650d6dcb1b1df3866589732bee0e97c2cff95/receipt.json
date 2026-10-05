@@ -1,0 +1,20 @@
+{
+  "lineId": "ch7-029",
+  "chapterId": "chapter-7",
+  "speakerId": "adult-aleem",
+  "text": "Time passed like that. I could be happy through a whole meal and feel lonely on the journey back. I had learned to ask the question earlier. I had not learned how quickly closeness could become waiting again, even after an answer. Nobody had promised me anything. The waiting happened quietly inside me.",
+  "voiceUrl": "voices/chapter-7/ch7-029.mp3",
+  "durationMs": 21120,
+  "audioSha256": "9d65f7d08f6c5c6311d9a0c98151d91b2a65d3c50f36f4f81a629ea9cadfd0a9",
+  "audioBytes": 253772,
+  "textSha256": "12cb74d31b188300c72041f72a9097e1bcf9d96ebc31957d697bd6d0ee2126b1",
+  "fingerprint": "ed18a6c4e005c1e357f06e07da0650d6dcb1b1df3866589732bee0e97c2cff95",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "92428e3d269d60d6273909a19beac461e6171101fe322437b5a1b0a7a74218de",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:40.230Z",
+  "elapsedMs": 647,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

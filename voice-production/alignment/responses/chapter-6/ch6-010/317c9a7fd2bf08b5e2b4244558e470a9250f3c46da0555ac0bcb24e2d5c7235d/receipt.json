@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-010",
+  "chapterId": "chapter-6",
+  "speakerId": "aleem-adult",
+  "text": "Send me your timetable. We can compare suffering.",
+  "voiceUrl": "voices/chapter-6/ch6-010.mp3",
+  "durationMs": 2232,
+  "audioSha256": "0070daa1520b42f6c069312253da6ed06e6fe4144c8d3d163840c2bb22a0a49c",
+  "audioBytes": 27116,
+  "textSha256": "0409f0e46b2c3da7fae3c198ddb36cc06f8de7d9ee06d3dbf0bed2a2334752a1",
+  "fingerprint": "317c9a7fd2bf08b5e2b4244558e470a9250f3c46da0555ac0bcb24e2d5c7235d",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "8beaf08d40eff5a2eb53e0e43b49d1ca51a81a9f97da40fa42d21c10d1fdb49c",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:23.147Z",
+  "elapsedMs": 309,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

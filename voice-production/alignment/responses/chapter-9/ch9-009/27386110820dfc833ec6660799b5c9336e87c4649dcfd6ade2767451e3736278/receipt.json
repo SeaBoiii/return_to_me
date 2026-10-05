@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-009",
+  "chapterId": "chapter-9",
+  "speakerId": "aleem-adult",
+  "text": "Hello properly. Sorry, my brain needs a bit of time.",
+  "voiceUrl": "voices/chapter-9/ch9-009.mp3",
+  "durationMs": 3360,
+  "audioSha256": "0816db13c8546ea6012c0aa42bd959dadb28831c95b0f1047865ea396dd6a872",
+  "audioBytes": 40652,
+  "textSha256": "b87d11a357a4de75d67ffcd07696d29bcf4ff241d6416baa6c05a60fc21c575d",
+  "fingerprint": "27386110820dfc833ec6660799b5c9336e87c4649dcfd6ade2767451e3736278",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "ee67eabb612ef59b02dcc38387ed6b8577ce52088c89a617c435cd2694d63024",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:44.727Z",
+  "elapsedMs": 368,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

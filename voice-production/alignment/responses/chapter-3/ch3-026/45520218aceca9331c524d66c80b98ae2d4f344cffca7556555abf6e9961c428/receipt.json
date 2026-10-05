@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-026",
+  "chapterId": "chapter-3",
+  "speakerId": "aleem-sec",
+  "text": "You say that every time, then you sleep first.",
+  "voiceUrl": "voices/chapter-3/ch3-026.mp3",
+  "durationMs": 3096,
+  "audioSha256": "539b810ea5537c78b1d8e29a5025625d3092ac0f5d7001b0f52c01b9ebfbdb91",
+  "audioBytes": 37484,
+  "textSha256": "8071e3640acf034e7f34d7b5de34f2f507eadf341aeda29517bca30f960e6bb2",
+  "fingerprint": "45520218aceca9331c524d66c80b98ae2d4f344cffca7556555abf6e9961c428",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "1f6066685a50c04935b3c1385928b1048e697dc8a800176ae56b7c8acaaee8d9",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:48.595Z",
+  "elapsedMs": 344,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

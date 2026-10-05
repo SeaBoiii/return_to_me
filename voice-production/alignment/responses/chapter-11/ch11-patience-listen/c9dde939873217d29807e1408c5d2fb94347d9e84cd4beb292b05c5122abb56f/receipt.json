@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-patience-listen",
+  "chapterId": "chapter-11",
+  "speakerId": "adult-aleem",
+  "text": "I knew how easily a careful reply could make me anxious. I wanted to hear her properly even then. If something felt too much, she should be able to tell me without having to manage my disappointment first.",
+  "voiceUrl": "voices/chapter-11/ch11-patience-listen.mp3",
+  "durationMs": 12072,
+  "audioSha256": "52db7dd71461b79e50b1d568ea6253dc5f99dc2790e11a49c1bc39027a5afc47",
+  "audioBytes": 145196,
+  "textSha256": "22fba0f7532716fa8db7be5bac3ec4fc2bea64735c7c3aa2754c48a4ff8f67fc",
+  "fingerprint": "c9dde939873217d29807e1408c5d2fb94347d9e84cd4beb292b05c5122abb56f",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "d48c23d60e4c904e047b0b22682a11350d8e116155f3adf50f20ed1ab5a3a523",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:06.003Z",
+  "elapsedMs": 423,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

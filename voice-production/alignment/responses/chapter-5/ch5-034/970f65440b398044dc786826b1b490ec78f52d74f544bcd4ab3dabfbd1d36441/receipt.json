@@ -1,0 +1,20 @@
+{
+  "lineId": "ch5-034",
+  "chapterId": "chapter-5",
+  "speakerId": "adult-aleem",
+  "text": "So I gradually pulled away. Replies took longer. Invitations stopped. The friendship did not end in an argument; it thinned through absences small enough to deny individually and obvious when placed together.",
+  "voiceUrl": "voices/chapter-5/ch5-034.mp3",
+  "durationMs": 15264,
+  "audioSha256": "a97be561ac8c4cdde0abcbecae732142d1894c3efc2a50550227022edc680644",
+  "audioBytes": 183500,
+  "textSha256": "b76c30e5e33ebcb1bf3e476b7d41da689f334c5011b12c171b07d71920dc2072",
+  "fingerprint": "970f65440b398044dc786826b1b490ec78f52d74f544bcd4ab3dabfbd1d36441",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "27483afecd32150b54f3b71cb110a6d1fc165abf880270943910b5c741957f4e",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:06.156Z",
+  "elapsedMs": 527,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

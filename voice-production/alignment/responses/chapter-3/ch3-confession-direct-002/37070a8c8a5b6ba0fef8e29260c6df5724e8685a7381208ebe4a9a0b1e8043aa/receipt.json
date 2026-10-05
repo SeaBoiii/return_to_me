@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-confession-direct-002",
+  "chapterId": "chapter-3",
+  "speakerId": "adult-aleem",
+  "text": "Directness gave her a clear question and gave me nowhere to hide from the answer. It was frightening, but it did not make her responsible for rewarding the courage it required.",
+  "voiceUrl": "voices/chapter-3/ch3-confession-direct-002.mp3",
+  "durationMs": 10320,
+  "audioSha256": "709ca78b2150618c591164eaf3370fa028967a284f434b14e1b06d97610c33f2",
+  "audioBytes": 124172,
+  "textSha256": "f4d768e0930f9f1a6dd0c426e62e090946802e11fc4c7fce258c309900d53f5d",
+  "fingerprint": "37070a8c8a5b6ba0fef8e29260c6df5724e8685a7381208ebe4a9a0b1e8043aa",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "5784e205de47a9b8ab4c4c58f0c7d8c00b513d2fe51a2b183c4dc64c6536b490",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:49.385Z",
+  "elapsedMs": 455,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

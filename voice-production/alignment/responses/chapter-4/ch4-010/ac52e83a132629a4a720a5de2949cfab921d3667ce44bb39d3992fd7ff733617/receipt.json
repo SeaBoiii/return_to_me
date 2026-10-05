@@ -1,0 +1,20 @@
+{
+  "lineId": "ch4-010",
+  "chapterId": "chapter-4",
+  "speakerId": "adult-aleem",
+  "text": "I had spent a year beside classmates without knowing them deeply. Pressure changed that. People who once exchanged jokes began exchanging notes, food, and the small encouragements that help somebody survive a bad test.",
+  "voiceUrl": "voices/chapter-4/ch4-010.mp3",
+  "durationMs": 14640,
+  "audioSha256": "7c55bcfa47e58b0351509af74a7943668a5b5cae018644ef65c160b696065561",
+  "audioBytes": 176012,
+  "textSha256": "ad4dfc6e53f72dc0d49c3494c5f7c8f486952184f9b641c158b5d571440fd879",
+  "fingerprint": "ac52e83a132629a4a720a5de2949cfab921d3667ce44bb39d3992fd7ff733617",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "0072d06c9f632bcee59b9459fc12ef5306f1d2d13cc2de4b5b41e38343bc9499",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:55.889Z",
+  "elapsedMs": 481,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

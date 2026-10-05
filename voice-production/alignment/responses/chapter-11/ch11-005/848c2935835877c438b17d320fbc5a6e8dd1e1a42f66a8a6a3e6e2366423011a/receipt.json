@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-005",
+  "chapterId": "chapter-11",
+  "speakerId": "aleem-adult",
+  "text": "Assalamualaikum, Nurul. I'm Aleem. Kak Mariam introduced us. How are you?",
+  "voiceUrl": "voices/chapter-11/ch11-005.mp3",
+  "durationMs": 4704,
+  "audioSha256": "db39e9d6b72252eb457198e16c69845a0e3fcc9ec3e152c1315e7fe63a6aee4a",
+  "audioBytes": 56780,
+  "textSha256": "1191ae8e38329ea1960ba0c25937a14f0f03641ca4e65468422e87ca00d5fa41",
+  "fingerprint": "848c2935835877c438b17d320fbc5a6e8dd1e1a42f66a8a6a3e6e2366423011a",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "7861a63b6ddf823902cfc9bbdfae0e7cbf541d612b250826a32ec0a129576a6e",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:59.995Z",
+  "elapsedMs": 348,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

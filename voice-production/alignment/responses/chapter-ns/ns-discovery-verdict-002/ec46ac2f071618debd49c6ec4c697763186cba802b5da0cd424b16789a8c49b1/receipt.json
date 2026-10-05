@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-discovery-verdict-002",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "A verdict offered relief from not knowing. It also ensured that every answer would arrive already classified as confession, excuse, or lie. Certainty protected the wound by closing the door to information.",
+  "voiceUrl": "voices/chapter-ns/ns-discovery-verdict-002.mp3",
+  "durationMs": 13920,
+  "audioSha256": "cc4870e367608353715180c9a5e85bbdacc2282e177955877c658dde5b34b3e1",
+  "audioBytes": 167372,
+  "textSha256": "1f98783691a99bc2249bce3611aaba43237d065cd1e4f0a0595ad76d87e346e4",
+  "fingerprint": "ec46ac2f071618debd49c6ec4c697763186cba802b5da0cd424b16789a8c49b1",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "371efada9d5adc49b5202c2eac3a0cf0e2c7f10f08831bb5f137627ef21d8480",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:13.559Z",
+  "elapsedMs": 411,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-question-join",
+  "chapterId": "chapter-6",
+  "speakerId": "aleem-adult",
+  "text": "I thought... I thought you knew. We spent so much time together. Everyone thought we were together already.",
+  "voiceUrl": "voices/chapter-6/ch6-question-join.mp3",
+  "durationMs": 6312,
+  "audioSha256": "a8fcb8edc32cf01fe6c4d3313e40c3f7e7b5ede891361f61ce4b5ee51cd16bd9",
+  "audioBytes": 76076,
+  "textSha256": "452a3890af5754dce419a2ad4ea679aadfe6163c2712ce06910d70fa2e509dcf",
+  "fingerprint": "3aad4df40984cdfee7c68079904ae4367b99acd1e1b4686af83106aa69053131",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "bcdad1d059e10b3e4f8ee64a0edc3e3e5f7184453a7992e666d8b25e82db5da3",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:31.570Z",
+  "elapsedMs": 372,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

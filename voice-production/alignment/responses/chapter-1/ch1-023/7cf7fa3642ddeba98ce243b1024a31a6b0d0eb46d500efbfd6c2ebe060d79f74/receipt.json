@@ -1,0 +1,20 @@
+{
+  "lineId": "ch1-023",
+  "chapterId": "chapter-1",
+  "speakerId": "aleem-p6",
+  "text": "Promise.",
+  "voiceUrl": "voices/chapter-1/ch1-023.mp3",
+  "durationMs": 1440,
+  "audioSha256": "1ee178f22bed7ec2358dce66a3fbc8a78c57a3fe6e45111b99056dc926d7ff02",
+  "audioBytes": 17612,
+  "textSha256": "acc72f522ba396b5a869d1e3d06ea8d5b77e4e9b8e0061d27c98f18499aef091",
+  "fingerprint": "7cf7fa3642ddeba98ce243b1024a31a6b0d0eb46d500efbfd6c2ebe060d79f74",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "1e79945f2e0f847c72e6fd6a24ee13a7b95f670ac178da14400ef6bef24755fe",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:15.291Z",
+  "elapsedMs": 304,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

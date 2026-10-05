@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-041",
+  "chapterId": "chapter-11",
+  "speakerId": "adult-aleem",
+  "text": "Curiosity became the key. I had been so occupied with whether someone would choose me that I could forget to learn who she was. Wanting to know Nurul gave my attention somewhere better to go. I could be interested without demanding a promise in return. I liked discovering how much more there was to talk about.",
+  "voiceUrl": "voices/chapter-11/ch11-041.mp3",
+  "durationMs": 22320,
+  "audioSha256": "c2969bfa5c9f248b75f98a9a18e7c8324279cc4ff5ec3d38022585c7fa8c1e57",
+  "audioBytes": 268172,
+  "textSha256": "1c363948ce4450dd8d385dfaf29a69479a5a50dbef260b58d387cabb68675ce7",
+  "fingerprint": "20b6ee2dd9319637e3396f71e01bcfb2d6a594c88e1e7523dc4c83c9e03d906c",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "2e51e562073ff6440db4b6fa47740061214b556d75acf1acc4b56f47dc653c0c",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:07.382Z",
+  "elapsedMs": 506,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

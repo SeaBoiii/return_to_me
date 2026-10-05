@@ -1,0 +1,20 @@
+{
+  "lineId": "ch1-036",
+  "chapterId": "chapter-1",
+  "speakerId": "adult-aleem",
+  "text": "There was no clever explanation. The message had been intended for somebody she trusted, somebody helping her understand a different boy.",
+  "voiceUrl": "voices/chapter-1/ch1-036.mp3",
+  "durationMs": 7992,
+  "audioSha256": "3616125e864458f1a7b4e990b11bf7d6957fc5105135c677f156b96f7425900b",
+  "audioBytes": 96236,
+  "textSha256": "9d2d88d1cce88cdd949febba8ebcc31f373cf374e348a3357d022d207b4661b1",
+  "fingerprint": "e78fd9ddf90db0ab3b1a9455c463e07ac723c9ee3b0b3890f8dd5fe9ca803cbe",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "fc6c78958efbaf5e32a82910ec9d3139d2fddbb693c282714c86ad9ab2a8c91f",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:18.902Z",
+  "elapsedMs": 668,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

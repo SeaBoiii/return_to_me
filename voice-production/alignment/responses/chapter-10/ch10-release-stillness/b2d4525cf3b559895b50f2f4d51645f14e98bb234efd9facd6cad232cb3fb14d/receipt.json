@@ -1,0 +1,20 @@
+{
+  "lineId": "ch10-release-stillness",
+  "chapterId": "chapter-10",
+  "speakerId": "adult-aleem",
+  "text": "I waited for the ache to gather itself again out of habit. It had accompanied so many quiet moments that its absence felt unfamiliar. A thought of the past crossed my mind and passed through. I didn't need to follow it all the way back. I could remain seated here, aware of where I was, feeling the next breath come as easily as the last.",
+  "voiceUrl": "voices/chapter-10/ch10-release-stillness.mp3",
+  "durationMs": 22392,
+  "audioSha256": "3bebebce1e2c9aaa861a487f8c477e57b865b14778c5761a265e14114ef0d02a",
+  "audioBytes": 269036,
+  "textSha256": "0ba867963d6858304e027322ac4e13622f990e69fd5bc22db360d9dab39872cc",
+  "fingerprint": "b2d4525cf3b559895b50f2f4d51645f14e98bb234efd9facd6cad232cb3fb14d",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "5f8fc1c6fc357a80071a14e456779de42a0e08a820600e6cdf00f690eeb60827",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:54.939Z",
+  "elapsedMs": 420,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

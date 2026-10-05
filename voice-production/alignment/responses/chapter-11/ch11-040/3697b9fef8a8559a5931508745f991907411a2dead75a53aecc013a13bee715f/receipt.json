@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-040",
+  "chapterId": "chapter-11",
+  "speakerId": "aleem-adult",
+  "text": "Yes. I wanted to know how it turned out.",
+  "voiceUrl": "voices/chapter-11/ch11-040.mp3",
+  "durationMs": 2544,
+  "audioSha256": "eacb1fcdab7028d327f0d30b6fceca625646c437de135078293ea12ea029d7fe",
+  "audioBytes": 30860,
+  "textSha256": "01f79a47083b9b32b6a7a8e74fb130b98c6cfe345df365477a636381db0b563c",
+  "fingerprint": "3697b9fef8a8559a5931508745f991907411a2dead75a53aecc013a13bee715f",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "24b9869424dff79681799489678cfba8eb739bbf3a68c3b23ca7f87d96b2b736",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:07.100Z",
+  "elapsedMs": 297,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

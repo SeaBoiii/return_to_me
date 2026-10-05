@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-085",
+  "chapterId": "chapter-2",
+  "speakerId": "hana",
+  "text": "I know the server matters to you. I never wanted you to fail at it. I just could not keep being the thing you returned to after everything urgent was finished.",
+  "voiceUrl": "voices/chapter-2/ch2-085.mp3",
+  "durationMs": 13032,
+  "audioSha256": "686e2987db5844f03a1dd90110faa45888fefa42cffb97d5654d9018f9209c1c",
+  "audioBytes": 156716,
+  "textSha256": "f464f39b69026bbfcc08a63e25d330d909414330c540a1c836e0187108bdf231",
+  "fingerprint": "f79797f3071c6cc758dbdfdc2a340fef04a03f1ae62603543d50bedebeefe7bd",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "74ded657f04f6d00a958687ae553c1fc1b84652258ba3e05e38d6a9fcffe7953",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:38.577Z",
+  "elapsedMs": 777,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

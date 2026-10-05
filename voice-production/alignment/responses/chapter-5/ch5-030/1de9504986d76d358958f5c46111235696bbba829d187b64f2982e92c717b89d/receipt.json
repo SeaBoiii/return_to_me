@@ -1,0 +1,20 @@
+{
+  "lineId": "ch5-030",
+  "chapterId": "chapter-5",
+  "speakerId": "adult-aleem",
+  "text": "When we parted, I was relieved. Partly because she seemed lighter. Partly because I no longer had to keep smiling through comparisons that had made me feel unnecessary in my own act of kindness.",
+  "voiceUrl": "voices/chapter-5/ch5-030.mp3",
+  "durationMs": 13200,
+  "audioSha256": "1b565a1359ad3c9c64f354eb7ec6aab0040a875f5fb64afc56c53b9defb8fc8e",
+  "audioBytes": 158732,
+  "textSha256": "2e4b7398075735a494b409c0e0956aa2085383a25cc821dd2bc3fe121871ae1b",
+  "fingerprint": "1de9504986d76d358958f5c46111235696bbba829d187b64f2982e92c717b89d",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "5c9b2c1704096c95f20014e3559a56f92eed5105d3d95a747b8c33d1282d81b8",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:05.534Z",
+  "elapsedMs": 467,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

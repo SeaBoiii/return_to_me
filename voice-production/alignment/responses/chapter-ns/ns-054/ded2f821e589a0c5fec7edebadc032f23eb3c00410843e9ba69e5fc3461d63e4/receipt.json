@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-054",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "Service continued. Timetables did not pause to recognise heartbreak. I returned to camp, completed tasks, answered when called, and discovered that a person can function reliably while feeling absent from his own life.",
+  "voiceUrl": "voices/chapter-ns/ns-054.mp3",
+  "durationMs": 13824,
+  "audioSha256": "da69e84064af810bf485382356b7b15b0b90b16d2871586d37279170a411e451",
+  "audioBytes": 166220,
+  "textSha256": "3e460fea955c64516dc26f46a6f3699c7969d7e9849a97cfb624792d6bd9be27",
+  "fingerprint": "ded2f821e589a0c5fec7edebadc032f23eb3c00410843e9ba69e5fc3461d63e4",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "d260fc793dae73f841e29342f2149bcbf19e04d6c987cc82c5bd43ffa0831a04",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:17.176Z",
+  "elapsedMs": 437,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

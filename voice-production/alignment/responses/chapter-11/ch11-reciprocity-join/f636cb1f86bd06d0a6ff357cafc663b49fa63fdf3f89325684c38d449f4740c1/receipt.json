@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-reciprocity-join",
+  "chapterId": "chapter-11",
+  "speakerId": "adult-aleem",
+  "text": "We met again. Then again. The first meeting became something we could refer back to, instead of the only thing we knew about being together. A familiar smile greeted me. Conversation picked up from something we had mentioned before. I began looking forward to her company in the middle of otherwise ordinary days.",
+  "voiceUrl": "voices/chapter-11/ch11-reciprocity-join.mp3",
+  "durationMs": 19344,
+  "audioSha256": "31deaff9132d0a32ee146e9c4cbde6b9d87c36b7f73dfc7c5bc6b1fdd368cadc",
+  "audioBytes": 232460,
+  "textSha256": "fba786d3eea0dc579e06616f91d21d14ab070a8c29090354faa8e4ee17bdc31f",
+  "fingerprint": "f636cb1f86bd06d0a6ff357cafc663b49fa63fdf3f89325684c38d449f4740c1",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "3345146dec6d2083658f2023b7bbb3d8a5eeaeddfab6bc04b697a4956f4fc5df",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:04.094Z",
+  "elapsedMs": 476,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

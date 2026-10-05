@@ -1,0 +1,20 @@
+{
+  "lineId": "ch7-waterfront-goodnight",
+  "chapterId": "chapter-7",
+  "speakerId": "adult-aleem",
+  "text": "Near the end of an evening, one of us would check the time and groan. We stayed for another few minutes anyway. Then she would wave, turn towards her way home, and leave me with a goodnight that meant exactly what she had said. I tried to keep the evening that simple while I waited for my own journey back.",
+  "voiceUrl": "voices/chapter-7/ch7-waterfront-goodnight.mp3",
+  "durationMs": 19824,
+  "audioSha256": "fd0b6efffd28fec238295e1ebe7f6ae1670054b4682458600439441d09cc1130",
+  "audioBytes": 238220,
+  "textSha256": "2f68d88289323f5d359500b0ed6810f4550a5895015c46f0138e159112161cdc",
+  "fingerprint": "a6e2cc06dc62786627fb26751e7532cc5663ebc8bd35857e791a50fdc32aee61",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "1a4b9570d6831cff0f61f4320431e719eb9ad1d89e8c5a9c7b75956b1e8074ed",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:40.064Z",
+  "elapsedMs": 482,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

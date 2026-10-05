@@ -1,0 +1,20 @@
+{
+  "lineId": "ch5-028",
+  "chapterId": "chapter-5",
+  "speakerId": "mei-lin",
+  "text": "Today helped. Not in a magical everything-is-fixed way. I just remembered I can have one good day while the larger problem is still there.",
+  "voiceUrl": "voices/chapter-5/ch5-028.mp3",
+  "durationMs": 10224,
+  "audioSha256": "34f350b2f0267940471d0846c21458e1d173ffd84bd196949d6c7fdfd438f034",
+  "audioBytes": 123020,
+  "textSha256": "ab7f25088a86e5a3584c57ef0ea1708c192730626617f870cc9ea37fd511cdad",
+  "fingerprint": "cc6d19819483f7fb9e2f898859047b9b589e1be1598395863588c8c257dc179e",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "bb7c557027843db3f66956360f9a42c65a7fe267a1abf827d2edca274ef5a82a",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:05.062Z",
+  "elapsedMs": 332,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

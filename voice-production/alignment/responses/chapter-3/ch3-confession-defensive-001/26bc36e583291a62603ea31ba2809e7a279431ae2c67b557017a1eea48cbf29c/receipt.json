@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-confession-defensive-001",
+  "chapterId": "chapter-3",
+  "speakerId": "aleem-sec",
+  "text": "Maybe I understood everything wrongly. If I did, just tell me. But I like you, and I need to know what all this means to you.",
+  "voiceUrl": "voices/chapter-3/ch3-confession-defensive-001.mp3",
+  "durationMs": 7848,
+  "audioSha256": "fb1a6f6203e5fff7ade30be8757ce72e33ee6765b9efadf37728568be52f7066",
+  "audioBytes": 94508,
+  "textSha256": "cd96e29eefaf14512b0146f9309b7c029abbb61d6218362f0310980f4c085760",
+  "fingerprint": "26bc36e583291a62603ea31ba2809e7a279431ae2c67b557017a1eea48cbf29c",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "10b6bc6962769c48a4316c87508d045d716e6365a7d2a8037cd8d8eddad43df8",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:49.770Z",
+  "elapsedMs": 380,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

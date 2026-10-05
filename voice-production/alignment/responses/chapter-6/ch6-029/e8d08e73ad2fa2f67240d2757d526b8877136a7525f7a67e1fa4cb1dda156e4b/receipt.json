@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-029",
+  "chapterId": "chapter-6",
+  "speakerId": "adult-aleem",
+  "text": "By fourth year, graduation had begun to appear in conversations. People discussed the world beyond campus as if we were all ready to leave. I looked at our matching gaps in the timetable and realised there would soon be no timetable holding us near each other. I needed to say something before that happened.",
+  "voiceUrl": "voices/chapter-6/ch6-029.mp3",
+  "durationMs": 19104,
+  "audioSha256": "8f3d9b484fae579ebdaecacae4c7554dfade758a513dfadfd563df09090c91a0",
+  "audioBytes": 229580,
+  "textSha256": "437a8b56b2b7e79c504ad00a6467a95e0b4bbe54453a4ac8900759b80b81b2db",
+  "fingerprint": "e8d08e73ad2fa2f67240d2757d526b8877136a7525f7a67e1fa4cb1dda156e4b",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "1308c1dd78565869c09c157d257d33e7d3dfb492693adb6d62c5c074b0196b11",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:27.558Z",
+  "elapsedMs": 470,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

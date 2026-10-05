@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-031",
+  "chapterId": "chapter-2",
+  "speakerId": "aleem-sec",
+  "text": "That sounds like him. The accurate part is that I like you.",
+  "voiceUrl": "voices/chapter-2/ch2-031.mp3",
+  "durationMs": 4296,
+  "audioSha256": "4018e78bb74b4813295000a05618bd97dea298f5aacbd9ef4d7138128b685121",
+  "audioBytes": 51884,
+  "textSha256": "4f3507ede309ad00cc23df69852c88f02af5ab646b8ca77597fbb970bfc8302e",
+  "fingerprint": "9a204745d58e3940e08fa604c20ac8c7d56460e10badefcd91fb88306fd375fb",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "9f1d4e5c60e9409886ceea6de3e95a4e82b023dc3abfc683282fc66b9e396088",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:27.317Z",
+  "elapsedMs": 385,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

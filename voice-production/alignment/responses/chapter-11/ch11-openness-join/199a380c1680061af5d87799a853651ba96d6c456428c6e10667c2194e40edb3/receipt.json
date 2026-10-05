@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-openness-join",
+  "chapterId": "chapter-11",
+  "speakerId": "adult-aleem",
+  "text": "The water kept moving below us. I thought about the timing of her arrival: after I had found some peace, after I had stopped trying to reopen an old ending. I had decided to begin a new book. Then Mariam had turned towards me, and a name I didn't know had entered my life.",
+  "voiceUrl": "voices/chapter-11/ch11-openness-join.mp3",
+  "durationMs": 19752,
+  "audioSha256": "8489ed8fb1d1689a25f2b1bf1b58f362ec93cfe1b102875a90b66e2334d572fc",
+  "audioBytes": 237356,
+  "textSha256": "905bf44603c9a7bee5476a655de62c2a6dfb9dc9abcbcc938548d8dbb3330833",
+  "fingerprint": "199a380c1680061af5d87799a853651ba96d6c456428c6e10667c2194e40edb3",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "e0e77b539d9cd7692b3b4d61585b0c7c15734353e678bb65f8bef8db19ff5a9f",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:11.607Z",
+  "elapsedMs": 462,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

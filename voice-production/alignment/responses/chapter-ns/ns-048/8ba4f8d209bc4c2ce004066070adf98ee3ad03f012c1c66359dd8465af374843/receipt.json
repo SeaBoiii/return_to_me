@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-048",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "But that night, nuance felt like an attempt to reduce the injury. The image of the woman I believed I knew collapsed, and I treated the collapse as proof that the image had been deliberately constructed for me.",
+  "voiceUrl": "voices/chapter-ns/ns-048.mp3",
+  "durationMs": 14064,
+  "audioSha256": "e7e1e4c0fcd5484c288ed3abf9e8260833315366647aa5c40b19a313fc4d1e0d",
+  "audioBytes": 169100,
+  "textSha256": "617b1b7ab227f3a015b15a966ea71ee9e67a9ac59a1a3cc7413a29d71e48a587",
+  "fingerprint": "8ba4f8d209bc4c2ce004066070adf98ee3ad03f012c1c66359dd8465af374843",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "bc31bfda158491604ff8280e9a1f32dd36ee9369505de10bd87aa6827b2c5778",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:16.187Z",
+  "elapsedMs": 501,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

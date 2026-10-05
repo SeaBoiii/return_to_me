@@ -1,0 +1,20 @@
+{
+  "lineId": "ch4-024",
+  "chapterId": "chapter-4",
+  "speakerId": "adult-aleem",
+  "text": "Family expectations did not disappear. School prestige did not stop mattering to people. What changed was the evidence I could offer myself: I was no longer waiting for shame to become motivation. I was practising different choices.",
+  "voiceUrl": "voices/chapter-4/ch4-024.mp3",
+  "durationMs": 16224,
+  "audioSha256": "52ff2292d9df49ea28d86c4d998415ba741f4ce866a10934519ae7618f5eb416",
+  "audioBytes": 195020,
+  "textSha256": "fffc8c6a1fa074743de29f7d0245d53ff400bba7c0d1cb335b76e6d0879c584c",
+  "fingerprint": "bbf1a36a0cdba2ac1b8eee19ae59bde7a666937c61087ba71682b14908e97b6f",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "4af3d44777dbeb769d75e3f80c41cba674588d75ba643cfc89e32e0bb6cea8cb",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:57.869Z",
+  "elapsedMs": 480,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

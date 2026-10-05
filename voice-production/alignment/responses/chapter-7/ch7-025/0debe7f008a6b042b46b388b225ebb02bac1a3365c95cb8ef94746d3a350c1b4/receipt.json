@@ -1,0 +1,20 @@
+{
+  "lineId": "ch7-025",
+  "chapterId": "chapter-7",
+  "speakerId": "adult-aleem",
+  "text": "The place had soft lighting, small tables, and prices that encouraged us to make jokes about the rent. Around us, people leaned close for photographs. Claire handed me her phone and asked for a picture before the food arrived. I took several because she always found something wrong with the first one.",
+  "voiceUrl": "voices/chapter-7/ch7-025.mp3",
+  "durationMs": 17184,
+  "audioSha256": "cd53c298a3ab959bc50e62ef5aa54c2b9d3fc6b038adf8af834d709246acc317",
+  "audioBytes": 206540,
+  "textSha256": "a87d3412a6c65ae36b1ff2285818c927ad7736e0df91b3c12c01680ab7eab731",
+  "fingerprint": "0debe7f008a6b042b46b388b225ebb02bac1a3365c95cb8ef94746d3a350c1b4",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "9a2d9469db9428ef6d4f15b021796b9d06b46b1eec9fa8574f9de6abd7f35bd8",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:38.376Z",
+  "elapsedMs": 456,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

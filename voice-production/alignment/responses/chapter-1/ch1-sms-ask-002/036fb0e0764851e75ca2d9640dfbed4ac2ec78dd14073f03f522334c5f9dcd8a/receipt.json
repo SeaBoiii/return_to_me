@@ -1,0 +1,20 @@
+{
+  "lineId": "ch1-sms-ask-002",
+  "chapterId": "chapter-1",
+  "speakerId": "adult-aleem",
+  "text": "I chose the smallest question I could manage. Years later, I would remember how even that gentle sentence carried the answer I was afraid to name.",
+  "voiceUrl": "voices/chapter-1/ch1-sms-ask-002.mp3",
+  "durationMs": 8952,
+  "audioSha256": "eaf79779e3e1c42fb8aa6b67c7b2d365fd03728fb54265f408be1d57b2863dfb",
+  "audioBytes": 107756,
+  "textSha256": "0d4f5e2e8c645613e980a8daae09b2294a0905fa27b910cc95d8d108bd60e0df",
+  "fingerprint": "036fb0e0764851e75ca2d9640dfbed4ac2ec78dd14073f03f522334c5f9dcd8a",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "200ada6dcce3ff3a08a138b9755fbf9e073d1e885ffebab2dc574aae921a6aa2",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:17.743Z",
+  "elapsedMs": 436,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

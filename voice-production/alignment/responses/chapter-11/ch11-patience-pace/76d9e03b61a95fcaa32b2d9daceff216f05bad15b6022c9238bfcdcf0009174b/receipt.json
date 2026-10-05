@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-patience-pace",
+  "chapterId": "chapter-11",
+  "speakerId": "adult-aleem",
+  "text": "My readiness couldn't decide hers. I could tell her what I hoped for, then leave enough room for an honest answer. I wanted whatever grew between us to be something she could step towards willingly.",
+  "voiceUrl": "voices/chapter-11/ch11-patience-pace.mp3",
+  "durationMs": 12000,
+  "audioSha256": "279ee5ccc1fa18e3985449637842050d21734ab8c0aa6825535dedc84fbebcad",
+  "audioBytes": 144332,
+  "textSha256": "b7141aea1c52e2ee722215dac07f0509d204a5f7b64909914fe192763ca1fe12",
+  "fingerprint": "76d9e03b61a95fcaa32b2d9daceff216f05bad15b6022c9238bfcdcf0009174b",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "e176c4e27ca887c6de4ae2ef99a6f7ec877f6e8cff1c38a1940ccb2c9040b747",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:05.826Z",
+  "elapsedMs": 419,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

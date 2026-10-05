@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-036",
+  "chapterId": "chapter-9",
+  "speakerId": "adult-aleem",
+  "text": "I knew the tradition associated with Jabal Rahmah: that Adam and Hawa, Adam and Eve, had met again here after coming down to earth. It was a story I carried about the place. Standing there beside someone I had loved and lost, I felt its meaning come suddenly close to my own life.",
+  "voiceUrl": "voices/chapter-9/ch9-036.mp3",
+  "durationMs": 19584,
+  "audioSha256": "6d120ecf6726b406d4b52dca53d88f5ac489b1fe2fd0272424814fe7684405ed",
+  "audioBytes": 235340,
+  "textSha256": "96ee4b162023374c24ed0f1246c6521880280112ec4b908ef97d43e7a9d466be",
+  "fingerprint": "93d27736db21805359261afce02ada22ff4116b16fb08ede61540bc83087fae9",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "a5da4c983299e559e0ee24c9990fb3f0d206bd76f0d8857ad9dada42ff025eee",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:50.670Z",
+  "elapsedMs": 465,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

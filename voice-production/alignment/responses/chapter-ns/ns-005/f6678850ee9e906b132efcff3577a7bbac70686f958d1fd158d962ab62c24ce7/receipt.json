@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-005",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "Camp compressed the world. Inside, rank, routine, and the next book-out mattered. Outside, family meals and ordinary messages acquired the brightness of another country. A weekend could feel enormous because it belonged to me for only a little while.",
+  "voiceUrl": "voices/chapter-ns/ns-005.mp3",
+  "durationMs": 19200,
+  "audioSha256": "e516a445f2329aa53b363f4833cccaeac5bfce386eecd2fe1cd98be623daa4d8",
+  "audioBytes": 230732,
+  "textSha256": "cc4588a0d6753947686074bcb92dd287f8449b30572c45e1c330e0baef42b0dd",
+  "fingerprint": "f6678850ee9e906b132efcff3577a7bbac70686f958d1fd158d962ab62c24ce7",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "7093049693d1ab4fdda3406900d9f141ac726414fea5c260f86a1ad3339f2694",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:07.857Z",
+  "elapsedMs": 651,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

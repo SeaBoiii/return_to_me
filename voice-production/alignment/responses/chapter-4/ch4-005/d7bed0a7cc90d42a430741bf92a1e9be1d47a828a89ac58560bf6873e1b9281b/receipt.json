@@ -1,0 +1,20 @@
+{
+  "lineId": "ch4-005",
+  "chapterId": "chapter-4",
+  "speakerId": "adult-aleem",
+  "text": "They were not a sequence of conquests or failed auditions. Each was a person with a life outside my question. Their names and private reasons are not needed here; none chose a relationship with me, and their answers were enough.",
+  "voiceUrl": "voices/chapter-4/ch4-005.mp3",
+  "durationMs": 15024,
+  "audioSha256": "147b8670f44a267b0384829f6d4dac92a6104cb7b2fed5ebcdbad037ea9b395a",
+  "audioBytes": 180620,
+  "textSha256": "2241b6f05cec1c35a760c0f7c4d22c69028c1438741bdd44fe2fdb29084bcc21",
+  "fingerprint": "d7bed0a7cc90d42a430741bf92a1e9be1d47a828a89ac58560bf6873e1b9281b",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "cdb2d515235caa7211d64f59500c059a5e6661a50a53abf7f2889c6f5f95d383",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:54.936Z",
+  "elapsedMs": 499,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

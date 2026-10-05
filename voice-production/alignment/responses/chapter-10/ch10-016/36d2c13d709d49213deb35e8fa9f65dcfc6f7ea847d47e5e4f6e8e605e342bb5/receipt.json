@@ -1,0 +1,20 @@
+{
+  "lineId": "ch10-016",
+  "chapterId": "chapter-10",
+  "speakerId": "imran",
+  "text": "No need to explain now. Come. We can walk a bit.",
+  "voiceUrl": "voices/chapter-10/ch10-016.mp3",
+  "durationMs": 4320,
+  "audioSha256": "8c1d8f3938e1e80f23ef18fdb89f58dec81627753c3d529eebbbc472b4958f25",
+  "audioBytes": 52172,
+  "textSha256": "2a4bf3eb1660e0292680f750a397c5ae491d745736a0fd0f5dcee1ed73f44a55",
+  "fingerprint": "36d2c13d709d49213deb35e8fa9f65dcfc6f7ea847d47e5e4f6e8e605e342bb5",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "f7621f317cc48db951a4ddaca5dc3177b44f84b5fe34b868ebab11ab66e97362",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:56.630Z",
+  "elapsedMs": 333,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

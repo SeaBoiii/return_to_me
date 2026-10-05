@@ -1,0 +1,20 @@
+{
+  "lineId": "ch8-003",
+  "chapterId": "chapter-8",
+  "speakerId": "aleem-adult",
+  "text": "Imran, I'm thinking of going for Umrah. Properly thinking about it. Would you come with me?",
+  "voiceUrl": "voices/chapter-8/ch8-003.mp3",
+  "durationMs": 4152,
+  "audioSha256": "2ec2824f8e4338158373bf427a18fd004dc7a1d9258039c3a45539bdc052064b",
+  "audioBytes": 50156,
+  "textSha256": "a2bc42a73d8b6aa0366c0c15187b47cc1f29ebf814118131ef4564b78987cb3b",
+  "fingerprint": "2d69d68ab9d51d68d79eb75cb01d7a3bf6990d88937fa9b168baa5d40b118adf",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "7fce7f0b3215be4595d572ecc9c124e714d27029d484dab58eb81846f3dac2d9",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:42.197Z",
+  "elapsedMs": 342,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

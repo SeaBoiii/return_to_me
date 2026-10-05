@@ -1,0 +1,20 @@
+{
+  "lineId": "ch5-018",
+  "chapterId": "chapter-5",
+  "speakerId": "mei-lin",
+  "text": "That is excellent food being wasted. Do you know how many hours of studying I could have survived with that snack?",
+  "voiceUrl": "voices/chapter-5/ch5-018.mp3",
+  "durationMs": 7752,
+  "audioSha256": "2cc84706f7ffb7e111499f29ea9820bcc3c88826ee53ee72f8ccc882054445fb",
+  "audioBytes": 93356,
+  "textSha256": "7e6b2a8b140695fd10fd7767770dd25dc15662b23a6c19bcdd5fd9216bd22a6a",
+  "fingerprint": "77100edfe752b0db0f40520c8ff3f96f13d9dc601fd36b0fc356f2bee1c47852",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "921e14db16b607ed9d0646075f38c2ffb4c1ce1d1b8acf3bfcaa145d300bfe0b",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:02.521Z",
+  "elapsedMs": 392,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

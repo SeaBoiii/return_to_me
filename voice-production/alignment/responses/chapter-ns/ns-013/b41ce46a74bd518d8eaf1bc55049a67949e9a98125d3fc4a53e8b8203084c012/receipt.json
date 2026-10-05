@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-013",
+  "chapterId": "chapter-ns",
+  "speakerId": "nadiah",
+  "text": "You look like somebody just asked you a question and you missed all of it.",
+  "voiceUrl": "voices/chapter-ns/ns-013.mp3",
+  "durationMs": 6000,
+  "audioSha256": "eafa46548b5716233e0da28f3550c092370eb9a28a5dd8221e074906432c576b",
+  "audioBytes": 72332,
+  "textSha256": "a78a49376c2af5f509e3ea30102006d8cd3037dfc989e0f613dcdd3ea8153246",
+  "fingerprint": "b41ce46a74bd518d8eaf1bc55049a67949e9a98125d3fc4a53e8b8203084c012",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "b183ec4fde8785ee41bf1fe542a052f32b93ff5fa047ad015bae50c557638432",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:08.820Z",
+  "elapsedMs": 342,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

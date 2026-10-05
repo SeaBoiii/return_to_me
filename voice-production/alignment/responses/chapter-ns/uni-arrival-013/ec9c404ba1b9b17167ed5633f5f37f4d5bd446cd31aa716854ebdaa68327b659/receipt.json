@@ -1,0 +1,20 @@
+{
+  "lineId": "uni-arrival-013",
+  "chapterId": "chapter-ns",
+  "speakerId": "aleem-young-adult",
+  "text": "Slow down. You are outside. Nobody followed you. Just breathe until your hands stop feeling like this.",
+  "voiceUrl": "voices/chapter-ns/uni-arrival-013.mp3",
+  "durationMs": 8400,
+  "audioSha256": "c72e18c671955b05d1b423aaa7d3734d8b16a5003769214e86a46347fb2c1cac",
+  "audioBytes": 101132,
+  "textSha256": "6009a1c7cfa24bf40f8c9ee29189803955f34445c0c46bc8fce754ac629a9566",
+  "fingerprint": "ec9c404ba1b9b17167ed5633f5f37f4d5bd446cd31aa716854ebdaa68327b659",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "358ea7c8c2f7839209738427494b29f31c94af2e6fd477230fd9759fbc2d76ae",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:20.870Z",
+  "elapsedMs": 404,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

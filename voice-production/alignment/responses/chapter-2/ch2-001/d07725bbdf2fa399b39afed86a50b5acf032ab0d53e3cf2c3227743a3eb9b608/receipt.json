@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-001",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "My secondary school was a boys' school. Every classroom, assembly, and crowded canteen table made that fact completely unremarkable. Girls belonged to other schools, other buses, and stories told by friends with suspicious confidence.",
+  "voiceUrl": "voices/chapter-2/ch2-001.mp3",
+  "durationMs": 16080,
+  "audioSha256": "90d6c46b822c80fc38bfbcb9e2be459c34b66cfcda9af076e69a66513a1fba63",
+  "audioBytes": 193292,
+  "textSha256": "d59db53e601502da0b0538edf9c83543014d5bbb13228a9841e111d42339fbb8",
+  "fingerprint": "d07725bbdf2fa399b39afed86a50b5acf032ab0d53e3cf2c3227743a3eb9b608",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "638f6372d3bcc8531ad0667c26a46b877488132b029fe4aec20e943af1d4fc19",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:21.586Z",
+  "elapsedMs": 689,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

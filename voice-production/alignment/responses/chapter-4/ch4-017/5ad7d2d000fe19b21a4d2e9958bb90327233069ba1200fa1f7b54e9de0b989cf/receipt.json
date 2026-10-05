@@ -1,0 +1,20 @@
+{
+  "lineId": "ch4-017",
+  "chapterId": "chapter-4",
+  "speakerId": "mei-lin",
+  "text": "You solved the difficult part correctly, then lost a mark because your final line looks like it escaped during an emergency.",
+  "voiceUrl": "voices/chapter-4/ch4-017.mp3",
+  "durationMs": 8472,
+  "audioSha256": "947ea31b2989bb32271f29236b4cfcac036fecdce3fccdd7ad73d00572687a00",
+  "audioBytes": 101996,
+  "textSha256": "55ab76b31ebb350744860faae0698da5e88bea4ec5a155e4beea5576b7c06f90",
+  "fingerprint": "5ad7d2d000fe19b21a4d2e9958bb90327233069ba1200fa1f7b54e9de0b989cf",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "643b7270dec0373164256c3be5b88998a26bc696b2bfc4854b663df4c90d9dab",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:56.961Z",
+  "elapsedMs": 412,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

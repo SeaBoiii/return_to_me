@@ -1,0 +1,20 @@
+{
+  "lineId": "prologue-006",
+  "chapterId": "prologue",
+  "speakerId": "adult-aleem",
+  "text": "Memory is not a recording. It keeps the warmth of an afternoon and loses the date. It saves one sentence while whole months blur around it. So I will not pretend every word happened exactly this way.",
+  "voiceUrl": "voices/prologue/prologue-006.mp3",
+  "durationMs": 15144,
+  "audioSha256": "9cd8e0e08bd9eec389ef3b482a0776121a34a27aa259429e60cd0c19a9909842",
+  "audioBytes": 182060,
+  "textSha256": "18cde3762eaa85208e319d599d918dedb1d55dfbab1fe775a064cce8448ee10e",
+  "fingerprint": "61ca38ce811fb6e42803abce046cb41ee6ee96211fa64f272c3b4f5c146506d3",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "3ee80715af3711a452c5ae03c9b7e5438f2d27184ba188ba6041bea883d170f5",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:09.480Z",
+  "elapsedMs": 982,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

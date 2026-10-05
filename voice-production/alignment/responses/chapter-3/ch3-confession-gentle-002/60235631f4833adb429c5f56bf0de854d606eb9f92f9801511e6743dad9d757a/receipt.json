@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-confession-gentle-002",
+  "chapterId": "chapter-3",
+  "speakerId": "adult-aleem",
+  "text": "I tried to leave room around the question. Gentle wording could reduce pressure, but it could not guarantee a gentle outcome. Some truths hurt however carefully they are invited in.",
+  "voiceUrl": "voices/chapter-3/ch3-confession-gentle-002.mp3",
+  "durationMs": 11664,
+  "audioSha256": "ef382f63a9ec46c1a2202c04570a5665e96134e3da80dbe795912bb8d85e1292",
+  "audioBytes": 140300,
+  "textSha256": "5e1bc295d50e57241f7db0e26015c28251c69caf1004a8be2e7d6dbd99388799",
+  "fingerprint": "60235631f4833adb429c5f56bf0de854d606eb9f92f9801511e6743dad9d757a",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "ab8c954c74d785af4161799d7dd30961f89af8b3ae54946c4430c41a67465c3a",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:49.885Z",
+  "elapsedMs": 617,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

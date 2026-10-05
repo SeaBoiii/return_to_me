@@ -1,0 +1,20 @@
+{
+  "lineId": "ch4-028",
+  "chapterId": "chapter-4",
+  "speakerId": "aleem-sec",
+  "text": "She has been good to me. That does not mean I should hand her a problem just because keeping it private is difficult.",
+  "voiceUrl": "voices/chapter-4/ch4-028.mp3",
+  "durationMs": 6120,
+  "audioSha256": "346b36d12d104b88838a6d546d383f880d80eb6d6e4c023f0666c60464eab90c",
+  "audioBytes": 73772,
+  "textSha256": "b5a17ecad9a717d568b0b14b40499efc5105e7a363e9d1627bc46d79fd142eda",
+  "fingerprint": "a3badaca449073844d05545116869e53c6a9ae0a999fdfe606b145a458bc2520",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "9997edb2c09ed4ed5a3683553af8757a68500dc32568d082d2f73bc18a8b562f",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:58.360Z",
+  "elapsedMs": 341,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-022",
+  "chapterId": "chapter-11",
+  "speakerId": "adult-aleem",
+  "text": "The grill gave us pauses without making them feel empty. We could stop to eat, look down to see what was ready, then return to a sentence. Nurul seemed more at ease as we talked. She would tell me that meeting face to face was much better. I was glad she had given the person behind those dry messages a chance.",
+  "voiceUrl": "voices/chapter-11/ch11-022.mp3",
+  "durationMs": 20544,
+  "audioSha256": "4fe0a46a6b5cf19535a0df3d1cf11153e199985de97c3440ce224a671645316a",
+  "audioBytes": 246860,
+  "textSha256": "f4b4427b79a2b0ef2c0ec4203819255066a70681db6c3c811d81ebaa326f3083",
+  "fingerprint": "c63fe784d048718d4a69d975c0709a21e8c623a998bfecca5d9d6081f04d4aca",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "d7503ebc0b4090bc48522f8dfdda0189196c54a6e689cdf4a79c8a8174254263",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:02.809Z",
+  "elapsedMs": 483,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

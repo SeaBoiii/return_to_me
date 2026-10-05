@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-042",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "Players joined. A community formed. Support began arriving from people who valued the place enough to contribute. I was making real money from something I had built in my bedroom.",
+  "voiceUrl": "voices/chapter-2/ch2-042.mp3",
+  "durationMs": 11520,
+  "audioSha256": "340358bbbfdf8c7e7d6d8154566db7d805c96d92e09ba636d8eff53e62722f59",
+  "audioBytes": 138572,
+  "textSha256": "c589f4bffe17e8ad9de3756098f64ee76ff6bc2e46631cf236d37def899d5d00",
+  "fingerprint": "1add1de9d60f1cbb71ee90008c1639cc5e5ed282e52bccf5481037ab78ffbd92",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "49ff70432ae878a0e56c416ec74d40d0fa09f1f0bd4ae74a9375f88fa2640438",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:29.214Z",
+  "elapsedMs": 521,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

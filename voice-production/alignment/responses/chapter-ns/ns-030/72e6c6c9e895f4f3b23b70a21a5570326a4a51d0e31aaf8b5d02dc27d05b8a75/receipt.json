@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-030",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "She did remember. She made space for me, and I made space for her. Whatever remained unresolved elsewhere in her life does not make every tender moment counterfeit. Memory becomes less honest when pain is allowed to erase all preceding care.",
+  "voiceUrl": "voices/chapter-ns/ns-030.mp3",
+  "durationMs": 19680,
+  "audioSha256": "7201a0ec93f2a98d86b40f40716d9a7c98f60fc1780a79b09188d88a0f1c78cd",
+  "audioBytes": 236492,
+  "textSha256": "58a68fc1e35cac809d8fac7cbabc76496a7c75c05deacd939de61b30cd19a8e2",
+  "fingerprint": "72e6c6c9e895f4f3b23b70a21a5570326a4a51d0e31aaf8b5d02dc27d05b8a75",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "4e05f36ade8978897a828f4ee7e5ba6cd4c341f1eabf0847b60bbd7ddb3a48d4",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:11.524Z",
+  "elapsedMs": 521,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

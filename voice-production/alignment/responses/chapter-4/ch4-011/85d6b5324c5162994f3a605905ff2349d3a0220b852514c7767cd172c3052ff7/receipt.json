@@ -1,0 +1,20 @@
+{
+  "lineId": "ch4-011",
+  "chapterId": "chapter-4",
+  "speakerId": "adult-aleem",
+  "text": "Mei Lin had been in my class from the beginning. She was Chinese, wore glasses, and was so much shorter than me that our conversations looked as though one of us had chosen the wrong camera angle.",
+  "voiceUrl": "voices/chapter-4/ch4-011.mp3",
+  "durationMs": 11424,
+  "audioSha256": "e0022f846815c2a5b8f892c9e07b5ca362ae255633a1d8607e5b3df44000af60",
+  "audioBytes": 137420,
+  "textSha256": "e3bcc4c62d179aab0a449da98ed3c9326b59a90db539a6e1e1246f9b7e1f219d",
+  "fingerprint": "85d6b5324c5162994f3a605905ff2349d3a0220b852514c7767cd172c3052ff7",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "946b5db97a93356c88042ff659ed55ebdc4b70aaeac1533db1fba77f5d6b4327",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:56.259Z",
+  "elapsedMs": 577,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "uni-arrival-threat-scan-details-001",
+  "chapterId": "chapter-ns",
+  "speakerId": "aleem-young-adult",
+  "text": "Blue chairs. Two doors. Three ceiling lights in this row. One table near the aisle. Keep counting what is actually here.",
+  "voiceUrl": "voices/chapter-ns/uni-arrival-threat-scan-details-001.mp3",
+  "durationMs": 8712,
+  "audioSha256": "1b56eabe7dd5a446c6e8c6b03ec6ffb72f832025b79165cccc35b21557ac7eaf",
+  "audioBytes": 104876,
+  "textSha256": "ed34510aeb3d4c1985a362e578ff6181162188e3fbd03724fdfb306edc4f25b6",
+  "fingerprint": "c80baac307f61fbf253cb99f454a053d0da204bda5fe708584cca22cb31ec4a6",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "5fcae7936f069fbb06f54e123283ae0c6d09c50bdd1eeff4c276f2fbc434df8f",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:19.817Z",
+  "elapsedMs": 387,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

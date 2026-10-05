@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-013",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "Conversation arrived in pieces: complaints about vocabulary lists, comparisons of long commutes, recommendations for songs. She was observant without making a show of it.",
+  "voiceUrl": "voices/chapter-2/ch2-013.mp3",
+  "durationMs": 12240,
+  "audioSha256": "f8247460f7cfdb6119a8a0aa582658882e2db8d02c71d17d69d443aa53932e75",
+  "audioBytes": 147212,
+  "textSha256": "37b6e0d952631669b62efffed6adaa3f6c2e34e9864816f85697c8045da01562",
+  "fingerprint": "52f0c4ddf5c2df0d3aaf3b5cfe5a3ca897ddb0d2ca851e371c345abe8417fc1a",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "e9332cf49c8d9d59007411fa968168cd805a51930d38fad462352eee53536741",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:23.817Z",
+  "elapsedMs": 871,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

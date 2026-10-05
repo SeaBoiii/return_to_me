@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-037",
+  "chapterId": "chapter-6",
+  "speakerId": "adult-aleem",
+  "text": "At home, I put the outing plans away, then opened them again. I had spent too long preparing to cancel. That was the reason I gave myself. Underneath it was another one: if I cancelled, these words might stay inside me forever, and I was tired of being the only person who heard them.",
+  "voiceUrl": "voices/chapter-6/ch6-037.mp3",
+  "durationMs": 19032,
+  "audioSha256": "b5e29cb756e3f9e4e2d44125811c14a02966634dc99b78ca06044b17d9f55786",
+  "audioBytes": 228716,
+  "textSha256": "ed44fb160216190d5af1e34c24290211579a69800d775d4f7d5114e49bfd8cea",
+  "fingerprint": "d8afdcd46b2c601080e660f69e83c42342e6cb53b856ebbb80c2a8a752f57509",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "24fe4ce2b2aea95fdaaa6757272c9f3a8d5caa89dcef89d2bd00759a17fb2436",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:29.655Z",
+  "elapsedMs": 530,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

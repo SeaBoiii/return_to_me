@@ -1,0 +1,20 @@
+{
+  "lineId": "ch5-035",
+  "chapterId": "chapter-5",
+  "speakerId": "adult-aleem",
+  "text": "At the time, leaving felt respectful. If she wanted distance, I would provide it before she needed to ask. That story protected me from another explicit rejection and allowed me to call retreat consideration.",
+  "voiceUrl": "voices/chapter-5/ch5-035.mp3",
+  "durationMs": 13824,
+  "audioSha256": "2b913d9d38557de2a26da5835bb109c9d1484d3a272cce769460e2b08e4fbe74",
+  "audioBytes": 166220,
+  "textSha256": "3a6273fd3f9fece9c1a302ebba75bc227abea2e2d1fdbd515321a28aa3d24f3f",
+  "fingerprint": "123717f51d65bbe79ebbc7fa67fce0b4d57cbc0ff30c8b028c80c8b214a954d8",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "5f30931f62889de3cca092bf3f4d7920e6b0db865ee56106ceae3d9d7c93327f",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:06.294Z",
+  "elapsedMs": 504,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

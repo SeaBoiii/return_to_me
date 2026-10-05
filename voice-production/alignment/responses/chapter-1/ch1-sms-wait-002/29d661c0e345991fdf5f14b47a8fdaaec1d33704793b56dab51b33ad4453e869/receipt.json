@@ -1,0 +1,20 @@
+{
+  "lineId": "ch1-sms-wait-002",
+  "chapterId": "chapter-1",
+  "speakerId": "adult-aleem",
+  "text": "Years later, I would remember that silence as my first instinct under hurt: become still, hope the other person explains, and pretend waiting is the same as being protected.",
+  "voiceUrl": "voices/chapter-1/ch1-sms-wait-002.mp3",
+  "durationMs": 11184,
+  "audioSha256": "f33b6cb7096b0228e44dd45cc78539da3c675c98b1e921d33032415a417e3c77",
+  "audioBytes": 134540,
+  "textSha256": "416abcddb9c0d8c2b44962018cf6bc9c3404c784ef9f473731155a4c58f473cb",
+  "fingerprint": "29d661c0e345991fdf5f14b47a8fdaaec1d33704793b56dab51b33ad4453e869",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "372d978960df3c16f64c79cecc7735ed0d03fa9b259089a3ad9c42d1ed204eec",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:18.229Z",
+  "elapsedMs": 480,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch5-001",
+  "chapterId": "chapter-5",
+  "speakerId": "adult-aleem",
+  "text": "Results day in 2016 returned us to school in clothes that no longer matched the timetable. We occupied our old gathering places without belonging to the routine around them, carrying envelopes and trying to read one another's faces.",
+  "voiceUrl": "voices/chapter-5/ch5-001.mp3",
+  "durationMs": 16080,
+  "audioSha256": "73c1cd5af4d30743b177368e4ac27172a897e626f5ea2c6b7ad409d369ffbd66",
+  "audioBytes": 193292,
+  "textSha256": "00e80b4e3c2f9b5c33e63354094823db7eff6808bd5cf46ff15e1077b9085218",
+  "fingerprint": "cf46913d68d8b57f86e75aaa2ebc235072cf3f277f5596bd4fcfd46484dbf847",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "2463b39e72fb3e986e3884b1bf2280d205fb59451819a2798d831f17db93e776",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:59.998Z",
+  "elapsedMs": 464,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

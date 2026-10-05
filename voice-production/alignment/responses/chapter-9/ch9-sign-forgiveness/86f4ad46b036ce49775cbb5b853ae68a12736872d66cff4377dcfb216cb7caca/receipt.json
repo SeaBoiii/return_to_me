@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-sign-forgiveness",
+  "chapterId": "chapter-9",
+  "speakerId": "adult-aleem",
+  "text": "Perhaps this was what I needed: her face without the old shock arriving behind it. I wanted to keep the ease of this conversation when we left the mountain, to remember her and still feel able to breathe.",
+  "voiceUrl": "voices/chapter-9/ch9-sign-forgiveness.mp3",
+  "durationMs": 13344,
+  "audioSha256": "27def79274a27a3252d136d992a7ad1f8f612bd5edeae06ad3b854c37b4a8b7c",
+  "audioBytes": 160460,
+  "textSha256": "74ea286c6e5990b1c14b1673dd5da26a20432d3f9a67810073ddbc63f07290cf",
+  "fingerprint": "86f4ad46b036ce49775cbb5b853ae68a12736872d66cff4377dcfb216cb7caca",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "07d2cb3fcf0ce72cebc1ef235e79c39ca85e7348c00e4bcc261f8dbf701c4214",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:51.078Z",
+  "elapsedMs": 403,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

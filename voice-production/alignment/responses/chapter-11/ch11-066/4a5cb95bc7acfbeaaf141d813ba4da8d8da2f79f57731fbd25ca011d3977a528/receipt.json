@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-066",
+  "chapterId": "chapter-11",
+  "speakerId": "aleem-adult",
+  "text": "I'm really happy you came into my life when you did. After Umrah, I felt like I could begin again. Then I met you. It feels like the pieces have been clicking together.",
+  "voiceUrl": "voices/chapter-11/ch11-066.mp3",
+  "durationMs": 9744,
+  "audioSha256": "c446b38ad6317bea4c1e345a616b2474bd925708bd288525872ddb53dc5ba047",
+  "audioBytes": 117260,
+  "textSha256": "76391244e7621aa80e326cfee41dc38034460569b00dac35e842deb3bc2583be",
+  "fingerprint": "4a5cb95bc7acfbeaaf141d813ba4da8d8da2f79f57731fbd25ca011d3977a528",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "2000318a40a78ccd3e0f8cd4f718e0434f0669e71696248920cc5ebc42c3498a",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:11.798Z",
+  "elapsedMs": 400,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

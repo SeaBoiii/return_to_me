@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-015",
+  "chapterId": "chapter-6",
+  "speakerId": "jia-wen",
+  "text": "We're friends lah. You all see two people eating lunch and immediately start planning a wedding.",
+  "voiceUrl": "voices/chapter-6/ch6-015.mp3",
+  "durationMs": 6624,
+  "audioSha256": "503af73acc2903a615fcc003907fbab4e61322150a22ba6455f9803584e28677",
+  "audioBytes": 79820,
+  "textSha256": "519f6a8f69624a07528578e91b6171c03beb6a9b97f8da58b88db89c5cb06981",
+  "fingerprint": "5bd2ea97f5eb10516020f36e4409fb481f0c66bfde34e80664a9f7352ad4c538",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "8732cbdd94a5df242e35d9f3f308013283cb147beba939dc07e738a38542f009",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:24.144Z",
+  "elapsedMs": 356,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

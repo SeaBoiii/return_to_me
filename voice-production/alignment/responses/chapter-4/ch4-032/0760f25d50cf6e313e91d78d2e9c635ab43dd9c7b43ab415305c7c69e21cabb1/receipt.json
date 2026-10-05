@@ -1,0 +1,20 @@
+{
+  "lineId": "ch4-032",
+  "chapterId": "chapter-4",
+  "speakerId": "aleem-sec",
+  "text": "You need a more convincing plan. I will tell them you joined a travelling mathematics society.",
+  "voiceUrl": "voices/chapter-4/ch4-032.mp3",
+  "durationMs": 4224,
+  "audioSha256": "9d098f620e13b805b14dda1f92f188125842feb4aa07e4fc1757d2aa78fa165e",
+  "audioBytes": 51020,
+  "textSha256": "6639c49e180246af4f864328801aa459787452899c98ae50418d5ddb1ce5cb13",
+  "fingerprint": "0760f25d50cf6e313e91d78d2e9c635ab43dd9c7b43ab415305c7c69e21cabb1",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "c8346712248bc8c78b705499dcf4498c614fa709f341324cd07f1f6ac8225095",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:59.356Z",
+  "elapsedMs": 501,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

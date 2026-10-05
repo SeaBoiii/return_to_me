@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-042",
+  "chapterId": "chapter-6",
+  "speakerId": "adult-aleem",
+  "text": "When we found a quieter place beneath the lights, I stopped pretending to study the view. My prepared sentences had deserted me. She noticed my hands, then my face, and waited. After years of conversation, the space before this one felt longer than anything we had ever said.",
+  "voiceUrl": "voices/chapter-6/ch6-042.mp3",
+  "durationMs": 19440,
+  "audioSha256": "63b2c204209ee855068eed7f175f87989b4a6d90b82d853981d7757a582f4dbc",
+  "audioBytes": 233612,
+  "textSha256": "7df0ad770784c08bc6d4d5f5eb00489142cc2a2ad93776dd91b81e1e703c16aa",
+  "fingerprint": "dea80e696f520cc02d7647e08b70763a7cbad1f3316ae8d933ae23c9a4d003fb",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "68decb4edd2ea5194e8d7c67a73f2fad09831684c5258d6deeedc8a008caff1d",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:30.625Z",
+  "elapsedMs": 672,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

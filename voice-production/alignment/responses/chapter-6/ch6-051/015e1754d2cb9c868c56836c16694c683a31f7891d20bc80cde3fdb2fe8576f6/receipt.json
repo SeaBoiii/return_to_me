@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-051",
+  "chapterId": "chapter-6",
+  "speakerId": "jia-wen",
+  "text": "Okay. I won't push you. Take care of yourself, can?",
+  "voiceUrl": "voices/chapter-6/ch6-051.mp3",
+  "durationMs": 4464,
+  "audioSha256": "113678eca7f15a7b21608e6d126508a24a7008cf85932be1339ba287d3993f22",
+  "audioBytes": 53900,
+  "textSha256": "6934abbd0ee1bc8ca57e603bba4602b642c7ae44b7cc4df4b6c41dadce495067",
+  "fingerprint": "015e1754d2cb9c868c56836c16694c683a31f7891d20bc80cde3fdb2fe8576f6",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "b3c3328d7499f68d479c44d5d7e2b2f867c974ce0642fd6773d5f4aadc767926",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:32.962Z",
+  "elapsedMs": 332,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

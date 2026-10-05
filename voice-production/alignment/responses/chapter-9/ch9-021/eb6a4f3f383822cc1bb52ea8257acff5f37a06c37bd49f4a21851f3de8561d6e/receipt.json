@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-021",
+  "chapterId": "chapter-9",
+  "speakerId": "adult-aleem",
+  "text": "Five became fewer. Somewhere in the ordinary changes of pace and pauses, the others were no longer beside us. When I looked around, it was just Nadiah and me. Nobody had announced that we should be together. I hadn't manoeuvred to make it happen. Yet there she was, close enough to hear me speak without raising my voice.",
+  "voiceUrl": "voices/chapter-9/ch9-021.mp3",
+  "durationMs": 22632,
+  "audioSha256": "e9ba24acafd252e6c1f51732ca37de785bc76f518dcbc69c0b2240d2da5ea566",
+  "audioBytes": 271916,
+  "textSha256": "9b6d0a8c674a4eca0d1a8cd47dfbc9f3fdfd249aed6f157b88e88c1d897909b8",
+  "fingerprint": "eb6a4f3f383822cc1bb52ea8257acff5f37a06c37bd49f4a21851f3de8561d6e",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "da1f700f1733e6c9d3dfa83b9294636b739b1182eefe81246148b257d35a31f6",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:47.485Z",
+  "elapsedMs": 705,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

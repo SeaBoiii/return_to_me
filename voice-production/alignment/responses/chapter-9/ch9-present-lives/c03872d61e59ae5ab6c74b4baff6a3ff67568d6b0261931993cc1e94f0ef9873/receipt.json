@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-present-lives",
+  "chapterId": "chapter-9",
+  "speakerId": "adult-aleem",
+  "text": "There were things each of us needed to explain from the beginning. We no longer knew all the people in the other's daily life, or what an ordinary afternoon looked like. That gap could have made me sad. Instead I liked hearing her fill a little of it. The girl I remembered was here, with years of living I hadn't been there to see.",
+  "voiceUrl": "voices/chapter-9/ch9-present-lives.mp3",
+  "durationMs": 23352,
+  "audioSha256": "d2b494b2e8ffe41f805cfb52f6c3c377658ef96250521050b2ffc204f194f5eb",
+  "audioBytes": 280556,
+  "textSha256": "ebfb2bbe7c43607f313e70287df9652a6741163d992748c29173b16e880d05ff",
+  "fingerprint": "c03872d61e59ae5ab6c74b4baff6a3ff67568d6b0261931993cc1e94f0ef9873",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "45dae96555e08c5c3d20480a67d2d50fa3a4e26c0fbfe43e00d5428412579505",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:48.847Z",
+  "elapsedMs": 671,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-032",
+  "chapterId": "chapter-9",
+  "speakerId": "adult-aleem",
+  "text": "Later, I kept thinking about that change from five people to two. Out of everyone in the group, out of all the possible ways a day could unfold, we had been given that stretch of time. I knew how ordinary the explanation might be. It still felt extraordinary to be the person walking beside her again.",
+  "voiceUrl": "voices/chapter-9/ch9-032.mp3",
+  "durationMs": 22152,
+  "audioSha256": "8401e3ac0094e3f2dc7cae2e9228a7d8fe873347a384afbf8dee560e137426b0",
+  "audioBytes": 266156,
+  "textSha256": "1b8dc2f2836934ed2521235973d3ee3ad9bad31c8cb98b7a47d7a9b381edd85e",
+  "fingerprint": "3ace00ad8708cd3dd5346bc230798cbeab2a3c6a02356505351586f4427a8fd3",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "be78b7ce5e115ca00b53dc041cf343aff97d2dfb07633dd19e677533e4325bd1",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:49.889Z",
+  "elapsedMs": 480,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

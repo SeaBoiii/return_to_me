@@ -1,0 +1,20 @@
+{
+  "lineId": "ch1-035",
+  "chapterId": "chapter-1",
+  "speakerId": "alya",
+  "text": "Wait—Aleem? Oh no. I sent that to the wrong person. I am so sorry.",
+  "voiceUrl": "voices/chapter-1/ch1-035.mp3",
+  "durationMs": 8880,
+  "audioSha256": "c526f7bbeb149ef266edb4e7fd9a0e9ad2b20be0802eb6a467c201a9a03ca053",
+  "audioBytes": 106892,
+  "textSha256": "21dce9ab6f5d9ca0698d9c1fc44bd24989a4dadf4d1d0bb2919aa4aafb453ad5",
+  "fingerprint": "c3801bfa97488e0df2a1466e89ba0de111ade120977aa4dcb3ec2946eb2c8b17",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "3dc4d047284f7ac40e58f1807bcbe2d784c9059a02ece2464d28a0e13e4edaf2",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:18.793Z",
+  "elapsedMs": 718,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch7-changed-plans",
+  "chapterId": "chapter-7",
+  "speakerId": "adult-aleem",
+  "text": "I could still send her something funny and get a reply. That almost made the change harder to explain to myself. There was no single conversation I could point to and call the ending. I simply stopped assuming she would be free, and began putting the phone down before asking about places we had once said we should visit.",
+  "voiceUrl": "voices/chapter-7/ch7-changed-plans.mp3",
+  "durationMs": 19440,
+  "audioSha256": "f85a1660f50e07ea88d2236d17e567ca6070a9ddccfed024e50b779577839f0e",
+  "audioBytes": 233612,
+  "textSha256": "cc90d83a463313c6b9d15ef19ca7e60b19710ba9dcbb68d6fbdbd05231bb03c5",
+  "fingerprint": "1ef9034deb2aa9f67f4d90710a0cff1e3477e2e7bdbc06b8d536944c755f5467",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "8443ce56d76b9de23a80e0cc34d11ebe1fa4d3d69e20c510c1bd12ca7d4a72dd",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:41.011Z",
+  "elapsedMs": 452,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

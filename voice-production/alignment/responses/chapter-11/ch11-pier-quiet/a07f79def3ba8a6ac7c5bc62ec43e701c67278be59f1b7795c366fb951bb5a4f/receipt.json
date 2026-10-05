@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-pier-quiet",
+  "chapterId": "chapter-11",
+  "speakerId": "adult-aleem",
+  "text": "For a moment I watched the light on the water instead. I could feel how much I had said, and how calm it was between us afterwards. The stories hadn't made her look at me as though I belonged somewhere else. When I turned back towards her, I still felt welcome beside her.",
+  "voiceUrl": "voices/chapter-11/ch11-pier-quiet.mp3",
+  "durationMs": 18960,
+  "audioSha256": "69dd4050b6432af35b49064968afd4d37171349ef4c915a85c2f39f1967a5abd",
+  "audioBytes": 227852,
+  "textSha256": "cc17434a29c85d852be2516cb2ed3c4d6547560ae27bc840f2d0e27f65e2d672",
+  "fingerprint": "a07f79def3ba8a6ac7c5bc62ec43e701c67278be59f1b7795c366fb951bb5a4f",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "e681ae583e3a2f961565da5491e966441f47b2f8339d770c21357069c5b9b8d2",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:11.138Z",
+  "elapsedMs": 480,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

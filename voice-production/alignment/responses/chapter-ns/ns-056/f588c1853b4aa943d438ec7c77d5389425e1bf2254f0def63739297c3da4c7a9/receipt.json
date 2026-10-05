@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-056",
+  "chapterId": "chapter-ns",
+  "speakerId": "aleem-young-adult",
+  "text": "No more. I cannot trust Malay girls. If I never let another one close, this cannot happen to me again.",
+  "voiceUrl": "voices/chapter-ns/ns-056.mp3",
+  "durationMs": 5904,
+  "audioSha256": "9f50468938a3e50da62527bf17e5af067f2951ac0996f5cd8caa237767b7441a",
+  "audioBytes": 71180,
+  "textSha256": "354e17a702abd80df6c754272f455e3696d0e0a5ce9624e64d4f12de18de3368",
+  "fingerprint": "f588c1853b4aa943d438ec7c77d5389425e1bf2254f0def63739297c3da4c7a9",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "871189ccbd3d7ca59ad911b6f1f112391d9c45d8ca80f3f5452835fb5a66b972",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:17.352Z",
+  "elapsedMs": 329,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

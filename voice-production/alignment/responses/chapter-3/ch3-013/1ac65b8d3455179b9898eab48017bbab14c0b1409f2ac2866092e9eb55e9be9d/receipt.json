@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-013",
+  "chapterId": "chapter-3",
+  "speakerId": "syafiqa",
+  "text": "Of course. Very responsible. Come, our class is this way.",
+  "voiceUrl": "voices/chapter-3/ch3-013.mp3",
+  "durationMs": 5592,
+  "audioSha256": "ba95aa61670558d0897320152b7829c317cb87ea4c6c8acf78bc248c449b62b1",
+  "audioBytes": 67436,
+  "textSha256": "b37ff2847d3b6400983ddf079f84dd19e8d46dd287309fd81e4197666ac55056",
+  "fingerprint": "1ac65b8d3455179b9898eab48017bbab14c0b1409f2ac2866092e9eb55e9be9d",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "ed823074cc21fdf233a73f2a075bd984776860800eccb2a471ef0dd1326b2c88",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:45.603Z",
+  "elapsedMs": 565,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch10-020",
+  "chapterId": "chapter-10",
+  "speakerId": "adult-aleem",
+  "text": "I wanted us to have another chance; I could admit that quietly to myself. Yet I began to understand that we weren't meant to begin again together. I did not need to press her for a place she hadn't offered. Whatever remained unresolved for her was hers to understand. I could care about her while taking my own next step.",
+  "voiceUrl": "voices/chapter-10/ch10-020.mp3",
+  "durationMs": 21672,
+  "audioSha256": "e65c012caa9e64409e3661192ab3a01d4f1d46e5fe79e59899f390128595fde0",
+  "audioBytes": 260396,
+  "textSha256": "782dea53c6650d043dd7f70bbdcfdcc0bdaff372c53b59bf92491481cea96adc",
+  "fingerprint": "0a94ffd982ad92bd471b6f8336b5a27666f3ace622460c8b3030ab50eec83bd6",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "993514d2e84551d7d7eb3a3d3d650d0619305e3e2c5a9471d5373a60db44a91f",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:57.627Z",
+  "elapsedMs": 510,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

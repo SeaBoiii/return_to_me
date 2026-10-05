@@ -1,0 +1,20 @@
+{
+  "lineId": "ch1-sms-ask-001",
+  "chapterId": "chapter-1",
+  "speakerId": "aleem-p6",
+  "text": "Alya... was that message meant for me?",
+  "voiceUrl": "voices/chapter-1/ch1-sms-ask-001.mp3",
+  "durationMs": 3336,
+  "audioSha256": "abee483e1fd6a198e68c4f8f2565ffca6f085cda9675ef769a7dd49bed99b153",
+  "audioBytes": 40364,
+  "textSha256": "fc521edc5c466264a5969035507f2c7c0bf05c35bae71838eb1aa49904d9c477",
+  "fingerprint": "c824a47702d11427d10688b8207f2ed5df8984840acaa0b8b86e924621a35f93",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "726bdca1eb0935ee938c795055dbcdaf5ef1200032c51b89df4d845d88108fc8",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:17.641Z",
+  "elapsedMs": 335,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

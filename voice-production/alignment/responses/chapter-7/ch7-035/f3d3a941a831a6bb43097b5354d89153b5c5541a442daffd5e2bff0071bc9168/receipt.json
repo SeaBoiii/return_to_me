@@ -1,0 +1,20 @@
+{
+  "lineId": "ch7-035",
+  "chapterId": "chapter-7",
+  "speakerId": "adult-aleem",
+  "text": "At home, I opened a picture from one of our outings. The table, the food, the lighting we had made fun of. I remembered being happy there. Then I locked the phone and sat in the quiet, exhausted by how often happiness had become something I could only visit afterwards.",
+  "voiceUrl": "voices/chapter-7/ch7-035.mp3",
+  "durationMs": 19752,
+  "audioSha256": "6a96dbd9b249636131b941faec236278910ad6988b8aea21d7a4021e9e51b24a",
+  "audioBytes": 237356,
+  "textSha256": "4ac4f978a251dd39e084a2e68d419f0469e74d4a7576cfa5d58035f6d3eea674",
+  "fingerprint": "f3d3a941a831a6bb43097b5354d89153b5c5541a442daffd5e2bff0071bc9168",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "96025795978d04c38c30a6180ef1d00d5187c297fa2d093c6576db88e877595d",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:41.345Z",
+  "elapsedMs": 445,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

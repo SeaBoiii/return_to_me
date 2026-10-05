@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-003",
+  "chapterId": "chapter-9",
+  "speakerId": "adult-aleem",
+  "text": "There were other people to get to know in our tour group. Faces became names, then familiar places to look when somebody called for us. I stood beside Imran and listened, still feeling the strangeness of being so far from my usual days. Then I heard a voice I already knew.",
+  "voiceUrl": "voices/chapter-9/ch9-003.mp3",
+  "durationMs": 18792,
+  "audioSha256": "6ff5382c383c541cc1fb35f89453c5ef741e1f893d01a59848a622e1b6fec71f",
+  "audioBytes": 225836,
+  "textSha256": "4bf05941f78f887409cb51dfa128c965cf75ce88fb14927ba40997cb39c6c868",
+  "fingerprint": "68df5e5c35ef495e5d3dac0bc54abb1cce49e98504a959d3a74f171833d40cf5",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "6a46e4a92622c96bf70d9bc89393e23725256c5b4c5389d8bbbc25a5cb548be4",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:44.080Z",
+  "elapsedMs": 505,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-bus-possibility-001",
+  "chapterId": "chapter-3",
+  "speakerId": "aleem-sec",
+  "text": "Maybe she feels something. Maybe she simply trusts me. Guessing harder will not turn either possibility into an answer.",
+  "voiceUrl": "voices/chapter-3/ch3-bus-possibility-001.mp3",
+  "durationMs": 6576,
+  "audioSha256": "c92de65023f261d1ce0a8154a064b880ec1a5329c0193fb272d56091e4447299",
+  "audioBytes": 79244,
+  "textSha256": "36bae1da8a4d84b008038772617f581efbabbb081986eecf0e623579f8972654",
+  "fingerprint": "608a69bce55e74f823769748bc0c505227a0c6928ddf181aa4e5126cbb8178e1",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "d44e5499fa19c9b2af7c56f27661fbf4dc0a50201c3f401b46c0834c5a1cc902",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:47.552Z",
+  "elapsedMs": 383,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

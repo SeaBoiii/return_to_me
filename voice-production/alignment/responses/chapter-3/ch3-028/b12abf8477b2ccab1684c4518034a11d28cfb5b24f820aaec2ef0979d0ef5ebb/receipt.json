@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-028",
+  "chapterId": "chapter-3",
+  "speakerId": "adult-aleem",
+  "text": "What confused me was the space between our routines and our words. We could arrange whole days around each other, yet neither of us spoke about whether the closeness pointed anywhere beyond friendship.",
+  "voiceUrl": "voices/chapter-3/ch3-028.mp3",
+  "durationMs": 13272,
+  "audioSha256": "b2769d156e289721fd1415d4b09de00516be32756921b55640420dcae588fd38",
+  "audioBytes": 159596,
+  "textSha256": "bc8e1920f611c713d306fda5bdc694b82cee616efdae343652eacb60264e7004",
+  "fingerprint": "b12abf8477b2ccab1684c4518034a11d28cfb5b24f820aaec2ef0979d0ef5ebb",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "0497095e32bedd44ce9fdb5d6bb66f86dbf855a766317d3b1ea53f6dc197ec1b",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:48.923Z",
+  "elapsedMs": 524,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

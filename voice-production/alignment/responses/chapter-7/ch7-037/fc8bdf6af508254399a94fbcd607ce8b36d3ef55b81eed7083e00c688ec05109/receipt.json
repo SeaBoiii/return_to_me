@@ -1,0 +1,20 @@
+{
+  "lineId": "ch7-037",
+  "chapterId": "chapter-7",
+  "speakerId": "aleem-adult",
+  "text": "Maybe that's enough. Maybe I just stop looking for love.",
+  "voiceUrl": "voices/chapter-7/ch7-037.mp3",
+  "durationMs": 4464,
+  "audioSha256": "02f32a6d53866c9f3b4883d62d5e5ffd28b0616d5f87f6d8ccae09b6fdcbe272",
+  "audioBytes": 53900,
+  "textSha256": "99521196b182fee5da67e0c3fbce94f23edaab32856f76737c75e73f7b247ca4",
+  "fingerprint": "fc8bdf6af508254399a94fbcd607ce8b36d3ef55b81eed7083e00c688ec05109",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "574b1dc73e22c7785d966d6c459cad150bdf984fdb82c99e0ffc5e4084f68db8",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:41.430Z",
+  "elapsedMs": 325,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

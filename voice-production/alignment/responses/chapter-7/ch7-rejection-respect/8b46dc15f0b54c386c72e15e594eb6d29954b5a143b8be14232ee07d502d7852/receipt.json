@@ -1,0 +1,20 @@
+{
+  "lineId": "ch7-rejection-respect",
+  "chapterId": "chapter-7",
+  "speakerId": "aleem-adult",
+  "text": "I won't ask you to change that for me. I knew religion mattered, but I hoped there might be a way you saw this differently. Now you've told me. I respect it. Give me a little time to get past what I was hoping to hear.",
+  "voiceUrl": "voices/chapter-7/ch7-rejection-respect.mp3",
+  "durationMs": 14640,
+  "audioSha256": "294205fe09ce90107e2c63dfa1be1634b1ff9aa7c1149c4b5750ed1d6045157d",
+  "audioBytes": 176012,
+  "textSha256": "34083ed1367e80d796c3daf18b1d75cb54984b882cd780e402384df157009ad4",
+  "fingerprint": "8b46dc15f0b54c386c72e15e594eb6d29954b5a143b8be14232ee07d502d7852",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "770f145c4125873edf33cd74dc62d275666fe44f31a6688e8e2269c1b244570a",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:37.021Z",
+  "elapsedMs": 437,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

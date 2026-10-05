@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-047",
+  "chapterId": "chapter-11",
+  "speakerId": "aleem-adult",
+  "text": "No, not long. Thank you for meeting me.",
+  "voiceUrl": "voices/chapter-11/ch11-047.mp3",
+  "durationMs": 3264,
+  "audioSha256": "eb13b4ddf34611c407dc128f9bd76682d115e97ead8a9ea6daac58394cc77e06",
+  "audioBytes": 39500,
+  "textSha256": "b467267099ee79151c61559f2916c2bc6eafc705ab0d5ed531c80e8c8e882994",
+  "fingerprint": "4eada6c4b352055f936de205446fb248b6a51848ca5de99d51ec0660c60c34a2",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "8a2032b9cdb6d556c6a4d1b24b854cd4e04ea821653448aa5d2e872e41c78655",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:08.170Z",
+  "elapsedMs": 326,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

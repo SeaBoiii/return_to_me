@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-010",
+  "chapterId": "chapter-11",
+  "speakerId": "adult-aleem",
+  "text": "My excuse was familiar to me. If a girl wasn't interested, I didn't want to pour my effort and energy into persuading her. I had done enough waiting beside one-sided conversations. But I had brought that caution into a conversation with someone who kept showing up. I was watching for her interest while doing very little to show my own.",
+  "voiceUrl": "voices/chapter-11/ch11-010.mp3",
+  "durationMs": 21744,
+  "audioSha256": "9af5b5d0456cf4473cc79d9a362856b641849848aaf7f54fcaf2fe100600a46a",
+  "audioBytes": 261260,
+  "textSha256": "eab1adcf48143f5a35fa7cea32896225fb641f79d70a53a2a57cb5eb6cda59c0",
+  "fingerprint": "93c065e71682ecbd182790bbf2af54247e7c3c7224cec4171daf5892baabafb8",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "39184bf045c17016a6db730012ab396eda1cb2d1f2f3f75a6c4cc429aac6d939",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:01.088Z",
+  "elapsedMs": 677,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

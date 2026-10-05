@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-067",
+  "chapterId": "chapter-11",
+  "speakerId": "adult-aleem",
+  "text": "That was how it felt, sitting there with her. I couldn't explain every part of His plans. I could feel my gratitude for the path that had brought me to this evening: the release, the introduction, her persistence, and our growing willingness to meet each other honestly. I wanted her to know how happy I was that she was here.",
+  "voiceUrl": "voices/chapter-11/ch11-067.mp3",
+  "durationMs": 23040,
+  "audioSha256": "e9067504c6286ffe05ff8de8ea4254c0dce146d86f0e31a02cd8520ff067b0fc",
+  "audioBytes": 276812,
+  "textSha256": "3f66f8b8364af80d2e64fea49cdae5d91a30b34ccd28b6251004fe496780ae5c",
+  "fingerprint": "5f69022db68878f05467dbfb8ec25dd00f9d1efc60ddbbeb39ead812b86d205a",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "f787b092773461ccceff5f5a29fa5e71b0708d10a6659792da99131255dee0c4",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:12.049Z",
+  "elapsedMs": 535,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

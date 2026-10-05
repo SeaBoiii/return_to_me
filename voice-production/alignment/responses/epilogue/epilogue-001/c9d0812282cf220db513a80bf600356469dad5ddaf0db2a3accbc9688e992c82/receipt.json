@@ -1,0 +1,20 @@
+{
+  "lineId": "epilogue-001",
+  "chapterId": "epilogue",
+  "speakerId": "adult-aleem",
+  "text": "We got engaged. Now we are preparing for our wedding, with things to arrange, decisions to make, and a future that keeps appearing inside ordinary conversations. I used to wonder whether anyone would want to plan a life with me. These days, I find myself discussing the next thing we need to do with Nurul.",
+  "voiceUrl": "voices/epilogue/epilogue-001.mp3",
+  "durationMs": 19344,
+  "audioSha256": "06ae4aa7d0af6393f7b0ec357969f9b6fa059746404f527e788b4f10475f6493",
+  "audioBytes": 232460,
+  "textSha256": "b8858a3a0b791ba35f5bdc6a487db6337d12fec5002e597c1ccf9848c4a90e0b",
+  "fingerprint": "c9d0812282cf220db513a80bf600356469dad5ddaf0db2a3accbc9688e992c82",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "4f63cbc03e2d15ecea9525d8f5822bb367543c7d7895fd10dd52821ab06dd01f",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:12.633Z",
+  "elapsedMs": 467,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

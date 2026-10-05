@@ -1,0 +1,20 @@
+{
+  "lineId": "ch4-023",
+  "chapterId": "chapter-4",
+  "speakerId": "adult-aleem",
+  "text": "For the first time since the server years, discipline began to feel like something I could build rather than something other people possessed. A completed topic led to the next. Questions became less threatening when I returned to them daily.",
+  "voiceUrl": "voices/chapter-4/ch4-023.mp3",
+  "durationMs": 15024,
+  "audioSha256": "54fa59b8010513a4d5af568d236a5e5fbe16ee48ce1874620eee931f036173f2",
+  "audioBytes": 180620,
+  "textSha256": "7733375134a467aaa6cb4720686e1135ba287abf0eb8cbe0879919912bf9bed0",
+  "fingerprint": "e41a47e6231945f771d35e967ba0402bf3166a36f7d7980bc8f7df6e12fe22c0",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "d70ec2e3cab9429e258fe9fa9e722177cb24d937889e8863929fc2867b62d7e2",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:58.014Z",
+  "elapsedMs": 628,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

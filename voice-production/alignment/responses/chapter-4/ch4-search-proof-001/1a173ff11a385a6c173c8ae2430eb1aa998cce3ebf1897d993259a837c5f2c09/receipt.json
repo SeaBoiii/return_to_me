@@ -1,0 +1,20 @@
+{
+  "lineId": "ch4-search-proof-001",
+  "chapterId": "chapter-4",
+  "speakerId": "aleem-sec",
+  "text": "One person saying yes would prove I am not the problem everyone eventually discovers. I need to know I can be chosen.",
+  "voiceUrl": "voices/chapter-4/ch4-search-proof-001.mp3",
+  "durationMs": 7848,
+  "audioSha256": "be5d9181ad36138ff4699517f5b96271a38425c92611f694c021886f8a7602ad",
+  "audioBytes": 94508,
+  "textSha256": "270250979cc723b1bec8f5d7378dd28392a5604183259ad735fcf38a6fef46e6",
+  "fingerprint": "1a173ff11a385a6c173c8ae2430eb1aa998cce3ebf1897d993259a837c5f2c09",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "2bca9c5d643e415ef2b0d0c4533b0f182d69b4b49a8872e205696ef0d64b94fa",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:54.275Z",
+  "elapsedMs": 416,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

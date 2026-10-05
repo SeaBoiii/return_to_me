@@ -1,0 +1,20 @@
+{
+  "lineId": "ch4-020",
+  "chapterId": "chapter-4",
+  "speakerId": "adult-aleem",
+  "text": "She noticed when frustration made me rush. I noticed when one poor practice paper made her unusually quiet. Support moved in both directions, practical and unannounced.",
+  "voiceUrl": "voices/chapter-4/ch4-020.mp3",
+  "durationMs": 13272,
+  "audioSha256": "441ec989bd6a627f914184d5bf7b66ef3dcca2315bc81fe29f1c80df0ad5edd7",
+  "audioBytes": 159596,
+  "textSha256": "aa2b61c261570751c736b78a8799ab9de6527d67e1f85b30ef3f8d560b5d9450",
+  "fingerprint": "14a94ffdc9a0dc35c324f481a7c2027fda37e3a67b8d12dce07576ba3dd750af",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "8009b626d4c93027c37f39033a6cccfbb8bdb60e8c56426cbe3f78ba0793695c",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:57.381Z",
+  "elapsedMs": 392,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

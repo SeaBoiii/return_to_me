@@ -1,0 +1,20 @@
+{
+  "lineId": "ch7-012",
+  "chapterId": "chapter-7",
+  "speakerId": "aleem-adult",
+  "text": "This is my normal voice. Very professional person, me.",
+  "voiceUrl": "voices/chapter-7/ch7-012.mp3",
+  "durationMs": 3120,
+  "audioSha256": "46d172d26ae8328400751b11dcc8f5122b28cc407b2390ad681d85a9e53d6ff5",
+  "audioBytes": 37772,
+  "textSha256": "59fab2ebe599b5ab832538a761445692c276cd77cd5853282ec737d3c9f60d4a",
+  "fingerprint": "9453708367a409415a40f456e35a87e99cde82649ecfcfa2f557a915ac7e18f7",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "9e1dca1588d1d7ffeb3e8027fa8298a1f229463f0eac5b997e0cafb3070139b9",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:35.333Z",
+  "elapsedMs": 312,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-058",
+  "chapterId": "chapter-11",
+  "speakerId": "adult-aleem",
+  "text": "I treasure that part of her account because I hadn't been able to see it happening inside her. I had simply tried to speak honestly to two kind people. Later, knowing what the evening had meant to her, I felt grateful that she had let me come, and that we had given each other the time to understand it.",
+  "voiceUrl": "voices/chapter-11/ch11-058.mp3",
+  "durationMs": 16944,
+  "audioSha256": "4baa52d5989051ac4aa734779600db439f57ed41bd4e5a9fb500072288f75f10",
+  "audioBytes": 203660,
+  "textSha256": "ca0dc302a855110454f244af905cba04a3058a1ce370dfa3520e6a4625089100",
+  "fingerprint": "2476dc7892ba1e483042820bd531b223d42990b0652762417353de215bdb2734",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "5901b82f2940b5c20e4fdb29dd0e39476cd53fad18bc5c7308f7d591ddf27b89",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:09.824Z",
+  "elapsedMs": 589,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

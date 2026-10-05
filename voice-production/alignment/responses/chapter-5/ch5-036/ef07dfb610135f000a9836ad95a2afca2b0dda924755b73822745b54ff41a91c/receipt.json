@@ -1,0 +1,20 @@
+{
+  "lineId": "ch5-036",
+  "chapterId": "chapter-5",
+  "speakerId": "adult-aleem",
+  "text": "Years later, I could see the irony. I had been wounded when difficult truths reached me indirectly, yet I now expected Mei Lin to understand my withdrawal without the direct words I wished others had given me.",
+  "voiceUrl": "voices/chapter-5/ch5-036.mp3",
+  "durationMs": 13440,
+  "audioSha256": "cd6d5cf4f0ee644c3f1d874c43f4c555da9c2c5c61b5075137471f1b8c5a008e",
+  "audioBytes": 161612,
+  "textSha256": "117aed29f9746a91e96196e08ed6ac4f455ee2d98e42dc7fa2dceefb52872df9",
+  "fingerprint": "ef07dfb610135f000a9836ad95a2afca2b0dda924755b73822745b54ff41a91c",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "9a639c94ddd069414ffd3201eda8047b67f605f40a229020f04e2fdc66a90c70",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:06.591Z",
+  "elapsedMs": 603,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

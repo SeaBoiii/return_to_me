@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-057",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "Avoidance promised safety by turning ethnicity into a warning label. It also prevented any future person from being encountered as herself. I did not recognise the cost because withdrawal felt like the first decision I controlled.",
+  "voiceUrl": "voices/chapter-ns/ns-057.mp3",
+  "durationMs": 15672,
+  "audioSha256": "cf45dbc2bdb8d69b8b8f266ea7881077a2bf64af492f1aadb8a44bac2e714b52",
+  "audioBytes": 188396,
+  "textSha256": "cb7c30ceb772e14fa6238860bfad946d2a174359019edfa0b7b8a0d7089e7c7b",
+  "fingerprint": "8d84f948e3cf6a70c12399eb11b6eb2607bbc0378833e8a2d9bc4faa6afe5893",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "1846c4d417b3ea1ebeaa8c2a68f9bd0dd71183b0d4fe409eec4192f6efd311c6",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:17.801Z",
+  "elapsedMs": 620,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

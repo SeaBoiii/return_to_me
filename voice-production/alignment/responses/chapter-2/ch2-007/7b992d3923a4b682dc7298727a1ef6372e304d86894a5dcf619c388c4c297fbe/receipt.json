@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-007",
+  "chapterId": "chapter-2",
+  "speakerId": "hana",
+  "text": "Do you know what page we are supposed to be on?",
+  "voiceUrl": "voices/chapter-2/ch2-007.mp3",
+  "durationMs": 3120,
+  "audioSha256": "3f6d33a3ad1e364679ee93672d801b3b55dabb13143928076f904d288c29e6fc",
+  "audioBytes": 37772,
+  "textSha256": "692677a2c394b4170d4a933c8a57bb569d628e88f0f9eba27d4c78ec5d6bf35a",
+  "fingerprint": "7b992d3923a4b682dc7298727a1ef6372e304d86894a5dcf619c388c4c297fbe",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "44ca0c7077fc439f77c011fa6ab28a55dd67910906b59ebdc28feb8485a0cb40",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:22.503Z",
+  "elapsedMs": 348,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

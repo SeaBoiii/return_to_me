@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-014",
+  "chapterId": "chapter-11",
+  "speakerId": "adult-aleem",
+  "text": "Across the grill, Nurul became more than the person keeping my phone conversation alive. Her smile was bright. I could see when a thought amused her before she said it, and hear the small changes in her voice that a message couldn't carry. We settled opposite each other with beef to grill and plenty we still didn't know.",
+  "voiceUrl": "voices/chapter-11/ch11-014.mp3",
+  "durationMs": 18864,
+  "audioSha256": "2f2ae67a8196751ca8ee36fe19ec165409a9250793b814972d4005b244258f6b",
+  "audioBytes": 226700,
+  "textSha256": "298e37bb1d98f65345429c30697a53190e8a13534dc14a5ff6a8446d82fec4f3",
+  "fingerprint": "709959cccb3eeb8f9b5e8012122efd11006827c8642e994d8eb225796e6d9dbe",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "9f8485911aad7c6245368a53cd90833103c88fb16dd5704b5f2c32d61397ddff",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:01.575Z",
+  "elapsedMs": 482,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch1-018",
+  "chapterId": "chapter-1",
+  "speakerId": "adult-aleem",
+  "text": "I laughed because the future sounded harmless when Alya teased it. Neither of us knew how completely a timetable could rearrange a friendship, or how difficult affection became without daily proximity.",
+  "voiceUrl": "voices/chapter-1/ch1-018.mp3",
+  "durationMs": 12312,
+  "audioSha256": "da8c96fef7bbdef8407cf854319a4ef19a6b629364fdf3c3fd349663e114e742",
+  "audioBytes": 148076,
+  "textSha256": "fda1dd4a19fb8d809a9027d1161d85d3b8208a40710785381045503c534e7f8f",
+  "fingerprint": "7caf1c3b988e73300dba20a990feb84dd5f4a1136ff687b2aaf111a2a125c761",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "cdd3d20c86c53ec2323a2a70fe895c85185bc69cee2c44a478985f7cec47ab15",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:14.555Z",
+  "elapsedMs": 667,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

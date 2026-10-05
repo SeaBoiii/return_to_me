@@ -1,0 +1,20 @@
+{
+  "lineId": "ch7-before-valentines",
+  "chapterId": "chapter-7",
+  "speakerId": "adult-aleem",
+  "text": "I still rehearsed. That part had survived every lesson. But this time, when I imagined her answer, I tried to let it be something I hadn't chosen for her. It was easy enough alone in my room. In the morning, seeing a message from her made me hopeful all over again, and I had to start the exercise over.",
+  "voiceUrl": "voices/chapter-7/ch7-before-valentines.mp3",
+  "durationMs": 20544,
+  "audioSha256": "63838c858191a4d34cef2c2425ee9fa5bf31d6a8857efff958c44c6e07c13434",
+  "audioBytes": 246860,
+  "textSha256": "ec0102711b609daba5a2a825c1c5a698bd3b767b221c17bcdb4284a7e3a43d5c",
+  "fingerprint": "820a8820c578bfc834d5171aff29ad8f9b97bd6bf8fccef4dcd96afb9afa5fd3",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "931239bf1f2c2e7ed080f0bc1da8dced353810dad4924d6059a155816bb4c726",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:35.876Z",
+  "elapsedMs": 537,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

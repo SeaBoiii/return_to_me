@@ -1,0 +1,20 @@
+{
+  "lineId": "ch5-023",
+  "chapterId": "chapter-5",
+  "speakerId": "adult-aleem",
+  "text": "Somewhere across those hours, another name kept returning: Daniel—the pseudonym I use here for a guy she knew through church. I remember the pattern more clearly than the sentences, so I will not invent exact comparisons memory did not preserve.",
+  "voiceUrl": "voices/chapter-5/ch5-023.mp3",
+  "durationMs": 15984,
+  "audioSha256": "3792f7b4f6592ce34d9c2ab92567540a02ed5890c84bdb5e6ad6644a87baa3e9",
+  "audioBytes": 192140,
+  "textSha256": "81133ae24e80f26d2d6ff5af58eff09f54c1a9ad208e5146035ec44a1e3937b7",
+  "fingerprint": "996d4c03101345cbd2e912f336c4dcb9609739e99f35e43d8876293f3ea20056",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "6a98ede31ffe43dd53799b3b602f046dfc65bc53bc7915bbe4f99c8e945d24bb",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:03.402Z",
+  "elapsedMs": 476,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

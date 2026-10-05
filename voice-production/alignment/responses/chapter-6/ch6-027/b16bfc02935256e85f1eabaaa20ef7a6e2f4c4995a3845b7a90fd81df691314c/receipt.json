@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-027",
+  "chapterId": "chapter-6",
+  "speakerId": "jia-wen",
+  "text": "Message when you reach, okay? And don't forget to eat. You were so busy complaining you never finished dinner.",
+  "voiceUrl": "voices/chapter-6/ch6-027.mp3",
+  "durationMs": 7992,
+  "audioSha256": "4be5731f0484d0a5db8cdd696cca1379157427b13ddc68f509ba0ec9e7405d57",
+  "audioBytes": 96236,
+  "textSha256": "38c30c00bad16714e8aee3cd5fd98ce5c59472b068cebc7c20e8dd92803fd74c",
+  "fingerprint": "b16bfc02935256e85f1eabaaa20ef7a6e2f4c4995a3845b7a90fd81df691314c",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "2a754b5022de18777f636145a430da52413d8d2ec6552eae018d7d262da484a3",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:27.083Z",
+  "elapsedMs": 398,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

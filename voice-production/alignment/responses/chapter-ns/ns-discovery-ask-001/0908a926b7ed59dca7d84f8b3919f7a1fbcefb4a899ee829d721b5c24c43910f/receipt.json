@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-discovery-ask-001",
+  "chapterId": "chapter-ns",
+  "speakerId": "aleem-young-adult",
+  "text": "Did she tell you she was going with him? Do you know whether they are together, or only what is in this picture?",
+  "voiceUrl": "voices/chapter-ns/ns-discovery-ask-001.mp3",
+  "durationMs": 5112,
+  "audioSha256": "50db5d0049bca173c0453e80ee8764ccc1d78a8bb2fe1c2fc294e2447c89958f",
+  "audioBytes": 61676,
+  "textSha256": "f389724b6f033f2b9486d30f23e97af2696d00e44ed4db23bfcc51f3eb7a12fa",
+  "fingerprint": "0908a926b7ed59dca7d84f8b3919f7a1fbcefb4a899ee829d721b5c24c43910f",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "3a8dec2ecffea1454a3099de338701546423f7531cbe91b04a6016898c87061c",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:12.814Z",
+  "elapsedMs": 345,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

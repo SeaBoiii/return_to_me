@@ -1,0 +1,20 @@
+{
+  "lineId": "ch10-001",
+  "chapterId": "chapter-10",
+  "speakerId": "adult-aleem",
+  "text": "Madinah came after Makkah. I carried the two climbs with me, the sound of Nadiah laughing, the little hesitations I couldn't explain. I also carried the reason I had made this journey in the first place. Beneath every new possibility was the same tired part of me that had wanted somewhere to put everything down.",
+  "voiceUrl": "voices/chapter-10/ch10-001.mp3",
+  "durationMs": 20784,
+  "audioSha256": "0a41c3066b7757c29c8af719705bba69e470b0dcfc94554685d9358f78859443",
+  "audioBytes": 249740,
+  "textSha256": "6b0e7e8a1edae06618b407dfff4eb096226a9cd0f62f3b559585f1c37fd494b2",
+  "fingerprint": "e0ebc3a04bc08718d83bc4e351a0072ece26869153d75b71cbc0a69aa49f0407",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "843d136e6b5cafe0022a9402e84c29d194e4166e2b94c572a21db471fdf6abc7",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:52.945Z",
+  "elapsedMs": 524,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

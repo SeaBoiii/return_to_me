@@ -1,0 +1,20 @@
+{
+  "lineId": "ch10-023",
+  "chapterId": "chapter-10",
+  "speakerId": "aleem-adult",
+  "text": "Kak, you already offered me a seat before I even saw the chair.",
+  "voiceUrl": "voices/chapter-10/ch10-023.mp3",
+  "durationMs": 3504,
+  "audioSha256": "74e11bcf94aacdabb0d0641d24b380e54bfcbb23fdb0687e01041b7a01095e71",
+  "audioBytes": 42380,
+  "textSha256": "b8d24cc3ed379035093e7627b6743828d53f028763cc55b7fd374bccdba7e08c",
+  "fingerprint": "c2e5ac9ff11c4564bd16890232d5619c56b2fb07fee7bd49738937e8f24a7062",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "0045d6fd8cef27395388cdba707e62bc23dd58d26a94f5bcf2e6cf01e79a9c5b",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:58.467Z",
+  "elapsedMs": 319,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

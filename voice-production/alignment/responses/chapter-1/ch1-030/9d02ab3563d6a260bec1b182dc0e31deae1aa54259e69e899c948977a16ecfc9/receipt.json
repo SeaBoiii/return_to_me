@@ -1,0 +1,20 @@
+{
+  "lineId": "ch1-030",
+  "chapterId": "chapter-1",
+  "speakerId": "adult-aleem",
+  "text": "We still called ourselves together, but the relationship lived mostly in the assumption that we would speak properly tomorrow.",
+  "voiceUrl": "voices/chapter-1/ch1-030.mp3",
+  "durationMs": 6480,
+  "audioSha256": "d753782e6526a93e43974524acae37d3c887e2e7cf68d63dcdaf320f7779a2b3",
+  "audioBytes": 78092,
+  "textSha256": "6af752aab65cf0b7f91c461a46bad997f201d9ac037d550c55b21942212a479e",
+  "fingerprint": "9d02ab3563d6a260bec1b182dc0e31deae1aa54259e69e899c948977a16ecfc9",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "762a413e4a51ba92d0425671d5f2e2bd3b63f6407720ce6c7c2c5a239d346f9b",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:16.556Z",
+  "elapsedMs": 427,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

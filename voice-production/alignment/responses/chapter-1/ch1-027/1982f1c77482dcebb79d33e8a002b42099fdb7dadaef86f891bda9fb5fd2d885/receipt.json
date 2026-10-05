@@ -1,0 +1,20 @@
+{
+  "lineId": "ch1-027",
+  "chapterId": "chapter-1",
+  "speakerId": "alya",
+  "text": "Mine keeps forgetting she is the monitor. Maybe they should swap.",
+  "voiceUrl": "voices/chapter-1/ch1-027.mp3",
+  "durationMs": 7032,
+  "audioSha256": "1dea622b29dc98516e446d6363ab238e616e761a3534782d9e7972a674b39fde",
+  "audioBytes": 84716,
+  "textSha256": "283d97c780c2e9f99b1d16a5c3a2a0e92bc811093dab7dad5ee6824d5e6524c4",
+  "fingerprint": "1982f1c77482dcebb79d33e8a002b42099fdb7dadaef86f891bda9fb5fd2d885",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "5c0e95ce14f1c734cde602c9fd83c9918f4db23f7d6b04b165dcdda048f713be",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:16.101Z",
+  "elapsedMs": 433,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

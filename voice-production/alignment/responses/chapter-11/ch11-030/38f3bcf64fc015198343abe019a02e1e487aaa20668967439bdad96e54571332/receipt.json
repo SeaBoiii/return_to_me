@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-030",
+  "chapterId": "chapter-11",
+  "speakerId": "nurulain",
+  "text": "What's next?",
+  "voiceUrl": "voices/chapter-11/ch11-030.mp3",
+  "durationMs": 1200,
+  "audioSha256": "3e8d81e77f05f079968ae498f1d9322bdf3a785c954001aacc7330aedd82e6af",
+  "audioBytes": 14732,
+  "textSha256": "9ff1257d106c90a90af9ee3dfd2785d82caa16f14a7f73d497d9ad2dc4edc415",
+  "fingerprint": "38f3bcf64fc015198343abe019a02e1e487aaa20668967439bdad96e54571332",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "8a1703191c79cb92fa606f4b58bc7b48e7d4a036190870eae6141490dd464302",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:04.947Z",
+  "elapsedMs": 345,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "uni-arrival-011",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "Those thoughts were the old prejudice moving at the speed of alarm. They revealed what heartbreak had trained me to expect; they revealed nothing about the women whose faces I was judging.",
+  "voiceUrl": "voices/chapter-ns/uni-arrival-011.mp3",
+  "durationMs": 11664,
+  "audioSha256": "46a14c827b5f2e7d5a88cac09cad9abb835242030614ebafc0455e5c66b11e80",
+  "audioBytes": 140300,
+  "textSha256": "92733619944c995800e8f25b19bf4d24be27e2fb1a58f2b00952c63ef6f168d0",
+  "fingerprint": "127e17b9b4319ebbffd9489928236e916611ba583a1ddca568557fef57cdb276",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "9d6ec8fe4ae0e2d2023984ef0fc44fafacdc9232de01d46e8d76319e9287e05a",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:19.712Z",
+  "elapsedMs": 443,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,6 +1,6 @@
 import { defineConfig, devices } from "@playwright/test";
 
-const port = 4173;
+const port = Number(process.env.PLAYWRIGHT_PORT ?? 4173);
 const basePath = "/return-to-me-test/";
 
 export default defineConfig({

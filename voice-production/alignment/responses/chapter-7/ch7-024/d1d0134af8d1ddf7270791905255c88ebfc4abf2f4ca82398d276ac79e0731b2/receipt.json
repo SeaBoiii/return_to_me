@@ -1,0 +1,20 @@
+{
+  "lineId": "ch7-024",
+  "chapterId": "chapter-7",
+  "speakerId": "aleem-adult",
+  "text": "As your very objective food research partner, yes.",
+  "voiceUrl": "voices/chapter-7/ch7-024.mp3",
+  "durationMs": 3744,
+  "audioSha256": "24249619475cc464048fb7fee624b18cb1152cfdfcf243a4f9e2d4ae7efd1cc0",
+  "audioBytes": 45260,
+  "textSha256": "8ff446eda9c22e5aab19d609eaf472282cb5a76043f2623070364c8abe1c22e3",
+  "fingerprint": "d1d0134af8d1ddf7270791905255c88ebfc4abf2f4ca82398d276ac79e0731b2",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "0939d7ede36c9b22a0b408df2a4ed36b60374057890253d1b0edaa52c5a9c1df",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:38.186Z",
+  "elapsedMs": 325,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

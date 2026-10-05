@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-096",
+  "chapterId": "chapter-2",
+  "speakerId": "aleem-sec",
+  "text": "Just keep moving. One question, then the next.",
+  "voiceUrl": "voices/chapter-2/ch2-096.mp3",
+  "durationMs": 3624,
+  "audioSha256": "38bdcdb6b736c89c3191f4284f73582fa57d06457bdb066561a7d4038aa951ca",
+  "audioBytes": 43820,
+  "textSha256": "d57d0d322f69e93d299e8129461666c192a83448b99644ea8d08e10fc917d7cc",
+  "fingerprint": "5e2f0efd2d8e0cfed88f9f0ff3689327f1763ae2cce3dbd9bc2a64f64a80680b",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "9a9c9e50066753b60cf17d05194bd1c690aaf9d189aa6b70c32ac86f02414bc0",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:40.215Z",
+  "elapsedMs": 332,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

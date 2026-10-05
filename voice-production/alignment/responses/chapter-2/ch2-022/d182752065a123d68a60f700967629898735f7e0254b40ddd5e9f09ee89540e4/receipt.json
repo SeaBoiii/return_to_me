@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-022",
+  "chapterId": "chapter-2",
+  "speakerId": "faris",
+  "text": "And your face is public evidence. You like her. Shall I help?",
+  "voiceUrl": "voices/chapter-2/ch2-022.mp3",
+  "durationMs": 5112,
+  "audioSha256": "a6bba9ef1e899cb269d3f1f764bd71c60796ca942d5ee061fbb1f0002ecde057",
+  "audioBytes": 61676,
+  "textSha256": "9a538bc8c8692cc346968921db4f35d311265d013a7006671959e2b486c244ec",
+  "fingerprint": "d182752065a123d68a60f700967629898735f7e0254b40ddd5e9f09ee89540e4",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "0d3df619e2ba28708363fcb77532251b094f12eded45c61a0f6e2ed18573b437",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:25.176Z",
+  "elapsedMs": 357,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

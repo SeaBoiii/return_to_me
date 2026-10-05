@@ -1,0 +1,20 @@
+{
+  "lineId": "ch1-016",
+  "chapterId": "chapter-1",
+  "speakerId": "aleem-p6",
+  "text": "I am already handsome.",
+  "voiceUrl": "voices/chapter-1/ch1-016.mp3",
+  "durationMs": 2280,
+  "audioSha256": "aaa45c5a12181e3ae67f7f88b30e24de6d878d0f6c816a1c8444f3d083bc5062",
+  "audioBytes": 27692,
+  "textSha256": "e078e367bd16baa29f76c4b903c0bcd99846e7c5321486b8d755c8ab94738bb6",
+  "fingerprint": "7855f126afe49f25b468a7ddd43def6f769403cff668b4439b7780dc81781552",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "832cc56d5aafe9343034500dd9147510a65ceb08113013b680d1273ca4cd66a1",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:14.223Z",
+  "elapsedMs": 459,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

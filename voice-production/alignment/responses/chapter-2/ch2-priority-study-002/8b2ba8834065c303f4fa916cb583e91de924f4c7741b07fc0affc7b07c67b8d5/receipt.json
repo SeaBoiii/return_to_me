@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-priority-study-002",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "Years later, I remembered that choosing the responsible task was not enough if I had already built a life with no margin. The crisis was not that night; it was the pattern around it.",
+  "voiceUrl": "voices/chapter-2/ch2-priority-study-002.mp3",
+  "durationMs": 11592,
+  "audioSha256": "7721ae65c29774788d8e832871fb0adf32e88f45ba62f788379e14313132b0ab",
+  "audioBytes": 139436,
+  "textSha256": "5df97d91a83d7d7e906cbb6e585f74bacc7ed4499a246e5efe0cecd589281c63",
+  "fingerprint": "8b2ba8834065c303f4fa916cb583e91de924f4c7741b07fc0affc7b07c67b8d5",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "11433610aa022144ecca5047e3d86e29b68000d76ebfb0da26cae3125af750e8",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:31.300Z",
+  "elapsedMs": 741,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-bus-proof-001",
+  "chapterId": "chapter-3",
+  "speakerId": "aleem-sec",
+  "text": "People do not keep choosing the same bus, the same seat, and the same pair of earphones for no reason. Surely this is her way of saying it.",
+  "voiceUrl": "voices/chapter-3/ch3-bus-proof-001.mp3",
+  "durationMs": 8304,
+  "audioSha256": "e25834fb3e09eb1b7e0ff04c454d42d7150a6439ad8bd6313f4856fb6a22b809",
+  "audioBytes": 99980,
+  "textSha256": "0384f020ef0e08de9863a51815f2e8b38a26b2ff76fdb0063f3197cd92307b97",
+  "fingerprint": "7fd5f7d39c25e666a260b36d265426e6d1f300f51277961ae5b08333b80cc513",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "962820f908f561288dda6abd77ccde62b4938f3c180c37e233c8f6ae9aaa7f73",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:47.101Z",
+  "elapsedMs": 346,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

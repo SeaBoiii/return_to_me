@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-028",
+  "chapterId": "chapter-2",
+  "speakerId": "faris",
+  "text": "My job was to open the door. Walking through is your character development.",
+  "voiceUrl": "voices/chapter-2/ch2-028.mp3",
+  "durationMs": 6312,
+  "audioSha256": "ab5ff3bf598ecb48e78c6d6f59a8c539b39a210cca1d8c835a1da1ed208c2337",
+  "audioBytes": 76076,
+  "textSha256": "51e73da484b83e90f7e83c7ffddb3a5ba720d1f7269a88dd037694a6ca7c9fc8",
+  "fingerprint": "c983a6ee8e71afd56c3ae24f78f6801293bf6f584624a4a8980ed55b2ee2ec8d",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "9825abd62b3e88224404b49e1e5400e956b51ad18823742dfb96af2575dd35e8",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:26.985Z",
+  "elapsedMs": 577,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-022",
+  "chapterId": "chapter-6",
+  "speakerId": "adult-aleem",
+  "text": "In her dorm, I took the chair while she sat with her laptop on the bed, surrounded by notes she insisted were in a system. A desk fan clicked each time it turned. She would ask me to read a sentence, then argue with my suggestion until we both forgot why she had asked.",
+  "voiceUrl": "voices/chapter-6/ch6-022.mp3",
+  "durationMs": 17592,
+  "audioSha256": "a6a002e49afb1cc3c47585b6ed785e5122d632d2fed92e915b2e597056a19ed8",
+  "audioBytes": 211436,
+  "textSha256": "b6bb8438202ee1746ee6fe21ee2b1f179625fee657d5b5c83e8d15f0fc6f0134",
+  "fingerprint": "70408bf273ced52c0b12ace0e7e531149eded6ec30ed27d5ff3d2e97bed321f0",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "fc723c3e3f2b98c5696c9541f7b65c1f3306bcf52528cc9b872c05770d1f2606",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:26.188Z",
+  "elapsedMs": 477,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

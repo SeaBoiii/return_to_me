@@ -1,0 +1,20 @@
+{
+  "lineId": "ch7-030",
+  "chapterId": "chapter-7",
+  "speakerId": "claire",
+  "text": "There's someone I've been getting to know. I wanted to tell you myself. We share the same religion. I think this could become something.",
+  "voiceUrl": "voices/chapter-7/ch7-030.mp3",
+  "durationMs": 10320,
+  "audioSha256": "d16b811eac857b7ac6709f0936766dd75ab8057f8937c92ff4094fe588d78d42",
+  "audioBytes": 124172,
+  "textSha256": "ab727b70ae2e4733261206052fa0d527a3d9bd56441581db098c10ec1f296b9b",
+  "fingerprint": "fb57cabcbb818bb17b3c7768a5397c55b91389bb1285689e4aa26cc03ebaa2bd",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "1e40dcd2228521f0ea331b9d428362747a8c49c038f4077eb335e64fa0a6b85e",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:40.424Z",
+  "elapsedMs": 392,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-005",
+  "chapterId": "chapter-3",
+  "speakerId": "adult-aleem",
+  "text": "I said that mostly inside my room. Outside it, I nodded and answered as little as possible. Shame made even ordinary advice sound like a verdict, and silence felt safer than admitting how frightened I was.",
+  "voiceUrl": "voices/chapter-3/ch3-005.mp3",
+  "durationMs": 13584,
+  "audioSha256": "2f56c602b031add0e40ddfa8b43487644649fa7d20c704edad0ffe15becae496",
+  "audioBytes": 163340,
+  "textSha256": "4ba2ecb99dd8b286ef9dc204b0c611b4847f6bb0dfc15183a1b3d1a5abcf5498",
+  "fingerprint": "6e262822ded7fb5577441c9375c19e3a226bc3ff0b16ef9a6d9cef3c92eb6235",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "563c98a4ba42c9021e9a5f8dc05fe76ad5b07601ede0c95aabccc0b05c997154",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:44.408Z",
+  "elapsedMs": 496,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

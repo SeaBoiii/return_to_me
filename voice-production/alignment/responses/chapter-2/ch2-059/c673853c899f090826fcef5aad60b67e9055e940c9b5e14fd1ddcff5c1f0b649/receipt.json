@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-059",
+  "chapterId": "chapter-2",
+  "speakerId": "hana",
+  "text": "You are here, but sometimes it feels like you are waiting to go back to your computer.",
+  "voiceUrl": "voices/chapter-2/ch2-059.mp3",
+  "durationMs": 7344,
+  "audioSha256": "56267836459186d78c6841dd656b019b399cac3328617868c8172620888b6626",
+  "audioBytes": 88460,
+  "textSha256": "b1891c358d73faae4f19186f45e745c89e1f6a9840563181221ea5eb63af7bbd",
+  "fingerprint": "c673853c899f090826fcef5aad60b67e9055e940c9b5e14fd1ddcff5c1f0b649",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "f180a1224d7a982e4b5dd86ba2c635d30fca2aaff81677bf9165193b60f20e25",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:33.277Z",
+  "elapsedMs": 412,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

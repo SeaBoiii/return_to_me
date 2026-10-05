@@ -1,0 +1,20 @@
+{
+  "lineId": "ch7-033",
+  "chapterId": "chapter-7",
+  "speakerId": "adult-aleem",
+  "text": "I meant it. I also wanted to go somewhere I could stop holding my expression together. Both things sat inside me while she answered. Later, as that relationship found its place in her life, our habits changed. The invitations grew less frequent. Plans that once started with the two of us began somewhere else.",
+  "voiceUrl": "voices/chapter-7/ch7-033.mp3",
+  "durationMs": 20400,
+  "audioSha256": "1cafc356f1022df89eb62f5e39297dea78a762c33d7515efa97a8f6ea513da82",
+  "audioBytes": 245132,
+  "textSha256": "1f0b506644788ea76cb0920b4b92d7c2a1b6b59fa50b20e1f2b011fef57ced0a",
+  "fingerprint": "eeb4a9660ab24e3ac41d867e147fd83e7a6c79d928c2ccf00bd0d899b0e8b65e",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "82e23ac3fc55482415ead698c75d6c9b7f782487fc4a191e4c33da40af013e76",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:40.895Z",
+  "elapsedMs": 464,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

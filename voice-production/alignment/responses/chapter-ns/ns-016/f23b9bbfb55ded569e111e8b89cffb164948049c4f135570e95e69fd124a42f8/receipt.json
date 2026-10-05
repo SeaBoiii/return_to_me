@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-016",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "Back in camp, her face returned during the quiet edges of routine. I wondered whether she remembered me, then criticised myself for wondering. Wanting to reach out felt hopeful and dangerous in equal measure.",
+  "voiceUrl": "voices/chapter-ns/ns-016.mp3",
+  "durationMs": 14400,
+  "audioSha256": "eafc2b69e7451749743faaba81c89a250bbc16873a1031ccd63c61ac17f165a9",
+  "audioBytes": 173132,
+  "textSha256": "b2824ece6ce9c650b70a999ca689302f3a851720aa85a79d72906743a872f5b3",
+  "fingerprint": "f23b9bbfb55ded569e111e8b89cffb164948049c4f135570e95e69fd124a42f8",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "d9a8773c5fcacd379b769b4fe5619c04e2ca71414871e5460ce207c0ed9130e7",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:09.402Z",
+  "elapsedMs": 464,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

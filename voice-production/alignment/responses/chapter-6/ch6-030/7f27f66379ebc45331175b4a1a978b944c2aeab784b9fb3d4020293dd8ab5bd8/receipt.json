@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-030",
+  "chapterId": "chapter-6",
+  "speakerId": "adult-aleem",
+  "text": "I chose Universal Studios Singapore. December 2021, at the end of the year. We could have a full day together, something larger than lunch between classes, and I would find a quiet moment to tell her. I planned the outing until the planning itself began to feel like courage.",
+  "voiceUrl": "voices/chapter-6/ch6-030.mp3",
+  "durationMs": 17760,
+  "audioSha256": "76b830432cfb6bf558d9af1834c5569e3a90db959e00adffe4b650f333fd5bde",
+  "audioBytes": 213452,
+  "textSha256": "f7cfd32d6a976183b1883bb62c017076d6a1a53caaa3bcf4c9462ac2eeab2bf8",
+  "fingerprint": "7f27f66379ebc45331175b4a1a978b944c2aeab784b9fb3d4020293dd8ab5bd8",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "d10c2d463a2428532a107e8b9accdea7b9c6ef5a3948d54c6254b271563936b3",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:27.789Z",
+  "elapsedMs": 466,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

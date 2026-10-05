@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-results-continue-002",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "It was more hope than I could consistently feel, but the sentence survived. Years later, I would understand that a path can exist before you are strong enough to see its shape.",
+  "voiceUrl": "voices/chapter-2/ch2-results-continue-002.mp3",
+  "durationMs": 11112,
+  "audioSha256": "37d53c3047c4cffdeba714677ae24a732af3848d79b62241ac530e67da4b9e89",
+  "audioBytes": 133676,
+  "textSha256": "b000256eea4ea2f5133bc4b334dc05e8613a7b23b8ab634bd16dac9c970a3359",
+  "fingerprint": "e28bbe77c93f2a2b3d536ec99ebb3fb2f61b0f191912f6676994519e55562b3d",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "1b34bc12e2220f72e184456c9de90d246e7cd0c3b25d148cb5829fbc03d5ab22",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:42.183Z",
+  "elapsedMs": 405,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

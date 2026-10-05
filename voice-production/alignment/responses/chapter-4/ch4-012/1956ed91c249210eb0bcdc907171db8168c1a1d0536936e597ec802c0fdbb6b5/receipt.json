@@ -1,0 +1,20 @@
+{
+  "lineId": "ch4-012",
+  "chapterId": "chapter-4",
+  "speakerId": "mei-lin",
+  "text": "Could you stop standing directly in front of the board? Some of us are educationally disadvantaged by your height.",
+  "voiceUrl": "voices/chapter-4/ch4-012.mp3",
+  "durationMs": 8232,
+  "audioSha256": "063ed24fca970c8653f742c8337c0eb12481f217174deb3a98f9808467cfa06e",
+  "audioBytes": 99116,
+  "textSha256": "8e4f817d6b6890427ab3880a7bf22396e4ba9ac2332e86fe9eaabd98ce5e50cf",
+  "fingerprint": "1956ed91c249210eb0bcdc907171db8168c1a1d0536936e597ec802c0fdbb6b5",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "aef27d7c2cf6d050e8cbdc31c9074890ec1ace1cf4496e18b6681636fa4b5757",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:56.174Z",
+  "elapsedMs": 383,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

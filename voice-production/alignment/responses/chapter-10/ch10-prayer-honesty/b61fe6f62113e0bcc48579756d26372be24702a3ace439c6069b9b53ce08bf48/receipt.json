@@ -1,0 +1,20 @@
+{
+  "lineId": "ch10-prayer-honesty",
+  "chapterId": "chapter-10",
+  "speakerId": "adult-aleem",
+  "text": "I looked down for a while. There was something difficult about admitting how much I still wanted to be loved, after all the times I had said I was done with it. Here I could admit it without somebody telling me to be patient or asking what had happened. I could begin with the wanting itself, and the fact that I didn't know what to do with it anymore.",
+  "voiceUrl": "voices/chapter-10/ch10-prayer-honesty.mp3",
+  "durationMs": 22800,
+  "audioSha256": "cedf9c566d6dfe9bfb49cbff8ed4739a5c760e3426497d1439ba7b2e5fd42c48",
+  "audioBytes": 273932,
+  "textSha256": "5114eece965157ca67e9bb729a5519f0a1c0f0b8a5fac3020f58e5bb71a702e9",
+  "fingerprint": "b61fe6f62113e0bcc48579756d26372be24702a3ace439c6069b9b53ce08bf48",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "43a07695ff659cc00a5086c09e89811341aff8fe4e531344a6d343ac5ca84c84",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:53.966Z",
+  "elapsedMs": 484,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

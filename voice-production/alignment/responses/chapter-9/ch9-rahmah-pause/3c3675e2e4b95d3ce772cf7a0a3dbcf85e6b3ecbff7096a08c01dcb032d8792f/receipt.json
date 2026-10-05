@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-rahmah-pause",
+  "chapterId": "chapter-9",
+  "speakerId": "adult-aleem",
+  "text": "I looked back towards where I had last noticed the others, then turned to find her doing much the same thing. We both smiled. It felt like the start of a private joke, something that would need very little explanation if one of us mentioned it later. I caught myself wanting there to be a later in which we could mention it.",
+  "voiceUrl": "voices/chapter-9/ch9-rahmah-pause.mp3",
+  "durationMs": 20472,
+  "audioSha256": "2743352f99d426d2ae07f62ec4210b46489ba275a29925f789b0e0c4a0c90cac",
+  "audioBytes": 245996,
+  "textSha256": "12f15b9c562261d518b5b80681c75d29ca5f8f033d619473441e02ee5f049062",
+  "fingerprint": "3c3675e2e4b95d3ce772cf7a0a3dbcf85e6b3ecbff7096a08c01dcb032d8792f",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "1ec6ecd2d4b126691834223e9f949633f3b8a78c592fe4a3285653c67f7b3758",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:50.430Z",
+  "elapsedMs": 492,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

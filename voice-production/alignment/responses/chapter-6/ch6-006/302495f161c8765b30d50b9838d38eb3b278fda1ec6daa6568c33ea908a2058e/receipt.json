@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-006",
+  "chapterId": "chapter-6",
+  "speakerId": "jia-wen",
+  "text": "Wah. Then later you better count us properly. I don't want to get left at the wrong faculty.",
+  "voiceUrl": "voices/chapter-6/ch6-006.mp3",
+  "durationMs": 7920,
+  "audioSha256": "9a10b8bd5d8f8dcb16105a65cb7be499c660765dc2a62fade372ad1dc32c56ef",
+  "audioBytes": 95372,
+  "textSha256": "b1597aac5982444ae6ef25d96e81a7d2a14f7bdbf005ed03399a977e67cb66b9",
+  "fingerprint": "302495f161c8765b30d50b9838d38eb3b278fda1ec6daa6568c33ea908a2058e",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "c362871da7ff1f42418de914f477306ecf3a77f97e3f4d667b06ac30af6fbf2c",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:22.478Z",
+  "elapsedMs": 389,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

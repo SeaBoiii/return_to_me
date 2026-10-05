@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-025",
+  "chapterId": "chapter-9",
+  "speakerId": "nadiah",
+  "text": "So, how are you now? Work, life... everything? It's been so long.",
+  "voiceUrl": "voices/chapter-9/ch9-025.mp3",
+  "durationMs": 9024,
+  "audioSha256": "6e4ef200618d0a195a4b20ad3333783b90a8c450954e22c85a50c2ba040726c2",
+  "audioBytes": 108620,
+  "textSha256": "4cc21093b86bcdcf252e350a822df885ac0ad6fbf646d12a227720cf64a1039f",
+  "fingerprint": "ec66e5e4105aef442232e81a4c718f57a754a907d5186bcce1862ca8d4396ea2",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "6b76f1003eb63f1271358d9c10ab54a900ff022b14113c7aa2d3ac7d494930e0",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:47.840Z",
+  "elapsedMs": 350,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

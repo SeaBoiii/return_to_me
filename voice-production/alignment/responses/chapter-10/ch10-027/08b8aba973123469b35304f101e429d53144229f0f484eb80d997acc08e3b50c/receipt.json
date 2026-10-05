@@ -1,0 +1,20 @@
+{
+  "lineId": "ch10-027",
+  "chapterId": "chapter-10",
+  "speakerId": "adult-aleem",
+  "text": "Mariam turned towards me as our conversation found a pause. There was something she wanted to tell me; I could see it in the way she waited until she had my attention. I settled back in the chair and listened.",
+  "voiceUrl": "voices/chapter-10/ch10-027.mp3",
+  "durationMs": 12072,
+  "audioSha256": "80c129a1191da4a6a34847616a80610a55ef4a0839e64e8e69a867a054e69149",
+  "audioBytes": 145196,
+  "textSha256": "30c53b2422321f1129cd98032f4dc9f6d90de844afd117e865797f254f5e2b2e",
+  "fingerprint": "08b8aba973123469b35304f101e429d53144229f0f484eb80d997acc08e3b50c",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "96fae263bd87fc5a32204cb0060469a0b360843b90c803842b5d224a50e2f338",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:59.449Z",
+  "elapsedMs": 437,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-home-message",
+  "chapterId": "chapter-6",
+  "speakerId": "adult-aleem",
+  "text": "Back in my own room, I would send the promised message and wait for her reply before putting the phone to charge. She usually had one more thing to add. I began to expect that small exchange at the end of a day. Without ever discussing it, I had made her part of how I knew the day was over.",
+  "voiceUrl": "voices/chapter-6/ch6-home-message.mp3",
+  "durationMs": 17184,
+  "audioSha256": "95446ebd53b8365d0dfb0fe68a7f3a42b53c19e1f365c1744c9999c21e659c20",
+  "audioBytes": 206540,
+  "textSha256": "179e919f2773f6dd64822b5d6e5c976497e3e0507dfac0ebd1759ad8ddc13846",
+  "fingerprint": "faef3a6ba471106730796a03348ba5bb034b6cb53ec709f63235a857edcf95eb",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "12526c95efa871fea17fdfe6ebde4b601c09233180864b7c0e43b57edad75fc7",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:27.596Z",
+  "elapsedMs": 561,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

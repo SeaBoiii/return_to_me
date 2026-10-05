@@ -1,0 +1,20 @@
+{
+  "lineId": "ch4-035",
+  "chapterId": "chapter-4",
+  "speakerId": "adult-aleem",
+  "text": "The long wait for results began. Without tutorials to organise our days, classmates scattered into temporary jobs, obligations, and plans they discussed with varying confidence. Mei Lin and I messaged less often but did not disappear entirely.",
+  "voiceUrl": "voices/chapter-4/ch4-035.mp3",
+  "durationMs": 16632,
+  "audioSha256": "9cd6ae9591c76e1e3c3afc555141d43503a36e4ccab8acaab9003070679a4e59",
+  "audioBytes": 199916,
+  "textSha256": "3129a34ffec3871c21f7024f3d86ca885016d2ce6d453e26a1272f96d5bf5ead",
+  "fingerprint": "87587b56686e5f6f33603fcd321d3cbd5f43ce4234dfa9c81ac688ced8133bd0",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "23e83232f416a1ef064fea3df1645647ace1dbea092f60286b576787a49634e5",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:00.011Z",
+  "elapsedMs": 650,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

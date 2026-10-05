@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-065",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "I carried those words home, placed them beside all my other unfinished obligations, and opened the server dashboard.",
+  "voiceUrl": "voices/chapter-2/ch2-065.mp3",
+  "durationMs": 7272,
+  "audioSha256": "d70739dbea591ded780eae2699f2b5489fe569a0eb3193b4c133d1c6afcfde35",
+  "audioBytes": 87596,
+  "textSha256": "384aca3d3009cf73899bca5f452d26b72994b4119ac1cc62195ca54f401d58dc",
+  "fingerprint": "dd0fbebe7c6744bb72f642944713f00b134749cdd2c49c19250aac6580e64f5b",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "35733a6e90b3e61de2bd07e3819214305cb46408fcea782dc7ac1fc0996f164d",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:34.423Z",
+  "elapsedMs": 708,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

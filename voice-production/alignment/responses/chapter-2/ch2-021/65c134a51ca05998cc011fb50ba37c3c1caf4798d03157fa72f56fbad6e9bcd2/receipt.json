@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-021",
+  "chapterId": "chapter-2",
+  "speakerId": "aleem-sec",
+  "text": "It is a public walkway.",
+  "voiceUrl": "voices/chapter-2/ch2-021.mp3",
+  "durationMs": 1656,
+  "audioSha256": "cd350577077853ce0a1d57efe68a5ad205b0d022338806845eb5ab767a51d468",
+  "audioBytes": 20204,
+  "textSha256": "ad229a9b0b1c5986ff36c5b7e96b61b51f70d241e0ce8d1476f002d8b54ec37b",
+  "fingerprint": "65c134a51ca05998cc011fb50ba37c3c1caf4798d03157fa72f56fbad6e9bcd2",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "2fbd9fbde5ffe58da519658507b28ce57fb443597282a7a6874463d7649bb23c",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:25.112Z",
+  "elapsedMs": 330,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

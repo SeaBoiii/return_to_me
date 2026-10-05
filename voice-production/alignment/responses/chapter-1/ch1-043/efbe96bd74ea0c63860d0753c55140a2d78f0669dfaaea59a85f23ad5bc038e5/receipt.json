@@ -1,0 +1,20 @@
+{
+  "lineId": "ch1-043",
+  "chapterId": "chapter-1",
+  "speakerId": "alya",
+  "text": "I know. You deserved that.",
+  "voiceUrl": "voices/chapter-1/ch1-043.mp3",
+  "durationMs": 3984,
+  "audioSha256": "58c03303da2e4a315b606a464b8d1bb8bb2b3f947dc6d9366cc7172caf98a517",
+  "audioBytes": 48140,
+  "textSha256": "2331df6d5dc2589dd9268962fc5cc3e3e1bfff0c0cdeec1e1397c3f1deaabf40",
+  "fingerprint": "efbe96bd74ea0c63860d0753c55140a2d78f0669dfaaea59a85f23ad5bc038e5",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "815f4118dd386270fbc4ca97288c264426a0918a439f5e4eecd80d9bb78199bb",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:20.217Z",
+  "elapsedMs": 501,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

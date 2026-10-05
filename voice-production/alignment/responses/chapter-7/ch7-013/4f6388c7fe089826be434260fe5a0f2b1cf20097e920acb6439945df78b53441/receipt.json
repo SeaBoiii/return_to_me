@@ -1,0 +1,20 @@
+{
+  "lineId": "ch7-013",
+  "chapterId": "chapter-7",
+  "speakerId": "adult-aleem",
+  "text": "She laughed into her drink. I watched her try to recover her dignity and felt that familiar warmth spread through an ordinary evening. This time I recognised what I was hoping for. I also knew our religions were different. The difference sat among things we knew about each other, waiting for a conversation I couldn't keep avoiding.",
+  "voiceUrl": "voices/chapter-7/ch7-013.mp3",
+  "durationMs": 21600,
+  "audioSha256": "8f5b54a98ddb45a43277c7dbe4e6fb752cbe86b0e6e98bb572c09f3646c6ed5a",
+  "audioBytes": 259532,
+  "textSha256": "b8539c272d9777e19463fbff3bbc567166e70ad2a5ee813737367c7282df1abc",
+  "fingerprint": "4f6388c7fe089826be434260fe5a0f2b1cf20097e920acb6439945df78b53441",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "c3041390a2f54332c33a380a7d76e30f0d1f5311da6c446967ec63f39da581a7",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:35.666Z",
+  "elapsedMs": 631,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

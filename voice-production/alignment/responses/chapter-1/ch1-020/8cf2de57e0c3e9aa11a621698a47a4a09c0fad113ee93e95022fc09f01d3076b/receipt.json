@@ -1,0 +1,20 @@
+{
+  "lineId": "ch1-020",
+  "chapterId": "chapter-1",
+  "speakerId": "alya",
+  "text": "Message me when you get home, okay?",
+  "voiceUrl": "voices/chapter-1/ch1-020.mp3",
+  "durationMs": 2400,
+  "audioSha256": "62bc8a40b4bc4bcfcb826daecb481238bc2550cb91acc4e233ec9704217b8eeb",
+  "audioBytes": 29132,
+  "textSha256": "93e48295caffc176524855b919566f2426b832f99c11fe8636b57430daac47ec",
+  "fingerprint": "8cf2de57e0c3e9aa11a621698a47a4a09c0fad113ee93e95022fc09f01d3076b",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "8c79272b1be2f91ce1100ee6c8e2277ddb1f3c1b6b32d2761916f174d923d426",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:14.640Z",
+  "elapsedMs": 412,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

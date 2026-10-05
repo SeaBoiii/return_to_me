@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-093",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "A server problem had a clear cause, tools, and grateful players when repaired. A page of questions could stare back without offering any clue where my understanding had first gone wrong.",
+  "voiceUrl": "voices/chapter-2/ch2-093.mp3",
+  "durationMs": 11424,
+  "audioSha256": "eccc6378a6f129a25b0129f0d0457bb5e049b3cd6314bea492023b71bf0f3c7f",
+  "audioBytes": 137420,
+  "textSha256": "f82e3888a70906d5bf9334bc58c4df2460425c44b270c4d5e09e6b85ac3111c0",
+  "fingerprint": "71a98fce27483dd2e04575b2221719069278feb833aa11976c459271abb9c2dd",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "88fcf4504143cd1fbc2c5143be39831f431a1a37ea840852a257e6305dc75508",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:39.878Z",
+  "elapsedMs": 490,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

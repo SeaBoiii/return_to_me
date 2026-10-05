@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-yakiniku-pause",
+  "chapterId": "chapter-11",
+  "speakerId": "adult-aleem",
+  "text": "Once, I stopped halfway through an answer to turn the beef. By the time I looked up, I had lost the rest of the sentence. She reminded me where I had been. I liked that: we could interrupt a conversation to deal with dinner, laugh about it, and find our way back together.",
+  "voiceUrl": "voices/chapter-11/ch11-yakiniku-pause.mp3",
+  "durationMs": 17352,
+  "audioSha256": "1124f979da6def62a71cb6f8cc4e45172114bb3f33ee98364f6051de5fc1f1d2",
+  "audioBytes": 208556,
+  "textSha256": "288a89b05a1896a3ca2043b8ea793433f1541d562b3be0b1eff83dff0db7c4b0",
+  "fingerprint": "9effeb1931952769c19e9368d75ce47b6bf384574b42bacf38279e155095995f",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "6560d4dc0aebebf0cf55c01c197e63ffa49166b87fb80363e964e8108fb891a9",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:02.761Z",
+  "elapsedMs": 441,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

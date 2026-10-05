@@ -1,0 +1,20 @@
+{
+  "lineId": "ch4-015",
+  "chapterId": "chapter-4",
+  "speakerId": "adult-aleem",
+  "text": "At first, her height and cuteness caught my attention. What kept it was her steadiness. Mei Lin was diligent without advertising it and funny in a quiet way that sometimes reached me several seconds late.",
+  "voiceUrl": "voices/chapter-4/ch4-015.mp3",
+  "durationMs": 13200,
+  "audioSha256": "120651dee51422edba1436064a9b222d801df8e8a4dd31bad9dcf7cf5f60717d",
+  "audioBytes": 158732,
+  "textSha256": "40aea7926fbdaa009774a0c6366b6838dd8c4d8081a773447c5865d7dd435b5f",
+  "fingerprint": "252c9f1bb53775e44eed2e893e9a6d223fa0e2cbf753d00f67622bf3598b7070",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "61099a7e62b68cfab07a47e39d9937df978611b3ad72cf9ce2a52dabb21d6596",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:56.694Z",
+  "elapsedMs": 438,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-018",
+  "chapterId": "chapter-6",
+  "speakerId": "aleem-adult",
+  "text": "She has plans already. We're studying later. Maybe ask the group another time.",
+  "voiceUrl": "voices/chapter-6/ch6-018.mp3",
+  "durationMs": 4704,
+  "audioSha256": "7d56219548eafb71c89835cdfec325f163fa7d76bea27846c10a5d55340cfe52",
+  "audioBytes": 56780,
+  "textSha256": "e428e945edf57ca47d49db32f6c86668aae328a11544e8cd1f189b3709c7ba0c",
+  "fingerprint": "241332f09202f772809964833696da738d55bf3205c4a27ffc6da312e0db7b68",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "d10f93b35ac54eeb1e300eeed9bd1a03920bfe072971104951c414fbc3169fa9",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:25.415Z",
+  "elapsedMs": 356,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

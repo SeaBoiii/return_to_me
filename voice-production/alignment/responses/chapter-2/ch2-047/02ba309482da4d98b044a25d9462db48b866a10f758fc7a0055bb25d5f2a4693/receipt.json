@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-047",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "One night, three demands collided: Hana was waiting for a promised call, unfinished revision lay beside the keyboard, and the server began failing under a rush of activity.",
+  "voiceUrl": "voices/chapter-2/ch2-047.mp3",
+  "durationMs": 10800,
+  "audioSha256": "ecb62a036661ffe6f2b01d358c26076150b000abd20600e67339639a2bf5908f",
+  "audioBytes": 129932,
+  "textSha256": "f9f417cfb89beb22360139de8d06728b4cb7cc09f36a499a13076575371e80eb",
+  "fingerprint": "02ba309482da4d98b044a25d9462db48b866a10f758fc7a0055bb25d5f2a4693",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "35b43c787e14725e9c7284229f75468b231a2c35d2bfca38dd5467b3022dce7d",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:30.050Z",
+  "elapsedMs": 501,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

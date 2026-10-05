@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-040",
+  "chapterId": "chapter-3",
+  "speakerId": "adult-aleem",
+  "text": "I told myself the lesson was about other people: ask sooner, trust less, look beneath every answer. I was slower to notice the more urgent question underneath—why one rejection had become a referendum on whether I was worth choosing at all.",
+  "voiceUrl": "voices/chapter-3/ch3-040.mp3",
+  "durationMs": 17280,
+  "audioSha256": "6e81cafc4608355e344087013383930b4442f4fcfb6dcfd4c1fbce7fed9bb5ca",
+  "audioBytes": 207692,
+  "textSha256": "3fa7e5c8e005d1e5562801134364163760ae899d384f3a1ae8012a157d254e50",
+  "fingerprint": "5620c34ecbfb6dae7b72a96e99e58dca536696d1c57c3b532efa50627c2ca7e6",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "c6395f69bb9e807b6fe74243d81c06aab2fd74696808a3980cc83aeb891bd246",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:52.947Z",
+  "elapsedMs": 437,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

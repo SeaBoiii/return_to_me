@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-wingman-sincere-002",
+  "chapterId": "chapter-2",
+  "speakerId": "faris",
+  "text": "Wah. Very sincere. I will remove the part where your voice nearly disappeared.",
+  "voiceUrl": "voices/chapter-2/ch2-wingman-sincere-002.mp3",
+  "durationMs": 6240,
+  "audioSha256": "6ff0dcfb0aacffec1ce1fecb393c7bc7eef5111e385c2b01767eecc1c2392741",
+  "audioBytes": 75212,
+  "textSha256": "20bb5be4fb9f507ce4833d05622c9396b499de6cdef4e4925bdd7ef0402e41dd",
+  "fingerprint": "92ec088ff2a846341388e6bf0900f985ce10507803385288b5b695edbc37b4a3",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "c2be9c265da2a0144bb3f476813ea2dd14bb252e289685417b4478180774b848",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:25.924Z",
+  "elapsedMs": 382,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

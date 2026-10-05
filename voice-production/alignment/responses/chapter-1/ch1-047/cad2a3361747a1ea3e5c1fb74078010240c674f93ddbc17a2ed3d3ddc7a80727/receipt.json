@@ -1,0 +1,20 @@
+{
+  "lineId": "ch1-047",
+  "chapterId": "chapter-1",
+  "speakerId": "adult-aleem",
+  "text": "My first heartbreak taught me to fear the sentence that arrives late. It did not yet teach me how easily I could become the person delaying one.",
+  "voiceUrl": "voices/chapter-1/ch1-047.mp3",
+  "durationMs": 8784,
+  "audioSha256": "36a7016d5717ef91088083b8d6161b523816bc183034011b1044f867053b3f02",
+  "audioBytes": 105740,
+  "textSha256": "0afdb913b684c3c2f6ab32fa75a4b40a4bfcbbdd1752249c82b99ffe58125118",
+  "fingerprint": "cad2a3361747a1ea3e5c1fb74078010240c674f93ddbc17a2ed3d3ddc7a80727",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "87d3b605b9b7a2e834d74ba01828465477c0a08e72417897ecd15cd086d2f35c",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:20.892Z",
+  "elapsedMs": 409,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

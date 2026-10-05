@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-results-condemn-002",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "That thought followed me home because it was absolute, and absolutes can feel simpler than uncertainty. Years later, I would learn that responsibility and permanent condemnation are not the same thing.",
+  "voiceUrl": "voices/chapter-2/ch2-results-condemn-002.mp3",
+  "durationMs": 13440,
+  "audioSha256": "3c36d452c46287f54a4522e2ad76f37d4133883d78af523950991db54eb033dc",
+  "audioBytes": 161612,
+  "textSha256": "d765b101af38f253c39363c9e7a5e7d860abb4554bdfa9e1d4bfb24d80078750",
+  "fingerprint": "83b63349229f4b2a726828898eac710d59513c77115d99ed8870bc80b22f1aa4",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "f5fdd61312de3bcda575ce6de9dc41cbc2d983e46f35b03c2292595f10dfd3f2",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:41.776Z",
+  "elapsedMs": 636,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

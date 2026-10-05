@@ -1,0 +1,20 @@
+{
+  "lineId": "ch7-028",
+  "chapterId": "chapter-7",
+  "speakerId": "adult-aleem",
+  "text": "There were evenings by the water when the city lights broke into long lines around the boats. We walked at the same pace, stopped when one of us noticed something, and talked until we should have gone home. Anybody passing could have mistaken us for a couple. I knew how little that proved now.",
+  "voiceUrl": "voices/chapter-7/ch7-028.mp3",
+  "durationMs": 18144,
+  "audioSha256": "0f3d5d924b6f9ed37f80e299d923d1a99dea9a98116e93a30939a2c9597ce8dd",
+  "audioBytes": 218060,
+  "textSha256": "e90cbcde7662fe65cda26b5184bea8cb57ef9a8f74cfec25c1e42b801f09b07f",
+  "fingerprint": "63115c2879369007833f8faa2f7d51318a1010c60ca4f86762861e5f93754594",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "2822ede8c1f891c5182fea1317622efbd2b52e5cd6ac0ceec22157964ad72d1b",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:39.064Z",
+  "elapsedMs": 683,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

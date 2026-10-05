@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-025",
+  "chapterId": "chapter-6",
+  "speakerId": "adult-aleem",
+  "text": "She threatened to take back the snack she had given me. I surrendered immediately. Later, while she worked, I watched the fan stir a loose page and felt so comfortable that I could almost believe comfort was an agreement. Nobody had invited me to imagine a shared future. I was already furnishing one.",
+  "voiceUrl": "voices/chapter-6/ch6-025.mp3",
+  "durationMs": 21840,
+  "audioSha256": "bc2552e1696ab1eb9897be3b9ac8a64f58d869713722fb9772bc0974879eb3fc",
+  "audioBytes": 262412,
+  "textSha256": "ed47fe1579370414dab6fef20629859bb883f75da2bdd794f92a5a6c8ffbe8a3",
+  "fingerprint": "ab01b3c2d9f5161e3e50f538339ab021fb417bf43b6769e6e50cc08a938bccb8",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "b909e9aaef1c701a025d3980a31a2826eb3bf98f3c50272976e68db373a779f1",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:26.679Z",
+  "elapsedMs": 486,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

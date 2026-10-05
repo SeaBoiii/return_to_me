@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-045",
+  "chapterId": "chapter-6",
+  "speakerId": "jia-wen",
+  "text": "Why didn’t you tell me earlier?",
+  "voiceUrl": "voices/chapter-6/ch6-045.mp3",
+  "durationMs": 2472,
+  "audioSha256": "02a7c7a5a04cb7f19650e3458f3720ce7de0fcbc1fddd7c97e07b7a93ec0f4b2",
+  "audioBytes": 29996,
+  "textSha256": "f31d6ea338b16554b7e9433ee38e840eaddff4d0dc4e196585bb8f93b4927b2b",
+  "fingerprint": "6afe145333e9c5ebb1128bfba0abb178e93b855575723eb0124407a87de5cd2e",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "8115a88d179c19a52bbb8ade5eeca6d49cd6652188853f809c31383d570b29f9",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:30.826Z",
+  "elapsedMs": 305,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

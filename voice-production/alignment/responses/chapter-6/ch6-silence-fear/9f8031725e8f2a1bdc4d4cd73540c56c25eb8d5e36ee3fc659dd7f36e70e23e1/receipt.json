@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-silence-fear",
+  "chapterId": "chapter-6",
+  "speakerId": "adult-aleem",
+  "text": "I could survive not knowing while there was still a place saved beside her. A no might change every comfortable thing we had. I held on to tomorrow's lunch, next week's study session, any small certainty I could keep by postponing the one question that frightened me.",
+  "voiceUrl": "voices/chapter-6/ch6-silence-fear.mp3",
+  "durationMs": 18720,
+  "audioSha256": "c02e5ecd2fd6cfc5aa9cbeff0ba8826432fbf9dc88ec13635fc49224e639e03d",
+  "audioBytes": 224972,
+  "textSha256": "f8ea61bfe67e1f6a75b20d7205f5116ef24f628362b67128adc6cc231d23981a",
+  "fingerprint": "9f8031725e8f2a1bdc4d4cd73540c56c25eb8d5e36ee3fc659dd7f36e70e23e1",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "644e6e35d2ff369b154d66743bdb4ec58664983b6210df209c74ce8b24c3f0f1",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:24.879Z",
+  "elapsedMs": 590,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

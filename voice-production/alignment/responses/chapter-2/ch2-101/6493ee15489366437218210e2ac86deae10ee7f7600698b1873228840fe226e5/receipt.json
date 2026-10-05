@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-101",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "The period after results was dark in a quiet way. I withdrew. I avoided questions about what came next because every answer seemed to expose the same failure.",
+  "voiceUrl": "voices/chapter-2/ch2-101.mp3",
+  "durationMs": 10464,
+  "audioSha256": "f59c0937db5606d7c1a075380ce9d74c6a9cdf124f3e98208efb06d24b23bac0",
+  "audioBytes": 125900,
+  "textSha256": "4eb18990c98fdbeac3a9b4c4eb2e438595f8ef72d3e022e1f292823db3510656",
+  "fingerprint": "6493ee15489366437218210e2ac86deae10ee7f7600698b1873228840fe226e5",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "f971719b4b8f778e54cc2d5b8bb53c4ae6ccc3517f8ab3c7260f38adb2f0353e",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:42.258Z",
+  "elapsedMs": 476,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

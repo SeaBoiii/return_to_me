@@ -8,8 +8,9 @@ it does not replace the author approvals in [RELEASE_CHECKLIST.md](RELEASE_CHECK
 
 | Check | Result |
 | --- | --- |
-| `npm run check` | Passed: lint, TypeScript, content validation, 266 unit tests, production build, 166 browser tests |
-| Browser matrix | Desktop Chromium, mobile Chromium, mobile WebKit; 17 intentional project-specific skips |
+| `npm run check` | Passed after voice alignment: lint, TypeScript, content validation, 306 unit tests, production build, 177 browser tests |
+| Browser matrix | Desktop Chromium, mobile Chromium, mobile WebKit; 18 intentional project-specific skips |
+| `npm run voices:alignment:check` | Passed: 775 recordings, 25,044 cues, exact text/audio hashes and preserved provider responses |
 | `npm run art:mobile:check` | Passed: 12 portrait exports, 79 reviewed scenes, six pipeline regression tests |
 | `npm run validate:deploy` | Passed: 803 nodes, 220 canonical art assets, 775/775 voiced lines |
 | `npm run validate:release` | Passed: complete voice coverage |
@@ -21,6 +22,13 @@ Browser skips avoid repeating the full story route, background inventory and
 touch-only cases in every project. CPU/network measurement needs Chromium CDP.
 The Windows WebKit native offline-audio case is explicitly excluded; it is not
 reported as a playback pass.
+
+The synchronized reader was checked against native narrator, processed child and
+finale recordings in all three engines, including pause/resume and replay.
+Downloaded narration with bundled timing metadata passed offline checks in
+Chromium. Instant text, muted fallback, manual Reveal, buffering, stale callbacks
+and completed-audio reveal are covered. The [alignment record](voice-production/alignment/README.md)
+documents production, timing outliers and structural-versus-listening validation.
 
 ## Reader and artwork coverage
 
@@ -49,12 +57,15 @@ Twelve 960×1200 WebPs add 1,977,714 bytes; the largest is 249,276 bytes.
 ## Loading and offline evidence
 
 One cold production-preview measurement at 1.6 Mbps, 150ms latency and 4× CPU
-throttling reached the opening screen in **1,989ms** and decoded its artwork in
-**2,451ms**. First contentful paint was 1,952ms. It requested exactly one title
+throttling reached the opening screen in **2,883ms** and decoded its artwork in
+**3,332ms** after the voice-alignment integration. First contentful paint was 2,836ms. It requested exactly one title
 image and zero voice clips. This is a lab observation, not a field-performance
 guarantee. Repeat it with the cold-start case in `e2e/art-backgrounds.spec.ts`.
 
-The shell precache contains 13 entries, approximately 1.08 MiB. Artwork loads on
+The shell precache contains 13 entries, approximately 1.54 MiB, including timing
+metadata for all 775 voices. The earlier reader-only build measured 1,989ms to
+the opening screen; bundled timing metadata adds approximately 164 kB compressed
+and keeps synchronized narration available offline. Artwork loads on
 demand into a bounded reading cache; retained chapter artwork and voice downloads
 are separate. Tests cover close/reopen, partial cancellation/retry, shared-file
 removal, storage failures, orientation changes and legacy-cache adoption.

@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-022",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "The dialogue here is reconstructed from memory, and the moments that follow are composites of many ordinary exchanges. I remember their emotional shape more reliably than exact wording: mutual attention, anticipation, and the comfort of being expected.",
+  "voiceUrl": "voices/chapter-ns/ns-022.mp3",
+  "durationMs": 15912,
+  "audioSha256": "794e0d97464663f8f1bb8f1a123d2cb7cfe2578f1a095e458efba0ee24bc5571",
+  "audioBytes": 191276,
+  "textSha256": "d9b482ec906a795761921bda9199522f040c2ebf7c24a8ccd8d60a1985b1343c",
+  "fingerprint": "bba3b14696f9e419ac38db0db6a9ac044f1e4b632d1f6e29d2d8518c0c91bae8",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "1c637b9c2a07c29c7e010cd22378b26b391313fd623b91828b10c7b35008466e",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:10.369Z",
+  "elapsedMs": 452,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

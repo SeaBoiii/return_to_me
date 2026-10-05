@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-010",
+  "chapterId": "chapter-2",
+  "speakerId": "aleem-sec",
+  "text": "Right. I was checking whether you were paying attention.",
+  "voiceUrl": "voices/chapter-2/ch2-010.mp3",
+  "durationMs": 2880,
+  "audioSha256": "8813f64c2291188456e33903f8e5bd22384f83c12f56daab13789a5bf2e9841f",
+  "audioBytes": 34892,
+  "textSha256": "ed2c41240a2aeae30962031fcebeb403d6858f4bc31cea187c4cf22d0490f658",
+  "fingerprint": "a4af664afad4f9cc7bdad07a2f515436880c90a772ac5ebd8d7f7f5c8dce2361",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "f4a7e512a0b9d0f5f2566378a9e27e8af103b460426e98a728bca75fee340341",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:23.003Z",
+  "elapsedMs": 347,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

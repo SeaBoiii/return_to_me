@@ -1,0 +1,20 @@
+{
+  "lineId": "ch4-search-control-002",
+  "chapterId": "chapter-4",
+  "speakerId": "adult-aleem",
+  "text": "Early questions reduced uncertainty but did not create control. Other people still had private histories, changing feelings, and the right to choose what they shared. Clarity was a conversation, not an interrogation timed for my comfort.",
+  "voiceUrl": "voices/chapter-4/ch4-search-control-002.mp3",
+  "durationMs": 15840,
+  "audioSha256": "0b9921196324b849fb5eca30df3acd39331f514f9c58214b7fcb82124672d21f",
+  "audioBytes": 190412,
+  "textSha256": "e8b5f452a5d529de5bd135657b19fbdb99540353b3632042c56371e527be7523",
+  "fingerprint": "567e556133d8c945b67be7cb0bb350fc21ec94ce15f394a732bf299cbe989107",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "5a2452c62cb9896bf3cab20e2cdf6a546dd0db9f60ef1a2d7a62302c39b1b623",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:54.918Z",
+  "elapsedMs": 638,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

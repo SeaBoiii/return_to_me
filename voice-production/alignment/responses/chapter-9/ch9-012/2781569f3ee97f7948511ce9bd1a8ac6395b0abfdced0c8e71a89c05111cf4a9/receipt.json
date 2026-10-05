@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-012",
+  "chapterId": "chapter-9",
+  "speakerId": "mariam",
+  "text": "Aleem, sit lah. There's space here. You and your friend have eaten?",
+  "voiceUrl": "voices/chapter-9/ch9-012.mp3",
+  "durationMs": 5040,
+  "audioSha256": "8df9914fd169ff4908cd08e14b7002420e853206372cb60254973901cc9523e7",
+  "audioBytes": 60812,
+  "textSha256": "9bda8426d6929b74348567c50e1b249c3cfe579623473e0b0b6d0cec6950ba4b",
+  "fingerprint": "2781569f3ee97f7948511ce9bd1a8ac6395b0abfdced0c8e71a89c05111cf4a9",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "50cca3aec2e7c82fa68851bf0c4e726b85acac4b18b63341131f8fb518335117",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:45.641Z",
+  "elapsedMs": 443,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

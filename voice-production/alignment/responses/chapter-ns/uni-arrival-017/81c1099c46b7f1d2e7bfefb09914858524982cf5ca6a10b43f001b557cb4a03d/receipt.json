@@ -1,0 +1,20 @@
+{
+  "lineId": "uni-arrival-017",
+  "chapterId": "chapter-ns",
+  "speakerId": "aleem-young-adult",
+  "text": "What was that?",
+  "voiceUrl": "voices/chapter-ns/uni-arrival-017.mp3",
+  "durationMs": 1512,
+  "audioSha256": "d29ef7bece7134fa0b469fd9d157709038c3fd6fca8f1bec090a78d4630ddefb",
+  "audioBytes": 18476,
+  "textSha256": "3f6e14822311aec9f7e2143f182b719075b49d64bdd84128362ab1767acd4415",
+  "fingerprint": "81c1099c46b7f1d2e7bfefb09914858524982cf5ca6a10b43f001b557cb4a03d",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "6bfd3b0393a1752011da5f02455d99aa21afb41c2e9a0d7e20dda7c80f1f4ee1",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:21.446Z",
+  "elapsedMs": 293,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

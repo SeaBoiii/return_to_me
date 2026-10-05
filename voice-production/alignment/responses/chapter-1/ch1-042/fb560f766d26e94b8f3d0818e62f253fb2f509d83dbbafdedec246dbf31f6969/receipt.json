@@ -1,0 +1,20 @@
+{
+  "lineId": "ch1-042",
+  "chapterId": "chapter-1",
+  "speakerId": "aleem-p6",
+  "text": "I wish you had just told me.",
+  "voiceUrl": "voices/chapter-1/ch1-042.mp3",
+  "durationMs": 2424,
+  "audioSha256": "833e66c413395e4f588cdc17cee19c1098034129d00c38fecfefe8507fe237ee",
+  "audioBytes": 29420,
+  "textSha256": "533ad67f0cb517b2d6ac7acdf172e0bbd461a8a37d1671898af8e24754844832",
+  "fingerprint": "fb560f766d26e94b8f3d0818e62f253fb2f509d83dbbafdedec246dbf31f6969",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "46a3be7551ea2b5bf34dd9d84f3e6d7da7d37787469fe535cf2c14e3534270d3",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:19.982Z",
+  "elapsedMs": 433,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

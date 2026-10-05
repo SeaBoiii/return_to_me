@@ -1,0 +1,20 @@
+{
+  "lineId": "ch1-sms-wait-001",
+  "chapterId": "chapter-1",
+  "speakerId": "adult-aleem",
+  "text": "I did not answer. The typing indicator appeared, vanished, then returned. Each flicker felt like a door opening and closing before I could reach it.",
+  "voiceUrl": "voices/chapter-1/ch1-sms-wait-001.mp3",
+  "durationMs": 10224,
+  "audioSha256": "1fa7c5841a50e8793502c96a0337f071f2d043ba5f66cb8f4e6c30c90b12a7f7",
+  "audioBytes": 123020,
+  "textSha256": "85f27233b6c0e3ad226201a930a1d97fb7c803f968fde39883a0292b574df7f4",
+  "fingerprint": "137041b9336d28d1cafdda8d2752c958180fc57e76f00c5028db23e4cf262053",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "ce87dfa93a559eeb0d49a8b7b07781727ff4498ee1d3372c0aa326d952aa7cd1",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:18.625Z",
+  "elapsedMs": 931,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

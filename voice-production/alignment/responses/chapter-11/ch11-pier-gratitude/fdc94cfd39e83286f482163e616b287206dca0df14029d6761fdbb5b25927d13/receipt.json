@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-pier-gratitude",
+  "chapterId": "chapter-11",
+  "speakerId": "adult-aleem",
+  "text": "I remembered her asking whether we could meet, the questions she had kept finding, the way she had stayed in our first conversation when I barely knew how to help it along. Now I knew more of her, and I wanted to keep knowing her. The words I needed were simple enough to say without rehearsing them.",
+  "voiceUrl": "voices/chapter-11/ch11-pier-gratitude.mp3",
+  "durationMs": 18552,
+  "audioSha256": "25d02f9e4a5e02aa381daf9da4cbbf2178c88bb42583e59666822d28635f6094",
+  "audioBytes": 222956,
+  "textSha256": "3122fc1031d83b34e9d647bffb27250e4ac267b577c44c0f56a20fff0b685528",
+  "fingerprint": "fdc94cfd39e83286f482163e616b287206dca0df14029d6761fdbb5b25927d13",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "bf667d1e483ebc5275cbe5a8b08b599f39c0204ccc7903a48a1255b64a7ddda9",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:12.119Z",
+  "elapsedMs": 507,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

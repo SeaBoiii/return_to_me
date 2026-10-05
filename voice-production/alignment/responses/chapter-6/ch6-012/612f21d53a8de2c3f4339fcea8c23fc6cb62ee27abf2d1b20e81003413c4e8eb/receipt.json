@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-012",
+  "chapterId": "chapter-6",
+  "speakerId": "jia-wen",
+  "text": "I saved you the seat with the plug. Please appreciate this. People were eyeing it.",
+  "voiceUrl": "voices/chapter-6/ch6-012.mp3",
+  "durationMs": 5592,
+  "audioSha256": "9d88fedb2c8cd0a9e177561dc9d2a385e9bdcd4c8935c1a413bcb68726c3614f",
+  "audioBytes": 67436,
+  "textSha256": "1b5b7a02cdcc0e1b1408ea5682942e6cf919d9432733df590f42bb28be1db0c3",
+  "fingerprint": "612f21d53a8de2c3f4339fcea8c23fc6cb62ee27abf2d1b20e81003413c4e8eb",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "ea941b50fe1d0b004627c172158e90d09530ac2bf531ac2924c902a27b7276b0",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:23.521Z",
+  "elapsedMs": 385,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

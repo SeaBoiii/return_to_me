@@ -1,0 +1,20 @@
+{
+  "lineId": "ch5-006",
+  "chapterId": "chapter-5",
+  "speakerId": "mei-lin",
+  "text": "I know this is not the end of everything. Please do not give me the speech yet. I just need a while before I can believe it.",
+  "voiceUrl": "voices/chapter-5/ch5-006.mp3",
+  "durationMs": 8544,
+  "audioSha256": "3ac6350c746a1f8850445994c755c3861868161e04a3c89902552c2fdf1b4e01",
+  "audioBytes": 102860,
+  "textSha256": "36fff84a6344dff6769e619fe447c3424a87d1c63644909e6c51b98c53e56484",
+  "fingerprint": "dc270607aa64c6088a93085c914c659e8404cc4f39c10dd8e781e4b8a648c9ec",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "9e67174b3823a547c4ecf8789e628bcf57d1b0aa5bc32a0311ea900ed597ae55",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:00.815Z",
+  "elapsedMs": 404,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

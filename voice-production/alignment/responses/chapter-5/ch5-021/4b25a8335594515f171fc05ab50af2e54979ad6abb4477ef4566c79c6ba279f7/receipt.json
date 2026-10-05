@@ -1,0 +1,20 @@
+{
+  "lineId": "ch5-021",
+  "chapterId": "chapter-5",
+  "speakerId": "mei-lin",
+  "text": "Thank you for asking me out today. I was going to stay home and avoid everybody, which is probably not a complete recovery strategy.",
+  "voiceUrl": "voices/chapter-5/ch5-021.mp3",
+  "durationMs": 8952,
+  "audioSha256": "5c539a7cd1aa890dbcde30a4799026bedb1b430d8145cdaa01a11e24643ecace",
+  "audioBytes": 107756,
+  "textSha256": "52a22e432944c70cc52fa1829fa16bfa6eaa2de131e27ff8b3ec0309f85db611",
+  "fingerprint": "4b25a8335594515f171fc05ab50af2e54979ad6abb4477ef4566c79c6ba279f7",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "8062385b7ba7d44e65ca958f42c70ac8be7a6d6a460a24990b1c63a6cb8ca72a",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:02.922Z",
+  "elapsedMs": 397,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

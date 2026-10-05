@@ -1,0 +1,20 @@
+{
+  "lineId": "ch7-011",
+  "chapterId": "chapter-7",
+  "speakerId": "claire",
+  "text": "You know you can stop doing the polite work voice. We're not in a meeting.",
+  "voiceUrl": "voices/chapter-7/ch7-011.mp3",
+  "durationMs": 4944,
+  "audioSha256": "74b5208bdab2277404c22e0b24891801e10cfbcaf80df31aaa1276210b2e9e44",
+  "audioBytes": 59660,
+  "textSha256": "b021d408c9359b24eec87d1798e9a0f2f337cf84bce53de0153a5759903819e4",
+  "fingerprint": "44d2deabf87b8d2eeb7ae8b64cc6fefe75b31489b105817c5e03614c6ef8b797",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "2cd11e114722069166697202a7a171c7a1970097568c0a7d54ee2fedfd6d364c",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:35.217Z",
+  "elapsedMs": 331,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

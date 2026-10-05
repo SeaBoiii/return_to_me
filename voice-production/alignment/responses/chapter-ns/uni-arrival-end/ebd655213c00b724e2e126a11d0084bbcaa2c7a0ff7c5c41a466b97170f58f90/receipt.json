@@ -1,0 +1,20 @@
+{
+  "lineId": "uni-arrival-end",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "University had barely begun. I kept moving through it, carrying that unanswered question with me. By my second year, I knew the routes well enough to show somebody else the way.",
+  "voiceUrl": "voices/chapter-ns/uni-arrival-end.mp3",
+  "durationMs": 11040,
+  "audioSha256": "1225f249739000770dd98fc56d6144def973d593835299fbfbbad0288bfc90e3",
+  "audioBytes": 132812,
+  "textSha256": "5f409b2cea95e3d5680250a7ec06292d949d806f1d6107af636a04e3a25718c4",
+  "fingerprint": "ebd655213c00b724e2e126a11d0084bbcaa2c7a0ff7c5c41a466b97170f58f90",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "ee4de02c6a99f8d7f3c133b558e21ff0ebfdccf1cbdcc4600abfde69c6369f34",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:21.634Z",
+  "elapsedMs": 465,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

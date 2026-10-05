@@ -1,0 +1,20 @@
+{
+  "lineId": "ch10-release-join",
+  "chapterId": "chapter-10",
+  "speakerId": "adult-aleem",
+  "text": "I stayed a little longer. There was no answer naming who I would marry, no instruction to go back to Nadiah. There was this relief, and it was enough to hold my attention. I had asked for help with love. I began to feel how much of that help could be the freedom to stop being afraid of it.",
+  "voiceUrl": "voices/chapter-10/ch10-release-join.mp3",
+  "durationMs": 20472,
+  "audioSha256": "c3626842e3ea694c526e27b6fa995a0859d353d48351e202e7a6fede6c8d4a0a",
+  "audioBytes": 245996,
+  "textSha256": "ebc1168f7647351a9f7e73586a4cf9d63f0e26c2fc57434edb68899d244f9f52",
+  "fingerprint": "cd8d63e29c0cba4d53acb32db7a61a95961d18004a8a93b5ce8b85db753f96f3",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "ea56dfa62de91a10ede06bf94c339ef6f3ec495e94f3d486bb15aec0278187cd",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:55.813Z",
+  "elapsedMs": 495,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-028",
+  "chapterId": "chapter-ns",
+  "speakerId": "nadiah",
+  "text": "You always sound surprised when I remember something you told me.",
+  "voiceUrl": "voices/chapter-ns/ns-028.mp3",
+  "durationMs": 3912,
+  "audioSha256": "acee7f15254728078796b8489a51ec5bb90f760e21c0241c0c5d4e9669bdf759",
+  "audioBytes": 47276,
+  "textSha256": "6f1926c1e83c78888dc9f659c78d43b3959bf3ad10a222b4f9666ee9ec1f4a6c",
+  "fingerprint": "27ae473b489b932acd7465568f674996249c103c87f657e3397d46aa628e00f4",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "801fb805d1ec728e1f6e39dca5544e144f7e8e09aeea31824e58d724549ad4e5",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:11.285Z",
+  "elapsedMs": 338,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

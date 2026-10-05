@@ -1,0 +1,20 @@
+{
+  "lineId": "prologue-003",
+  "chapterId": "prologue",
+  "speakerId": "adult-aleem",
+  "text": "People like to begin a love story at the moment two lives finally meet. A glance across a room. A name remembered. The first small coincidence that later feels like fate.",
+  "voiceUrl": "voices/prologue/prologue-003.mp3",
+  "durationMs": 13416,
+  "audioSha256": "8414430692657fb773a568eb86573d0ec285632b66e5c1b12881e02bbe31b478",
+  "audioBytes": 161324,
+  "textSha256": "392309203579e30c852a05cb6e352b33fde1ff346f4194812e7824f98554120f",
+  "fingerprint": "1c93b313ff3a5984e0660fc17ef927b176cac3b56bd2c6f1f82ac625d04e774c",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "091279ee1d8058d33a4317bf19565058eb9518c8cc59634c44d9663d99e1329a",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:36:36.193Z",
+  "elapsedMs": 471,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

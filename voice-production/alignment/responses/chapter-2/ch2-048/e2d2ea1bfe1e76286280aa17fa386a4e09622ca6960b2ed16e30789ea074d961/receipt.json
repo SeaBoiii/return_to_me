@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-048",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "The server recovered. The homework was eventually submitted. Hana and I spoke again. From the outside, nothing had broken. That made it easy to ignore what the night was showing me.",
+  "voiceUrl": "voices/chapter-2/ch2-048.mp3",
+  "durationMs": 11664,
+  "audioSha256": "721901a991cfa2f7392175854a6ace470d6eb9bf61a4855f49c6104237b8d463",
+  "audioBytes": 140300,
+  "textSha256": "f0c5ac3f8027bbc73e5ac9c851aee88fd54b42f8eca226c0495ca2302e59cce5",
+  "fingerprint": "e2d2ea1bfe1e76286280aa17fa386a4e09622ca6960b2ed16e30789ea074d961",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "051d1c48a4d9578d76da89e2337142963a0cd728cbbb3e601321a9ea686bc2c9",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:31.518Z",
+  "elapsedMs": 657,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-020",
+  "chapterId": "chapter-11",
+  "speakerId": "nurulain",
+  "text": "If I ask you something, you can ask me also. I don't mind answering.",
+  "voiceUrl": "voices/chapter-11/ch11-020.mp3",
+  "durationMs": 5112,
+  "audioSha256": "6850245dcff2980dd05744a12d309692f320ef44021cf275c410cfc4bb36501b",
+  "audioBytes": 61676,
+  "textSha256": "10f68c0e880b4245dc66349351681c83dede8ff8b6a300df3eaf814848e27271",
+  "fingerprint": "7365b9674b5cbf88716445880e30889a77c0090abdf9416f83fb8afd7f103e3e",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "a0a7da342055d4dc63eab5ce6c270747ee6d1ea1020547087a9187ab9ca808f2",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:02.315Z",
+  "elapsedMs": 394,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

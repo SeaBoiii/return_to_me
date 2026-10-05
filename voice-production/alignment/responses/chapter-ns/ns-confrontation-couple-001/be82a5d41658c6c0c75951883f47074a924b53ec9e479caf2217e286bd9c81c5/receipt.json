@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-confrontation-couple-001",
+  "chapterId": "chapter-ns",
+  "speakerId": "aleem-young-adult",
+  "text": "When we called ourselves a couple, did that mean the same thing to you? Was I the only one treating this as exclusive?",
+  "voiceUrl": "voices/chapter-ns/ns-confrontation-couple-001.mp3",
+  "durationMs": 6552,
+  "audioSha256": "2359cd08dd06cdbf01e1e2c7548ec7ae8c82bf256e720a0a77eb473d3597eb45",
+  "audioBytes": 78956,
+  "textSha256": "588b84d71ea97fae0fbd04980cdde59ea803dd23196812069960fbd79ebb9f93",
+  "fingerprint": "be82a5d41658c6c0c75951883f47074a924b53ec9e479caf2217e286bd9c81c5",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "221f4cdc2138c859e4a4d7582b8fb46d6dca40dcbbd7fe9cb907d0c4128e57f7",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:14.567Z",
+  "elapsedMs": 393,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

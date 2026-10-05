@@ -1,0 +1,20 @@
+{
+  "lineId": "ch4-021",
+  "chapterId": "chapter-4",
+  "speakerId": "aleem-sec",
+  "text": "One paper does not cancel all the work you have done. You told me that last week, so unfortunately it applies to you too.",
+  "voiceUrl": "voices/chapter-4/ch4-021.mp3",
+  "durationMs": 6960,
+  "audioSha256": "ac716c3ded892b73abad5990a236d59b43c4a52db6a00e139c8b8a337bd75e49",
+  "audioBytes": 83852,
+  "textSha256": "088e363cba13e81f7da4315382ea3c1b0f5c6dc886d12ae80e7bf0932a997fd3",
+  "fingerprint": "f939072b4622a7d6b8864a558a0f236aef28d602037e2af5c5951e26d137a15b",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "795f8a85ce48482039a6e6c606def371899b8ca1b5fda8b2f7c732bec4ce0f3d",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:57.384Z",
+  "elapsedMs": 359,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

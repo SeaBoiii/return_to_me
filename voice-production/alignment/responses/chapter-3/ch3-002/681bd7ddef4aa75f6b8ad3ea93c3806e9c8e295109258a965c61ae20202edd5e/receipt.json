@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-002",
+  "chapterId": "chapter-3",
+  "speakerId": "adult-aleem",
+  "text": "My family wanted reassurance that one poor result had not closed every respectable route. Their concern arrived as comparisons, repeated suggestions, and questions from relatives whose voices I could hear even when they were not there.",
+  "voiceUrl": "voices/chapter-3/ch3-002.mp3",
+  "durationMs": 13584,
+  "audioSha256": "e434ba18c7a2aa2e09b23e660e6ede7e3c786b53bf7093b7a0e493c7a76055e3",
+  "audioBytes": 163340,
+  "textSha256": "e66d44aa83d31f9ffa97bdcfe6b1c62b5f863653f5451428fdc859daa97705bc",
+  "fingerprint": "681bd7ddef4aa75f6b8ad3ea93c3806e9c8e295109258a965c61ae20202edd5e",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "8ef07914893b8df3c6eb24ff15d860adad6496c575eb4528bbf63af28e32a77f",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:43.770Z",
+  "elapsedMs": 596,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

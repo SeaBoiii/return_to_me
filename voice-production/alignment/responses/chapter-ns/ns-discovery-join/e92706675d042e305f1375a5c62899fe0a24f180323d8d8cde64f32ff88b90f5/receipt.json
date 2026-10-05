@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-discovery-join",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "However I held the phone, three facts remained: Nadiah had gone to USS, the private story did not include me, and she appeared beside a man with whom Aisyah said she had history. Everything else still required a conversation.",
+  "voiceUrl": "voices/chapter-ns/ns-discovery-join.mp3",
+  "durationMs": 15984,
+  "audioSha256": "ece360781e7ac5064d420f6c9b3497c3f7a51c7cc89e43145a17361da858e968",
+  "audioBytes": 192140,
+  "textSha256": "234b451a5f8253220f940900ecb37dda8ae269e7b44000f734a95d2b04f9a1da",
+  "fingerprint": "e92706675d042e305f1375a5c62899fe0a24f180323d8d8cde64f32ff88b90f5",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "bde01a7a5cfebfb5bb1d5f054799536baa68bcd50e101e99df4f5b06e24bc230",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:13.605Z",
+  "elapsedMs": 357,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

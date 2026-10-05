@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-059",
+  "chapterId": "chapter-11",
+  "speakerId": "adult-aleem",
+  "text": "The following weekend, we met again. We sat by the pier near the Kallang River and watched the sunset. Light stretched across the water, shifting as the surface moved. For a while, admiring it together was enough. I was glad to be beside her with no table between us and nowhere our conversation had to arrive.",
+  "voiceUrl": "voices/chapter-11/ch11-059.mp3",
+  "durationMs": 19440,
+  "audioSha256": "c8c5e54bdec86cb6086e2ea74aba29c47b49e9b7e86db73fea21add46f803a5b",
+  "audioBytes": 233612,
+  "textSha256": "01539afa00957e0fb966b9f7c719356a869d0d64163b6f67265fb35223b09474",
+  "fingerprint": "4be6ff26711e6a569480948a0047988bb4adc8feed7400eb7734143a1a3d4a14",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "f2b557d6da04078cd3f46d88dc45d56c6ee82ac05d6bbffc744764e100e82449",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:09.765Z",
+  "elapsedMs": 487,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

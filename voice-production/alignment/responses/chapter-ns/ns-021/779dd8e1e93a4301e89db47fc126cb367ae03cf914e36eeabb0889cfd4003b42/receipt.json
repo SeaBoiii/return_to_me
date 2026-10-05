@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-021",
+  "chapterId": "chapter-ns",
+  "speakerId": "aleem-young-adult",
+  "text": "Limited issue only. I need to return it before every book-in.",
+  "voiceUrl": "voices/chapter-ns/ns-021.mp3",
+  "durationMs": 3432,
+  "audioSha256": "21de961dbc8797085c182a2ae4bf9d729108eeffd598a481b8b7af89f7370688",
+  "audioBytes": 41516,
+  "textSha256": "51ff535d4442711368b661d5cff7bcbaabce1274d8d519e4175bb10e51a644c4",
+  "fingerprint": "779dd8e1e93a4301e89db47fc126cb367ae03cf914e36eeabb0889cfd4003b42",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "8a3078b097f6bac26a822aa8556eb0a0d7f1b947cbf916b117c69d5f75c7e364",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:10.231Z",
+  "elapsedMs": 325,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

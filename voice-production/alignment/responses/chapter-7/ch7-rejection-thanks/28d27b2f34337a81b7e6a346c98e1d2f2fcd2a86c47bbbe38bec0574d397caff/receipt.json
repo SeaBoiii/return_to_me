@@ -1,0 +1,20 @@
+{
+  "lineId": "ch7-rejection-thanks",
+  "chapterId": "chapter-7",
+  "speakerId": "aleem-adult",
+  "text": "Thank you for telling me clearly. It hurts, but I'm glad you didn't leave me guessing. I don't have a very graceful response prepared. Just... I heard you. You don't need to explain it over and over to make me feel better.",
+  "voiceUrl": "voices/chapter-7/ch7-rejection-thanks.mp3",
+  "durationMs": 12384,
+  "audioSha256": "7d3c4193f1ffe3abfe07848781cbd395e2fadc6e9f6d885b0921adbf673808d9",
+  "audioBytes": 148940,
+  "textSha256": "233bf083557b473e0dc1e0c809600f87624902931ef8e3a927956d50458c03f5",
+  "fingerprint": "28d27b2f34337a81b7e6a346c98e1d2f2fcd2a86c47bbbe38bec0574d397caff",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "badc62c4e6c9bb534c8c3a3f0c53149c42cde4e8e579674b0b382541eebe12d6",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:36.589Z",
+  "elapsedMs": 424,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

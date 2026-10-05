@@ -1,0 +1,20 @@
+{
+  "lineId": "ch5-012",
+  "chapterId": "chapter-5",
+  "speakerId": "mei-lin",
+  "text": "That is a strange sales pitch. But yes. I think getting out would be good.",
+  "voiceUrl": "voices/chapter-5/ch5-012.mp3",
+  "durationMs": 5760,
+  "audioSha256": "e58ebc41b12e5ddd5d51668e98adbe79954980bc10bbde7df5603d27c95515fa",
+  "audioBytes": 69452,
+  "textSha256": "cd4be171ba28069102d4c6251bc328fe0b30c2222336f4005bb304aa9c79ca46",
+  "fingerprint": "61060004eb3646ccb88030871b57330e3dcc29053a7918bb4f9078ef44d6fb1b",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "51998ac0e7543ae9d8e7ffcb60c5f0bc7fa96aac5cd94ddaf1f3dc22e86772ba",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:01.699Z",
+  "elapsedMs": 349,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

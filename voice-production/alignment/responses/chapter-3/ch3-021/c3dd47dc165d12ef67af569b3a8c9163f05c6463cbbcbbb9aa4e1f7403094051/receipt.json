@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-021",
+  "chapterId": "chapter-3",
+  "speakerId": "syafiqa",
+  "text": "You skipped two buses? Aleem, you could have gone first.",
+  "voiceUrl": "voices/chapter-3/ch3-021.mp3",
+  "durationMs": 4632,
+  "audioSha256": "ec5470ae660ed138cb372f747d02840dd5857539533253c3a83647849819918c",
+  "audioBytes": 55916,
+  "textSha256": "694a5a00e1e66d69b5679061b82a8453447a5f3099f8afde99fdb128ba044eba",
+  "fingerprint": "c3dd47dc165d12ef67af569b3a8c9163f05c6463cbbcbbb9aa4e1f7403094051",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "c90ebdaecfd7c641557b3adf45d2dcd87ba3d24d13fae3cc9c38e14e5691ad3a",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:46.713Z",
+  "elapsedMs": 340,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

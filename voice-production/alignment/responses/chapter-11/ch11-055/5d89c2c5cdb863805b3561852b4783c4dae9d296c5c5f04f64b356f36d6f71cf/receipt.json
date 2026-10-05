@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-055",
+  "chapterId": "chapter-11",
+  "speakerId": "aleem-adult",
+  "text": "I'm serious about knowing her. I wanted to meet you because you're part of her life. I hope we can build towards a future together, at a pace we're both comfortable with.",
+  "voiceUrl": "voices/chapter-11/ch11-055.mp3",
+  "durationMs": 9024,
+  "audioSha256": "fac606a7d89a2feefd70a8a02cf5cc377c3ca60724a625e90d566f807a1408e7",
+  "audioBytes": 108620,
+  "textSha256": "7b04bdd8b4e834474c7579006da73b64c93dbf0c31ff6f447fcd798cff93f0b5",
+  "fingerprint": "5d89c2c5cdb863805b3561852b4783c4dae9d296c5c5f04f64b356f36d6f71cf",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "3ab748e5f27ca6b8a537324624da6fbcb449890910e3cd8addeae46b541c0393",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:09.273Z",
+  "elapsedMs": 396,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

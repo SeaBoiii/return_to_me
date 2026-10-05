@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-silence-obvious",
+  "chapterId": "chapter-6",
+  "speakerId": "adult-aleem",
+  "text": "Who else knew her timetable this well? Who else stayed up answering messages about a bad day? I thought my feelings must be visible in the time I gave her. Saying them aloud felt almost unnecessary, like explaining a joke everybody in the room already understood.",
+  "voiceUrl": "voices/chapter-6/ch6-silence-obvious.mp3",
+  "durationMs": 17592,
+  "audioSha256": "92ade5bda1a3a75215a56e4a48802593ce73bb6dc98b2d36be6ce4886c363cc9",
+  "audioBytes": 211436,
+  "textSha256": "1c732a1a4a96f0e79c342b4944c4914d0fa0e20ade8c9f7520caecffdc94ad59",
+  "fingerprint": "a9677261ac667665eeaa4421e1e17ef349b2fe80fb21bce0507618982fe36eae",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "9cc2b29b18489d2144325f528fb9814fdd6c2fe9af4d2d7e727e78f8092441df",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:25.055Z",
+  "elapsedMs": 471,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

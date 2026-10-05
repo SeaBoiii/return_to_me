@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-013",
+  "chapterId": "chapter-11",
+  "speakerId": "adult-aleem",
+  "text": "She initiated our first meeting. Even that small suggestion reached me more deeply than she could have known. Someone wanted to spend time with me enough to ask. I accepted, pleased and still a little careful, and we arranged to eat at Yakiniku. At least there, my replies would have a face and a voice attached to them.",
+  "voiceUrl": "voices/chapter-11/ch11-013.mp3",
+  "durationMs": 23592,
+  "audioSha256": "261ac593104772506379977757e41f1226cd71136bfb7a75a1846fdcfe805ef0",
+  "audioBytes": 283436,
+  "textSha256": "e2025c34876d5adf2f42f6904951cfde7755aa6b2c5320c9fb2bbe6372eecc1a",
+  "fingerprint": "4af3e1b1a860ce324d1ebbb05ccebd99cee5e768ed62a4657d1944b45b581da1",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "be7e2b0eb1de010de894c6727804d11618a3d3ea7cd98a8918ded2d99788b74e",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:01.845Z",
+  "elapsedMs": 819,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

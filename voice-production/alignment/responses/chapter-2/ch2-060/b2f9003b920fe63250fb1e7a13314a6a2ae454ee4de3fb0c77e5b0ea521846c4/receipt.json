@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-060",
+  "chapterId": "chapter-2",
+  "speakerId": "aleem-sec",
+  "text": "That is not fair. I have a lot to manage right now.",
+  "voiceUrl": "voices/chapter-2/ch2-060.mp3",
+  "durationMs": 2952,
+  "audioSha256": "f51f2eb5fa8d376447300a8dfa09e2f071fcf681458724a7cf1321da13f177e8",
+  "audioBytes": 35756,
+  "textSha256": "681e54c64b3b2706d38ee0a5681a8bf1caf689744bf058cc81dcdfa29e5a14f7",
+  "fingerprint": "b2f9003b920fe63250fb1e7a13314a6a2ae454ee4de3fb0c77e5b0ea521846c4",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "869d48e24e5bd678997bea3a3133afbe179129452c47da670ee0d44c40665354",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:33.287Z",
+  "elapsedMs": 330,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

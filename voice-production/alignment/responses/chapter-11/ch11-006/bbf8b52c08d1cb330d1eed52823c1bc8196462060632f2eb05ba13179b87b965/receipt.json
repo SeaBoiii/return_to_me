@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-006",
+  "chapterId": "chapter-11",
+  "speakerId": "adult-aleem",
+  "text": "She answered, and we began talking. Nothing went dramatically wrong. There were greetings, questions, little exchanges about our days. If you had asked me then, I would have said things were okay. Looking back at how little I gave her to work with, I think she deserved a more generous conversation than okay.",
+  "voiceUrl": "voices/chapter-11/ch11-006.mp3",
+  "durationMs": 22320,
+  "audioSha256": "20e0caa95bbdee80cba7c75030edd7d4641b7aec675a0d53abd4f948894eb14e",
+  "audioBytes": 268172,
+  "textSha256": "c8c8a0d8f7cef97c433182f877b65d349f557cabe9df6036d26e8ed49b657df8",
+  "fingerprint": "bbf8b52c08d1cb330d1eed52823c1bc8196462060632f2eb05ba13179b87b965",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "28169677ceb589efdd8804a5f089f90a65e6251ab9f8374451196e813f51aadf",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:00.508Z",
+  "elapsedMs": 539,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

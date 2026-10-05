@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-friend-defend-001",
+  "chapterId": "chapter-2",
+  "speakerId": "aleem-sec",
+  "text": "You do not know our relationship. Things have been difficult, but that does not mean you can decide what happened.",
+  "voiceUrl": "voices/chapter-2/ch2-friend-defend-001.mp3",
+  "durationMs": 5280,
+  "audioSha256": "a51248e13ee482efe5666a24cf0d2fb43fb82a4adad247bb2a60d1eed2a94ba4",
+  "audioBytes": 63692,
+  "textSha256": "b171c01c8b3b55df8157dc08f69fd472591ddb4f98841e672f44c8be2c46c368",
+  "fingerprint": "40a3b2e066c062960a92721912f731d4e54e5ca76d3163e6e9f61ae66f3e2018",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "7db18096cb2fa1bd8d7e03c0dd189cd13e8311bb4096ca38fd4662ed3fdad7ed",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:36.483Z",
+  "elapsedMs": 374,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

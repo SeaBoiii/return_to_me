@@ -1,0 +1,20 @@
+{
+  "lineId": "ch1-009",
+  "chapterId": "chapter-1",
+  "speakerId": "aleem-p6",
+  "text": "Everyone talks too much.",
+  "voiceUrl": "voices/chapter-1/ch1-009.mp3",
+  "durationMs": 2112,
+  "audioSha256": "d7f0cc110637766ce31f8854a8f273eea6c402e15988b2e21c3ba6e2c6f29728",
+  "audioBytes": 25676,
+  "textSha256": "a8ec6b75e141699ba593acc988416c57ad9f53e1c466b4e59cb4ba4dd1c6045b",
+  "fingerprint": "20849cf7cc7c89311f24ea09995bc20f450cce3fdb4066f5536f8d815f30711c",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "b4d78b04125b52cad5bc5a48aff85ac2b2acbdcf8a32316bf3a1c0a25c3a23e2",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:12.570Z",
+  "elapsedMs": 337,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

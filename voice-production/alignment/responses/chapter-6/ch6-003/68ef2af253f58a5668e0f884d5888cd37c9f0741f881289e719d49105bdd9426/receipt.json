@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-003",
+  "chapterId": "chapter-6",
+  "speakerId": "adult-aleem",
+  "text": "Jia Wen stood near the front of my group, a Chinese freshie with a small backpack and a face I kept accidentally checking for a smile. She was short enough that somebody behind her could read my clipboard over her head. Very cute, I thought, then reminded myself to take attendance.",
+  "voiceUrl": "voices/chapter-6/ch6-003.mp3",
+  "durationMs": 17280,
+  "audioSha256": "624a7f354cde483fe7140c70c3cc2d6707070b21c50bc398171d140402e0bd8b",
+  "audioBytes": 207692,
+  "textSha256": "bbd40bd1632044ab09544fedae6a712e6d58a9e151835f8f5bc7b208e3f468e9",
+  "fingerprint": "68ef2af253f58a5668e0f884d5888cd37c9f0741f881289e719d49105bdd9426",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "2fbda8a6ffcdbe4ecebbcd81456b6c02c8465f9d771e1ea141086848f1b2ace3",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:22.084Z",
+  "elapsedMs": 444,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

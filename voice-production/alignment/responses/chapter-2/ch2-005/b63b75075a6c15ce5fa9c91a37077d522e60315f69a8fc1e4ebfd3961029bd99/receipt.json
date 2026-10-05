@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-005",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "I became intensely aware of my arms, my glasses, and the possibility that I had forgotten how to sit naturally.",
+  "voiceUrl": "voices/chapter-2/ch2-005.mp3",
+  "durationMs": 7104,
+  "audioSha256": "ee139042fac05056d6df7e3d53737b7418f1cc5f3b2891f4d7ddf1b460012d8a",
+  "audioBytes": 85580,
+  "textSha256": "61ae55e2933431fd1cf0b8d32af693b6be270da22c72209f032386e083fbf169",
+  "fingerprint": "b63b75075a6c15ce5fa9c91a37077d522e60315f69a8fc1e4ebfd3961029bd99",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "268e16d4da2386936a0f4ec0a3d8f15dbe5f1754a3256296d03073fda91d2488",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:22.125Z",
+  "elapsedMs": 507,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

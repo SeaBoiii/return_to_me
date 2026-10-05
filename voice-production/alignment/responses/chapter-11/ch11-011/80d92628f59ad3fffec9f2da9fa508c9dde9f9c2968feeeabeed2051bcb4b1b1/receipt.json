@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-011",
+  "chapterId": "chapter-11",
+  "speakerId": "adult-aleem",
+  "text": "Much later, Nurul told me what she had thought of those early messages. She had wondered whether I was a narcissist. I winced when I heard it. She was describing her first impression of a man who answered questions about himself and scarcely asked about her. I understood how I had given her that impression.",
+  "voiceUrl": "voices/chapter-11/ch11-011.mp3",
+  "durationMs": 20640,
+  "audioSha256": "6763f60e24a8fd70c53a3ea503cecb845b4b5d3daacd6007ceb6af2ce1d62fbc",
+  "audioBytes": 248012,
+  "textSha256": "53349cfa8ab80107461abca0546e4176e5a8f1dbee38c599444115e941945ef3",
+  "fingerprint": "80d92628f59ad3fffec9f2da9fa508c9dde9f9c2968feeeabeed2051bcb4b1b1",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "698cd05be58b705c018b862c6dd9ffaa628a29060cfeda73edd0107bbaace1b4",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:01.018Z",
+  "elapsedMs": 506,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

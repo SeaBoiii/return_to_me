@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-027",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "Our relationship lived mostly in modest pieces: a call before lights-out, her message waiting after training, a public meal where neither of us wanted to be first to say the evening should end.",
+  "voiceUrl": "voices/chapter-ns/ns-027.mp3",
+  "durationMs": 12240,
+  "audioSha256": "c305b690b36428b98966640d829e1a6e6c2470d2c92f9e26a459e02ac5bfb329",
+  "audioBytes": 147212,
+  "textSha256": "8f03050a20fc475abb98b04325710dd59576ce5035558442f0d8b08a63064e17",
+  "fingerprint": "ce24e1f907e364373076dc9c100f4dc7db94e1bf4ebb88a45bbe47e3caf623f1",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "74930993c13cd0e83ee5acedc9e4fabb4515191c7d1d840cb073f09e6cbacffa",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:10.994Z",
+  "elapsedMs": 371,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

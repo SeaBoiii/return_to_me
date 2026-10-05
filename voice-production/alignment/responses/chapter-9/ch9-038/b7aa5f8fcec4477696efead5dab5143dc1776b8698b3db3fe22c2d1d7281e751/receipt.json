@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-038",
+  "chapterId": "chapter-9",
+  "speakerId": "nadiah",
+  "text": "You're very quiet suddenly. Tired?",
+  "voiceUrl": "voices/chapter-9/ch9-038.mp3",
+  "durationMs": 4080,
+  "audioSha256": "cd03d553d2fe1d6ec36c482752b79e0a7cb91622d884f638db78e97e52166c3e",
+  "audioBytes": 49292,
+  "textSha256": "37bf25db4f89c0b902568248b9f00b348ab39037e454592fc03730039fa2759c",
+  "fingerprint": "b7aa5f8fcec4477696efead5dab5143dc1776b8698b3db3fe22c2d1d7281e751",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "abab8252133e9546f107cfde2d4d273ed676faf971044042e757e6e3645e2b16",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:51.417Z",
+  "elapsedMs": 334,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-priority-hana-001",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "I called Hana. For ten minutes, I listened properly while warning messages multiplied behind the call window. She laughed once, and the sound made the choice feel simple.",
+  "voiceUrl": "voices/chapter-2/ch2-priority-hana-001.mp3",
+  "durationMs": 11520,
+  "audioSha256": "225498e2f7a1419d175b889369c0025019dff0b66614d1e143ef08d9169b7ee8",
+  "audioBytes": 138572,
+  "textSha256": "6640d978b94c883061f471bf1e3313e975e056fc0731fc94a6b0855cda003a87",
+  "fingerprint": "fbb2164be6b287c4864000e98144694b3e160b7db3df131a9d43cc390fdc2669",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "b5bbafdc5af1080cd3aaf4a78f328a454b4c7fda54816ff91428ad18b8c5a3ff",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:30.036Z",
+  "elapsedMs": 374,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

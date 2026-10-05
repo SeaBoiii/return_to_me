@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-023",
+  "chapterId": "chapter-ns",
+  "speakerId": "nadiah",
+  "text": "Message when you reach camp. I know you will be busy; I just want to know the journey was okay.",
+  "voiceUrl": "voices/chapter-ns/ns-023.mp3",
+  "durationMs": 7344,
+  "audioSha256": "efc5219a70c2d418d9291d10243c21bc1daf133e77228b784da721e8f8f0f70e",
+  "audioBytes": 88460,
+  "textSha256": "57615fb2876db7d623f505d597b151615b89f33807ed3d25823e7a0a1cc89780",
+  "fingerprint": "1e66d3a042d672277a6f65caa1b1964a7c66b5443b51f755b2e014163d973be8",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "aab5fb3e89c8880bf24e26fa3644e92b8885a0339df32542a1c5c90d085aa23e",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:10.357Z",
+  "elapsedMs": 435,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

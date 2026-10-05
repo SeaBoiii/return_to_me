@@ -1,0 +1,20 @@
+{
+  "lineId": "ch7-008",
+  "chapterId": "chapter-7",
+  "speakerId": "aleem-adult",
+  "text": "Those can both be true. Let me see.",
+  "voiceUrl": "voices/chapter-7/ch7-008.mp3",
+  "durationMs": 2472,
+  "audioSha256": "8b3417125841d3ecce6f4d76b36a09e6aed8892dfe639d6715f825e09866180a",
+  "audioBytes": 29996,
+  "textSha256": "f747d5d6edaf6f5a04e0e3f18df53be75f4ab19bcaac3fd1928e7535a520eb61",
+  "fingerprint": "9ef02fa98d5c30c32a7a73972c4d36d218a1a6361a8127cbe09923825ca47ea8",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "a82ad1f8e8d8ca82f38b993046ebf7528cb25ecef33e63efe3320735ccfe0087",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:34.494Z",
+  "elapsedMs": 322,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

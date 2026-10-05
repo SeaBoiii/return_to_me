@@ -1,0 +1,20 @@
+{
+  "lineId": "ch7-companionship-alone",
+  "chapterId": "chapter-7",
+  "speakerId": "adult-aleem",
+  "text": "I knew what waited at home: a quiet room and more time to think than I wanted. Here, somebody was asking whether we should get a drink before leaving. I could accept a small kindness tonight without solving the whole future. It was very easy to keep choosing tonight.",
+  "voiceUrl": "voices/chapter-7/ch7-companionship-alone.mp3",
+  "durationMs": 19104,
+  "audioSha256": "dcfccc5ee3626ba2f94ade8af55b938c7e31f44a05a62e5121273b01fad6df1b",
+  "audioBytes": 229580,
+  "textSha256": "986200df256e9a7c56dfcbbf53e0c8c98b84e80265a03b15e3a2f9d8c3fc20ed",
+  "fingerprint": "f8341f23a037eca6126aa59f0106fc438233c3c818a0412e380c30d31242104f",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "1856a8f3aec86f597463b85543c2eca8dc641e4654a67d91da6a358f9c92758a",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:39.576Z",
+  "elapsedMs": 507,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

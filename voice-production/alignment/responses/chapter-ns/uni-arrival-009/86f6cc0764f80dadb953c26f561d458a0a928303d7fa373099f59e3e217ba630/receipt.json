@@ -1,0 +1,20 @@
+{
+  "lineId": "uni-arrival-009",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "My eyes moved rapidly from face to face. In my perception, red markers seemed to appear above the women, converting strangers into warnings before any of them had spoken.",
+  "voiceUrl": "voices/chapter-ns/uni-arrival-009.mp3",
+  "durationMs": 10800,
+  "audioSha256": "9275caa624607159697a219af3451ed0628f47cf5f074cc3a7dfc9c0cbb10f94",
+  "audioBytes": 129932,
+  "textSha256": "fa5360c1d61d44c4f80cf0bb0315fc587bc643986adfa9200f5cabf9b48796b1",
+  "fingerprint": "86f6cc0764f80dadb953c26f561d458a0a928303d7fa373099f59e3e217ba630",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "b4be489b31f553cd3d963c600f35a060958c9e61f7b94ef4ae84c1f4254852fa",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:19.425Z",
+  "elapsedMs": 428,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

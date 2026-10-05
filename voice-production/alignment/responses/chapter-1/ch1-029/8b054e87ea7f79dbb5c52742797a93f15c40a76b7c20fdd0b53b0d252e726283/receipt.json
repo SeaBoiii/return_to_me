@@ -1,0 +1,20 @@
+{
+  "lineId": "ch1-029",
+  "chapterId": "chapter-1",
+  "speakerId": "adult-aleem",
+  "text": "Then the gaps lengthened. Homework became heavier. New friendships demanded attention. One missed evening turned into two without either of us deciding that anything had changed.",
+  "voiceUrl": "voices/chapter-1/ch1-029.mp3",
+  "durationMs": 11760,
+  "audioSha256": "6e4056e3fa4e35586577b0c01e773172c2955848bc48d8b3a45de5b0afe81d4a",
+  "audioBytes": 141452,
+  "textSha256": "a652dd7ca9adb831ee892f9dee7a292fb871b6dce6153a38bc22197b81cc1326",
+  "fingerprint": "8b054e87ea7f79dbb5c52742797a93f15c40a76b7c20fdd0b53b0d252e726283",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "1ec972d280ec771cfa1f28c445126d042a2d196ae4d293781258e2607369a505",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:16.678Z",
+  "elapsedMs": 793,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

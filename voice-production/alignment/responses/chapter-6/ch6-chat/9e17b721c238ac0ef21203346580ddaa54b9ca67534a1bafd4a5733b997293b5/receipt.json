@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-chat",
+  "chapterId": "chapter-6",
+  "speakerId": "adult-aleem",
+  "text": "I would say I was going to sleep, put the phone down, and reach for it when it lit up again. She did the same. Our goodnights became negotiations neither of us was particularly determined to finish. The next morning, I could be tired in a lecture and still smile when she sent a complaint about hers.",
+  "voiceUrl": "voices/chapter-6/ch6-chat.mp3",
+  "durationMs": 18312,
+  "audioSha256": "5da002d0db8a77cdf81cdd51db2c643ebdc5a3ecb8822cf30b4bce7426034052",
+  "audioBytes": 220076,
+  "textSha256": "f484027facfee4cce3a61cdfd872212a731bee089f9eeda3d5c32035fff5a26d",
+  "fingerprint": "9e17b721c238ac0ef21203346580ddaa54b9ca67534a1bafd4a5733b997293b5",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "178187452b62b20f45979bdbe485be2f226adc5f04af8c0da195979d54a205d5",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:22.972Z",
+  "elapsedMs": 489,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

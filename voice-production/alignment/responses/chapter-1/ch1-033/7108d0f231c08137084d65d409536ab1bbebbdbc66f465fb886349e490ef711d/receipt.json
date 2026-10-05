@@ -1,0 +1,20 @@
+{
+  "lineId": "ch1-033",
+  "chapterId": "chapter-1",
+  "speakerId": "adult-aleem",
+  "text": "The first message asked whether a boy liked her. The second asked how she could approach him without making her interest obvious.",
+  "voiceUrl": "voices/chapter-1/ch1-033.mp3",
+  "durationMs": 8304,
+  "audioSha256": "b45460513f6e442367efffc2585b522754ac66dfb811391ec8949e3f57fd2487",
+  "audioBytes": 99980,
+  "textSha256": "2ea068e59a07e3ecf7757176bdb7ed79a45c56492b452c058e89c9cb6aa4f208",
+  "fingerprint": "7108d0f231c08137084d65d409536ab1bbebbdbc66f465fb886349e490ef711d",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "6f56fa42837938256d00eefc43025e5b6b462bde75df1a383ec8902f04bae2d3",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:17.277Z",
+  "elapsedMs": 629,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

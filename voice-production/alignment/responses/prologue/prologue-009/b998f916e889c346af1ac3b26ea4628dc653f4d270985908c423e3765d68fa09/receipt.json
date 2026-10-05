@@ -1,0 +1,20 @@
+{
+  "lineId": "prologue-009",
+  "chapterId": "prologue",
+  "speakerId": "adult-aleem",
+  "text": "I did not. None of us did. That was the innocence of Primary Six. We borrowed the language of grown-up love while still worrying about spelling tests and whether the canteen queue would finish before recess did.",
+  "voiceUrl": "voices/prologue/prologue-009.mp3",
+  "durationMs": 14280,
+  "audioSha256": "2709a372be930f463ba5265b3124042badb89547fb66fb4c64286564575438d4",
+  "audioBytes": 171692,
+  "textSha256": "bb6b8f466389d1d0ab1728eb83242d178793e02bef5ede1287e7ba9a49cd5f19",
+  "fingerprint": "b998f916e889c346af1ac3b26ea4628dc653f4d270985908c423e3765d68fa09",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "c93576286af23a268e4605c9f38f73b3226e7a4db6a0f3f55ade77a5e66f1aa2",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:10.277Z",
+  "elapsedMs": 756,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

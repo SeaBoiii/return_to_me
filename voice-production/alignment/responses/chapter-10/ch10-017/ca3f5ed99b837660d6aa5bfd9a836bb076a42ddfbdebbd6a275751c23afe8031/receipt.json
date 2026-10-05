@@ -1,0 +1,20 @@
+{
+  "lineId": "ch10-017",
+  "chapterId": "chapter-10",
+  "speakerId": "adult-aleem",
+  "text": "That lightness stayed with me when I saw Nadiah. I still liked the warmth in her greeting. I still knew how quickly one of her smiles could find the affectionate part of me. Forgiving her had not made her a stranger. It had made it possible to see her without needing every encounter to repair the past.",
+  "voiceUrl": "voices/chapter-10/ch10-017.mp3",
+  "durationMs": 18240,
+  "audioSha256": "1e959f86529cc6796de3f9cbf3f565b280d726eadb4ba8c872f694702f9012f5",
+  "audioBytes": 219212,
+  "textSha256": "3032ef84a42a7cba0f8b87990ae1d0410ecd0bff4a680f3f7fddcac71ad31f01",
+  "fingerprint": "ca3f5ed99b837660d6aa5bfd9a836bb076a42ddfbdebbd6a275751c23afe8031",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "5930dae9418190959cb84aa16865eff461c6bc8ef80fa65184b2322644335237",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:57.112Z",
+  "elapsedMs": 477,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

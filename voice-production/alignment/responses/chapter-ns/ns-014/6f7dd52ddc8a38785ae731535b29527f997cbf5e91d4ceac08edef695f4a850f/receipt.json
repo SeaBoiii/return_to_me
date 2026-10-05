@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-014",
+  "chapterId": "chapter-ns",
+  "speakerId": "aleem-young-adult",
+  "text": "That is possible. I have been in camp too long. Civilian conversations move very fast.",
+  "voiceUrl": "voices/chapter-ns/ns-014.mp3",
+  "durationMs": 4800,
+  "audioSha256": "29c8b325196186a800f005ab371e11da6f20f803af3f9dfca0d3be30bf77cab4",
+  "audioBytes": 57932,
+  "textSha256": "21cdaee87eabbbc150f9cc75ed1b40fa74b3e865c0cd604f6dbf3773f8ec1fdd",
+  "fingerprint": "6f7dd52ddc8a38785ae731535b29527f997cbf5e91d4ceac08edef695f4a850f",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "fd0789825cb2e5f4f88ca558141f4806a81cd9258c4bec287ab6fff2631c9916",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:09.173Z",
+  "elapsedMs": 349,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

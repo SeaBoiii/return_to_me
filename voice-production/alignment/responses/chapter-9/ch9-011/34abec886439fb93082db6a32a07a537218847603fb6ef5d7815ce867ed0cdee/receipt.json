@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-011",
+  "chapterId": "chapter-9",
+  "speakerId": "adult-aleem",
+  "text": "Among the people we began spending time with were Kak Mariam and her husband, Abang Yusuf. Mariam noticed when someone was standing awkwardly at the edge of a conversation. She made space with a small shift of her chair and a wave, as though there had always been a place intended for them.",
+  "voiceUrl": "voices/chapter-9/ch9-011.mp3",
+  "durationMs": 18240,
+  "audioSha256": "93a731b4af655fc27b82924ab1041ba6f633b1b98d64821e223f6231333b1696",
+  "audioBytes": 219212,
+  "textSha256": "5e8b6ca6808d4a26820047c4532d479675f9a6d608a377ea68eaabbcaf891209",
+  "fingerprint": "34abec886439fb93082db6a32a07a537218847603fb6ef5d7815ce867ed0cdee",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "372c778672edff35fc169acd03d8fd2404225922be146b41736048270cd88f54",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:45.252Z",
+  "elapsedMs": 521,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

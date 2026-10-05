@@ -1,0 +1,20 @@
+{
+  "lineId": "ch4-016",
+  "chapterId": "chapter-4",
+  "speakerId": "adult-aleem",
+  "text": "We began studying at the same table after lessons. She organised papers into neat sections. I brought explanations from whichever topic had finally made sense to me and snacks selected with no academic discipline at all.",
+  "voiceUrl": "voices/chapter-4/ch4-016.mp3",
+  "durationMs": 12720,
+  "audioSha256": "b3af38acf1cbcf1459ea0c6de84a21b321374f5f2931db30ccbc845e43a0740e",
+  "audioBytes": 152972,
+  "textSha256": "206665068fd51a1df1b2162d8702548c15f744becb1763b6445536911054d971",
+  "fingerprint": "d19985db635f72af93ae2ccb329211e411247b423ca06d29b3c8eb332dc59605",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "3ceba49b9a6d41560640ca5dd80086cb37afecd7269154b4399f38d9f4bfa6e4",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:56.703Z",
+  "elapsedMs": 440,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

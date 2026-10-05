@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-030",
+  "chapterId": "chapter-9",
+  "speakerId": "adult-aleem",
+  "text": "There was no long account of who had hurt whom. We didn't settle the past on that mountain. We talked around familiar details and allowed some of them to be tender again. The air moved against my face while she spoke. I noticed that my shoulders had dropped, and that I was no longer choosing each word to keep myself protected.",
+  "voiceUrl": "voices/chapter-9/ch9-030.mp3",
+  "durationMs": 20400,
+  "audioSha256": "b3e4111799c1d7422027cbb10f76058456f43745288b95f0cded518b04f8d609",
+  "audioBytes": 245132,
+  "textSha256": "2b2ea1135d4c99d3e78f0653fb1c3effb9d85ecc5e3d2a3202cd01869a8bbe23",
+  "fingerprint": "d3195d412b397a53cae7396a4df75e57b07fafdf39e55fdb089354ec3ae039bb",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "fd0ded30c948e3b8848cb187da9bd3ed0112a7eda46a30fcc157cc7ef91efda4",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:49.380Z",
+  "elapsedMs": 504,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

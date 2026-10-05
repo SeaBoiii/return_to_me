@@ -1,0 +1,20 @@
+{
+  "lineId": "ch1-044",
+  "chapterId": "chapter-1",
+  "speakerId": "adult-aleem",
+  "text": "The conversation ended without ceremony. No final meeting beneath the school gate. No shared audience to declare us finished. Just two small screens going dark in two different homes.",
+  "voiceUrl": "voices/chapter-1/ch1-044.mp3",
+  "durationMs": 13680,
+  "audioSha256": "060e33539562d66640033551a1ac5a79463dbec29f9d00f301197613061f671b",
+  "audioBytes": 164492,
+  "textSha256": "3e653ea23923385bc5928922e8b133a37e397cc7694e3acf220a58e2c0bd1e4b",
+  "fingerprint": "2b39132b238e1a252d4ef0832b681b840ce7d658b3db8ba9b6e4577e8668c16b",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "caa34fcaac3100ff3ba7dc2624232c28f41d1088c75ecf54a46cc9e9444064ad",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:20.717Z",
+  "elapsedMs": 951,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

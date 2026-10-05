@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-016",
+  "chapterId": "chapter-6",
+  "speakerId": "adult-aleem",
+  "text": "I laughed along. The word friends should have registered more clearly than the teasing around it. Instead, I carried the teasing home. If everybody could see something between us, surely there was something to see. I told myself she was simply embarrassed to admit it in front of everyone.",
+  "voiceUrl": "voices/chapter-6/ch6-016.mp3",
+  "durationMs": 18792,
+  "audioSha256": "0879456357d17074adc666a67f0bd1f446d7a26b8d11247779bc5180fb1aa2ad",
+  "audioBytes": 225836,
+  "textSha256": "5776079a228793f35d3c4476970eadb20fc707db5d3f53cece5bbc36f4567f7b",
+  "fingerprint": "20d2ed20d982ec39c84cd4ddd6e5696675b72c2bdcc5136abe72c9f131633e6e",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "9b364c7ddcd391f37b9705b3c6bb7d2082fe4a7ec1a5530b5c7bdb84ce543c65",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:24.556Z",
+  "elapsedMs": 464,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

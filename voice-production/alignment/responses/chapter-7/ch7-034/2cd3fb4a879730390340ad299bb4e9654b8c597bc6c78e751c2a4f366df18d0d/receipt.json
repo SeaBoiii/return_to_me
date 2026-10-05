@@ -1,0 +1,20 @@
+{
+  "lineId": "ch7-034",
+  "chapterId": "chapter-7",
+  "speakerId": "adult-aleem",
+  "text": "I stayed nearby until there was no longer the same place to stand. There wasn't a second confession or a final argument. Just evenings opening up where her company used to be, and the knowledge that she had found the kind of relationship she had told me she wanted.",
+  "voiceUrl": "voices/chapter-7/ch7-034.mp3",
+  "durationMs": 15600,
+  "audioSha256": "afc2de3d6bd142d1e278d865933e69d2bf549cffa7b5453f8e4d7e039b550c50",
+  "audioBytes": 187532,
+  "textSha256": "78ba65d83981821b2c51ad8b3b83dbbf5b9f95541eccddc09665c2087d2d908c",
+  "fingerprint": "2cd3fb4a879730390340ad299bb4e9654b8c597bc6c78e751c2a4f366df18d0d",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "db097374b699091a393e3181b96eecb291aaba133fbc09ee61c1846f5644a4ea",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:41.100Z",
+  "elapsedMs": 531,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

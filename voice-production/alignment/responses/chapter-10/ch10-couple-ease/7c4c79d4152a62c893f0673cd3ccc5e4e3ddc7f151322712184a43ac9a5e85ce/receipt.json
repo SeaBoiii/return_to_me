@@ -1,0 +1,20 @@
+{
+  "lineId": "ch10-couple-ease",
+  "chapterId": "chapter-10",
+  "speakerId": "adult-aleem",
+  "text": "Yusuf would pause to let Mariam add something, then pick up the thread without needing to start again. Sometimes they disagreed about a small detail and laughed when neither would give way. I watched them with a feeling I couldn't have managed at home: pleasure in somebody else's companionship, without immediately measuring the empty space beside me.",
+  "voiceUrl": "voices/chapter-10/ch10-couple-ease.mp3",
+  "durationMs": 21360,
+  "audioSha256": "699eb4626e8ae57650edf83d10674dba4dc8d0829a3dcf7bff6c52cb1b899d81",
+  "audioBytes": 256652,
+  "textSha256": "568e4f62cee8e520bde8722b7776d704850308cc1360c8c24a8ee6ae0ec9e5c2",
+  "fingerprint": "7c4c79d4152a62c893f0673cd3ccc5e4e3ddc7f151322712184a43ac9a5e85ce",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "65e5de07e6a082e1526a3d9eead3659af0cac73ea5ebcf3f8ff43b60b27064f7",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:59.146Z",
+  "elapsedMs": 602,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

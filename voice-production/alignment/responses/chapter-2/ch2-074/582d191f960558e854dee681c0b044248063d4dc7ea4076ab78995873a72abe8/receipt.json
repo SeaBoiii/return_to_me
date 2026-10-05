@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-074",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "I heard the sadness, but I also heard an impossible request. At sixteen, I believed effort counted only when it looked like solving. Presence did not feel measurable enough to manage.",
+  "voiceUrl": "voices/chapter-2/ch2-074.mp3",
+  "durationMs": 12240,
+  "audioSha256": "3f68798303d804310d580ddd3594997e5334c904271f0eb00bd5d06567c1bbcf",
+  "audioBytes": 147212,
+  "textSha256": "915e65796666a7728ea99fedc1dce65c8acdce001b6ac5ca4dacf604eacbf375",
+  "fingerprint": "582d191f960558e854dee681c0b044248063d4dc7ea4076ab78995873a72abe8",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "2780b1a5e75d4afccd1f2ae93b5534969e644924129212fbc98995e102a5babc",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:35.877Z",
+  "elapsedMs": 737,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

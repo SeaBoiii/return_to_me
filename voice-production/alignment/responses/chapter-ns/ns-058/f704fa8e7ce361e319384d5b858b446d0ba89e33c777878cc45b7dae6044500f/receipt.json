@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-058",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "Eventually, Operationally Ready Date arrived. I returned what belonged to the Army, carried out the familiar final procedures, and stepped beyond the gate with civilian time opening in front of me.",
+  "voiceUrl": "voices/chapter-ns/ns-058.mp3",
+  "durationMs": 12552,
+  "audioSha256": "17c659537bea8c8cd82e4412a19f8005e909c75e37cd3af684d22b8e41b053fe",
+  "audioBytes": 150956,
+  "textSha256": "86e88a59c3247388cb6ea1056c20b70cc33a52f8c9f0fd7e69b0a1e9df571225",
+  "fingerprint": "f704fa8e7ce361e319384d5b858b446d0ba89e33c777878cc45b7dae6044500f",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "406f4fef779621914f65831448a93f9dbc23c74189a89fcf0f6fa3b8d1be6e98",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:17.781Z",
+  "elapsedMs": 422,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

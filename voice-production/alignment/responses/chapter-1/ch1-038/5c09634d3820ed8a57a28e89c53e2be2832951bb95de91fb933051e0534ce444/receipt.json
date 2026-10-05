@@ -1,0 +1,20 @@
+{
+  "lineId": "ch1-038",
+  "chapterId": "chapter-1",
+  "speakerId": "aleem-p6",
+  "text": "So... when did we stop being together?",
+  "voiceUrl": "voices/chapter-1/ch1-038.mp3",
+  "durationMs": 3096,
+  "audioSha256": "247b41e92bfac4c9d9aaa18ce858f1cdab03a8ab5e88f4078a38ad3fd94ba7b5",
+  "audioBytes": 37484,
+  "textSha256": "ad68f2cc0b9bd4a3a638b6485ea5c1b85f3ad5f830b12e9be8822a95185e09ee",
+  "fingerprint": "5c09634d3820ed8a57a28e89c53e2be2832951bb95de91fb933051e0534ce444",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "75bedd427aa60d05092677be76edcf1d11cb5563222e36458b8b1b94c1e3326a",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:19.150Z",
+  "elapsedMs": 353,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch4-022",
+  "chapterId": "chapter-4",
+  "speakerId": "mei-lin",
+  "text": "I regret giving you reusable advice.",
+  "voiceUrl": "voices/chapter-4/ch4-022.mp3",
+  "durationMs": 4152,
+  "audioSha256": "2a5c389255a00d582441cb175f9884999bec3611719961db1db670c218965fbe",
+  "audioBytes": 50156,
+  "textSha256": "71cbb43c5fb5d0cb1225992522b449f4add252077b14d86ca2e52c5d62b38626",
+  "fingerprint": "c85ff4f075f88bbfa72fe49c7547845a0f176c01eb9b794fff7accb2622f73b8",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "f73c459a7184792d9ff266870f3f29af78a70fea13c20d196d40919b378ef5d4",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:57.424Z",
+  "elapsedMs": 348,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

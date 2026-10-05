@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-confession-direct-001",
+  "chapterId": "chapter-3",
+  "speakerId": "aleem-sec",
+  "text": "I like you, Syafiqa. Not only as the person I travel with. Do you feel the same way?",
+  "voiceUrl": "voices/chapter-3/ch3-confession-direct-001.mp3",
+  "durationMs": 4152,
+  "audioSha256": "3149d5aaba2eea50445437ddc3d983accf6c08854ce128157ec591220f266e21",
+  "audioBytes": 50156,
+  "textSha256": "0617c3414de93f98bd9eb148350d6d1d32f9865cd9a0027b8eb50454a44a95d2",
+  "fingerprint": "58dcefb61c16e45243bb0c8d9cc508c4241f9eaef9cba862802e2b329ed54aa0",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "0dade4c310737604f4f396909556ab566fb3acd31ed9207ebc1cb3c6874ed87f",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:49.263Z",
+  "elapsedMs": 335,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

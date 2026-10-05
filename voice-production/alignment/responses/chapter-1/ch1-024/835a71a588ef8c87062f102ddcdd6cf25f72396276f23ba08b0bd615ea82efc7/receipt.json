@@ -1,0 +1,20 @@
+{
+  "lineId": "ch1-024",
+  "chapterId": "chapter-1",
+  "speakerId": "adult-aleem",
+  "text": "We meant it. That is important. Young promises are not lies simply because the people making them do not yet understand what keeping them will require.",
+  "voiceUrl": "voices/chapter-1/ch1-024.mp3",
+  "durationMs": 9840,
+  "audioSha256": "7de299b87d5bdc3f536a4df1a33818f83a887805034e0e131bf2e1347aa01ef6",
+  "audioBytes": 118412,
+  "textSha256": "b275870933a7fcada3fe92146a182ab1d87819fd0d8472c1a8e7548534ae3983",
+  "fingerprint": "835a71a588ef8c87062f102ddcdd6cf25f72396276f23ba08b0bd615ea82efc7",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "c6e27da04998cc1402fb116ebcfcd317d49b391fd7d4408bfe4d42e9600b70c6",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:15.880Z",
+  "elapsedMs": 805,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-002",
+  "chapterId": "chapter-9",
+  "speakerId": "imran",
+  "text": "Come, Aleem. We can put our things down first. You're looking at everything at once.",
+  "voiceUrl": "voices/chapter-9/ch9-002.mp3",
+  "durationMs": 5904,
+  "audioSha256": "5c6564cc4f0c26af93dbd2d3ca459fe545dad3e9bd7dcf996407aa107cef5964",
+  "audioBytes": 71180,
+  "textSha256": "369fef9d4f4753744f97ea285cb5bf3988959bafe5fd831ba0d5f3ec3b1b8ed6",
+  "fingerprint": "e02101cae2a635c07846b96da9021e258ae5a8be2d06b846d52d8163254b0e12",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "e198ceccede5f901942e8cb6043cc4ed51386415633d8a9e3bc10f0137745f41",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:43.787Z",
+  "elapsedMs": 355,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

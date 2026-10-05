@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-belief-generalise-002",
+  "chapterId": "chapter-3",
+  "speakerId": "adult-aleem",
+  "text": "I turned three different people and three different endings into a rule about Malay girls. The pattern felt protective because it made pain predictable. It was also unfair, shaped by selective memory and large enough to erase every individual person inside it.",
+  "voiceUrl": "voices/chapter-3/ch3-belief-generalise-002.mp3",
+  "durationMs": 16800,
+  "audioSha256": "a73310ad0a57c6446f585e5a541ba0ea21d8586a02cedfb63646c38b49352ab2",
+  "audioBytes": 201932,
+  "textSha256": "02a4c2e06faa199e4e2d2e431af86acea8dd82fb158f6ffb6446857d099196b2",
+  "fingerprint": "55b206d500a8a7f8a6d8702549ceeca8cb9b2108a9191178849372aa470b6400",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "295c330a80ea4efff1e2559f9dd38ba49ad339d090e79879ebd0eef5514aa915",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:51.889Z",
+  "elapsedMs": 503,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

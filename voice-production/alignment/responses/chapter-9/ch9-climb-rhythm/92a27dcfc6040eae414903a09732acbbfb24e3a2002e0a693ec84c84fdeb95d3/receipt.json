@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-climb-rhythm",
+  "chapterId": "chapter-9",
+  "speakerId": "adult-aleem",
+  "text": "I watched the ground more than her face at first. It gave me something practical to concentrate on while the surprise of having her nearby settled. Then she said something I hadn't caught. I turned, asked her to repeat it, and found myself smiling at how easily we could do that. I didn't have to pretend I had heard everything perfectly.",
+  "voiceUrl": "voices/chapter-9/ch9-climb-rhythm.mp3",
+  "durationMs": 20160,
+  "audioSha256": "8043666217225f2cb2aa1b068c107ac1f5840409bb354458ec6a210d2ab6ad3e",
+  "audioBytes": 242252,
+  "textSha256": "7eca96c5e3fd6f0a976d71b58b56a091e27b61455db8bab4652dbe0febd2d8b7",
+  "fingerprint": "92a27dcfc6040eae414903a09732acbbfb24e3a2002e0a693ec84c84fdeb95d3",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "80f51b25347298eef3c66270ebdaae165c20236cb41f0b050777122b61799df3",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:47.237Z",
+  "elapsedMs": 540,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

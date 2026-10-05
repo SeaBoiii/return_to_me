@@ -1,0 +1,20 @@
+{
+  "lineId": "ch10-boundary-join",
+  "chapterId": "chapter-10",
+  "speakerId": "adult-aleem",
+  "text": "I made no announcement. There was no farewell conversation for her to answer. The decision belonged in the small things I would do next: stop seeking another moment alone, stop returning to each pause for a possible promise, remain kind when we met. I could step away from pursuing her without making the warmth between us something to regret.",
+  "voiceUrl": "voices/chapter-10/ch10-boundary-join.mp3",
+  "durationMs": 23520,
+  "audioSha256": "5808199b51820d8aed34ccc5d000b982eb04a05348ab225394defc6ca319f5ff",
+  "audioBytes": 282572,
+  "textSha256": "93c1ef7b18d8abb1ffd06673222e6569a53387d47c8a87863716483a57e723e1",
+  "fingerprint": "f6dd3aada7f325e4b67f893cd254710a1a74a3f362ac0c2cf1f971211b130ebe",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "d2d5c9bbf21999a3a8597452358602b3ba959b5999498a5a9dffce39c609a78d",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:58.126Z",
+  "elapsedMs": 492,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

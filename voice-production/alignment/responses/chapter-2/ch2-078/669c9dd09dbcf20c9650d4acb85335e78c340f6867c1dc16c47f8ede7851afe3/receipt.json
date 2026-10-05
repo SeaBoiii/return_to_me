@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-078",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "I asked Hana to stay after class. She agreed. For once, I closed every other task in my mind and gave the conversation my full attention.",
+  "voiceUrl": "voices/chapter-2/ch2-078.mp3",
+  "durationMs": 8640,
+  "audioSha256": "c62fac70923b1691d4d08f1cfec969ee5b01155d0b37e3190464ee586152ae22",
+  "audioBytes": 104012,
+  "textSha256": "4d794ebb7c66b9c60f3e0e095aa8057a26041206b6541d40b5c975d4c0fd86ea",
+  "fingerprint": "669c9dd09dbcf20c9650d4acb85335e78c340f6867c1dc16c47f8ede7851afe3",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "96935213526a8fc99f8fa7fde53182dd51a3ce53e6ea2a00314cafcbb886d215",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:37.168Z",
+  "elapsedMs": 426,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

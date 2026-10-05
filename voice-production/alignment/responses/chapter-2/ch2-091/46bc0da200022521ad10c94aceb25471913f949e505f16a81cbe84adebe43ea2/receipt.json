@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-091",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "I tried to compress years of inconsistent study into months. Topics I should have recognised looked newly introduced. Each revision session exposed how much foundation was missing beneath me.",
+  "voiceUrl": "voices/chapter-2/ch2-091.mp3",
+  "durationMs": 12480,
+  "audioSha256": "034656f189bedafa017f45a06b96b8bd6c017170f887fcf7941d46ece80d0991",
+  "audioBytes": 150092,
+  "textSha256": "7f8a07d8e9b28889467328dac3f5799f5d31e7d2b02dc90a461fecc452557ba4",
+  "fingerprint": "46bc0da200022521ad10c94aceb25471913f949e505f16a81cbe84adebe43ea2",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "8d1e8fb9265f850dd5332b88be1b8fa3c1f837ed4afd3bf006d628afa2666f3c",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:39.729Z",
+  "elapsedMs": 665,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

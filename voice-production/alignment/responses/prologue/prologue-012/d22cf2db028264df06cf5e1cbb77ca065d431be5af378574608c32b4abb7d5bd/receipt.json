@@ -1,0 +1,20 @@
+{
+  "lineId": "prologue-012",
+  "chapterId": "prologue",
+  "speakerId": "adult-aleem",
+  "text": "I would learn that distance can enter quietly. I would learn that silence is also a kind of message. And first, I would learn how much damage one message sent to the wrong person could do.",
+  "voiceUrl": "voices/prologue/prologue-012.mp3",
+  "durationMs": 13056,
+  "audioSha256": "3ee2759d896bd6e603089de15de24d382f2c8d5e26eeded42bdc84af4d72fca3",
+  "audioBytes": 157004,
+  "textSha256": "a0aa0281a77b2e911429da206725471c67102fbf0fa8ccf893464fe151ad0547",
+  "fingerprint": "d22cf2db028264df06cf5e1cbb77ca065d431be5af378574608c32b4abb7d5bd",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "cbfca2475e4c3438f2922f6a63d5a38cf85f7b02813c1a4ee7987a10aa8f221a",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:11.377Z",
+  "elapsedMs": 990,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

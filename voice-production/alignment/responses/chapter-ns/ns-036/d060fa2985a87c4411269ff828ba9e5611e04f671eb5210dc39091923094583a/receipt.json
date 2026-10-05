@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-036",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "The screenshot arrived inside our chat. It showed Nadiah at USS beside another man. Aisyah identified him as Chinese and as someone from Nadiah's past. Nadiah was not wearing hijab in the image.",
+  "voiceUrl": "voices/chapter-ns/ns-036.mp3",
+  "durationMs": 14472,
+  "audioSha256": "74e608429d0cec77aaae60b528c332b9bbf7a2472ceffddfbb950f77d0039f5d",
+  "audioBytes": 173996,
+  "textSha256": "bb276e7ba95c7680ef6f0c46216eeec695c6fd7433fb3af0509c4e46c38859b7",
+  "fingerprint": "d060fa2985a87c4411269ff828ba9e5611e04f671eb5210dc39091923094583a",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "eb81265b5be992afbe6f70420eededcd63735f3c8780a8c613223ff3f10553a9",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:12.536Z",
+  "elapsedMs": 519,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

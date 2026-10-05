@@ -1,0 +1,20 @@
+{
+  "lineId": "ch5-011",
+  "chapterId": "chapter-5",
+  "speakerId": "aleem-sec",
+  "text": "Would you like to go to the zoo one day? No results talk unless you start it. We can just walk around and let animals have more organised lives than us.",
+  "voiceUrl": "voices/chapter-5/ch5-011.mp3",
+  "durationMs": 7848,
+  "audioSha256": "41dad7c1dd150a18862a757606466bbe8225d597c21dada1d6743d8d03dbbfcc",
+  "audioBytes": 94508,
+  "textSha256": "ecfaedcc7f5cc146c116b264433abc38f33c56481590266e3ef6a912c896b57a",
+  "fingerprint": "aece3423ed387e1abc27c89322edf60d514ecccf3a4e4a614ff8b1633fb542c9",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "0ef394abfac458e9a9fde7bb4e4a6a413db9bd5f43744aa995b90652ac2fbb6e",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:01.664Z",
+  "elapsedMs": 379,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

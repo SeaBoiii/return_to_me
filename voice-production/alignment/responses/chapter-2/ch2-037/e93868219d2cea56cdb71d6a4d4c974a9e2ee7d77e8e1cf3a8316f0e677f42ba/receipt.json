@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-037",
+  "chapterId": "chapter-2",
+  "speakerId": "aleem-sec",
+  "text": "This route has better... trees.",
+  "voiceUrl": "voices/chapter-2/ch2-037.mp3",
+  "durationMs": 2640,
+  "audioSha256": "9c07bf8b9313957b74530abbdabd071d2acd56b20527aa1ec660705df98b7828",
+  "audioBytes": 32012,
+  "textSha256": "022b0c9da105f1b600028baa5f37fc7081ccbf9f9ea4d0b50752ceab4e95278a",
+  "fingerprint": "e93868219d2cea56cdb71d6a4d4c974a9e2ee7d77e8e1cf3a8316f0e677f42ba",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "9e3a60c04cf8dc6d97a4a7c21de440c9329a397fd9375f4f142638dd0b5beb95",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:28.237Z",
+  "elapsedMs": 353,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

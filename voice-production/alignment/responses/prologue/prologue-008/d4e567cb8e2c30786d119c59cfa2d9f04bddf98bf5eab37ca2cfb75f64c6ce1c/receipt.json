@@ -1,0 +1,20 @@
+{
+  "lineId": "prologue-008",
+  "chapterId": "prologue",
+  "speakerId": "adult-aleem",
+  "text": "In 2009, I was a twelve-year-old Boyanese Malay boy: short, round, bespectacled, and trying very hard to look as though I knew what I was doing.",
+  "voiceUrl": "voices/prologue/prologue-008.mp3",
+  "durationMs": 11496,
+  "audioSha256": "6735e35f9d3c2140beda406ddb4e54214b2524209b9510f3ee2cac08a00394ea",
+  "audioBytes": 138284,
+  "textSha256": "b0e06be65949831469ad5e5c12b13afb12beaeb46ae15d315f8665c3b61d2ffa",
+  "fingerprint": "d4e567cb8e2c30786d119c59cfa2d9f04bddf98bf5eab37ca2cfb75f64c6ce1c",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "07a188e32f5a7267ac214bfaea3d841457883231247752b2cec569fa885dac6c",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:10.382Z",
+  "elapsedMs": 874,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

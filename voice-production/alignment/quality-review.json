@@ -1,0 +1,760 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-10-05T15:50:50.533Z",
+  "method": "Offline structural/timing-outlier review of preserved provider responses; not an independent listening or pronunciation certification.",
+  "sourceCount": 775,
+  "canonicalCueCount": 25044,
+  "lexicalProviderWords": 25026,
+  "providerCharacters": 139892,
+  "totalDurationMs": 9375816,
+  "generatedMetadataSha256": "30d3c6425355eebca42195453293faa2f8f8fc831fa0a28f09453d249061f719",
+  "lexicalMismatches": [],
+  "boundsViolations": [],
+  "maxProviderEndpointOvershootMs": 0,
+  "lossDistribution": {
+    "min": 0.4304267969508629,
+    "p50": 0.5590045075667532,
+    "p90": 0.7673080081031436,
+    "p95": 0.843115930971892,
+    "p99": 0.9863118903581486,
+    "max": 1.1630863613552518
+  },
+  "highestLossLines": [
+    {
+      "lineId": "ch9-034",
+      "loss": 1.1630863613552518,
+      "canonicalText": "Again ah?"
+    },
+    {
+      "lineId": "ch2-064",
+      "loss": 1.0937425118905526,
+      "canonicalText": "I have been patient, Aleem."
+    },
+    {
+      "lineId": "ch11-052",
+      "loss": 1.074634465304288,
+      "canonicalText": "At least you know now."
+    },
+    {
+      "lineId": "ch2-011",
+      "loss": 1.0598168283138636,
+      "canonicalText": "Very helpful. Terima kasih—thank you, page forty-two."
+    },
+    {
+      "lineId": "ch1-008",
+      "loss": 1.0415031909942627,
+      "canonicalText": "So... everyone says you like me."
+    },
+    {
+      "lineId": "ch2-008",
+      "loss": 1.0310132768419054,
+      "canonicalText": "Page... forty-two. I think."
+    },
+    {
+      "lineId": "ch2-009",
+      "loss": 1.0106100354875838,
+      "canonicalText": "The teacher wrote fifty-four on the board."
+    },
+    {
+      "lineId": "ch4-022",
+      "loss": 0.9894905090332031,
+      "canonicalText": "I regret giving you reusable advice."
+    },
+    {
+      "lineId": "ch2-071",
+      "loss": 0.9863118903581486,
+      "canonicalText": "I am tired of having the same conversation."
+    },
+    {
+      "lineId": "ch4-031",
+      "loss": 0.9631511015050551,
+      "canonicalText": "After exams, I am going to sleep for a week. If anyone asks, I have left the country."
+    },
+    {
+      "lineId": "ch3-016",
+      "loss": 0.9495164833816827,
+      "canonicalText": "If you are late tomorrow, I am leaving without you."
+    },
+    {
+      "lineId": "ch3-026",
+      "loss": 0.9346349550330121,
+      "canonicalText": "You say that every time, then you sleep first."
+    },
+    {
+      "lineId": "ch4-012",
+      "loss": 0.9252986907958984,
+      "canonicalText": "Could you stop standing directly in front of the board? Some of us are educationally disadvantaged by your height."
+    },
+    {
+      "lineId": "ch2-043",
+      "loss": 0.9199644327163696,
+      "canonicalText": "Hana, someone supported the server again. They said it is the first place online where their friends all enjoy playing together."
+    },
+    {
+      "lineId": "ch2-038",
+      "loss": 0.915746361868722,
+      "canonicalText": "We have passed the same tree twice."
+    },
+    {
+      "lineId": "ch6-045",
+      "loss": 0.9147820011261971,
+      "canonicalText": "Why didn’t you tell me earlier?"
+    },
+    {
+      "lineId": "ns-013",
+      "loss": 0.9038357605805268,
+      "canonicalText": "You look like somebody just asked you a question and you missed all of it."
+    },
+    {
+      "lineId": "ch1-010",
+      "loss": 0.9034262570467863,
+      "canonicalText": "That is not an answer."
+    },
+    {
+      "lineId": "ch9-038",
+      "loss": 0.89831262476304,
+      "canonicalText": "You're very quiet suddenly. Tired?"
+    },
+    {
+      "lineId": "ch1-016",
+      "loss": 0.8970653360540216,
+      "canonicalText": "I am already handsome."
+    }
+  ],
+  "highestLossLexicalWords": [
+    {
+      "lineId": "ch1-038",
+      "text": "So...",
+      "startMs": 300,
+      "endMs": 700,
+      "loss": 2.0317100524902343
+    },
+    {
+      "lineId": "ch1-008",
+      "text": "So...",
+      "startMs": 140,
+      "endMs": 360,
+      "loss": 1.8836498260498047
+    },
+    {
+      "lineId": "ch2-064",
+      "text": "I",
+      "startMs": 380,
+      "endMs": 400,
+      "loss": 1.7385177612304688
+    },
+    {
+      "lineId": "ch4-031",
+      "text": "a",
+      "startMs": 2800,
+      "endMs": 2940,
+      "loss": 1.6279067993164062
+    },
+    {
+      "lineId": "ch2-wingman-sincere-002",
+      "text": "Wah.",
+      "startMs": 200,
+      "endMs": 720,
+      "loss": 1.5340147018432617
+    },
+    {
+      "lineId": "ch2-priority-study-002",
+      "text": "it.",
+      "startMs": 11441,
+      "endMs": 11460,
+      "loss": 1.5310675303141277
+    },
+    {
+      "lineId": "ch2-040",
+      "text": "I",
+      "startMs": 3700,
+      "endMs": 3740,
+      "loss": 1.5118637084960938
+    },
+    {
+      "lineId": "ch11-015",
+      "text": "or",
+      "startMs": 2820,
+      "endMs": 3080,
+      "loss": 1.510045051574707
+    },
+    {
+      "lineId": "ch7-021",
+      "text": "I",
+      "startMs": 900,
+      "endMs": 901,
+      "loss": 1.4873161315917969
+    },
+    {
+      "lineId": "ch11-018",
+      "text": "sentence.",
+      "startMs": 4540,
+      "endMs": 4880,
+      "loss": 1.479769812689887
+    },
+    {
+      "lineId": "ch11-049",
+      "text": "me,",
+      "startMs": 6780,
+      "endMs": 7000,
+      "loss": 1.4541276295979817
+    },
+    {
+      "lineId": "ch2-011",
+      "text": "Very",
+      "startMs": 160,
+      "endMs": 640,
+      "loss": 1.4258503913879395
+    },
+    {
+      "lineId": "ch11-052",
+      "text": "now.",
+      "startMs": 1300,
+      "endMs": 1840,
+      "loss": 1.405768871307373
+    },
+    {
+      "lineId": "ch11-062",
+      "text": "I",
+      "startMs": 5140,
+      "endMs": 5141,
+      "loss": 1.4040031433105469
+    },
+    {
+      "lineId": "ch6-014",
+      "text": "Jia",
+      "startMs": 6260,
+      "endMs": 6420,
+      "loss": 1.4034500122070312
+    },
+    {
+      "lineId": "ch10-022",
+      "text": "I",
+      "startMs": 5560,
+      "endMs": 5580,
+      "loss": 1.4012928009033203
+    },
+    {
+      "lineId": "ch2-063",
+      "text": "is",
+      "startMs": 520,
+      "endMs": 700,
+      "loss": 1.3746166229248047
+    },
+    {
+      "lineId": "ch4-search-love-002",
+      "text": "I",
+      "startMs": 4059,
+      "endMs": 4140,
+      "loss": 1.3731937408447266
+    },
+    {
+      "lineId": "ch5-016",
+      "text": "pay",
+      "startMs": 420,
+      "endMs": 620,
+      "loss": 1.3677317301432292
+    },
+    {
+      "lineId": "ch6-023",
+      "text": "but",
+      "startMs": 5640,
+      "endMs": 5840,
+      "loss": 1.364590326944987
+    }
+  ],
+  "zeroDurationLexicalWords": [],
+  "zeroDurationLexicalCharacters": {
+    "count": 3967,
+    "examples": [
+      {
+        "lineId": "prologue-003",
+        "text": "t",
+        "startMs": 720
+      },
+      {
+        "lineId": "prologue-003",
+        "text": "h",
+        "startMs": 2320
+      },
+      {
+        "lineId": "prologue-003",
+        "text": "v",
+        "startMs": 3320
+      },
+      {
+        "lineId": "prologue-003",
+        "text": "l",
+        "startMs": 4000
+      },
+      {
+        "lineId": "prologue-003",
+        "text": "m",
+        "startMs": 4220
+      },
+      {
+        "lineId": "prologue-003",
+        "text": "T",
+        "startMs": 9240
+      },
+      {
+        "lineId": "prologue-003",
+        "text": "h",
+        "startMs": 11620
+      },
+      {
+        "lineId": "prologue-003",
+        "text": "k",
+        "startMs": 12460
+      },
+      {
+        "lineId": "prologue-004",
+        "text": "t",
+        "startMs": 3340
+      },
+      {
+        "lineId": "prologue-004",
+        "text": "t",
+        "startMs": 5780
+      },
+      {
+        "lineId": "prologue-005",
+        "text": "y",
+        "startMs": 15180
+      },
+      {
+        "lineId": "prologue-006",
+        "text": "t",
+        "startMs": 3900
+      },
+      {
+        "lineId": "prologue-006",
+        "text": "h",
+        "startMs": 3900
+      },
+      {
+        "lineId": "prologue-006",
+        "text": "h",
+        "startMs": 6360
+      },
+      {
+        "lineId": "prologue-006",
+        "text": "n",
+        "startMs": 9640
+      },
+      {
+        "lineId": "prologue-006",
+        "text": "o",
+        "startMs": 10580
+      },
+      {
+        "lineId": "prologue-006",
+        "text": "w",
+        "startMs": 11900
+      },
+      {
+        "lineId": "prologue-006",
+        "text": "e",
+        "startMs": 13620
+      },
+      {
+        "lineId": "prologue-006",
+        "text": "h",
+        "startMs": 14340
+      },
+      {
+        "lineId": "prologue-007",
+        "text": "s",
+        "startMs": 3140
+      },
+      {
+        "lineId": "prologue-007",
+        "text": "h",
+        "startMs": 4300
+      },
+      {
+        "lineId": "prologue-007",
+        "text": "s",
+        "startMs": 6140
+      },
+      {
+        "lineId": "prologue-007",
+        "text": "h",
+        "startMs": 6580
+      },
+      {
+        "lineId": "prologue-007",
+        "text": "h",
+        "startMs": 7820
+      },
+      {
+        "lineId": "prologue-007",
+        "text": "v",
+        "startMs": 9260
+      },
+      {
+        "lineId": "prologue-007",
+        "text": "h",
+        "startMs": 9380
+      },
+      {
+        "lineId": "prologue-007",
+        "text": "e",
+        "startMs": 10280
+      },
+      {
+        "lineId": "prologue-007",
+        "text": "t",
+        "startMs": 10640
+      },
+      {
+        "lineId": "prologue-007",
+        "text": "h",
+        "startMs": 11980
+      },
+      {
+        "lineId": "prologue-008",
+        "text": "d",
+        "startMs": 7140
+      }
+    ]
+  },
+  "simultaneousWordCues": [
+    {
+      "lineId": "ch9-031",
+      "from": "I",
+      "to": "had",
+      "gapMs": 0
+    },
+    {
+      "lineId": "ch11-062",
+      "from": "I",
+      "to": "had",
+      "gapMs": 0
+    }
+  ],
+  "longestCueOnsetGaps": [
+    {
+      "lineId": "ch2-073",
+      "from": "present.",
+      "to": "I",
+      "gapMs": 2900
+    },
+    {
+      "lineId": "ch1-012",
+      "from": "Good.",
+      "to": "Because",
+      "gapMs": 2260
+    },
+    {
+      "lineId": "ch2-results-condemn-002",
+      "from": "uncertainty.",
+      "to": "Years",
+      "gapMs": 2260
+    },
+    {
+      "lineId": "ch9-018",
+      "from": "conversations.",
+      "to": "Still,",
+      "gapMs": 2180
+    },
+    {
+      "lineId": "ch1-035",
+      "from": "Aleem?",
+      "to": "Oh",
+      "gapMs": 2160
+    },
+    {
+      "lineId": "ns-confrontation-disclosure-002",
+      "from": "me.",
+      "to": "I",
+      "gapMs": 2140
+    },
+    {
+      "lineId": "ns-confrontation-disclosure-002",
+      "from": "truth.",
+      "to": "I",
+      "gapMs": 2140
+    },
+    {
+      "lineId": "ch1-005",
+      "from": "maybe.",
+      "to": "Your",
+      "gapMs": 2120
+    },
+    {
+      "lineId": "ch1-039",
+      "from": "it.",
+      "to": "I",
+      "gapMs": 2100
+    },
+    {
+      "lineId": "ch9-025",
+      "from": "everything?",
+      "to": "It's",
+      "gapMs": 2100
+    },
+    {
+      "lineId": "ch1-008",
+      "from": "So...",
+      "to": "everyone",
+      "gapMs": 2060
+    },
+    {
+      "lineId": "ch1-039",
+      "from": "know.",
+      "to": "I",
+      "gapMs": 2060
+    },
+    {
+      "lineId": "ch7-rejection-join",
+      "from": "negotiation.",
+      "to": "I",
+      "gapMs": 2040
+    },
+    {
+      "lineId": "ch2-061",
+      "from": "it.",
+      "to": "I",
+      "gapMs": 2000
+    },
+    {
+      "lineId": "ch6-silence-time",
+      "from": "indispensable.",
+      "to": "I",
+      "gapMs": 2000
+    },
+    {
+      "lineId": "ch1-037",
+      "from": "you.",
+      "to": "I",
+      "gapMs": 1980
+    },
+    {
+      "lineId": "ch2-089",
+      "from": "responsibility.",
+      "to": "I",
+      "gapMs": 1980
+    },
+    {
+      "lineId": "ch2-080",
+      "from": "directly.",
+      "to": "I",
+      "gapMs": 1940
+    },
+    {
+      "lineId": "ch4-002",
+      "from": "possibility.",
+      "to": "Once",
+      "gapMs": 1940
+    },
+    {
+      "lineId": "ns-043",
+      "from": "else.",
+      "to": "I",
+      "gapMs": 1940
+    }
+  ],
+  "longestInterWordGaps": [
+    {
+      "lineId": "ch2-073",
+      "from": "present.",
+      "to": "I",
+      "gapMs": 2200
+    },
+    {
+      "lineId": "ch1-012",
+      "from": "Good.",
+      "to": "Because",
+      "gapMs": 1980
+    },
+    {
+      "lineId": "ns-confrontation-disclosure-002",
+      "from": "me.",
+      "to": "I",
+      "gapMs": 1900
+    },
+    {
+      "lineId": "ch1-008",
+      "from": "So...",
+      "to": "everyone",
+      "gapMs": 1840
+    },
+    {
+      "lineId": "ch1-039",
+      "from": "it.",
+      "to": "I",
+      "gapMs": 1840
+    },
+    {
+      "lineId": "ch1-037",
+      "from": "you.",
+      "to": "I",
+      "gapMs": 1780
+    },
+    {
+      "lineId": "ch2-061",
+      "from": "it.",
+      "to": "I",
+      "gapMs": 1780
+    },
+    {
+      "lineId": "ch1-005",
+      "from": "maybe.",
+      "to": "Your",
+      "gapMs": 1740
+    },
+    {
+      "lineId": "ch1-035",
+      "from": "Wait—Aleem?",
+      "to": "Oh",
+      "gapMs": 1700
+    },
+    {
+      "lineId": "ch1-039",
+      "from": "know.",
+      "to": "I",
+      "gapMs": 1700
+    },
+    {
+      "lineId": "ns-046",
+      "from": "you.",
+      "to": "I",
+      "gapMs": 1700
+    },
+    {
+      "lineId": "ns-confrontation-disclosure-002",
+      "from": "truth.",
+      "to": "I",
+      "gapMs": 1640
+    },
+    {
+      "lineId": "ch2-results-condemn-002",
+      "from": "uncertainty.",
+      "to": "Years",
+      "gapMs": 1580
+    },
+    {
+      "lineId": "ch6-053",
+      "from": "single.",
+      "to": "I",
+      "gapMs": 1540
+    },
+    {
+      "lineId": "ns-043",
+      "from": "else.",
+      "to": "I",
+      "gapMs": 1520
+    },
+    {
+      "lineId": "ch11-065",
+      "from": "sentence.",
+      "to": "I",
+      "gapMs": 1520
+    },
+    {
+      "lineId": "ch9-025",
+      "from": "everything?",
+      "to": "It's",
+      "gapMs": 1500
+    },
+    {
+      "lineId": "ch2-045",
+      "from": "me.",
+      "to": "The",
+      "gapMs": 1460
+    },
+    {
+      "lineId": "ch4-007",
+      "from": "worries.",
+      "to": "Then",
+      "gapMs": 1460
+    },
+    {
+      "lineId": "ch6-038",
+      "from": "went.",
+      "to": "December",
+      "gapMs": 1440
+    }
+  ],
+  "largestTailAfterLexicalSpeech": [
+    {
+      "lineId": "ch1-022",
+      "tailMs": 2572
+    },
+    {
+      "lineId": "ch8-005",
+      "tailMs": 2520
+    },
+    {
+      "lineId": "ch4-search-love-001",
+      "tailMs": 2320
+    },
+    {
+      "lineId": "ch1-027",
+      "tailMs": 2212
+    },
+    {
+      "lineId": "ch1-008",
+      "tailMs": 2072
+    },
+    {
+      "lineId": "ch10-014",
+      "tailMs": 1780
+    },
+    {
+      "lineId": "uni-arrival-threat-scan-air-002",
+      "tailMs": 1764
+    },
+    {
+      "lineId": "ch4-019",
+      "tailMs": 1612
+    },
+    {
+      "lineId": "ch6-006",
+      "tailMs": 1560
+    },
+    {
+      "lineId": "ch1-015",
+      "tailMs": 1512
+    }
+  ],
+  "selectedRetakeSample": {
+    "lineId": "ch11-057",
+    "audioSha256": "696bc922dfbeafd5934be6b124c7f871f95ef9b77b5efce33e23f81954fb73d9",
+    "canonicalText": "Nurul would later tell me that seeing me there changed something for her. She saw my confidence, and finally felt the affection behind what I was doing. What had first seemed intimidating began to make sense as sincerity. I was serious about getting to know her and being with her. That was what reached her during the conversation.",
+    "submittedText": "Nurul would later tell me that seeing me there changed something for her. She saw my confidence, and finally felt the affection behind what I was doing. What had first seemed intimidating began to make sense as sincerity. I was serious about getting to know her and being with her. That was what reached her during the conversation.",
+    "lexicalMatch": true,
+    "loss": 0.4767979656357363,
+    "selectedWords": [
+      {
+        "text": "Nurul",
+        "start": 0.12,
+        "end": 0.56,
+        "loss": 0.9100471496582031,
+        "startMs": 120,
+        "endMs": 560
+      },
+      {
+        "text": "had",
+        "start": 10.86,
+        "end": 11.38,
+        "loss": 0.6803194681803385,
+        "startMs": 10860,
+        "endMs": 11380
+      }
+    ],
+    "pronunciationAliasesUsed": false
+  },
+  "requestIdAvailability": {
+    "available": 0,
+    "notReturnedInCapturedRequestIdHeaders": 775
+  },
+  "limitations": [
+    "Forced alignment is constrained by the supplied canonical transcript and does not prove the words were spoken correctly.",
+    "Loss is an uncalibrated provider score; outliers are retained for listening review, not automatically rewritten.",
+    "Onset gaps include a word duration as well as any following pause; the separate inter-word gaps better indicate pauses.",
+    "Zero-duration characters can occur inside a word; whole-word reveal uses the first lexical-character onset."
+  ],
+  "structuralValidationPassed": true
+}

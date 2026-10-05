@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-015",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "We spoke only briefly, surrounded by relatives and interrupted by the needs of the room. She was warm and amused, and I carried those few minutes away as though they contained a promise neither of us had made.",
+  "voiceUrl": "voices/chapter-ns/ns-015.mp3",
+  "durationMs": 13824,
+  "audioSha256": "419a47c0250e4b2d08df0f3eb23094dd38bafed16ca06064f78a16ad4b9f6ce3",
+  "audioBytes": 166220,
+  "textSha256": "fe6a344380ba12ea1bf4a8d3b0ebac8f18352a48aa187e26f291ee1dae13bc3a",
+  "fingerprint": "f48b47d51d95064493dbbb98cb4b7e5221476aba31bc7ad34054b95f36199a3c",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "d2555304a0f69f8b4eea77ae1102618523a6f249c37da14ea83f162449eb9a93",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:09.434Z",
+  "elapsedMs": 500,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

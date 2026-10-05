@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-017",
+  "chapterId": "chapter-3",
+  "speakerId": "aleem-sec",
+  "text": "Fair. If you are late, I will wait and complain the whole way.",
+  "voiceUrl": "voices/chapter-3/ch3-017.mp3",
+  "durationMs": 3240,
+  "audioSha256": "04c9228940f18424bc011d10cbd59c155e556d3b09d3fe99b8cec0263c596014",
+  "audioBytes": 39212,
+  "textSha256": "d8567a525549dcec907c3872240c2548c2254babeb9749a725327ff1ccaa3da6",
+  "fingerprint": "3ff826284238171749c3ff99490780fc981b3eb1d741c400ac4d74b4ba315b7f",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "dc9d4e4f402622af7bde8bd0bce48a25fe655f03cd44892b5ecae54304ab9627",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:46.234Z",
+  "elapsedMs": 353,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

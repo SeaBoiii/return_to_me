@@ -1,0 +1,20 @@
+{
+  "lineId": "ch4-030",
+  "chapterId": "chapter-4",
+  "speakerId": "adult-aleem",
+  "text": "The weeks tightened around us. We reviewed until closing time, compared mistakes, and learned when to abandon one impossible question before it consumed an entire evening.",
+  "voiceUrl": "voices/chapter-4/ch4-030.mp3",
+  "durationMs": 10320,
+  "audioSha256": "4a761e941397f666ded9a8e98ec6b2f40a223173ffe9dbcd5da9a72f922c60fd",
+  "audioBytes": 124172,
+  "textSha256": "c770e8a7ab0632fafdec828b573c273d70fc3cd77d8f416e1c76017198848c0e",
+  "fingerprint": "39ae26bebed470ef676278c5b73883b07e6b7ca01b8580fade03af9d4a1d702e",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "86edb6dfdc38ed11a466ac6a21a057952d5354e9206c96f22839b6be1bbcd546",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:59.038Z",
+  "elapsedMs": 615,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-055",
+  "chapterId": "chapter-2",
+  "speakerId": "aleem-sec",
+  "text": "Sorry. Next time I will message first.",
+  "voiceUrl": "voices/chapter-2/ch2-055.mp3",
+  "durationMs": 2040,
+  "audioSha256": "c5f85f6d64f884291732d949fb48c9207b2e3929d652ad0089c8a37c317ed678",
+  "audioBytes": 24812,
+  "textSha256": "03649d8b3bf5601702a3400aa9e63fefde5162805d8a5d5bcfeb9a1adeebcd50",
+  "fingerprint": "af05715ab4c592d3fc93dbdff16caf37cba0aab4e67ea4300a2ec0dff424500d",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "c4fb86e20ea0584ba66180192930e641e7df91971b27bf9214ae8d6cead0891e",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:32.310Z",
+  "elapsedMs": 315,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

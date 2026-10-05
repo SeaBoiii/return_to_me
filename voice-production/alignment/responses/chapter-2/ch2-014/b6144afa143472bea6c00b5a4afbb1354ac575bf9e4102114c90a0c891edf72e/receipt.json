@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-014",
+  "chapterId": "chapter-2",
+  "speakerId": "hana",
+  "text": "You always draw boxes in the margins. Is that meant to be a building?",
+  "voiceUrl": "voices/chapter-2/ch2-014.mp3",
+  "durationMs": 5520,
+  "audioSha256": "b4d8140fa7287a782a10c57f6890e211ce63afb15fcee8b7017e8db0c904c1a2",
+  "audioBytes": 66572,
+  "textSha256": "813b2b68d673c0c64ccf919ae38b12ac4defde9b9114d5d8cb9df454e9f56470",
+  "fingerprint": "b6144afa143472bea6c00b5a4afbb1354ac575bf9e4102114c90a0c891edf72e",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "149db23a944f3ad1c396a30c11b2858789967d51be3b0fcb4fccf444cf458588",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:23.398Z",
+  "elapsedMs": 391,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

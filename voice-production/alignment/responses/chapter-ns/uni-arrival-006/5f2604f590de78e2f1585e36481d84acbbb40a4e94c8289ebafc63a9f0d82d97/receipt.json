@@ -1,0 +1,20 @@
+{
+  "lineId": "uni-arrival-006",
+  "chapterId": "chapter-ns",
+  "speakerId": "hakim",
+  "text": "See? No ambush. We walk in, say hello, and leave whenever you want.",
+  "voiceUrl": "voices/chapter-ns/uni-arrival-006.mp3",
+  "durationMs": 5424,
+  "audioSha256": "000d0017c406d4b54e540b6802578bd004a69b60c1476db7753ec0ea6d7c0b57",
+  "audioBytes": 65420,
+  "textSha256": "e8fa170d5fc5dae4b6d617111df0e11e1b9a0464bb363773ed3942cf720019e9",
+  "fingerprint": "5f2604f590de78e2f1585e36481d84acbbb40a4e94c8289ebafc63a9f0d82d97",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "6ad38248747e2700b20d0cc7e73366daaee6009a02669da69e9f9f603e1a312b",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:18.993Z",
+  "elapsedMs": 334,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

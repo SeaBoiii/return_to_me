@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-086",
+  "chapterId": "chapter-2",
+  "speakerId": "aleem-sec",
+  "text": "I understand. Or I think I am starting to.",
+  "voiceUrl": "voices/chapter-2/ch2-086.mp3",
+  "durationMs": 3096,
+  "audioSha256": "b7e335e519202d973a13f392206836094e1ef5eaed4e2fd9c3fc4da2e93b942f",
+  "audioBytes": 37484,
+  "textSha256": "9db438a277d273f81bba8251426fcb44575cc8f34947185b3b004ee6f4d4ed40",
+  "fingerprint": "50ee1cd45a7bc8662c2494219343f1bb22fd384b2e059051041bf708e8065127",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "1961ae11ed95aff21bf8f92e523be7ee9282ada8fc1185aeca6ba511f7aacc73",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:38.344Z",
+  "elapsedMs": 340,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

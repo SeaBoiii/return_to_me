@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-002",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "Most days were a familiar rhythm of lessons, jokes, and trying not to be noticed when homework was incomplete. I had grown upward so quickly that my old self felt stored in somebody else's photographs.",
+  "voiceUrl": "voices/chapter-2/ch2-002.mp3",
+  "durationMs": 12000,
+  "audioSha256": "f5e08af0d003712fc3fd21af8902f68ffabb8d5f912d6df32a3d5f8818f6fc03",
+  "audioBytes": 144332,
+  "textSha256": "9e2702b77af64f781463cbbd3d29c68b84654186376010b34607783bb894662f",
+  "fingerprint": "7cee5896c86e53b19ef46e329330ed23cfcad7f4c04b5a3b3aef537cb497bfea",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "7825f5fb966204b7a87de6303d2cc3fd107c337afea47a4b542d97839ab7d9df",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:21.613Z",
+  "elapsedMs": 709,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-108",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "I did not know that yet. I only knew morning kept arriving, annoyingly faithful, whether I felt ready for it or not.",
+  "voiceUrl": "voices/chapter-2/ch2-108.mp3",
+  "durationMs": 7680,
+  "audioSha256": "811293835598912ed194f23b6a989c018a905dcbc566ac14dc35805a1606315e",
+  "audioBytes": 92492,
+  "textSha256": "922a4136cae8984a01473c16669af530833bec55c7c11b467891f8fe32dacdb3",
+  "fingerprint": "d9a0927cf02a33d94b6b98c236ed075c240e80660161658b8727a534e9c6fb14",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "71402906e2e97091a7bca700a22d28d145586a45fc9739d3520a6d1814f7d3c2",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:43.147Z",
+  "elapsedMs": 379,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

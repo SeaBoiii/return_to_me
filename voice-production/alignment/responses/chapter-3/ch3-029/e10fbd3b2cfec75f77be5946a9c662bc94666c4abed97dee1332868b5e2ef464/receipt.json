@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-029",
+  "chapterId": "chapter-3",
+  "speakerId": "adult-aleem",
+  "text": "Eventually, uncertainty became harder to carry than rejection. I asked Syafiqa to stay behind near a quieter stretch of campus after the last lesson.",
+  "voiceUrl": "voices/chapter-3/ch3-029.mp3",
+  "durationMs": 9672,
+  "audioSha256": "94f0c5f00e1e5d141b6427a3a58e477418cf47d8c2bac6552ba0d5b90da9f3af",
+  "audioBytes": 116396,
+  "textSha256": "1d19b68f350b5b7b71095498c90c575cf9a9a35f3d7761ade0fdfd1ca0493b5c",
+  "fingerprint": "e10fbd3b2cfec75f77be5946a9c662bc94666c4abed97dee1332868b5e2ef464",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "c4ed5db84931c54d5a216b4bf36d641bfcd60ca39b2539d22d452b0edec217fb",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:49.114Z",
+  "elapsedMs": 514,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

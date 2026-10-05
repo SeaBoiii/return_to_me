@@ -1,0 +1,20 @@
+{
+  "lineId": "ch5-026",
+  "chapterId": "chapter-5",
+  "speakerId": "aleem-sec",
+  "text": "Why does everything I do need to be placed beside this guy? I invited her here to help, not to spend the day being measured against someone who is not even present.",
+  "voiceUrl": "voices/chapter-5/ch5-026.mp3",
+  "durationMs": 8232,
+  "audioSha256": "aa52b9b4b59f146f484093986496bc88ef41d9cc76d1dd674dd3b77c896f320f",
+  "audioBytes": 99116,
+  "textSha256": "680f40919076a7eaaf43e577a75347632188e96c5910863fa654256036c0026a",
+  "fingerprint": "f01d0454c1ebe3dfdce876695086e3915ef931d074b40d04b87d63edf72ddafb",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "dfd2642d1a6594c98179717a5798f0f4629b08a098c2bf250c5d93ac2656832f",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:03.785Z",
+  "elapsedMs": 378,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

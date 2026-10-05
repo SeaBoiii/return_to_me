@@ -1,0 +1,20 @@
+{
+  "lineId": "ch7-026",
+  "chapterId": "chapter-7",
+  "speakerId": "claire",
+  "text": "You made the empty chair the main character. I'm over here, thanks.",
+  "voiceUrl": "voices/chapter-7/ch7-026.mp3",
+  "durationMs": 5112,
+  "audioSha256": "1f2fe44a9b8e6c069c6468601a51445d8325f768a3a7f4ad173ff7840f83f4cf",
+  "audioBytes": 61676,
+  "textSha256": "13ae6e90ab91f312d9204c9faf6920cd7a0e573fd41c99533a9e0ac0c76bdc91",
+  "fingerprint": "0902749c13cfb0f73f871858ae550e8deb4ecf5f77fe413b71825c8458214611",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "ade1cbb6439c0f591eada1a879f2034e2583807638f1150e1fc44117b9498bbe",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:38.295Z",
+  "elapsedMs": 346,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

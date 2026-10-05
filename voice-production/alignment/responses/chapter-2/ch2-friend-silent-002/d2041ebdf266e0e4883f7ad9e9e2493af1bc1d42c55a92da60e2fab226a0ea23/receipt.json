@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-friend-silent-002",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "Years later, I would recognise the old reflex from Alya's message: freeze, wait, and hope somebody else carries the difficult words the rest of the way.",
+  "voiceUrl": "voices/chapter-2/ch2-friend-silent-002.mp3",
+  "durationMs": 9744,
+  "audioSha256": "e7f192ac08f761b646a0de40e517a80790aa5640e3e89e6b6dc50c333a2aee59",
+  "audioBytes": 117260,
+  "textSha256": "52ba89205eb20d4c0d48c9bb25491b20d5b240743484581a6776a3a77df7fb1c",
+  "fingerprint": "d2041ebdf266e0e4883f7ad9e9e2493af1bc1d42c55a92da60e2fab226a0ea23",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "6c071661f8afb2ae8084f6562ae889ecaac44b66ca9def76f7498ad8d2f887aa",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:36.871Z",
+  "elapsedMs": 383,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

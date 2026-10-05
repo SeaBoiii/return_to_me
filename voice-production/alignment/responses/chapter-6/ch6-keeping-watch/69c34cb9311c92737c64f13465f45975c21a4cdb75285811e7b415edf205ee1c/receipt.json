@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-keeping-watch",
+  "chapterId": "chapter-6",
+  "speakerId": "adult-aleem",
+  "text": "I watched him put his phone away and felt myself relax. Then Jia Wen asked what I thought about something she had just said. I had to ask her to repeat it. I was sitting beside the person I wanted to know better, missing her actual conversation because I was busy deciding who else could have one with her.",
+  "voiceUrl": "voices/chapter-6/ch6-keeping-watch.mp3",
+  "durationMs": 19104,
+  "audioSha256": "e0b56a9c1174f78af19cd4689e77d790accdf3175eba9d9d60dcd294ba1b6fc3",
+  "audioBytes": 229580,
+  "textSha256": "e6e75ca846f77381a13bdcb88808b179d42adf74e80316cdf40b275da62131fd",
+  "fingerprint": "69c34cb9311c92737c64f13465f45975c21a4cdb75285811e7b415edf205ee1c",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "4da59fce3926ab6c592f7be8caa21205ffd939a2e109ce712baafe4e7a63336d",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:26.001Z",
+  "elapsedMs": 505,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

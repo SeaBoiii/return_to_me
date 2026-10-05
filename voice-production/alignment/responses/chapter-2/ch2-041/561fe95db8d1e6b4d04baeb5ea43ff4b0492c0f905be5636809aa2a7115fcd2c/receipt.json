@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-041",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "I learned to configure systems, settle disputes, organise volunteers, and keep strangers returning. Every solved problem revealed two more, which felt less like failure than an invitation.",
+  "voiceUrl": "voices/chapter-2/ch2-041.mp3",
+  "durationMs": 13344,
+  "audioSha256": "e6c73fb356be04455f12d663f459bbb3e3ed59973451a39a6e5ab43d0b858980",
+  "audioBytes": 160460,
+  "textSha256": "e44a89d43a72bf18781a8ddeeff8121cf0019432cd3e523335e4f0e2dc762259",
+  "fingerprint": "561fe95db8d1e6b4d04baeb5ea43ff4b0492c0f905be5636809aa2a7115fcd2c",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "ae086b7d3c92e540198f0c8ab473fe941c1d623be67f603ecfdf191b229ca59a",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:29.184Z",
+  "elapsedMs": 625,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

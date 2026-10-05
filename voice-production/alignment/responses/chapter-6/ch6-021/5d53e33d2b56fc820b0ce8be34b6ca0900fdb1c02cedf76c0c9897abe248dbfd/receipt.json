@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-021",
+  "chapterId": "chapter-6",
+  "speakerId": "adult-aleem",
+  "text": "The excuse passed easily enough. Sometimes I discouraged a guy before she heard about his interest at all. I would mention how busy she was, turn an invitation into a group outing, or stay planted beside her until he left. I felt useful afterwards. That should have troubled me more than it did.",
+  "voiceUrl": "voices/chapter-6/ch6-021.mp3",
+  "durationMs": 20640,
+  "audioSha256": "90f4713f957762925ca4593045b01f833b9de7cbf228625f2f6d9d07fd42272a",
+  "audioBytes": 248012,
+  "textSha256": "751ff05a341e486632975c5632fcc948184e2e10954c993c9a9fa60112b524de",
+  "fingerprint": "5d53e33d2b56fc820b0ce8be34b6ca0900fdb1c02cedf76c0c9897abe248dbfd",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "58c1dc512eba88d006fb6b4b3e7a8c65e28b27bb9d639a9b85574592a2b45c57",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:26.097Z",
+  "elapsedMs": 678,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

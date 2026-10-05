@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-077",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "The words landed in an ordinary courtyard after an ordinary class. For a moment, even the sounds around us seemed badly timed.",
+  "voiceUrl": "voices/chapter-2/ch2-077.mp3",
+  "durationMs": 8232,
+  "audioSha256": "7878a941cc90eece4f995ee2aba9f6755c829c90bd08adbc155906a144f4e47b",
+  "audioBytes": 99116,
+  "textSha256": "4b106c7119077c9c9ddde188afd1feafd40363b969217f68abc3b053d7dac997",
+  "fingerprint": "bbb57b1c4d0404ab38c67b03017e48fb38643acc58da60f3d9b4ea66a99b6e91",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "e4b81d8f580b361f4fd45a7c1e06fb91cc3283779e27c4fbb8a8994b79ea0082",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:36.245Z",
+  "elapsedMs": 607,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

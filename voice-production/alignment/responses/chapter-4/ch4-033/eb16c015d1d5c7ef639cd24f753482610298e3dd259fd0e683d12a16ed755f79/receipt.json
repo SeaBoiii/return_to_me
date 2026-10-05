@@ -1,0 +1,20 @@
+{
+  "lineId": "ch4-033",
+  "chapterId": "chapter-4",
+  "speakerId": "adult-aleem",
+  "text": "Then A Levels arrived. The exam hall resembled the one I remembered from 2013, but I did not. I was still afraid. This time, fear sat beside months of completed work instead of an empty space where preparation should have been.",
+  "voiceUrl": "voices/chapter-4/ch4-033.mp3",
+  "durationMs": 15840,
+  "audioSha256": "d7f410d68ee60a3e316d269bd61bafa212ade931a6193bced80d80febb7ba2bf",
+  "audioBytes": 190412,
+  "textSha256": "64aa6a8a939b6cff7804cda5efbe711167f2fb2e0bce1c5d9f4826a0e348612f",
+  "fingerprint": "eb16c015d1d5c7ef639cd24f753482610298e3dd259fd0e683d12a16ed755f79",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "09a57dcf03e3db2991c4a66b775397426b37b474d4a27c8268962b245563d648",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:59.529Z",
+  "elapsedMs": 486,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

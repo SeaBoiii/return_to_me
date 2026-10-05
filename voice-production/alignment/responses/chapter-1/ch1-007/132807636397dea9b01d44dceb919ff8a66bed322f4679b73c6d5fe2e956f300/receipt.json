@@ -1,0 +1,20 @@
+{
+  "lineId": "ch1-007",
+  "chapterId": "chapter-1",
+  "speakerId": "adult-aleem",
+  "text": "We did not have a dramatic confession. There was no rain, no music, no perfect speech. There were only friends who noticed us noticing each other and carried rumours up and down the corridor.",
+  "voiceUrl": "voices/chapter-1/ch1-007.mp3",
+  "durationMs": 12720,
+  "audioSha256": "aebdeb09d671192d11f1708130cb6f1e5592f90a10f2ee43e20da28c035e765c",
+  "audioBytes": 152972,
+  "textSha256": "975c521daf94f6007fe3c865ced3a2a83af365b0933c1aefc876c5173dd5026a",
+  "fingerprint": "132807636397dea9b01d44dceb919ff8a66bed322f4679b73c6d5fe2e956f300",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "14e2bd8d7e98be0a338c84764b0686e0800ad1318fc30a7376073a059b325eef",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:12.425Z",
+  "elapsedMs": 501,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

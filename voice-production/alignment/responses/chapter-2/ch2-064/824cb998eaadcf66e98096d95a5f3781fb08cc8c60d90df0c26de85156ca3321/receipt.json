@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-064",
+  "chapterId": "chapter-2",
+  "speakerId": "hana",
+  "text": "I have been patient, Aleem.",
+  "voiceUrl": "voices/chapter-2/ch2-064.mp3",
+  "durationMs": 3504,
+  "audioSha256": "82ab71dce18a169ed337aaf51625de075a1805d7b841b7fea215347530faba21",
+  "audioBytes": 42380,
+  "textSha256": "39e46a4fa5a1de06bd6c9f259251ed7bc9202f2a98cca4d59b8189804b9e1c18",
+  "fingerprint": "824cb998eaadcf66e98096d95a5f3781fb08cc8c60d90df0c26de85156ca3321",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "5d04a58c7db120706b73285e79d415d2e89357fd06bc3c312f11d51a85e40da6",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:34.104Z",
+  "elapsedMs": 424,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

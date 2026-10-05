@@ -1,0 +1,20 @@
+{
+  "lineId": "ch5-017",
+  "chapterId": "chapter-5",
+  "speakerId": "adult-aleem",
+  "text": "For the first part of the day, she remained careful, smiling half a second after the moment asked for it. Then an animal ignored a perfectly placed meal, and her commentary became so indignant that the old Mei Lin emerged mid-sentence.",
+  "voiceUrl": "voices/chapter-5/ch5-017.mp3",
+  "durationMs": 15360,
+  "audioSha256": "bf754b595f8c99cd2ab2a39510d2edd419e6f4f0afee8630a7a5f6a665a1a96c",
+  "audioBytes": 184652,
+  "textSha256": "250235ece3894decbe42f39d34b5adff3c51149b620eb37e25e2d0c9aefda644",
+  "fingerprint": "839e22028ccc2eb97f882ac62016bb563c2540f8b1d0da7f17a85086ff44f87d",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "76a4dc262052e33e1a37bd60a239e982207bc621a17f01cc40b15b903dc936f0",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:02.508Z",
+  "elapsedMs": 472,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

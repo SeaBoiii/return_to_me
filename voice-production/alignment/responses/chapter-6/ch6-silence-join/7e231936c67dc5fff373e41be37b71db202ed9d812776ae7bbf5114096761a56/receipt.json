@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-silence-join",
+  "chapterId": "chapter-6",
+  "speakerId": "adult-aleem",
+  "text": "So I tried a different approach. No sudden declaration, no demand for an answer before we were close. Just stay nearby until she liked me. Hover, if I was being honest. I made it sound patient in my head, though I was quietly expecting that patience to lead somewhere specific.",
+  "voiceUrl": "voices/chapter-6/ch6-silence-join.mp3",
+  "durationMs": 19512,
+  "audioSha256": "caa52739f936afecf53b13e439fbcb2a4a94aca16555cb12259a487e1a40fef3",
+  "audioBytes": 234476,
+  "textSha256": "11063f1bd7afa875639068ae960e7478c52a69fc2deb8d8848612a7d3011af92",
+  "fingerprint": "7e231936c67dc5fff373e41be37b71db202ed9d812776ae7bbf5114096761a56",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "62b82d921830e73c80825941ed4ccd123c8de963c2328ca3207ec2324043ffa7",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:25.149Z",
+  "elapsedMs": 510,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

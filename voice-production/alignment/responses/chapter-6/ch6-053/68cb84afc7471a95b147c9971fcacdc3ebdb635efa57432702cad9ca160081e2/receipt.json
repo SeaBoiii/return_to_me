@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-053",
+  "chapterId": "chapter-6",
+  "speakerId": "adult-aleem",
+  "text": "Would earlier have changed anything? Would we have been a couple? I kept returning to those questions as though persistence might make them answerable. Meanwhile, the simplest fact waited without changing: I was single. I had been single beside her too. Now I had to learn how to be alone.",
+  "voiceUrl": "voices/chapter-6/ch6-053.mp3",
+  "durationMs": 21264,
+  "audioSha256": "f05e2c00f6c5966b24298a2b406ee7af17f7797989c1607c4e77ee2e18deefce",
+  "audioBytes": 255500,
+  "textSha256": "48acf33c9b35ced9771771975f0c48bbd169b1bec338d7407a59822a16cd5fea",
+  "fingerprint": "68cb84afc7471a95b147c9971fcacdc3ebdb635efa57432702cad9ca160081e2",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "5e89b1d339f5e226adb7510e439f01263429b244cf1eea194650fa433bc9bebc",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:33.577Z",
+  "elapsedMs": 610,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch4-search-proof-002",
+  "chapterId": "chapter-4",
+  "speakerId": "adult-aleem",
+  "text": "No person could safely provide that proof. A yes would have soothed me for a while, then become something I feared losing. Self-worth borrowed from another person's answer always arrives with a repayment date.",
+  "voiceUrl": "voices/chapter-4/ch4-search-proof-002.mp3",
+  "durationMs": 14544,
+  "audioSha256": "65c65958d98cbf2bc81f45287d3572bea88064f6e47e615ed4dd06d427da13e5",
+  "audioBytes": 174860,
+  "textSha256": "fadceec5d8bb43f961674957f9a9d25aeca5a912afe251bbefd9c120984fb3ed",
+  "fingerprint": "2276ee891aea797df5a0fffa80a3d397066a3609077098752fcc055c7530ee43",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "caab257fa77b4cb0c71307dfa84fbedc5c43c42b813fb34af24cc7f7cead6d00",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:54.379Z",
+  "elapsedMs": 443,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

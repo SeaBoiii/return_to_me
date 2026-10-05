@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-043",
+  "chapterId": "chapter-2",
+  "speakerId": "aleem-sec",
+  "text": "Hana, someone supported the server again. They said it is the first place online where their friends all enjoy playing together.",
+  "voiceUrl": "voices/chapter-2/ch2-043.mp3",
+  "durationMs": 6720,
+  "audioSha256": "f3a84ea737a3755dbd148769848373fe47816757bde11e347ca906b0bd31895a",
+  "audioBytes": 80972,
+  "textSha256": "2992ed5ee0a7ba94e383ba54855a5fb9f241d6643a145d8d7e9e562b403f7c34",
+  "fingerprint": "d81c1f900e7869f84b5e19ecd9c9fb23011e8363338a97d54d1563e477519d89",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "878825ae899f44702f4b896e17503f4b3cb133e4476494f5ad953775f0f03866",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:29.174Z",
+  "elapsedMs": 402,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

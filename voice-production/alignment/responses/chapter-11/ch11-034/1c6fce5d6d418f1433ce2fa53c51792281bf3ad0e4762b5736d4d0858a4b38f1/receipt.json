@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-034",
+  "chapterId": "chapter-11",
+  "speakerId": "adult-aleem",
+  "text": "Remembering that now, I can understand both sides of the message. I was trying to offer something solid. From where she stood, it was a large step arriving while she was still learning to trust me. Sincerity needed to be felt in the way I treated her, including how I made room for her uncertainty.",
+  "voiceUrl": "voices/chapter-11/ch11-034.mp3",
+  "durationMs": 18864,
+  "audioSha256": "f9d0fa696e2cde4ce2f226be6bad9786e7e8c35d686f0fa41f4dd74899847b89",
+  "audioBytes": 226700,
+  "textSha256": "0d648a2ccdc24af2072f31bd65c9fa265d92e27bd2b418d54f12dbd1cbb193ff",
+  "fingerprint": "1c6fce5d6d418f1433ce2fa53c51792281bf3ad0e4762b5736d4d0858a4b38f1",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "6bc57848dcd9f7bf0ce51638b6ce36ba5de5f550f32d599fe42fa9e553a5ec59",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:05.572Z",
+  "elapsedMs": 470,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

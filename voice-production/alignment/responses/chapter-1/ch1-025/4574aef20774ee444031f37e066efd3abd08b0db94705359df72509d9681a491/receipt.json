@@ -1,0 +1,20 @@
+{
+  "lineId": "ch1-025",
+  "chapterId": "chapter-1",
+  "speakerId": "adult-aleem",
+  "text": "The new year placed us on different routes. Different buses, different assemblies, different circles of names. At first we compensated with long messages about every detail.",
+  "voiceUrl": "voices/chapter-1/ch1-025.mp3",
+  "durationMs": 12000,
+  "audioSha256": "cea009a445ee0df5d49f04382a9ccdcf4aa17953d5fe2da9e8dedad4f1841447",
+  "audioBytes": 144332,
+  "textSha256": "b5f3adc0df78f9a02f80594eb271f663fbc824f04101003b0abfb367f772306b",
+  "fingerprint": "4574aef20774ee444031f37e066efd3abd08b0db94705359df72509d9681a491",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "1c3fb77043275976af344384dfebc6720a70d44e507ada77440419137b3650f7",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:15.828Z",
+  "elapsedMs": 728,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

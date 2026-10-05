@@ -1,0 +1,20 @@
+{
+  "lineId": "ch7-cafe-photo",
+  "chapterId": "chapter-7",
+  "speakerId": "adult-aleem",
+  "text": "She took my photograph too, directing me to move my cup because it covered half my face. I complained until she showed me the result. Then we sat shoulder to shoulder over the pictures, choosing which ones to keep. It was a small, lovely thing to do with someone. I carried the feeling home longer than the afternoon lasted.",
+  "voiceUrl": "voices/chapter-7/ch7-cafe-photo.mp3",
+  "durationMs": 21504,
+  "audioSha256": "8a48f2175170e32b2a9e60fd343b1dac8a0c22999fddd8caa54c233739f9901e",
+  "audioBytes": 258380,
+  "textSha256": "dbc88941280ab52922708d967b10db063e38d8d0348c34315bbb6685809c28f1",
+  "fingerprint": "30227a353d79461596b40bd1c6278d3d50a60a886337b9b3c4e88ae407b6159f",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "ef4f19eff7bfde197433a3cef82eb36d2cb12fab33b45ee65572bec1adf7b9ab",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:39.030Z",
+  "elapsedMs": 730,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

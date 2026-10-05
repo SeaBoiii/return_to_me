@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-discovery-inspect-002",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "Repeated inspection created familiarity, not knowledge. The image never changed. My interpretation became more certain simply because I had rehearsed it so many times.",
+  "voiceUrl": "voices/chapter-ns/ns-discovery-inspect-002.mp3",
+  "durationMs": 11832,
+  "audioSha256": "afd8b1315708a36e8038f835dccb1404894023f8236f355a340f3371c13bc0ee",
+  "audioBytes": 142316,
+  "textSha256": "095b754eaa97247b3638ac83070c50e5413b153a11e0f3573e91053390f294bf",
+  "fingerprint": "3c9f61186e9915c29351841fa31f0630a3259a68bfec98842906a88b8a22ec9f",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "715eea2c6060fe6634abf51867bc7b46eb63e82aa408c1c6a6fd8e3d379e1ded",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:13.242Z",
+  "elapsedMs": 424,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

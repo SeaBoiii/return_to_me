@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-parents-listening",
+  "chapterId": "chapter-11",
+  "speakerId": "adult-aleem",
+  "text": "I asked them questions too. As they spoke, I could see Nurul listening to familiar voices from a place that was new to me. I liked being allowed into that little circle. There was more to knowing her than the time we spent alone together. Here were people for whom she had never been a recent introduction.",
+  "voiceUrl": "voices/chapter-11/ch11-parents-listening.mp3",
+  "durationMs": 18960,
+  "audioSha256": "e88152dd2242ead09c89a5c2248833271cca59ed5ccaa5d2da7072df6bd4a0e0",
+  "audioBytes": 227852,
+  "textSha256": "dccfa8d3978a5ad3eec02608b6f9c4350c2387b680e8155e66c046c5c12b0b45",
+  "fingerprint": "663c2a46ffa531852d6f4e7d399fded190f3beab9bb57ff67dac8ba0669b00bf",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "a9782c691753f8073ca6db5822c296e0714e5f07ceab8a4e6c0d9a7730f620dc",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:08.722Z",
+  "elapsedMs": 523,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

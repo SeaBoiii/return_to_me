@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-039",
+  "chapterId": "chapter-6",
+  "speakerId": "jia-wen",
+  "text": "You okay? You're very quiet today. Usually by now you have complained about at least three things.",
+  "voiceUrl": "voices/chapter-6/ch6-039.mp3",
+  "durationMs": 7824,
+  "audioSha256": "b15afc3e78b8b7356fd2cfe393b2e4a2779293f7ac9a682cc5c8a2fd68a270d1",
+  "audioBytes": 94220,
+  "textSha256": "9e5ce22c0db7dd22df7b63d622dc5cbd1f90eeb015e4bca990dab9e8ed9b4b64",
+  "fingerprint": "a62fedccd7cc45fdfd04753df83c6f80241ff16dbcee4f4217689edb5618f100",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "c238ed6d214909afb8f7708099b4b9d962213e3cde66da0b14044882a8d9fe02",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:29.561Z",
+  "elapsedMs": 339,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

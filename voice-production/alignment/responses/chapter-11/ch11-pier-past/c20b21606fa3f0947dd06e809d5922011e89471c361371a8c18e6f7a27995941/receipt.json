@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-pier-past",
+  "chapterId": "chapter-11",
+  "speakerId": "aleem-adult",
+  "text": "Sometimes I kept hoping even when the answer was already there. I thought if I did enough, or waited long enough, things might change. By the end I was tired of being hurt, but I was also tired of the way I kept living inside that hope.",
+  "voiceUrl": "voices/chapter-11/ch11-pier-past.mp3",
+  "durationMs": 13272,
+  "audioSha256": "4f3f2e819b749d1519bacd33e29ab5461b9cfeb05b0f2fe128af600640ebec12",
+  "audioBytes": 159596,
+  "textSha256": "3af533e5cc530feab967f185880a01d9f405a13eaacb4f527658468ce8671b51",
+  "fingerprint": "c20b21606fa3f0947dd06e809d5922011e89471c361371a8c18e6f7a27995941",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "9eaf264814cfe8e8afdd881367df3ce0c095591d6aca6bbf8952262f65cc090e",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:10.298Z",
+  "elapsedMs": 381,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

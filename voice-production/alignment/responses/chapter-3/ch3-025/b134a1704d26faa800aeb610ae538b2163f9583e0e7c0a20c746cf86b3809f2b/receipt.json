@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-025",
+  "chapterId": "chapter-3",
+  "speakerId": "syafiqa",
+  "text": "We fell asleep again. Next time you are responsible for not missing the stop.",
+  "voiceUrl": "voices/chapter-3/ch3-025.mp3",
+  "durationMs": 6000,
+  "audioSha256": "47c5d9c181c2d203c05e5124e267dae01b63a13c4b3f86c5a143ff82f0f168c2",
+  "audioBytes": 72332,
+  "textSha256": "5b7f3694211b19552d3ce2fa169b30c485564bec2cb944b36329ac511ab6ebb1",
+  "fingerprint": "b134a1704d26faa800aeb610ae538b2163f9583e0e7c0a20c746cf86b3809f2b",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "1603b637e896c645a00de98812730f4036258cc9740d29a5e450bc1a0ee3ee59",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:48.296Z",
+  "elapsedMs": 371,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

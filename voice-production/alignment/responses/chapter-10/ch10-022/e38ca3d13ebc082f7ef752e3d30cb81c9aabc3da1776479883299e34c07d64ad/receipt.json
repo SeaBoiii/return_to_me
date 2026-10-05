@@ -1,0 +1,20 @@
+{
+  "lineId": "ch10-022",
+  "chapterId": "chapter-10",
+  "speakerId": "mariam",
+  "text": "Aleem, come sit with us. Every time I see you standing, I feel like I'm taking your chair.",
+  "voiceUrl": "voices/chapter-10/ch10-022.mp3",
+  "durationMs": 7680,
+  "audioSha256": "6c448772b5439a59e59867514960a664a7ad0f62d3d55ffe80f6fd8d3e9c84c2",
+  "audioBytes": 92492,
+  "textSha256": "d0932f2d300511e68106667166a68d1fefe897cfa1ef1776324c392e16efa1d2",
+  "fingerprint": "e38ca3d13ebc082f7ef752e3d30cb81c9aabc3da1776479883299e34c07d64ad",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "0d27f98c35ff6f96735aa161c351eb95c64ca9ba416e77ca264a2975347f2595",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:58.465Z",
+  "elapsedMs": 332,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

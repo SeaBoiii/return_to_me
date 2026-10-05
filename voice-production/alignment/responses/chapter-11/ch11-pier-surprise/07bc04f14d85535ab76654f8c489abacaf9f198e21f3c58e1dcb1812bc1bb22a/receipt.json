@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-pier-surprise",
+  "chapterId": "chapter-11",
+  "speakerId": "aleem-adult",
+  "text": "Sorry. I didn't realise how much I was going to say.",
+  "voiceUrl": "voices/chapter-11/ch11-pier-surprise.mp3",
+  "durationMs": 2952,
+  "audioSha256": "3e2c60b890fd904c9033e7f70e3f02d4bac5906dbf3c965a6ecf020fc491b442",
+  "audioBytes": 35756,
+  "textSha256": "51a3b0d13ebb803f6c7a3b0edbefd00205697823417dc6f964dd1903bc3a60a6",
+  "fingerprint": "07bc04f14d85535ab76654f8c489abacaf9f198e21f3c58e1dcb1812bc1bb22a",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "24f761faa2f8adaf542b3cc2305945b488261b1a11645dc602effc256a258a64",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:10.613Z",
+  "elapsedMs": 310,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

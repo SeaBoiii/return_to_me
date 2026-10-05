@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-023",
+  "chapterId": "chapter-11",
+  "speakerId": "aleem-adult",
+  "text": "I want to say something. When you greet me, or start a conversation... I really appreciate it. It may seem small to you, but it means a lot to me.",
+  "voiceUrl": "voices/chapter-11/ch11-023.mp3",
+  "durationMs": 9024,
+  "audioSha256": "42b61636863c9c58ea54b4a010ee222038a2287427b987280f674abbeba45906",
+  "audioBytes": 108620,
+  "textSha256": "582979b079457d55d07e0d80bf7939859317f33cbedbf97daa50b2d9177d8db8",
+  "fingerprint": "4f05b5723a8e774c2dc48f243989d0049f2ed901785e9490d722d38d24717d52",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "5159a1953afb40d2e80338c243e06f03475697242a344874d33152849e43ab2c",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:03.169Z",
+  "elapsedMs": 433,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-014",
+  "chapterId": "chapter-9",
+  "speakerId": "adult-aleem",
+  "text": "Mariam gave him a look that seemed to have a whole marriage behind it. He smiled and moved something off the spare seat. I liked being near them. Their kindness asked for very little in return: an answer, a bit of conversation, the chance to make sure we were all right. I stopped feeling like a stranger so quickly.",
+  "voiceUrl": "voices/chapter-9/ch9-014.mp3",
+  "durationMs": 21840,
+  "audioSha256": "23d5f2a12494b2855012aa717932ba1f3cd5a0d60ec5e91f55feb7958cdefa50",
+  "audioBytes": 262412,
+  "textSha256": "b349e09c6b242170765bc9bf3b3f68c024e8c2e4014f46c25ee6d9f4425bad33",
+  "fingerprint": "b52dbbe806687b73bb4dd75896d47606522a2dff80b0b4404a0600ea9b92c165",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "bf7adecb1312e0c211eb099b346a33bd7a75aa398b9ecc01bb571d39ceaaaa8e",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:45.906Z",
+  "elapsedMs": 650,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

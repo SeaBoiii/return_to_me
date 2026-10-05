@@ -1,0 +1,20 @@
+{
+  "lineId": "ch8-012",
+  "chapterId": "chapter-8",
+  "speakerId": "adult-aleem",
+  "text": "When we arrived in the holy land, I paused with my bag in my hand. Imran waited beside me. The air beyond the doors felt unfamiliar against my face. I was here. After all that thinking about leaving, all those small preparations, I had reached the beginning of this different journey.",
+  "voiceUrl": "voices/chapter-8/ch8-012.mp3",
+  "durationMs": 20160,
+  "audioSha256": "4f782517cd5cc85fa070b436601ad4888de381f0f19c78448c945d0aee81db70",
+  "audioBytes": 242252,
+  "textSha256": "7cba76c260712cdad16a74edec1d88bb8acc78b167dbdaddbc4f33acb2bfd7dc",
+  "fingerprint": "37fdbbc9a69f3b666a86091c425eccd5a639e2870159721ad065a5717cd2053b",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "142a066a1e1a39313860eb2b373ed49abbb69500e8f5f4c8088ef8cdb8c2dbc3",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:43.602Z",
+  "elapsedMs": 494,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-071",
+  "chapterId": "chapter-2",
+  "speakerId": "hana",
+  "text": "I am tired of having the same conversation.",
+  "voiceUrl": "voices/chapter-2/ch2-071.mp3",
+  "durationMs": 5040,
+  "audioSha256": "86830909657fe7713bcb4b02bf3db9794fc45255e35327a5d3e72599d940f98d",
+  "audioBytes": 60812,
+  "textSha256": "de41057d6aa32079430b924fa6b96484c9ab601df62dd100d6f6932212796fe5",
+  "fingerprint": "94e6689c97c62fd516c206bd1e3eb45491883ebbc7e58e0f6c8bf9be69b1e460",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "dd7b921a1fcc46cf4668efa292d504aba233eda7eea5ca6e232295ec193cd957",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:35.135Z",
+  "elapsedMs": 413,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

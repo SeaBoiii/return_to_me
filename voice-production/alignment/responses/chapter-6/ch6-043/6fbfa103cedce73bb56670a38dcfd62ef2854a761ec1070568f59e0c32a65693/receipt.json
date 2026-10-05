@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-043",
+  "chapterId": "chapter-6",
+  "speakerId": "aleem-adult",
+  "text": "I know you're seeing someone. I'm not asking you to do anything about that. But I need to tell you. I like you, Jia Wen. I've liked you for a long time.",
+  "voiceUrl": "voices/chapter-6/ch6-043.mp3",
+  "durationMs": 10080,
+  "audioSha256": "aaeb09424975fda7c69ac79ac0ab92f4dab221eb46cb1051d6ec63df0bcb61f9",
+  "audioBytes": 121292,
+  "textSha256": "7b3781938f1e84da6435759ba6611f624cf96524fa178d697b69138febbdf252",
+  "fingerprint": "6fbfa103cedce73bb56670a38dcfd62ef2854a761ec1070568f59e0c32a65693",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "4dcc80c8d2e076ae0f660448198b09a55f0c0a94e4a73dd4549687847df595ea",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:30.517Z",
+  "elapsedMs": 395,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

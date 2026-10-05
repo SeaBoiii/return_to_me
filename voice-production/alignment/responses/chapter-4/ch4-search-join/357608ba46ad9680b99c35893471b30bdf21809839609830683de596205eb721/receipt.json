@@ -1,0 +1,20 @@
+{
+  "lineId": "ch4-search-join",
+  "chapterId": "chapter-4",
+  "speakerId": "adult-aleem",
+  "text": "There were three confessions in that restless stretch: to an Indian girl, a Chinese girl, and another Malay girl. I identify them that way because teenage me was already sorting experience into categories, searching for a pattern large enough to explain me.",
+  "voiceUrl": "voices/chapter-4/ch4-search-join.mp3",
+  "durationMs": 16800,
+  "audioSha256": "1d21ee8ab6b4143fd44b535ef4b4fc7145b67ab995f168b3bc0e9d432fcbd812",
+  "audioBytes": 201932,
+  "textSha256": "607bc6e6e923c3df645334eea13897d2cad3f056bcd9ec46605498ba1608f022",
+  "fingerprint": "357608ba46ad9680b99c35893471b30bdf21809839609830683de596205eb721",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "d5e196448f08d89d8b1693af3e29ca5953929551c91f3f1df854fa03a786938d",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:55.036Z",
+  "elapsedMs": 651,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-007",
+  "chapterId": "chapter-9",
+  "speakerId": "adult-aleem",
+  "text": "She wore a hijab, its edge framing the face that had stayed in my memory through years of trying not to think about it. She smiled at my surprise. I remembered that smile before I could decide what expression to offer back. My body had prepared for something painful; her greeting was simply warm.",
+  "voiceUrl": "voices/chapter-9/ch9-007.mp3",
+  "durationMs": 20640,
+  "audioSha256": "c822727ba6e85ab16826a0065c9417b1827636770b4fccdea292879c7a2ca7d4",
+  "audioBytes": 248012,
+  "textSha256": "cbcf1253ac574198073222ba39331295b2463cbf3bccd99b5b6277624800df46",
+  "fingerprint": "2f564e02370828b13773d2388277a5b3f1db6cbcf8b959f9273080e6fc8f9828",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "66ea234a6454c8a1a9a61b591f1ce5da9b7c85371b0722be2f81577acd5e9089",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:44.582Z",
+  "elapsedMs": 498,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

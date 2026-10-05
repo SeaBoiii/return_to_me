@@ -1,0 +1,20 @@
+{
+  "lineId": "ch4-013",
+  "chapterId": "chapter-4",
+  "speakerId": "aleem-sec",
+  "text": "I am contributing shade and perspective. Both are valuable classroom services.",
+  "voiceUrl": "voices/chapter-4/ch4-013.mp3",
+  "durationMs": 4536,
+  "audioSha256": "70069016753b2ef6ce46885930786c6557fa13e8efb21027ddb2321fbd35e595",
+  "audioBytes": 54764,
+  "textSha256": "c05754fb2d079356b8632d4650518341dc9eb02f927bae632b8e501478c08798",
+  "fingerprint": "95e623ce6600874560a9b985b68ebaeb18b5256f91da01f793ea5df3dc46bb75",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "b58262bcd7b3533eca82b27254afe46d5427af9cdc624362d6828791ad71d6ef",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:56.252Z",
+  "elapsedMs": 358,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

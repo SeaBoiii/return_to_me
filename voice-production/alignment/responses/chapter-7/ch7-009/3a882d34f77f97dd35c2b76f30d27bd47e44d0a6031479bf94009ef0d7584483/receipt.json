@@ -1,0 +1,20 @@
+{
+  "lineId": "ch7-009",
+  "chapterId": "chapter-7",
+  "speakerId": "adult-aleem",
+  "text": "Five minutes became a conversation over lunch. Lunch became a message on the way home. She sent me a picture of something ridiculous she had passed; I saved a story from my day because I wanted to hear her laugh at it. Friendship slipped beyond the office without either of us needing to announce it.",
+  "voiceUrl": "voices/chapter-7/ch7-009.mp3",
+  "durationMs": 18864,
+  "audioSha256": "6956772d199a42cd88bdf485c68809ff9bc61a26b659138a85955fb6c1f18e8d",
+  "audioBytes": 226700,
+  "textSha256": "887c46ced74c2fdcec84a09195834e59c3b40db6ff5ee718b757bb8f6e98c97b",
+  "fingerprint": "3a882d34f77f97dd35c2b76f30d27bd47e44d0a6031479bf94009ef0d7584483",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "fa52711ca0868974cc7799030647187905403f5d4a3b09692c5e191cb2ce3ec9",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:35.015Z",
+  "elapsedMs": 661,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-056",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "I meant the apology. I also meant the promise. Intentions were never the missing ingredient; I lacked the habit of turning them into action.",
+  "voiceUrl": "voices/chapter-2/ch2-056.mp3",
+  "durationMs": 9672,
+  "audioSha256": "975a5728f92083974630b3147b0a61cf41a682d966042c97f678d0d824a3b19f",
+  "audioBytes": 116396,
+  "textSha256": "4b51bf3babdc0faf759ba0e3154cc3f7ee5cf8fa997df9c26fa83fb4453545f2",
+  "fingerprint": "b12a868f11cd87e25014c9e65ca6c41d408700c0f6f5503525a0f8eb69d1c01b",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "d088482b507d181df89eed0282ac7c90011c0e6765d4057960e0b6889aea109f",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:32.953Z",
+  "elapsedMs": 651,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

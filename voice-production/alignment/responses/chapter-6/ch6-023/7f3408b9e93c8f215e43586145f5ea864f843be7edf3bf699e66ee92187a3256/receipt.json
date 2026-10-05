@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-023",
+  "chapterId": "chapter-6",
+  "speakerId": "jia-wen",
+  "text": "You're making it sound like a government announcement. I just need it to sound like me, but more intelligent.",
+  "voiceUrl": "voices/chapter-6/ch6-023.mp3",
+  "durationMs": 7344,
+  "audioSha256": "c3e9c06807b629db5d29f8ae06a4f6abe9809f746ec8ad3666d621cb743234c0",
+  "audioBytes": 88460,
+  "textSha256": "0beb6e087ac893273498592500c365b0a87072343b7bcc67bce963aed2a88269",
+  "fingerprint": "7f3408b9e93c8f215e43586145f5ea864f843be7edf3bf699e66ee92187a3256",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "8e8595ffe837b137716df1997b9432ee9f91753e5245318dd9af23498321e8fd",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:26.370Z",
+  "elapsedMs": 348,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

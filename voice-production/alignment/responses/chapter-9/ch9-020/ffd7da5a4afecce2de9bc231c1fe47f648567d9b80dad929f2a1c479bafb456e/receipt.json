@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-020",
+  "chapterId": "chapter-9",
+  "speakerId": "adult-aleem",
+  "text": "The climb gave our conversation a different rhythm. A few words, then breath. A glance towards the next stretch before looking back at the person beside me. I couldn't fill every silence with something clever even if I wanted to. We kept moving, and the little group gradually stopped moving as one.",
+  "voiceUrl": "voices/chapter-9/ch9-020.mp3",
+  "durationMs": 18720,
+  "audioSha256": "8c80fc8e399a36e7f459c1c0c5f15fec50b0714acb42e1f167dbd2a7a2d5c9ac",
+  "audioBytes": 224972,
+  "textSha256": "4986024801da85d3c9fe1663fa1e57c4c9a6da566c2026a453aeb9827183ad5c",
+  "fingerprint": "ffd7da5a4afecce2de9bc231c1fe47f648567d9b80dad929f2a1c479bafb456e",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "753fbb5f2c49670e50dd78e9a13ec988eec32981fb747aba081c9a51e4cbf43a",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:46.884Z",
+  "elapsedMs": 473,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

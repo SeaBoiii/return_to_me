@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-wingman-simple-002",
+  "chapterId": "chapter-2",
+  "speakerId": "faris",
+  "text": "Direct and efficient. I knew there was hope for you.",
+  "voiceUrl": "voices/chapter-2/ch2-wingman-simple-002.mp3",
+  "durationMs": 4080,
+  "audioSha256": "6292eb2e541b94ba6e4132479725630d8121094dc0489841c52af2e34825de19",
+  "audioBytes": 49292,
+  "textSha256": "0f10a70b7f58d9a95814eec4f83d7af723a5ed59a2d34598e6a68ca96cf9110c",
+  "fingerprint": "3a5826ec819f3aad0a4fde422190ad0adf5fb3370c691bf33e56f759d23d1c25",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "80f2d2cd86a87f48f1341e4273eee6b37971128cac1163e1b175291eb2ead18b",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:25.667Z",
+  "elapsedMs": 358,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-wingman-pressure-001",
+  "chapterId": "chapter-2",
+  "speakerId": "aleem-sec",
+  "text": "Make sure she knows there is no pressure. If she does not feel the same, I do not want class to become uncomfortable.",
+  "voiceUrl": "voices/chapter-2/ch2-wingman-pressure-001.mp3",
+  "durationMs": 6264,
+  "audioSha256": "7484cfb0993b3895cd8613c0f5579b099fdc558580f33d36cafc1bf765dfe0b6",
+  "audioBytes": 75500,
+  "textSha256": "96a0e77a149bc28c2eeb15df33b0a7c2be84e7bbec6fc89e56a1b2a51d986ec8",
+  "fingerprint": "70aae332f30d530c505a17ef82ce24668e703d6e3251c225f6e526e1a6494048",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "3af50b4c101c0528c2cf97b489b5df98c00da846763cf5c12f829852ea05d8a8",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:25.994Z",
+  "elapsedMs": 322,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

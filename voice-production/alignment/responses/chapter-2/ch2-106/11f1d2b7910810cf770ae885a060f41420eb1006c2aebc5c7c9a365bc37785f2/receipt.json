@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-106",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "Those kinder truths did not arrive all at once. First came smaller things: waking up, opening the curtains, answering one message, considering one route I had not planned.",
+  "voiceUrl": "voices/chapter-2/ch2-106.mp3",
+  "durationMs": 12312,
+  "audioSha256": "9b4e53280fef50e47bc7d65d474d80c0c6df3bc2b1f08a75c54217ba77ddbdae",
+  "audioBytes": 148076,
+  "textSha256": "3b5a8f67893575449778bd6350658b2a45c99e239f413e9416d8d6912829c617",
+  "fingerprint": "11f1d2b7910810cf770ae885a060f41420eb1006c2aebc5c7c9a365bc37785f2",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "760c473a1730dc468c08fce7ca20e0013719c132149af8bda8ebca3409b90b2b",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:43.170Z",
+  "elapsedMs": 447,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

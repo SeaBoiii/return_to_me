@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-070",
+  "chapterId": "chapter-2",
+  "speakerId": "aleem-sec",
+  "text": "Are you angry with me?",
+  "voiceUrl": "voices/chapter-2/ch2-070.mp3",
+  "durationMs": 1656,
+  "audioSha256": "d8e50b297a1d96fbbdd3b5d96b6d51f9a6d2ddc0445669468e87b6270f1cc81c",
+  "audioBytes": 20204,
+  "textSha256": "4bb06504894d7f19a1ad78c2025c330900f72939deaa8ec84210bfdce3fee3d2",
+  "fingerprint": "e18b8a72c8827ea6697d6ed75020b1346e322bd92deb45ee838fa898370c983e",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "796ad935c3e3fb906d046d1098ab71f7e5f0ecf6dcf73a9471824cf05eed7db9",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:34.860Z",
+  "elapsedMs": 322,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

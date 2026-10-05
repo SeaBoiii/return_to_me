@@ -1,0 +1,20 @@
+{
+  "lineId": "ch7-002",
+  "chapterId": "chapter-7",
+  "speakerId": "adult-aleem",
+  "text": "Claire found me in the pantry studying the drinks as if there might be a correct first-week choice. She was Chinese, easy to talk to, and had joined six months before me. That made her recent enough to remember being new and experienced enough to know which cupboard held the decent mugs.",
+  "voiceUrl": "voices/chapter-7/ch7-002.mp3",
+  "durationMs": 17832,
+  "audioSha256": "c13ca64435bf3b85709ff3d4241f08d91a3e960272ad0b61b783045ee8836e87",
+  "audioBytes": 214316,
+  "textSha256": "f46cadf1c4c6c11e648069faf2a9e763a0b60762952b85d8215368f73d14b7cc",
+  "fingerprint": "8743f7bb7e331cc6df9911129de71145efa3decc7e093bbfbdf1ac0a73a8816d",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "f662d08410d21f9f93a4e5183906af35849176ebfe8f4b2ad7c390e98f84cd13",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:33.817Z",
+  "elapsedMs": 608,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

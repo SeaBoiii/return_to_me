@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-024",
+  "chapterId": "chapter-6",
+  "speakerId": "aleem-adult",
+  "text": "That one a bit difficult. Need a bigger editing budget.",
+  "voiceUrl": "voices/chapter-6/ch6-024.mp3",
+  "durationMs": 2784,
+  "audioSha256": "7f2e0585fc3bf061c777c127fdbd58cae3bea6d604ee416fdedf4bf9d0abdc28",
+  "audioBytes": 33740,
+  "textSha256": "fdd4f0859d03b14ab5fda87af9aba96f3f25123d36e480db14a028d422fee565",
+  "fingerprint": "309073c8c336d2c75d953b44564ca98eadeeab49320ff0cc1297ea07c22abf73",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "f9c8daff779d22456afd887ad27f51f1bf9ee90e4652a2a6c3227282bd5b50c2",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:26.429Z",
+  "elapsedMs": 320,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

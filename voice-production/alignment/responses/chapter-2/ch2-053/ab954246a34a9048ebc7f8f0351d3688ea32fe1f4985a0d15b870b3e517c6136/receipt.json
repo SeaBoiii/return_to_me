@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-053",
+  "chapterId": "chapter-2",
+  "speakerId": "aleem-sec",
+  "text": "Server issue. It was quite bad, but I fixed it.",
+  "voiceUrl": "voices/chapter-2/ch2-053.mp3",
+  "durationMs": 2808,
+  "audioSha256": "2f61a0bd6ca57758bf8c124e1220865911a1b843fac6d2dfd3b21cc8b03119ac",
+  "audioBytes": 34028,
+  "textSha256": "9e2f1e38d54bda3ec5a890e2e3b6c23b9e1a7cda5b7e712a1b4fd783803ba2a8",
+  "fingerprint": "ab954246a34a9048ebc7f8f0351d3688ea32fe1f4985a0d15b870b3e517c6136",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "19f7c0716c04303225fcec07ddaea8a4d933f6c71fec6b7a250e5b9a9c268d68",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:32.272Z",
+  "elapsedMs": 319,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

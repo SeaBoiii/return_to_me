@@ -1,0 +1,20 @@
+{
+  "lineId": "ch4-034",
+  "chapterId": "chapter-4",
+  "speakerId": "adult-aleem",
+  "text": "No paper felt perfect. Some questions opened cleanly; others resisted until time forced me onward. I wrote the final line, placed my pen down, and understood that uncertainty after effort feels different from uncertainty after avoidance.",
+  "voiceUrl": "voices/chapter-4/ch4-034.mp3",
+  "durationMs": 17184,
+  "audioSha256": "94ebae9c0603031ec1cd93a2469cfc1047c9f9f5ac9dc6ea3ef60a1ee738894d",
+  "audioBytes": 206540,
+  "textSha256": "5994162686573bee6c530055e7e47dd59b735b9d94ceef4285b2246a4ede9379",
+  "fingerprint": "2f1ec8dab8169d968b03e7054bb54fb99232897906afd64ef870567e81043367",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "cdac9f18775223dd5ae3919f730c448663327e05f10795db3ac16d303d184fbe",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:59.483Z",
+  "elapsedMs": 406,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

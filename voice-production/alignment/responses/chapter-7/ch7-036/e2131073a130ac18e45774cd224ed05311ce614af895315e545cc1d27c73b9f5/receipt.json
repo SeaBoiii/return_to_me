@@ -1,0 +1,20 @@
+{
+  "lineId": "ch7-036",
+  "chapterId": "chapter-7",
+  "speakerId": "adult-aleem",
+  "text": "I had tried speaking quickly. I had tried waiting. I had finally said what I felt and accepted a clear no. Still, I was here again. The room seemed to hold every earlier disappointment at once, until the life I had imagined felt as if it had come down around me.",
+  "voiceUrl": "voices/chapter-7/ch7-036.mp3",
+  "durationMs": 18864,
+  "audioSha256": "964661fc2e8c7b113d8d2e748211c362bdca972328d13e6debbfb3c9e3fd7d7f",
+  "audioBytes": 226700,
+  "textSha256": "33a1b51acc725ef4258c60865948a106d73ba5c7ffb41f062d3f38c05d5dca86",
+  "fingerprint": "e2131073a130ac18e45774cd224ed05311ce614af895315e545cc1d27c73b9f5",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "14bed1ba4c1a58a7fcbb98e5a6d4d80e4a744672c12378951f611e8276b8bbb8",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:41.490Z",
+  "elapsedMs": 472,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

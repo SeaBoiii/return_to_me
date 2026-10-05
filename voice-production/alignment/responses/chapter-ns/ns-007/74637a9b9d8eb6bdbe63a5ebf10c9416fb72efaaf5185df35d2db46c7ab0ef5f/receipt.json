@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-007",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "The house carried the familiar movement of visiting: greetings crossing in the doorway, plates being replenished before they were empty, children migrating between rooms, adults rebuilding conversations from the previous year.",
+  "voiceUrl": "voices/chapter-ns/ns-007.mp3",
+  "durationMs": 14304,
+  "audioSha256": "58b25e3d05d10475c9c18cbe936c899133d09b91a15ac7773d8afc34d2fb90fd",
+  "audioBytes": 171980,
+  "textSha256": "3376f57587115b0d678be377a062f352c83e186838c29e74b97b24f529edb44c",
+  "fingerprint": "74637a9b9d8eb6bdbe63a5ebf10c9416fb72efaaf5185df35d2db46c7ab0ef5f",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "04253b8722a7c8e5a4d634459194d4ab6c0890975ae7476bcbff061eff355d01",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:08.113Z",
+  "elapsedMs": 453,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

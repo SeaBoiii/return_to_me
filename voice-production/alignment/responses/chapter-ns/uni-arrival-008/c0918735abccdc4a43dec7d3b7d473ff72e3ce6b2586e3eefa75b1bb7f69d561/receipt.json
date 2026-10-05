@@ -1,0 +1,20 @@
+{
+  "lineId": "uni-arrival-008",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "Nothing in the room was directed at me. Nobody had accused, cornered, or even approached me. Still, as I crossed the threshold, my body stopped with such force that Hakim took another step before noticing I was behind him.",
+  "voiceUrl": "voices/chapter-ns/uni-arrival-008.mp3",
+  "durationMs": 14640,
+  "audioSha256": "0e7f940ac62482bffee046c4cf22747ffc55100bfcf5c2ce172505f68c73640e",
+  "audioBytes": 176012,
+  "textSha256": "ed891b744f4b367af1318edf5ce43b0e29407a2883742f9734d1bc135e933d4e",
+  "fingerprint": "c0918735abccdc4a43dec7d3b7d473ff72e3ce6b2586e3eefa75b1bb7f69d561",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "931ba8c87215c43160bc38380fd6da29e976554ccba937de1fa7a564c7d4b44e",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:19.265Z",
+  "elapsedMs": 467,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

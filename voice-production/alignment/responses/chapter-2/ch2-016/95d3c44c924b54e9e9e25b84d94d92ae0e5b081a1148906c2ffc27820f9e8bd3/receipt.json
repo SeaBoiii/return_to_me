@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-016",
+  "chapterId": "chapter-2",
+  "speakerId": "hana",
+  "text": "You sound happier explaining that than anything in this textbook.",
+  "voiceUrl": "voices/chapter-2/ch2-016.mp3",
+  "durationMs": 3912,
+  "audioSha256": "e067a7992a6625909d6b27c05f0c136624c27ca9ceda9ff54f8c596f6e4fab4f",
+  "audioBytes": 47276,
+  "textSha256": "492fb3ac0be5b6e497a16a9375bb86f88187d517fea024b924236df23ab60d07",
+  "fingerprint": "95d3c44c924b54e9e9e25b84d94d92ae0e5b081a1148906c2ffc27820f9e8bd3",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "0526165b34119de9ceb3b6addbda57c5dc9487efe77d57618923bb34e1aa47cf",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:24.287Z",
+  "elapsedMs": 605,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

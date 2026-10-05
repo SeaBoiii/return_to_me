@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-026",
+  "chapterId": "chapter-11",
+  "speakerId": "adult-aleem",
+  "text": "Getting to know her didn't happen in one long, revealing conversation. It came in smaller pieces: an answer she expanded because I had asked, a joke I understood more quickly now, a pause I could leave alone. I was still learning to be curious. Sometimes I noticed a question only after I had already started talking about myself again.",
+  "voiceUrl": "voices/chapter-11/ch11-026.mp3",
+  "durationMs": 24144,
+  "audioSha256": "6ad1d0ed4084ade19463612bedbb9d1816ba5deee05b2c28255fa0c07a49a5b9",
+  "audioBytes": 290060,
+  "textSha256": "6f26b2ee6d0f73d688a61c6ada0055699f0942374afcc1d16660244b675690ca",
+  "fingerprint": "954d1bf4606b1da69ba54ce4435aea2fd289f337c4b4f835aa2336aadf595d6e",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "ac9224d46cd4ca15aba28de668eeffaf6d2bfa5e10e64facaedf9e4287ea0600",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:04.290Z",
+  "elapsedMs": 647,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

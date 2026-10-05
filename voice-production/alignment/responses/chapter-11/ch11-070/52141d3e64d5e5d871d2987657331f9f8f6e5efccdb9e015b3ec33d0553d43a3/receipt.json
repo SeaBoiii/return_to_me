@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-070",
+  "chapterId": "chapter-11",
+  "speakerId": "adult-aleem",
+  "text": "We confessed our love to each other that evening by the river. I could hear her words without searching them for a smaller meaning, without needing to persuade myself they had happened. The sunset continued around us. Beside me was someone I loved, telling me that she loved me too.",
+  "voiceUrl": "voices/chapter-11/ch11-070.mp3",
+  "durationMs": 18000,
+  "audioSha256": "331c7071aa767cbbb1df17dd5cabc351c88d6e73e9174592c38ccd0f7472d403",
+  "audioBytes": 216332,
+  "textSha256": "99224c4b08d77a77beb6d21eb635a676f0ebba28b555907eb372735036af0503",
+  "fingerprint": "52141d3e64d5e5d871d2987657331f9f8f6e5efccdb9e015b3ec33d0553d43a3",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "6a334afcf2f97444a4924fabf9b3b78af9d1f5e02e1c743f8a69bee8ae4e9d3b",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:12.752Z",
+  "elapsedMs": 627,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

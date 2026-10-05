@@ -1,0 +1,20 @@
+{
+  "lineId": "ch7-023",
+  "chapterId": "chapter-7",
+  "speakerId": "claire",
+  "text": "There's a café I want to try. Everybody posts couple photos there, but I just want to know whether the food is actually good. You free this weekend?",
+  "voiceUrl": "voices/chapter-7/ch7-023.mp3",
+  "durationMs": 10224,
+  "audioSha256": "ad239a8b06808a0c946cdb577cdff5889b01d3c195256790403ceea95eb41b86",
+  "audioBytes": 123020,
+  "textSha256": "4b87df086ae4c293291db6ab63f4513b642b82c661dfa2a1e753393528eb485e",
+  "fingerprint": "0373f7d7ba955c941f7bd66203785d10d50fe180fb04f77d0f7841a128ad682d",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "4d12b8fc26fb08242d844026e7f16443c95717e60d3cff50fabe875ba7a1265f",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:37.944Z",
+  "elapsedMs": 434,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

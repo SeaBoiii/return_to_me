@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-bus-possibility-002",
+  "chapterId": "chapter-3",
+  "speakerId": "adult-aleem",
+  "text": "That was the fairest thought available to me. Closeness created a question, not a claim. Clarity would require risking an answer that did not match the hope behind it.",
+  "voiceUrl": "voices/chapter-3/ch3-bus-possibility-002.mp3",
+  "durationMs": 10872,
+  "audioSha256": "7b1d14a42e217c1adc6ab00bd9339ad07a441c0c1bfdaa69cccc663251183a33",
+  "audioBytes": 130796,
+  "textSha256": "e086e00fe5e30a937d0f5fd6b16f8125e5f03f502b0e142f2bf97034d9fca7d7",
+  "fingerprint": "189c10db9b5b8e0f73d8b8a0e0df96a92f6fb957cd97773b16d807246e95bc90",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "5ab76d3f950307e6076f6f4e8f42e3c8585ef74aa3f6e03e632ee9b04bc406a2",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:47.742Z",
+  "elapsedMs": 535,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch5-010",
+  "chapterId": "chapter-5",
+  "speakerId": "adult-aleem",
+  "text": "I remembered how my room had narrowed after O Levels. Advice had reached me as pressure because everyone wanted movement before I could imagine direction. I wanted to offer her something that did not resemble another plan.",
+  "voiceUrl": "voices/chapter-5/ch5-010.mp3",
+  "durationMs": 13200,
+  "audioSha256": "ccc9c4d5106591822b85c5e5d09a8f97b4046ef65642536dfcd2bd4d75618527",
+  "audioBytes": 158732,
+  "textSha256": "5c26b6bb0f58eb519288e20f4b073ed1ebd92ff321d92328a34def2b3e54f1f8",
+  "fingerprint": "dbdfed3b99a50f20abf9af7ea57e6b94c7caf18f39f6b6a26de7b908d9d1fc5a",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "4f3f62288774aa8f47b09a2595c5267c26e9e5f1243e3e79a1648a1a04ed9c4c",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:01.452Z",
+  "elapsedMs": 390,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

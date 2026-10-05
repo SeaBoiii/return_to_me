@@ -1,0 +1,20 @@
+{
+  "lineId": "ch8-002",
+  "chapterId": "chapter-8",
+  "speakerId": "adult-aleem",
+  "text": "By January 2026, I was ready to listen to it. I wanted peace. Blessings. Space for doa, and the chance to bring the things I couldn't explain to God without first arranging them into a story that made me sound stronger than I felt.",
+  "voiceUrl": "voices/chapter-8/ch8-002.mp3",
+  "durationMs": 18624,
+  "audioSha256": "c10c43fdd6bc0be0461f85ff218210eac65f44791ed47ba7d8fbaddc32ffb585",
+  "audioBytes": 223820,
+  "textSha256": "de7d2ea367ccb1fef300f08054bf94d6e76b387e162ff889edf0f06efc573438",
+  "fingerprint": "5b058198a1742eb1473af9e865985b254a413cfbec709f7bff4edac7fc382fce",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "2a5e36be2e87420722b21a84631be02805700170ebfba4abdaabb3174f9b58ad",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:41.979Z",
+  "elapsedMs": 484,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

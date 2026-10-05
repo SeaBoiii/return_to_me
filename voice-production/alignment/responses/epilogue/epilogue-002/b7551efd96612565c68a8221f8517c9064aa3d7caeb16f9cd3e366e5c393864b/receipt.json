@@ -1,0 +1,20 @@
+{
+  "lineId": "epilogue-002",
+  "chapterId": "epilogue",
+  "speakerId": "adult-aleem",
+  "text": "The wedding is still ahead of us. So is the marriage we hope to build. There are things we are still learning about each other, and moments when we have to slow down and explain ourselves better. I can be quiet when I need to speak. She can need time when I am ready with an answer.",
+  "voiceUrl": "voices/epilogue/epilogue-002.mp3",
+  "durationMs": 16944,
+  "audioSha256": "53c20cb4cbd480334829e8a095473b49faf1bb0e073649bb06daed0617494b9d",
+  "audioBytes": 203660,
+  "textSha256": "112773bfbfabc43554dc5f2a5537219e4856cecac2c2d6f7730de487995ee6a9",
+  "fingerprint": "b7551efd96612565c68a8221f8517c9064aa3d7caeb16f9cd3e366e5c393864b",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "9b295d326a276584c70bbe4d8b3bcafe45dc3d1bbaeb86401cf40e4e06d0b7ca",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:12.917Z",
+  "elapsedMs": 526,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

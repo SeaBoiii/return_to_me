@@ -1,0 +1,20 @@
+{
+  "lineId": "ch8-008",
+  "chapterId": "chapter-8",
+  "speakerId": "adult-aleem",
+  "text": "At the airport, Imran stood beside me while I checked my pockets again. Around us, people counted bags and called to family members. I had imagined leaving would feel momentous. Mostly, I felt tired, slightly nervous, and grateful that somebody knew where I was supposed to be.",
+  "voiceUrl": "voices/chapter-8/ch8-008.mp3",
+  "durationMs": 18072,
+  "audioSha256": "84d8c4c3937433740453b7a703de3fcfd8cb6a89e263a5890da5125aeeb91576",
+  "audioBytes": 217196,
+  "textSha256": "26e50d311ce6e5980c93c698d647840c2fc712b729db6c1866cfa022691aba24",
+  "fingerprint": "d23907ae6639411ea0835f645afd14f543a3d40f92befd9ffa9f19ac98a59eed",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "c7ce36453192210b9dca0349ada11406a816c4c904eece21d6401d8324687bf8",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:42.879Z",
+  "elapsedMs": 505,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

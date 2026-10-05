@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-082",
+  "chapterId": "chapter-2",
+  "speakerId": "hana",
+  "text": "You are right. I avoided the final conversation, and I am sorry. But I did tell you I was lonely in this relationship. More than once.",
+  "voiceUrl": "voices/chapter-2/ch2-082.mp3",
+  "durationMs": 11592,
+  "audioSha256": "937418019210ee3a466a32730978dd1597fd7511895468d942edc39154f452d5",
+  "audioBytes": 139436,
+  "textSha256": "c235fce0e97c219ebfc1c4565f9776eec572f40cf5cd2ebb02a11e0190267112",
+  "fingerprint": "b54d5f3f2a0fe1771d8a8ce17c1419bb1a52a08dacb3f5ac20243933ff3289c0",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "fb802ab439f9d1d6dee728a445b4b05323a07f203542e7ae41bf43c7e596d7e9",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:37.795Z",
+  "elapsedMs": 583,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

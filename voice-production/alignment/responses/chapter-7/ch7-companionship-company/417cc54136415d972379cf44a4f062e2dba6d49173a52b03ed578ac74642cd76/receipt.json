@@ -1,0 +1,20 @@
+{
+  "lineId": "ch7-companionship-company",
+  "chapterId": "chapter-7",
+  "speakerId": "adult-aleem",
+  "text": "I liked the actual person walking beside me: her terrible photographs, her patient questions, the way she remembered a story I had mentioned once. The friendship wasn't an empty consolation. That was what made it so difficult to notice when enjoying her company slipped back into wanting more.",
+  "voiceUrl": "voices/chapter-7/ch7-companionship-company.mp3",
+  "durationMs": 21912,
+  "audioSha256": "a1bf280e659882f2078f55239a328d15307fb2c39c99e3e0596d6515248b9703",
+  "audioBytes": 263276,
+  "textSha256": "0277e40e2e93554a88a87f9ae4233782637d8648cdfaf95ee3207919da550676",
+  "fingerprint": "417cc54136415d972379cf44a4f062e2dba6d49173a52b03ed578ac74642cd76",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "25aa5c91958707ae0a7a6ec15941ff4c1f2f86a5ee12d6e00c803c70c184b316",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:39.576Z",
+  "elapsedMs": 697,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

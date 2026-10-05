@@ -1,0 +1,20 @@
+{
+  "lineId": "ch10-room-ahead",
+  "chapterId": "chapter-10",
+  "speakerId": "adult-aleem",
+  "text": "I imagined an ordinary introduction, the kind I used to step away from before it went anywhere. I could listen. I could ask a question because I wanted to know the answer. I would not have to begin by placing a stranger beside the people who had hurt me. The thought was small, but I felt how much space it opened in my life.",
+  "voiceUrl": "voices/chapter-10/ch10-room-ahead.mp3",
+  "durationMs": 21504,
+  "audioSha256": "a8341573e7afbd1d8ca53303af7571ff9b7ccf2aea5c80ab54f9da2336a07c50",
+  "audioBytes": 258380,
+  "textSha256": "a2bc5df6479fe53b06567ab3f127146038ef9071ec1416e9ff52df01f87060ea",
+  "fingerprint": "372f9455e04051fba63aabbd9edd3fb01d29dd8c2a21ffa04a5395fdd51b1524",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "be43a0f5c590d4a297daa8ab1817ce46990e394c0bc3aa7d708b858501ab6b2d",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:56.199Z",
+  "elapsedMs": 690,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

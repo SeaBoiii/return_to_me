@@ -1,0 +1,20 @@
+{
+  "lineId": "ch5-004",
+  "chapterId": "chapter-5",
+  "speakerId": "adult-aleem",
+  "text": "Pride arrived carefully, as though it expected somebody to challenge its right to be there. I thought of the dark room after O Levels, the school label I had repeated with embarrassment, and every evening spent rebuilding habits one page at a time.",
+  "voiceUrl": "voices/chapter-5/ch5-004.mp3",
+  "durationMs": 15912,
+  "audioSha256": "b390f3aa70a336ac1aaabc400c3ce3f4d1ab1e856cdffa8e808fb8292934ee7c",
+  "audioBytes": 191276,
+  "textSha256": "20f83acb0b5a22a77d2ae74339c5549cb2a123974d4d9afe412d54961c6d01b1",
+  "fingerprint": "30081e7903c3767e18b80f08d4a517268ddb99e861a021e44c11bc85ef4f2ba6",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "d34178fbe554edd69d2e0202f1bf73065d9b91559e90ccdfd6f1033e2e503b77",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:00.604Z",
+  "elapsedMs": 589,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

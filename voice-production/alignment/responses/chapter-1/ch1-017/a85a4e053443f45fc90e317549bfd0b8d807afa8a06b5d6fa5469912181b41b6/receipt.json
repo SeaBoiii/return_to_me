@@ -1,0 +1,20 @@
+{
+  "lineId": "ch1-017",
+  "chapterId": "chapter-1",
+  "speakerId": "alya",
+  "text": "Wah, confident. Then I should be the one worried.",
+  "voiceUrl": "voices/chapter-1/ch1-017.mp3",
+  "durationMs": 4080,
+  "audioSha256": "3690b8decfd5e4a35d9f16b162965f213afe8058540a82154a715fade385d5a6",
+  "audioBytes": 49292,
+  "textSha256": "072ecfc596c7f025bae22af74868e9796d0f30f6ca1deafb56ecb2b0666abc43",
+  "fingerprint": "a85a4e053443f45fc90e317549bfd0b8d807afa8a06b5d6fa5469912181b41b6",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "68210e035949e363ae31531cd47a1b60ba4abfa4c71dffc9eefec5064c794224",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:14.128Z",
+  "elapsedMs": 356,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

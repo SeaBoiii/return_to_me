@@ -1,0 +1,20 @@
+{
+  "lineId": "ch7-016",
+  "chapterId": "chapter-7",
+  "speakerId": "aleem-adult",
+  "text": "Claire, I like you. More than a friend. I wanted to tell you properly and ask whether you could see us being together.",
+  "voiceUrl": "voices/chapter-7/ch7-016.mp3",
+  "durationMs": 7104,
+  "audioSha256": "471e4564d5c87f8784d2383bdd14f7514164a68469a8da8d49d5b112872b08c4",
+  "audioBytes": 85580,
+  "textSha256": "c5708187fe516b555dfe8c2f46764047db8588a00bf36589de013b8e0faf5b18",
+  "fingerprint": "441778549754e2f2ab90bcfbb55e4969fd959d5e9ab2290fc5dba105cb870575",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "e5a0aa9488e6712a0c37ccc3a24e7f34849171b38d78c31c8468b94f3bf0ee5e",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:36.082Z",
+  "elapsedMs": 376,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

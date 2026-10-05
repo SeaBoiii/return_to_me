@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-049",
+  "chapterId": "chapter-ns",
+  "speakerId": "aleem-young-adult",
+  "text": "All Malay girls will turn out like this. Different face, same ending. I was stupid to believe she was different.",
+  "voiceUrl": "voices/chapter-ns/ns-049.mp3",
+  "durationMs": 7200,
+  "audioSha256": "3a87911ced85fc8c65986fb3fb20a94359a42931c37e8f404d8d70af6021ffcb",
+  "audioBytes": 86732,
+  "textSha256": "c870d34d9c2a7b25b337bb2a1ff50f5c0052142a0a55e2703f382b03b02a7abc",
+  "fingerprint": "a52578cf69f54b4a087ea36d224251778eea3b1c197579f18c604cb21a845232",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "55e3334390ed3303730eafd54474c075e1e2edff25ce2b482414a247eee84059",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:16.483Z",
+  "elapsedMs": 323,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

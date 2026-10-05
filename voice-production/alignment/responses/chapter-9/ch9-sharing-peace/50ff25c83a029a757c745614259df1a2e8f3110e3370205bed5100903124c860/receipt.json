@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-sharing-peace",
+  "chapterId": "chapter-9",
+  "speakerId": "aleem-adult",
+  "text": "I wanted peace. That's the simplest way to say it. I had things I kept going over in my head, and I wanted to come here with them. See what I could understand, or finally let go.",
+  "voiceUrl": "voices/chapter-9/ch9-sharing-peace.mp3",
+  "durationMs": 10464,
+  "audioSha256": "b31f6171d333103c68cc41c9d09b7230e8f4476b52f9ec9612ff873bf3d37873",
+  "audioBytes": 125900,
+  "textSha256": "9a0bafd42ca1b0f9890855d39bb3b67cd5cf186ac25a1b77d4615d80032bd885",
+  "fingerprint": "50ff25c83a029a757c745614259df1a2e8f3110e3370205bed5100903124c860",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "0425e0708e02ed05adbc270d7a655067b4967029799ef155b792614c0bfa4f7b",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:48.251Z",
+  "elapsedMs": 406,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

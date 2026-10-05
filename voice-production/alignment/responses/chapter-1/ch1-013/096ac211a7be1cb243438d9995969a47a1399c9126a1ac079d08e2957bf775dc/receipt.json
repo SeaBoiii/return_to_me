@@ -1,0 +1,20 @@
+{
+  "lineId": "ch1-013",
+  "chapterId": "chapter-1",
+  "speakerId": "adult-aleem",
+  "text": "From that day, we said we were together. The phrase felt enormous. In practice, it meant shared snacks, carefully timed walks after school, and messages sent from phones we were not supposed to use during homework.",
+  "voiceUrl": "voices/chapter-1/ch1-013.mp3",
+  "durationMs": 14160,
+  "audioSha256": "8db90a71c7de4603279391bdaa8db7f92d6c5a34355a902670b52e00c1aab6ca",
+  "audioBytes": 170252,
+  "textSha256": "4d9273a545f3d7ae5441e0823495a6bfb78d4bc555c5b71394258f7d23c0c05a",
+  "fingerprint": "096ac211a7be1cb243438d9995969a47a1399c9126a1ac079d08e2957bf775dc",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "70892adca7bb85ac09db057822951d45e6d2560a590f2d81574dd14eda8192eb",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:13.768Z",
+  "elapsedMs": 955,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

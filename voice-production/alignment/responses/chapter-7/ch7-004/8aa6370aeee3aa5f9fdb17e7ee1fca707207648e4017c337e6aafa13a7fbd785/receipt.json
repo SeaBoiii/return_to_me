@@ -1,0 +1,20 @@
+{
+  "lineId": "ch7-004",
+  "chapterId": "chapter-7",
+  "speakerId": "aleem-adult",
+  "text": "Very useful onboarding. They should have put you in charge.",
+  "voiceUrl": "voices/chapter-7/ch7-004.mp3",
+  "durationMs": 3264,
+  "audioSha256": "76f47852b22223a805c6bb2ae9cff594930339eef3de081c9268d91fb6df1673",
+  "audioBytes": 39500,
+  "textSha256": "82e334e18ec0da6d9512f8336f04cbdf26b77a355af01260939153fb8ad57eb3",
+  "fingerprint": "8aa6370aeee3aa5f9fdb17e7ee1fca707207648e4017c337e6aafa13a7fbd785",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "0433671a8f00895bdc7973769f8c39c022925cb50675c60bb7a9aa8fe93dc0fb",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:33.932Z",
+  "elapsedMs": 326,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

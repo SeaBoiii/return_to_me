@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-029",
+  "chapterId": "chapter-11",
+  "speakerId": "adult-aleem",
+  "text": "Then, in our messages, she asked a question that made me sit with the phone for a moment. We had been seeing each other, becoming part of each other's time. She wanted to know where we were going with it.",
+  "voiceUrl": "voices/chapter-11/ch11-029.mp3",
+  "durationMs": 13512,
+  "audioSha256": "591528d8c3fae0cb5d69d3856355d7750ec82b45458129ecc4c538faa85b1bb6",
+  "audioBytes": 162476,
+  "textSha256": "ab3d57656de07713b2495b7cc94726082746fc20726e13ec6deef7d9997adfbb",
+  "fingerprint": "34d410af76a6d666fe2ce80853f0c38fd4ed7b936097a795f52de36ddb4f64bf",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "049e37786eee0931541949c9c0c7b2e1cabf321c8c59f1bf788972e872c043d4",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:04.741Z",
+  "elapsedMs": 446,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

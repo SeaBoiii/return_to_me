@@ -1,0 +1,20 @@
+{
+  "lineId": "ch8-004",
+  "chapterId": "chapter-8",
+  "speakerId": "adult-aleem",
+  "text": "He was a good friend, the kind who could hear a serious question without immediately covering it with a joke. He asked about the trip, let me explain what I had looked at, and listened when I ran out of practical details and admitted I just needed to go.",
+  "voiceUrl": "voices/chapter-8/ch8-004.mp3",
+  "durationMs": 16080,
+  "audioSha256": "8b7828ad9f0f6ff4021e58d99a154b3bf49be5fcca908bb9c79a5dd7d8c7236a",
+  "audioBytes": 193292,
+  "textSha256": "b0537ae032fc6f3ff6bbd993d2d819f4bf87a776893f043b85c229619979e3f0",
+  "fingerprint": "37c7c8ff5823c10548ad315dcc1be374bd6c7fdf2dd71ed85c2e206bfcbfc06c",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "1425c087070c664b3c5b7060856939a70dd54f23cd514ed1ddfac68c94a897e6",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:42.369Z",
+  "elapsedMs": 404,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

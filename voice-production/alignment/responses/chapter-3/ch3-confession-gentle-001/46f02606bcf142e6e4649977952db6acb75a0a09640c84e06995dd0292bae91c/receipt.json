@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-confession-gentle-001",
+  "chapterId": "chapter-3",
+  "speakerId": "aleem-sec",
+  "text": "The mornings and rides with you have become important to me. I was wondering whether you could ever see us as more than friends.",
+  "voiceUrl": "voices/chapter-3/ch3-confession-gentle-001.mp3",
+  "durationMs": 6648,
+  "audioSha256": "48592f431062d7a46d6c734ae81f7dbaf9a4bf215f9a85f220812c0e090c84d6",
+  "audioBytes": 80108,
+  "textSha256": "3822f4c5bd2c256f500d555de66c61309b6090aa4f99e849c2c6cbbd123cf501",
+  "fingerprint": "46f02606bcf142e6e4649977952db6acb75a0a09640c84e06995dd0292bae91c",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "f900192e0e651982fd0878b80586cfe0ef16f1c24a2571047cd5a2966c558105",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:49.543Z",
+  "elapsedMs": 424,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

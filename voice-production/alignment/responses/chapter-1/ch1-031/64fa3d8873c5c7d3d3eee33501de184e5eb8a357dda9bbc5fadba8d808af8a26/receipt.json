@@ -1,0 +1,20 @@
+{
+  "lineId": "ch1-031",
+  "chapterId": "chapter-1",
+  "speakerId": "adult-aleem",
+  "text": "One ordinary evening, while I sat near my bed with unfinished work beside me, the phone buzzed.",
+  "voiceUrl": "voices/chapter-1/ch1-031.mp3",
+  "durationMs": 5664,
+  "audioSha256": "2f3435c3ecd96b0d948f3b89e1f3600e3f459b7506b5649918b4fe42a1c363f9",
+  "audioBytes": 68300,
+  "textSha256": "8e6fead5d1e1ecffa94087a79853420053e8c6d64bf68fe63fecda704d4a8b63",
+  "fingerprint": "64fa3d8873c5c7d3d3eee33501de184e5eb8a357dda9bbc5fadba8d808af8a26",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "0dcefb340e3ecfd1fdf484f92efcaddc617f4933767549bbbc9c292c96fe359e",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:16.644Z",
+  "elapsedMs": 439,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

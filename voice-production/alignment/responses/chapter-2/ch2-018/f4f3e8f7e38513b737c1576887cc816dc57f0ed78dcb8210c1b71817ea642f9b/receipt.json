@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-018",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "I also liked Hana, which was less orderly. Every good conversation made the next one feel more important. Every goodbye left me rehearsing what I should have said.",
+  "voiceUrl": "voices/chapter-2/ch2-018.mp3",
+  "durationMs": 12144,
+  "audioSha256": "b779911bc400a87d9797630eeedbb9de36e7a0f32cbeb7e99ec045f32141a364",
+  "audioBytes": 146060,
+  "textSha256": "97fa01d12379073be268ab5ee66587d27c705c3ea256a4f94d38ce3dc9b61fbd",
+  "fingerprint": "f4f3e8f7e38513b737c1576887cc816dc57f0ed78dcb8210c1b71817ea642f9b",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "0b9109771fb65508e9724538f783c90a7c267e0e9a77f994fcf7ddc5c73171f4",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:24.754Z",
+  "elapsedMs": 792,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

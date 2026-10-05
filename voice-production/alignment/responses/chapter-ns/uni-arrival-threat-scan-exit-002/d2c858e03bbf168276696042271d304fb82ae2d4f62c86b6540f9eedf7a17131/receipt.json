@@ -1,0 +1,20 @@
+{
+  "lineId": "uni-arrival-threat-scan-exit-002",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "The exit became a fixed point in a room my attention had made unstable. Looking away interrupted the judgements, though it also made immediate escape feel like the only available answer.",
+  "voiceUrl": "voices/chapter-ns/uni-arrival-threat-scan-exit-002.mp3",
+  "durationMs": 12792,
+  "audioSha256": "43ce9dcd747048b46c30c51bdbb591d5e5973d215ccfa0982402372796527cb3",
+  "audioBytes": 153836,
+  "textSha256": "1fdfbc13ac918c16f50db2bb712bbf77a3a8972ed7156bccf5abbb1aa4a0fee3",
+  "fingerprint": "d2c858e03bbf168276696042271d304fb82ae2d4f62c86b6540f9eedf7a17131",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "67aa1d1489de9207c4d267d2ae0de098754c36506ddd356cf6157864bbc6c94e",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:20.285Z",
+  "elapsedMs": 462,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

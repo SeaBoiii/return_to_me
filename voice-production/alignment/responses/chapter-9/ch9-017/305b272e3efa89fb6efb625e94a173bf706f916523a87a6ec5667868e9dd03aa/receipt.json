@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-017",
+  "chapterId": "chapter-9",
+  "speakerId": "adult-aleem",
+  "text": "It was the way she listened that I recognised most. She turned towards the person speaking and waited for the rest of the sentence. When she teased me, her eyes gave the joke away before her mouth did. I began to feel that she had returned to the person I once knew, the person I had loved.",
+  "voiceUrl": "voices/chapter-9/ch9-017.mp3",
+  "durationMs": 17520,
+  "audioSha256": "f4e529f8657dd26722ba2b970bfd811182160d9397822ae263229b6fa6eaf459",
+  "audioBytes": 210572,
+  "textSha256": "f02dd305aaaf8b53edfb1753f91afe69b6012259e9aacc2ac252f17b2f5f948d",
+  "fingerprint": "305b272e3efa89fb6efb625e94a173bf706f916523a87a6ec5667868e9dd03aa",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "d1c7f750813f505601c6f7f4d1bbfdeff37dbffe385ef5e7c76ac8cdcc174e2f",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:46.406Z",
+  "elapsedMs": 471,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-012",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "Her smile turned my embarrassment into a private joke. The next week she asked if I had finally found the correct page. The week after that, I saved her a seat.",
+  "voiceUrl": "voices/chapter-2/ch2-012.mp3",
+  "durationMs": 8952,
+  "audioSha256": "ed0b30ba0fca0fb8f9bdfb815cc2c9be9e6e27ff5b5061b4e1f693754209a34e",
+  "audioBytes": 107756,
+  "textSha256": "e949f89ba42bb46446610a3424ca03e20775633c52d5415e3e63ef6a685a4d28",
+  "fingerprint": "b9a8d645163c62215287986863bee897786489caf2664063b5fd67fc218ee79b",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "abeaeedf56190c956fac789cd77bba59993dd2ce8c5dc26bded13e6d0cd6a7f3",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:23.654Z",
+  "elapsedMs": 727,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

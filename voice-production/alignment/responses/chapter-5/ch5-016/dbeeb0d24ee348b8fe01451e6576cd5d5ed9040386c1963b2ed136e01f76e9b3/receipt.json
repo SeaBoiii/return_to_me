@@ -1,0 +1,20 @@
+{
+  "lineId": "ch5-016",
+  "chapterId": "chapter-5",
+  "speakerId": "mei-lin",
+  "text": "And pay attraction prices? My disappointing results did not remove my common sense.",
+  "voiceUrl": "voices/chapter-5/ch5-016.mp3",
+  "durationMs": 6720,
+  "audioSha256": "797686e221205d325fe2cbc97c15e22457e3868671c7c6c69185e29bb3375306",
+  "audioBytes": 80972,
+  "textSha256": "c136d8922c4651ee271711eb800184edc2e641f7dfa636e1dcd93bad49f7bdcb",
+  "fingerprint": "dbeeb0d24ee348b8fe01451e6576cd5d5ed9040386c1963b2ed136e01f76e9b3",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "5f2eb3d1e9f8ce8af8c0f7b720c0d98c81969d47fb72961eac4461fc26f9493b",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:02.408Z",
+  "elapsedMs": 463,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-046",
+  "chapterId": "chapter-6",
+  "speakerId": "adult-aleem",
+  "text": "That sentence stayed. Not just that evening, not just on the way home. It found me afterwards while I was eating, working, trying to sleep. Earlier. The word suggested a door I might have reached before it closed, without telling me whether that door had ever actually been open.",
+  "voiceUrl": "voices/chapter-6/ch6-046.mp3",
+  "durationMs": 18000,
+  "audioSha256": "55f4a4e79f8307877b5c62fd990b7a4885d05e4536f2305bf34e97dbee5afa2c",
+  "audioBytes": 216332,
+  "textSha256": "b7038c61f57c402529d579c38647f5075822e260c42f5be5873ca40cc4031cc4",
+  "fingerprint": "1d908d0c91967f4da92826eaf75f38cf3f012ceb3c503007c76edcc448854494",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "f902a0e77b4885430eb98631abae0cd65f0aca1dda0a0394050efd69d71d46ad",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:31.138Z",
+  "elapsedMs": 525,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

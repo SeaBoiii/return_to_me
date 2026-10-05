@@ -1,0 +1,20 @@
+{
+  "lineId": "ch1-sms-direct-002",
+  "chapterId": "chapter-1",
+  "speakerId": "adult-aleem",
+  "text": "The words looked braver on the screen than I felt. Years later, I would remember that directness not as anger, but as a frightened request for reality to hold still.",
+  "voiceUrl": "voices/chapter-1/ch1-sms-direct-002.mp3",
+  "durationMs": 11112,
+  "audioSha256": "0503cd6c1e2a5e3258abb5c072f4911a6616ad645b9b81cc4ee236d564f32425",
+  "audioBytes": 133676,
+  "textSha256": "0ce5dbd4b925e5efc6e846cf4518d1cc28e94e9813dac307514c815c543ea498",
+  "fingerprint": "72ab28e9fadec64a993a4be89317c851b8ef1be1a8a93ac9b6542e7b7227dc0d",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "9f6d1c13b4f4b8832ec8ef207d210edbb66154c559c00930d915f6b69bd8ab42",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:18.046Z",
+  "elapsedMs": 376,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

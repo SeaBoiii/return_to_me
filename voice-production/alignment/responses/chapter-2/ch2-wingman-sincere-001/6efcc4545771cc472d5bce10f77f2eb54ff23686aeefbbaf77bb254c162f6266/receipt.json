@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-wingman-sincere-001",
+  "chapterId": "chapter-2",
+  "speakerId": "aleem-sec",
+  "text": "Tell her I really value the time we spend together. And that I would like it to mean something, if she does too.",
+  "voiceUrl": "voices/chapter-2/ch2-wingman-sincere-001.mp3",
+  "durationMs": 7176,
+  "audioSha256": "6e6e5cc89ecabdd17084f81812e70a5e37dd984a97e25260de546c5e5eaf64ba",
+  "audioBytes": 86444,
+  "textSha256": "81139bd82470e23c2c83d26c04b7515f68e96a8f2f6df375088ff1c36ff87a40",
+  "fingerprint": "6efcc4545771cc472d5bce10f77f2eb54ff23686aeefbbaf77bb254c162f6266",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "434584336df3fbd00597afef1c07561ca2c3fb1c3df7596a7e4443fb6302fcc9",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:25.970Z",
+  "elapsedMs": 468,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

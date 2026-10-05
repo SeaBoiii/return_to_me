@@ -1,0 +1,20 @@
+{
+  "lineId": "ch1-045",
+  "chapterId": "chapter-1",
+  "speakerId": "adult-aleem",
+  "text": "For a while, I replayed the message as though repetition could reveal an alternate outcome. What if I had called more? What if distance had not made us strangers? What if I had noticed first?",
+  "voiceUrl": "voices/chapter-1/ch1-045.mp3",
+  "durationMs": 13512,
+  "audioSha256": "96b22be817cff5ee62c2cc623d555e0d1a8c0dadae201cab324f74c622947944",
+  "audioBytes": 162476,
+  "textSha256": "2b6c28d16800290bea329a89a9ffde1befa54ea56dbc3124f2537ea077297228",
+  "fingerprint": "507baeb33bee9bcd60fdf0d728bdb3ae6f4fad160e37ab53b14069726172a4f3",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "b2d30cd7290f4c364cf4280710bc9b48a5fdaa3505b9ebd62f7f3f2817c8b950",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:20.454Z",
+  "elapsedMs": 467,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-046",
+  "chapterId": "chapter-11",
+  "speakerId": "nurul-mother",
+  "text": "Come, Aleem. Sit. Have you been waiting long?",
+  "voiceUrl": "voices/chapter-11/ch11-046.mp3",
+  "durationMs": 3600,
+  "audioSha256": "12880d4682a91fce9ca7a017d60e452f5043a42c7f0b25e5a0fd24eef5c37e60",
+  "audioBytes": 43532,
+  "textSha256": "710ca7639d1f590f160275364a43f613a9f8d686ce6d85ebb195b2b7f17c5ea8",
+  "fingerprint": "cf5cf867502227b18f0d492d608e844ef2734266f70453888870deb3142d2b78",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "2bbf95f0b77f03b77dc43cac593cd6e013932fb792116d477346500180b7c51d",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:07.942Z",
+  "elapsedMs": 312,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

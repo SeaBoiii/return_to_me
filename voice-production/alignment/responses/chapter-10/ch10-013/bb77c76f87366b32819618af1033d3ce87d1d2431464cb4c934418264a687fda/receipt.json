@@ -1,0 +1,20 @@
+{
+  "lineId": "ch10-013",
+  "chapterId": "chapter-10",
+  "speakerId": "adult-aleem",
+  "text": "When I was with Imran again, he looked at me for a moment before speaking. I wondered whether something about the way I stood had changed. I certainly felt it: less effort in my chest, less urgency to resolve every thought before the day could continue. I could hear him without another conversation running underneath.",
+  "voiceUrl": "voices/chapter-10/ch10-013.mp3",
+  "durationMs": 20304,
+  "audioSha256": "e931901e43fa0f3b643988d38fcacf46a6b171e3ed35704916d6b4b98af4a370",
+  "audioBytes": 243980,
+  "textSha256": "601f959bbf564d80fdc262738f345d1378963b44c514078bedced14a83af6e3f",
+  "fingerprint": "bb77c76f87366b32819618af1033d3ce87d1d2431464cb4c934418264a687fda",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "196198dd8c6ff1b93821fe1f7652e402b06a6fc6a1384b430e31cf460d8fa9ff",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:56.291Z",
+  "elapsedMs": 473,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

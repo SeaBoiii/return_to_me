@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-010",
+  "chapterId": "chapter-9",
+  "speakerId": "adult-aleem",
+  "text": "She laughed, and something inside me loosened enough for me to laugh too. There were people moving around us, bags in the way, another conversation waiting to include her. We had only a few ordinary minutes. Afterwards, I kept returning to how ordinary they had felt. I hadn't needed to defend myself from her voice.",
+  "voiceUrl": "voices/chapter-9/ch9-010.mp3",
+  "durationMs": 20160,
+  "audioSha256": "ae7883c2c82b604719211bb337fe5af37ce8735d95055cb1cab86c2f930130e6",
+  "audioBytes": 242252,
+  "textSha256": "0b2cca9ba7a1c8fcac1a9f47239c17187404a88e2f4a2b810c6ea56cc53ad6ad",
+  "fingerprint": "0213031d820b5f3916f5cefb59959bd3f7960596920cb179963c82f33b951332",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "244c9bf574d2f84179ad637895d2acd78ab3227c5b443ab1c0830686fcc9dcc1",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:45.168Z",
+  "elapsedMs": 552,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

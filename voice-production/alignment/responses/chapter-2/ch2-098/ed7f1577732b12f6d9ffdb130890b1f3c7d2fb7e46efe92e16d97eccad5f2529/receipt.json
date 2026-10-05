@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-098",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "Results day arrived beneath fluorescent lights. Around me, people compared expressions before they compared slips. Celebration and disappointment tried to occupy the same hall without looking at each other.",
+  "voiceUrl": "voices/chapter-2/ch2-098.mp3",
+  "durationMs": 12864,
+  "audioSha256": "2e51d9edc01b3b1ecc9be0308430f9f844ffb5d6c725314892e278508533a97e",
+  "audioBytes": 154700,
+  "textSha256": "36295562da2617b7b3ab06589b4baf9758cea506a85ce02b45fdbe1611f98887",
+  "fingerprint": "ed7f1577732b12f6d9ffdb130890b1f3c7d2fb7e46efe92e16d97eccad5f2529",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "dc38ff75e5209645383348389141d2925c24004d5a9f320359fb04944882eec7",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:41.135Z",
+  "elapsedMs": 915,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

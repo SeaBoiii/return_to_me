@@ -1,0 +1,20 @@
+{
+  "lineId": "ch7-007",
+  "chapterId": "chapter-7",
+  "speakerId": "claire",
+  "text": "Do you have five minutes? I need someone to tell me whether this makes sense or I've been looking at it too long.",
+  "voiceUrl": "voices/chapter-7/ch7-007.mp3",
+  "durationMs": 7584,
+  "audioSha256": "2aa7fa6cd54da7a46d2134c634b06cbcf5bbb39cd31ed48ae3685063b0dbc3c3",
+  "audioBytes": 91340,
+  "textSha256": "04d25a91ac486d015d876ec9df6bf4238c840392c1f2bdfa0c6468ed89ef5041",
+  "fingerprint": "f2d9e67669a02dd4d3f593655aad80a8ef6d0022bd975850055cc2b4760a2a84",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "13aae40dbff18df045fd93928329f674616960e4305cbe7780f62a91a4a63e1a",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:34.347Z",
+  "elapsedMs": 373,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

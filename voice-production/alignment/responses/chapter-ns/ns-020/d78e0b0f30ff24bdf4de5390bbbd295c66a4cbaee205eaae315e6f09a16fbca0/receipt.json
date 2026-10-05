@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-020",
+  "chapterId": "chapter-ns",
+  "speakerId": "nadiah",
+  "text": "So now that you have passed out, are you finally allowed to have a personality again?",
+  "voiceUrl": "voices/chapter-ns/ns-020.mp3",
+  "durationMs": 4872,
+  "audioSha256": "a3842352b4195df228df2e10b9ce33f7d46ee5874cf78f51a90e380bf60e5f14",
+  "audioBytes": 58796,
+  "textSha256": "7e9d6ace2132efbe4cfdc4e100b003904e651999792527a2b9c82ccb0d0940ab",
+  "fingerprint": "d78e0b0f30ff24bdf4de5390bbbd295c66a4cbaee205eaae315e6f09a16fbca0",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "014d26c8d26f37a89fa7b1425eb2f4d0c5ed8ade917bc3456ea64bbab565c0a5",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:09.918Z",
+  "elapsedMs": 345,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

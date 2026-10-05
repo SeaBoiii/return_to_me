@@ -1,0 +1,20 @@
+{
+  "lineId": "ch4-019",
+  "chapterId": "chapter-4",
+  "speakerId": "mei-lin",
+  "text": "The examiner would reward legible working. Start there.",
+  "voiceUrl": "voices/chapter-4/ch4-019.mp3",
+  "durationMs": 5352,
+  "audioSha256": "ed4ab1fbe56ad2040e245dfb0abb1ea7eccf7e5682f5f5ae0c3a9d4a48aa2e3e",
+  "audioBytes": 64556,
+  "textSha256": "9987ff59ed8a02023d22c1b690a5c60fbb983769cfbd3dcb96ead013c0ba5953",
+  "fingerprint": "bbe0bc459ba45b7d05a0b57dfc839bb865ba67df9258bbd943f0b59210b4418d",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "ee22651d8089b0d28b886675559319fc736fa882005be70c12c3a0d7e8b34455",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:57.071Z",
+  "elapsedMs": 365,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

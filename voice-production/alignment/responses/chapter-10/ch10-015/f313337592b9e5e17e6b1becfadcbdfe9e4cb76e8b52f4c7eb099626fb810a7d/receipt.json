@@ -1,0 +1,20 @@
+{
+  "lineId": "ch10-015",
+  "chapterId": "chapter-10",
+  "speakerId": "aleem-adult",
+  "text": "Yeah. I feel lighter. I don't really know how to explain it yet.",
+  "voiceUrl": "voices/chapter-10/ch10-015.mp3",
+  "durationMs": 3744,
+  "audioSha256": "c7f548a793b7e89456d5ffb1cabf53e4ed7ec39bc7bb152f91df074e81b77e25",
+  "audioBytes": 45260,
+  "textSha256": "a063bdee513630e42b6786484016122cf8194389c952cb1fb8e929419868c944",
+  "fingerprint": "f313337592b9e5e17e6b1becfadcbdfe9e4cb76e8b52f4c7eb099626fb810a7d",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "d97007151958421de31a506a491720a4541af7c7ae04aee2cf4db1df0a66779d",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:56.628Z",
+  "elapsedMs": 374,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

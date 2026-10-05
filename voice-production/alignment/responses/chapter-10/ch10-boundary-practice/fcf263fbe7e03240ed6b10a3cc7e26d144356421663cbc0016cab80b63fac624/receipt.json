@@ -1,0 +1,20 @@
+{
+  "lineId": "ch10-boundary-practice",
+  "chapterId": "chapter-10",
+  "speakerId": "adult-aleem",
+  "text": "When a conversation finished, I let myself turn back towards the rest of the group. For a moment the old impulse remained: find one more thing to say, keep the opening there a little longer. I noticed it, then allowed the moment to finish. There were other people to speak to and a whole journey around me that I wanted to be present for.",
+  "voiceUrl": "voices/chapter-10/ch10-boundary-practice.mp3",
+  "durationMs": 21264,
+  "audioSha256": "9b1422050ae21cf97c1d8f3069969bb0a0cd8193cfd827b047f48cdf22d4fbd5",
+  "audioBytes": 255500,
+  "textSha256": "557f06e7647b3cbcdef5c32022affc64cd0a406b0a5aaf47b8bc55b8f28b8f0f",
+  "fingerprint": "fcf263fbe7e03240ed6b10a3cc7e26d144356421663cbc0016cab80b63fac624",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "724c03d21d2e244c1d44a85403a2805ee9e1a6c188665548ecf91458bb7f64f1",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:58.141Z",
+  "elapsedMs": 508,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

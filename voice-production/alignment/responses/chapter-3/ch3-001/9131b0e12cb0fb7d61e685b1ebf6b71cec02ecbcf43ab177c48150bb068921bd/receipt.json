@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-001",
+  "chapterId": "chapter-3",
+  "speakerId": "adult-aleem",
+  "text": "The morning after disappointment is rarely dramatic. The sun still reaches the dining table. Cups still clink. Then somebody asks what comes next, and the question makes the whole room feel smaller.",
+  "voiceUrl": "voices/chapter-3/ch3-001.mp3",
+  "durationMs": 14544,
+  "audioSha256": "c241e8a3e75a992cf14729beaf643ab309ace7ffe26ab49388ea3a8476f0fa46",
+  "audioBytes": 174860,
+  "textSha256": "f80358eada90ec5f480c1d397c7ab690d4f5525e67a23372dc363013b611a6e1",
+  "fingerprint": "9131b0e12cb0fb7d61e685b1ebf6b71cec02ecbcf43ab177c48150bb068921bd",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "efdf453a02aa2e0d7d59637637756fa80b05b8bf74827d006d86f0b1c8200f7b",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:43.955Z",
+  "elapsedMs": 788,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-027",
+  "chapterId": "chapter-11",
+  "speakerId": "adult-aleem",
+  "text": "And I could still feel a distance between us. We could have a good time together and reach a point where she held something back. I pictured a wall in front of her, though I knew that was my way of describing what I felt. Nurul had her own reasons for being careful. I didn't yet know all of them.",
+  "voiceUrl": "voices/chapter-11/ch11-027.mp3",
+  "durationMs": 19992,
+  "audioSha256": "ba95c0ee3f17878fcd5b092e3c10986cbe536e3552d0ebae30f319e06705ffd1",
+  "audioBytes": 240236,
+  "textSha256": "afc8f6ada41af135d60186c03b34832932b6a1b34a964d61afb53e67943dcf50",
+  "fingerprint": "1a500a7db8c1613a3143f09858234e45d2bbb7076f38c5fbaec620f28cc635dc",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "2a6bc8a50e50b8761c32578617f67c75d71aa19df974b5246d4db8fee8a4bf3a",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:04.597Z",
+  "elapsedMs": 498,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch5-zoo-mask-002",
+  "chapterId": "chapter-5",
+  "speakerId": "adult-aleem",
+  "text": "Humour kept my irritation from becoming her burden on an already difficult week. It also helped me perform a comfort I did not feel, leaving her no opportunity to understand why I would soon become distant.",
+  "voiceUrl": "voices/chapter-5/ch5-zoo-mask-002.mp3",
+  "durationMs": 13272,
+  "audioSha256": "e34210b9987748a7e62a2c8e324212082542bab1f35dd402ad4febaa9ea90c36",
+  "audioBytes": 159596,
+  "textSha256": "2bf0f6f5699d22a40a3cc3db2c625d9309130fa3a2d14c9ffb9f0a03ff116723",
+  "fingerprint": "d3d7d1c5cf18599c56a33ed26efb29ba71cffbcf6e84cb1e59fd6b77d9392244",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "0391c7818035210077c6dbe0018a2744b94d79a588042511ded7e4d0710d4239",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:04.360Z",
+  "elapsedMs": 486,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

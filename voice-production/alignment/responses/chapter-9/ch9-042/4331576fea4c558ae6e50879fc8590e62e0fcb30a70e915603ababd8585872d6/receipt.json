@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-042",
+  "chapterId": "chapter-9",
+  "speakerId": "adult-aleem",
+  "text": "I thought I saw longing in those pauses, an attention held somewhere beyond the conversation we were having. The more we interacted, the harder it was to ignore. I could not name what she was thinking about. I only knew the feeling it stirred in me: there might be someone else her heart was still turned towards.",
+  "voiceUrl": "voices/chapter-9/ch9-042.mp3",
+  "durationMs": 19680,
+  "audioSha256": "bd6cde64eff2d7cdabe7f894cc5889404ef507ff496785c4273f7d6d3cd04be9",
+  "audioBytes": 236492,
+  "textSha256": "825f03ea301c48fd40cd75715af5c0591e8104019fb2380aa34aabf5e3982060",
+  "fingerprint": "4331576fea4c558ae6e50879fc8590e62e0fcb30a70e915603ababd8585872d6",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "0b6d65f7b89f4ac1103be6a9a69bbd9ad11d9240dbaee9608b00106c73982e3a",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:52.414Z",
+  "elapsedMs": 471,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

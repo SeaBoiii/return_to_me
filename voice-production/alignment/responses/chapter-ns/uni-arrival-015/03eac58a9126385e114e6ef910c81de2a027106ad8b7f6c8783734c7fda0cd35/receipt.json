@@ -1,0 +1,20 @@
+{
+  "lineId": "uni-arrival-015",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "What I can say is that none of those women had harmed me. Nadiah's choices were not theirs. A room of Malay and hijabi women was not evidence that betrayal had gathered in one place.",
+  "voiceUrl": "voices/chapter-ns/uni-arrival-015.mp3",
+  "durationMs": 12552,
+  "audioSha256": "31abc58c1adece38d0c4bb4dd1830688cb27e384b97b2a758bd132ab75c31ae1",
+  "audioBytes": 150956,
+  "textSha256": "50649fedc27329c2c95a5dc14a978981447e754e89f1703b4ac50f0469fec17f",
+  "fingerprint": "03eac58a9126385e114e6ef910c81de2a027106ad8b7f6c8783734c7fda0cd35",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "78cd06b6cf578353975ea2bda67967c261eabde5b6727b1504e536b0385218c1",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:21.148Z",
+  "elapsedMs": 390,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

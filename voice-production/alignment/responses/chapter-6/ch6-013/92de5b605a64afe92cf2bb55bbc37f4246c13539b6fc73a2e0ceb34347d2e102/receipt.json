@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-013",
+  "chapterId": "chapter-6",
+  "speakerId": "adult-aleem",
+  "text": "She pushed a drink towards me without stopping her typing. I put my bag down beside hers and felt the day's noise settle. We could work quietly for an hour, then lose another twenty minutes to something neither of us would remember the next morning. I began looking forward to nothing in particular, as long as it involved her.",
+  "voiceUrl": "voices/chapter-6/ch6-013.mp3",
+  "durationMs": 19272,
+  "audioSha256": "55b283866cbc1926f0abe6b133380e3bb6d05788e5a7d8b1904b6b7b2f3428ff",
+  "audioBytes": 231596,
+  "textSha256": "4361558491b7ac9e2a32f1b93d2e5b16431a99ed63d58d12fc652d8d2e4bc271",
+  "fingerprint": "92de5b605a64afe92cf2bb55bbc37f4246c13539b6fc73a2e0ceb34347d2e102",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "e41d4d948ef37a9f2d07902200acbe9ae280d89b79dbe6288209dccc0a75379a",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:23.783Z",
+  "elapsedMs": 632,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

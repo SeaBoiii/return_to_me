@@ -1,0 +1,20 @@
+{
+  "lineId": "ch10-002",
+  "chapterId": "chapter-10",
+  "speakerId": "adult-aleem",
+  "text": "Imran stayed easy company. We could walk together without giving each other a report on every thought. Sometimes he pointed something out and I realised I had stopped noticing what was around me. I would look where he was looking, answer him, and come back to the place we had travelled so far to reach.",
+  "voiceUrl": "voices/chapter-10/ch10-002.mp3",
+  "durationMs": 17112,
+  "audioSha256": "54f8cc3ca85e7a483381e5fdfe6af687356e666a50ce813b3c2cec206fcb60d2",
+  "audioBytes": 205676,
+  "textSha256": "9af5dfff848403d9e6aba64016201a407fa98306f46aac79ffb4cd03481a7af6",
+  "fingerprint": "53bac1d4ba1938da5a7b9d4a24c1811305585a766d8f475a326f3a942a1ab91c",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "fae7d0200c527f400a39c9baade22d3245a77d8c4be3d4b6b22ccf7b6e3b5cd4",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:53.281Z",
+  "elapsedMs": 516,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

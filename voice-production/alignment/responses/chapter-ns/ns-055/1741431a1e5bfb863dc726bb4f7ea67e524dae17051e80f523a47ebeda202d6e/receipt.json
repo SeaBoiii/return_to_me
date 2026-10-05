@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-055",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "The practical lesson should have been about clarity: define a relationship, ask about unresolved attachments, and leave when trust cannot be rebuilt. Instead, I wrote a broader and more damaging rule.",
+  "voiceUrl": "voices/chapter-ns/ns-055.mp3",
+  "durationMs": 15024,
+  "audioSha256": "a12521ab41ec6f115bc0debe27800410b1c7547a987f129cb9d55b69e09f7ec5",
+  "audioBytes": 180620,
+  "textSha256": "b0a8708ff55869c885295c622cf7b37f1ebab892144897b4792aea56e4b22971",
+  "fingerprint": "1741431a1e5bfb863dc726bb4f7ea67e524dae17051e80f523a47ebeda202d6e",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "07c6d9c53fdbe7989d38b84f7487583dc25f67fa313b6ecf0ad5b86f7daeabc1",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:17.391Z",
+  "elapsedMs": 485,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "uni-arrival-001",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "University began in 2018 with orientation names I was still learning and routes I pretended to understand. The campus promised reinvention, as though a new timetable could separate me from everything that had happened before it.",
+  "voiceUrl": "voices/chapter-ns/uni-arrival-001.mp3",
+  "durationMs": 13440,
+  "audioSha256": "9a571837fb22c1a7a2e9fa6b91d1c7decab0929a736f5496f85ef0eb22e73704",
+  "audioBytes": 161612,
+  "textSha256": "abcb9d0bbe4e9b1f4ec96bcc1881936072c50bec33718158ba44182e7e0bb0a3",
+  "fingerprint": "3d9887fd4e5d0a37b15364167fb47a2f1c5619e01754c121dcd0b2a4d6fae9f7",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "a4e0bb1f7be621c1cbd8ae49d20495da89fb13e8726947566dd8a96e90b6bd6c",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:18.243Z",
+  "elapsedMs": 433,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

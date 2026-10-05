@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-084",
+  "chapterId": "chapter-2",
+  "speakerId": "aleem-sec",
+  "text": "I was busy, but that is not the whole answer. I made you wait too often. I kept assuming there would be another chance to do better.",
+  "voiceUrl": "voices/chapter-2/ch2-084.mp3",
+  "durationMs": 9360,
+  "audioSha256": "6a276e5fe6f24794758da3536dfcbc2d34623b784f2cbc77f275370f1d3f026f",
+  "audioBytes": 112652,
+  "textSha256": "6f5a1a0f251b8315ed5d84d81dead19c3d4b7b75c868bbedce74bcfa1b74aec6",
+  "fingerprint": "6ecaa81cd8673b269eb301c2cb1556b580416f8b8140e9910314f5d46c30b783",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "2ed6736442b74f8d20d670dc00504ae92d53ecd1b2f08a2ab954cbc2ed3cf0f0",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:37.999Z",
+  "elapsedMs": 463,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

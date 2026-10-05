@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-051",
+  "chapterId": "chapter-11",
+  "speakerId": "aleem-adult",
+  "text": "Good. I'm happy I met her. She's made a lot of effort to know me. At the beginning my messages were very short, so I think she had quite a difficult job.",
+  "voiceUrl": "voices/chapter-11/ch11-051.mp3",
+  "durationMs": 9120,
+  "audioSha256": "737640409754c9accba848a08ef3bcdca9e7718370b43fdba6513660d077a6e0",
+  "audioBytes": 109772,
+  "textSha256": "6ad3e6993da47593456a203685fb4352d902f7ea56fa8ce922b552eaa71eea23",
+  "fingerprint": "5da8da3be96b0d2f6012e83b931788fb2aaa7e1f3f9c6db46477166cd72d763b",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "34215d126eae8a84210f10764291f276812c096c7172f6f30bcc2b7b67293325",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:08.806Z",
+  "elapsedMs": 403,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-018",
+  "chapterId": "chapter-9",
+  "speakerId": "adult-aleem",
+  "text": "That was how it felt to me. I couldn't measure all the years between us by the sight of her hijab or a few warm conversations. Still, seeing her this way brought back a gentleness I had almost stopped allowing myself to remember. The old hurt no longer arrived every time the memory did.",
+  "voiceUrl": "voices/chapter-9/ch9-018.mp3",
+  "durationMs": 19752,
+  "audioSha256": "da5444f9babe9194dd27657db933e7ccae12d8681c75749e05beff894c8c3231",
+  "audioBytes": 237356,
+  "textSha256": "163f96bcafad2db188e1197a3a7cec1dfab1db9de349057f884a4d076e8defde",
+  "fingerprint": "60312f42754d72cb43186dad8ba00e2fa8c636a4f969931596354e1682c03db6",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "385e12cf9d748d6638a434e0c7cc043d1cddd195fcc0cb2a25912ce380b38dd0",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:46.686Z",
+  "elapsedMs": 550,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

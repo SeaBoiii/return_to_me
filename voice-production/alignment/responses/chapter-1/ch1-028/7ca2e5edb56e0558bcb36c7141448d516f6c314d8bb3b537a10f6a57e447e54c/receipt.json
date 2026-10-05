@@ -1,0 +1,20 @@
+{
+  "lineId": "ch1-028",
+  "chapterId": "chapter-1",
+  "speakerId": "adult-aleem",
+  "text": "A vibration in my pocket could rescue an entire afternoon. Her name on the small screen meant some part of primary school had survived the crossing.",
+  "voiceUrl": "voices/chapter-1/ch1-028.mp3",
+  "durationMs": 9120,
+  "audioSha256": "d4d1a96cbb22562a0e10fa3162fa876f62e6a9525bca437213d08df0125fae56",
+  "audioBytes": 109772,
+  "textSha256": "6bb1a065262a9b519ca6d696d41d2e070e33329b1531b2d4e3b499850c93439c",
+  "fingerprint": "7ca2e5edb56e0558bcb36c7141448d516f6c314d8bb3b537a10f6a57e447e54c",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "891bec2eee00eacafc87ed31531e584aa764b3f8dd4bea8e0f371cbd83edd38d",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:16.201Z",
+  "elapsedMs": 368,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

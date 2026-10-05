@@ -1,0 +1,20 @@
+{
+  "lineId": "ch1-019",
+  "chapterId": "chapter-1",
+  "speakerId": "adult-aleem",
+  "text": "Graduation arrived dressed as celebration. Parents took photographs beneath the school gate. Teachers gave final reminders. Shirts gathered signatures in inks that bled whenever a hand grew sweaty.",
+  "voiceUrl": "voices/chapter-1/ch1-019.mp3",
+  "durationMs": 12072,
+  "audioSha256": "cc7e93898f91c0ebee196603628146a210a7c7981781ae2c79039fa30792cd5f",
+  "audioBytes": 145196,
+  "textSha256": "d6616c552f8c138a30a99601e5e008da6a0135889250624d807531d843c8de32",
+  "fingerprint": "02c6159bc94ff62d103120e9af4493f12a84144925a3fb0500a22a70bd2173f6",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "883b23ae67949f1d660056bfd41bb658e071e00be396227bec3aab672369b677",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:14.982Z",
+  "elapsedMs": 850,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

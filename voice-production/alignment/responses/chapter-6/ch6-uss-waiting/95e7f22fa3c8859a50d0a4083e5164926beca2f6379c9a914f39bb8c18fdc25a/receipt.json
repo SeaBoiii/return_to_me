@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-uss-waiting",
+  "chapterId": "chapter-6",
+  "speakerId": "adult-aleem",
+  "text": "She asked whether I wanted something to drink. I nodded and followed her, absurdly grateful for a decision that required so little of me. There were still minutes I wanted to keep: her making room for someone to pass, then turning straight back to finish her story. I listened harder because I knew I might miss this soon.",
+  "voiceUrl": "voices/chapter-6/ch6-uss-waiting.mp3",
+  "durationMs": 20304,
+  "audioSha256": "2c1caa0741614d791e793bfe706fcca4789384e920b514c14e680f44531115ec",
+  "audioBytes": 243980,
+  "textSha256": "c343aab86a414bcabeb9469d2d0c98b4102fa649e98b691f0049b996628e1653",
+  "fingerprint": "95e7f22fa3c8859a50d0a4083e5164926beca2f6379c9a914f39bb8c18fdc25a",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "c3d52b6ae95fa4712dfefd9f363eeb0ceec1c110a1e3d14028393841f1c22e4f",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:30.168Z",
+  "elapsedMs": 503,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

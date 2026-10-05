@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-friend-defend-002",
+  "chapterId": "chapter-2",
+  "speakerId": "mutual-friend",
+  "text": "I am not deciding. I am telling you because you deserve a direct conversation. Ask her.",
+  "voiceUrl": "voices/chapter-2/ch2-friend-defend-002.mp3",
+  "durationMs": 7440,
+  "audioSha256": "4710599841c7867503eeb20dc0d7bbb9549a35eaea0ad207b53a2b9726299ab3",
+  "audioBytes": 89612,
+  "textSha256": "3d6fddacc81b45e92930b73dfd957b0f66e1e3c269ae20eb5140ec727d579682",
+  "fingerprint": "e39dc7df82fe9f6fb9d9867abe21033de0088088ff6b9b8f38aa6cfde3427640",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "c1a9ab991e9990c68e45b7b1e35bdeb5cfeb4d0b67e10b91428eb132d0845951",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:36.737Z",
+  "elapsedMs": 487,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

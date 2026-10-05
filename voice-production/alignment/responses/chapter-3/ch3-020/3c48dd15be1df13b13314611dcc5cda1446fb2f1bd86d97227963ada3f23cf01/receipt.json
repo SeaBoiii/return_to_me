@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-020",
+  "chapterId": "chapter-3",
+  "speakerId": "adult-aleem",
+  "text": "Some mornings one bus arrived before she did. I let it leave. Then another came with space, but her message said she was close, so I let that one leave too.",
+  "voiceUrl": "voices/chapter-3/ch3-020.mp3",
+  "durationMs": 10392,
+  "audioSha256": "b331307b769e04c2540aa20aaa4bc82b8996a5f9c53815eb4acfcd503bc69a64",
+  "audioBytes": 125036,
+  "textSha256": "0b1c720a69b05a185d87b66f9ca0759bde7b961428528766462608976e1d3062",
+  "fingerprint": "3c48dd15be1df13b13314611dcc5cda1446fb2f1bd86d97227963ada3f23cf01",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "f0d48379d8251c7f9b0fb88d098d4f25d479178e382ed8bc77279e6048c715fb",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:46.695Z",
+  "elapsedMs": 433,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

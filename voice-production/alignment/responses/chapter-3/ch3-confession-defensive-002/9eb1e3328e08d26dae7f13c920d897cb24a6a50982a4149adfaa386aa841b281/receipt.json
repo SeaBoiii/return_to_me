@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-confession-defensive-002",
+  "chapterId": "chapter-3",
+  "speakerId": "adult-aleem",
+  "text": "The defence arrived before the rejection. I wanted honesty while already bracing for humiliation, which made the question carry more accumulated fear than Syafiqa had created.",
+  "voiceUrl": "voices/chapter-3/ch3-confession-defensive-002.mp3",
+  "durationMs": 11520,
+  "audioSha256": "67b805c55af9b320c3e538e1ca0f8cd093296f18183ac077335e4f051559dbaf",
+  "audioBytes": 138572,
+  "textSha256": "b01f419b78d05e4f99bde127d5103c1a3dc85103d551c526a47aea9bc220b831",
+  "fingerprint": "9eb1e3328e08d26dae7f13c920d897cb24a6a50982a4149adfaa386aa841b281",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "57e238fd7c9d6ce98434e2a98fe492ad1f72d3fd5a5551e452c0c986847d4cd6",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:49.997Z",
+  "elapsedMs": 449,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

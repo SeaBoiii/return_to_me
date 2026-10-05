@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-confrontation-waiting-002",
+  "chapterId": "chapter-ns",
+  "speakerId": "nadiah",
+  "text": "I did not begin this with a plan to use you. But he was my first love, and I had not resolved those feelings. I should have told you before we became this close.",
+  "voiceUrl": "voices/chapter-ns/ns-confrontation-waiting-002.mp3",
+  "durationMs": 13344,
+  "audioSha256": "e58764b7e931796b39e0c0f8310e001ce53382e446085bc5cc2895401ec64efa",
+  "audioBytes": 160460,
+  "textSha256": "d2e6cc00ce302ec40989ac656852431358ebff4c18e04ff750fbc03112074f3f",
+  "fingerprint": "252df5da6289d95099b3ce2379cf06e3f195d03fd3382aef9fca8ba11960d4ba",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "d4e9f6fb4dcc4572c4d18539df9b7abcd15256747b36bb1da3384403b9d34ae9",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:15.011Z",
+  "elapsedMs": 438,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

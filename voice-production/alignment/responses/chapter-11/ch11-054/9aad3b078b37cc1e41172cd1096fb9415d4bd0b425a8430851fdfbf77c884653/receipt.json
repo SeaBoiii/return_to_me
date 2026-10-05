@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-054",
+  "chapterId": "chapter-11",
+  "speakerId": "nurul-father",
+  "text": "And what are you hoping for, with the two of you?",
+  "voiceUrl": "voices/chapter-11/ch11-054.mp3",
+  "durationMs": 3744,
+  "audioSha256": "efa49a775d25cc00ae8c2d034b6b1474d69213888801ccb17bca1deb6ed5fa2c",
+  "audioBytes": 45260,
+  "textSha256": "7695343e7de03bba6ad01f3b4d609e7f8642be680f0e429ef93fcf812ca51ecf",
+  "fingerprint": "9aad3b078b37cc1e41172cd1096fb9415d4bd0b425a8430851fdfbf77c884653",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "a84e9414a077c2a2cbaea0ce7c52154173f5197d3e893058d26a24435838a518",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:09.124Z",
+  "elapsedMs": 313,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

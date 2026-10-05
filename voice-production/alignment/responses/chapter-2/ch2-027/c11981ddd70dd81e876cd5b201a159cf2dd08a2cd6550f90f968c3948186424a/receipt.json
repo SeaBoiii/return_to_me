@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-027",
+  "chapterId": "chapter-2",
+  "speakerId": "aleem-sec",
+  "text": "How is that good news? Your entire job was to prevent me from doing that.",
+  "voiceUrl": "voices/chapter-2/ch2-027.mp3",
+  "durationMs": 3936,
+  "audioSha256": "b90d0ef1a7d4ed2febcf6ee70ddfe9dc950a684c7817f1feb0711fef6e84dd8d",
+  "audioBytes": 47564,
+  "textSha256": "04024e98f76d8335b595a628298d9acb02c3ea16cdccbe530246ab93158eeca5",
+  "fingerprint": "c11981ddd70dd81e876cd5b201a159cf2dd08a2cd6550f90f968c3948186424a",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "bb19556e2b1558d1bc3e85994ce2ed03b3807ee0519ac990f77f3b3fa095f54f",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:26.928Z",
+  "elapsedMs": 579,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

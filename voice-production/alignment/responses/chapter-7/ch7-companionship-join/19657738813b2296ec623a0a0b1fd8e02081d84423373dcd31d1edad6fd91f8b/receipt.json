@@ -1,0 +1,20 @@
+{
+  "lineId": "ch7-companionship-join",
+  "chapterId": "chapter-7",
+  "speakerId": "adult-aleem",
+  "text": "We gave each other company, a reason to go somewhere, someone to send the pictures to afterwards. We said the outings came without feelings attached. I could say it convincingly enough. But I still caught myself smiling at her name on my phone in a way I did not smile at everybody else's.",
+  "voiceUrl": "voices/chapter-7/ch7-companionship-join.mp3",
+  "durationMs": 19200,
+  "audioSha256": "b8f8aa7172ada1959816540a7d44e4d18934eac1f3e63fd581b72369ea2e2844",
+  "audioBytes": 230732,
+  "textSha256": "b0da5a2ff07b86ee318230e3128429bfab3f6629701dc06d6bbeefb945296fbb",
+  "fingerprint": "19657738813b2296ec623a0a0b1fd8e02081d84423373dcd31d1edad6fd91f8b",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "74fff69519f450330be94bd0c6641cab681a7e7b38bb6c473f0d10ecd00f7479",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:40.003Z",
+  "elapsedMs": 474,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

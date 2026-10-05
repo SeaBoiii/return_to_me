@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-102",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "My room, once alive with plans and player chatter, became a place where time passed without direction. Even the server's success felt difficult to hold beside the damage I associated with it.",
+  "voiceUrl": "voices/chapter-2/ch2-102.mp3",
+  "durationMs": 11760,
+  "audioSha256": "a3439d34d4568292e6cc0f349f9ca5ebe85e2c0678b68bd8b90e77e4340e8fb2",
+  "audioBytes": 141452,
+  "textSha256": "2c70e6536ef1796b252ee28e6e60321576842b142985cba30c0ee70fe22642ef",
+  "fingerprint": "2d86f1de981098712e07fd1fbed13ead5580ff84b0d5a104f18d2ffb992637b4",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "7e419df16cad25faef672653e074b7e1d5150f434bd9f8b27adad8ded757b5a6",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:42.322Z",
+  "elapsedMs": 417,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

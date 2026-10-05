@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-025",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "Faris walked across the courtyard before my courage could object. He spoke to Hana briefly, without an audience. She looked surprised, glanced toward me, and asked him something I could not hear.",
+  "voiceUrl": "voices/chapter-2/ch2-025.mp3",
+  "durationMs": 11424,
+  "audioSha256": "76699b8dc1bb17715283d8c0be6768e929a071e25a0a6f402bafee34b5e9bb7a",
+  "audioBytes": 137420,
+  "textSha256": "a5964b606bb1585a03b06252a0386ee33ec690ecd45a76c749becc458d027c4d",
+  "fingerprint": "d34f759d962466156bd9d2aa0e93e3db10f680a489cae01951d332636acef871",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "fa6afb69705a7ed5f970979eda43011d99dc455550fd20b7610a3ba5574eeab3",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:26.429Z",
+  "elapsedMs": 455,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

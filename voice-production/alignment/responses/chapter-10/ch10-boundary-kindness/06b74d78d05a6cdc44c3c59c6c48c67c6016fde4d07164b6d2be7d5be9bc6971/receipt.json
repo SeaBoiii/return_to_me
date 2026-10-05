@@ -1,0 +1,20 @@
+{
+  "lineId": "ch10-boundary-kindness",
+  "chapterId": "chapter-10",
+  "speakerId": "adult-aleem",
+  "text": "I could answer her warmly, enjoy a conversation, and let it end where it ended. Affection didn't have to become pursuit. I wanted the gentleness we had found again to survive without asking it to promise me more.",
+  "voiceUrl": "voices/chapter-10/ch10-boundary-kindness.mp3",
+  "durationMs": 13344,
+  "audioSha256": "68cc101ed878aa91bf87bfacabb4a03529123456edd78a05236d7f9177a3c01c",
+  "audioBytes": 160460,
+  "textSha256": "fa709c67bdd8b7ec3a8292eb91af3b5ab05f46a4b17e61ab9ec7cea247a5eab4",
+  "fingerprint": "06b74d78d05a6cdc44c3c59c6c48c67c6016fde4d07164b6d2be7d5be9bc6971",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "d285eb30278ea2870e0e3de115a9b61588a76c045e25928a02910425775ab0d3",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:57.545Z",
+  "elapsedMs": 395,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

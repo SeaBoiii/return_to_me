@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-033",
+  "chapterId": "chapter-11",
+  "speakerId": "adult-aleem",
+  "text": "At the time, I thought I had made my intention clearer. I didn't know that my answer had made her feel even more intimidated. She told me later that it had felt as though I might force my way into her life. I had heard her question as an opening; she still needed to feel that she had room to choose.",
+  "voiceUrl": "voices/chapter-11/ch11-033.mp3",
+  "durationMs": 20064,
+  "audioSha256": "a50cd03b402721db73ec950de8f1daa30973582623a9c327fb2a45389b7e5134",
+  "audioBytes": 241100,
+  "textSha256": "2fd83a8fde8c1beb00800ef72f81697c1fdabaf059db9b8af24e85218e4ce92c",
+  "fingerprint": "5ccbad168b7eca3c7fd54cacb3094136573348b269e02331e05e5ee8ef56452f",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "e7f60cf7976c361617a4ba7f9e8121c20129d51988ba5dc21f26254f5fc8d915",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:05.401Z",
+  "elapsedMs": 448,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

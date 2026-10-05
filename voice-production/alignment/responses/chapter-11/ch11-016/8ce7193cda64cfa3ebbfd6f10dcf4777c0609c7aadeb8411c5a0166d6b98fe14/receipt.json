@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-016",
+  "chapterId": "chapter-11",
+  "speakerId": "aleem-adult",
+  "text": "Is my texting that bad?",
+  "voiceUrl": "voices/chapter-11/ch11-016.mp3",
+  "durationMs": 2232,
+  "audioSha256": "a40c26f8098f8b38c739441724908a6f82c26127f06a225ebf43a8f9313eacc5",
+  "audioBytes": 27116,
+  "textSha256": "2ce4549d601be7a712cd474b2ac689f082b780e9cfc20d4e11ef02f9c12d600c",
+  "fingerprint": "8ce7193cda64cfa3ebbfd6f10dcf4777c0609c7aadeb8411c5a0166d6b98fe14",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "e669939b59e52f824395c9eb2233df75281403008a76c670c00872848f454e4e",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:01.806Z",
+  "elapsedMs": 319,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

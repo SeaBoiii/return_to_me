@@ -1,0 +1,20 @@
+{
+  "lineId": "ch10-boundary-peace",
+  "chapterId": "chapter-10",
+  "speakerId": "adult-aleem",
+  "text": "I thought of the breath that had left me in the mosque. That relief belonged to this journey even if Nadiah and I never became a couple again. I could carry it forward without carrying another expectation for her.",
+  "voiceUrl": "voices/chapter-10/ch10-boundary-peace.mp3",
+  "durationMs": 13344,
+  "audioSha256": "04088a46e21f72324f0fdfcc9749ae31ed1b1a95eefe13358ed302d71126e481",
+  "audioBytes": 160460,
+  "textSha256": "3bffe61465484b2f91b06199d5728d7b384230695280267c690b6f757ca40ae8",
+  "fingerprint": "01916db0f7b106407ed9bad7a1aa8f0220e5f620f0a1692191a693095594b944",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "67406c48309b6ea90f3c4badbd257e35e7b01ceb9106bcfc242c9970d775d98d",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:57.626Z",
+  "elapsedMs": 441,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

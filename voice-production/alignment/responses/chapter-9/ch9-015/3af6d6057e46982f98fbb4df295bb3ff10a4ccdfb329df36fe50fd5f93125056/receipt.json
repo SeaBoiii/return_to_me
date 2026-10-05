@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-015",
+  "chapterId": "chapter-9",
+  "speakerId": "adult-aleem",
+  "text": "In Makkah, I tried to let the purpose of the trip settle around me. There was room in a day for things I usually pushed aside. Sometimes I noticed how quickly I reached for my phone whenever a quiet moment opened. I began leaving it in my pocket a little longer, allowing myself to remain where I was.",
+  "voiceUrl": "voices/chapter-9/ch9-015.mp3",
+  "durationMs": 19752,
+  "audioSha256": "d0cbbb369c637818cd5326adaa781d51a80ed715c41713849e612b434e57e67a",
+  "audioBytes": 237356,
+  "textSha256": "6f3201346e1625f285df322b981f49ff0c96f434f78cb5a6a8837f8cfa3d77d8",
+  "fingerprint": "3af6d6057e46982f98fbb4df295bb3ff10a4ccdfb329df36fe50fd5f93125056",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "f344427dba84da25d3c47576b8c806a44d611a3874218e3ec9442564006356b0",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:46.131Z",
+  "elapsedMs": 525,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

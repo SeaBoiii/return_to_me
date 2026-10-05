@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-031",
+  "chapterId": "chapter-6",
+  "speakerId": "aleem-adult",
+  "text": "Jia Wen, I like you. More than a friend. I've liked you for a long time.",
+  "voiceUrl": "voices/chapter-6/ch6-031.mp3",
+  "durationMs": 5520,
+  "audioSha256": "44a452fca9af4bbd86232e025a81810e53e27193dc49cd5e39cd39e64bb27c45",
+  "audioBytes": 66572,
+  "textSha256": "d46ae8f3129988dd53bb3facfc580f470503cace8bbfd4373959c9cdb735395e",
+  "fingerprint": "7dd873a2d5495c3ea9bec3af07b53a070ca00d046b7970051f699fb9f03bebb3",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "d891c2d662c11f8ad8ba34ba57be5ed47237a30396c6a3aabd550bd09070c73b",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:27.917Z",
+  "elapsedMs": 330,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch5-zoo-signal-001",
+  "chapterId": "chapter-5",
+  "speakerId": "aleem-sec",
+  "text": "She is telling me where her interest is without having to reject a question I never asked. I should listen and finish the day as her friend.",
+  "voiceUrl": "voices/chapter-5/ch5-zoo-signal-001.mp3",
+  "durationMs": 7776,
+  "audioSha256": "893f3d9992e91d9c13d349721b5964bca7d91bd2db75a7a1294710be316fbb04",
+  "audioBytes": 93644,
+  "textSha256": "82d5d0e6274a607b356a9eb45de06c05909724a3abec650c90a80c7e4bdee904",
+  "fingerprint": "dbb9e466c98667eb8d988133f9975b6f65abba37a2634b6edcb34c6638fa2172",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "502d0b8433dfd8e2554cf89dfb6c4f64def70ffd2bd26e06701bb74a85034d35",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:04.490Z",
+  "elapsedMs": 371,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

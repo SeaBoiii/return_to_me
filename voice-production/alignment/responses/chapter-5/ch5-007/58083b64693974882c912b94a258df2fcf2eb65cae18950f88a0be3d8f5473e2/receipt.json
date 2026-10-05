@@ -1,0 +1,20 @@
+{
+  "lineId": "ch5-007",
+  "chapterId": "chapter-5",
+  "speakerId": "aleem-sec",
+  "text": "No speech. I can sit here and be quiet. I have at least some experience with results feeling heavier than paper.",
+  "voiceUrl": "voices/chapter-5/ch5-007.mp3",
+  "durationMs": 6864,
+  "audioSha256": "46f1f8d748748a79f18f194ea602cbb3b24dcffab5f854e776acfd9fbd64fc17",
+  "audioBytes": 82700,
+  "textSha256": "5a7175d329564cb61f7b6ad999ba841e8edd7da74a62a124d864c7c9ab544555",
+  "fingerprint": "58083b64693974882c912b94a258df2fcf2eb65cae18950f88a0be3d8f5473e2",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "bed5fcecb8bf9564d45e050c279d368121cca4c7f96a531538b40430438ba616",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:01.031Z",
+  "elapsedMs": 422,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "epilogue-003",
+  "chapterId": "epilogue",
+  "speakerId": "adult-aleem",
+  "text": "But we can return to the conversation. I can ask about her day and stay curious about the answer. She can tell me when something feels too much. There is still that bright smile, and the warmth of a greeting I have learned to appreciate. I hope I never let those small things become invisible through familiarity.",
+  "voiceUrl": "voices/epilogue/epilogue-003.mp3",
+  "durationMs": 20400,
+  "audioSha256": "eef43a3365bf9eeb8557c4efb237428f645f5f1b26e76df180995e3800c476ad",
+  "audioBytes": 245132,
+  "textSha256": "cb92d7924e1a59e8cbb9f99698635b7788235c75de5f28fd0c56d000db879245",
+  "fingerprint": "07ca2f09a2e7e4e5d24723b39e7439369f0da3cd3fb5bfb2fe85045de62933a3",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "1dbf235e69520595ac81078b7e8e21ec3a091ed4ddf39d3edb67af26bde66024",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:13.103Z",
+  "elapsedMs": 465,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

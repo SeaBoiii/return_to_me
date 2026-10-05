@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-results-continue-001",
+  "chapterId": "chapter-2",
+  "speakerId": "aleem-sec",
+  "text": "I do not know what the next path is. I cannot see it from here. But there must be one.",
+  "voiceUrl": "voices/chapter-2/ch2-results-continue-001.mp3",
+  "durationMs": 4920,
+  "audioSha256": "70c37370793b4f2038294ae91df3dd5b85bfa747c622ea993ab1927d1d653ff0",
+  "audioBytes": 59372,
+  "textSha256": "68ccec6f560485b930bbf2473e18bf6aaccee38850055454c3d115acbba382dc",
+  "fingerprint": "26226e6956782d01175b789121dd5c82dd664cba71658513dc012c497388fdbc",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "f887ef5c30e752607e7e716fa3436d0a61ab146ab47ff572e56080fe3c71cac5",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:41.900Z",
+  "elapsedMs": 344,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-004",
+  "chapterId": "chapter-11",
+  "speakerId": "adult-aleem",
+  "text": "When it was time to message her, I made the first move. Moving on had given me room to try again; it hadn't removed every doubt. I still paused over the screen. Then I thought of the trust I had carried home from Umrah. I couldn't know His plans by waiting until I felt completely certain.",
+  "voiceUrl": "voices/chapter-11/ch11-004.mp3",
+  "durationMs": 19440,
+  "audioSha256": "bec465e5a4db4f88c6e97ae5b3fe54699c0cb8d653b88546547a4abb9a2d549a",
+  "audioBytes": 233612,
+  "textSha256": "5d21eedf2641a3547dee050860488d63c02204f478361cf370ceceacca7d63d5",
+  "fingerprint": "67377c16ae2660038cdb0b139b03bed854c6b6bebdea44764872ff3c914feb01",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "871bc1d03d1394d8f0755c0ceb5b09de3b93bc6364d3250e6314f5f29f206425",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:00.065Z",
+  "elapsedMs": 493,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

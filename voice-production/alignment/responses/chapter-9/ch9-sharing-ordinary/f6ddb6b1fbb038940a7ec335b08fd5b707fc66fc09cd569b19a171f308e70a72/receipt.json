@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-sharing-ordinary",
+  "chapterId": "chapter-9",
+  "speakerId": "aleem-adult",
+  "text": "Working already. Some days I think I've got the routine sorted, then I get home and realise I forgot something simple again. Life is okay in many ways. I'm still figuring out the rest.",
+  "voiceUrl": "voices/chapter-9/ch9-sharing-ordinary.mp3",
+  "durationMs": 12240,
+  "audioSha256": "dc140f3b770f3a7dc93f7c397eb644115d613fab7544a01def4ab0c3a9a06dc7",
+  "audioBytes": 147212,
+  "textSha256": "80f7161a463fc98fff928673b90eb315d68dc5e58eef6af3d0dafa7357c3160f",
+  "fingerprint": "f6ddb6b1fbb038940a7ec335b08fd5b707fc66fc09cd569b19a171f308e70a72",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "63b6c2c7d3dc30f6d2eca669a8d9b35efaff1b17f05074b236d004636a6b2f5e",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:48.147Z",
+  "elapsedMs": 422,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

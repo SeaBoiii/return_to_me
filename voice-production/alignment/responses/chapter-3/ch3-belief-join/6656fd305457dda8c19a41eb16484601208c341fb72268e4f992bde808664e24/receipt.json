@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-belief-join",
+  "chapterId": "chapter-3",
+  "speakerId": "adult-aleem",
+  "text": "Syafiqa had every right to reject me and no obligation to disclose a crush. I could also honestly say that the softened explanation made later knowledge harder to absorb. Both truths fit, even when teenage me wanted only one guilty side.",
+  "voiceUrl": "voices/chapter-3/ch3-belief-join.mp3",
+  "durationMs": 17664,
+  "audioSha256": "a33a647f3076c46390d51c1bfa8cb28da621049289cbd29e8d705ad62413a53f",
+  "audioBytes": 212300,
+  "textSha256": "da8542652d7aa7445568ed9b04a35333e8c1583540d74e7af37f60087367246a",
+  "fingerprint": "6656fd305457dda8c19a41eb16484601208c341fb72268e4f992bde808664e24",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "dc2bf80c2cf4de96adfc8000433976b9ace63fdfa6ed4d6a0fe16dd209e8c522",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:52.965Z",
+  "elapsedMs": 664,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

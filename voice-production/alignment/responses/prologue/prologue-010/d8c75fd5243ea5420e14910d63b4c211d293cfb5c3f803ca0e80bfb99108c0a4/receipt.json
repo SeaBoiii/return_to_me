@@ -1,0 +1,20 @@
+{
+  "lineId": "prologue-010",
+  "chapterId": "prologue",
+  "speakerId": "adult-aleem",
+  "text": "There was a girl named Alya. She had long braided hair, bright eyes that seemed to notice everything, and a laugh that could make an ordinary classroom feel briefly important.",
+  "voiceUrl": "voices/prologue/prologue-010.mp3",
+  "durationMs": 12600,
+  "audioSha256": "e4ea0a7c967d1bc3b66e95bc2a0544379a6831ffc9d2c3796bc3c889e9c3022c",
+  "audioBytes": 151532,
+  "textSha256": "b5a74b211d755bde1464fc9b3a18ca802894c2c2bc2a77cf885b0d32c3614bc5",
+  "fingerprint": "d8c75fd5243ea5420e14910d63b4c211d293cfb5c3f803ca0e80bfb99108c0a4",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "d29885e5160b7b2812e1b80d6dd16ccd0cc148447f303cba0343b64e62b25c53",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:10.891Z",
+  "elapsedMs": 743,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

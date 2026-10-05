@@ -1,0 +1,20 @@
+{
+  "lineId": "ch10-boundary-waiting",
+  "chapterId": "chapter-10",
+  "speakerId": "adult-aleem",
+  "text": "I knew how to make waiting look like an ordinary friendship. I had done it for years. This time I wanted to let my future stay open, instead of quietly keeping it empty until somebody else was ready.",
+  "voiceUrl": "voices/chapter-10/ch10-boundary-waiting.mp3",
+  "durationMs": 13512,
+  "audioSha256": "a73a46b29f8520327a2a7f7175d02529f4a55bf8900c7c2bf0170cc2bb0e0c62",
+  "audioBytes": 162476,
+  "textSha256": "156bf73062c2f226e72f44283fd3d77d347065767f843f06c694fde5d35cdfa8",
+  "fingerprint": "48fcca8644e2db025453ca8ade470ffe962dfae0c13b309a900a0c622fc28791",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "0043a77d874a5d1c36511985b0ecb59aecf9dbeaa001d8ae0bba42392f6f7bfc",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:57.995Z",
+  "elapsedMs": 445,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

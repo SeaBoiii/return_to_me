@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-063",
+  "chapterId": "chapter-2",
+  "speakerId": "aleem-sec",
+  "text": "There is room. This busy period will settle down. I just need you to be patient with me.",
+  "voiceUrl": "voices/chapter-2/ch2-063.mp3",
+  "durationMs": 5352,
+  "audioSha256": "6e53853c15fd056a3219cdfd21164d98c7653bde65e68af309d5cb31edf85828",
+  "audioBytes": 64556,
+  "textSha256": "7aa4e6d6a8e73da05c92d359903fc2c405d824a09550bc41129547b46770670f",
+  "fingerprint": "79ffc71d0a74e146908abb1537c4e52b654b13c292de2ac826e1b1d3bd729433",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "ed07d92df55cf0bfb8d22249e2fb5e63acbca876c6d0d3b41d0317d701ec0e8a",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:33.892Z",
+  "elapsedMs": 600,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

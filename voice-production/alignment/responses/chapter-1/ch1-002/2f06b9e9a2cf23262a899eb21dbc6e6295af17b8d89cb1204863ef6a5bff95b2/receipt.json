@@ -1,0 +1,20 @@
+{
+  "lineId": "ch1-002",
+  "chapterId": "chapter-1",
+  "speakerId": "adult-aleem",
+  "text": "Alya sat close enough that passing a worksheet could become an event. Sometimes our fingers touched. Sometimes they did not, and I spent the next ten minutes wondering whether I had moved too slowly.",
+  "voiceUrl": "voices/chapter-1/ch1-002.mp3",
+  "durationMs": 12384,
+  "audioSha256": "0aaec2ad37c6a7db36e89e3c3e697191b0cc1c2fdbdce225fed722a2b82fdaf8",
+  "audioBytes": 148940,
+  "textSha256": "3829623faa8f5cdc2b74350380ab7341d64a92a2532e792a18cd49773e83b756",
+  "fingerprint": "2f06b9e9a2cf23262a899eb21dbc6e6295af17b8d89cb1204863ef6a5bff95b2",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "1d45a565803ae224b05800560c998c32cb12d89fdcbcf9a535ccd4cf4edf0565",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:11.260Z",
+  "elapsedMs": 365,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

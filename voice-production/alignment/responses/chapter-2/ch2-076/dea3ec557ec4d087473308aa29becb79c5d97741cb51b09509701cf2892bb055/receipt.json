@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-076",
+  "chapterId": "chapter-2",
+  "speakerId": "mutual-friend",
+  "text": "Aleem, I thought you should hear it from someone. Hana has moved on.",
+  "voiceUrl": "voices/chapter-2/ch2-076.mp3",
+  "durationMs": 6144,
+  "audioSha256": "bf7c02fcccea8762fd63e91d31eb44355ea46e592bb36b84055528652aa08bb1",
+  "audioBytes": 74060,
+  "textSha256": "7224633c7797ed7ba420ac6f04e6d8a11eb7952be943584037303a6c54e1f3d4",
+  "fingerprint": "dea3ec557ec4d087473308aa29becb79c5d97741cb51b09509701cf2892bb055",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "3fa8ddc5ced795c6059c50cb76402c521c8d5659d4c9ab62ca0384153fe55fea",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:35.717Z",
+  "elapsedMs": 408,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

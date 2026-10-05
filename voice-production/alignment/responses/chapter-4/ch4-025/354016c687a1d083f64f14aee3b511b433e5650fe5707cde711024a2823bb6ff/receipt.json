@@ -1,0 +1,20 @@
+{
+  "lineId": "ch4-025",
+  "chapterId": "chapter-4",
+  "speakerId": "adult-aleem",
+  "text": "My feelings for Mei Lin grew inside that ordinary partnership. They were less frantic than the confession spree and therefore, in some ways, more frightening. I knew her well enough for losing the friendship to mean something real.",
+  "voiceUrl": "voices/chapter-4/ch4-025.mp3",
+  "durationMs": 14160,
+  "audioSha256": "1da8df47f0506d2ad266e962b81487c0a1d71a7788e41b1e511de50a942d7a4a",
+  "audioBytes": 170252,
+  "textSha256": "aa7c3b22aa69a96b03b76610d4b3b3fa7e4980268fe1a29805d6eb17ba001781",
+  "fingerprint": "354016c687a1d083f64f14aee3b511b433e5650fe5707cde711024a2823bb6ff",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "e2cb3af2995adc274fa0790af78a6c187b6c20e084a91f1f90da7b395fd83ec1",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:57.916Z",
+  "elapsedMs": 488,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

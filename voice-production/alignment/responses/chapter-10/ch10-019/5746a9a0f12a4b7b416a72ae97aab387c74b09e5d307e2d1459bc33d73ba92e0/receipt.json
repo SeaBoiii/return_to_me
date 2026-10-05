@@ -1,0 +1,20 @@
+{
+  "lineId": "ch10-019",
+  "chapterId": "chapter-10",
+  "speakerId": "adult-aleem",
+  "text": "I couldn't know the whole of her heart. I could know that I was starting to lean towards a reunion while sensing she might be leaning elsewhere. That was enough to make me pause. I had lived inside that waiting before. This time I could recognise where my own hope was taking me before I built a life around it.",
+  "voiceUrl": "voices/chapter-10/ch10-019.mp3",
+  "durationMs": 19920,
+  "audioSha256": "e04d46c9a400d9d129a28423c34d336149e07370927ed6b36bf14ec9ba09c4df",
+  "audioBytes": 239372,
+  "textSha256": "4bb7f6cf3ede268abe2d335eade71e98907f995cb1f3c76551e19ec76d8f1b7b",
+  "fingerprint": "5746a9a0f12a4b7b416a72ae97aab387c74b09e5d307e2d1459bc33d73ba92e0",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "de56ab0807669db0821930309e130f809a10353b343593c91c3693c0f302ae3e",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:57.178Z",
+  "elapsedMs": 525,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

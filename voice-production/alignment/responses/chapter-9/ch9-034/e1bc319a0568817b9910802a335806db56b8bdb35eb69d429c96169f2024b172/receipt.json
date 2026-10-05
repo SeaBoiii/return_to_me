@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-034",
+  "chapterId": "chapter-9",
+  "speakerId": "nadiah",
+  "text": "Again ah?",
+  "voiceUrl": "voices/chapter-9/ch9-034.mp3",
+  "durationMs": 1680,
+  "audioSha256": "6df2a286495dabc39211cbc187f135397751f2ab7f66428a9973c95342b85532",
+  "audioBytes": 20492,
+  "textSha256": "b7bbccfffbab137fa0b134cbf6004ce50006a36d364e1f1c91eae9aa8d06198b",
+  "fingerprint": "e1bc319a0568817b9910802a335806db56b8bdb35eb69d429c96169f2024b172",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "10f72f8b8e83b5291459935d512ee8896b7a0f27edc992b7fbfe807e07b35b2b",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:50.200Z",
+  "elapsedMs": 307,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

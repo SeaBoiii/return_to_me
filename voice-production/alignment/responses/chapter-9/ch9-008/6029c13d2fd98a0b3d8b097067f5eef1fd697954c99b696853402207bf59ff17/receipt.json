@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-008",
+  "chapterId": "chapter-9",
+  "speakerId": "nadiah",
+  "text": "I didn't know either. You look so shocked. Say hello properly first, can?",
+  "voiceUrl": "voices/chapter-9/ch9-008.mp3",
+  "durationMs": 6000,
+  "audioSha256": "f8939c90b553a3915bc3d3c1ceb94fcd97eae817367fab36da3f6cd377033cbb",
+  "audioBytes": 72332,
+  "textSha256": "91afc78a012c60e6d031df1fc21e2e4935b98e9fd0da46ab56a53a8a35dd5701",
+  "fingerprint": "6029c13d2fd98a0b3d8b097067f5eef1fd697954c99b696853402207bf59ff17",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "31b7cd794ec08d43076912bdb619e2780c70b136c9503a983e1a351376f4ecb5",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:44.651Z",
+  "elapsedMs": 341,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

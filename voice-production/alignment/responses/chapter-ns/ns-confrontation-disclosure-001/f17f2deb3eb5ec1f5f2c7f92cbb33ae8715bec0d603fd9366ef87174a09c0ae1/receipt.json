@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-confrontation-disclosure-001",
+  "chapterId": "chapter-ns",
+  "speakerId": "aleem-young-adult",
+  "text": "Why did Aisyah have to show me? Why wasn't I trusted with something that directly affected what I thought our relationship was?",
+  "voiceUrl": "voices/chapter-ns/ns-confrontation-disclosure-001.mp3",
+  "durationMs": 6384,
+  "audioSha256": "307d7f7c88298b9d9250d578bf1b98d78d092919973f6ca8672d6aa7bcc73283",
+  "audioBytes": 76940,
+  "textSha256": "a41005be8006ab08f894ce563f1567cb24801d57b6fdddee89386e7d8bf186a4",
+  "fingerprint": "f17f2deb3eb5ec1f5f2c7f92cbb33ae8715bec0d603fd9366ef87174a09c0ae1",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "d74a4fbb2442207111823fd7083b57ab12843337c01666d731d68a16c775b419",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:15.207Z",
+  "elapsedMs": 366,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

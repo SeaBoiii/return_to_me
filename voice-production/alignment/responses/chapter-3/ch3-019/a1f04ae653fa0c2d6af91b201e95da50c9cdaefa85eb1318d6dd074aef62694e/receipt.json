@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-019",
+  "chapterId": "chapter-3",
+  "speakerId": "adult-aleem",
+  "text": "We spoke about tutorials, teachers, family rules, and the peculiar exhaustion of beginning again. Syafiqa could make a complaint sound like a story. By the time we reached school, I usually felt less like an admission mistake.",
+  "voiceUrl": "voices/chapter-3/ch3-019.mp3",
+  "durationMs": 15120,
+  "audioSha256": "885e02c74e1f9b66e0a34d1146dfce020216db06e0ede6be5af4df6e4b7879e1",
+  "audioBytes": 181772,
+  "textSha256": "fd82321da07fe56020409b1f835e0585b6d98c7c3803612fe2702bad401378da",
+  "fingerprint": "a1f04ae653fa0c2d6af91b201e95da50c9cdaefa85eb1318d6dd074aef62694e",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "235835b6e28ad15e68af4868a1756f0c8ed2f96a32690a9fce2d5f2f157ad2e1",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:46.367Z",
+  "elapsedMs": 433,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-062",
+  "chapterId": "chapter-11",
+  "speakerId": "adult-aleem",
+  "text": "I began telling her about my past. One part led to another: the times I had hoped too quickly, the times I had stayed too long, the hurt I had carried into the next beginning. She was learning where I had been. I was hearing myself describe it without feeling that I had fallen back into it.",
+  "voiceUrl": "voices/chapter-11/ch11-062.mp3",
+  "durationMs": 17832,
+  "audioSha256": "8318e7218d87898cc6c14712a5e519fc9a7215489bff7d8f0e1a7204376636e0",
+  "audioBytes": 214316,
+  "textSha256": "7a60c719152b1170e2f297ea0eef9036950e0fce1d4870f8eaefd3525f763476",
+  "fingerprint": "d2f9f6a1efeb71e3750e06fa6bd833fdf783b6df00c96514ac6914c260fda6fb",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "701b333fe63a3ae4b180265c0969754cceb3071c3afaa71ab5d4cdec0692e2a0",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:10.303Z",
+  "elapsedMs": 474,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-065",
+  "chapterId": "chapter-11",
+  "speakerId": "adult-aleem",
+  "text": "I looked at her. There was no need to hurry through the difficult part so we could return to something pleasant. She let me find the next sentence. I had imagined openness as a difficult thing I would one day prepare myself to do. Here I was, already doing it, with someone who wanted to hear me.",
+  "voiceUrl": "voices/chapter-11/ch11-065.mp3",
+  "durationMs": 21504,
+  "audioSha256": "eb1fbe5c49b4ef03f87b5fe87cb1831e294a303d8e6e3904a335ec7c9ec5434f",
+  "audioBytes": 258380,
+  "textSha256": "dc0dba162a53e5755b5ff3add8076ab6569e3a62f357fa2cf8c087b99910d8c3",
+  "fingerprint": "b322775d271bc50f3a6c655b3081203f352dfc00013cc936fc865ff14849407e",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "33b3df6e88f579a01e66fbad98ef64c18a6a80f6179ddf8f1e40218702f6a1f4",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:11.135Z",
+  "elapsedMs": 575,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

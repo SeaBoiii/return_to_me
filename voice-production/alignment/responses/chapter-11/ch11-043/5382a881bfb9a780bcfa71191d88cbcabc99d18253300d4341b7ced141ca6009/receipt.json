@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-043",
+  "chapterId": "chapter-11",
+  "speakerId": "adult-aleem",
+  "text": "There were still stretches when we were each occupied with our own days. I could leave a message and return to the people around me. Then there would be something from her to read later. I liked that she was becoming part of my life while the rest of it continued around our conversation.",
+  "voiceUrl": "voices/chapter-11/ch11-043.mp3",
+  "durationMs": 16800,
+  "audioSha256": "9f1abb76a787042b51578a947ee9e54b20a386e3890400e3c995806a1172ec88",
+  "audioBytes": 201932,
+  "textSha256": "44d4d5d14d85f15b2cf35ec7fdd08f4103fea8cfb5f0ae522753129c0b3ec10c",
+  "fingerprint": "5382a881bfb9a780bcfa71191d88cbcabc99d18253300d4341b7ced141ca6009",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "3a757b51b76f713e9efdac1629efa639235806ed19b6a97ab128ea4dc6f415ab",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:07.621Z",
+  "elapsedMs": 491,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

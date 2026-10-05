@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-021",
+  "chapterId": "chapter-11",
+  "speakerId": "adult-aleem",
+  "text": "There was nothing difficult about her request. Still, hearing it aloud made me notice how often I had treated a reply as the end of my part. I asked something back. She answered. A detail led to another question, and for a while neither of us needed to search for the next subject. We only had to remember the food.",
+  "voiceUrl": "voices/chapter-11/ch11-021.mp3",
+  "durationMs": 20472,
+  "audioSha256": "946081f33819b8cc67e049f3f3b2abad246f4a26f3b67052b291ce5c63bbffee",
+  "audioBytes": 245996,
+  "textSha256": "3bac2e065cfb6eadfbcc00207c7bc47c865b1917c09029eec46682aca9163b94",
+  "fingerprint": "ac799c46c66f2863ad35eec7fce3e1a31e9b13ccbbab9f87c8c69ad9983f8edd",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "27f32572bf3310c8a3cccc9b174d966f2bbaecf7f478f0746d00463df76a817e",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:02.731Z",
+  "elapsedMs": 462,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

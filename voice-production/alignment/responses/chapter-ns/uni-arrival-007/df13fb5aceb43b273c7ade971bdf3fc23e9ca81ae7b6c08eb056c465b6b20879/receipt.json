@@ -1,0 +1,20 @@
+{
+  "lineId": "uni-arrival-007",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "Inside, volunteers arranged sign-up sheets and shifted chairs. Freshmen stood in uncertain clusters. Several Malay women, some wearing hijab and some not, talked with friends or waited for the programme to begin.",
+  "voiceUrl": "voices/chapter-ns/uni-arrival-007.mp3",
+  "durationMs": 13920,
+  "audioSha256": "829f6fbe11be1b90c90ecda94aae7c40355e880b5fd54482bfd6fe1eb0452209",
+  "audioBytes": 167372,
+  "textSha256": "3d9806793d03431a4ac19e0aacbbeb0bd3bf75b37df67d2cdf83cbca1e30938b",
+  "fingerprint": "df13fb5aceb43b273c7ade971bdf3fc23e9ca81ae7b6c08eb056c465b6b20879",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "2c1d50a54f2eb8056d9243f593534677f391285a8c44ad97a07f68e85238840d",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:19.161Z",
+  "elapsedMs": 454,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

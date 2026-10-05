@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-036",
+  "chapterId": "chapter-6",
+  "speakerId": "adult-aleem",
+  "text": "I did not recognise him. After all the attention I had paid, all the approaches I thought I had intercepted, the person beside her had appeared from outside my carefully maintained radar. For a few stunned seconds, that felt like the most impossible part: how had something so important happened without me knowing?",
+  "voiceUrl": "voices/chapter-6/ch6-036.mp3",
+  "durationMs": 20640,
+  "audioSha256": "527ad453b31ebbefd753c4a345965b831315557160e887bfd5ea9a343ec29478",
+  "audioBytes": 248012,
+  "textSha256": "68b62301fcc75afb79db5f4e61f2078b3fc522dc606eb38f7c8c644cdd22da51",
+  "fingerprint": "724981a47a7964703ac6d5c072f5e960364626c1dbee17c4743eeb87bc4069b7",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "80c26b06647989b5965a9b93b1381694b904da6920b13cd92fcfbe3155a6bd1a",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:29.218Z",
+  "elapsedMs": 648,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

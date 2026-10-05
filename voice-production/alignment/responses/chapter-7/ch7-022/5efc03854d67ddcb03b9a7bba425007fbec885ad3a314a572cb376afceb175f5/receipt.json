@@ -1,0 +1,20 @@
+{
+  "lineId": "ch7-022",
+  "chapterId": "chapter-7",
+  "speakerId": "adult-aleem",
+  "text": "We stayed friends. There were careful moments at first, then familiar ones. She still needed somebody to complain to after a frustrating afternoon. I still wanted to tell her things. We found our way back through small exchanges until the confession no longer entered the room ahead of us every time we met.",
+  "voiceUrl": "voices/chapter-7/ch7-022.mp3",
+  "durationMs": 20640,
+  "audioSha256": "a96173f3d8aebaf6b83625d72d26853cd530977738700b1c5d52610b726df4cb",
+  "audioBytes": 248012,
+  "textSha256": "551fc41567fe11ce72fc1b6291bb65c0f6737953108362dedf94dd3b76cc2ef1",
+  "fingerprint": "5efc03854d67ddcb03b9a7bba425007fbec885ad3a314a572cb376afceb175f5",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "d3c06bc5ffac38e18fc93773ad4d7c1fa3ca04325debc5600bebea696d7ea705",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:37.856Z",
+  "elapsedMs": 649,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

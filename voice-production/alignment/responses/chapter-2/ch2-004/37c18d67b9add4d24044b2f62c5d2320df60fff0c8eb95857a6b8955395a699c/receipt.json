@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-004",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "The room felt different before anyone spoke. Navy skirts and white shirts mixed with the plain white uniforms from my school. New voices filled the spaces where routine usually sat.",
+  "voiceUrl": "voices/chapter-2/ch2-004.mp3",
+  "durationMs": 12072,
+  "audioSha256": "3a5661331199e2360ceac56c0cf2bc35f802fd9c5e41f79036aa15c2a81fe110",
+  "audioBytes": 145196,
+  "textSha256": "294b9936c07e9b40e0fdebae9a069928bdc568fb19d76a70fc7fe5847d05eba3",
+  "fingerprint": "37c18d67b9add4d24044b2f62c5d2320df60fff0c8eb95857a6b8955395a699c",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "0c4aad3b33f4de5b4381b17718e3d32de029696a8e4630f6f17a45347400e724",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:22.293Z",
+  "elapsedMs": 693,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

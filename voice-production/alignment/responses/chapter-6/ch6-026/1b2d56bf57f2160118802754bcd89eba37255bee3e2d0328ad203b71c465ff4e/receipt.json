@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-026",
+  "chapterId": "chapter-6",
+  "speakerId": "adult-aleem",
+  "text": "When she went home, I sometimes sent her back. Our conversation stretched across the journey, grew quieter near her stop, then found one last thing to say. At the drop-off, she would turn round because she had remembered something small, and I would get another minute before goodbye.",
+  "voiceUrl": "voices/chapter-6/ch6-026.mp3",
+  "durationMs": 17760,
+  "audioSha256": "ddd565f6c5eea18476e02384bdd89c2bf7c5a597e1a83da621615a7b6ab1133e",
+  "audioBytes": 213452,
+  "textSha256": "2c0e3d075cfe6cbb5e382c58bfebddfae471bd41e102cc7419ad623725caeeb9",
+  "fingerprint": "1b2d56bf57f2160118802754bcd89eba37255bee3e2d0328ad203b71c465ff4e",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "2553e118a3bb9819d38066f19706897db05bc59e714dea96f537bfe32e7ce684",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:27.030Z",
+  "elapsedMs": 596,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

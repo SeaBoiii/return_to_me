@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-032",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "That distinction mattered later. If one person carries the burden of disproving a prejudice, her mistake can appear to prove it again. I had placed Nadiah inside an argument she did not know I was conducting.",
+  "voiceUrl": "voices/chapter-ns/ns-032.mp3",
+  "durationMs": 14880,
+  "audioSha256": "904866d067af0a7d0afa9673ba6c78ee549f6c406737dfdd617c966a986a2799",
+  "audioBytes": 178892,
+  "textSha256": "15dc118b3422c1d20e8f39b0e2b4b41cebc51d445762205ed09e303339ebc443",
+  "fingerprint": "af3b27f0c5093966dbb1c2386786e8b6ff14ba16ee1430ee55a99770c48421fd",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "fdbdb5b564109c99b4d743923aeadc66013045dcc76885b69d9e38198629a303",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:11.838Z",
+  "elapsedMs": 482,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

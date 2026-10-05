@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-034",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "We agreed to try. No grand declaration, only mutual relief and the shy happiness of discovering that hope had been shared.",
+  "voiceUrl": "voices/chapter-2/ch2-034.mp3",
+  "durationMs": 8952,
+  "audioSha256": "eb1b3b968fafccbf5b7045e857c8beca55273b6af4975c2f1172fab664ca236c",
+  "audioBytes": 107756,
+  "textSha256": "0bf4b3946d49a7e97215aef3e7d65d08d1f4d69f007d7e6667e43215e6505962",
+  "fingerprint": "cadae5f2801eca72b6a4b9060a28490cdee342de64201af47ad65aece4a9327a",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "b2c7d8f503dfcb1bde431b9e24f4a66afb8ad15197837adc028f302dbe1fce2a",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:28.107Z",
+  "elapsedMs": 715,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

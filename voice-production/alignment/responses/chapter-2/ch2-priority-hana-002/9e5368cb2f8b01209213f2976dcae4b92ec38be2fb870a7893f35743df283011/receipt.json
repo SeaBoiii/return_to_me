@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-priority-hana-002",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "Then I rushed back to the server and worked far past midnight. Years later, I remembered that attention was possible—but without boundaries, I treated it as an exception I could not sustain.",
+  "voiceUrl": "voices/chapter-2/ch2-priority-hana-002.mp3",
+  "durationMs": 12624,
+  "audioSha256": "a530318b8eeaed07cc96fe6d1aaca0ba26aced8768eb525fea48d8ff09bd7a06",
+  "audioBytes": 151820,
+  "textSha256": "941b766a57a72707a965ba5f221bac9392e0cccd00d209abdccc30581972ea01",
+  "fingerprint": "9e5368cb2f8b01209213f2976dcae4b92ec38be2fb870a7893f35743df283011",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "328b4d65f246076bc689effd147d6e884aae89af7e3ebae3d67fdd31a3f8669f",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:30.371Z",
+  "elapsedMs": 651,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

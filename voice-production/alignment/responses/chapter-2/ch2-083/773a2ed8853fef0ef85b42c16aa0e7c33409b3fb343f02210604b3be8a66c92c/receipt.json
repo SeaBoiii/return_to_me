@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-083",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "Both truths occupied the same space. She should have told me clearly when it ended. I had also taught her, through repeated absence, that my promises to change were not reliable.",
+  "voiceUrl": "voices/chapter-2/ch2-083.mp3",
+  "durationMs": 11904,
+  "audioSha256": "72ff2734f9f5a9600038abeb138178e53638fa210c7780786b856b00f2adac0e",
+  "audioBytes": 143180,
+  "textSha256": "52999b3a28aec160b215173209b7d305e73a7079215c16698695c7b4d8d5df41",
+  "fingerprint": "773a2ed8853fef0ef85b42c16aa0e7c33409b3fb343f02210604b3be8a66c92c",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "1d57466f33f0d2b14941a8ec096fec6dc389a7523a96e7d09c628568bf5d3ec4",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:38.368Z",
+  "elapsedMs": 833,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

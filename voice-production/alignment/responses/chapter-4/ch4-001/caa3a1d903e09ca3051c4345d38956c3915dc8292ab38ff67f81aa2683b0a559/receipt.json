@@ -1,0 +1,20 @@
+{
+  "lineId": "ch4-001",
+  "chapterId": "chapter-4",
+  "speakerId": "adult-aleem",
+  "text": "After Syafiqa, I did not become cautious in the way I imagined. I became restless. Rejection had left a question about my worth, and instead of sitting with it, I began asking new people to answer it for me.",
+  "voiceUrl": "voices/chapter-4/ch4-001.mp3",
+  "durationMs": 15024,
+  "audioSha256": "834d6ba470e90da411dd84dbc08ea6c90f92b8a4333726d246de867ffe30c021",
+  "audioBytes": 180620,
+  "textSha256": "a922082a6d4f0bd062376bc1685263273beacbffd083d596456f98bd55f27c01",
+  "fingerprint": "caa3a1d903e09ca3051c4345d38956c3915dc8292ab38ff67f81aa2683b0a559",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "60f45b70e5eaf029eefecf0ab74fe80331da3986a845883ec34e27f90d3ecdfc",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:53.527Z",
+  "elapsedMs": 565,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-005",
+  "chapterId": "chapter-6",
+  "speakerId": "aleem-adult",
+  "text": "Just making sure the group is complete. Very thorough leadership.",
+  "voiceUrl": "voices/chapter-6/ch6-005.mp3",
+  "durationMs": 3264,
+  "audioSha256": "129484349a6446beacff8a0493d7d17f01c17f352c13c47008438cbdeab6d1e9",
+  "audioBytes": 39500,
+  "textSha256": "0530ea92e8278c0390c11460e5d1cb57941052b0a40bcb11e6c7ad1382d71223",
+  "fingerprint": "ec79597133fc4a13c5b8d8e3411a06f9c6347d6556a71db36434c75856542f40",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "a31f2291743923ed20a523d6a79d1f38deaa066923ba281d6d33c9b192b42f49",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:22.240Z",
+  "elapsedMs": 335,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-001",
+  "chapterId": "chapter-6",
+  "speakerId": "adult-aleem",
+  "text": "By my second year at university, I could stand in front of an orientation group and sound as if I knew what I was doing. I had a list of names, an overworked voice, and responsibility for people who still looked at every building as though it might be the wrong one.",
+  "voiceUrl": "voices/chapter-6/ch6-001.mp3",
+  "durationMs": 15192,
+  "audioSha256": "a1c49008398622084b0808b03ae8c02ec7df03b04798ed3439e872ba69ecc4aa",
+  "audioBytes": 182636,
+  "textSha256": "40b6a65e83b89c926ba04de06b901ecb4d2a7063d9b15611bee11d54ec8ed701",
+  "fingerprint": "ca0a1a9a240821d3a5bd22fd11117b6903bd229c5d7693b61aeea23d08bf598a",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "b39f8c42b869fbd7c72275715f705562a35c76b9fcca1a48b2ee254d4bcec653",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:21.864Z",
+  "elapsedMs": 452,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

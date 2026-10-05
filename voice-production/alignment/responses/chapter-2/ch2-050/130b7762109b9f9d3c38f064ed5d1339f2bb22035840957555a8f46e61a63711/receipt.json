@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-050",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "Schoolwork was different. One neglected topic did not immediately collapse. A missed revision session created no flashing alert. The consequences waited quietly, gathering weight beyond the edge of the screen.",
+  "voiceUrl": "voices/chapter-2/ch2-050.mp3",
+  "durationMs": 14640,
+  "audioSha256": "5b17100d0cfad3ad958541ed8b32e0cfc430b0521b232e65cba5c0586336370f",
+  "audioBytes": 176012,
+  "textSha256": "c09ec5d10815bb0fc861e2e56d33248933631d767ae190d05032c748294ffcda",
+  "fingerprint": "130b7762109b9f9d3c38f064ed5d1339f2bb22035840957555a8f46e61a63711",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "29aad0c4a36cf7e10e9e1805439d8d123aa12a3770e11601af0851a66ad01b45",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:31.948Z",
+  "elapsedMs": 619,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-007",
+  "chapterId": "chapter-11",
+  "speakerId": "nurulain",
+  "text": "What do you usually do when you're free? Meet your friends?",
+  "voiceUrl": "voices/chapter-11/ch11-007.mp3",
+  "durationMs": 3744,
+  "audioSha256": "72d9772ced6e9bc4799a55d37e4a3bd729de877e29a695d7e1e8befe70c38fa5",
+  "audioBytes": 45260,
+  "textSha256": "6abf14587b59d53f4aa7989062ff6d8a5184c88ee81a64da3ddf6a4b52dbc94c",
+  "fingerprint": "e6b8b0d878f67d87dcff03aa3ef785f7249039111bdaebc6007dd1a318958cb0",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "aca2657e19cc4d7fe944ad4ac7c739c1573cf6bd3edb25c3303f2c18c403f254",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:00.319Z",
+  "elapsedMs": 320,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

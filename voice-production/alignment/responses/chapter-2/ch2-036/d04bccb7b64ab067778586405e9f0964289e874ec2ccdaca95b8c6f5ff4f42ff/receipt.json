@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-036",
+  "chapterId": "chapter-2",
+  "speakerId": "hana",
+  "text": "You know we could walk directly to the gate.",
+  "voiceUrl": "voices/chapter-2/ch2-036.mp3",
+  "durationMs": 2952,
+  "audioSha256": "4a364c4d935c875ef3400b2c4a413fb8dd15ff6f1d7b405b910f1021f67a4121",
+  "audioBytes": 35756,
+  "textSha256": "72749c2336e5f34957489989fded05425742d69d1706cd5657edf426d91d030a",
+  "fingerprint": "d04bccb7b64ab067778586405e9f0964289e874ec2ccdaca95b8c6f5ff4f42ff",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "318378852e943da4e99f436a02d385cee5dce479c83ba62d64bbee4dc0aaf738",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:28.185Z",
+  "elapsedMs": 470,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

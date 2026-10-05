@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-014",
+  "chapterId": "chapter-3",
+  "speakerId": "adult-aleem",
+  "text": "Recognition did what confidence could not. For a few minutes we were back in the borrowed classroom, complaining about characters that looked almost identical and pretending our pronunciation was better than it was.",
+  "voiceUrl": "voices/chapter-3/ch3-014.mp3",
+  "durationMs": 12552,
+  "audioSha256": "66289d6bc1d62f90564318340abe76da9c14687c7562d88891be0974f338f08b",
+  "audioBytes": 150956,
+  "textSha256": "99cd06b95edc130382e0c828a8ad0f10c6a3fb3d46a7ba2b4a4832c730028a2f",
+  "fingerprint": "fffbeee821b948a046b81053099dc23101cac99e72167993a25f38bfaf1ee158",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "6aea879b0258cabc5ea275cd8867d3955b0148c166876f4a7cd7ec46b611f563",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:45.877Z",
+  "elapsedMs": 502,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

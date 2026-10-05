@@ -1,0 +1,20 @@
+{
+  "lineId": "epilogue-004",
+  "chapterId": "epilogue",
+  "speakerId": "adult-aleem",
+  "text": "When I think of the boy at the beginning of this story, I feel tenderness for him. He wanted love so badly and had so much to learn about giving it. I am still learning. I wish I could let him sit with this ordinary happiness for a moment: being included in someone's plans, and making room for hers.",
+  "voiceUrl": "voices/epilogue/epilogue-004.mp3",
+  "durationMs": 21360,
+  "audioSha256": "c473aa667852d3ebda5a183adde2ed8619f7a1be43b3befbb1743cef53071cc9",
+  "audioBytes": 256652,
+  "textSha256": "55687d939a974d44925a19039b0d400c786f8ccfe6daa5486985fbb6538ea8aa",
+  "fingerprint": "0322f6a2e7d41e918e19f35c2b69113b3d9bbf8b50c89c34723b05c1801a0060",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "7ced86a6e0be2001b0f1ffae7c1ac7dd55abac2c7882d934d0a045f65f2f5c69",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:13.410Z",
+  "elapsedMs": 652,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-044",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "She did not give me the exact sentence, You were my backup. That was the meaning I made from the order of events: he was the person she wanted first, his uncertainty created space, and I had occupied it temporarily.",
+  "voiceUrl": "voices/chapter-ns/ns-044.mp3",
+  "durationMs": 15504,
+  "audioSha256": "1432c223e24603242a629a99febb618e7a4c5ebb14180b1dd2a6d41fb8002a5f",
+  "audioBytes": 186380,
+  "textSha256": "2ae8a2af5bd69fd4d53caf2c8b600aa587a6dbeee5fdaecf19205b57ecbaed17",
+  "fingerprint": "fb0c247dd4feabfb213cc0ac9ae58163b4b295eff799052970a26cb5e69ad5cf",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "cfb0f73ac323cf911c9afadbca78b4177177184fc61001533e1c996cfbc58be6",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:15.681Z",
+  "elapsedMs": 469,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-033",
+  "chapterId": "chapter-9",
+  "speakerId": "adult-aleem",
+  "text": "Then it happened again at Jabal Rahmah. We were there with the group, and once more I found that the conversation nearest me belonged to Nadiah. We climbed, paused, looked around. The people who had been beside us were elsewhere. I turned towards her with a half-formed question, and saw that she had noticed too.",
+  "voiceUrl": "voices/chapter-9/ch9-033.mp3",
+  "durationMs": 20640,
+  "audioSha256": "9def7927b6c499b715c2dc1c174c08a2dba0cbb0e6b32e5fcfbf5a14083d31c4",
+  "audioBytes": 248012,
+  "textSha256": "a68e2105dec9d6159741867127f975949ab600418f28265802e4bfd992e9cb7e",
+  "fingerprint": "17e060412c4eb061a1442e4556f9cac90cb544a9e9a704e78b14fba9c379a37b",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "04cbb548d7e0eaed4ff6eb356ede778ff3baabff6105995ff3b8b1a877ff41a4",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:49.934Z",
+  "elapsedMs": 463,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

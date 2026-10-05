@@ -1,0 +1,20 @@
+{
+  "lineId": "ch5-024",
+  "chapterId": "chapter-5",
+  "speakerId": "adult-aleem",
+  "text": "A place we passed reminded her of something Daniel had mentioned. A choice I made invited a comparison with how he approached things. Later, his name entered again through another association that felt effortless to her and increasingly pointed to me.",
+  "voiceUrl": "voices/chapter-5/ch5-024.mp3",
+  "durationMs": 15984,
+  "audioSha256": "3c062a63a4be76ad438eaff54d5f395d2f9afb94424a696497e053ba31f707de",
+  "audioBytes": 192140,
+  "textSha256": "d580c457e3935383a45f4af058dc09796970a0bf17ce60211ce73ca247a822cf",
+  "fingerprint": "7d642e70762cd7b0a83714169aae7a00e6bc01d02ae0a4fadf47720254438734",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "3d8788950dc4f7aada53d91aa034e83c20784ec1f00f5ea450143cbefd355cbf",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:03.475Z",
+  "elapsedMs": 517,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-019",
+  "chapterId": "chapter-6",
+  "speakerId": "jia-wen",
+  "text": "Eh, I haven't even answered him yet.",
+  "voiceUrl": "voices/chapter-6/ch6-019.mp3",
+  "durationMs": 2784,
+  "audioSha256": "21c48d075cffcd68daadb8060252cba1deabe540b745647bac1c1c26b19fea45",
+  "audioBytes": 33740,
+  "textSha256": "ebc16e199b10313fc130dddfecc38f157e3aa4e9b1f56c57c1b741bc14ed5e31",
+  "fingerprint": "35b70d753f0ee752ea3000492ceed7386642e665039051c91fb3046eddc3a6d3",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "f2af729adc0f2bf00440f1373dfad190c5c9ca43714d298ab7df37cee45508f9",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:25.491Z",
+  "elapsedMs": 338,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

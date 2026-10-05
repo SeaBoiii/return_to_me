@@ -1,0 +1,20 @@
+{
+  "lineId": "ch1-sms-direct-001",
+  "chapterId": "chapter-1",
+  "speakerId": "aleem-p6",
+  "text": "I thought we were still together. Who are you talking about?",
+  "voiceUrl": "voices/chapter-1/ch1-sms-direct-001.mp3",
+  "durationMs": 3240,
+  "audioSha256": "aabc93fc45e17a4cb915a57467fa3df92926e5eabf0b2c8ed5a3b9a44b33892c",
+  "audioBytes": 39212,
+  "textSha256": "0ecca349a6037df52b3947dd818ace987e31e2d88c92cbd84488f0c31af7256d",
+  "fingerprint": "d9ef4163d4b97f059eeb33cd03b8ef7f79e73129429b94bf6010867e486ba1a2",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "910ee564530e17a3e1ff84881729e15dc27df14e21037535a62212e030b3b6be",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:17.690Z",
+  "elapsedMs": 356,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

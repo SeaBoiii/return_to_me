@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-075",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "After that, there was no single breakup conversation. There were shorter replies and seats left unsaved. We drifted into a silence I recognised from Alya, though this time I was helping create it.",
+  "voiceUrl": "voices/chapter-2/ch2-075.mp3",
+  "durationMs": 13200,
+  "audioSha256": "75c5d8285ec2235b13d590ac6929504f2b6888bd65ca6124dbcc2d1cd7c2e9ab",
+  "audioBytes": 158732,
+  "textSha256": "a19243e8c7ab0f406b5962aed7357d69f327ee1aba5af69eb43aa6af59c2f0f8",
+  "fingerprint": "e9e22f8e0ec6e02f9b7ef7fa24497a190d50236c372879c3fedbea489b257754",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "91f7bb8e7be20dc366fbdc128f2684064841df95a4b8b13cd5a03f9a08a56271",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:35.632Z",
+  "elapsedMs": 451,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch10-011",
+  "chapterId": "chapter-10",
+  "speakerId": "adult-aleem",
+  "text": "The memories were still there. I could bring one close and recognise it. But the weight that usually came with it had loosened. I no longer felt caught inside the worst part of each story, bracing for it to happen again. I sat in Masjidil Nabawi and felt free in a way I had almost forgotten was possible.",
+  "voiceUrl": "voices/chapter-10/ch10-011.mp3",
+  "durationMs": 21984,
+  "audioSha256": "3fd8060b3a5ad039ce1a34c39e69acae22936a346f37b1d5069ae0fcf3722fd5",
+  "audioBytes": 264140,
+  "textSha256": "6d8d134333617abc6387d90d4d03f99b6fd4df1b13e19cc40813fda5ebadd546",
+  "fingerprint": "8f897a642b6afb88a90e12bb40f936423a16f675b77fbcfaf918da89ac00c421",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "1112c61824362d9d21c8b0585d8517e3032ff12d84305ab6f753d9c694166ebb",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:55.073Z",
+  "elapsedMs": 504,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

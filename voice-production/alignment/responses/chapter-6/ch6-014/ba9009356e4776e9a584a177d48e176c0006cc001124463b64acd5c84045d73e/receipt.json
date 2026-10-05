@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-014",
+  "chapterId": "chapter-6",
+  "speakerId": "adult-aleem",
+  "text": "People noticed. Somebody would ask where my girlfriend was when I arrived alone; somebody else would tell Jia Wen to ask her boyfriend for help. The joke travelled beyond our original orientation group. Every time we appeared together, another person seemed to nod as if a rumour had just been confirmed.",
+  "voiceUrl": "voices/chapter-6/ch6-014.mp3",
+  "durationMs": 18960,
+  "audioSha256": "866a9d579aad68640aac52dae453d68040927181d074b6dbb86495b560f8a13d",
+  "audioBytes": 227852,
+  "textSha256": "4e7f19a990d5c1c547dd47352409878b146c2a69911ef629e0cc3fdab169223f",
+  "fingerprint": "ba9009356e4776e9a584a177d48e176c0006cc001124463b64acd5c84045d73e",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "201e90daacc812900c72884388d3aacef98f45901737372c6361703a43c322c1",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:24.284Z",
+  "elapsedMs": 614,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

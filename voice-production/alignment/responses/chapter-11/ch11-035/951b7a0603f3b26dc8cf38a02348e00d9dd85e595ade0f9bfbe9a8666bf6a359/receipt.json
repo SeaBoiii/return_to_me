@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-035",
+  "chapterId": "chapter-11",
+  "speakerId": "adult-aleem",
+  "text": "We arranged the meeting for after my trip to Kazakhstan. The plan gave us something ahead of us, and some time before it arrived. I wanted the evening to go well. More than that, I wanted us to keep getting to know each other in the days before it. Meeting her parents couldn't do that work for us.",
+  "voiceUrl": "voices/chapter-11/ch11-035.mp3",
+  "durationMs": 18072,
+  "audioSha256": "c0740d670cf341c4c8db254acfda7dc31a9a2d693b7782c3ed383c712f481895",
+  "audioBytes": 217196,
+  "textSha256": "7474baad7c55fcdfbc5a63ea9a17535888173e25e1a8f254a0aa6119e9bd7974",
+  "fingerprint": "951b7a0603f3b26dc8cf38a02348e00d9dd85e595ade0f9bfbe9a8666bf6a359",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "f9a79db147e8d362584360cb0f55f47e8504d6ed142c4e6c58a2f564ec5c71b9",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:05.604Z",
+  "elapsedMs": 486,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-discovery-inspect-001",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "I enlarged the screenshot, returned it to normal size, then enlarged it again. Every gesture and inch of distance became evidence in a trial whose witnesses could not speak.",
+  "voiceUrl": "voices/chapter-ns/ns-discovery-inspect-001.mp3",
+  "durationMs": 11112,
+  "audioSha256": "84010b40ba616be3c3eaa6d5c3011c5786e34638098bce8daa84a61289c3af48",
+  "audioBytes": 133676,
+  "textSha256": "4a9cf46ad702511d7902ae463e149fa21b36d8cb57f2147c38985772c8bec01b",
+  "fingerprint": "0eb6adb2368062fac689204dfb5223c8e300171cca8a413c74d208658b06bb99",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "7517ba6e9a89e01d29ab36a301d068696b8c232d3ec924e67d4435fd080d826b",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:13.143Z",
+  "elapsedMs": 453,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

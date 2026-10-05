@@ -1,0 +1,20 @@
+{
+  "lineId": "uni-arrival-012",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "In the corridor, I breathed hard. Sweat gathered across my face and beneath my shirt. I leaned away from the doorway, confused by the distance between the ordinary room I had entered and the danger my body had announced.",
+  "voiceUrl": "voices/chapter-ns/uni-arrival-012.mp3",
+  "durationMs": 15192,
+  "audioSha256": "1da822f3c578f20b7e38d8cab45658d8603b8bada13269e73f865afdf6869d2d",
+  "audioBytes": 182636,
+  "textSha256": "6920fd5b6e2398f7ebe8060317e4330a6ce74da05e1a6e87b3de3bfa813e514e",
+  "fingerprint": "24ab7d85b9d9579387533c397dcac27a87ea834f8377b32e6a72e704417620ee",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "3e221d996c7e3e20ddcd111b9634ab5aef87fb77e6a50cc676ce3b5e0391c3f2",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:20.754Z",
+  "elapsedMs": 440,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

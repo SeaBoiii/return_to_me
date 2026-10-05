@@ -1,0 +1,20 @@
+{
+  "lineId": "ch1-046",
+  "chapterId": "chapter-1",
+  "speakerId": "adult-aleem",
+  "text": "Those questions were too large for the relationship we had actually lived. We had cared for each other sincerely, then grown apart before we had the language to end things kindly.",
+  "voiceUrl": "voices/chapter-1/ch1-046.mp3",
+  "durationMs": 9912,
+  "audioSha256": "c7fe62badc3893cf85ecd41edddeffa1ef63b24a086d697908015bd445a88c5c",
+  "audioBytes": 119276,
+  "textSha256": "b9f509e57201824f0f512efaaf8706ade7d6351eb0f97cca5b703422bbb3ad81",
+  "fingerprint": "f726b28e0cee676e34a0aca3895082459923129a73d22d2cb3828b19b47476f0",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "6999eaff8ada039a2b083189f8073e385c46355ed754e77c5123a136cff11a01",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:20.900Z",
+  "elapsedMs": 655,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

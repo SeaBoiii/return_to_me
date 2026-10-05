@@ -1,0 +1,20 @@
+{
+  "lineId": "uni-arrival-016",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "My alarm deserved attention because I was suffering. Its verdict did not deserve obedience because it accused strangers. Learning to hold both truths would become part of the wild ride ahead.",
+  "voiceUrl": "voices/chapter-ns/uni-arrival-016.mp3",
+  "durationMs": 14472,
+  "audioSha256": "0785bab67965d305ea4d9b19146cceb1669b634c0000c8dc5b73f33131b4fbc4",
+  "audioBytes": 173996,
+  "textSha256": "b8c00413c98e02ca83b741afe4c3fd0ae525b887917f271246df0bc4f63d3ef9",
+  "fingerprint": "d0617cba0ed07d329cb8bbbad0558c4878e4335025661e6560335a4d7d53bd56",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "35de730a4a1ed50f9a52767fb196e9bf4a50384b40f692b02c234b9466b240ae",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:21.407Z",
+  "elapsedMs": 532,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

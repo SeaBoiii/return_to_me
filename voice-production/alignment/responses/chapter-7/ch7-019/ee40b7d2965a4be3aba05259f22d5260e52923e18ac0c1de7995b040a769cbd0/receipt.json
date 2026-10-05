@@ -1,0 +1,20 @@
+{
+  "lineId": "ch7-019",
+  "chapterId": "chapter-7",
+  "speakerId": "adult-aleem",
+  "text": "The next workday, I reached the pantry and found her making a drink. There was a strange little pause before she asked how I was. I could hear the care in the ordinary question, and the uncertainty about whether ordinary questions were still allowed. I was grateful she had asked anyway.",
+  "voiceUrl": "voices/chapter-7/ch7-019.mp3",
+  "durationMs": 18720,
+  "audioSha256": "8e1753ef78025e2b217e785aca91caf3ca9fbd53c6bea05e6035418c78b2d07d",
+  "audioBytes": 224972,
+  "textSha256": "6c33b9e1153b7307fd8b11df221f1214e292ea6f5ab10c678a80364a99d389d7",
+  "fingerprint": "ee40b7d2965a4be3aba05259f22d5260e52923e18ac0c1de7995b040a769cbd0",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "0f33ca2296b4aa05b82d5d52303154069e5dd6a271ba867af10b3586b3bd7f93",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:37.201Z",
+  "elapsedMs": 479,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

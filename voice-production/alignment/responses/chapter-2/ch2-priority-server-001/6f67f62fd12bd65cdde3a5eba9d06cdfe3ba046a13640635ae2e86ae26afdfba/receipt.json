@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-priority-server-001",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "I told myself I needed only ten minutes to stabilise the server. Ten became forty. By the time I reached for my phone, Hana's message simply said she was going to sleep.",
+  "voiceUrl": "voices/chapter-2/ch2-priority-server-001.mp3",
+  "durationMs": 11904,
+  "audioSha256": "ecc69b26e9aa52eaa25d764bd1b6e6efe29712551077dc1cd30317547f3271c4",
+  "audioBytes": 143180,
+  "textSha256": "58d38cad77fccf364fc9205b03a30f9f3152bf94190d33f1c8136c00fe273f37",
+  "fingerprint": "6f67f62fd12bd65cdde3a5eba9d06cdfe3ba046a13640635ae2e86ae26afdfba",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "2863d2879da4d377de27a59dcf88d43d75c49d822fa54993afeab6182f7d33b4",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:30.555Z",
+  "elapsedMs": 470,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

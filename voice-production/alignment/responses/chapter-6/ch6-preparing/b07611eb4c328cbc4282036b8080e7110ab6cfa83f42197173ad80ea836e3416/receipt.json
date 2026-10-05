@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-preparing",
+  "chapterId": "chapter-6",
+  "speakerId": "adult-aleem",
+  "text": "I asked whether the date still worked for her and read her yes with ridiculous relief. I was careful to make the outing sound casual when we talked about it. Afterwards, I went back to planning a moment she had no reason to expect. Even now, with a confession ahead, secrecy felt easier than letting her see me nervous.",
+  "voiceUrl": "voices/chapter-6/ch6-preparing.mp3",
+  "durationMs": 21360,
+  "audioSha256": "1f2bc5f16a6c0f9ff0185872516eba2c43001656de8932501020b2ed32d338bd",
+  "audioBytes": 256652,
+  "textSha256": "6b3201d99e1e67ad6fee61b84a2bcebb980e5cc5dc096721f8675a8d54f22e67",
+  "fingerprint": "b07611eb4c328cbc4282036b8080e7110ab6cfa83f42197173ad80ea836e3416",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "0f1178b04bdf55719b7d385e86dd4feb21ddbbd5e0e179d867c8628b2c3b8301",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:28.483Z",
+  "elapsedMs": 689,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

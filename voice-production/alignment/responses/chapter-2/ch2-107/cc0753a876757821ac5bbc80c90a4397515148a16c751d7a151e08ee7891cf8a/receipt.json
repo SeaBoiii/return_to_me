@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-107",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "A bad result can close doors. It can change the route, cost time, and demand humility. What it cannot do is issue a final judgement on the life standing before it.",
+  "voiceUrl": "voices/chapter-2/ch2-107.mp3",
+  "durationMs": 12312,
+  "audioSha256": "7c057c87c7c98a27388a8ca3d0c3fbfec3b1a0f7005cfe89005ca1768096b38d",
+  "audioBytes": 148076,
+  "textSha256": "dd0145b81f2de50494b72eed167b6e21cf830b737bde50507db18b0d6db611b6",
+  "fingerprint": "cc0753a876757821ac5bbc80c90a4397515148a16c751d7a151e08ee7891cf8a",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "49e7f477528d0ec5c3025a58e53c1a1563e5d606ff199f4e763394cbe72a21b9",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:43.206Z",
+  "elapsedMs": 479,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

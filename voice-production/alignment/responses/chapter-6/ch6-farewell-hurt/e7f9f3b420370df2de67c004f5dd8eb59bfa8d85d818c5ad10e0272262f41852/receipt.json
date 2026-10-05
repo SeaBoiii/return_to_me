@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-farewell-hurt",
+  "chapterId": "chapter-6",
+  "speakerId": "aleem-adult",
+  "text": "I don't think I can face you right now. Every normal thing would hurt, even you asking about my day. I don't want you to have to watch everything you say around me. I need some distance because I don't know how to do this yet.",
+  "voiceUrl": "voices/chapter-6/ch6-farewell-hurt.mp3",
+  "durationMs": 11424,
+  "audioSha256": "3c8ee6ec6c796e0b2f3b94d0c7793b6c94a61e39220d358fc0a7397c3ebc0320",
+  "audioBytes": 137420,
+  "textSha256": "ab6561cf54a40827d79c37acf5fcc6b20e6b30dfba2a730182598f36713d5366",
+  "fingerprint": "e7f9f3b420370df2de67c004f5dd8eb59bfa8d85d818c5ad10e0272262f41852",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "7a55e8d2e5070811dc8655a02ed68769c78076d1079db058a0dc296613eaa8df",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:32.625Z",
+  "elapsedMs": 440,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

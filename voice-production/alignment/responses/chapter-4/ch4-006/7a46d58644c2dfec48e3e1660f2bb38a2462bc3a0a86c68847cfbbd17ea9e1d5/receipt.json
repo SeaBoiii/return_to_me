@@ -1,0 +1,20 @@
+{
+  "lineId": "ch4-006",
+  "chapterId": "chapter-4",
+  "speakerId": "adult-aleem",
+  "text": "I did not argue or continue pursuing them. I accepted the boundary in front of me. Respecting a no was important, even while the frequency of my asking revealed that I was not truly ready for a yes.",
+  "voiceUrl": "voices/chapter-4/ch4-006.mp3",
+  "durationMs": 12864,
+  "audioSha256": "e3b5a3e8c26054b78a2e0518afcddbf6e1ccf3312810ee643758f6cab42d33df",
+  "audioBytes": 154700,
+  "textSha256": "c322d778f658fb9524ea010bec7d1154ec94d496a306094f6150b420e817e9a5",
+  "fingerprint": "7a46d58644c2dfec48e3e1660f2bb38a2462bc3a0a86c68847cfbbd17ea9e1d5",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "96bba67f416ff80f20390c43b5cc57d4fedde2219eb630ae852853d0c42e968d",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:55.404Z",
+  "elapsedMs": 457,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

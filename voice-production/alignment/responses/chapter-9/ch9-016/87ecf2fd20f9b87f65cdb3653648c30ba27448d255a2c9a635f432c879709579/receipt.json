@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-016",
+  "chapterId": "chapter-9",
+  "speakerId": "adult-aleem",
+  "text": "Nadiah was there too, woven into the ordinary rhythm of the group. We greeted each other. We ended up within the same conversations. Each encounter was small, but the accumulated fear I had attached to seeing her again did not match what happened. I could look up, find her nearby, and feel pleased before I felt anything else.",
+  "voiceUrl": "voices/chapter-9/ch9-016.mp3",
+  "durationMs": 24000,
+  "audioSha256": "87ccab330da0986f6ce2b7647b698154b495dafd8097b0f9a25f19bc65d12577",
+  "audioBytes": 288332,
+  "textSha256": "a8632a70287e4b793b0f022ddcfb02df729eadd5a23f64dc57cb28355208eeb6",
+  "fingerprint": "87ecf2fd20f9b87f65cdb3653648c30ba27448d255a2c9a635f432c879709579",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "02a2a85de344edf5f3c55e25b3ec6fc87e77ac93d211cf334947d06ce073437a",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:46.257Z",
+  "elapsedMs": 612,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

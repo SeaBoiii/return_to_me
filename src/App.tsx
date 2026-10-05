@@ -288,6 +288,7 @@ function SettingsPanel({
           </span>
           <input
             type="range"
+            aria-describedby="text-speed-help"
             min="0"
             max="60"
             step="6"
@@ -297,6 +298,7 @@ function SettingsPanel({
             }
           />
         </label>
+        <p id="text-speed-help" className={styles.smallPrint}>Text follows the voice as each word is spoken. This speed applies to muted or unavailable voices. Choose Instant to show the full passage immediately.</p>
         <label>
           <span>
             Voice volume <small>{Math.round(settings.volume * 100)}%</small>

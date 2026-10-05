@@ -1,0 +1,20 @@
+{
+  "lineId": "ch7-pantry-routine",
+  "chapterId": "chapter-7",
+  "speakerId": "adult-aleem",
+  "text": "I learned to recognise her footsteps when she came into the pantry. Some afternoons she only had time to refill her cup, but we could fit a surprising amount of conversation around the kettle. If one of us had been quiet all morning, the other noticed. Being noticed made the unfamiliar parts of working life feel less lonely.",
+  "voiceUrl": "voices/chapter-7/ch7-pantry-routine.mp3",
+  "durationMs": 19104,
+  "audioSha256": "839479230a2e985ec9727515ef5aebf7c48f3ba804b215aa37e9aac655a50f2c",
+  "audioBytes": 229580,
+  "textSha256": "e3deba0d942a26683502ddd4562916826b4a1a6a49ccee108e579489e071d0db",
+  "fingerprint": "bb287a49ab3a789c358e9229f2d1bca195a50077f3f8d6d8c3148a5646b5c43f",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "3b0285f6cf8f90bf39b44e18a94ef329637a85f1965225d9cb053b7def6a5b4a",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:34.879Z",
+  "elapsedMs": 464,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch8-001",
+  "chapterId": "chapter-8",
+  "speakerId": "adult-aleem",
+  "text": "Just when I thought I had nothing left to ask for, a different thought settled in my heart: go to the holy land. It came quietly. No sudden certainty that everything would work out, no explanation for the years behind me. Only a pull towards somewhere I had wanted to go, for reasons deeper than this latest hurt.",
+  "voiceUrl": "voices/chapter-8/ch8-001.mp3",
+  "durationMs": 21120,
+  "audioSha256": "c9c63442941a4008fd276b87c75aeb5fac9e2b053cd4c90339d8be7b7afe015e",
+  "audioBytes": 253772,
+  "textSha256": "4a2d0cf53b61619a1f2ee066264533595b58360082a7b0bca2bc58447b856ace",
+  "fingerprint": "7c26c727b3117c81b780cb0563c3006b7e2e139baacced320bebb22454349c33",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "988f84242dcd4e84348e6de9e86f7cd0ec13efa34a1a846eb1f85eaa00c51ac0",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:41.960Z",
+  "elapsedMs": 524,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

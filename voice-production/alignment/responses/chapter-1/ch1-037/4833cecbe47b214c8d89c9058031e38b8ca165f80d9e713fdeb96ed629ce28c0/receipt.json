@@ -1,0 +1,20 @@
+{
+  "lineId": "ch1-037",
+  "chapterId": "chapter-1",
+  "speakerId": "alya",
+  "text": "I should have told you. I kept thinking I would find the right time, and then more time passed. That was not fair to you.",
+  "voiceUrl": "voices/chapter-1/ch1-037.mp3",
+  "durationMs": 9432,
+  "audioSha256": "37dd352e2717dc9c38b21d619c0d1e295e317f913052ae1ec086e3a567b9c5d9",
+  "audioBytes": 113516,
+  "textSha256": "9c9ef87f45838a061959c28ada616bffe3feb90d66f4a4ed75290ef3d099f06e",
+  "fingerprint": "4833cecbe47b214c8d89c9058031e38b8ca165f80d9e713fdeb96ed629ce28c0",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "270e323f91966d6d8f0afb6191cd41aaf469374ef7c1894e31cd39838c24eace",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:19.064Z",
+  "elapsedMs": 433,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

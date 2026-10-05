@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-006",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "During Hari Raya, my family visited one of my father's good friends. Nadiah was connected through that family's wider circle—the niece of his friend's brother—a relationship distant enough that we had never properly met.",
+  "voiceUrl": "voices/chapter-ns/ns-006.mp3",
+  "durationMs": 12240,
+  "audioSha256": "28d6eb51addd5d5eeb0d4f8ac15ebe80b22adb87546dfc14643f2ccd9a6098ff",
+  "audioBytes": 147212,
+  "textSha256": "99e7004ca81b463d6db046a67104efc46e6105398eee2edfbc2a4fed9456eeaa",
+  "fingerprint": "f80971fa1313078e31a1dea5352ece39e105758ebf39152303e580bc3e33228c",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "824aec5fb59722734f39c2d8819f0d0d19b10f4d46001250d5f1d1428960a541",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:07.631Z",
+  "elapsedMs": 413,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

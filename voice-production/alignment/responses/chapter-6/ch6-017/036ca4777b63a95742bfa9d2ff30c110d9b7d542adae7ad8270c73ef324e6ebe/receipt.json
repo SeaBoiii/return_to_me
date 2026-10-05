@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-017",
+  "chapterId": "chapter-6",
+  "speakerId": "adult-aleem",
+  "text": "And I began keeping watch. If a guy asked whether she was joining something, I listened for more than the question. Did he ask anyone else? Was he finding excuses to message? A friendly conversation could become a threat in the few seconds it took me to decide he liked her.",
+  "voiceUrl": "voices/chapter-6/ch6-017.mp3",
+  "durationMs": 17832,
+  "audioSha256": "8d1ad64b361166d712fa80a4d2ac729bb708812721a08f762d1de2682d4e2ecc",
+  "audioBytes": 214316,
+  "textSha256": "2ff4522d135e37cbb924fe1d80488aac2507527145be583a9b20303e3b7acd91",
+  "fingerprint": "036ca4777b63a95742bfa9d2ff30c110d9b7d542adae7ad8270c73ef324e6ebe",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "bc4ed2cd045c832a89ee9b8787c5b29444abeb8a8aff993ced9f7f6edaae5470",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:25.375Z",
+  "elapsedMs": 468,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

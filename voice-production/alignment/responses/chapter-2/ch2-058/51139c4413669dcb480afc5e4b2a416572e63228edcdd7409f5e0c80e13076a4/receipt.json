@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-058",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "My days narrowed. At school, I thought about the server. At home, I managed it. When Hana spoke, part of me listened while another part counted unresolved tasks.",
+  "voiceUrl": "voices/chapter-2/ch2-058.mp3",
+  "durationMs": 12000,
+  "audioSha256": "51bade731e7d444849f9dd24ad8c71b2a0ce4c4fa0f5e17c8b45ce68db7c0e3e",
+  "audioBytes": 144332,
+  "textSha256": "2fda8c3d28b33c2a8851b59a4c3fe3bf43a07d7fd13b131e12076ea199a5a12f",
+  "fingerprint": "51139c4413669dcb480afc5e4b2a416572e63228edcdd7409f5e0c80e13076a4",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "375263f07e1d6595a8628ed78be3a5a8846c105c45b644df57e03fa49943e1ba",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:32.860Z",
+  "elapsedMs": 441,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch10-009",
+  "chapterId": "chapter-10",
+  "speakerId": "adult-aleem",
+  "text": "Then a breath left me. A long, unplanned sigh, deeper than the ordinary breaths before it. It felt as if something had come out with it, something I had been keeping pressed inside my chest without knowing how firmly I held it. I remained still, surprised by the space it seemed to leave behind.",
+  "voiceUrl": "voices/chapter-10/ch10-009.mp3",
+  "durationMs": 20304,
+  "audioSha256": "5a9e19a064f95fdccec9d1bbd17a3b4483e1d56882370a0923e8681ea7e9c2b3",
+  "audioBytes": 243980,
+  "textSha256": "621ec240cfd5641a192be49f0a37d94b6961da9ca0bbf1026a80ea00bac868c0",
+  "fingerprint": "9a9d651d1b25a78eca624610ab96ee870ac7b99ec19c4096b9200cda6a94c7e4",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "0a096881c908ffad630322dddfaabb92933b9c846f3c7607fa2c791d14ae094e",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:54.564Z",
+  "elapsedMs": 492,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

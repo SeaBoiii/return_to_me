@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-019",
+  "chapterId": "chapter-9",
+  "speakerId": "adult-aleem",
+  "text": "When we climbed Jabal Nur, there were five of us together at the beginning. I remember the company more clearly than any precise arrangement: voices close enough to answer, people checking their footing, the small negotiations of finding a pace. Nadiah was among us. At first, speaking to her was part of speaking to everyone.",
+  "voiceUrl": "voices/chapter-9/ch9-019.mp3",
+  "durationMs": 21600,
+  "audioSha256": "6ab776a16fa09258f859e9a46a5d9f438ae051aafebc5664777d37a3afbbcd5d",
+  "audioBytes": 259532,
+  "textSha256": "f10adad86bbb8880a28548b653617c8cdea3bbde53665b0bccf0419539807f4b",
+  "fingerprint": "dcf6c06e66d52bdc77ea750ce5ea67243699d07e12874ba49355c83185733c27",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "679d0ab48854a24c29f6268d0954061a3e01684070e53617b35bc04678af232e",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:46.775Z",
+  "elapsedMs": 513,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

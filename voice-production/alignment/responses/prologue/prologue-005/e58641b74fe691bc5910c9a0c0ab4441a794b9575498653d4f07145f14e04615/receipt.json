@@ -1,0 +1,20 @@
+{
+  "lineId": "prologue-005",
+  "chapterId": "prologue",
+  "speakerId": "adult-aleem",
+  "text": "Before I could recognise the love of my life, I had to become someone capable of meeting her. That becoming was untidy. It passed through school corridors, glowing phone screens, and choices I understood only years later.",
+  "voiceUrl": "voices/prologue/prologue-005.mp3",
+  "durationMs": 16368,
+  "audioSha256": "497d9f0c00d4d1780fce0ec4692a2e45f8f5955cb76dc0e5854783dcb4514baa",
+  "audioBytes": 196748,
+  "textSha256": "b2a7f3afa0331de15ee7cd19da7047ca957a42b28b478f19dbb188d388ba434a",
+  "fingerprint": "e58641b74fe691bc5910c9a0c0ab4441a794b9575498653d4f07145f14e04615",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "132f27f506a9251a8faf009a6fff97578b7dfbe3827b1a95e3d49d3a0701dc1d",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:09.518Z",
+  "elapsedMs": 1022,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

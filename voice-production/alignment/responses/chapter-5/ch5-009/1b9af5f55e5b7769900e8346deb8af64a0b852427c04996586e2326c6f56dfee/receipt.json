@@ -1,0 +1,20 @@
+{
+  "lineId": "ch5-009",
+  "chapterId": "chapter-5",
+  "speakerId": "adult-aleem",
+  "text": "In the days afterward, our class exchanged plans and consolation. Mei Lin answered messages politely but sounded compressed, as if every conversation might become another demand to explain what had gone wrong.",
+  "voiceUrl": "voices/chapter-5/ch5-009.mp3",
+  "durationMs": 13440,
+  "audioSha256": "058baf3ebc1fa49d6d84b1c038382ff8e90e5149214011a12fc55da34a7c261f",
+  "audioBytes": 161612,
+  "textSha256": "1ac084ec449f1750ab8335e319818747bb180d455bb3ef2ff78859e0193e948c",
+  "fingerprint": "1b9af5f55e5b7769900e8346deb8af64a0b852427c04996586e2326c6f56dfee",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "6cc3885aa030030ac26e16194f578c157ab1492826b8ad3bf2a93e247654bed6",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:01.280Z",
+  "elapsedMs": 453,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

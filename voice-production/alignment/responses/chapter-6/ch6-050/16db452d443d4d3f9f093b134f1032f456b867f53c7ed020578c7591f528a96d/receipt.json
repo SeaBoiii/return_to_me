@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-050",
+  "chapterId": "chapter-6",
+  "speakerId": "jia-wen",
+  "text": "What happens to us now? Can we still be friends?",
+  "voiceUrl": "voices/chapter-6/ch6-050.mp3",
+  "durationMs": 4224,
+  "audioSha256": "650fffb3381b683d5ec0d9bdf953c991547cf2362a42c5a5599de80e979e6cd3",
+  "audioBytes": 51020,
+  "textSha256": "dcc0070e4936f12b957fb0ce87efb66797c9441bfc4b29ec73d7c34de0692ef1",
+  "fingerprint": "16db452d443d4d3f9f093b134f1032f456b867f53c7ed020578c7591f528a96d",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "8f4ce330cfb88b2d2266142b068a1c370292f3c6111dd111d41663209a88f937",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:32.041Z",
+  "elapsedMs": 340,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

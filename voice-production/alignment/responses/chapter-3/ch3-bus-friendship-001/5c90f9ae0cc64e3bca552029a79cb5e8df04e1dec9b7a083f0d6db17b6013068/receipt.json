@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-bus-friendship-001",
+  "chapterId": "chapter-3",
+  "speakerId": "aleem-sec",
+  "text": "She is my friend. I should be grateful for that instead of measuring every kind thing for a hidden message.",
+  "voiceUrl": "voices/chapter-3/ch3-bus-friendship-001.mp3",
+  "durationMs": 4608,
+  "audioSha256": "52fdc0cbc1745463b8e76580571cf924b52c6418cd3929902c0ee00c50411088",
+  "audioBytes": 55628,
+  "textSha256": "b9a672ee5a08aa01a69ecd7110fc6d7383e16484aef3807dd2dfc0621e36c25c",
+  "fingerprint": "5c90f9ae0cc64e3bca552029a79cb5e8df04e1dec9b7a083f0d6db17b6013068",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "92002c297b42184cf1844d379f47074ae8a1fc2080ecd80c493e4d0249eebb75",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:47.920Z",
+  "elapsedMs": 340,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-090",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "By 2013, the largest consequence was already waiting. O Levels were no longer a distant threat used by teachers to focus a noisy class. The examinations had dates.",
+  "voiceUrl": "voices/chapter-2/ch2-090.mp3",
+  "durationMs": 12384,
+  "audioSha256": "28de621eae0840329c1f5cc33f779fda4a98ab5e30ec5b53204b8a44d8d03f96",
+  "audioBytes": 148940,
+  "textSha256": "e188612fc3d2ddb42c20aa18c6141d3eb5bf3c151ee9b96a6d0d688cf8da28df",
+  "fingerprint": "736d31e670f950fc38d1c14386916ca6f1fefc849d210d8ba258d25188195e47",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "2e89d4c8dcc103e5b15403eb47f20c1fc50406b6e61a165e8013b2666d2a2652",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:39.383Z",
+  "elapsedMs": 578,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

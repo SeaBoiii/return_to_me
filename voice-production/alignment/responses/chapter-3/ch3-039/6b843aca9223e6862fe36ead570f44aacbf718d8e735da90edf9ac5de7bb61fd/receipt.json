@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-039",
+  "chapterId": "chapter-3",
+  "speakerId": "adult-aleem",
+  "text": "The rides did not recover their old ease. We remained civil, then less present in each other's routines. The queue where I had once waited through two buses became only a place to get home.",
+  "voiceUrl": "voices/chapter-3/ch3-039.mp3",
+  "durationMs": 13440,
+  "audioSha256": "62a32de873bba35d47df9229fda00714b37a80403d00f8527411b8b7139d80de",
+  "audioBytes": 161612,
+  "textSha256": "a0397052779199a491f4f8da01041dda4f69a9789fcf695e0758473c82e2fda8",
+  "fingerprint": "6b843aca9223e6862fe36ead570f44aacbf718d8e735da90edf9ac5de7bb61fd",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "a4742b714d3525ac702877a868303f853084d474e454526c8e0f81edd8a1d2c8",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:52.932Z",
+  "elapsedMs": 516,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

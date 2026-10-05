@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-041",
+  "chapterId": "chapter-9",
+  "speakerId": "adult-aleem",
+  "text": "As we spoke more during the trip, I began noticing smaller things too. Sometimes an answer would arrive after a hesitation, her expression changing before she found the words. Sometimes a conversation that had been easy would become quieter for a moment. She remained kind. Still, I could feel myself reaching towards something that didn't quite meet me.",
+  "voiceUrl": "voices/chapter-9/ch9-041.mp3",
+  "durationMs": 23592,
+  "audioSha256": "dff330eef9d255b56da5062a1bdc12dd04b3da33445ed2d2f9c6b5327ae61286",
+  "audioBytes": 283436,
+  "textSha256": "dc1ed4b4d6098e9642194df1fd6a8de2d50227e946321425bfe229a35bbe1b86",
+  "fingerprint": "a03446fbe8c3ea27109c1478340da28e062ab5cad9f3c590a4cc9012746c3c5a",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "c73b6ebfa8b180dca01f3d4a0e468f25a76480dcb5c12a8fe69178c63c3800a7",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:52.288Z",
+  "elapsedMs": 535,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch10-025",
+  "chapterId": "chapter-10",
+  "speakerId": "adult-aleem",
+  "text": "I sat, smiling before I had found something to say. Their company had become one of the quiet comforts of the trip. There was no particular performance needed from me. I could contribute to the conversation or listen, and remain welcome either way. I liked seeing how often they made room for other people within their ease with each other.",
+  "voiceUrl": "voices/chapter-10/ch10-025.mp3",
+  "durationMs": 21024,
+  "audioSha256": "0a904e4ac12d400d0b3a66f9e08f907fc7b99eda5b687dca45606add1f018206",
+  "audioBytes": 252620,
+  "textSha256": "db34467e2da60e8ace1f85941af42033388a2ad362cf5c3e1027248149576bc8",
+  "fingerprint": "37e07c6e7eaae86821b534bc68fd5c0605dd6598d045932e9e762152f5e7d31d",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "ff065c99063373f06842392712794a0916b12d1bfe4b9db3a22e8511f06c0120",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:59.006Z",
+  "elapsedMs": 511,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-019",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "Faris noticed before I told him. He was short and round, with fluffy hair, glasses, and the relaxed confidence of someone who considered awkwardness a problem other people had.",
+  "voiceUrl": "voices/chapter-2/ch2-019.mp3",
+  "durationMs": 11040,
+  "audioSha256": "a5106e72990edd6319ed9c41e40875d1816e112614f518538a988582cf7a69e8",
+  "audioBytes": 132812,
+  "textSha256": "1d3a2a1e6cf59e8a782720e4f54ca0b48a2999d3a7f2bbc0a491fa0fab676a20",
+  "fingerprint": "5a84df6dc63702bddbc04e8594838bc3e775950aabce6a7840d342063ea50e24",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "6651d61f9e5537132f9241e9842720cb58d260d85226b1c54eadd1096a3c94fb",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:24.959Z",
+  "elapsedMs": 643,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

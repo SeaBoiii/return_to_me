@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-030",
+  "chapterId": "chapter-3",
+  "speakerId": "syafiqa",
+  "text": "I care about you, but I do not want a relationship. I really need to focus on my studies now. I hope we can still be friends.",
+  "voiceUrl": "voices/chapter-3/ch3-030.mp3",
+  "durationMs": 9600,
+  "audioSha256": "32be10b8fdfc52f965434d6bf6a687f6f5b0817af706d681730210d9fa716294",
+  "audioBytes": 115532,
+  "textSha256": "36d286189e0e80b96b0ecba0bb56036db46fc2e06a19d5a34a129f9538219adc",
+  "fingerprint": "aaed11f0b9e0abf1613c93326d4a276b3991782f868916c5cbc3d3a8dd4dc5e2",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "cc0fc1cef2132964e4639e97abcdff9977c914718b3449d810fbfea50740fd2a",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:50.332Z",
+  "elapsedMs": 442,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

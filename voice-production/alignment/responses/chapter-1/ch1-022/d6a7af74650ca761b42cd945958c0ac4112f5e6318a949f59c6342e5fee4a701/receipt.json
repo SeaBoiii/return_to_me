@@ -1,0 +1,20 @@
+{
+  "lineId": "ch1-022",
+  "chapterId": "chapter-1",
+  "speakerId": "alya",
+  "text": "Promise?",
+  "voiceUrl": "voices/chapter-1/ch1-022.mp3",
+  "durationMs": 3192,
+  "audioSha256": "8906528f250afed623f7d93e6bdc451b90e4b9d9e4e6f08e6bf75009b2ea7418",
+  "audioBytes": 38636,
+  "textSha256": "f591df6de068dbc1823ac4d8fb4fb6aec8ee327b480bf5179a0e615b217ad69d",
+  "fingerprint": "d6a7af74650ca761b42cd945958c0ac4112f5e6318a949f59c6342e5fee4a701",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "26586e2e3cf08bcab6d8d020a6086879c9a9a32d113ef18e65f1fa00ac134a1e",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:15.096Z",
+  "elapsedMs": 452,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

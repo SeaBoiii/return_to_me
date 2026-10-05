@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-026",
+  "chapterId": "chapter-9",
+  "speakerId": "aleem-adult",
+  "text": "Last time you knew me, so much of my conversation was about camp. You must have been very patient.",
+  "voiceUrl": "voices/chapter-9/ch9-026.mp3",
+  "durationMs": 6864,
+  "audioSha256": "c5737dab075e13773a3fd0d90a764c5b80e7d87fb3ed51203fcb9bcfdb19673e",
+  "audioBytes": 82700,
+  "textSha256": "755e06b44a6a14ad2b1abacf23198e2d81c14846930416d457aec73bbd127768",
+  "fingerprint": "39a7a9efe4d1ca042c7de917f136ed3162c207c428b3f8bf4c9a75fda1b9bec8",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "f1648814eb57da50e0d7d4b13f86ab05df74e68dd161428106a90725d8a51460",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:48.613Z",
+  "elapsedMs": 358,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

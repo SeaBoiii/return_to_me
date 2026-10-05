@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-001",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "National Service began before the relief of my A-Level results had settled into confidence. The uniform gave every hour a purpose: wake, train, wait, move, clean, repeat. It was difficult, but difficulty with instructions felt safer than uncertainty without them.",
+  "voiceUrl": "voices/chapter-ns/ns-001.mp3",
+  "durationMs": 17520,
+  "audioSha256": "84249d576eab08853078016cb66185ed5369633119148a2c4b38119b74fde821",
+  "audioBytes": 210572,
+  "textSha256": "76dba65dd3d125b70ba97fc0fc420b570140569bced2f5f394194355694a46a4",
+  "fingerprint": "b5eb2503ed1a1bc08246f740c2829118e7153bee9efaff341c7507ba997b3500",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "87188647c4f686ab7b680185076d936865c32ecc691b14ed9fde455465008d40",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:07.213Z",
+  "elapsedMs": 593,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch7-017",
+  "chapterId": "chapter-7",
+  "speakerId": "claire",
+  "text": "I'm sorry, Aleem. I care about you, but I can't be with you that way. Our religions are different. Being with someone who shares my religion matters to me.",
+  "voiceUrl": "voices/chapter-7/ch7-017.mp3",
+  "durationMs": 13344,
+  "audioSha256": "b2c52f6ed24b354bd88f4697ec1d57bccab2aad8ae0d9e554eb7081625439aa6",
+  "audioBytes": 160460,
+  "textSha256": "1db1520cf2c542445493f0f5249b4359df0853d432c9f59cc936be48506c6068",
+  "fingerprint": "074ac6d3c02fde6b1fb8a687fdeb11046d30643bc7656cd1ec6f3895cfa39096",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "3205c71e13c4c22314aa99e595e6b93c48e22b260f89fd3ab9bfb01331d846d2",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:36.302Z",
+  "elapsedMs": 418,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

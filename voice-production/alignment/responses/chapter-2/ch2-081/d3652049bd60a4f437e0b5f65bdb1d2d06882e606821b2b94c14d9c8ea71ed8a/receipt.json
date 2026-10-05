@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-081",
+  "chapterId": "chapter-2",
+  "speakerId": "aleem-sec",
+  "text": "You could have said your feelings changed. Hearing it from somebody else makes me feel foolish.",
+  "voiceUrl": "voices/chapter-2/ch2-081.mp3",
+  "durationMs": 4536,
+  "audioSha256": "01fb8ee6395f9964d8fc6c986eec13b8112952de588eb59656dbaa1caf79d44c",
+  "audioBytes": 54764,
+  "textSha256": "920fef1704f6d99e7fef8576493c46baf7544a36ec765b0261b93b56f626a78f",
+  "fingerprint": "d3652049bd60a4f437e0b5f65bdb1d2d06882e606821b2b94c14d9c8ea71ed8a",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "22e5035f44f7667ff928a98196e414a5af415e9fa207cf627db89c428cd3d8e5",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:37.531Z",
+  "elapsedMs": 358,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-033",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "One day in camp, Aisyah—a pseudonym for Nadiah's friend—sent me a message. It began with a question that seemed small enough to answer casually: had I seen Nadiah's Instagram story from Universal Studios Singapore?",
+  "voiceUrl": "voices/chapter-ns/ns-033.mp3",
+  "durationMs": 14400,
+  "audioSha256": "b2b8208666ff806cec5358d99325a18f8dcb3084e454949047c89e004a39ea68",
+  "audioBytes": 173132,
+  "textSha256": "20a3ae9c659e14e801cb798416eb1a43b78b0681505806e0d51aafa226095dee",
+  "fingerprint": "36eac9a3239ceac4e56b6e0bfb5ef7a31664a5922928f034278818ab1bb7a4b8",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "9f5ff69d672ad23a1e9a4012c95372c9c57b7cf800121dfd57bd5bf5b126fffe",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:12.012Z",
+  "elapsedMs": 483,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

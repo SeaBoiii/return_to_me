@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-016",
+  "chapterId": "chapter-3",
+  "speakerId": "syafiqa",
+  "text": "If you are late tomorrow, I am leaving without you.",
+  "voiceUrl": "voices/chapter-3/ch3-016.mp3",
+  "durationMs": 3360,
+  "audioSha256": "819fb9be89ef67364021612c8dd329f3bba617a413573294a3330dd4ad61b923",
+  "audioBytes": 40652,
+  "textSha256": "fb1b0bea8129f1efe8c1a781b94d8fc5c7555cc1a1e8bf0283b9b2cd24ecb11f",
+  "fingerprint": "202c635cec0eb62da21de217e00952ffe037bd930e3aead1dfe0b5df240d0169",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "d1cb97317ce979ba55684a202f4794d839b07f3968e7e2129a35aafa09a2d5d5",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:45.930Z",
+  "elapsedMs": 322,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

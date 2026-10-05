@@ -1,0 +1,20 @@
+{
+  "lineId": "uni-arrival-threat-scan-join",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "With effort, I broke my gaze from the crowd. I told Hakim I had something else to do and moved toward the door, concentrating on each step until the lecture theatre released me.",
+  "voiceUrl": "voices/chapter-ns/uni-arrival-threat-scan-join.mp3",
+  "durationMs": 11184,
+  "audioSha256": "feb3458096c1ad95b7ff9ef4f4c67d482b45a099df724a710ee8cf5c8c7c122c",
+  "audioBytes": 134540,
+  "textSha256": "0380e931b407b2b26d0a6072a4aedf765a3d62e106eb84fe95eb0169b4b81a8e",
+  "fingerprint": "50a6da20a0e0dcf46b85ed82df529cf5e23fcef4ba98fe360e33c25f9250e133",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "3d0db1e96c8311377aa94479154b467cabf96e74d5bd06986f5e37240c928c64",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:20.728Z",
+  "elapsedMs": 415,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

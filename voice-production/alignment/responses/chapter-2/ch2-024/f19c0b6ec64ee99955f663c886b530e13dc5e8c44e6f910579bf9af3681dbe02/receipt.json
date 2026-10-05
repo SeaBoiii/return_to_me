@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-024",
+  "chapterId": "chapter-2",
+  "speakerId": "faris",
+  "text": "I can speak to her. Nothing dramatic. Just tell her you are interested and ask whether she would be comfortable talking to you about it.",
+  "voiceUrl": "voices/chapter-2/ch2-024.mp3",
+  "durationMs": 8232,
+  "audioSha256": "d1a5552f4d292fdd4e2a6f7cd6053d7c0e2e7cc80d79b2e31b6675d7ba532403",
+  "audioBytes": 99116,
+  "textSha256": "d8907dcbb90556601c04cfd0b2511ad48a8e834a25c1b4a935b9259bf5cb2085",
+  "fingerprint": "f19c0b6ec64ee99955f663c886b530e13dc5e8c44e6f910579bf9af3681dbe02",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "635d52ba458b880a4052a4422ae976ed26d3d17908049e43c7a47541df923c37",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:25.497Z",
+  "elapsedMs": 380,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

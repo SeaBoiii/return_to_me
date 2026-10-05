@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-question-surprise",
+  "chapterId": "chapter-6",
+  "speakerId": "adult-aleem",
+  "text": "I looked at the surprise on her face and wondered whether all my careful signals had simply looked like friendship. Had she spent these years beside somebody she trusted, while I kept waiting for her to understand a conversation we were not having? The possibility made my rehearsed certainty falter.",
+  "voiceUrl": "voices/chapter-6/ch6-question-surprise.mp3",
+  "durationMs": 16872,
+  "audioSha256": "18583cffc0f9a46c66c00b0d60841229c82c2c600236f1a3fe9c259b535e1490",
+  "audioBytes": 202796,
+  "textSha256": "f0ae6318f0025ab47164bba30db50d41c1137c017b1ad6581c61115cb8bda77d",
+  "fingerprint": "49eb6927ca68a851f2786072432adabcca68d661368402f45fe16b077452ec33",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "c0e84ffdcee7c8666bce0707bd4e1b00a2274096bf2deee2d91ac4f25b7ffbd0",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:31.315Z",
+  "elapsedMs": 484,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

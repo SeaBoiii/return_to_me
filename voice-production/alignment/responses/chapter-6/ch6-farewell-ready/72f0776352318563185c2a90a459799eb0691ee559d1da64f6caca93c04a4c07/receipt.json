@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-farewell-ready",
+  "chapterId": "chapter-6",
+  "speakerId": "aleem-adult",
+  "text": "I'm not ready. I know friends is what we've been, but in my head I kept waiting for something else. I can't just switch that off and come for lunch like nothing happened. I need to be away for a while.",
+  "voiceUrl": "voices/chapter-6/ch6-farewell-ready.mp3",
+  "durationMs": 9840,
+  "audioSha256": "1ab9185ac9616e311654ab80d8e336015cbd49ab26748ffd2a21faa25f5a6889",
+  "audioBytes": 118412,
+  "textSha256": "f6f51e47f47b989fee70141ef72abeb4fbd702b6752e6ead5ecd4a922b1cee06",
+  "fingerprint": "72f0776352318563185c2a90a459799eb0691ee559d1da64f6caca93c04a4c07",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "53c709226870b7fd05a195a0ae227bc21b540732ca83d0c85e8a05ae3b236c26",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:32.442Z",
+  "elapsedMs": 396,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

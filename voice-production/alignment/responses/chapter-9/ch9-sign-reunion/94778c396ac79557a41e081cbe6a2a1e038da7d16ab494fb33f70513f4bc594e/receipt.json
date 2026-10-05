@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-sign-reunion",
+  "chapterId": "chapter-9",
+  "speakerId": "adult-aleem",
+  "text": "I allowed myself to picture another beginning with her. We were older now. We could speak differently, understand more. The possibility felt lovely before any difficult questions reached it, and for that moment I let myself want it.",
+  "voiceUrl": "voices/chapter-9/ch9-sign-reunion.mp3",
+  "durationMs": 16152,
+  "audioSha256": "cbf41e9bf6b1fae6e8e7c5bb719219344e80617fc2e7fc8623ba7076e1379106",
+  "audioBytes": 194156,
+  "textSha256": "4d8c20e42875c77f8e880367eb39641e9c5440dd7c431403f8c2c4bdc83ac15c",
+  "fingerprint": "94778c396ac79557a41e081cbe6a2a1e038da7d16ab494fb33f70513f4bc594e",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "9ecf5c805918e8a099b84899f34f836fbcfd9a04d51909d851ec5d97cc2ddef0",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:50.900Z",
+  "elapsedMs": 464,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

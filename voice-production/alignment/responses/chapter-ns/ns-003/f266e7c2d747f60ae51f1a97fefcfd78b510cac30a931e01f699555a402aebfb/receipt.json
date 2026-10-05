@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-003",
+  "chapterId": "chapter-ns",
+  "speakerId": "aleem-young-adult",
+  "text": "Do the work in front of you. Do not expect too much from anyone. That is how you avoid being surprised.",
+  "voiceUrl": "voices/chapter-ns/ns-003.mp3",
+  "durationMs": 7200,
+  "audioSha256": "ea235f9559a2ace10098de626d1e37133a97fe15626808b37b671de9a59a4315",
+  "audioBytes": 86732,
+  "textSha256": "bc33c891defa78f0f2608061642cedfc770426cb7f482ff380bc7e133f90ef5e",
+  "fingerprint": "f266e7c2d747f60ae51f1a97fefcfd78b510cac30a931e01f699555a402aebfb",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "4894b3ca9c33c65074b228ea6a4c4d23be2d5e718a8c7a3eb685d94b2654f135",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:07.180Z",
+  "elapsedMs": 403,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

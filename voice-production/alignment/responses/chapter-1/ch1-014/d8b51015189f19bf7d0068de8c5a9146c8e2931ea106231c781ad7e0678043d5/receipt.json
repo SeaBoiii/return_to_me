@@ -1,0 +1,20 @@
+{
+  "lineId": "ch1-014",
+  "chapterId": "chapter-1",
+  "speakerId": "adult-aleem",
+  "text": "We spoke about secondary school as if it were a foreign country. New uniforms. New subjects. Older students who, in our imagination, all knew exactly where to go.",
+  "voiceUrl": "voices/chapter-1/ch1-014.mp3",
+  "durationMs": 12240,
+  "audioSha256": "314c6b6b68a8a4156604fc757d4c9e6fed9355bf5cdb5654c18fe70b420e47bf",
+  "audioBytes": 147212,
+  "textSha256": "0f9a2196c46d6647685a1074fac4459137d63ed0dff9fbf37794cfa047ac7afe",
+  "fingerprint": "d8b51015189f19bf7d0068de8c5a9146c8e2931ea106231c781ad7e0678043d5",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "dcd4eb21d68a81793efdf2be0d91c58e4fc0daac02382301d65da69435317650",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:13.884Z",
+  "elapsedMs": 834,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

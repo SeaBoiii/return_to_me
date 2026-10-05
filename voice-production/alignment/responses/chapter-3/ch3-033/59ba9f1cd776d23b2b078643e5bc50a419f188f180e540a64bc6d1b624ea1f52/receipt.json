@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-033",
+  "chapterId": "chapter-3",
+  "speakerId": "adult-aleem",
+  "text": "For several days, I worked at accepting the answer exactly as given. We travelled separately. I told myself distance was respectful, not punishment, though some mornings I still watched the usual bus leave.",
+  "voiceUrl": "voices/chapter-3/ch3-033.mp3",
+  "durationMs": 13512,
+  "audioSha256": "18ae53f5f5456cd3cb16b95091ca7d1f6692ad2386bdaf013dba4068617d7873",
+  "audioBytes": 162476,
+  "textSha256": "f32b67c3fc937db7eb532383ba1abd5b34def80dc726e20eeaf7aaa8b61048a3",
+  "fingerprint": "59ba9f1cd776d23b2b078643e5bc50a419f188f180e540a64bc6d1b624ea1f52",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "bd355dd3a47ddd71dbb9db751d8ff4846f178f947e0505d670402fbae10d1c1c",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:50.791Z",
+  "elapsedMs": 454,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

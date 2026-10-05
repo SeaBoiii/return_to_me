@@ -1,0 +1,20 @@
+{
+  "lineId": "ch1-034",
+  "chapterId": "chapter-1",
+  "speakerId": "adult-aleem",
+  "text": "I read both again. Perhaps there was context I had missed. Perhaps 'he' meant someone else on behalf of a friend. Perhaps the words would rearrange themselves if I stared long enough.",
+  "voiceUrl": "voices/chapter-1/ch1-034.mp3",
+  "durationMs": 11904,
+  "audioSha256": "e30f7f5f686c29ad94f59edd4e41e9804e2789df92f1f9ad7679829a5b2f1748",
+  "audioBytes": 143180,
+  "textSha256": "ca546b2aa5dd229a05fb1795543133640d5a7d9cc8ceb700a36e63357cae1d77",
+  "fingerprint": "441139c0e985c02a259f8047e6fb0eabe2b9884466e8280717a149c11653ae18",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "fab4a86ba787343cc8aa9e78c1524c6ca2294fa267848a403a9d4dd8d1667252",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:17.289Z",
+  "elapsedMs": 606,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

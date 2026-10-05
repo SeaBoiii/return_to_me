@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-039",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "Shock moved through my body before thought could organise it. My throat tightened. Heat climbed beneath my uniform. I wanted to cry in front of everyone and wanted even more fiercely not to be seen crying.",
+  "voiceUrl": "voices/chapter-ns/ns-039.mp3",
+  "durationMs": 13992,
+  "audioSha256": "b432e53c06df11600178c2aa59a0bd472901762216dcb5569c8b9bb2721b4e58",
+  "audioBytes": 168236,
+  "textSha256": "456724f3af92e79494435d1cce6d7022d0b0ae37c2d9f5036d6284eeda54a9a2",
+  "fingerprint": "2a5125c146db1caff6ade0a4f9318f8a3bcc55c7ab05a36dca54dd0a065c9448",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "dbf9183e4c59bf17210ff9a56cb370875ed4c2bac86315ecaf087ac264cfb6e6",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:13.790Z",
+  "elapsedMs": 427,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

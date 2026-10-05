@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-061",
+  "chapterId": "chapter-11",
+  "speakerId": "aleem-adult",
+  "text": "Yeah. I'm glad we came.",
+  "voiceUrl": "voices/chapter-11/ch11-061.mp3",
+  "durationMs": 2304,
+  "audioSha256": "82ce595fefe3c7150d956002aaf95f6a10cba65aa68104212027a51a908b70bf",
+  "audioBytes": 27980,
+  "textSha256": "b56aceba3c5ca73ec5596f2d8d54982017049749112bc7a70ec1d4007d6e520b",
+  "fingerprint": "82c530e0edc301d22a4178a7f465a95116c121bae47b82f8028895cec29be3b7",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "331ce07d870680425da4de8f6625be9628702a4d84b86e511d506b259944882e",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:10.085Z",
+  "elapsedMs": 316,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

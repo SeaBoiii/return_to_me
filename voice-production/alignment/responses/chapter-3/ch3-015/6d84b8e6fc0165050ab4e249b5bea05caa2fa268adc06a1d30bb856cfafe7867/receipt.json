@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-015",
+  "chapterId": "chapter-3",
+  "speakerId": "adult-aleem",
+  "text": "Then the coincidence widened. We were classmates. We lived along the same direction home. Our mornings began at the same interchange, which gave us an easy reason to meet again the next day.",
+  "voiceUrl": "voices/chapter-3/ch3-015.mp3",
+  "durationMs": 12312,
+  "audioSha256": "f5fa5dd9d519f704c538a6f337c36bf98e3fcccd3a9b3b3d1ae7ea239043efa2",
+  "audioBytes": 148076,
+  "textSha256": "012040bc64c4d6c9798ec2cbd51a5e693142a3b5b7e51562a43e90331dca8f13",
+  "fingerprint": "6d84b8e6fc0165050ab4e249b5bea05caa2fa268adc06a1d30bb856cfafe7867",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "b552e4a83de813450f428805e42a87235673914d71343497e3a7350435f219a4",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:45.890Z",
+  "elapsedMs": 475,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch5-019",
+  "chapterId": "chapter-5",
+  "speakerId": "adult-aleem",
+  "text": "We moved without a timetable. She stopped for whatever caught her interest. I took photographs when asked and accepted several lectures about composition from somebody whose own thumb appeared in two pictures.",
+  "voiceUrl": "voices/chapter-5/ch5-019.mp3",
+  "durationMs": 12792,
+  "audioSha256": "dde5e1ab5eadb66c41056c1bf7f0f194fb1700555bfe2ed134830f5fb3deb825",
+  "audioBytes": 153836,
+  "textSha256": "a53e269865e90049c2f7f541ab7953f23e183278337b471b3db4670900a49af8",
+  "fingerprint": "a09da5b597c15bdfb5ad604ca52a9eaa0ad9eb56e7c00a2add3006de54b09359",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "a634e5ffde7b3babd7c0335482a8161732ec617aa2ea972787f0dc582213a983",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:02.831Z",
+  "elapsedMs": 395,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

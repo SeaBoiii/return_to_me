@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-044",
+  "chapterId": "chapter-2",
+  "speakerId": "hana",
+  "text": "That is actually amazing. You made a place people care about.",
+  "voiceUrl": "voices/chapter-2/ch2-044.mp3",
+  "durationMs": 4632,
+  "audioSha256": "83ca2426bdcb9861f7cba48e4c4f4a3833824b4b74f63c41274288acfa67fde5",
+  "audioBytes": 55916,
+  "textSha256": "f251d5c2e631b6fa0c9a77dab05c5b210ab39447b99a9da651d17cf4295ff600",
+  "fingerprint": "aacf3f72b981d916fe4e89bcf73303fe5ebe7ceecf70c36d74367a8986794a83",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "bb1051ccc7ce8a8824e4c4a0ab4b40a4081621f498d1773c4629127c72aaa185",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:29.521Z",
+  "elapsedMs": 343,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

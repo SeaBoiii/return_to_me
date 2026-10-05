@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-005",
+  "chapterId": "chapter-9",
+  "speakerId": "adult-aleem",
+  "text": "Nadiah. For a moment I could only look at her. The same girl from my National Service years, standing among people I had expected to meet for the first time. I had travelled here with the thought of setting my hurt down. One of the people at the centre of it had arrived too.",
+  "voiceUrl": "voices/chapter-9/ch9-005.mp3",
+  "durationMs": 18240,
+  "audioSha256": "60a137925ba2d69a98cb4a4b2b237a0992c8d84cee87de8ed0a008ae39466fce",
+  "audioBytes": 219212,
+  "textSha256": "ac9a215a597aea52cedb3c62f5064090288ca42f665859cd46c16a188c184692",
+  "fingerprint": "757940978f41c0de1bf30aa082e9b19efbc052e2af9a4da655c08d3cff6330dd",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "d53074fcdcc4f12f30161e80975f4131b09f9924b2858ee81a5eeb1446d21003",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:44.355Z",
+  "elapsedMs": 564,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

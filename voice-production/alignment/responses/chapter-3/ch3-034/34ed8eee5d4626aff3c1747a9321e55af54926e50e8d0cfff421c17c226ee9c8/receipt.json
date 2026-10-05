@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-034",
+  "chapterId": "chapter-3",
+  "speakerId": "adult-aleem",
+  "text": "A week after the confession, I saw Syafiqa elsewhere on campus, walking closely beside another boy. They looked at ease in the way people do when a conversation began long before you entered the scene.",
+  "voiceUrl": "voices/chapter-3/ch3-034.mp3",
+  "durationMs": 12480,
+  "audioSha256": "2ab70cc84e66b3137371a7ec5bf8b0b729f2dcdcc513f3d4a8a9778724aa122a",
+  "audioBytes": 150092,
+  "textSha256": "f38b55a1bf047905a4d693aecc26f41d8668414a0324ea0ed30b48300d550699",
+  "fingerprint": "34ed8eee5d4626aff3c1747a9321e55af54926e50e8d0cfff421c17c226ee9c8",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "4556ae97be3cba87f45b8bb485231864d6622f9866da9ee691d03f45381cbc7f",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:50.913Z",
+  "elapsedMs": 558,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

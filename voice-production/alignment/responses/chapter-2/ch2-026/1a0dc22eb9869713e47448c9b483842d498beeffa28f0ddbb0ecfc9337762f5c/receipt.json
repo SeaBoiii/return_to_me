@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-026",
+  "chapterId": "chapter-2",
+  "speakerId": "faris",
+  "text": "She said you should tell her yourself. This is good news, by the way.",
+  "voiceUrl": "voices/chapter-2/ch2-026.mp3",
+  "durationMs": 4560,
+  "audioSha256": "bd84653917e6f31cbe913e5c87df9731b4a9590bf22bd601fc6a276e21c8a8af",
+  "audioBytes": 55052,
+  "textSha256": "5d47fe2260cb742d97e256e12b4dc980e6b0da135891a5adfe4b98fd41f1e456",
+  "fingerprint": "1a0dc22eb9869713e47448c9b483842d498beeffa28f0ddbb0ecfc9337762f5c",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "cd503baea541422ecf478e0ebfb7607f9a7b3de85ceb795faaa589847d87ea45",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:26.403Z",
+  "elapsedMs": 405,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

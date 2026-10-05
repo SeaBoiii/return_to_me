@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-069",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "At language class, the easy rhythm between Hana and me faded. We still sat near each other, but conversation became practical. Page numbers. Assignment dates. Which bus was coming.",
+  "voiceUrl": "voices/chapter-2/ch2-069.mp3",
+  "durationMs": 12072,
+  "audioSha256": "f4baa601a00adab2d110b9c32159595bbefdd9f49f28e3ef9d522802236c8ab9",
+  "audioBytes": 145196,
+  "textSha256": "ac6a329c0b56f7d6f2f02d4bc021094c51fb0fd7aade0cb102aa8330e52c01f5",
+  "fingerprint": "83233a18ec3ea856413f0b7b00929bdbbc73dc60306a13dc7b890834bc5fd888",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "b5431f08296a2888fb48c26e96f2090e3f5209f0bb05586769b15c77da7ca6c1",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:34.874Z",
+  "elapsedMs": 447,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

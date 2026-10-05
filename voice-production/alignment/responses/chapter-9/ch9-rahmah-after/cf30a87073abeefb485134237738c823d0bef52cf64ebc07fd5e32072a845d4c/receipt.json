@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-rahmah-after",
+  "chapterId": "chapter-9",
+  "speakerId": "adult-aleem",
+  "text": "Afterwards, those minutes returned while I was doing other things. I would remember a phrase, the look she gave me, the way neither of us had hurried to fill the quiet. I could feel myself making room for her again. This time, at least, I recognised the movement in my own heart. I knew how much I wanted our closeness to mean something.",
+  "voiceUrl": "voices/chapter-9/ch9-rahmah-after.mp3",
+  "durationMs": 22392,
+  "audioSha256": "3df70021a3e86dd82db6449ba7c79d1f018010fa6e0de292f052e13cf3f82a69",
+  "audioBytes": 269036,
+  "textSha256": "142153f138623d0d6336fc476ee7b3ba7c94d1531ccf9e5b98abf591606e7f02",
+  "fingerprint": "cf30a87073abeefb485134237738c823d0bef52cf64ebc07fd5e32072a845d4c",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "1cee75dace937ec81e33ed5318ab119e78c5cf41c67ec07e3d24dd6beea16eb6",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:52.111Z",
+  "elapsedMs": 547,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

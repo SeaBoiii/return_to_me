@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-039",
+  "chapterId": "chapter-9",
+  "speakerId": "aleem-adult",
+  "text": "A bit. Also just taking it in. I'm glad we got to talk like this.",
+  "voiceUrl": "voices/chapter-9/ch9-039.mp3",
+  "durationMs": 4800,
+  "audioSha256": "8d8bf66ab1c627ac5c93535cde5a9c5390d8462d97d17f92f8ebdbc30934efee",
+  "audioBytes": 57932,
+  "textSha256": "60938dfe4cb84545a64a50631cd2d4c0de939bcbbf0bee1b64ad63f9941f461b",
+  "fingerprint": "9dd662e496273bc11fdd640099219816db2f69fdc1f01f8f0be46cd599216cd1",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "fd802645c20ec708b04bac197c2bee9c5356488077ded4b15cc5116acb0a6b7f",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:51.749Z",
+  "elapsedMs": 328,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

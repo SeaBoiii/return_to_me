@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-035",
+  "chapterId": "chapter-9",
+  "speakerId": "aleem-adult",
+  "text": "Apparently we keep choosing the same pace.",
+  "voiceUrl": "voices/chapter-9/ch9-035.mp3",
+  "durationMs": 3360,
+  "audioSha256": "71ce466ca4313fc4320f0e649df21010e826927f8cf0b4f1471b8c868b16fb42",
+  "audioBytes": 40652,
+  "textSha256": "ad14093b3a0a628da38c9ed63e4edb482c56728c9171e4d29680a76ca6493183",
+  "fingerprint": "d8e8fc90fadec57f30306f6d63d1a4d7c2822f19bc045d7d3cf358cf3f102259",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "8c05be0b1649c8884589ea49bf088e4369a96a1682e5d1b04e4b0645bea08c39",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:50.246Z",
+  "elapsedMs": 323,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-009",
+  "chapterId": "chapter-3",
+  "speakerId": "adult-aleem",
+  "text": "Orientation turned the campus into a tide of unfamiliar faces. I checked classroom signs twice, followed whichever crowd looked confident, and hoped nobody would ask why I had chosen the school.",
+  "voiceUrl": "voices/chapter-3/ch3-009.mp3",
+  "durationMs": 12480,
+  "audioSha256": "45a2d8379793f9ba42761666f2dc1defcac910027445f45547f8c013442027ec",
+  "audioBytes": 150092,
+  "textSha256": "2aecc9bc55628d690a9c2269503414be3882d4df98689b97ebc441138f0897cc",
+  "fingerprint": "2fcd5dd3d000de9fe8ceb70870318393897813c8149b71456517317d56d2786e",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "86a12d6a0d5992cbc9ebf30f247c671dffabbb102ed8d1cb8fbd7cec872b891b",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:45.010Z",
+  "elapsedMs": 598,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

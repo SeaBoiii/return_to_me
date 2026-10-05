@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-sharing-join",
+  "chapterId": "chapter-9",
+  "speakerId": "adult-aleem",
+  "text": "She listened without turning the answer into something I needed to defend. Then I asked about her. We exchanged the ordinary outlines of our present lives, pausing to clarify something, smiling when the years between updates became obvious. I found myself listening for what she was saying instead of rehearsing what I would say next.",
+  "voiceUrl": "voices/chapter-9/ch9-sharing-join.mp3",
+  "durationMs": 21504,
+  "audioSha256": "d037c7cda3a395b26a1e07f872b8409177e07ae6fe6986d710ef3d2f622bf7da",
+  "audioBytes": 258380,
+  "textSha256": "cff17ee87cdc934248de5be270db3ede455660b39fa744f145e803e97aff21e0",
+  "fingerprint": "02e6012da6d2c62fc21208ce9af1ad280e1f82edebfe43a12a18549f61262390",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "1667124bdbbd8b8d55f4aa908c08b035460842f0e8fccd0685634d597a6833d7",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:48.456Z",
+  "elapsedMs": 545,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

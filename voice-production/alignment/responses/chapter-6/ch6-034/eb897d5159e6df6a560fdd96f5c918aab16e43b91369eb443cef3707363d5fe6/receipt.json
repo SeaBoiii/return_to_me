@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-034",
+  "chapterId": "chapter-6",
+  "speakerId": "adult-aleem",
+  "text": "I went still, then tried to look as if I hadn't. Maybe I had misheard. Maybe they meant someone else. I checked my phone without reading anything, giving my hands a task while my mind went through every name I knew around her. None of them fitted.",
+  "voiceUrl": "voices/chapter-6/ch6-034.mp3",
+  "durationMs": 18144,
+  "audioSha256": "61cffa700fc4010993f020c78e5c53a238768a84b8a045cc2f0aa2dd5e866ced",
+  "audioBytes": 218060,
+  "textSha256": "6448b742da02e7ed505cf0795bfe7ebf339b1ba107d1217301df5a7c7f32d789",
+  "fingerprint": "eb897d5159e6df6a560fdd96f5c918aab16e43b91369eb443cef3707363d5fe6",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "0a5a970ca60038b61ade6f4ddc388f6ff7a4fe8526510feff30e9e2891e5af0f",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:28.522Z",
+  "elapsedMs": 456,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

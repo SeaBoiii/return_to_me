@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-045",
+  "chapterId": "chapter-ns",
+  "speakerId": "aleem-young-adult",
+  "text": "So I was never the main choice. I was the safe answer while you waited for the answer you actually wanted.",
+  "voiceUrl": "voices/chapter-ns/ns-045.mp3",
+  "durationMs": 6864,
+  "audioSha256": "9edb06d056219154fbf8040779df1f7027cefe13afc992ef50b81b2d00c322c3",
+  "audioBytes": 82700,
+  "textSha256": "4f12f8665e6d69fb9c85c1b9b0fd1d573a4863036292f362f6e7cc4e63e38550",
+  "fingerprint": "97bbb67793b682cc332ff686ba0851d84cb02bad3703c90d5e8aba91146d6282",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "31bfe147dc2cc6b721cd9e24b32ec14fcf1b89270015bd16c20d763b86ff122b",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:15.640Z",
+  "elapsedMs": 337,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

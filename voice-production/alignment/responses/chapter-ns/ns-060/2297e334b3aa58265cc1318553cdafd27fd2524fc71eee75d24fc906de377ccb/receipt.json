@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-060",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "University waited next. I imagined new subjects, new friends, and a future large enough to leave the relationship behind. I did not yet know that what I carried would announce itself before the first week was over.",
+  "voiceUrl": "voices/chapter-ns/ns-060.mp3",
+  "durationMs": 14064,
+  "audioSha256": "4a3fdc6c976a60a3a58190b210ae5547d2c66e5cb3163fa97580c5166a02de03",
+  "audioBytes": 169100,
+  "textSha256": "4baad4036041e1978bd6d6f94b90134038fc32f98e27c72aedde262cd1d64277",
+  "fingerprint": "2297e334b3aa58265cc1318553cdafd27fd2524fc71eee75d24fc906de377ccb",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "24a3c8b19e38f77680169dace830bfe3d6c1ecef3afe12660424209b772cd7b2",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:18.408Z",
+  "elapsedMs": 598,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

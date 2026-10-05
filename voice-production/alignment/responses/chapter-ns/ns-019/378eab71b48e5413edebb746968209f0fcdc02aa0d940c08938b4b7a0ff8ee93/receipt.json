@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-019",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "Afterward, Nadiah and I began talking properly. The first messages were cautious, then surprisingly easy. We moved from polite updates to conversations that followed me through bus rides and the final minutes before sleep.",
+  "voiceUrl": "voices/chapter-ns/ns-019.mp3",
+  "durationMs": 15840,
+  "audioSha256": "1f6a07689db5dfeb827c4be2f0f7ecad7611f0ac48db370b068bfb1f9b1dc557",
+  "audioBytes": 190412,
+  "textSha256": "480230195eaaa7387f3784862e0ef348c890566933c78fc27f9f8f1a95e6fb5b",
+  "fingerprint": "378eab71b48e5413edebb746968209f0fcdc02aa0d940c08938b4b7a0ff8ee93",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "bedf019468c32ff7ef0e0310ca8f14e0affee39605fc5c37f5d0f0f052b4fa3d",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:09.876Z",
+  "elapsedMs": 437,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

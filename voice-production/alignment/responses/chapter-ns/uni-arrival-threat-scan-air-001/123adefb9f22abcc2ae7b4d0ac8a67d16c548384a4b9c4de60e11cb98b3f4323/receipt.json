@@ -1,0 +1,20 @@
+{
+  "lineId": "uni-arrival-threat-scan-air-001",
+  "chapterId": "chapter-ns",
+  "speakerId": "aleem-young-adult",
+  "text": "Hakim, sorry. I need some air. I thought I could stay, but I need to step outside now.",
+  "voiceUrl": "voices/chapter-ns/uni-arrival-threat-scan-air-001.mp3",
+  "durationMs": 6792,
+  "audioSha256": "2c2e993301823a789ef565f280ee88ba4f8fecb249c168651651dc301f8be6e1",
+  "audioBytes": 81836,
+  "textSha256": "61140e228b9bf2322e7ec2c2838bd7940af5da71865015437d674d25f0c6380d",
+  "fingerprint": "123adefb9f22abcc2ae7b4d0ac8a67d16c548384a4b9c4de60e11cb98b3f4323",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "acc76a7c8818e2eb9e5cf8740b3a1a44fe6a75a06db256622e9dd0d53afc6fee",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:20.309Z",
+  "elapsedMs": 356,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

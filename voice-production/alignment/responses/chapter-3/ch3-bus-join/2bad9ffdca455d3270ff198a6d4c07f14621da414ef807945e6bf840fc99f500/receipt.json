@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-bus-join",
+  "chapterId": "chapter-3",
+  "speakerId": "adult-aleem",
+  "text": "There were afternoons when tiredness ended the conversation before either of us chose to. Our heads tipped toward the glass, the shared earpieces remained in place, and we woke near our stop with the embarrassed alertness of people caught being comfortable.",
+  "voiceUrl": "voices/chapter-3/ch3-bus-join.mp3",
+  "durationMs": 15504,
+  "audioSha256": "a8c414486302a6f53fc30c8e292230748b6539df0cbd3edf2e26eddd8c061d66",
+  "audioBytes": 186380,
+  "textSha256": "9f27652ffc759ad1167e18e1b4557e24d492cd9f63f4942e603635711282b74f",
+  "fingerprint": "2bad9ffdca455d3270ff198a6d4c07f14621da414ef807945e6bf840fc99f500",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "7901e9e1acb5c31520678c9d2328293155cfc18c652acd13296acea9b4fdec20",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:48.394Z",
+  "elapsedMs": 646,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

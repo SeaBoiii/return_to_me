@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-029",
+  "chapterId": "chapter-2",
+  "speakerId": "aleem-sec",
+  "text": "Hi. I assume Faris gave a very calm and accurate presentation.",
+  "voiceUrl": "voices/chapter-2/ch2-029.mp3",
+  "durationMs": 4752,
+  "audioSha256": "82796736db9c8ebf3ac178d995581f9d7747cf877f9ed8ad88f70291e9ea50b9",
+  "audioBytes": 57356,
+  "textSha256": "a831db66fa628e6281e27aa5f80fcb68701489bbc32198fb2975b8f6ddfb0de5",
+  "fingerprint": "bbccc35cef6eba05992d7f2869076947d87e1e4db6c2b86fbe383b939f87b32e",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "f4f71c65db897a9faf1c10ca57d9533d73afabec28094de06ca15f5411e4883e",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:26.774Z",
+  "elapsedMs": 340,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

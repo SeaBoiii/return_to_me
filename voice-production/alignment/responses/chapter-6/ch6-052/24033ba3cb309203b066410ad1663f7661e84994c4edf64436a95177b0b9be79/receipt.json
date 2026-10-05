@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-052",
+  "chapterId": "chapter-6",
+  "speakerId": "adult-aleem",
+  "text": "Afterwards, my hand still moved towards her chat whenever something funny happened. I would compose half a message before remembering. The gap was in lunch, in the hours after class, in reaching home without anybody expecting an update. There was no official anniversary to mourn. My days noticed anyway.",
+  "voiceUrl": "voices/chapter-6/ch6-052.mp3",
+  "durationMs": 21744,
+  "audioSha256": "ceb961a501e903cf2b337289a93ac7807c90a4393f171d0cc77ce2d7314f9c4a",
+  "audioBytes": 261260,
+  "textSha256": "8ae184e2b28c88965cba42e165c4fad5e63168191a0dfc47f622d2fbb155072a",
+  "fingerprint": "24033ba3cb309203b066410ad1663f7661e84994c4edf64436a95177b0b9be79",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "c08a039e23efb1863ff90f4f5e9f5822131bddde043a101da88e1ac0f66371e1",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:33.203Z",
+  "elapsedMs": 493,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

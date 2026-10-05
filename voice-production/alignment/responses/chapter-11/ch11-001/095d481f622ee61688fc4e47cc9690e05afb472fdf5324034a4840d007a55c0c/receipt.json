@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-001",
+  "chapterId": "chapter-11",
+  "speakerId": "mariam",
+  "text": "Aleem, there's someone I work with. A girl I know. I'd like to introduce you to her.",
+  "voiceUrl": "voices/chapter-11/ch11-001.mp3",
+  "durationMs": 7344,
+  "audioSha256": "cebb5c9cd0461dfb7989839b966967dd179a2105ae7f6847ace2a222f298f600",
+  "audioBytes": 88460,
+  "textSha256": "3a9ca978048cd140e925e118742c1f3902c020fb81f2579f3ed716734787e0fb",
+  "fingerprint": "095d481f622ee61688fc4e47cc9690e05afb472fdf5324034a4840d007a55c0c",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "84613d493d0f005c4710394ec9eab9558816102a6735b577afe3462699e8e801",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:59.567Z",
+  "elapsedMs": 416,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

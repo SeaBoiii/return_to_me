@@ -1,0 +1,20 @@
+{
+  "lineId": "prologue-011",
+  "chapterId": "prologue",
+  "speakerId": "adult-aleem",
+  "text": "At twelve, I thought the beginning of a relationship meant the difficult part was over. All you had to do after that was keep liking each other.",
+  "voiceUrl": "voices/prologue/prologue-011.mp3",
+  "durationMs": 8832,
+  "audioSha256": "3a8340785777ae4f44b054a61b809d86527176308b4356ce925d148127ab9989",
+  "audioBytes": 106316,
+  "textSha256": "b2627b1e448fad4a320f529cd813de0414588a45e9d2e270a23a35966acfcec6",
+  "fingerprint": "faaaaa90ef015fe7a3da36fee62156e2ffd8ce40ee3b58298a81e20aab444f13",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "cb55ac96182037799718e3e41a3f21a386d47f80d8210e61a9708cb10b6a47fb",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:10.666Z",
+  "elapsedMs": 384,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

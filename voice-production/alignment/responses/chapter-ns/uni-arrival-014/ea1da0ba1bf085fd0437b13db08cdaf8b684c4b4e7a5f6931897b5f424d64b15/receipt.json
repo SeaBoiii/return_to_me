@@ -1,0 +1,20 @@
+{
+  "lineId": "uni-arrival-014",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "The physical response was real: the heat, the frozen attention, the urgent need to leave. I will not invent a diagnosis for my younger self from a remembered scene.",
+  "voiceUrl": "voices/chapter-ns/uni-arrival-014.mp3",
+  "durationMs": 11832,
+  "audioSha256": "5f2401457a779eff6321666f4da065bf3ccb65220ae1da1febdc5f35b3422b55",
+  "audioBytes": 142316,
+  "textSha256": "0f7dd6be7bd7bfbde5ef318f4a9cff8b65bc068daf5685c5413ba8388831b4c1",
+  "fingerprint": "ea1da0ba1bf085fd0437b13db08cdaf8b684c4b4e7a5f6931897b5f424d64b15",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "71f10fb7fc7f3b66830b82035b920006e4ae7e90435aa34dad4142e0b7253762",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:21.164Z",
+  "elapsedMs": 431,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

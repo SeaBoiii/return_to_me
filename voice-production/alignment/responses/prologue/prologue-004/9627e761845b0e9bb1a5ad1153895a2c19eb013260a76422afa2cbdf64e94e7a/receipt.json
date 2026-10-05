@@ -1,0 +1,20 @@
+{
+  "lineId": "prologue-004",
+  "chapterId": "prologue",
+  "speakerId": "adult-aleem",
+  "text": "My story with Nurul has a moment like that. But this is not that moment. Not yet.",
+  "voiceUrl": "voices/prologue/prologue-004.mp3",
+  "durationMs": 8016,
+  "audioSha256": "9c5673960a66abb5829da145369443384efb069660f6d8bceaafc3b73119286c",
+  "audioBytes": 96524,
+  "textSha256": "fff215b1ac8751af1a283e2ce6261c2f1f80b66f572b56b9f4deb55425b371cc",
+  "fingerprint": "9627e761845b0e9bb1a5ad1153895a2c19eb013260a76422afa2cbdf64e94e7a",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "548710d5272ea99a1bb3b492668fc4d4e23757bd2eee21252d4d44ba2c91f252",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:09.248Z",
+  "elapsedMs": 774,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

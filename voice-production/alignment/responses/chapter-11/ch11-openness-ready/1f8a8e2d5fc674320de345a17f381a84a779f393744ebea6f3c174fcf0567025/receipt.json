@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-openness-ready",
+  "chapterId": "chapter-11",
+  "speakerId": "aleem-adult",
+  "text": "For a long time I kept bringing the same hurt into everything. I feel ready to have something new in my life now. And I'm happy that getting to know you is part of that.",
+  "voiceUrl": "voices/chapter-11/ch11-openness-ready.mp3",
+  "durationMs": 10392,
+  "audioSha256": "91f129a89d054d6bb043ad34fb3c8cad0017b5077f65118d9f0ff5f7425beb44",
+  "audioBytes": 125036,
+  "textSha256": "f63fe9a0ccb0da8725ed74191432f3729100e42a8976788d15663849046822a8",
+  "fingerprint": "1f8a8e2d5fc674320de345a17f381a84a779f393744ebea6f3c174fcf0567025",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "020fa392c442b40e8b75e05e550d896d1106d8a5685be388fecddc12b928ae69",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:11.508Z",
+  "elapsedMs": 367,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

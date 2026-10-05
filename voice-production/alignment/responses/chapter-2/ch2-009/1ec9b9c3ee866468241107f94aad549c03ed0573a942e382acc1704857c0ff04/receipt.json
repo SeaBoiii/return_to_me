@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-009",
+  "chapterId": "chapter-2",
+  "speakerId": "hana",
+  "text": "The teacher wrote fifty-four on the board.",
+  "voiceUrl": "voices/chapter-2/ch2-009.mp3",
+  "durationMs": 3024,
+  "audioSha256": "ea2ab767762d46bfec2a98f25f899ee1e0545f992a2486d31f09fa7ae9e52704",
+  "audioBytes": 36620,
+  "textSha256": "149b412438e4c686bc03d3ed89cfaad713839322619cfbd792c0f9613acf726b",
+  "fingerprint": "1ec9b9c3ee866468241107f94aad549c03ed0573a942e382acc1704857c0ff04",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "0b6ced178f09106d2991620dbd5a531cc9de553e6e4aadf19b9e2518c34c92df",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:22.942Z",
+  "elapsedMs": 434,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

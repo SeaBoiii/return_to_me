@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-088",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "At home, the server welcomed me with familiar notifications. For the first time, every alert sounded like evidence in a case against me.",
+  "voiceUrl": "voices/chapter-2/ch2-088.mp3",
+  "durationMs": 8472,
+  "audioSha256": "0737f66e53cef106a0bfcc57514f67f66ecc4e91503db3e884d8bb8a87f5de90",
+  "audioBytes": 101996,
+  "textSha256": "b2d717ec4a035bc4b9675a9f34e4f3e6e78dc7e1b300305c66939b7b61e6a345",
+  "fingerprint": "ffe5561fedf5183fb0a384a93f90ba6625728d0237a1431ab817d113cb68b42d",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "1b369e828781afa0a46ca85b93459d1b8a29de4100006f3821701f9dc177838d",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:39.055Z",
+  "elapsedMs": 681,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

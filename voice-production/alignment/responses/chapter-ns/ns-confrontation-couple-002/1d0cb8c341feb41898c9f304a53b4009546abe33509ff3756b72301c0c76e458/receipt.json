@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-confrontation-couple-002",
+  "chapterId": "chapter-ns",
+  "speakerId": "nadiah",
+  "text": "I cared about us and I called us a couple too. We should have defined what that meant instead of assuming. My feelings elsewhere were unresolved, and I was not clear with you.",
+  "voiceUrl": "voices/chapter-ns/ns-confrontation-couple-002.mp3",
+  "durationMs": 11904,
+  "audioSha256": "28dd0ebb5cc59897ca75c4ab6d9c327e778928d7a8ec41fa4341d3ded1e85193",
+  "audioBytes": 143180,
+  "textSha256": "898fac67cb243c5fcf283974027c0e168e63cd5c0e1477bcd80a822edbaec4f4",
+  "fingerprint": "1d0cb8c341feb41898c9f304a53b4009546abe33509ff3756b72301c0c76e458",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "38dedbb30e3e28be3f0dbd508a3fa0349f44c69f9434bee0a69574ec00499db3",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:14.860Z",
+  "elapsedMs": 444,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

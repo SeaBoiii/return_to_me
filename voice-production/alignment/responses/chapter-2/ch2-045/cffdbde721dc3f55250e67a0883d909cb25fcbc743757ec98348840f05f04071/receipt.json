@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-045",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "Her pride mattered to me. The server was not merely a distraction. It taught me leadership, technical patience, and the thrilling fact that my ideas could have value beyond school.",
+  "voiceUrl": "voices/chapter-2/ch2-045.mp3",
+  "durationMs": 12144,
+  "audioSha256": "86c591de4528d05ebe8a4d2b4441fa2d872efdefed18f4a8cf92c889ccc79545",
+  "audioBytes": 146060,
+  "textSha256": "db157af46b8752b925aded5226376c21158b6b9a3f644e03031da01c26d528e2",
+  "fingerprint": "cffdbde721dc3f55250e67a0883d909cb25fcbc743757ec98348840f05f04071",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "6e6e224aa664fc1c5adcf43da83d80dd0b37868a4fab7750b8c6fa547d51f1ff",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:29.657Z",
+  "elapsedMs": 468,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

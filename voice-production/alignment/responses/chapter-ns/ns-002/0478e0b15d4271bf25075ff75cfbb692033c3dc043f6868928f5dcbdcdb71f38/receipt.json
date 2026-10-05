@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-002",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "By 2016, I could point to evidence that I was disciplined and capable. I could endure exhaustion, learn quickly, and be useful to the people beside me. None of that automatically repaired the private rules I had built around affection.",
+  "voiceUrl": "voices/chapter-ns/ns-002.mp3",
+  "durationMs": 15504,
+  "audioSha256": "c5ed487ff34d45eb3ae447a8599c5f26ed2b2a2b09993b498d0188a9cd1efdd2",
+  "audioBytes": 186380,
+  "textSha256": "d1feec0af89ff5814253deb89b3e16e09023d008b5323cc10e2bdc5e4b3ddce0",
+  "fingerprint": "0478e0b15d4271bf25075ff75cfbb692033c3dc043f6868928f5dcbdcdb71f38",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "34c7e521df6eabb7052f31ce327e008ba3c2f242537698a0364bc1852d849ca3",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:07.176Z",
+  "elapsedMs": 503,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

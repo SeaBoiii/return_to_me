@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-bus-friendship-002",
+  "chapterId": "chapter-3",
+  "speakerId": "adult-aleem",
+  "text": "Restraint protected the friendship from entitlement, but it could not erase my feelings. Pretending the question did not exist would eventually make the ordinary moments heavier, not simpler.",
+  "voiceUrl": "voices/chapter-3/ch3-bus-friendship-002.mp3",
+  "durationMs": 11832,
+  "audioSha256": "b9d31a927cb7a846d19bcaefff5abab45a3ad1709a706eb07b4c998cb24894f0",
+  "audioBytes": 142316,
+  "textSha256": "420ddaf277c7a0939e145495ab12516981a715f73262bce4bab09c149bc331bc",
+  "fingerprint": "1b312a221b9b7e5ad1bec259cbbe620d01d8cb6bdb8dd4ea2fc8e926e5534444",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "16149041dd2c203277af202b722419399c5a46d26623d7174518811ab86e79d0",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:48.222Z",
+  "elapsedMs": 487,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

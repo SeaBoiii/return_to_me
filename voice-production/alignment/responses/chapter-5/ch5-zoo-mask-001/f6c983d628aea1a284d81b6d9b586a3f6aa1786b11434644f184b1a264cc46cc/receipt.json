@@ -1,0 +1,20 @@
+{
+  "lineId": "ch5-zoo-mask-001",
+  "chapterId": "chapter-5",
+  "speakerId": "aleem-sec",
+  "text": "Come on. We still have half the place left, and you have not criticised my photography enough to meet today's quota.",
+  "voiceUrl": "voices/chapter-5/ch5-zoo-mask-001.mp3",
+  "durationMs": 4824,
+  "audioSha256": "1a8b057abbba49bf9cc17ab798ff1fe2d01611bb936d919b1e76a8db9552b8d8",
+  "audioBytes": 58220,
+  "textSha256": "6562c226f621a1593b46404759724151b8ef132d14bb5d42f049a6b63ba1f69e",
+  "fingerprint": "f6c983d628aea1a284d81b6d9b586a3f6aa1786b11434644f184b1a264cc46cc",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "c68b294695399bb73d552ef32e3b29b7430a8ce8ae287c2851ca7e367d6877a4",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:04.157Z",
+  "elapsedMs": 368,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

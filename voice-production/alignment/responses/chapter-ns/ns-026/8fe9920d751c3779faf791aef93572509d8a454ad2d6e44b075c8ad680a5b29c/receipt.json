@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-026",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "We never had one reliable conversation defining exclusivity, unfinished attachments, or what being together required from each of us. I assumed the word couple had completed that work. Assumption felt romantic while everything seemed secure.",
+  "voiceUrl": "voices/chapter-ns/ns-026.mp3",
+  "durationMs": 17352,
+  "audioSha256": "282f2815e1d33f384e633dd7c146d53b22e2635d7e970bc87e43831fc2081556",
+  "audioBytes": 208556,
+  "textSha256": "cc8c7e6932691c63a4841422345e8cd21ffbec9742d4345f07eb164d58eae62f",
+  "fingerprint": "8fe9920d751c3779faf791aef93572509d8a454ad2d6e44b075c8ad680a5b29c",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "119d8351a870080b23d2309006d6017ff8f9ce8307e95d1723269406f2a7134a",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:10.960Z",
+  "elapsedMs": 586,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

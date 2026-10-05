@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-012",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "That was the first image I made of Nadiah: beauty, modesty, calm, certainty. Her hijab was part of her appearance that day, not evidence about the whole of her character. I did not yet understand how much meaning I had assigned without permission.",
+  "voiceUrl": "voices/chapter-ns/ns-012.mp3",
+  "durationMs": 18792,
+  "audioSha256": "c5fb436a392a04613916544ca5fbeba74e9de9c92ecd0fea1c705776c3cefb13",
+  "audioBytes": 225836,
+  "textSha256": "66ed756ae3ff959551a146bf02c9f1ffea6d4087a40555cda097e3e8c81c9b72",
+  "fingerprint": "36142199bd0c79876d2b76a1c4ebe05d5c31f46f993a21a83a3ecd253a55a437",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "e1b676e4627aa91f05665b77a95fd31f8973bfe82808f228b4d4a85ab60e0078",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:08.927Z",
+  "elapsedMs": 476,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

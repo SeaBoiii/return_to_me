@@ -1,0 +1,20 @@
+{
+  "lineId": "ch5-015",
+  "chapterId": "chapter-5",
+  "speakerId": "aleem-sec",
+  "text": "You know they sell drinks inside, right? We are not crossing a desert.",
+  "voiceUrl": "voices/chapter-5/ch5-015.mp3",
+  "durationMs": 3408,
+  "audioSha256": "27d2b273875c645a85089286d4efa25711c7eeed1b8931171b3e988edc12472e",
+  "audioBytes": 41228,
+  "textSha256": "a4f3dd707ea8bc6b3e489d29f030fd65752e5a1ab728da9503ed79e2fb1eb689",
+  "fingerprint": "9f73f29c01ec0249dc636e052c4dd86c85659dddf6628892e53bf6705e677eeb",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "4bbdd44d721c673e773f362767dac6e0eb6993de802a38d80a6771e7380300d0",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:02.032Z",
+  "elapsedMs": 329,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

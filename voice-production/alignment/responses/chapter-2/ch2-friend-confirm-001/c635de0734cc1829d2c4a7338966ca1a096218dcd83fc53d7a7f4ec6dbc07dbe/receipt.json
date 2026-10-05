@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-friend-confirm-001",
+  "chapterId": "chapter-2",
+  "speakerId": "aleem-sec",
+  "text": "Did Hana say that herself? I need to hear it from her, not through somebody else.",
+  "voiceUrl": "voices/chapter-2/ch2-friend-confirm-001.mp3",
+  "durationMs": 4464,
+  "audioSha256": "62a4bcfc98be7b5964b7da430bd361473eb4a5bdc81577d46027cdb4439290c2",
+  "audioBytes": 53900,
+  "textSha256": "675141c0cf425280772f1413bf6aafc111bffbe15c16ca0702bf4806b341e104",
+  "fingerprint": "c635de0734cc1829d2c4a7338966ca1a096218dcd83fc53d7a7f4ec6dbc07dbe",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "317aabcf4bcea8f0ca577e66b670fa23a7052465e13668ff09e334a54a606e4d",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:36.105Z",
+  "elapsedMs": 384,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

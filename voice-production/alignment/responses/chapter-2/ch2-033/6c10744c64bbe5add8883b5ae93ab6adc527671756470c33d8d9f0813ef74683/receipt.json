@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-033",
+  "chapterId": "chapter-2",
+  "speakerId": "aleem-sec",
+  "text": "Both can be true.",
+  "voiceUrl": "voices/chapter-2/ch2-033.mp3",
+  "durationMs": 2040,
+  "audioSha256": "686dfaa323697d033e4cf8c64dee5eec8a60bf875b18e8d92b87573c36e3cbe3",
+  "audioBytes": 24812,
+  "textSha256": "ab33fc124d28c2f3068cc7147a959cb3961c0cfc50b4dab8d5050563c3638a4b",
+  "fingerprint": "6c10744c64bbe5add8883b5ae93ab6adc527671756470c33d8d9f0813ef74683",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "29123e2d25f68b07b2d374e3f3c7a6fd21eb26286c6f0e44ce87a7cef769c250",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:27.687Z",
+  "elapsedMs": 341,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

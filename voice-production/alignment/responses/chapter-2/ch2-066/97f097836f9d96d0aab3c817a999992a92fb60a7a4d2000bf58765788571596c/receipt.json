@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-066",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "My school results began reflecting the same imbalance. Teachers marked gaps I promised to close. Notes accumulated. I understood each warning separately and failed to see the shape they formed together.",
+  "voiceUrl": "voices/chapter-2/ch2-066.mp3",
+  "durationMs": 13680,
+  "audioSha256": "631c25a7a3c8687f565ecc551ccc50ff2738bebbd1b71ed98cd0eb4866a88ac7",
+  "audioBytes": 164492,
+  "textSha256": "9f199c440e7d762e78e6e42d0f21db8e9eb475d61f6c5abf3f196e512391d663",
+  "fingerprint": "97f097836f9d96d0aab3c817a999992a92fb60a7a4d2000bf58765788571596c",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "4f6b728d8b8acaeca626a300dffa04157ee7aa448c65e83eaaa67651edc97a61",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:34.382Z",
+  "elapsedMs": 485,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

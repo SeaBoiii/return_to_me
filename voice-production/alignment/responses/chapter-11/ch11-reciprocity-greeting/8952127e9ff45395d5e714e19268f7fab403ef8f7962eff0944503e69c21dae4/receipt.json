@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-reciprocity-greeting",
+  "chapterId": "chapter-11",
+  "speakerId": "adult-aleem",
+  "text": "Her hello had already changed the shape of an ordinary day. I wanted to remember that feeling when it was my turn to reach for the phone: how good it was to know someone had made a little room for me.",
+  "voiceUrl": "voices/chapter-11/ch11-reciprocity-greeting.mp3",
+  "durationMs": 12624,
+  "audioSha256": "c7102ede8f5c5db880b83a49266e3677fa579f44ee116885b3c2a40f9d62e5b3",
+  "audioBytes": 151820,
+  "textSha256": "f7129976732b8a4544aac8874bac08b25e58f79daeddacad27625de9cbee4eac",
+  "fingerprint": "8952127e9ff45395d5e714e19268f7fab403ef8f7962eff0944503e69c21dae4",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "6ecf9b15339c53f08f62d82ebfdd9923ad7bd78131d0c241d56102417486f932",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:03.612Z",
+  "elapsedMs": 413,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

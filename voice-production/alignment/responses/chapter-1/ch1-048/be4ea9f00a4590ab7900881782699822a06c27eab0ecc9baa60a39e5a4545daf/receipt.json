@@ -1,0 +1,20 @@
+{
+  "lineId": "ch1-048",
+  "chapterId": "chapter-1",
+  "speakerId": "adult-aleem",
+  "text": "By 2011 I had changed shape, school, and confidence. I was taller, much thinner, still wearing glasses, and convinced that looking older must mean I had become wiser.",
+  "voiceUrl": "voices/chapter-1/ch1-048.mp3",
+  "durationMs": 12144,
+  "audioSha256": "69dea984d1c2a06b62d00e35016167bf3439c0be5c97b2ab1a4a77ae25954bb7",
+  "audioBytes": 146060,
+  "textSha256": "61b66f9bf16f55c25aa834565b7686c87e6a0e45f772ef9f4c3ab9163f99d1eb",
+  "fingerprint": "be4ea9f00a4590ab7900881782699822a06c27eab0ecc9baa60a39e5a4545daf",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "75552842772f0e3747170b0ea33ffa320206508a1ad2ff61813abf3b34bf62d4",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:21.583Z",
+  "elapsedMs": 862,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

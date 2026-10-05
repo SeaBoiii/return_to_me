@@ -1,0 +1,20 @@
+{
+  "lineId": "ch5-033",
+  "chapterId": "chapter-5",
+  "speakerId": "adult-aleem",
+  "text": "I cannot honestly select one of those possibilities now and call it memory. Mei Lin never told me that the day was a warning, and I never gave her the chance to confirm or correct what I believed.",
+  "voiceUrl": "voices/chapter-5/ch5-033.mp3",
+  "durationMs": 11904,
+  "audioSha256": "c040dae04bfa16f0c34050842a96d2f83dd07932bf2c914cefcbd05071aaf536",
+  "audioBytes": 143180,
+  "textSha256": "417b02116b2d614ae86bdb379f8cc3d12f775feb55f865b6b31957f4851aa86b",
+  "fingerprint": "11d633b2aac8ca564b6336b34391bd9d614d1d671d2bc48384c566d27133cd7d",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "a8707dd475dbcb9ce1aded700a4d7a2636783804a959fdf88963605937abbe72",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:05.984Z",
+  "elapsedMs": 421,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

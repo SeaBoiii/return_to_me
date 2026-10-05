@@ -1,0 +1,20 @@
+{
+  "lineId": "ch10-007",
+  "chapterId": "chapter-10",
+  "speakerId": "adult-aleem",
+  "text": "The familiar faces came to mind without lining up into an argument. People I had loved. People I had hoped would love me. The younger versions of myself who had waited beside a phone or travelled home with things they couldn't say. I felt how tired they all were. I was tired of carrying them as if none of those days had ended.",
+  "voiceUrl": "voices/chapter-10/ch10-007.mp3",
+  "durationMs": 22560,
+  "audioSha256": "1cd515614ef4c78eb21de800dc73e6c338eacc60be09d48bb74c03b8334950c5",
+  "audioBytes": 271052,
+  "textSha256": "979c2e1ac7568ae2772ff7c4a4fc3983602f290691d57e4ba5965d8dbe9edebb",
+  "fingerprint": "9341f84409a9056f6cd39af106132765ce139eed18f738b9ae1c1ffc6e3bd429",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "189f21c319abfae6945a3bbc55270a351e36513ce9566dd7df57de2f0473f623",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:54.314Z",
+  "elapsedMs": 479,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

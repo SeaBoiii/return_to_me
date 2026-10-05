@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-007",
+  "chapterId": "chapter-6",
+  "speakerId": "adult-aleem",
+  "text": "She said it without the careful politeness of somebody meeting a senior. I laughed, and after that talking to her felt strangely easy. She asked actual questions instead of nodding at my explanations, and caught me when I pointed confidently in a direction I then had to correct.",
+  "voiceUrl": "voices/chapter-6/ch6-007.mp3",
+  "durationMs": 18000,
+  "audioSha256": "07e8378540549a69007c81ddc9c737ff70ab193b27f820dd5a2afa6cd27a2a64",
+  "audioBytes": 216332,
+  "textSha256": "aff89d3b364e127a1b3838079bb45cdfb394352814e3403dfbe7897e0c325243",
+  "fingerprint": "a4b2e2ee5a26a52d0ddcce823641d1d3764b32780b1048fce31660d80889f1ab",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "c9d52c04e28b1f750fc855161e977dd8498f466da8f7f49009b7a2b98674c260",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:22.833Z",
+  "elapsedMs": 610,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

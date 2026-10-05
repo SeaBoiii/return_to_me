@@ -1,0 +1,20 @@
+{
+  "lineId": "ch4-018",
+  "chapterId": "chapter-4",
+  "speakerId": "aleem-sec",
+  "text": "The examiner should reward creativity under pressure.",
+  "voiceUrl": "voices/chapter-4/ch4-018.mp3",
+  "durationMs": 2880,
+  "audioSha256": "cb0413c45441afa797c7c6af3598d029450c618ade2ff0061500b2ea08a44313",
+  "audioBytes": 34892,
+  "textSha256": "e29f04a80613a5483cccecbcacc2f50d37ac581107ecd2e86ffe3488454108d7",
+  "fingerprint": "70dfde183ca3f70bba7e8d427f9d5a5dbcd505d6c41630335fc0393ca84050ca",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "735848296a8709f75e52e50a956dde1f55e2394d8174e2ded56c6874eb1e939b",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:57.021Z",
+  "elapsedMs": 322,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

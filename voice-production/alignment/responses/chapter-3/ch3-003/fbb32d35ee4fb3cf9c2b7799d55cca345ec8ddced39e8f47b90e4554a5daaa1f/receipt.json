@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-003",
+  "chapterId": "chapter-3",
+  "speakerId": "adult-aleem",
+  "text": "Which school would take me? Would I cope? Had I finally understood what was at stake? Nobody needed to say I had disappointed them. I supplied that sentence myself and placed it underneath everything they did say.",
+  "voiceUrl": "voices/chapter-3/ch3-003.mp3",
+  "durationMs": 15432,
+  "audioSha256": "59afe644034972685346f7b31640dd6493c8388e0e60ae8f848c81b2d4d5c80d",
+  "audioBytes": 185516,
+  "textSha256": "3d4708d82b7ccf7125a9256bbe865a37d04e2ff213cff42fbb86bdb43e09b548",
+  "fingerprint": "fbb32d35ee4fb3cf9c2b7799d55cca345ec8ddced39e8f47b90e4554a5daaa1f",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "7f80c9145733cee3775da1eb3c68aac373b72a45e7d274bf22786a56275aa738",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:43.908Z",
+  "elapsedMs": 698,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

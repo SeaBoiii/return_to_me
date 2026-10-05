@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-042",
+  "chapterId": "chapter-11",
+  "speakerId": "adult-aleem",
+  "text": "I told the friends travelling with me that I was seeing someone. Saying it aloud made me smile before I had finished. They were happy for me and wished us all the best. I let myself receive that warmth without immediately adding a warning about everything that might go wrong.",
+  "voiceUrl": "voices/chapter-11/ch11-042.mp3",
+  "durationMs": 16944,
+  "audioSha256": "a5c828c513b5b376aa8254fd79d99505673f444969faa9c5d12eb1f03e3c9e55",
+  "audioBytes": 203660,
+  "textSha256": "be26c64125fb816f027bebafa8d6e3e608ef19396bf52c7e6668a8ca2fbfcdee",
+  "fingerprint": "24edfc8e753c69ea79aa96db9f681e66abf3c34d5873bce1bb39662d2937a79f",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "3941242b648b83eff288b46484540f7186f497e84a430ab3365a8e21277f3fdb",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:07.316Z",
+  "elapsedMs": 438,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

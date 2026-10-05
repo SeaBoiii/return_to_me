@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-054",
+  "chapterId": "chapter-2",
+  "speakerId": "hana",
+  "text": "I am glad you fixed it. I was worried because you said you would call.",
+  "voiceUrl": "voices/chapter-2/ch2-054.mp3",
+  "durationMs": 5280,
+  "audioSha256": "b2854bc98ce1104b616bee9ad6e0c2745392acfe616a09a5a7d4dc1085961b55",
+  "audioBytes": 63692,
+  "textSha256": "0610599c384c1a20b8f14e8a4d653cf9870786e51a801d46ccaaa840cfc69686",
+  "fingerprint": "ab1efc4661a9e7fb6b7d4add6c6b7a7ca7d10e9924d2401c30e06d46313f6362",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "6b267423f0775a0e706a5ca1b92a7ed27046c484623fb4550257956ab979595f",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:32.414Z",
+  "elapsedMs": 460,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

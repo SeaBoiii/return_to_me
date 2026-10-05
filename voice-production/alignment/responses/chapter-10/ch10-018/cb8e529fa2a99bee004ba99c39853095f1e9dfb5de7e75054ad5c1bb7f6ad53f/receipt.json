@@ -1,0 +1,20 @@
+{
+  "lineId": "ch10-018",
+  "chapterId": "chapter-10",
+  "speakerId": "adult-aleem",
+  "text": "As we continued talking, I recognised the hesitation and longing I had noticed before. A pause, a thought she seemed to follow inward, the feeling that some part of her attention was elsewhere. I took those moments as a sign that her feelings for another man might still be there. It was an impression I formed, never a confession she gave me.",
+  "voiceUrl": "voices/chapter-10/ch10-018.mp3",
+  "durationMs": 22224,
+  "audioSha256": "bd34ab0ba4251ac999a8164d431d55e469c93d98ef71504cb897d74fd056454f",
+  "audioBytes": 267020,
+  "textSha256": "60422b3268cbb6b7e7ad37fa7414ed294052988059e47faddaff83e4efabcbc8",
+  "fingerprint": "cb8e529fa2a99bee004ba99c39853095f1e9dfb5de7e75054ad5c1bb7f6ad53f",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "5b78295c11ff9fcdeeb73104fcac2d140ea3a2ab09faf6ae30be1e06f8468ccf",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:57.145Z",
+  "elapsedMs": 507,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

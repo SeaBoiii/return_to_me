@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-053",
+  "chapterId": "chapter-11",
+  "speakerId": "adult-aleem",
+  "text": "I looked towards her and smiled. A little laughter travelled around the table, and the conversation felt easier afterwards. I could admit something imperfect about myself and remain there. Her parents listened with the ordinary curiosity of people trying to place a new face within the life of someone they loved.",
+  "voiceUrl": "voices/chapter-11/ch11-053.mp3",
+  "durationMs": 18384,
+  "audioSha256": "3fabca7de4da2c2ea2d97123116857b91e61e6af84e7c8a01da99418327caf97",
+  "audioBytes": 220940,
+  "textSha256": "3f05bb5f767a6105a8de16458174edcf9f2c92400057c436f3a2619f9d8050ec",
+  "fingerprint": "1b4af975f8bf4ed5007a1187bb928fff0eac8aa95f2ddc7e762d321913ff3bd1",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "62f0a96bf2513f80bd78c6b7d2e432bd0e1d15621279367efe206ebb3abdb9c0",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:09.228Z",
+  "elapsedMs": 501,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

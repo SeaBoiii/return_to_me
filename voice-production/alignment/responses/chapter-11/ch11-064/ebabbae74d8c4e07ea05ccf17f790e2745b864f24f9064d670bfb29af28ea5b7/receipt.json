@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-064",
+  "chapterId": "chapter-11",
+  "speakerId": "nurulain",
+  "text": "You can take your time. I'm listening.",
+  "voiceUrl": "voices/chapter-11/ch11-064.mp3",
+  "durationMs": 2952,
+  "audioSha256": "dc31a4557cf6c288ddb62d3a8a13d7538fdebe9995dc0b720a2584d42430482e",
+  "audioBytes": 35756,
+  "textSha256": "d3cbaf43c2950a2b30b03301708a04fa9b0810c700a51cfbb09de92635a648b0",
+  "fingerprint": "ebabbae74d8c4e07ea05ccf17f790e2745b864f24f9064d670bfb29af28ea5b7",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "1d79d57e92a3dd3d1a4dc6a5593f71a8cef81ef73d8196cb4ea228cb1786bafd",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:10.629Z",
+  "elapsedMs": 319,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

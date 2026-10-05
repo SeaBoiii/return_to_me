@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-study-break",
+  "chapterId": "chapter-6",
+  "speakerId": "adult-aleem",
+  "text": "Once, I arrived annoyed with myself after a class and opened my laptop much harder than necessary. She waited until I had finished pretending to work, then nudged my drink closer. I told her what had happened. She listened, asked one useful question, and stayed until I could laugh about the way I had slammed the lid.",
+  "voiceUrl": "voices/chapter-6/ch6-study-break.mp3",
+  "durationMs": 22872,
+  "audioSha256": "54a51f6fabf844650fbd442c4494f1daf209c99e0e7fb64c232238396653f928",
+  "audioBytes": 274796,
+  "textSha256": "4dd22cde534188c320f082fd7ef4ec60e76cd02546e0ed71757d42f772e1de71",
+  "fingerprint": "fda06a35a8c0a37b575aab4160734c16afe78b2bb41dee6d2980ea26524841fa",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "927db03cb30ab6fe83ef82f843fd0b3edf992028a093e345b6ec78ab58a7c95b",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:24.075Z",
+  "elapsedMs": 549,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

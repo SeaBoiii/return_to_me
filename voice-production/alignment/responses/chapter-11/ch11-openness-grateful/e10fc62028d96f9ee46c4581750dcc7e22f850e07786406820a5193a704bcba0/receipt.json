@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-openness-grateful",
+  "chapterId": "chapter-11",
+  "speakerId": "aleem-adult",
+  "text": "Thank you for listening like this. I know some of it is difficult to hear. I'm really grateful I can sit here with you and say it in my own time.",
+  "voiceUrl": "voices/chapter-11/ch11-openness-grateful.mp3",
+  "durationMs": 7920,
+  "audioSha256": "2fc683d3265cc109cac1244d6b2e1c27fb6885f22a38fc4315559aa62ceaa9ba",
+  "audioBytes": 95372,
+  "textSha256": "bcf05c8ed11893577c4d17de810e40a3ffc2b258d4cbf17c1bd1e0923c8a27ad",
+  "fingerprint": "e10fc62028d96f9ee46c4581750dcc7e22f850e07786406820a5193a704bcba0",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "0688212e0c946eac0095a5c04ae00166fce162f55800992aba7e57ba30f987c1",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:11.393Z",
+  "elapsedMs": 357,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

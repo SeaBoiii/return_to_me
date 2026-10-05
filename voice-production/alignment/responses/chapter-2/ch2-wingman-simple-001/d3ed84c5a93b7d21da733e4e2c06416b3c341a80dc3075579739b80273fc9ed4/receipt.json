@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-wingman-simple-001",
+  "chapterId": "chapter-2",
+  "speakerId": "aleem-sec",
+  "text": "Just say I like her. Simple. Before I overthink it and move to another country.",
+  "voiceUrl": "voices/chapter-2/ch2-wingman-simple-001.mp3",
+  "durationMs": 4680,
+  "audioSha256": "d1c37ebd4ebb30f1fd3a3994df5ac322a4a4cbb0d2beb012c465f7c4cc258bb4",
+  "audioBytes": 56492,
+  "textSha256": "cb510a5d6617d710cb7520571462846322daae03e1f9a4e5d187899154b3825d",
+  "fingerprint": "d3ed84c5a93b7d21da733e4e2c06416b3c341a80dc3075579739b80273fc9ed4",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "9962c28b96bfaf6cdfe36523b0d82ead045b5c85c2e7f070c0e2bf7d36bde609",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:25.538Z",
+  "elapsedMs": 358,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

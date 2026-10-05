@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-003",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "Then, once a week, I travelled to a mixed school for third-language class. We kept our own uniforms; the borrowed campus was only a meeting place for students arriving from different schools.",
+  "voiceUrl": "voices/chapter-2/ch2-003.mp3",
+  "durationMs": 11280,
+  "audioSha256": "b9ef352b6f143ccc4c91c798175a1fec0eab53fb2ca2d23bba54814b0767f8bc",
+  "audioBytes": 135692,
+  "textSha256": "f8ced5889d29c2e11d2a61f79dd54cbafe87a4292d48b2236a387ba31453777c",
+  "fingerprint": "9c0b307ce6b97793e6032e68fe9432261861ca22435997e4b7e16085a656c98d",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "10bb9963f2736dbafc9dedb6ba8ae05bfd55ab0d6cc6c2947448944a248ebe70",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:22.139Z",
+  "elapsedMs": 539,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

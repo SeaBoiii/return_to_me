@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-036",
+  "chapterId": "chapter-3",
+  "speakerId": "aleem-sec",
+  "text": "So studying was not the real reason. There was already somebody else.",
+  "voiceUrl": "voices/chapter-3/ch3-036.mp3",
+  "durationMs": 4464,
+  "audioSha256": "03b93583da28be595f628efe86d570e9dc91c05555219b5c0cdc28e96c097e8d",
+  "audioBytes": 53900,
+  "textSha256": "b1ba67ae46ca8d9711143b943db4d271a2e184e5e0021a9fbc80434ff11170e7",
+  "fingerprint": "8e1a895d912d58cf6e98c272120321031fca440e0826b8f26e179ccdfd9e61cf",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "fc52b1b0ef64f468bcf7e7481100823636498ed51065885b9b27c527fe48fcbe",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:51.144Z",
+  "elapsedMs": 348,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

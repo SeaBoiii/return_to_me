@@ -1,0 +1,20 @@
+{
+  "lineId": "uni-arrival-threat-scan-air-002",
+  "chapterId": "chapter-ns",
+  "speakerId": "hakim",
+  "text": "Okay. No problem. I'll come with you, or I can give you space—just tell me what you need.",
+  "voiceUrl": "voices/chapter-ns/uni-arrival-threat-scan-air-002.mp3",
+  "durationMs": 7344,
+  "audioSha256": "254ad86934fdb18a53c32a7593af4438ba78f9c95be9c7763fe70932e62adeed",
+  "audioBytes": 88460,
+  "textSha256": "edf219630640398a9ec3b313fb2759d2a6ccb50299639da1788122ddf62f8a22",
+  "fingerprint": "8560635dcac56887cbcfcf1017fa7b316cf98dce809b8dc26e9bf6ec61568a7f",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "f2d870a7572adbf654b0400cd03f6acfdfbdd6633103eaa3378ce2ee109f4171",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:20.460Z",
+  "elapsedMs": 370,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

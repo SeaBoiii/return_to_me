@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-008",
+  "chapterId": "chapter-3",
+  "speakerId": "adult-aleem",
+  "text": "On the first day of 2014, I entered in a new white, charcoal, and muted-teal uniform, taller than most people around me and determined to look as though this had always been the plan.",
+  "voiceUrl": "voices/chapter-3/ch3-008.mp3",
+  "durationMs": 11832,
+  "audioSha256": "54aca98d60b0d6e0c4303c637463eba1b961e4afbb4b001d89a1a402f9513b2b",
+  "audioBytes": 142316,
+  "textSha256": "b3d3a6252b6c2b061f587d504b8150fd8de8f3c53e862e837b00d88c59223ad8",
+  "fingerprint": "81bcdcc2ab74edd8d9d6aa08074586c058beeb5195b2a86afefe89b82abf10af",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "5567a259ba08e46b6f9628f5339594423c37c1e5611b13d2937b711303fb0790",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:44.790Z",
+  "elapsedMs": 413,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

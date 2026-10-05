@@ -1,0 +1,20 @@
+{
+  "lineId": "ch7-companionship-hope",
+  "chapterId": "chapter-7",
+  "speakerId": "adult-aleem",
+  "text": "Her answer had not changed. Still, an especially good evening could wake a small, stubborn maybe in me. I didn't say it aloud or ask her to reconsider. I simply let tomorrow remain a little less definite in my head than she had made it in our conversation.",
+  "voiceUrl": "voices/chapter-7/ch7-companionship-hope.mp3",
+  "durationMs": 17832,
+  "audioSha256": "c9a1790b792d95854c32b85628c29ceae4b58e29a167f8126a4ac96237414012",
+  "audioBytes": 214316,
+  "textSha256": "6599bc6ac9dd95abbd32cbce7405134259a812e0027634c3e3429de039607859",
+  "fingerprint": "92a189e1a543dc479c4f78d1e62afb51d06194ee9bb12bc4ba1c806c589adef4",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "1f6f303ff689a34643ebaacab5064608f14699ef0cc0443c4bacee4b22a58d51",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:39.524Z",
+  "elapsedMs": 489,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-062",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "Her question reached the part of me that knew she was right. Another part heard criticism of the thing I was proudest of and raised its defences.",
+  "voiceUrl": "voices/chapter-2/ch2-062.mp3",
+  "durationMs": 8952,
+  "audioSha256": "ff32beb5d55e3eea19b951528d068764adc4bb21c6137802f5711de3395ffe09",
+  "audioBytes": 107756,
+  "textSha256": "f61ba9c7daabeeecbe3928e506e7ff50d99c8fa0de557814c315333b99d3a82f",
+  "fingerprint": "52d475a6209395c1b69e9a777115c302d90ad4eb4fe47dfd6da662e18b51aa1e",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "4a5fd057791d7905f4e693b4458108cafd50b77e87efddf3279ede8e288d3173",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:33.709Z",
+  "elapsedMs": 427,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

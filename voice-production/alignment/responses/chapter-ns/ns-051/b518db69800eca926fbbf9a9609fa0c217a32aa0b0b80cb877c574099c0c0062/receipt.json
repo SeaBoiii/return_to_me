@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-051",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "I cried for days—sometimes openly, more often when the room was dark enough to hide the effort of holding myself together. Sleep arrived late and released me early. Ordinary notifications could pull my stomach tight.",
+  "voiceUrl": "voices/chapter-ns/ns-051.mp3",
+  "durationMs": 14160,
+  "audioSha256": "3647246d86fbe0a037e240f5e7a6fcb0687479f21a78b48880a0c2eb482077fd",
+  "audioBytes": 170252,
+  "textSha256": "6902c6b94b78cc443beeccd0c50524eb55ccc44aaff15d5b10890cc03e4eb31e",
+  "fingerprint": "b518db69800eca926fbbf9a9609fa0c217a32aa0b0b80cb877c574099c0c0062",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "6aadede6248f945a5fbae1bdf27726241dd71e2fe1d205d4376d0a531dcaac26",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:16.735Z",
+  "elapsedMs": 461,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-friend-confirm-002",
+  "chapterId": "chapter-2",
+  "speakerId": "mutual-friend",
+  "text": "That is fair. Please talk to her. I only told you because I thought nobody had.",
+  "voiceUrl": "voices/chapter-2/ch2-friend-confirm-002.mp3",
+  "durationMs": 5760,
+  "audioSha256": "815d11797a6799f9a543f843df9f697a8370bb764a4bc06db561944a6a8a7351",
+  "audioBytes": 69452,
+  "textSha256": "3bb2baed19b97be5e1751f13569d4eed12c4c5b30d0a6e6a392a9f010a14b671",
+  "fingerprint": "8966835873fa80f83de8b115bd1e0c394a3ea9df1d8f1ce859fb29c01eae7a2d",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "55d3cb8b89c26ae02f371318251946ffe330fba8ef1026a4783253209be08077",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:36.289Z",
+  "elapsedMs": 408,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

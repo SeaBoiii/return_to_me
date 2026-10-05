@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-038",
+  "chapterId": "chapter-3",
+  "speakerId": "adult-aleem",
+  "text": "Again, I believed the important truth had existed behind me while I behaved according to a softer explanation. Again, I wondered why someone could not simply trust me with the answer they seemed to give everyone else.",
+  "voiceUrl": "voices/chapter-3/ch3-038.mp3",
+  "durationMs": 13200,
+  "audioSha256": "2f9f633cb327356df0eea9cacea30419ca8b5619c59cb9f17a5fa53d1aaaa59c",
+  "audioBytes": 158732,
+  "textSha256": "4b5607c71bb91dc46e218b5da2d5028a4424fc29c8e9c31ba82aa23f212748c1",
+  "fingerprint": "c02ada74055e572ec1b9f8509761d15ec9e1d0bf352f5af1075e308e547e2981",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "bef8b2a934c5ca253046ab99a0d8d3bf29c9d436fc0336953839ca723869b7d7",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:51.629Z",
+  "elapsedMs": 480,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

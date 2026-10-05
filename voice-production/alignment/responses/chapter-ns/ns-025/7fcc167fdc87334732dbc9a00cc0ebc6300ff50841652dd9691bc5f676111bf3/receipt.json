@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-025",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "We called ourselves a couple. We behaved like one: affectionate messages, planned meetings, reassurance across book-ins, small claims on each other's days. The warmth was real. So was a gap we failed to examine.",
+  "voiceUrl": "voices/chapter-ns/ns-025.mp3",
+  "durationMs": 16704,
+  "audioSha256": "c4293b7dbed00359b506961979c6d62ccadec194b6a63072559090d7166963ef",
+  "audioBytes": 200780,
+  "textSha256": "194e6929f2c0d0258a9f38f4ec09db834cdd020178161d3de64a1d7ea1496fcf",
+  "fingerprint": "7fcc167fdc87334732dbc9a00cc0ebc6300ff50841652dd9691bc5f676111bf3",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "19a11bc94d15c64a25d3c9b4ce7de00cc53fd7de273d3156f419f823b7bfbc95",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:10.919Z",
+  "elapsedMs": 558,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

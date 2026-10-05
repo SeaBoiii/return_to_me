@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-067",
+  "chapterId": "chapter-2",
+  "speakerId": "aleem-sec",
+  "text": "I will catch up during the break.",
+  "voiceUrl": "voices/chapter-2/ch2-067.mp3",
+  "durationMs": 2112,
+  "audioSha256": "e49e7d9bda0985c60c411fd21166fd113ee61aa79c3c01d4ed524a68e7fe3980",
+  "audioBytes": 25676,
+  "textSha256": "a430a44f956722e2ce087c1c6413b8ea70868a6f3ab08c502d1ca6049acb4d29",
+  "fingerprint": "90819ece1fb9f479c74f17d6eb894fad2e0770bf910b0d003f5f4f4d4639d81b",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "b6e8fe9e9e29b1b6e51641ad552c5f6833b676533d5e3aaccb50b91a124ed342",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:34.533Z",
+  "elapsedMs": 424,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

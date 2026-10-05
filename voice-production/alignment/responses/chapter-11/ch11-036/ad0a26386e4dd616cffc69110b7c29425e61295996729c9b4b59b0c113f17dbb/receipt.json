@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-036",
+  "chapterId": "chapter-11",
+  "speakerId": "aleem-adult",
+  "text": "How was your day? You mentioned something earlier. How did that go?",
+  "voiceUrl": "voices/chapter-11/ch11-036.mp3",
+  "durationMs": 3192,
+  "audioSha256": "948fcc4471dba8130f2a3c9479f72acbc631f99c0186f5b7de17feb3d24669f6",
+  "audioBytes": 38636,
+  "textSha256": "187ec651eaaf313f96bfab1b578fd6123da9944eff1b9ff6b0613d5a03ee3fe8",
+  "fingerprint": "ad0a26386e4dd616cffc69110b7c29425e61295996729c9b4b59b0c113f17dbb",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "4096587efe2bbc51db91beba7a50a93085f679c4cff92695e271163f8f364ef3",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:06.357Z",
+  "elapsedMs": 347,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

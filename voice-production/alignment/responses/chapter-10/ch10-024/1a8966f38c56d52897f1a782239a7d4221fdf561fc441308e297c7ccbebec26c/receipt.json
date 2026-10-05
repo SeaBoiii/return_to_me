@@ -1,0 +1,20 @@
+{
+  "lineId": "ch10-024",
+  "chapterId": "chapter-10",
+  "speakerId": "yusuf",
+  "text": "Then you had better take it. Very difficult to win this argument.",
+  "voiceUrl": "voices/chapter-10/ch10-024.mp3",
+  "durationMs": 4320,
+  "audioSha256": "182feda3bca447bcabcc2e36acf5d1ac467bf617d569126cbfce506363c35211",
+  "audioBytes": 52172,
+  "textSha256": "8b5679e5666fa4c51fdcd4dad1cdba872131d7f1553752779cb61aca3ab45f3a",
+  "fingerprint": "1a8966f38c56d52897f1a782239a7d4221fdf561fc441308e297c7ccbebec26c",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "d611d6aad1f9ccb2b4b62ed6ee328c1164798d745f7a29e7db0a9667a7e6f6d0",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:58.829Z",
+  "elapsedMs": 334,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

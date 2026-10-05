@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-priority-study-001",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "I closed the dashboard and revised first. Yet my eyes kept moving between the textbook and two silent screens, absorbing little from the page and giving nothing fully to either person or server.",
+  "voiceUrl": "voices/chapter-2/ch2-priority-study-001.mp3",
+  "durationMs": 13104,
+  "audioSha256": "4c1a8dd2e7e2de14a2999c1bc4a19c9838892085594a62672371ba577c0ac343",
+  "audioBytes": 157580,
+  "textSha256": "38c7ebd51d77b2a0e133fd17dbe60d899ef160deabffc2347a2349f9bf1818b8",
+  "fingerprint": "c23f72620906bbb4465900564ab2a84df50d464c278c7ffaef9ddfd3b70edfe4",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "e8c83aec193e6bb963e452c8c1412feeb8bc32cf9e8cb7650e435ec2414e4863",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:30.832Z",
+  "elapsedMs": 456,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

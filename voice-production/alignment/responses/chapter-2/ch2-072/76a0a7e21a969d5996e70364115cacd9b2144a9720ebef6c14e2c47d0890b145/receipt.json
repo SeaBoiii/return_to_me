@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-072",
+  "chapterId": "chapter-2",
+  "speakerId": "aleem-sec",
+  "text": "Then tell me what you want me to do.",
+  "voiceUrl": "voices/chapter-2/ch2-072.mp3",
+  "durationMs": 2184,
+  "audioSha256": "72aa9bb7d580b58992afa8ce1ca101a237929b28c184fb0b2cd46717e85b0cd3",
+  "audioBytes": 26540,
+  "textSha256": "e4c8b765458d434fe2010fb5485e5e9a58a7df5a5c7606670f18eede6f83ad45",
+  "fingerprint": "76a0a7e21a969d5996e70364115cacd9b2144a9720ebef6c14e2c47d0890b145",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "490d0f2c99e0c26f2315beb1d1df35d6c0175b062dca671a51d8a8cb9f62c266",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:35.177Z",
+  "elapsedMs": 313,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

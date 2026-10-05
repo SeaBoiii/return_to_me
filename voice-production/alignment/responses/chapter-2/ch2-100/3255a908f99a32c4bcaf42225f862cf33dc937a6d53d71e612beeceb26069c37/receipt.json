@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-100",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "The results were bad. Not one disappointing number, but an outcome that narrowed the paths I had imagined. I will not display the grades here. Their emotional weight mattered more than their digits.",
+  "voiceUrl": "voices/chapter-2/ch2-100.mp3",
+  "durationMs": 12384,
+  "audioSha256": "d231e7d8e87ef1282cb068d4b3ce40b7be7097d37b1b49943d6cc515887f41f6",
+  "audioBytes": 148940,
+  "textSha256": "b40b1e43c97de428bddffd3eb05ce373748dfa402af62e5cdc21067a624f157b",
+  "fingerprint": "3255a908f99a32c4bcaf42225f862cf33dc937a6d53d71e612beeceb26069c37",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "1764a4b7ff8c81053033f1b76c1cdbabbd5fee5ff2a6fcb6f672d328e52fa03d",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:41.205Z",
+  "elapsedMs": 468,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

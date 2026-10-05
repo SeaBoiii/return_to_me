@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-dorm-evening",
+  "chapterId": "chapter-6",
+  "speakerId": "adult-aleem",
+  "text": "Sometimes she got tired of the assignment before I did. She would close the laptop and tell me about her day, shifting the pile of notes so she could sit properly. I knew which stories needed advice and which needed somebody to agree that people could be very irritating. It pleased me that she trusted me with both.",
+  "voiceUrl": "voices/chapter-6/ch6-dorm-evening.mp3",
+  "durationMs": 20400,
+  "audioSha256": "e072b11255b55ec5b1e3ff1ae86858691a150f405e3de41698750af796223aef",
+  "audioBytes": 245132,
+  "textSha256": "2a0852997e28ae0e8f04a6634631aa496c10efa0da41692ebed99c44cba84b5f",
+  "fingerprint": "7005deb1f329ec2577f7a771a0ffc16c099a8dfc082f48d6612510e09620ace8",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "241c3a9169e61216fba737232a34cff29513cfa6bfb1829583dcb8f60f47cdee",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:26.895Z",
+  "elapsedMs": 519,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

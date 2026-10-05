@@ -1,0 +1,20 @@
+{
+  "lineId": "ch1-003",
+  "chapterId": "chapter-1",
+  "speakerId": "alya",
+  "text": "Aleem, you have been staring at question four for so long. Are you solving it or trying to scare it?",
+  "voiceUrl": "voices/chapter-1/ch1-003.mp3",
+  "durationMs": 7512,
+  "audioSha256": "26681517847343e25c86c6b48d0f145956ccb753dcd19b5908e310a01b07ea60",
+  "audioBytes": 90476,
+  "textSha256": "8ef9c65c6a9be26031563d3a929bbd2b887fa0c6b306d6323be7408c6480abc4",
+  "fingerprint": "7480afba1f09b0870067655283945812f6ccf1e2e7ffd6ee3e8f0e1c901dab54",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "ff95db30576e8cc95cf39c7e1b2de8bafb4e838137d0cc0c791423e1d3e22409",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:11.964Z",
+  "elapsedMs": 676,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

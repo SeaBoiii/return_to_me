@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-032",
+  "chapterId": "chapter-3",
+  "speakerId": "adult-aleem",
+  "text": "I had asked for clarity and received a no. The reason hurt, but it was believable. Junior college moved quickly; all of us had been warned how easily one neglected week could become a lost term.",
+  "voiceUrl": "voices/chapter-3/ch3-032.mp3",
+  "durationMs": 13440,
+  "audioSha256": "0ba4b5c5ae32bcb9a66a84c74b93a686ded0d9cca1cc9591c21cd4df43c1751e",
+  "audioBytes": 161612,
+  "textSha256": "343c1672ff1d8dc61d8605202222f52c784a5fb73dabc520789047143f1dc62a",
+  "fingerprint": "93d80af7844d40bcff8bc24618525222697a4581a511d1bd11840aae85c6ca74",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "7aeeaeca629586974197dd2f077b05d13f7f709be9ef5a40786a956bc9e78b88",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:50.645Z",
+  "elapsedMs": 456,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

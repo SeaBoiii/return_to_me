@@ -1,0 +1,20 @@
+{
+  "lineId": "ch7-038",
+  "chapterId": "chapter-7",
+  "speakerId": "adult-aleem",
+  "text": "I said it into an empty room. There was no one to challenge me, no new message to interrupt the thought. I wanted to mean it. I wanted the wanting itself to stop, so I could get through a day without feeling that some essential part of my life was missing.",
+  "voiceUrl": "voices/chapter-7/ch7-038.mp3",
+  "durationMs": 17760,
+  "audioSha256": "b576cd4d08b62e250523072c5d24dd0400c3e05a28c7f6c7516c8bd209da953d",
+  "audioBytes": 213452,
+  "textSha256": "f2f1b77956181f123f853f7901df1099996b3b922c72469a9d7ffdd129d9d03a",
+  "fingerprint": "e78c1de6302d1903e529667f27e4db58ad07a5fb67bd236aba939a0fc8026052",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "ccd1f7fd9470f335fe7ec30e81a29b3385c63aa7169d9f8492bedc70ac4b0df6",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:41.849Z",
+  "elapsedMs": 499,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

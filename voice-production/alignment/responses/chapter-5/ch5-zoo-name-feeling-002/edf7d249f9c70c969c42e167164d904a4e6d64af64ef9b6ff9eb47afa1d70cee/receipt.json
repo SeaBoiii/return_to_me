@@ -1,0 +1,20 @@
+{
+  "lineId": "ch5-zoo-name-feeling-002",
+  "chapterId": "chapter-5",
+  "speakerId": "adult-aleem",
+  "text": "Naming the feeling prevented it from disguising itself as certainty. Waiting was wise. The missing step came afterward, when waiting quietly became withdrawing without ever returning to the conversation.",
+  "voiceUrl": "voices/chapter-5/ch5-zoo-name-feeling-002.mp3",
+  "durationMs": 13752,
+  "audioSha256": "0a9885c06945546a43ba586682538329c127eac8fd6216f5775cf5cd035c1028",
+  "audioBytes": 165356,
+  "textSha256": "4d936d512f78f1b777634ed62e05efdfdc5b05051d8530288ea637993f38b583",
+  "fingerprint": "edf7d249f9c70c969c42e167164d904a4e6d64af64ef9b6ff9eb47afa1d70cee",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "74b1f2cfbc82091e9a3cf76342ff0d11be74afabc0666a80921ecd651556abb0",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:04.937Z",
+  "elapsedMs": 443,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

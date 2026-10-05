@@ -1,0 +1,20 @@
+{
+  "lineId": "ch4-014",
+  "chapterId": "chapter-4",
+  "speakerId": "mei-lin",
+  "text": "Your perspective is blocking the entire question.",
+  "voiceUrl": "voices/chapter-4/ch4-014.mp3",
+  "durationMs": 3432,
+  "audioSha256": "31b908789127e5ddf2ee1aa1d9e696744afdfedccde781bb154700ccad0c76f8",
+  "audioBytes": 41516,
+  "textSha256": "3fdce016a10822b6302b667fa41066d2298c353a556dca7b06c3c8af27f130e3",
+  "fingerprint": "4e09e1eb59935bc76b85ce1d1cbc6e46f415e6cab1ad10de2e7f96f91afb7c35",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "47f09f697c34466c7fb3b2c62d99099a7d3796aff5f4c6e9229dc9d5e9ae7cd7",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:56.545Z",
+  "elapsedMs": 343,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

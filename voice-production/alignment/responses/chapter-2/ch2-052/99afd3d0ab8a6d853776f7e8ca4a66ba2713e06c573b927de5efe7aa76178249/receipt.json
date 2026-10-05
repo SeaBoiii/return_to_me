@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-052",
+  "chapterId": "chapter-2",
+  "speakerId": "hana",
+  "text": "You disappeared last night. Everything okay?",
+  "voiceUrl": "voices/chapter-2/ch2-052.mp3",
+  "durationMs": 3672,
+  "audioSha256": "4880e9442ccf6391240c867b67dd1344bc20ce669071bd542f356d1900fd5aa6",
+  "audioBytes": 44396,
+  "textSha256": "f2101b607f62f2ebcaf56e07d26456e528e93401c3f31fd3b41659812a5a6f2e",
+  "fingerprint": "99afd3d0ab8a6d853776f7e8ca4a66ba2713e06c573b927de5efe7aa76178249",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "fad2767a6a4cfb190abe4e3165d9aa5e8e611904c9955b95531f47dd704b8587",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:31.947Z",
+  "elapsedMs": 341,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

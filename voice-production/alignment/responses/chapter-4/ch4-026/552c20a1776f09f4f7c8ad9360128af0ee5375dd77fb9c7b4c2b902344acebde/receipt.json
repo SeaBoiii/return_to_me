@@ -1,0 +1,20 @@
+{
+  "lineId": "ch4-026",
+  "chapterId": "chapter-4",
+  "speakerId": "adult-aleem",
+  "text": "I also knew there was a barrier neither cuteness nor good study sessions could responsibly ignore. I was Muslim. Mei Lin was Christian. Faith was not a decorative difference that affection could politely place to one side.",
+  "voiceUrl": "voices/chapter-4/ch4-026.mp3",
+  "durationMs": 14640,
+  "audioSha256": "1b2015502a0b38ecad34cb5125413a38fdb5cf775f0daaf7a33a54c683ba0631",
+  "audioBytes": 176012,
+  "textSha256": "dada3d3c8dde39f0d24146a8609e381d223ec8d9110b50d6ae3bb9a880886f94",
+  "fingerprint": "552c20a1776f09f4f7c8ad9360128af0ee5375dd77fb9c7b4c2b902344acebde",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "38130bd58a1a01685c9ac548e171788f2d0f5c534d4865e621ead09dba032c31",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:58.517Z",
+  "elapsedMs": 642,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

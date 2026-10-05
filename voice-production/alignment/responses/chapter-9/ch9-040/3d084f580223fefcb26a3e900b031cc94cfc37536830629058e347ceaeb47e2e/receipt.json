@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-040",
+  "chapterId": "chapter-9",
+  "speakerId": "adult-aleem",
+  "text": "She smiled, and we let the conversation find its own pace again. I felt peaceful in her company. That was the part I had never thought to hope for: sitting with the very person I associated with being broken, and finding that I could be at ease. I didn't have to erase her from my life to survive remembering her.",
+  "voiceUrl": "voices/chapter-9/ch9-040.mp3",
+  "durationMs": 21600,
+  "audioSha256": "571b3cc8bd1bb45ba3ade703af72c37f9cadc38f47b966f6faddd9be76984b63",
+  "audioBytes": 259532,
+  "textSha256": "c8c5ef081e1c44abb9f9c5d1f58acf46272bb32368844d693aa3f0d1f5322fbf",
+  "fingerprint": "3d084f580223fefcb26a3e900b031cc94cfc37536830629058e347ceaeb47e2e",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "0ba8085a9d5de6b1cda45ae02affca5731021eb6d38559ab998a290f9ac74d63",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:51.939Z",
+  "elapsedMs": 469,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

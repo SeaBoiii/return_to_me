@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-confession-join",
+  "chapterId": "chapter-3",
+  "speakerId": "adult-aleem",
+  "text": "Syafiqa went quiet. She did not laugh, look disgusted, or punish me for asking. She chose her words slowly, aware that friendship would not make them painless.",
+  "voiceUrl": "voices/chapter-3/ch3-confession-join.mp3",
+  "durationMs": 11424,
+  "audioSha256": "aaf635ff18dc44d977ea39846bd0e4465ef75593aec67123303a189f364d5038",
+  "audioBytes": 137420,
+  "textSha256": "c00b8b369a063e90c68ee883d81c84cb63e19ce8b6c610877d13908d55cab9c2",
+  "fingerprint": "0aba459fbf55598c4bbe5e5ec9de8678b21c461d520a1b2364fac6eeb77c2efc",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "f1cdd804f28bae71382700174ae43d71fc7fb264e2e2a213ac21dea09a23c6ff",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:50.184Z",
+  "elapsedMs": 410,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

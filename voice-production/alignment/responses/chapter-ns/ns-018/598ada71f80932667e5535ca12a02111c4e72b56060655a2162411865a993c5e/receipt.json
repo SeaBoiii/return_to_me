@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-018",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "Passing Out Parade arrived in heat, rehearsed movement, and the sight of families searching formations for one familiar face. Completion did not transform me, but it made the future feel briefly negotiable.",
+  "voiceUrl": "voices/chapter-ns/ns-018.mp3",
+  "durationMs": 13920,
+  "audioSha256": "fb94f6ed0cced47ec26086418f7434de5b1dfbcbf4b82ad170cfc820da7446ce",
+  "audioBytes": 167372,
+  "textSha256": "1564a3acd54f918116569624bb2dd762dd78bd5d48cee2d75b9628589df72673",
+  "fingerprint": "598ada71f80932667e5535ca12a02111c4e72b56060655a2162411865a993c5e",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "b00b62da3efa57f2649371bc79d15a6f4594ed80bf0ba8658d848c9dbc8c9941",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:09.912Z",
+  "elapsedMs": 504,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

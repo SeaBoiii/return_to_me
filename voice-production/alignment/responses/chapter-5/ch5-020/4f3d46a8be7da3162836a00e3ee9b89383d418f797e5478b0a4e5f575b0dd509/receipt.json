@@ -1,0 +1,20 @@
+{
+  "lineId": "ch5-020",
+  "chapterId": "chapter-5",
+  "speakerId": "adult-aleem",
+  "text": "By lunch, her shoulders looked less guarded. She spoke about small future possibilities without attaching each one to what her results had removed. That was what I had hoped the day might offer.",
+  "voiceUrl": "voices/chapter-5/ch5-020.mp3",
+  "durationMs": 12480,
+  "audioSha256": "f3c582bd493d90b28f83b1621c34a26cf01a1c4579031d1fab121a39f1784273",
+  "audioBytes": 150092,
+  "textSha256": "220ab0e2525549398f8e2dedec9279b106ee31cc755d1e827a5d53cad6c32ea9",
+  "fingerprint": "4f3d46a8be7da3162836a00e3ee9b89383d418f797e5478b0a4e5f575b0dd509",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "0f4f21313826358f6927b9f54a363ccbc2b594de3915ce96478dc83114a0c2a3",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:02.954Z",
+  "elapsedMs": 442,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

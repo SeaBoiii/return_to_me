@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-memory-ease",
+  "chapterId": "chapter-9",
+  "speakerId": "adult-aleem",
+  "text": "Once, we began remembering the same thing at the same time and both stopped to let the other finish. She waved for me to continue. It was such a small gesture, but I felt a sudden affection for the ease of it. For years I had remembered our ending more often than I remembered what it was like simply to talk to her.",
+  "voiceUrl": "voices/chapter-9/ch9-memory-ease.mp3",
+  "durationMs": 22224,
+  "audioSha256": "75b76c87a28f92ef0ce916f35d139a9d767b9afb922f129d90c72119b07deef3",
+  "audioBytes": 267020,
+  "textSha256": "39c8b1d097752e332c13e1227d9e274115d80df5dd9d5835dbdbf5ee91606df4",
+  "fingerprint": "39b1da35761f691781a1b2bd2fe55e5477e68b3a84013622f26188be46f957cd",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "53053e3e1ef47c3a42a10fa01acf2c82a0b1ad75f4f622e4f525264746b95d14",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:49.465Z",
+  "elapsedMs": 505,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

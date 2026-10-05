@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-011",
+  "chapterId": "chapter-3",
+  "speakerId": "adult-aleem",
+  "text": "Syafiqa stood beside the noticeboard, tall, with long hair tied back and the expression of someone pleased to have found one familiar person. She had attended the same external Chinese class as Hana and me, though we had never been close then.",
+  "voiceUrl": "voices/chapter-3/ch3-011.mp3",
+  "durationMs": 14472,
+  "audioSha256": "3cfc3755a347a3ee3ca7c251c42b26c3c9ee3dd286c4935aa2fa5582451ee188",
+  "audioBytes": 173996,
+  "textSha256": "d858c540f1ec9674a7babf9fbb6753176676b3ba75a1ef51b4fc07286c614c99",
+  "fingerprint": "cc427e4e8760ac4d169b77a1fae6b4bafd5c9201a19e1162b3fae521b752e886",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "d3282c5abcfeb8ad6589e688eac4949d766c3f14a7f3a33e9e8a979344d200b9",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:45.410Z",
+  "elapsedMs": 612,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

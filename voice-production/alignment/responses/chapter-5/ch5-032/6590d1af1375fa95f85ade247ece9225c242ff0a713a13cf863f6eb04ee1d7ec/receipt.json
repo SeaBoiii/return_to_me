@@ -1,0 +1,20 @@
+{
+  "lineId": "ch5-032",
+  "chapterId": "chapter-5",
+  "speakerId": "adult-aleem",
+  "text": "Perhaps Daniel mattered romantically. Perhaps he was simply present in her recent life. Perhaps comparison was her way of making conversation, or perhaps I heard more comparison than she intended because jealousy had sharpened my attention.",
+  "voiceUrl": "voices/chapter-5/ch5-032.mp3",
+  "durationMs": 15984,
+  "audioSha256": "cb5361840c7affa9e81904b686545bb98614513755ab4a973d2f9a0bc26d5e57",
+  "audioBytes": 192140,
+  "textSha256": "ce2b56085962f7971fd0737d63698e41b839f0a05db21fee4560b5bfcfe7c176",
+  "fingerprint": "6590d1af1375fa95f85ade247ece9225c242ff0a713a13cf863f6eb04ee1d7ec",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "5050eb20c6f331f0d5feb938edbc7ab5851e5d09fd2715fef7fc800df3cbdd5f",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:05.784Z",
+  "elapsedMs": 519,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

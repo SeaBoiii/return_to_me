@@ -1,0 +1,20 @@
+{
+  "lineId": "ch8-006",
+  "chapterId": "chapter-8",
+  "speakerId": "adult-aleem",
+  "text": "That January, we booked the journey. Makkah and Madinah were names I had carried for years; now they were part of a trip I was actually making. I read the confirmation more than once. For the first time in a while, something ahead of me felt possible without depending on whether someone could love me back.",
+  "voiceUrl": "voices/chapter-8/ch8-006.mp3",
+  "durationMs": 19584,
+  "audioSha256": "0b0a1be54918024b38deadfc996271b8b85255f40559dc6ba7f7c366bc49cd07",
+  "audioBytes": 235340,
+  "textSha256": "a247b881adf19c26c308b42a7508e87e75c375cffb677f56878f0111b896a3bd",
+  "fingerprint": "e5e22fb6f0a9f292669160a0b54408867d9902b414cff6ae81d46f3a10323841",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "2c61ce65548f7cbca0fb32d5aadea46dd185caa8021102d4f55ae3b3c5c063a9",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:42.681Z",
+  "elapsedMs": 478,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

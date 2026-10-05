@@ -1,0 +1,20 @@
+{
+  "lineId": "ch1-008",
+  "chapterId": "chapter-1",
+  "speakerId": "alya",
+  "text": "So... everyone says you like me.",
+  "voiceUrl": "voices/chapter-1/ch1-008.mp3",
+  "durationMs": 6312,
+  "audioSha256": "44e7667db83d68a341048c5c8abea66680bc1409055553538940e9d395c63478",
+  "audioBytes": 76076,
+  "textSha256": "2886703b0791adb1630030fba2644fd4597506e2facd4c62c9377672b1b78d02",
+  "fingerprint": "1cf4be4bd53c500b4edef744437e80a2ab4da9cf6aeb9e0e58c72765e4acdde7",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "026dff07c4cdb28f69c3abd6754844e8d997ef78c88a0e6f4134b473ba6c7aa4",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:12.600Z",
+  "elapsedMs": 632,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-059",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "I had served, endured, and completed something demanding. I also left as a single man who believed heartbreak had exposed a truth about an entire community. Strength in one part of life had not corrected fear in another.",
+  "voiceUrl": "voices/chapter-ns/ns-059.mp3",
+  "durationMs": 15600,
+  "audioSha256": "c51b7988db1fd08b6ac67a92e9450ad36d7efb2fd54f8a7377e9058adabf07c1",
+  "audioBytes": 187532,
+  "textSha256": "41674fa290952b6773d1ae971eda95a025cc99165eab014adcb99de38f2a1f60",
+  "fingerprint": "ad4cd98a33f812883685f2a25e42bb1134ea1c936c6b4e6e040acf3ea88f9ed1",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "45a956acc015ccff5c1804a26c9e31c00f2221b1a1191b134ec5b1b6d056b3ee",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:17.922Z",
+  "elapsedMs": 526,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

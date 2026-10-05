@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-dread",
+  "chapterId": "chapter-6",
+  "speakerId": "adult-aleem",
+  "text": "Her chat was still there, full of ordinary things. Nothing on the screen announced that my place in her life was different from what I had imagined. I scrolled up, looking for some warning I had missed, then stopped. I had years of messages and could not find the question whose answer I suddenly needed.",
+  "voiceUrl": "voices/chapter-6/ch6-dread.mp3",
+  "durationMs": 20952,
+  "audioSha256": "43f06a55008c9e994904932000f4fb38329253a4ec5aad702ec0314ea3640f24",
+  "audioBytes": 251756,
+  "textSha256": "e6302343918d057c9c2de7926d3c1e1c983051eb4c480fa590a0793b7ce92f23",
+  "fingerprint": "f879d0d961f244400b922c24dfcdfddfa4b38b7d5bb69533b7f1e889e29a1e3e",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "b4f8965510c8147473411d0052df76af4372e7ff1c909c4c38fd4c104f558db8",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:29.182Z",
+  "elapsedMs": 670,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

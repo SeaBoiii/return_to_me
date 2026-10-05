@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-017",
+  "chapterId": "chapter-11",
+  "speakerId": "nurulain",
+  "text": "You answer the question very efficiently.",
+  "voiceUrl": "voices/chapter-11/ch11-017.mp3",
+  "durationMs": 3120,
+  "audioSha256": "79d0a180f8c5ef40d6f56435563647570548a8a9c17bcaf3a66e26adbac058dd",
+  "audioBytes": 37772,
+  "textSha256": "15cbc40f3f7486c986c102c00cfaf96475cf116e9e02c51ebf20467914c5f02d",
+  "fingerprint": "facb8dee83d14617583551ef892985502f2caee811ee74bbc6a259ba99df7ae8",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "060e887f97a5dce2f7ed490fdc0a93aa37a492e1312288c8a40d00f4a90c1b77",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:01.916Z",
+  "elapsedMs": 336,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

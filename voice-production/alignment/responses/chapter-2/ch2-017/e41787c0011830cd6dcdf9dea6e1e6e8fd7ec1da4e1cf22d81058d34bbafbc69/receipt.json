@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-017",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "She was right. I loved digital spaces where effort produced visible structure. You placed one block, then another, and the empty world became somewhere people wanted to stay.",
+  "voiceUrl": "voices/chapter-2/ch2-017.mp3",
+  "durationMs": 12240,
+  "audioSha256": "dad5446f6119e469adfa6dd49f825fdb8e21945b92945ccb84e9236d15efbccf",
+  "audioBytes": 147212,
+  "textSha256": "a95ea425642fc0fde04faaf0b12e1647bfb2fbf840ddae1341a5c7a7c62642c3",
+  "fingerprint": "e41787c0011830cd6dcdf9dea6e1e6e8fd7ec1da4e1cf22d81058d34bbafbc69",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "4e70294b023b05aaf3984c67847a4a4625be2451cfc48cb798751caea00be5bf",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:24.431Z",
+  "elapsedMs": 608,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

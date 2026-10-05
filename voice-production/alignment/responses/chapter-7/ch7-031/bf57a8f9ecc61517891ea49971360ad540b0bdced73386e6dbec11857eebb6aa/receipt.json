@@ -1,0 +1,20 @@
+{
+  "lineId": "ch7-031",
+  "chapterId": "chapter-7",
+  "speakerId": "adult-aleem",
+  "text": "This time there was no overheard conversation, no stranger appearing at the edge of a scene I thought I understood. She told me across a table. I watched her choose the words carefully and wished I could make it easy for her without having to feel them first.",
+  "voiceUrl": "voices/chapter-7/ch7-031.mp3",
+  "durationMs": 16464,
+  "audioSha256": "8d7f0fd60970545e392085ee2f330976d72f696a53402a90d0cba4844f0e20ae",
+  "audioBytes": 197900,
+  "textSha256": "5e8db7ffbb65543b473619f940ff21f17859ec81effbca1bc1a65358fdceb5e1",
+  "fingerprint": "bf57a8f9ecc61517891ea49971360ad540b0bdced73386e6dbec11857eebb6aa",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "30fe2dd79cacba8ab34059ff5e4de19c226140c8494ab55660e3f6e2b8d71f4f",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:40.555Z",
+  "elapsedMs": 487,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch4-search-love-002",
+  "chapterId": "chapter-4",
+  "speakerId": "adult-aleem",
+  "text": "The longing was sincere. The problem was the speed at which I assigned that hope to people I barely knew. Wanting love did not make every new attraction capable of carrying it.",
+  "voiceUrl": "voices/chapter-4/ch4-search-love-002.mp3",
+  "durationMs": 10944,
+  "audioSha256": "5b606ab801fa0ba239f09502484b11030a647caa8bff96d1cb3e87883eccd993",
+  "audioBytes": 131660,
+  "textSha256": "8576c420de8d9380fdb1ba7b75f6a21018132a9a5046d0496c73440da5d1b003",
+  "fingerprint": "6ab0e9bd8e996ed41d838fc0edeb9fc0a18bf74a6cc0d581ff73e23df369f109",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "a18cefd1447dca3dea0096501f8183023d1e2a593acd0fb999d5c607682c1f83",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:54.037Z",
+  "elapsedMs": 506,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-037",
+  "chapterId": "chapter-ns",
+  "speakerId": "aleem-young-adult",
+  "text": "She hid this from me. She even took off her hijab for him. What else could this mean?",
+  "voiceUrl": "voices/chapter-ns/ns-037.mp3",
+  "durationMs": 6072,
+  "audioSha256": "d4743326c848faf6c79d5c879388cf07aa1ce90f20db91d9f14a9861ee8aef59",
+  "audioBytes": 73196,
+  "textSha256": "31b554b46f57802895e27cf186a21451bdd9e56e9d662368d9a064cbc700e49e",
+  "fingerprint": "df800da6f0702e35e51373f94973875e9f54286f370445f9ef7b8b75da86be27",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "176e37f5ccba62c974e4fb91c725c01ed0c7852158a4f81255c005545e51f878",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:12.465Z",
+  "elapsedMs": 333,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

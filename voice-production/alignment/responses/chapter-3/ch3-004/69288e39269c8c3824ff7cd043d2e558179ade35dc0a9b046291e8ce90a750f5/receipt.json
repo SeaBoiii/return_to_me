@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-004",
+  "chapterId": "chapter-3",
+  "speakerId": "aleem-sec",
+  "text": "I know I messed up. I do not need everyone to keep translating the results for me.",
+  "voiceUrl": "voices/chapter-3/ch3-004.mp3",
+  "durationMs": 4608,
+  "audioSha256": "1ee474d3f01eef444e969bd41e3dd7ee1d3a65bf00a90a6cc33330e4b2f11505",
+  "audioBytes": 55628,
+  "textSha256": "05b24c94b8332319787a825f7f3d620e05a703ed06cb45320bf851bc49864d1c",
+  "fingerprint": "69288e39269c8c3824ff7cd043d2e558179ade35dc0a9b046291e8ce90a750f5",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "e1ac5ce9e61aba115fe8255f4b00ec7fc91618559c9a2db3ed233fdf9e2398d3",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:44.177Z",
+  "elapsedMs": 378,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-056",
+  "chapterId": "chapter-11",
+  "speakerId": "adult-aleem",
+  "text": "I meant it, and I could hear that in my own voice. I didn't have every future detail ready. I could tell them why I was here. Around that answer, we went on having dinner: listening, eating, asking another question when there was room. The evening had space for everyone at the table.",
+  "voiceUrl": "voices/chapter-11/ch11-056.mp3",
+  "durationMs": 19512,
+  "audioSha256": "4cee227cf09764086ebbb0f17f622ca5c01db4be32f34592d30ca02b20cd1d2c",
+  "audioBytes": 234476,
+  "textSha256": "14ede2dbfd73086f89a930b2ba900c1e36edcbd1cb745ea4f91c4b6ea5e38d28",
+  "fingerprint": "769d1ca89154bfe625b39c1de7ca0b9e657c91c1fc85faaa5500fb9d823dff2d",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "d7610ce3f14e276cbeb19b54092a876fad36f355098734d3333ff7f66a683d29",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:09.595Z",
+  "elapsedMs": 466,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

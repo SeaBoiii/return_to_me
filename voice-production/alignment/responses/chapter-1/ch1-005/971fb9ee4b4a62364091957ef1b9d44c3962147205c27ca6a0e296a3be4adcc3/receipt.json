@@ -1,0 +1,20 @@
+{
+  "lineId": "ch1-005",
+  "chapterId": "chapter-1",
+  "speakerId": "alya",
+  "text": "Deeply wrong, maybe. Your answer is on the next page.",
+  "voiceUrl": "voices/chapter-1/ch1-005.mp3",
+  "durationMs": 5832,
+  "audioSha256": "fc6753b22be6d774cf0ae66c95b32b3b2a0ffac94f3babd26aad93ed4fd2800b",
+  "audioBytes": 70316,
+  "textSha256": "ef5b895de6f6b988f98bbd9b428807013e8f6d1ccc1cd632d25b19f1b3f45674",
+  "fingerprint": "971fb9ee4b4a62364091957ef1b9d44c3962147205c27ca6a0e296a3be4adcc3",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "96a79fdc17fd5e766069709085ab3460fe44015f36272787f217b8b22f4faca9",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:11.895Z",
+  "elapsedMs": 584,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch4-036",
+  "chapterId": "chapter-4",
+  "speakerId": "adult-aleem",
+  "text": "I did not know whether the outcome would redeem anything. I only knew I had kept going after O Levels, entered the school I once dismissed, and allowed it to become a place where I learned how to work again.",
+  "voiceUrl": "voices/chapter-4/ch4-036.mp3",
+  "durationMs": 12312,
+  "audioSha256": "40e1f578c02916534c156cbab3656b08585a0d7252db7cc616b61b6a68797938",
+  "audioBytes": 148076,
+  "textSha256": "f8b8a82a778841f8b34e191bae1a1d62ba35d0c62f39c3543368d46f7687d482",
+  "fingerprint": "c65771fdde48c9bbda1e83182be0560c9748a53d6277404ff18ef8584ae04c00",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "5fd19f4dd642a065d64c67961ad2af430270639fef6236b02719a044474f8065",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:59.918Z",
+  "elapsedMs": 430,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

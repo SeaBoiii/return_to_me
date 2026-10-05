@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-008",
+  "chapterId": "chapter-ns",
+  "speakerId": "aleem-young-adult",
+  "text": "Salam. Sorry—where should I put these? The table is already losing the battle.",
+  "voiceUrl": "voices/chapter-ns/ns-008.mp3",
+  "durationMs": 4872,
+  "audioSha256": "93a07124c31267ed9afc3bf318865ae1869557f56d6702f312d99257e7e80669",
+  "audioBytes": 58796,
+  "textSha256": "f8b9921aa70eb7b72b0d7eb49404865c32d1ef1a2c4f063ba411816424152e52",
+  "fingerprint": "e71df8d3ae63148902a1463076012bb919603391c0140723b06824b2e3fc3fc3",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "c1b1490df9d3be3a3f6fbf85bb924b820de7b6505cf459299e75b3c0ca270209",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:08.070Z",
+  "elapsedMs": 352,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

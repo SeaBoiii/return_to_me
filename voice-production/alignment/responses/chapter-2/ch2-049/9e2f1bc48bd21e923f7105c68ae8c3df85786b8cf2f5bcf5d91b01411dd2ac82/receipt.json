@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-049",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "Success made the pattern harder to challenge. More players meant more responsibility and more income. Every late night produced evidence that the late night had been worthwhile.",
+  "voiceUrl": "voices/chapter-2/ch2-049.mp3",
+  "durationMs": 11664,
+  "audioSha256": "5de921dd02eb8f4fbd11f67796eb345a6e1c701e2eff27908e65f4b55e286d41",
+  "audioBytes": 140300,
+  "textSha256": "2fe33005e26d6e3cab684c36356386b6541bcf785c2a218365834bfe76b2dcfe",
+  "fingerprint": "9e2f1bc48bd21e923f7105c68ae8c3df85786b8cf2f5bcf5d91b01411dd2ac82",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "b343b854003eebdd6d789e71d41af9e82e60d656cc7d62ebc364c9515763a8a4",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:31.602Z",
+  "elapsedMs": 553,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

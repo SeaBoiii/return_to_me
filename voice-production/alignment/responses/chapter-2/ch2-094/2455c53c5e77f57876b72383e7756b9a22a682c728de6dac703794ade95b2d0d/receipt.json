@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-094",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "The examination hall smelled of paper and nervous stillness. Rows of desks faced the clock. When the papers turned over, the sound moved through the room like a single wave.",
+  "voiceUrl": "voices/chapter-2/ch2-094.mp3",
+  "durationMs": 11592,
+  "audioSha256": "581f6f3f8833ae8a04125aacb025d4de0ae658895698dd8546e71ea2ae57449b",
+  "audioBytes": 139436,
+  "textSha256": "9e24437a14ac69426f44a8a2784a6a18f28aad5d3c4144ce2a71907b084ec6a6",
+  "fingerprint": "2455c53c5e77f57876b72383e7756b9a22a682c728de6dac703794ade95b2d0d",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "e1ffe825247f1194fa047eb555b3d88d03b870f46379c588af146b9d61abfa0b",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:40.318Z",
+  "elapsedMs": 629,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

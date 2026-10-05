@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-006",
+  "chapterId": "chapter-9",
+  "speakerId": "aleem-adult",
+  "text": "Nadiah. Yeah. I'm here with my friend. I didn't know you were coming.",
+  "voiceUrl": "voices/chapter-9/ch9-006.mp3",
+  "durationMs": 5352,
+  "audioSha256": "48bc43b5c2d208cf77b827461050a61e7698abf5a4bffbe8f1e4e0288cdf759e",
+  "audioBytes": 64556,
+  "textSha256": "89071b20018434debb3c5ad49b6676ac884424a53c037088005785a2943329e2",
+  "fingerprint": "f626bd7e07bdd10ff1c29557732e759e7a5a83459164618e1b488b9ba2e886b4",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "8dea7d857536844d6e2292c63c3ee42b4891ec89730be89d5f008280b215b24b",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:44.305Z",
+  "elapsedMs": 370,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch1-006",
+  "chapterId": "chapter-1",
+  "speakerId": "adult-aleem",
+  "text": "That was Alya's way: a little playful, never cruel. Her eyes widened whenever she delivered a joke, as though she was surprised by her own courage.",
+  "voiceUrl": "voices/chapter-1/ch1-006.mp3",
+  "durationMs": 10704,
+  "audioSha256": "a1dd95ee1ff78a8680471311728fe2278d5aa7d045dce9c45b416e61638d920c",
+  "audioBytes": 128780,
+  "textSha256": "12e05f0acfe07486c0da45dddd1098d5a387af814d0a082c870747906dccb83b",
+  "fingerprint": "6b69ea5813e5527b0b3ea27dc30f74483c43abf08c9d8a0de2b25087c95a8510",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "e0bfa5c7a7788aa8295e06cfdc175dcd7e8c0cd3cb1fa3bc12bf304303b3a244",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:12.205Z",
+  "elapsedMs": 824,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

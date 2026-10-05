@@ -1,0 +1,20 @@
+{
+  "lineId": "ch4-search-control-001",
+  "chapterId": "chapter-4",
+  "speakerId": "aleem-sec",
+  "text": "If I ask early, there is no hidden story to discover later. Yes or no, at least I control when the truth arrives.",
+  "voiceUrl": "voices/chapter-4/ch4-search-control-001.mp3",
+  "durationMs": 7776,
+  "audioSha256": "27348180d73934d6ad236d78dfd689736ad56065d8066ca7cb2475127312aac3",
+  "audioBytes": 93644,
+  "textSha256": "e64d17f2a2e21c3a9c0963313d2fd56538fd80a1f8ff2669171921e6ee41973e",
+  "fingerprint": "9ef3634e1cf1cae4ed4c23ee9818212f6f474df162ab3e30a8821b6386d2c86d",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "20f379e364088c10c80f05af64a29435131ca429b30ad712fa834192860f7bde",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:54.433Z",
+  "elapsedMs": 391,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

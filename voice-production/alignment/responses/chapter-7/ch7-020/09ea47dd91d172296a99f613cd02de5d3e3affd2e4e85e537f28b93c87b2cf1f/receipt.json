@@ -1,0 +1,20 @@
+{
+  "lineId": "ch7-020",
+  "chapterId": "chapter-7",
+  "speakerId": "aleem-adult",
+  "text": "I'm okay enough for coffee. Maybe not okay enough for a long conversation about feelings before lunch.",
+  "voiceUrl": "voices/chapter-7/ch7-020.mp3",
+  "durationMs": 6384,
+  "audioSha256": "71cf16f2ced63e15634ccc467cdc776e8a2a878bd526a2dc56dd981da9dd57d4",
+  "audioBytes": 76940,
+  "textSha256": "009c798790f69f63823660a9ac7ceae3390fdd4aeb89a4dc376da90d278185e1",
+  "fingerprint": "09ea47dd91d172296a99f613cd02de5d3e3affd2e4e85e537f28b93c87b2cf1f",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "a94f01449755c1feadcb94cead8377b1a611a36cf2f96204474f87eabd57c4b9",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:37.506Z",
+  "elapsedMs": 480,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

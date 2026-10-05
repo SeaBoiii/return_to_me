@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-031",
+  "chapterId": "chapter-3",
+  "speakerId": "aleem-sec",
+  "text": "Okay. Thank you for telling me. I will not make things difficult for you.",
+  "voiceUrl": "voices/chapter-3/ch3-031.mp3",
+  "durationMs": 4536,
+  "audioSha256": "8af5b0bbc06a4cbaffc46aeff57e3ded07cc0434a8678962d6050d7144660510",
+  "audioBytes": 54764,
+  "textSha256": "b59c029e03420b759d36993f780d42d809fae3720f97c558e4a0a558c5bf878b",
+  "fingerprint": "67bb7a1a95196fab9399b112b4b541a66227ac348a95257f6a5a0bdd361947ab",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "d5d666c99e76166bc277fded77dd07c8745e8dd1bb2957af560289e249d63e00",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:50.349Z",
+  "elapsedMs": 348,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

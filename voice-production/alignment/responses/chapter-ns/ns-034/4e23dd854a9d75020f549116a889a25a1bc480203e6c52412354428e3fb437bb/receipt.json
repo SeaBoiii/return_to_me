@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-034",
+  "chapterId": "chapter-ns",
+  "speakerId": "aleem-young-adult",
+  "text": "USS? No. She didn't tell me she was going. There is nothing on her story.",
+  "voiceUrl": "voices/chapter-ns/ns-034.mp3",
+  "durationMs": 5760,
+  "audioSha256": "cd9632c9b6dea743ac1f7b20e39ad0eb1568b12db018c264b907f63a6a0d4d45",
+  "audioBytes": 69452,
+  "textSha256": "a15ba19d22f5e7fa6840971f8c605d269c9e44f99d1b7e25697732cbfccbc727",
+  "fingerprint": "4e23dd854a9d75020f549116a889a25a1bc480203e6c52412354428e3fb437bb",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "534d125903c088cde2a698278b8f08368bf1916050d5f4b805ea057f0607f93d",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:12.127Z",
+  "elapsedMs": 347,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-024",
+  "chapterId": "chapter-3",
+  "speakerId": "adult-aleem",
+  "text": "On quieter rides, one of us offered an earpiece. The wire crossed the small distance between our shoulders. We never needed the same favourite song; sharing the silence around it seemed to be enough.",
+  "voiceUrl": "voices/chapter-3/ch3-024.mp3",
+  "durationMs": 11904,
+  "audioSha256": "9d61192826e160167ef59a5ac62c2c40c285f10cb3ccb80c06e55a833b4200d6",
+  "audioBytes": 143180,
+  "textSha256": "36e11608b8a24b60cac866a3db72b0b35a30f780daa1f95e351092e5273c4a0e",
+  "fingerprint": "2b0533fe16ca0339db381b90fba518e76a0288f6903fc6d7352dc1bb1a1baf5f",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "88ac1f61760bb059882fdb31103c165d549bcf8caefb4d07cf8aecb77cf42a3b",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:47.201Z",
+  "elapsedMs": 476,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

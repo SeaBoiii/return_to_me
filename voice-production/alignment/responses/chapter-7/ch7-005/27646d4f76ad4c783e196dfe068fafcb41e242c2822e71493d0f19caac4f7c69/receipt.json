@@ -1,0 +1,20 @@
+{
+  "lineId": "ch7-005",
+  "chapterId": "chapter-7",
+  "speakerId": "claire",
+  "text": "Six months of experience. Cannot waste it.",
+  "voiceUrl": "voices/chapter-7/ch7-005.mp3",
+  "durationMs": 3744,
+  "audioSha256": "b6024f21b33c244a4b443345834d68fb447e484a45fbbde283e8e2a7e82df105",
+  "audioBytes": 45260,
+  "textSha256": "b45507ef71b13ebb8af07e3286e71034b8530971d1f0826a705980dc52139845",
+  "fingerprint": "27646d4f76ad4c783e196dfe068fafcb41e242c2822e71493d0f19caac4f7c69",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "09bd279327e3c42ceac0a08a24e790afee327a86422d464452f81b6a3441a2a3",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:34.168Z",
+  "elapsedMs": 346,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

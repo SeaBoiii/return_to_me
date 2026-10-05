@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-019",
+  "chapterId": "chapter-11",
+  "speakerId": "aleem-adult",
+  "text": "I think I hold back at first. I don't want to keep bothering someone if she's not interested. But I can see how that looks from your side.",
+  "voiceUrl": "voices/chapter-11/ch11-019.mp3",
+  "durationMs": 6240,
+  "audioSha256": "3dda312438cfa5187f321f59a95857d4880d486aea15c64fb05afadb029eebbf",
+  "audioBytes": 75212,
+  "textSha256": "b78aa965c62a0125ebe6239e374250ecbda2a1a58bef206a2559faf244a98418",
+  "fingerprint": "4e2878201bcec963ed423f98f51e14d18590b0b78502495654d4942a4d5b18ed",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "3cda7081dbef5940d411b7161ea0a7abdd77e5ea5a9622c3d8efe48765c52e41",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:02.265Z",
+  "elapsedMs": 415,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

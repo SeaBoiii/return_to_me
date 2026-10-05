@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-010",
+  "chapterId": "chapter-3",
+  "speakerId": "syafiqa",
+  "text": "Aleem? From Chinese class? You still look lost in every school, ah?",
+  "voiceUrl": "voices/chapter-3/ch3-010.mp3",
+  "durationMs": 5592,
+  "audioSha256": "0ad9a5d72b756a899884fd91a9da4fd9c20c245a1c0ae09cbf33e6b1b5ddb41c",
+  "audioBytes": 67436,
+  "textSha256": "d44326f6e790dad2e66e429c5c374560a3a3fd6288ebd310b8eca6228456281c",
+  "fingerprint": "f8574dc28450bbff7f5375735ec5221b143cd9030dc1909b9fba828ed687e655",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "af8d4e84590f4e11603e5c6e9ba7a97ea757f3a7b70214e6267033c685fac12d",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:45.024Z",
+  "elapsedMs": 348,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

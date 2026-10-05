@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-028",
+  "chapterId": "chapter-9",
+  "speakerId": "aleem-adult",
+  "text": "Depends. If there are too many questions, I still need advance notice.",
+  "voiceUrl": "voices/chapter-9/ch9-028.mp3",
+  "durationMs": 4632,
+  "audioSha256": "c8ba6e4e4968aef3707085a691d12f4286c2c1bd9d8725ec9283d3a0b2a0de5c",
+  "audioBytes": 55916,
+  "textSha256": "55dbaad8c188789b21a7941b069a31b6ed544676f7217de7a2daf7ba24478b7a",
+  "fingerprint": "6d1691121c9f19f5f9dd5fefb9de186a4d27c049ee0c89ab00adaaacc9789133",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "13ced5d3befc95e26ac8ddff170bba4b89a0ff29534886c41c2054f64223ceea",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:48.947Z",
+  "elapsedMs": 329,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-044",
+  "chapterId": "chapter-11",
+  "speakerId": "adult-aleem",
+  "text": "As the trip came to a close, the meeting we had arranged became the next real thing on the calendar. Soon I would be sitting opposite her parents. I thought about what I wanted them to understand. There was no impressive version of myself I needed to invent. I wanted to be clear, respectful, and present.",
+  "voiceUrl": "voices/chapter-11/ch11-044.mp3",
+  "durationMs": 20232,
+  "audioSha256": "d014c521148e0546d78cba6fab6612df93c9a36c5d22ca672654fffddb9efdb5",
+  "audioBytes": 243116,
+  "textSha256": "80b0ebdb4165b58eb73c0481c25140fc2867a8c89ccadbfb45df7712812c1672",
+  "fingerprint": "075e6343d9b41c46c5f9469e9485290bf1624595f604aefead93bf3cc951e4fd",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "4154f784f19748b3f8fdaab447945223497f6f984279bc071a46214c0b0f1f31",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:07.838Z",
+  "elapsedMs": 516,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

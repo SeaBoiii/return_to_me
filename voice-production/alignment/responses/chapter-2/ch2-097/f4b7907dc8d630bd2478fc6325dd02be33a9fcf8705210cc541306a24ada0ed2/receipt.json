@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-097",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "There is dignity in continuing even when preparation has failed you. There is also no magic in it. Effort made during the paper could not replace all the effort deferred before it.",
+  "voiceUrl": "voices/chapter-2/ch2-097.mp3",
+  "durationMs": 11184,
+  "audioSha256": "6c6e37bd9f88afbe12a17e279a6a581e22c96754593882fee56a9c159c59e56a",
+  "audioBytes": 134540,
+  "textSha256": "c361a16846593bd105451e2bbb8ad535e6b1078057ab07d9d8014a214094f4b9",
+  "fingerprint": "f4b7907dc8d630bd2478fc6325dd02be33a9fcf8705210cc541306a24ada0ed2",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "833066fe6958993ee49e363bfbfe595b49e02e0be2a1b75abedb14113ff2ad40",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:40.707Z",
+  "elapsedMs": 521,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-confrontation-waiting-001",
+  "chapterId": "chapter-ns",
+  "speakerId": "aleem-young-adult",
+  "text": "Were you waiting for him to decide while I stayed beside you? Was I here only because he had not confirmed what he felt?",
+  "voiceUrl": "voices/chapter-ns/ns-confrontation-waiting-001.mp3",
+  "durationMs": 7344,
+  "audioSha256": "afe097ab7e33b78b61bea17bc4ce6796e1a58fecadb26e68f113d061ea21727e",
+  "audioBytes": 88460,
+  "textSha256": "4285839ad3ce5f1218169e975418095e1aa274e37d201225864bf779bb45b24b",
+  "fingerprint": "54b74cda74e71601da2d11aa57e9fc7d8a4d2f5cb583148108903b1d757f8864",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "2257840e604cb0d8f7ef439069d6d77e68c510b27f18c183cf4dd5577e6aa6d7",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:14.812Z",
+  "elapsedMs": 396,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

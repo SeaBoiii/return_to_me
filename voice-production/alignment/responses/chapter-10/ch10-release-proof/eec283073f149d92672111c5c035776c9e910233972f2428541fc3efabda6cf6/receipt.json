@@ -1,0 +1,20 @@
+{
+  "lineId": "ch10-release-proof",
+  "chapterId": "chapter-10",
+  "speakerId": "adult-aleem",
+  "text": "So much effort had gone into making myself impossible to overlook. I felt tired just thinking of it. Sitting here, I could stop presenting reasons someone should love me. I could let my hands be empty for a while.",
+  "voiceUrl": "voices/chapter-10/ch10-release-proof.mp3",
+  "durationMs": 14232,
+  "audioSha256": "5bc23b563c9b232708089d0f2f6ab171a92302d021475a829c88750f39e6ddca",
+  "audioBytes": 171116,
+  "textSha256": "aaf74f72fe278b221d3703c1896460e461ecc3f573a0a88e032d9beebe98234d",
+  "fingerprint": "eec283073f149d92672111c5c035776c9e910233972f2428541fc3efabda6cf6",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "ff3d5ee2fc969f3915a3e73da03d135e445f25744c69dcbe0e6ed783ca63b37d",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:55.481Z",
+  "elapsedMs": 465,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

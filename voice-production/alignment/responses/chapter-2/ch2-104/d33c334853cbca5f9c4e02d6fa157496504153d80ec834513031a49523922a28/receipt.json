@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-104",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "But I was not only the boy who neglected his studies. I was also the boy who had built something from nothing, earned trust from a community, and learned skills no examination measured.",
+  "voiceUrl": "voices/chapter-2/ch2-104.mp3",
+  "durationMs": 11352,
+  "audioSha256": "03c4c8111a2e73cc17d90462eba12ba2b2693bbebe0b22606f334304502bb5cc",
+  "audioBytes": 136556,
+  "textSha256": "bc074eb5889743112355629eace5061e3a842c0d9f11f7744241fcc66d047c50",
+  "fingerprint": "d33c334853cbca5f9c4e02d6fa157496504153d80ec834513031a49523922a28",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "6e4cf60bffae5c384b1bb7b81c4418342cb5e29c905d10dd182e37aef94911af",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:42.722Z",
+  "elapsedMs": 459,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

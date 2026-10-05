@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-038",
+  "chapterId": "chapter-6",
+  "speakerId": "adult-aleem",
+  "text": "We still went. December lights brightened the park, and music followed us past shopfronts and families stopping for pictures. She arrived as the friend who had agreed to spend the day with me. I arrived carrying a confession that already knew it could not have the ending I had rehearsed.",
+  "voiceUrl": "voices/chapter-6/ch6-038.mp3",
+  "durationMs": 18792,
+  "audioSha256": "15b3bc1d0d1adc9742ae7a1fdb86f62a26b876b64197e42772681879df53117e",
+  "audioBytes": 225836,
+  "textSha256": "05b1a3a945cc51e645ee2f9b03f986c57ac33f596c283522d570559ed17a61ec",
+  "fingerprint": "0e06a976430249b4b11ca152d4983425d31bf700a93036e00765386a68eaf795",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "9c7dfdad75de210473f5267613d4436c22087a870f2dca23f47e0b7237ffdfa1",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:29.660Z",
+  "elapsedMs": 473,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

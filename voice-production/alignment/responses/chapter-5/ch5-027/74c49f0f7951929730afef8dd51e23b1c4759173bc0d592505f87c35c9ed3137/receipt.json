@@ -1,0 +1,20 @@
+{
+  "lineId": "ch5-027",
+  "chapterId": "chapter-5",
+  "speakerId": "adult-aleem",
+  "text": "That reaction contained jealousy, wounded pride, and a genuine dislike of repeated comparison. It also ignored an important fact: I had never told Mei Lin how I felt, so she could not knowingly manage feelings I had chosen to hide.",
+  "voiceUrl": "voices/chapter-5/ch5-027.mp3",
+  "durationMs": 16704,
+  "audioSha256": "3acba1665028dc650bb712c3fee277eec7500b8a3bb1bd1e52d415e632426c23",
+  "audioBytes": 200780,
+  "textSha256": "f50f7e43b3b0c76b8ebf55988ef9893d2fa2e6a275cef557cd6178603d369fec",
+  "fingerprint": "74c49f0f7951929730afef8dd51e23b1c4759173bc0d592505f87c35c9ed3137",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "1c0136335f2c308c17087b6cc788686ce1c03773ccaf9c167d8a75a5ea0c8ceb",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:04.115Z",
+  "elapsedMs": 636,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

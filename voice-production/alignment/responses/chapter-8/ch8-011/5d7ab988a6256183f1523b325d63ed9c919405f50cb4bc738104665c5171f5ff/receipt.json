@@ -1,0 +1,20 @@
+{
+  "lineId": "ch8-011",
+  "chapterId": "chapter-8",
+  "speakerId": "adult-aleem",
+  "text": "During the journey, I slept unevenly and woke with the old ache still familiar. Then I remembered where we were going. I didn't need to arrive as a repaired version of myself. I could arrive tired, carrying questions, wanting peace without knowing what peace would feel like.",
+  "voiceUrl": "voices/chapter-8/ch8-011.mp3",
+  "durationMs": 19032,
+  "audioSha256": "e29d47d91abecdf0ceca6f0e94bb106e6e3e6f974b08498d04638253406b88de",
+  "audioBytes": 228716,
+  "textSha256": "7f2f96c484e63307b34c30a0914cebbd860318f98f5562510aacc946636baee1",
+  "fingerprint": "5d7ab988a6256183f1523b325d63ed9c919405f50cb4bc738104665c5171f5ff",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "b99d4f88ec7ebdf2ae8ad65a689f806a0340773b9c22f64782f3dcda172decab",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:43.428Z",
+  "elapsedMs": 545,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

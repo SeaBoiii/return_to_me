@@ -1,0 +1,20 @@
+{
+  "lineId": "ch4-search-love-001",
+  "chapterId": "chapter-4",
+  "speakerId": "aleem-sec",
+  "text": "I am not trying to replace anyone. I just want to meet someone who sees me clearly and still wants to stay.",
+  "voiceUrl": "voices/chapter-4/ch4-search-love-001.mp3",
+  "durationMs": 7920,
+  "audioSha256": "278742c7d283b798b8334f1aab67608a784ae1d7e2e84eebcc48c8f7ac3cb5df",
+  "audioBytes": 95372,
+  "textSha256": "9a8a4836848a35ef36e8b6f5a8dcf7f3fede8830af77550c6781f1c7a63c2ac8",
+  "fingerprint": "3453da49d0feffc16a6409e874bd25397e5d0cd06e0833a2c42eda6d957b9350",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "c09d95afbeea5b21fda4215343c13fcee60f08ca0353b4f586e92b281df01dfa",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:53.854Z",
+  "elapsedMs": 412,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

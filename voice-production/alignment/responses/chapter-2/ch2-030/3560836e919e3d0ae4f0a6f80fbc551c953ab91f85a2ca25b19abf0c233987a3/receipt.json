@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-030",
+  "chapterId": "chapter-2",
+  "speakerId": "hana",
+  "text": "He used the phrase 'important diplomatic matter.'",
+  "voiceUrl": "voices/chapter-2/ch2-030.mp3",
+  "durationMs": 3912,
+  "audioSha256": "a7642656abd066186877a193e0c66bbefb83c66f3c3a9ce3edeed5bdf1a468cf",
+  "audioBytes": 47276,
+  "textSha256": "0ac811efea0d8170b09d05b4afae390bf9e66468f2f6756e33b4fce2131c4a80",
+  "fingerprint": "3560836e919e3d0ae4f0a6f80fbc551c953ab91f85a2ca25b19abf0c233987a3",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "5e49cfb482735d2419e3a9ed9b6b6be3bab3e405959b931a60920e1872f468d7",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:27.436Z",
+  "elapsedMs": 634,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

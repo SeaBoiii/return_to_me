@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-017",
+  "chapterId": "chapter-ns",
+  "speakerId": "aleem-young-adult",
+  "text": "Wait until Passing Out Parade. Finish this first. If the feeling survives all these weeks, maybe it deserves a real conversation.",
+  "voiceUrl": "voices/chapter-ns/ns-017.mp3",
+  "durationMs": 7200,
+  "audioSha256": "4d6cd4365439f2b0541007940df531f45876708b313425548431270434a4ffe2",
+  "audioBytes": 86732,
+  "textSha256": "c73a02a7012ebff865b226d6dfb23f0af04214dfba1b3c4a55350b3e4c975057",
+  "fingerprint": "d9416939a85834722f38ef0b0b2f1e05058b037a9fa8fcf156aa13fe83fd3973",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "5a033d0ffe4c32739c79f6ad4f197e6275305528c534fd72d94fd0082bb2b5a6",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:09.568Z",
+  "elapsedMs": 390,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

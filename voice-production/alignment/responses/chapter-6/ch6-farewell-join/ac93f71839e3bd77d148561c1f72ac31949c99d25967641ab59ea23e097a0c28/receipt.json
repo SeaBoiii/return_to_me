@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-farewell-join",
+  "chapterId": "chapter-6",
+  "speakerId": "adult-aleem",
+  "text": "She grew quiet. I had imagined relief after finally speaking, but it was awful watching my words reach her. She was losing a close friend in the same place where I was grieving a relationship we had never had. Neither of us could make the other person's loss smaller.",
+  "voiceUrl": "voices/chapter-6/ch6-farewell-join.mp3",
+  "durationMs": 19104,
+  "audioSha256": "6e1f7db46198b10a2d94bf5f0ff38cf936dd51c3872c7f938ae39c88a503d32b",
+  "audioBytes": 229580,
+  "textSha256": "327e4915c1a135b87f65fc816ef3e7c61d147be9ba87f33942561b165667265c",
+  "fingerprint": "ac93f71839e3bd77d148561c1f72ac31949c99d25967641ab59ea23e097a0c28",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "78e44f0d0c65bb4bf3e3ef91ddb34d94bcff679a082dc9253a1daa884ba7ae4d",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:32.991Z",
+  "elapsedMs": 544,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

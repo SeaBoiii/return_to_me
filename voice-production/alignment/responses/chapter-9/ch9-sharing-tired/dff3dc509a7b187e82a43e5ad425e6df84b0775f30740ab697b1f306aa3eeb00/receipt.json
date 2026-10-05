@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-sharing-tired",
+  "chapterId": "chapter-9",
+  "speakerId": "aleem-adult",
+  "text": "I've been tired, honestly. I can do the normal things, go to work, laugh with people. But underneath that, a lot has been sitting there. I wanted some time to breathe properly.",
+  "voiceUrl": "voices/chapter-9/ch9-sharing-tired.mp3",
+  "durationMs": 10464,
+  "audioSha256": "3de60e70b1b4b00906b7608acf6435152282587d6f5b42917c3d07fa626f0118",
+  "audioBytes": 125900,
+  "textSha256": "e0363354323bc4a8f1130e05dd8eabc32ebf7be3e1ff7c9d46744987410209b3",
+  "fingerprint": "dff3dc509a7b187e82a43e5ad425e6df84b0775f30740ab697b1f306aa3eeb00",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "8931e2c959298ef38152da36206b507efb9399cc686d5356d6cb7d89278b0c0e",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:47.907Z",
+  "elapsedMs": 393,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

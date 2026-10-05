@@ -1,0 +1,20 @@
+{
+  "lineId": "ch4-031",
+  "chapterId": "chapter-4",
+  "speakerId": "mei-lin",
+  "text": "After exams, I am going to sleep for a week. If anyone asks, I have left the country.",
+  "voiceUrl": "voices/chapter-4/ch4-031.mp3",
+  "durationMs": 6960,
+  "audioSha256": "4811160e1df18f939622f61db0594e15e40a9c9155efd98e3962d2a82e046cff",
+  "audioBytes": 83852,
+  "textSha256": "8391e1680725c6f5ceea309d4ae79f3a2d0cbdbc3e2ffbe52441d98b54c09336",
+  "fingerprint": "542d55d82e861680777ec28eacdf31a3f42bd731d10050888b80aa1b8e65dce2",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "9569bcb445cce875069ac18df493e29564628fc3c38a89aa1768f4ddc5c6bf57",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:59.073Z",
+  "elapsedMs": 552,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

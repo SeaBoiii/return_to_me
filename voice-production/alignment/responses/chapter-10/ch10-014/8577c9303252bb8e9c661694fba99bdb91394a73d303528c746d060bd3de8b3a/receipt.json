@@ -1,0 +1,20 @@
+{
+  "lineId": "ch10-014",
+  "chapterId": "chapter-10",
+  "speakerId": "imran",
+  "text": "You okay?",
+  "voiceUrl": "voices/chapter-10/ch10-014.mp3",
+  "durationMs": 2640,
+  "audioSha256": "953770588fe225b26f0a55bf3bd08db462f24a93fc801bd83c86fed0a41a882a",
+  "audioBytes": 32012,
+  "textSha256": "201f22cdc3633327fddc87fd04a3a42dcb8424dfe85a12c3e7167bc49c2be258",
+  "fingerprint": "8577c9303252bb8e9c661694fba99bdb91394a73d303528c746d060bd3de8b3a",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "9884412fce1153e15072da52ebfa9a01a41f22452bbbe18eafadc7c71312bd67",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:56.648Z",
+  "elapsedMs": 442,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

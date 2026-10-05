@@ -1,0 +1,20 @@
+{
+  "lineId": "ch10-008",
+  "chapterId": "chapter-10",
+  "speakerId": "adult-aleem",
+  "text": "I didn't know what the next part of my life should look like. Even here, with Nadiah close again, I couldn't turn possibility into certainty. I let that be part of what I brought to God. The wanting, the disappointment, the fear that being alone meant something had gone wrong with me. There was no need to tidy it first.",
+  "voiceUrl": "voices/chapter-10/ch10-008.mp3",
+  "durationMs": 21744,
+  "audioSha256": "d5d68cc0dad2e01c94987e7bfac9dd1577a005cf85e53732dee7553b399f8b4c",
+  "audioBytes": 261260,
+  "textSha256": "c69aa335586e9c521a0b0cbb9de255dafdad81bca2bde8f67fd987aa7616ed55",
+  "fingerprint": "f3dc8d6bb1a7c9b21fe84090d37b8888098be67895a775edfa19cc676410be35",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "bb3f87bbecbe6ab6534c18101df4c89e87794d495f917b456569076aa59a8335",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:54.514Z",
+  "elapsedMs": 541,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

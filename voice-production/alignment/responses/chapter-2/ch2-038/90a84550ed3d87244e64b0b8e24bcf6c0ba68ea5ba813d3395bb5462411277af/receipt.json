@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-038",
+  "chapterId": "chapter-2",
+  "speakerId": "hana",
+  "text": "We have passed the same tree twice.",
+  "voiceUrl": "voices/chapter-2/ch2-038.mp3",
+  "durationMs": 3024,
+  "audioSha256": "5e98c9d716d2caaa7815ca3afa6b34ef67f1b875e47d4cacbe466684132da2f4",
+  "audioBytes": 36620,
+  "textSha256": "aa93e969630b0c4c4920c55bb771c0c840f3cc6a45b1fbf394849d809dc12a9e",
+  "fingerprint": "90a84550ed3d87244e64b0b8e24bcf6c0ba68ea5ba813d3395bb5462411277af",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "82f3df5f88a6fcdf11e7be8dc14c05f0db9bad4d94ca7cbebeac1fda1d523efd",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:28.554Z",
+  "elapsedMs": 418,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -4,6 +4,8 @@ import { getAssetEntry } from '../art/manifest';
 import { getArtUrl } from '../pwa/artContent';
 import { story } from '../story';
 import { voiceEntries } from '../voices';
+import { getVoiceAlignment } from '../voices/alignment';
+import { usePassageReveal } from './usePassageReveal';
 import { useStory } from './StoryContext';
 import { ReadingStage } from './ReadingStage';
 import { usePortrait } from './usePortrait';
@@ -12,19 +14,7 @@ import type { Panel } from './panels';
 import common from './App.module.css';
 import styles from './Reader.module.css';
 
-function useTypewriter(text: string, id: string, speed: number, paused: boolean) {
-  const [progress, setProgress] = useState({ id, count: 0 });
-  const count = speed === 0 ? text.length : progress.id === id ? progress.count : 0;
-  useEffect(() => {
-    if (!speed || paused || count >= text.length) return;
-    const timer = window.setTimeout(() => setProgress(current => ({
-      id, count: Math.min(text.length, (current.id === id ? current.count : 0) + 1),
-    })), speed);
-    return () => clearTimeout(timer);
-  }, [text, id, speed, paused, count]);
-  const reveal = useCallback(() => setProgress({ id, count: text.length }), [id, text.length]);
-  return { text: text.slice(0, count), complete: count >= text.length, reveal };
-}
+const voicesByLine = new Map(voiceEntries.map(voice => [voice.lineId, voice]));
 
 /** Suspension preserves the remaining delay, including nested menu/visibility pauses. */
 function useReadingTimer(id: string, delay: number, enabled: boolean, paused: boolean, onFire: () => void) {
@@ -66,8 +56,13 @@ export function Reader({ onTitle, onOpenPanel, panelOpen, pauseRequest = 0 }: {
   const paused = panelOpen || artOpen || hidden || needsResume || manualPaused || requestedPause || replayComplete;
   const lineText = node?.type === 'line' ? node.text : node?.type === 'choice' ? node.prompt : node?.text ?? '';
   const reduced = settings.reducedMotion || window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  const typewriter = useTypewriter(lineText, node?.id ?? '', reduced ? 0 : settings.textSpeedMs, paused);
   const hasVoice = node?.type === 'line' && audio.hasVoice(node.id);
+  const voiceFailed = audioState === 'blocked' || audioState === 'error';
+  const typewriter = usePassageReveal({ audio, text: lineText, lineId: node?.id ?? '', replay: replayCounter,
+    speed: reduced ? 0 : settings.textSpeedMs, paused,
+    followVoice: Boolean(hasVoice && !settings.muted && !voiceFailed),
+    alignment: getVoiceAlignment(node?.id ?? '', lineText, voicesByLine.get(node?.id ?? '')?.url),
+  });
   const measurePassage = useCallback(() => {
     const element = readerRef.current;
     setMoreBelow(Boolean(element && element.scrollHeight - element.scrollTop - element.clientHeight > 8));
@@ -119,17 +114,17 @@ export function Reader({ onTitle, onOpenPanel, panelOpen, pauseRequest = 0 }: {
   }, [node?.id, paused]);
 
   const { complete, reveal } = typewriter;
+  const canManuallyAdvance = !paused && node?.type === 'line';
   const manualAdvance = useCallback(() => {
     clearTimeout(pendingTap.current); pendingTap.current = undefined;
-    if (paused || node?.type !== 'line') return;
+    if (!canManuallyAdvance) return;
     updateSettings({ autoMode: false, skipSeen: false });
     if (!complete) reveal();
     else { audio.stop(); dispatch({ type: 'ADVANCE' }); }
-  }, [paused, node?.type, updateSettings, complete, reveal, audio, dispatch]);
+  }, [canManuallyAdvance, updateSettings, complete, reveal, audio, dispatch]);
   const automaticAdvance = useCallback(() => { audio.stop(); dispatch({ type: 'ADVANCE' }); }, [audio, dispatch]);
   const skipping = node?.type === 'line' && settings.skipSeen && state.seenNodeIds.includes(node.id);
   const voiceToken = `${node?.id}:${replayCounter}`;
-  const voiceFailed = audioState === 'blocked' || audioState === 'error';
   const textTiming = settings.muted || !hasVoice || voiceFailed;
   const canAuto = node?.type === 'line' && settings.autoMode && typewriter.complete
     && !skipping && (textTiming || voiceDone === voiceToken);
@@ -231,7 +226,7 @@ export function Reader({ onTitle, onOpenPanel, panelOpen, pauseRequest = 0 }: {
         onScroll={() => { clearTimeout(pendingTap.current); pendingTap.current = undefined; measurePassage(); }}
         onPointerDown={pointerDown} onPointerUp={pointerUp} onPointerCancel={() => { gesture.current = undefined; }}>
         <p className={common.srOnly} aria-live="polite" aria-atomic="true">{speaker ? `${speaker}: ` : ''}{lineText}</p>
-        <p className={styles.text} aria-hidden="true">{typewriter.text}</p>
+        <p className={styles.text} aria-hidden="true" data-reveal-mode={typewriter.synchronized ? 'audio' : 'reading'}>{typewriter.text}</p>
         {node.type === 'choice' && <div className={styles.choices}>
           {node.choices.map((option, index) => <button key={option.id} disabled={paused} onClick={() => {
             updateSettings({ autoMode: false, skipSeen: false });

@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-035",
+  "chapterId": "chapter-ns",
+  "speakerId": "aisyah",
+  "text": "It was posted to Close Friends. I thought you would be included. I'll send what I saw, but I don't want to pretend I know the whole situation.",
+  "voiceUrl": "voices/chapter-ns/ns-035.mp3",
+  "durationMs": 7992,
+  "audioSha256": "87557d4dd73eca644f2155769edbeb6704a93fe4d77badbab9c20b63b5c885f8",
+  "audioBytes": 96236,
+  "textSha256": "a1594e29479191867ca0713555fdccd19b239b75fbeb9d4698ffe7a823412f7f",
+  "fingerprint": "96bf7883283db5e901d0931e4306241e8b21f48510c7d27a1777f3b43450919e",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "d2e33f888dc84d11123bf5821c3431c30bbae8e3b6a45ec5b1cad47c6aebe6f7",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:12.238Z",
+  "elapsedMs": 396,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

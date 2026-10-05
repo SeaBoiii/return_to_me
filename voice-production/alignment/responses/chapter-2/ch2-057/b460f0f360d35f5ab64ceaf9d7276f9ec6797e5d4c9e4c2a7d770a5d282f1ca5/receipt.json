@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-057",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "Next time, I remembered only after the crisis had started. The time after that, I sent a quick message so vague it asked her to wait without telling her for how long.",
+  "voiceUrl": "voices/chapter-2/ch2-057.mp3",
+  "durationMs": 10704,
+  "audioSha256": "1fefbdd202d1793b0fdacaa04a6e1f0cebd5d22dfbfdc6aa6ad39d6161b92320",
+  "audioBytes": 128780,
+  "textSha256": "2e2c6f3c6976aba61a653f33b9b83151ddf9872fc7fd3df6b21bbe68f6dc195e",
+  "fingerprint": "b460f0f360d35f5ab64ceaf9d7276f9ec6797e5d4c9e4c2a7d770a5d282f1ca5",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "7baa0ee0a912e9e9815e698bb8860f3a75ec4a9512eb8ac84d23dca8f06838cb",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:33.074Z",
+  "elapsedMs": 760,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

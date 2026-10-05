@@ -1,0 +1,20 @@
+{
+  "lineId": "ch5-037",
+  "chapterId": "chapter-5",
+  "speakerId": "adult-aleem",
+  "text": "The zoo day was not a betrayal. It was a kind gesture mixed with unspoken hope, an uncomfortable pattern of comparison, and an interpretation neither person tested. Silence filled the remaining space and hardened into an answer.",
+  "voiceUrl": "voices/chapter-5/ch5-037.mp3",
+  "durationMs": 17184,
+  "audioSha256": "28dd01ad294f1595ce9f52b03c767449373e0d3e85b5d79c5353ab90294d85e4",
+  "audioBytes": 206540,
+  "textSha256": "a0c2ec2cfd90ff2cf72b9fb3a956a8a876a4adf812b1bcef740fc03aa7d3999f",
+  "fingerprint": "19f53839f4b1d919edb33ea930ce05ec391f900ba81cd829dc18950dee7b7b68",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "f77fc9e957c04461b0047ecefe41a7f661a1148d2bc66f7364f3ea3e2f11710e",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:06.669Z",
+  "elapsedMs": 508,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

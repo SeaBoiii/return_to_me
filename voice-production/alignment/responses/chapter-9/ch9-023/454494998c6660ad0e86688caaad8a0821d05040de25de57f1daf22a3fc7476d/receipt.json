@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-023",
+  "chapterId": "chapter-9",
+  "speakerId": "aleem-adult",
+  "text": "I was going to ask you. Started with five, right? My counting still okay?",
+  "voiceUrl": "voices/chapter-9/ch9-023.mp3",
+  "durationMs": 4152,
+  "audioSha256": "03e58a489d270442ed00ba776076ff5b35f1569eaf724e55f8f32e9320eaae06",
+  "audioBytes": 50156,
+  "textSha256": "c0db40a21aa0851b93c8b0ebc8b85d3a9f80bda7e9bf00285b864a36185e34c9",
+  "fingerprint": "454494998c6660ad0e86688caaad8a0821d05040de25de57f1daf22a3fc7476d",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "3d1f2b0956694914d6cf45b98235efc87bd993610700cfde55c5aff60815b0e8",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:47.509Z",
+  "elapsedMs": 310,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

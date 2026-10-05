@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-results-condemn-001",
+  "chapterId": "chapter-2",
+  "speakerId": "aleem-sec",
+  "text": "I ruined everything. Everyone else gets to move forward, and I did this to myself.",
+  "voiceUrl": "voices/chapter-2/ch2-results-condemn-001.mp3",
+  "durationMs": 4920,
+  "audioSha256": "2f08fa924a804cc05b31a59a5b3563aafb048ecd7cf748e81ae866250a7e0f93",
+  "audioBytes": 59372,
+  "textSha256": "5c7d0371cfae8709528c70c041eab529d4577066cf5b0dbbfde7048c92f24120",
+  "fingerprint": "ace38bf5b621a85acbd81d50f4aa309355488d60aef63911a08d55ed608bce91",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "f566d01572bcf15ee40438b6d91b831d73af383db936fd19876a18589fa6bdb9",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:41.179Z",
+  "elapsedMs": 410,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

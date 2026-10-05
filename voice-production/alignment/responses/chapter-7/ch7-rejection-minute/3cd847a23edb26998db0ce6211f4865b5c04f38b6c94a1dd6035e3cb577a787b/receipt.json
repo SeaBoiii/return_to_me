@@ -1,0 +1,20 @@
+{
+  "lineId": "ch7-rejection-minute",
+  "chapterId": "chapter-7",
+  "speakerId": "aleem-adult",
+  "text": "Okay. I understand. Can we stand here a bit? I need a minute before I can talk normally again. I'm not waiting for you to say something different. My face just hasn't caught up with the part of me that's trying to be sensible.",
+  "voiceUrl": "voices/chapter-7/ch7-rejection-minute.mp3",
+  "durationMs": 12000,
+  "audioSha256": "7ff60f7e16463e1b009c2324dae7cb3c093e36b22d7acad1b654e12cb174c829",
+  "audioBytes": 144332,
+  "textSha256": "ce684c2a06651873cc11346a767bcb561b1c67cfd4af596be852d21f6894048d",
+  "fingerprint": "3cd847a23edb26998db0ce6211f4865b5c04f38b6c94a1dd6035e3cb577a787b",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "4e550698523e0dc50528fa710b11b3377feb20975601f6111ae72033719e6c80",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:36.712Z",
+  "elapsedMs": 404,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

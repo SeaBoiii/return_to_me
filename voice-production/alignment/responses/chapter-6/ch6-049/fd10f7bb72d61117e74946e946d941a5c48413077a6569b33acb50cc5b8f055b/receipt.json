@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-049",
+  "chapterId": "chapter-6",
+  "speakerId": "adult-aleem",
+  "text": "The feelings were real. So were those afternoons. But no amount of remembering them could produce a moment when she had agreed to be my girlfriend. I had taken the meaning those things held for me and quietly written her name beneath it too.",
+  "voiceUrl": "voices/chapter-6/ch6-049.mp3",
+  "durationMs": 14640,
+  "audioSha256": "8294ab6e3067b33aabddd8f785156932f8781153fe5e59b55365d9e048e7c7b6",
+  "audioBytes": 176012,
+  "textSha256": "e616705c9ec005111b51f85843d1cdd15b634fac52db2a19f020f440be0f47eb",
+  "fingerprint": "fd10f7bb72d61117e74946e946d941a5c48413077a6569b33acb50cc5b8f055b",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "9dbff24930041bd723f8a7a56feb8872d47250e3b421704956917dad5c715038",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:32.179Z",
+  "elapsedMs": 490,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

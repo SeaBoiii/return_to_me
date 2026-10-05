@@ -1,0 +1,20 @@
+{
+  "lineId": "ch7-staying-friends",
+  "chapterId": "chapter-7",
+  "speakerId": "adult-aleem",
+  "text": "When she laughed at something I said, I felt relieved before I felt anything else. We could still do this. I could hand her a mug without making an occasion of it, ask about her weekend, tell her I was having a difficult day. I wanted those things to count as evidence that I was managing the friendship properly.",
+  "voiceUrl": "voices/chapter-7/ch7-staying-friends.mp3",
+  "durationMs": 19440,
+  "audioSha256": "3ca19cd2665dc5da7c11096ad6b78c4710fbfb513b7377bbbc7212c96d4fa5e5",
+  "audioBytes": 233612,
+  "textSha256": "68c2bcc56e48cb4a1030361bebaaa83e8e989d00f503bb8a317c78eb8e0f1668",
+  "fingerprint": "9b0facde6ada2e764a90b9b319b0c0b086454627a1cb5c5c6dc2de48a5b29f4a",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "7798286d688ab9da465b56c6b03dd05a8c39e7b1ecfe7e742bf89728dc30b418",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:37.915Z",
+  "elapsedMs": 487,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

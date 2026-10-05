@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-confrontation-join",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "Across the conversation, Nadiah acknowledged the central history: the other man was her first love. When she and I started talking, his feelings had not been confirmed, while her own attachment to him remained unresolved.",
+  "voiceUrl": "voices/chapter-ns/ns-confrontation-join.mp3",
+  "durationMs": 14160,
+  "audioSha256": "d3487b40ef2554b1295ec3e9cbf75685b313d2846c19a8d5a18c535d640fc9d3",
+  "audioBytes": 170252,
+  "textSha256": "8fbe592c9dcbd38329855e88742aa22d2174460ed4f1d990e5e38d2c40c3b202",
+  "fingerprint": "b17264b29d48a20d5456867af4c09bee113e568f17039b55e52b12d165b8d3ff",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "5c49ff69211cce83e0bc11d3464f7b8d36998c5da5db64dab5426cbce9643deb",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:15.496Z",
+  "elapsedMs": 480,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

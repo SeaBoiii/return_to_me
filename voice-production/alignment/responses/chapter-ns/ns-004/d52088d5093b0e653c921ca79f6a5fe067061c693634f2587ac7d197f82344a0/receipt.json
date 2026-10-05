@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-004",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "I called that rule maturity. Much of it was fear dressed in practical language. Earlier rejection had already encouraged an unfair suspicion of Malay girls; I had challenged the thought sometimes, but I had not removed its roots.",
+  "voiceUrl": "voices/chapter-ns/ns-004.mp3",
+  "durationMs": 16632,
+  "audioSha256": "2e94dd5b50a98109430380f561047b0dd1c525287a55d02da9130407c32642a6",
+  "audioBytes": 199916,
+  "textSha256": "6e4f539cd4a615c8ae7276e14d949bc92eefce4711062a89575eca286a5a8fa1",
+  "fingerprint": "d52088d5093b0e653c921ca79f6a5fe067061c693634f2587ac7d197f82344a0",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "0f65f47b1ba4ea033aa35e901e3ca198ada4b62da56caee10b9d339b6b473920",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:07.713Z",
+  "elapsedMs": 508,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

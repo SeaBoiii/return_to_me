@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-027",
+  "chapterId": "chapter-3",
+  "speakerId": "adult-aleem",
+  "text": "I liked the version of myself beside her: less defensive, less defined by results, able to make somebody laugh before eight in the morning. Wanting that feeling to have a name was not unreasonable.",
+  "voiceUrl": "voices/chapter-3/ch3-027.mp3",
+  "durationMs": 13272,
+  "audioSha256": "8e539be48a0bc2a416fc83df2a0fbf45115650fea8db9d1f91500e6f0956c52c",
+  "audioBytes": 159596,
+  "textSha256": "24a4489267c242654c6c9701785753f14cfa77886a48cc134be7f0b58c51d943",
+  "fingerprint": "04cc0280fc353768229c203f4466a68273aeb2bfb1b848893cbbc932aac1927b",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "5f8d66f0baa8f1607452e831136ec9b62fb4160d5de32694fbc018ec1dab0a0f",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:48.926Z",
+  "elapsedMs": 626,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

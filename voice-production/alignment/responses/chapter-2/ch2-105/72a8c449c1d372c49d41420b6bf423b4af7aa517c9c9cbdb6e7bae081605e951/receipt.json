@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-105",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "And I was not only the boyfriend who became absent. I was a young person learning, painfully, that caring about someone is different from making room for them.",
+  "voiceUrl": "voices/chapter-2/ch2-105.mp3",
+  "durationMs": 10320,
+  "audioSha256": "c303babbed33c47f049f9ec87ffa7346e615c727950a98c28a8d11a361d33981",
+  "audioBytes": 124172,
+  "textSha256": "e9c6e6cbaedfb4e26a94f89497b213d1a277d07ee0e523f2f5aed36c6ff93296",
+  "fingerprint": "72a8c449c1d372c49d41420b6bf423b4af7aa517c9c9cbdb6e7bae081605e951",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "00960e6247e495da632a4775c00cdd3d8995d1a65c613cf2a85535c032fdb0b9",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:42.763Z",
+  "elapsedMs": 436,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

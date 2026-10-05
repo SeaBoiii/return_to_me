@@ -1,0 +1,20 @@
+{
+  "lineId": "ch10-006",
+  "chapterId": "chapter-10",
+  "speakerId": "adult-aleem",
+  "text": "I made a small doa about love. I cannot give its exact words back to you. What I remember is wanting God to help me with this part of my life: guide me towards what was good, ease what I was carrying, help me find peace with what I could not make happen. It was simple enough to come from somewhere beneath the explanations.",
+  "voiceUrl": "voices/chapter-10/ch10-006.mp3",
+  "durationMs": 23664,
+  "audioSha256": "5ef87334b155c960f5b4f347fa03345e69a930207d2f14f806acb638ebb56e10",
+  "audioBytes": 284300,
+  "textSha256": "95026f848966507652837395ae6c3af931c16fa6f0703603fedb0daebb010ce1",
+  "fingerprint": "32f8c7f7002141b14f9c1f892ef172f1ebaf67a497ab7191fe40efa02d046b5b",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "1184e05d7b8295bb4a724821511d8b38e62beb4bd83293a93995da2eb5fae811",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:54.065Z",
+  "elapsedMs": 548,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

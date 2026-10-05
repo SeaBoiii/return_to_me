@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-openness-surprise",
+  "chapterId": "chapter-11",
+  "speakerId": "aleem-adult",
+  "text": "I'm surprised I'm telling you all this. I didn't come here with a speech prepared. I just started talking, and it felt okay to keep going. That means a lot to me.",
+  "voiceUrl": "voices/chapter-11/ch11-openness-surprise.mp3",
+  "durationMs": 8304,
+  "audioSha256": "37c65e8d2a8f6af6e3ebacc9798da3460ad3a41ed6e22e40b9cb2faf15fd429e",
+  "audioBytes": 99980,
+  "textSha256": "bbf4e311290503206b76c1058520196eb8d3d30ba01e8dd671d7bba9c2a8269e",
+  "fingerprint": "4e5d5bca699f11fe81c295af469d2d2f0f1dab9a10a178bd9cac408f12e65ed8",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "0434165d41fa913559df1f59d4df5e1da2a495b42b1a656640d19ed5aa6a5514",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:11.030Z",
+  "elapsedMs": 368,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

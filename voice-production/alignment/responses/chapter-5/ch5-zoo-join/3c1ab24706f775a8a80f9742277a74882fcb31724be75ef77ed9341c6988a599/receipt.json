@@ -1,0 +1,20 @@
+{
+  "lineId": "ch5-zoo-join",
+  "chapterId": "chapter-5",
+  "speakerId": "adult-aleem",
+  "text": "I held the frustration in. We continued along shaded paths, stopped when something interested her, and let the afternoon soften toward evening. Mei Lin did not know there was a private argument taking place beside her.",
+  "voiceUrl": "voices/chapter-5/ch5-zoo-join.mp3",
+  "durationMs": 14712,
+  "audioSha256": "56093d2bfac816bf668418e0a6d4b962bcb4ebc22f25cac9ac706aa536b47a3a",
+  "audioBytes": 176876,
+  "textSha256": "bd415c5bb1845737be394bf261437e04a9d98838c7aa70608e9f5f4278dc1b17",
+  "fingerprint": "3c1ab24706f775a8a80f9742277a74882fcb31724be75ef77ed9341c6988a599",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "d40d3bb5f484352d49be0d7836725cf2fb6ec476479a6eb512e360f6e0326405",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:05.138Z",
+  "elapsedMs": 513,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

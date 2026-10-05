@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-032",
+  "chapterId": "chapter-6",
+  "speakerId": "adult-aleem",
+  "text": "Alone in my room, I kept adjusting that opening. Too serious. Too sudden. Too much like I had rehearsed it in my room, which was exactly what I was doing. I checked the plans again, imagined her expression, and let myself picture the journey home with everything finally understood.",
+  "voiceUrl": "voices/chapter-6/ch6-032.mp3",
+  "durationMs": 19824,
+  "audioSha256": "022d70bf10e6f680d9ce5e9f3b99f67c7a09fb9a26d898e86ad1f6c7e1488083",
+  "audioBytes": 238220,
+  "textSha256": "0ca88d4779c97da7a5fe9ad511e1ef21202841a51aa0bc9a9f521aa05604a394",
+  "fingerprint": "c2ca45e0c9f72f581c57fbfee8b8abdb7be9b0ee5082d1588567bb1ffc8e9dee",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "38391a7f9cfcbf54e32b590ac7e64c8d169cdafd381020102a798ab28d52889a",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:28.061Z",
+  "elapsedMs": 461,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch10-005",
+  "chapterId": "chapter-10",
+  "speakerId": "adult-aleem",
+  "text": "For so long, whenever I thought about my love life, I began explaining. What I had tried. What I had given. Why the hurt had lasted. I could tell the story in a way that made every disappointment lead neatly to the next. Sitting there, I found I had very little desire to make the account convincing.",
+  "voiceUrl": "voices/chapter-10/ch10-005.mp3",
+  "durationMs": 21672,
+  "audioSha256": "3777c89c0c3b540c4612ab2c75d2687ca8806a871d4b65c0282cc34f3d024fd2",
+  "audioBytes": 260396,
+  "textSha256": "0d8080b5c314455ea434486443538562ee3732cf00618f6ac5124a3e0ae5cdf1",
+  "fingerprint": "a83273ab24c59038ffea332f56ed809e594e0543718442f6649a9326b86212d9",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "e34ce64d1e055e12e9e737d79efdb46a068a36d909f49ae278f684be30b64b3a",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:53.828Z",
+  "elapsedMs": 519,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch5-013",
+  "chapterId": "chapter-5",
+  "speakerId": "adult-aleem",
+  "text": "The invitation was goodwill, not a bargain disguised as kindness. I had feelings I had never declared, but she had agreed to a day out with a friend. Anything beyond that existed only in my private hopes.",
+  "voiceUrl": "voices/chapter-5/ch5-013.mp3",
+  "durationMs": 13512,
+  "audioSha256": "659c5b1f920c4615bcc508414ca9690f3c43e152fa0c17374df46796e0227ec1",
+  "audioBytes": 162476,
+  "textSha256": "1bfe8aa5b46ff4876911eef30a5101c725d87178e0d55a28e43dc34ec8e7da18",
+  "fingerprint": "2f466bbc72d5c3b4d3e605f8cc512d7372c1571971918cedd5c50bfbbe7b6515",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "f0616c6a364e3cbeaebc323877c1b130e7e5668a5d7cb1902e3ae282f1936d49",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:01.941Z",
+  "elapsedMs": 484,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

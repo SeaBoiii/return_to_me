@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-015",
+  "chapterId": "chapter-11",
+  "speakerId": "nurulain",
+  "text": "So. Are you always this quiet, or only when you're texting?",
+  "voiceUrl": "voices/chapter-11/ch11-015.mp3",
+  "durationMs": 4632,
+  "audioSha256": "2712a25c798455ab3f8b976842706ba26f747684294b5b89613510f1b225ce1f",
+  "audioBytes": 55916,
+  "textSha256": "dbe8ac5b5c032fe1054c83bd3146d0eb92837800b1d473bc02dd10f10a09b194",
+  "fingerprint": "4c48aead5cef074a3dbc07756f3c0c11e252110a7dfab441df510ce8dac4cbcd",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "af384edf6485c7c8ec1e819cd23d83d77cbe55de6ee5f0caf8391c7ba93eab57",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:01.481Z",
+  "elapsedMs": 320,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

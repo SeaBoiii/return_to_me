@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-belief-question-001",
+  "chapterId": "chapter-3",
+  "speakerId": "aleem-sec",
+  "text": "I wish she had told me about him. But Syafiqa is one person, and rejection is still rejection whatever explanation comes with it.",
+  "voiceUrl": "voices/chapter-3/ch3-belief-question-001.mp3",
+  "durationMs": 7776,
+  "audioSha256": "5c3a0646590c3165c47caf4d31006a994302af8a85e7df788072afd7095c0666",
+  "audioBytes": 93644,
+  "textSha256": "e5495441b8313891dba254bebde245cc11f1f4f03c297baf0ed3614dc8c04d17",
+  "fingerprint": "6189a0f718c59b4f5001b795dc139f16bcc9b0ed57ef03bc1a32add2fb706b92",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "85214348d479503d998823ddd157e8ced94fe0d60205c693cdbed8a6480cfc20",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:52.297Z",
+  "elapsedMs": 403,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

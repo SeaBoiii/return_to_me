@@ -1,0 +1,20 @@
+{
+  "lineId": "uni-arrival-003",
+  "chapterId": "chapter-ns",
+  "speakerId": "hakim",
+  "text": "Come and look around. You don't have to join today. There are seniors, activities, and probably food if we arrive before everybody discovers it.",
+  "voiceUrl": "voices/chapter-ns/uni-arrival-003.mp3",
+  "durationMs": 9120,
+  "audioSha256": "4d772563ffe55a5834e411f6c02472b791b83956953bfaf03587d5b30fba5286",
+  "audioBytes": 109772,
+  "textSha256": "2bcf80f55d23bea8ec2b29274a0c54a03d9a2b40b3bd1c5e161fb8e671944fd8",
+  "fingerprint": "f3ae74693554c93d97be5bf343c1553d1d88204383e460d30eebf4a2cf43a585",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "155d17f21af4718c755a0c8fc80b779a8ea4bfc8c3be0531832aec62d108ccd8",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:18.631Z",
+  "elapsedMs": 384,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

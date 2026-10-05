@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-103",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "I had lost Hana, disappointed myself academically, and reached the end of a road without the future I expected waiting there. Shame tried to combine those facts into one identity.",
+  "voiceUrl": "voices/chapter-2/ch2-103.mp3",
+  "durationMs": 11904,
+  "audioSha256": "fcfb27b4c999f8f00d461887e26e5ea3decce3a443899f9c3ba85aea6a624ac1",
+  "audioBytes": 143180,
+  "textSha256": "bad3cbc79a5b6e4ecd5e40225ed9f88222bbe046c2231a0a03f0e70ddc36b203",
+  "fingerprint": "81c669350e004a085b7d2a409cf7142e81be8cc052e15595020409983ee9c438",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "0ae4203fe18bd694c3eee0cf8ccf5242bf3af7f68b4826d78d677a63c80944d4",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:42.693Z",
+  "elapsedMs": 480,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-sign-join",
+  "chapterId": "chapter-9",
+  "speakerId": "adult-aleem",
+  "text": "I kept the thought to myself. Nadiah had made no promise by standing beside me. Around us, other people were having their own conversations, taking their own pauses. I turned back to ours. Whatever the coincidence meant, I wanted to hear the person who was actually here, rather than disappear entirely into the future I could imagine.",
+  "voiceUrl": "voices/chapter-9/ch9-sign-join.mp3",
+  "durationMs": 22080,
+  "audioSha256": "c7fe069b0a93de8e8e10fd772448b8641f77d23916cc3152f0f17b42e21bf3d2",
+  "audioBytes": 265292,
+  "textSha256": "3ebd219618fa9775fa66378bcb97ef4f714a4524b48ee3c05f3d8c954c1f7439",
+  "fingerprint": "05dee59d8aa35281fd2ca051895395fc2a27abd215c0c15ab0dbfd6c71884096",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "3ba2764cc5099c81037d4890bb0cca4f943b12fa7b9fa8fb42ab5dbaec32da2c",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:51.466Z",
+  "elapsedMs": 537,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

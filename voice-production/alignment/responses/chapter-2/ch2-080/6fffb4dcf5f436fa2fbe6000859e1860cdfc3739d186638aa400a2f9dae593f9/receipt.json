@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-080",
+  "chapterId": "chapter-2",
+  "speakerId": "hana",
+  "text": "Yes. I should have told you directly. I kept waiting for us to feel like us again, and then I stopped believing that would happen.",
+  "voiceUrl": "voices/chapter-2/ch2-080.mp3",
+  "durationMs": 10080,
+  "audioSha256": "dae467907b8a603a4ad518777cbc5054e9cd63701bea9ddc787eb8bf8d888b22",
+  "audioBytes": 121292,
+  "textSha256": "ba12c7282aa116ff2a4ecefe54a481bde310f23864442ccd02c83160e22f02fd",
+  "fingerprint": "6fffb4dcf5f436fa2fbe6000859e1860cdfc3739d186638aa400a2f9dae593f9",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "9ef79cc5229a144ffdbc399e02fc58cede74718815cf4218f84851f6105bd52e",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:37.529Z",
+  "elapsedMs": 650,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

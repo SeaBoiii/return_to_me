@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-001",
+  "chapterId": "chapter-9",
+  "speakerId": "adult-aleem",
+  "text": "I had come for Umrah with a tired heart and very little idea of how to rest it. Now that we were here, I wanted to stop rehearsing everything that had gone wrong. I wanted to pay attention, make space for worship, and understand what I had been carrying for so long.",
+  "voiceUrl": "voices/chapter-9/ch9-001.mp3",
+  "durationMs": 18240,
+  "audioSha256": "de22ab9511ccaa3d485689175b66c3f558260694f0952d39b7147dc5aaa7bd0e",
+  "audioBytes": 219212,
+  "textSha256": "4c1d411446454c112d95ae5d5939f8e1c1b58be7a2dffdc95e62c8861d3b6028",
+  "fingerprint": "b8dcf660c14ff58a0cd3427d26f4dd4a164c3e20162e61bcd3b2aa9e094a0fc7",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "be224d7470ff8215f84ea9308e3608d590f59282cff6a2d8f644bc5ffbfdd214",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:43.570Z",
+  "elapsedMs": 451,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

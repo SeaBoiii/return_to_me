@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-priority-server-002",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "Years later, I remembered how reasonable every delay sounded from inside it. I never chose to neglect her in one dramatic moment. I chose 'just a little longer' again and again.",
+  "voiceUrl": "voices/chapter-2/ch2-priority-server-002.mp3",
+  "durationMs": 13752,
+  "audioSha256": "41e23b8bb2b4915798caa9cf3b3626a38fcda44cf8d6fb5d9ab5448bea09653a",
+  "audioBytes": 165356,
+  "textSha256": "1d7f9b9a5354065ff25b3bfb8f14952d84a329781a311fa7aa44ec1922f923fa",
+  "fingerprint": "fdfa8b96b1b31ef97f420a26908f2db9af31624b08e860b46810f23b57eab3f0",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "a290d537015c314b57bd354a229faeb8842088f036956e3e63a4fa134477690f",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:31.044Z",
+  "elapsedMs": 958,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

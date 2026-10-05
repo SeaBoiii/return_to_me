@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-039",
+  "chapterId": "chapter-11",
+  "speakerId": "nurulain",
+  "text": "You remembered?",
+  "voiceUrl": "voices/chapter-11/ch11-039.mp3",
+  "durationMs": 2064,
+  "audioSha256": "554bac73fb8a4154fba2491ba3fe0eeb70bbf5cc455f31e401ffeddfbee2344d",
+  "audioBytes": 25100,
+  "textSha256": "f28afccfc6336e0b509a562ff17ce2ebc96443b32f1f9ad93dccebee0427b3d5",
+  "fingerprint": "16bc9cf647e171ebcc6abcd4672a4ad0c62528b6eadcab6c8d1b79caec648bef",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "f92344637f8796664755b741a47e5a844da32bdce6d6c53e3ac4201deec6bda3",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:06.872Z",
+  "elapsedMs": 307,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

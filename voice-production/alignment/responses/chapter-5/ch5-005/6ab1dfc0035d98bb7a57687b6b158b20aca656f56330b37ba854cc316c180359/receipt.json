@@ -1,0 +1,20 @@
+{
+  "lineId": "ch5-005",
+  "chapterId": "chapter-5",
+  "speakerId": "adult-aleem",
+  "text": "Then I found Mei Lin. Her paper rested in both hands. She was not crying, but the stillness around her was different from concentration. Her results had fallen below what she had worked and hoped for.",
+  "voiceUrl": "voices/chapter-5/ch5-005.mp3",
+  "durationMs": 13104,
+  "audioSha256": "ee4dc1f0a135f4bbe4020287372e45a332e4b76f419d1e5baa41190932ec0b21",
+  "audioBytes": 157580,
+  "textSha256": "a5128b9e7fd1b4b937f8465ddf25d43ae8c01117b825296226e8da1bfe2ac446",
+  "fingerprint": "6ab1dfc0035d98bb7a57687b6b158b20aca656f56330b37ba854cc316c180359",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "33c86a472dd509d642b1d5e87ca729c2b5a5efa81a2b1786571cd12b273df09f",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:00.823Z",
+  "elapsedMs": 491,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

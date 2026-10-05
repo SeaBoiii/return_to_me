@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-011",
+  "chapterId": "chapter-ns",
+  "speakerId": "aleem-young-adult",
+  "text": "She is beautiful. Not just beautiful—there is something peaceful about her. The hijab suits her so perfectly.",
+  "voiceUrl": "voices/chapter-ns/ns-011.mp3",
+  "durationMs": 8232,
+  "audioSha256": "075b52a349de5c4d01ed89246f244a6936b657a2cb98bccbbc58b0e3651355c3",
+  "audioBytes": 99116,
+  "textSha256": "58c52ff0ad644332e0c9cf93705c65b5e012f56ca2b4c9be3f154a1d61e3e198",
+  "fingerprint": "de11cba1919023caff30264ee3a0b31e4782c4ff04d042d953de37f14ddd8c7d",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "5892ace9330ad579b903714d3f87ced1fe94fe791041706b1e106ab8abb39327",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:08.473Z",
+  "elapsedMs": 356,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

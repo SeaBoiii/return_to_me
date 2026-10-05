@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-087",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "We parted without cruelty. That did not make it painless. Hana had been patient until patience began costing her too much; I had noticed the cost only after she stopped paying it.",
+  "voiceUrl": "voices/chapter-2/ch2-087.mp3",
+  "durationMs": 12072,
+  "audioSha256": "2b79bf7d632f0b523163bdfd505fa2f4b3c42ba8a83acfc518aad643eea6ef0f",
+  "audioBytes": 145196,
+  "textSha256": "8d2e45de762d39c1c30c57ccb3ea69919c39c50a28e661ef44b8b677627bfb1e",
+  "fingerprint": "a24c2687da342eb8534ee37a4e9a6d0f653afbe42ca240bcf5c57b6b743cf45e",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "c1df91b6239652290e6a800736b636f70852a4988a37e68adc3efc579ea24650",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:38.800Z",
+  "elapsedMs": 424,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

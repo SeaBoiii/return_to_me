@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-027",
+  "chapterId": "chapter-9",
+  "speakerId": "nadiah",
+  "text": "You always said civilian conversation was too fast for you. Now working already. Can keep up or not?",
+  "voiceUrl": "voices/chapter-9/ch9-027.mp3",
+  "durationMs": 7680,
+  "audioSha256": "70ff1cb0a69f34c7b945129a6400b981527094ea06b0c237d48ca4739ec60703",
+  "audioBytes": 92492,
+  "textSha256": "83b43d3c10040980278255dcd06d75b38755899057a7bf4e1d34435438326faf",
+  "fingerprint": "ea9a41520e99da776fb4de973d441ba91830c2dbb3af16ad99e4601effe41202",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "fb55b355886fa70c892b644e51ef952d1acbfdb1daa4a78855e4e691a9f52d1e",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:48.846Z",
+  "elapsedMs": 361,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

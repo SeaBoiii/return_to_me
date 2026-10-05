@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-018",
+  "chapterId": "chapter-3",
+  "speakerId": "adult-aleem",
+  "text": "The arrangement became routine before either of us named it. A message before leaving home. A familiar figure near the queue. Two seats if the bus was kind, or two handholds near each other if it was not.",
+  "voiceUrl": "voices/chapter-3/ch3-018.mp3",
+  "durationMs": 12480,
+  "audioSha256": "b918cabff2635381432aaae6e73dbaf733e92249d27deabd1acf5192828469f3",
+  "audioBytes": 150092,
+  "textSha256": "e14d517db709a16b24cee67ac67ea72839333002e04b514e958ca4ecb51839bc",
+  "fingerprint": "3f1ceaea2f7f284fcbb810172ee45deb6a827760d5355df59fae25df2a75f8cc",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "d579a89f197172facd34a29ab70c8992e39793f3c04a0391ef38ec3d53fcad79",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:46.391Z",
+  "elapsedMs": 496,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

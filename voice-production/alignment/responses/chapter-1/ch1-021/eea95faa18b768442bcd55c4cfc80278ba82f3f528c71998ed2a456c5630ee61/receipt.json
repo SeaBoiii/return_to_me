@@ -1,0 +1,20 @@
+{
+  "lineId": "ch1-021",
+  "chapterId": "chapter-1",
+  "speakerId": "aleem-p6",
+  "text": "Of course. We will still talk every day.",
+  "voiceUrl": "voices/chapter-1/ch1-021.mp3",
+  "durationMs": 2952,
+  "audioSha256": "4e906b0e9525436243ddb3d739d511baf83a4a0ac5ef2ec4d58b27a0baef2f4b",
+  "audioBytes": 35756,
+  "textSha256": "2cf339ecd1ed74e3a223292841331659efc2f9a802d9d3c740329d984e1c2f5d",
+  "fingerprint": "eea95faa18b768442bcd55c4cfc80278ba82f3f528c71998ed2a456c5630ee61",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "da1adac37d2bc543ef9e2cfed6029fe93bf7d0f1ff20b88abe00fdb92dccd5d3",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:15.071Z",
+  "elapsedMs": 512,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

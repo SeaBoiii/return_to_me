@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-063",
+  "chapterId": "chapter-11",
+  "speakerId": "adult-aleem",
+  "text": "I told her about being so tired of love that I had almost stopped wanting to try. About going for Umrah, and the relief I found in Masjidil Nabawi. I could still remember the breath leaving me. Sitting beside the river, I paused, surprised that I had brought her all the way into that memory.",
+  "voiceUrl": "voices/chapter-11/ch11-063.mp3",
+  "durationMs": 19032,
+  "audioSha256": "40c8a3d467daebedb176e1f5062633b1d389684e2dac114791dc9ea6f65cd3d2",
+  "audioBytes": 228716,
+  "textSha256": "b645e76c6f8394bb54711636a32e70dc9c47854d6528214eaae9e851edc82dd8",
+  "fingerprint": "dcc0842f2b39771fe273f49448720bc4a227036c7b0722990ae2c9ccfc126341",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "3855d2dc7860d9d5a70e758bfb1fca265cbce846d38da7040aafab461eab7e2f",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:10.555Z",
+  "elapsedMs": 466,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

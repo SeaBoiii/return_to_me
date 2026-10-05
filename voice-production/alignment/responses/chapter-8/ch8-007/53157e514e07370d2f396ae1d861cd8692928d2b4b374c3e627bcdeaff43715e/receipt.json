@@ -1,0 +1,20 @@
+{
+  "lineId": "ch8-007",
+  "chapterId": "chapter-8",
+  "speakerId": "adult-aleem",
+  "text": "Packing was ordinary enough to steady me. Clothes folded badly, documents checked, the charger I nearly forgot. I kept moving an item from one side of the bag to the other as if there were a perfect arrangement. The hurt was still there, but now my hands had something useful to do around it.",
+  "voiceUrl": "voices/chapter-8/ch8-007.mp3",
+  "durationMs": 18240,
+  "audioSha256": "6b4fc9f9dee89a5aae1622b01cb88835314957cece5f29fe3a986cf8fef53a8b",
+  "audioBytes": 219212,
+  "textSha256": "0b7bcb5050e29ba3525bfd56365ba7d82e43e3ab0992eec7ba6c33a001fc499a",
+  "fingerprint": "53157e514e07370d2f396ae1d861cd8692928d2b4b374c3e627bcdeaff43715e",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "cc70760a461ef8174193b1d604be00f21c001936a969358475870c34ae56d19e",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:42.789Z",
+  "elapsedMs": 459,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

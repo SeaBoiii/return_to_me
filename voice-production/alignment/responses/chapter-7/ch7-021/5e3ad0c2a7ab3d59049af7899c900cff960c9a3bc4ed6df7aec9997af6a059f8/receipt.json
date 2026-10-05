@@ -1,0 +1,20 @@
+{
+  "lineId": "ch7-021",
+  "chapterId": "chapter-7",
+  "speakerId": "claire",
+  "text": "Coffee I can manage. The blue mug is free.",
+  "voiceUrl": "voices/chapter-7/ch7-021.mp3",
+  "durationMs": 4080,
+  "audioSha256": "6f3400a19cdc408f56925783f78528bf8f685070dec32c35925702a1d52c646f",
+  "audioBytes": 49292,
+  "textSha256": "6f48de220279b0940836177d193c28084f92fbec223e9f6616085abf526f8d60",
+  "fingerprint": "5e3ad0c2a7ab3d59049af7899c900cff960c9a3bc4ed6df7aec9997af6a059f8",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "43b9c472f2840d8606120808687d1a14906e9be6a3de0d734c4269e9f95913f3",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:37.422Z",
+  "elapsedMs": 343,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

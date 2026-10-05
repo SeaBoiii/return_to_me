@@ -1,0 +1,20 @@
+{
+  "lineId": "ch10-010",
+  "chapterId": "chapter-10",
+  "speakerId": "adult-aleem",
+  "text": "I breathed in again. There was room. I could feel the air arrive without the familiar tightness gathering around it. My hands rested where they were. Nothing dramatic happened in the space around me; people continued with their own moments. Inside, I felt an enormous relief, so quiet that I wanted to sit carefully and let it reach the rest of me.",
+  "voiceUrl": "voices/chapter-10/ch10-010.mp3",
+  "durationMs": 24240,
+  "audioSha256": "e24f01bc92d79535cbf5e6c5462356df86ff2a263ed548a56434e9f3cc7776aa",
+  "audioBytes": 291212,
+  "textSha256": "4cc428adda54b9c0316d7be6881649c6a06032a96c3744a4921454e4d9711ed3",
+  "fingerprint": "d55c790c408f8168d361138b466705e958b8170cd861d3aa14d884ebbb1f2275",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "e3f9a0f400419ad66fcc6646f1c02359d5cc2ac84d9633d374b91e8eb1746ea2",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:55.009Z",
+  "elapsedMs": 691,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

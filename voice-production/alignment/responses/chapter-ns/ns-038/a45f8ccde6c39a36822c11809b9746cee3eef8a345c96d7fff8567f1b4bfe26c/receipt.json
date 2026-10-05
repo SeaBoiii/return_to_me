@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-038",
+  "chapterId": "chapter-ns",
+  "speakerId": "adult-aleem",
+  "text": "I did not know why Nadiah was not wearing hijab that day, and the screenshot could not tell me. Connecting that choice to the man beside her was my immediate inference, not an explanation she gave.",
+  "voiceUrl": "voices/chapter-ns/ns-038.mp3",
+  "durationMs": 12000,
+  "audioSha256": "b15469fb2137139b6c27001f9dc0686b02c02cf72c4f96839056dfd3bb3536cb",
+  "audioBytes": 144332,
+  "textSha256": "706917f392a8597b4bc6d830fd225298a6325dabf3372f19aa2fd5a23b6e5b10",
+  "fingerprint": "a45f8ccde6c39a36822c11809b9746cee3eef8a345c96d7fff8567f1b4bfe26c",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "51064b37da2d5a623a0059d497950c8e19d46668f44691902273f0643f0d183d",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:12.685Z",
+  "elapsedMs": 442,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

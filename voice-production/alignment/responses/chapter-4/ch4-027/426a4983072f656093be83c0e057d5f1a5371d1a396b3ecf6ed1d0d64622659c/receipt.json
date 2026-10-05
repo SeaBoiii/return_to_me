@@ -1,0 +1,20 @@
+{
+  "lineId": "ch4-027",
+  "chapterId": "chapter-4",
+  "speakerId": "adult-aleem",
+  "text": "It touched family, marriage, community, and the shape each of us imagined for an adult life. We never negotiated those questions because I never confessed. I could not see a future I was prepared to ask her to enter.",
+  "voiceUrl": "voices/chapter-4/ch4-027.mp3",
+  "durationMs": 15024,
+  "audioSha256": "d00095b32e9b36e553c80cc6ae3afb5a307052a39388b2f39d05ea21424a665d",
+  "audioBytes": 180620,
+  "textSha256": "b5ff0d293de2ba2cadca4f823c6ee9394a0cacc6ba1ca4c8501df688f009a319",
+  "fingerprint": "426a4983072f656093be83c0e057d5f1a5371d1a396b3ecf6ed1d0d64622659c",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "bd6f3880893116d5779a44b98b24978c01a081be26125a3c38a34e6c0463f3f0",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:58.418Z",
+  "elapsedMs": 496,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

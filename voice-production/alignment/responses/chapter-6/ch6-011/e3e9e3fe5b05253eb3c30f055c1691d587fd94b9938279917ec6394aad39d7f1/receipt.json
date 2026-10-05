@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-011",
+  "chapterId": "chapter-6",
+  "speakerId": "adult-aleem",
+  "text": "Soon I knew her free afternoons better than my own assignment deadlines. We compared timetables before committing to other plans, chose lunch around whichever of us finished later, and found study spaces near the other's next class. It was never only me adjusting. She waited for me too, and those small decisions mattered enormously.",
+  "voiceUrl": "voices/chapter-6/ch6-011.mp3",
+  "durationMs": 21504,
+  "audioSha256": "19bb80822a1e4cf875f3a892d59ef2c2c451503c69829f99c82365232b7896a2",
+  "audioBytes": 258380,
+  "textSha256": "3910ea045e64389b37f14f272c05699d0e71c43f50fa3cafd3feccc9e3cd7322",
+  "fingerprint": "e3e9e3fe5b05253eb3c30f055c1691d587fd94b9938279917ec6394aad39d7f1",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "fa7e72d9d46afed871de1c0c741b93428ea4d83595f8ab1c7e48d4a9b4a2d7c6",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:23.666Z",
+  "elapsedMs": 689,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

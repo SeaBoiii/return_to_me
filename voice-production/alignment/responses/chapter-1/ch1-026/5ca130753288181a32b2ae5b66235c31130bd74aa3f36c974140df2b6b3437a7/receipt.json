@@ -1,0 +1,20 @@
+{
+  "lineId": "ch1-026",
+  "chapterId": "chapter-1",
+  "speakerId": "aleem-p6",
+  "text": "My class monitor is so serious. He wrote down three names before first period even started.",
+  "voiceUrl": "voices/chapter-1/ch1-026.mp3",
+  "durationMs": 5496,
+  "audioSha256": "bd035258d37c1fe2614e1dc409e353ef02c0bf4c048053d17b8b76ccafc4b10c",
+  "audioBytes": 66284,
+  "textSha256": "8087a0e1023b1218748edce8da55c279e1aefa0373e7f4ef1ebc03d39a3e5bff",
+  "fingerprint": "5ca130753288181a32b2ae5b66235c31130bd74aa3f36c974140df2b6b3437a7",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "ff40f9ef93cc9861a00ea44384763837fe5f53cd63c2cf518b877249bd6e6ac8",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:15.663Z",
+  "elapsedMs": 368,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

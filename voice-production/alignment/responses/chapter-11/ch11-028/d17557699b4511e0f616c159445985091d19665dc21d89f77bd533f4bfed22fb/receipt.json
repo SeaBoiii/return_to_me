@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-028",
+  "chapterId": "chapter-11",
+  "speakerId": "adult-aleem",
+  "text": "I wanted her to feel safe with me. Wanting it didn't make it happen immediately. I couldn't count our meetings and decide she had been given enough time. So I kept showing up, and tried to leave space around what she wasn't ready to share. The person who had been patient with my dry replies deserved patience from me too.",
+  "voiceUrl": "voices/chapter-11/ch11-028.mp3",
+  "durationMs": 21120,
+  "audioSha256": "ccba11c325c8431630ad550149d7e32de5a42bc742a42346642cfddd05264993",
+  "audioBytes": 253772,
+  "textSha256": "f1e7afd7e363322a6717b565962c769b4b89c3f6ac9ab6bc6651ddee08a37288",
+  "fingerprint": "d17557699b4511e0f616c159445985091d19665dc21d89f77bd533f4bfed22fb",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "e65915b0f540570162d8c7114ecf02add3ada3aeb56d716e2729a387a7d51135",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:04.600Z",
+  "elapsedMs": 473,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

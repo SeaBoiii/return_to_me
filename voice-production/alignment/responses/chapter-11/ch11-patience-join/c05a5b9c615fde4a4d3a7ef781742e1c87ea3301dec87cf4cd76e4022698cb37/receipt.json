@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-patience-join",
+  "chapterId": "chapter-11",
+  "speakerId": "adult-aleem",
+  "text": "I left for Kazakhstan with our conversation still open. Travel made the days different, but she remained someone I wanted to speak to within them. When a quiet moment came, I found myself wondering what her day had been like. This time the thought became a question I actually sent.",
+  "voiceUrl": "voices/chapter-11/ch11-patience-join.mp3",
+  "durationMs": 16320,
+  "audioSha256": "4140e205d59f18c866e637cce238efacf165163c5506cbf623fc9ae230b1b84f",
+  "audioBytes": 196172,
+  "textSha256": "44343747d185cdaf145f3dd1ec77705aee6a5a65959d0d57efd53a39e18f43a6",
+  "fingerprint": "c05a5b9c615fde4a4d3a7ef781742e1c87ea3301dec87cf4cd76e4022698cb37",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "eea40de91c8d10873c4e0bf7c76960b48db7b6558be2ba8a6dc54a95d11ab721",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:06.294Z",
+  "elapsedMs": 462,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

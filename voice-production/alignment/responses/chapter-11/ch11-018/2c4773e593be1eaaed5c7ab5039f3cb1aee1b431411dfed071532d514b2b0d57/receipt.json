@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-018",
+  "chapterId": "chapter-11",
+  "speakerId": "adult-aleem",
+  "text": "I laughed, partly because I could hear the space she had politely left after that sentence. The beef sizzled between us. I turned a piece and found it easier to admit my awkwardness with something ordinary to do with my hands. She waited, smiling, and I managed more than the few words I would have sent from home.",
+  "voiceUrl": "voices/chapter-11/ch11-018.mp3",
+  "durationMs": 20064,
+  "audioSha256": "bc517ccbe894171862a443054a8dc07b305b45071094e20fe538d76828e5eb20",
+  "audioBytes": 241100,
+  "textSha256": "4e6e6db87cc89c99a40cba0fee59052ffb37ee3427ea24de95114622e1d52640",
+  "fingerprint": "2c4773e593be1eaaed5c7ab5039f3cb1aee1b431411dfed071532d514b2b0d57",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "2d487e3eaccf18691a2557dbaa4af9356b428cdd29b1221adbe3db84490f9345",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:02.321Z",
+  "elapsedMs": 486,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

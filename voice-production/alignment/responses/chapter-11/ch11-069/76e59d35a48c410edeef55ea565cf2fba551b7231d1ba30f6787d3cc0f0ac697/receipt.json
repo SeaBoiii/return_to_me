@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-069",
+  "chapterId": "chapter-11",
+  "speakerId": "nurulain",
+  "text": "I love you too, Aleem.",
+  "voiceUrl": "voices/chapter-11/ch11-069.mp3",
+  "durationMs": 2304,
+  "audioSha256": "3a8b2c47dfc4058dee873baafac5817eed482d858e1fe7fc8ec558b16cf5d831",
+  "audioBytes": 27980,
+  "textSha256": "11bf5271e2c09668207a84798f10c53994fcf45a51d2298b60fe4e2adf994198",
+  "fingerprint": "76e59d35a48c410edeef55ea565cf2fba551b7231d1ba30f6787d3cc0f0ac697",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "521b432ca91dc93ce612a0118251cfb7281cea70568dc3959f8d41acf58039f9",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:12.386Z",
+  "elapsedMs": 332,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

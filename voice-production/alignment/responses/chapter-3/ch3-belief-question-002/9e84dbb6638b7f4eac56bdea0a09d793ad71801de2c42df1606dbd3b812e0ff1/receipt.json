@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-belief-question-002",
+  "chapterId": "chapter-3",
+  "speakerId": "adult-aleem",
+  "text": "It was the thought I needed, though not always the one I could sustain. A wish for direct communication was reasonable. Turning that wish into entitlement to somebody's private feelings—or a judgement on an entire group—was not.",
+  "voiceUrl": "voices/chapter-3/ch3-belief-question-002.mp3",
+  "durationMs": 15120,
+  "audioSha256": "48c66ba99e70c51c2fe5247e8672c69fb2467bcdb7164f248e750edd59cf4517",
+  "audioBytes": 181772,
+  "textSha256": "a5cfeb78715511bb51661c8ac8121e68489a32d129dc4eb71b169b9c14f034a6",
+  "fingerprint": "9e84dbb6638b7f4eac56bdea0a09d793ad71801de2c42df1606dbd3b812e0ff1",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "251ae024f135c97ed264051267780d4224e95770c67d549a6dd1326effb927e8",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:52.503Z",
+  "elapsedMs": 461,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

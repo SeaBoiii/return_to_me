@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-008",
+  "chapterId": "chapter-2",
+  "speakerId": "aleem-sec",
+  "text": "Page... forty-two. I think.",
+  "voiceUrl": "voices/chapter-2/ch2-008.mp3",
+  "durationMs": 4008,
+  "audioSha256": "2e92db084128968102e4e2d420150b33a6b3d9d86cf39c65f1e6ca762d529613",
+  "audioBytes": 48428,
+  "textSha256": "a5cd1f64df45583dfa8fb7208181623a11dd1286624fc9e325c9c57efebaf41e",
+  "fingerprint": "cf718b4ee018f4b21bd243b2d7a27d579425d06e6c52b8e18969366b45457ba8",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "d948ec9b1abd7011867465e5244a4541301723cb1f155aa679dca92fd89fe4eb",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:22.652Z",
+  "elapsedMs": 354,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

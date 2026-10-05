@@ -1,0 +1,20 @@
+{
+  "lineId": "ch1-039",
+  "chapterId": "chapter-1",
+  "speakerId": "alya",
+  "text": "I do not know. I think I felt us becoming different, and I was scared to say it. I am sorry you found out like this.",
+  "voiceUrl": "voices/chapter-1/ch1-039.mp3",
+  "durationMs": 11664,
+  "audioSha256": "48d5b370921a4017ed24e0d4cf8accbf48331501f3967fa66845fcd4da9d4ca7",
+  "audioBytes": 140300,
+  "textSha256": "41595437db3e384109bbfa748302c880295d7ddf7fb0d5b794e939925aa852b6",
+  "fingerprint": "d6c17f9b39f3b02a636d5686a2bf1e3d8a7d02676d2de5ae792640b111ee22d4",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "9f71a52c166e595bda8ea5f94393bcdf4024a3a8c19f5be27d3cf71a0b1f5896",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:19.762Z",
+  "elapsedMs": 854,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

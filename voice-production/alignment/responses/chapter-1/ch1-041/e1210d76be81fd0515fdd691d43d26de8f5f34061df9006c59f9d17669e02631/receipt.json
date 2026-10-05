@@ -1,0 +1,20 @@
+{
+  "lineId": "ch1-041",
+  "chapterId": "chapter-1",
+  "speakerId": "adult-aleem",
+  "text": "Alya had handled it badly. She knew that. But she was not a villain with a secret plan. She was a young person avoiding a painful conversation until an accidental message forced it into the open.",
+  "voiceUrl": "voices/chapter-1/ch1-041.mp3",
+  "durationMs": 13272,
+  "audioSha256": "a11ccc4c799486b2a474158e0254373468a063d1aeadc10e9c3d5e6b6f72e0d4",
+  "audioBytes": 159596,
+  "textSha256": "e68434ee7702b627427ea30597c80cc02b3cc4f7f626725805d9c7f332f5641b",
+  "fingerprint": "e1210d76be81fd0515fdd691d43d26de8f5f34061df9006c59f9d17669e02631",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "ef0f658b79e357f25fe8d757071a3a813242a1ac5be8e56d38f48bd304a19429",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:19.711Z",
+  "elapsedMs": 557,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

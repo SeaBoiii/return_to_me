@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-089",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "That was unfair too. The server had not taken control of my hands. It was a creation, an achievement, and a responsibility. I had chosen to give it boundaries only after other parts of life were damaged.",
+  "voiceUrl": "voices/chapter-2/ch2-089.mp3",
+  "durationMs": 13680,
+  "audioSha256": "5c6b97c9b6ec1059b1da16a0dc7210eb0cba273c6a9c24205ff592efdb64f45d",
+  "audioBytes": 164492,
+  "textSha256": "118c9d335d7d379cadf8c4f89e09d073d88ca263cddcf04dbb34d04f409ef033",
+  "fingerprint": "e3296be4a84850b8436672107436232d23a871a5605104ec8747be2784e27679",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "32b30e3f60aacce13affd07a14cc4ead34d6e92b6d89df02b5a4fd57e2c550e1",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:39.195Z",
+  "elapsedMs": 589,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

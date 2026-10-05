@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-question-unknown",
+  "chapterId": "chapter-6",
+  "speakerId": "adult-aleem",
+  "text": "I wanted to ask her to explain every word. Instead, I stood there with the terrible possibility that even an explanation would not give me the past back. Her question was real. The answer I kept hearing beneath it might still be something I was supplying myself.",
+  "voiceUrl": "voices/chapter-6/ch6-question-unknown.mp3",
+  "durationMs": 17904,
+  "audioSha256": "531cb4076ad4f916c54ce051980ded0526112ce7f0d41514120e6de0aab92e01",
+  "audioBytes": 215180,
+  "textSha256": "9f410ebc5415a65bf3ee263f6c525dbc54aa3a0882bd4c0e15b2011182e8f8e0",
+  "fingerprint": "21c22ab1b519e190e0666bd7760227d72349ef61b457c42128acaabfcdaa80af",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "2abedd126a1c4a5c4830160e1e4e1116fc6416e3eeac869fb806e07b81e64319",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:31.696Z",
+  "elapsedMs": 530,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

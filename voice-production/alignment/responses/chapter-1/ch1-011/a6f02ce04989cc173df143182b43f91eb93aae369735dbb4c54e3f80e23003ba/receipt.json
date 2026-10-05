@@ -1,0 +1,20 @@
+{
+  "lineId": "ch1-011",
+  "chapterId": "chapter-1",
+  "speakerId": "aleem-p6",
+  "text": "Okay. Yes. I like you.",
+  "voiceUrl": "voices/chapter-1/ch1-011.mp3",
+  "durationMs": 2880,
+  "audioSha256": "30fe7338d639f8c138c7f1dd05a9a12141ff6debf10417db7e405a3fa9c09fa2",
+  "audioBytes": 34892,
+  "textSha256": "46406a74bd91da069b54a37b2a5cbac60337507d642cdd1bcf879f3c72dae91f",
+  "fingerprint": "a6f02ce04989cc173df143182b43f91eb93aae369735dbb4c54e3f80e23003ba",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "4193507c99ada3384b288ed284b9abb5729ced747b3ab9ee079849246338b39a",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:13.044Z",
+  "elapsedMs": 469,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

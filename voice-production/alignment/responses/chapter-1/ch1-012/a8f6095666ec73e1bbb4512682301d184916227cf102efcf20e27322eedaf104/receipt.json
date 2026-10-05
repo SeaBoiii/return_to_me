@@ -1,0 +1,20 @@
+{
+  "lineId": "ch1-012",
+  "chapterId": "chapter-1",
+  "speakerId": "alya",
+  "text": "Good. Because I like you too.",
+  "voiceUrl": "voices/chapter-1/ch1-012.mp3",
+  "durationMs": 3984,
+  "audioSha256": "edacd7e9ffdd11eb344bb796d5fac78d9c1e88dd5be49ed67d5cfbe67023f84e",
+  "audioBytes": 48140,
+  "textSha256": "07414c35b947596bc2c94d84886d21d0c8b78cc42e8a3cb5955fb440f7f8d3ff",
+  "fingerprint": "a8f6095666ec73e1bbb4512682301d184916227cf102efcf20e27322eedaf104",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "fc617ac20601ec46a8e09caaed0860879e148b8955c690ca9397b12c0a250e93",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:13.152Z",
+  "elapsedMs": 546,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

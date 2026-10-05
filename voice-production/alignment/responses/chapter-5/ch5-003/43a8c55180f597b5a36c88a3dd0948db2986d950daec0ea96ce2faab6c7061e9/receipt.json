@@ -1,0 +1,20 @@
+{
+  "lineId": "ch5-003",
+  "chapterId": "chapter-5",
+  "speakerId": "aleem-sec",
+  "text": "I did it. I actually did it.",
+  "voiceUrl": "voices/chapter-5/ch5-003.mp3",
+  "durationMs": 2496,
+  "audioSha256": "f291c6d879d26cc38f2df988943911ea1d2a37dc5d4f288e08910a32825cb4a7",
+  "audioBytes": 30284,
+  "textSha256": "fa99eb13dd744ba07e56a7d3765bc50911538975d5e0abf45ce0fde8efbe8c28",
+  "fingerprint": "43a8c55180f597b5a36c88a3dd0948db2986d950daec0ea96ce2faab6c7061e9",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "02d184026e8d57c6024a31fa1029e65ce6fa69535f1e7fed5e2b313a456361e8",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:00.328Z",
+  "elapsedMs": 326,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

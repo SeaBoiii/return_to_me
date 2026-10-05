@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-results-honest-002",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "The thought was honest but incomplete. Years later, I would learn that owning a mistake should guide the next action, not become a weight carried forever as proof of unworthiness.",
+  "voiceUrl": "voices/chapter-2/ch2-results-honest-002.mp3",
+  "durationMs": 11904,
+  "audioSha256": "0ecaaf58fd5e1f75256a13dc0c1258c8165c14cfbffc8f0b5faf9464c1d8be74",
+  "audioBytes": 143180,
+  "textSha256": "79b8be2bc6d65879b42a402e077413a3a6d628767ac5f2f8c1361d4331fde354",
+  "fingerprint": "70fd1757dd8f816230d7a6e39c0994709524d6dce4012696122a28939eecb524",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "97ab116d9ac11888b6f4f16ad2b10854b8ec58e977d0db7b9244f81cdee9f1f5",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:41.772Z",
+  "elapsedMs": 562,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

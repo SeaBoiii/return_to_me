@@ -1,0 +1,20 @@
+{
+  "lineId": "ch10-012",
+  "chapterId": "chapter-10",
+  "speakerId": "adult-aleem",
+  "text": "The old rule about Malay women seemed especially tired now. I had carried it from one disappointment into another life, avoiding people before I knew them. Here, I could feel the resentment beneath that habit letting go. I didn't want it choosing whom I allowed near me anymore. Someone new could be herself when I met her.",
+  "voiceUrl": "voices/chapter-10/ch10-012.mp3",
+  "durationMs": 22560,
+  "audioSha256": "5daac4669529f5f25939ea2428671df41070097141a6de526c4234c101a93d8d",
+  "audioBytes": 271052,
+  "textSha256": "3ee2e9a916452a1489af382dd4bbdc40b9c37ff52439108bbfcfa66e07b51dc1",
+  "fingerprint": "56ede68016f3279102d2e67ac917d46c8d6279c60bf26ba3d7b0b33a0b93af13",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "6c376789ce95d7ada7fd66002c7c952f2e813d10d753b84189067d3f620dc2c7",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:56.248Z",
+  "elapsedMs": 761,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

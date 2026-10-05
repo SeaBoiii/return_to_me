@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-033",
+  "chapterId": "chapter-6",
+  "speakerId": "adult-aleem",
+  "text": "Then the week before the outing arrived. I overheard her name in a conversation nearby, followed by boyfriend. Nothing dramatic in the way it was said. Just ordinary news moving between people who did not know they were pulling the floor out from under somebody within earshot.",
+  "voiceUrl": "voices/chapter-6/ch6-033.mp3",
+  "durationMs": 17112,
+  "audioSha256": "143ba15eb7867ffac767af539ec38f635c789ccf27cdb844af954078a89f052a",
+  "audioBytes": 205676,
+  "textSha256": "9e6edc5941289b14f8481db0d785d7c02d2e313971688c432c46f3b0599e22bc",
+  "fingerprint": "19b53ac9f6ba00bf86e76d984144f9036f59fe518d8d3ef6aabe22b9487ec90b",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "31df3011ad8d2849252a887036f0b5644d02bea0ac4992a815e0a00eec071780",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:28.566Z",
+  "elapsedMs": 645,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

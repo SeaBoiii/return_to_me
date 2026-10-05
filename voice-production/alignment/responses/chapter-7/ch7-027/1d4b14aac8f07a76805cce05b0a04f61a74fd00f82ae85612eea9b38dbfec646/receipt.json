@@ -1,0 +1,20 @@
+{
+  "lineId": "ch7-027",
+  "chapterId": "chapter-7",
+  "speakerId": "adult-aleem",
+  "text": "We laughed, checked the menu, and spent an unhurried afternoon together. Afterwards, she said she was glad she'd had someone to go with. So was I. That became our explanation for other places too: somewhere we wanted to try, something nicer with company. We were friends. We had already settled that.",
+  "voiceUrl": "voices/chapter-7/ch7-027.mp3",
+  "durationMs": 22944,
+  "audioSha256": "13f591575a934dccabb410b68e88126df1e974622409df22dfdbd8641d356fc4",
+  "audioBytes": 275660,
+  "textSha256": "3a55929c4a856cea56b4f5583d540a98b0e07509222d24d7062b55c5432ae47c",
+  "fingerprint": "1d4b14aac8f07a76805cce05b0a04f61a74fd00f82ae85612eea9b38dbfec646",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "046bd20dc813728eff743cd904b62827345248f47d904dfde2da09a23be5b5f1",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:38.873Z",
+  "elapsedMs": 682,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

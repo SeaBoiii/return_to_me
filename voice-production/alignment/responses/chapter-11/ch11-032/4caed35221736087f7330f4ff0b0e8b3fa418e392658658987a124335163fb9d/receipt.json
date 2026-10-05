@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-032",
+  "chapterId": "chapter-11",
+  "speakerId": "aleem-adult",
+  "text": "I'd like to meet your parents, if you're comfortable with that. I'm serious about getting to know you. I would like to know them too.",
+  "voiceUrl": "voices/chapter-11/ch11-032.mp3",
+  "durationMs": 6552,
+  "audioSha256": "10ff77b9f522258fc7819737805b5de58559e56c0a46c986555803b7b89d9ec7",
+  "audioBytes": 78956,
+  "textSha256": "a4634c1da2e8de9bfc3e6ec411c91eceb1262542993c58412f87366578a1f034",
+  "fingerprint": "4caed35221736087f7330f4ff0b0e8b3fa418e392658658987a124335163fb9d",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "c9b7b5fed5ba930ec08deec76b5aa249022d1f4849794c0dd47f742d6bd46afe",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:05.096Z",
+  "elapsedMs": 351,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

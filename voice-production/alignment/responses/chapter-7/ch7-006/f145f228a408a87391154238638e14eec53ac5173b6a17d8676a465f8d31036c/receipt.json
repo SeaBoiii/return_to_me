@@ -1,0 +1,20 @@
+{
+  "lineId": "ch7-006",
+  "chapterId": "chapter-7",
+  "speakerId": "adult-aleem",
+  "text": "She showed me where people usually ate and which questions could safely wait until after lunch. When I looked overwhelmed, she checked in without making a performance of helping. Soon I had things to offer back: a second pair of eyes, a remembered drink order, company when a difficult day ran late.",
+  "voiceUrl": "voices/chapter-7/ch7-006.mp3",
+  "durationMs": 19440,
+  "audioSha256": "e08827c01f7543adfe0e5642bb7f848d721feb4d97a90ec4bfcf6f455815fbee",
+  "audioBytes": 233612,
+  "textSha256": "b4a7972ce1d7c2b7d196ffc618cfc0380c77805824c7a61b3ee9657aecf41b17",
+  "fingerprint": "f145f228a408a87391154238638e14eec53ac5173b6a17d8676a465f8d31036c",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "8c91ac54ba837a0edb1e99e9de6b9bf9f7656b768e09326d3ff56c34a18454c1",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:34.408Z",
+  "elapsedMs": 471,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-015",
+  "chapterId": "chapter-2",
+  "speakerId": "aleem-sec",
+  "text": "A base. You build walls, add rooms, and make systems so everything works together.",
+  "voiceUrl": "voices/chapter-2/ch2-015.mp3",
+  "durationMs": 5280,
+  "audioSha256": "c3cef0215a505925ec46dd7db3a06079c1530c46fde2e42249918e6d85abe62c",
+  "audioBytes": 63692,
+  "textSha256": "ebc3c4b85e17ff317f0ac04aa27e4fdb340d72d3a431267eb28f65b54983699b",
+  "fingerprint": "7f48bbed0e4de5de9bd258175108974618838c8b06a1ff3d79169fec440b2fd7",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "40cc75dde1a4f5288bc0314e39fbd821942c0c552a8b2d877db8ecbf955981aa",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:23.957Z",
+  "elapsedMs": 530,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

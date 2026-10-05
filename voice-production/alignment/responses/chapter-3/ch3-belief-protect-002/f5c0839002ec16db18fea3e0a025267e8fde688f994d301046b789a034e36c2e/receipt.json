@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-belief-protect-002",
+  "chapterId": "chapter-3",
+  "speakerId": "adult-aleem",
+  "text": "That rule sounded cautious and mature. In practice, it trained me to treat ambiguity as evidence and inference as certainty. Suspicion could prevent surprise, but it could also manufacture betrayal where a boundary or private feeling was enough.",
+  "voiceUrl": "voices/chapter-3/ch3-belief-protect-002.mp3",
+  "durationMs": 18000,
+  "audioSha256": "dd11e341c7634e294371b1c5a30a6f52cc4932b160fd84eb96dcf8c596b902e4",
+  "audioBytes": 216332,
+  "textSha256": "bcf52736162fa70914c3a78370ba07c4675b61a70e654e304751153f2ed8d449",
+  "fingerprint": "f5c0839002ec16db18fea3e0a025267e8fde688f994d301046b789a034e36c2e",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "9146ba5156e53d10f8d7489243fdea8cb3c734332d7e08ea078720bde9945e2f",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:52.411Z",
+  "elapsedMs": 571,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

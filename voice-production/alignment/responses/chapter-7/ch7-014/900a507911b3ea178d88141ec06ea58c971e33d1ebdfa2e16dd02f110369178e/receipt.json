@@ -1,0 +1,20 @@
+{
+  "lineId": "ch7-014",
+  "chapterId": "chapter-7",
+  "speakerId": "adult-aleem",
+  "text": "I thought about Jia Wen's question. Earlier had become a word I could trip over even in a new life. With Claire, I would speak before years collected around an assumption. Valentine's Day in 2023 gave me a date to stop postponing it. I chose the words for a question, not a speech about everything I had done.",
+  "voiceUrl": "voices/chapter-7/ch7-014.mp3",
+  "durationMs": 23280,
+  "audioSha256": "0576d42f163f8a0dfe1f8db1fc46772ac00ff5b9aea8df1b799b333614d3e5b4",
+  "audioBytes": 279692,
+  "textSha256": "14d864dd29ac522468650b5d5f9cce62a20ae525e8a9f407e0e6e4d065778cf9",
+  "fingerprint": "900a507911b3ea178d88141ec06ea58c971e33d1ebdfa2e16dd02f110369178e",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "ef3a4f73b687c4d1392c8f7958367537ded347e5ef63dc71d9c71b6016868095",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:35.698Z",
+  "elapsedMs": 477,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

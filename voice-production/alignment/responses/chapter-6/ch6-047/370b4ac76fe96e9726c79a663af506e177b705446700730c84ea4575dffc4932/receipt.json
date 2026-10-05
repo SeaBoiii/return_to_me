@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-047",
+  "chapterId": "chapter-6",
+  "speakerId": "jia-wen",
+  "text": "I knew we were close. You're important to me. But we never said we were a couple, Aleem.",
+  "voiceUrl": "voices/chapter-6/ch6-047.mp3",
+  "durationMs": 7440,
+  "audioSha256": "1ce7e8178667361cc73bcbc0084ea7800ceb671f362375e0b14acaa2c47e6f49",
+  "audioBytes": 89612,
+  "textSha256": "142931209a637604d5aee5540654a934aac92e7e9fbabf282d8c95985957374a",
+  "fingerprint": "370b4ac76fe96e9726c79a663af506e177b705446700730c84ea4575dffc4932",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "9d894757191007c81aee9458ba014b6bab8363bff6f22f4f788babc776f0f2f8",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:31.685Z",
+  "elapsedMs": 366,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

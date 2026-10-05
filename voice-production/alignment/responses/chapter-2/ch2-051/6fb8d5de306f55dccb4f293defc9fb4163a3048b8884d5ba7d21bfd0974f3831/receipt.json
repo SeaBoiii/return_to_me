@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-051",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "Hana waited quietly too, at first. I still arrived at language class. I still smiled when I saw her. I mistook continued affection for proof that affection required no maintenance.",
+  "voiceUrl": "voices/chapter-2/ch2-051.mp3",
+  "durationMs": 12144,
+  "audioSha256": "c8f01c9ad063773cf4bf29162717ac3e93cb3a9ceda253dc7e287f199985be66",
+  "audioBytes": 146060,
+  "textSha256": "35cdd8785cbb9d136e17c23707b755904521519cb9fb80a7398b6585b550857f",
+  "fingerprint": "6fb8d5de306f55dccb4f293defc9fb4163a3048b8884d5ba7d21bfd0974f3831",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "9e662cc36d79a0fe81f87e730824fbf37d4991215ef199667d437d1e5a01666a",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:31.991Z",
+  "elapsedMs": 468,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

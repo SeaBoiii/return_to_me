@@ -1,0 +1,20 @@
+{
+  "lineId": "ch10-release-resentment",
+  "chapterId": "chapter-10",
+  "speakerId": "adult-aleem",
+  "text": "I had kept the hurt close because loosening my hold on it felt like letting somebody dismiss what happened. Now I could remember it without holding it against every new day. I wanted to live in this one.",
+  "voiceUrl": "voices/chapter-10/ch10-release-resentment.mp3",
+  "durationMs": 14304,
+  "audioSha256": "f81cb077a88790240effe957bfe72178998a3ab569978bc862fc912774914b6d",
+  "audioBytes": 171980,
+  "textSha256": "578b480faec1b0805966a036ee5fb5905183b17f004ec2b9cbf736f87808c2f2",
+  "fingerprint": "c027a37cdd795a05abb3386e06e7e64d573c5e82c1aec442048b8507d8118cea",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "6dca44d7655786ec32c6e9b426679d2670b6c061ec9adeb3e5f23c76297aa0c3",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:55.310Z",
+  "elapsedMs": 365,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

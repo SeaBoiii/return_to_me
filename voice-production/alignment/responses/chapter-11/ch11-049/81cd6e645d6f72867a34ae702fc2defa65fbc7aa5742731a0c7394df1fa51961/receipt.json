@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-049",
+  "chapterId": "chapter-11",
+  "speakerId": "adult-aleem",
+  "text": "We began there, with something straightforward. I told them about having been away with friends. They asked about me, about work and the shape of my ordinary life. I answered without looking to Nurul to finish every sentence for me. When I needed a moment to think, I took one and continued.",
+  "voiceUrl": "voices/chapter-11/ch11-049.mp3",
+  "durationMs": 18720,
+  "audioSha256": "7d65a823134a95b6f4ae4546747b86679958c8f9203127d1bf8e439df127b498",
+  "audioBytes": 224972,
+  "textSha256": "7cdc6efb73d7002685304c50bb2ebd5059368186b8da3b996429108de9ca5c53",
+  "fingerprint": "81cd6e645d6f72867a34ae702fc2defa65fbc7aa5742731a0c7394df1fa51961",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "1c3b6edd836d89f796b3ff341dd9e91f4df050bb6633f1ffd4f6701b9e43fa42",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:08.397Z",
+  "elapsedMs": 450,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

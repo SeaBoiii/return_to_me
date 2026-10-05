@@ -1,0 +1,20 @@
+{
+  "lineId": "ch7-001",
+  "chapterId": "chapter-7",
+  "speakerId": "adult-aleem",
+  "text": "Working life gave my days a different shape. There were names to learn, tasks whose urgency I could not yet judge, and mornings when I arrived early because being lost seemed less embarrassing without an audience. I tried to look settled while checking the same instructions for the third time.",
+  "voiceUrl": "voices/chapter-7/ch7-001.mp3",
+  "durationMs": 18000,
+  "audioSha256": "2f0c0fce9fdfa147ea8fde5815aa49cd8f758247333dd720791ddf4647ac79ba",
+  "audioBytes": 216332,
+  "textSha256": "908dc363f604d836160ddb0ae8922113a77c06eb13ede79ef34874aa8e5a16df",
+  "fingerprint": "17fe9c74a7364b4de9346b8759be5f554eb7a8ac439553ba73f7b5f70fd02ea7",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "d3588b63f16b7a13a9ac235e520850781213aa4e9195a1e1fdff2e9efa7db7b3",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:33.593Z",
+  "elapsedMs": 596,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

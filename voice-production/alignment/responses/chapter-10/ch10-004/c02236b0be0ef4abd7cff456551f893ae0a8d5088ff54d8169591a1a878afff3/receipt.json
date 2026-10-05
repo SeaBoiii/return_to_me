@@ -1,0 +1,20 @@
+{
+  "lineId": "ch10-004",
+  "chapterId": "chapter-10",
+  "speakerId": "adult-aleem",
+  "text": "I noticed my hands first. They had settled in my lap, yet I was still holding myself as if I needed to be ready for something. My shoulders were tight. I let them lower a little. Around me were small sounds of people shifting, footsteps passing and fading, the life of the mosque continuing while I sat within it.",
+  "voiceUrl": "voices/chapter-10/ch10-004.mp3",
+  "durationMs": 21912,
+  "audioSha256": "8253ab824edb8f67ebe70289cafa0e27d436ba5df9e41db6850a272373e3d52b",
+  "audioBytes": 263276,
+  "textSha256": "bec1cd14e359658f6736b8e5ee8ba6799a76e7f56e90056b7be584b62efa7ba9",
+  "fingerprint": "c02236b0be0ef4abd7cff456551f893ae0a8d5088ff54d8169591a1a878afff3",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "977043b4f49c3c716d9fa22ac40ee34b95bd3695f3ee14ba00b0f7d854e04826",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:53.512Z",
+  "elapsedMs": 510,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

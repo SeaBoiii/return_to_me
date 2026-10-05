@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-reciprocity-return",
+  "chapterId": "chapter-11",
+  "speakerId": "adult-aleem",
+  "text": "She had given me so many chances to speak. I wanted to know what she would say if I gave her the same room. There was a person across from me, with a whole life I had barely begun to ask about.",
+  "voiceUrl": "voices/chapter-11/ch11-reciprocity-return.mp3",
+  "durationMs": 12864,
+  "audioSha256": "75df12a4eedbe7dc984d27a7b77c7fa3033bfb4e2f583b28ac607f790903c758",
+  "audioBytes": 154700,
+  "textSha256": "e3848065f0020453565fe4f80770eeb4667c1212764a6040709ad6f830a34ab9",
+  "fingerprint": "f286433114023fe723a6d59daca03d2ba69c42964f2c4fc1d6ab6306c029104a",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "e43cf57888f1f1c5a626d300310dceafebee2dc624f0af254ee053a182b350de",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:03.639Z",
+  "elapsedMs": 405,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

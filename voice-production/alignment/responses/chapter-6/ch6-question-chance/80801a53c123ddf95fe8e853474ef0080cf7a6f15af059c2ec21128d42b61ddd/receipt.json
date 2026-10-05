@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-question-chance",
+  "chapterId": "chapter-6",
+  "speakerId": "adult-aleem",
+  "text": "My mind ran backwards through every evening I could have spoken. The seat she saved. Her dorm. The minute before she went home. In each memory I replaced my silence with a confession and imagined her saying yes. It hurt like losing a life I had almost lived.",
+  "voiceUrl": "voices/chapter-6/ch6-question-chance.mp3",
+  "durationMs": 18720,
+  "audioSha256": "23b8607aa98db2cbd41a61de15f2314e07cd626756eb4c140277d9b98bc79d0b",
+  "audioBytes": 224972,
+  "textSha256": "60fd6feef37472f44140928c33f395a4fb036094c1d4a53a35bcb4ad9731e96a",
+  "fingerprint": "80801a53c123ddf95fe8e853474ef0080cf7a6f15af059c2ec21128d42b61ddd",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "3fdcb9c5edcd1cd91988898924895c624da68e8856abf8cb418f9987e9040eb5",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:31.193Z",
+  "elapsedMs": 564,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

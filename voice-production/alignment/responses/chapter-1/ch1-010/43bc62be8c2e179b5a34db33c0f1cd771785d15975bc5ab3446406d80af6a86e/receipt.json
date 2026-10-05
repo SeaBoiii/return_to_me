@@ -1,0 +1,20 @@
+{
+  "lineId": "ch1-010",
+  "chapterId": "chapter-1",
+  "speakerId": "alya",
+  "text": "That is not an answer.",
+  "voiceUrl": "voices/chapter-1/ch1-010.mp3",
+  "durationMs": 2160,
+  "audioSha256": "d529091e40eb7ec3de523b9b4feb742a22bf49d95784c678c2004c022d0097ed",
+  "audioBytes": 26252,
+  "textSha256": "aa710fa086df4dfc27405ae8695e3ff24d2554cf9c7aa57095f45ad3dde5d929",
+  "fingerprint": "43bc62be8c2e179b5a34db33c0f1cd771785d15975bc5ab3446406d80af6a86e",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "42daab3b2ddd3d37c0921ed3b443d86e3600d752348a59eb30efb59b92230abc",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:12.807Z",
+  "elapsedMs": 377,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

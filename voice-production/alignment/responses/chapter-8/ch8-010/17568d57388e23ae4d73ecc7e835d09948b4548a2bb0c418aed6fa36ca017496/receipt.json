@@ -1,0 +1,20 @@
+{
+  "lineId": "ch8-010",
+  "chapterId": "chapter-8",
+  "speakerId": "aleem-adult",
+  "text": "One thing at a time I can do.",
+  "voiceUrl": "voices/chapter-8/ch8-010.mp3",
+  "durationMs": 1992,
+  "audioSha256": "7cdeb933230f0ba4fa3437b7e666fc0009672e30fbbeceb83e5c0b1b4fbe9567",
+  "audioBytes": 24236,
+  "textSha256": "26186090957648b5ea4c7c17bbafb2e841ad99bd9d13fd2e1ea8db89ae403ea2",
+  "fingerprint": "17568d57388e23ae4d73ecc7e835d09948b4548a2bb0c418aed6fa36ca017496",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "9c6eccb63cf2239d586cca6afd3c12b87e655bdd816bc335f0754dd9c08f69c7",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:43.115Z",
+  "elapsedMs": 320,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

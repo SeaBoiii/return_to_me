@@ -1,0 +1,20 @@
+{
+  "lineId": "ch5-031",
+  "chapterId": "chapter-5",
+  "speakerId": "adult-aleem",
+  "text": "On the journey home, I constructed an explanation: Mei Lin had sensed that I might want more, so she had raised Daniel's name repeatedly to put her walls up. It was plausible. Plausibility made it easy to stop asking questions.",
+  "voiceUrl": "voices/chapter-5/ch5-031.mp3",
+  "durationMs": 16080,
+  "audioSha256": "99c2546d08b185420f7666c7297751f576887768935ba79256c99d0e464b31f9",
+  "audioBytes": 193292,
+  "textSha256": "95d851c63aee2c69f46bcd20ef8e3d9b9083915fa025e8514ab643c7c08a3013",
+  "fingerprint": "b731ce3339713c71c87caf7f8464ae3ce2c4a6e50900beed3cca43f6eabc40f2",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "9209eab44d7242d92e9fd19ed60a90c10139ea646a0a83ffde8e690524130206",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:05.624Z",
+  "elapsedMs": 481,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

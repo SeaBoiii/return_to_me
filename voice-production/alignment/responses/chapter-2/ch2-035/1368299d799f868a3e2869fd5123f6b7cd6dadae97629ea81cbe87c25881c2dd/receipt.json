@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-035",
+  "chapterId": "chapter-2",
+  "speakerId": "adult-aleem",
+  "text": "For a while, the weekly class became the centre of my calendar. Hana and I exchanged messages between lessons and stretched the walk to the bus stop whenever time allowed.",
+  "voiceUrl": "voices/chapter-2/ch2-035.mp3",
+  "durationMs": 10152,
+  "audioSha256": "9751e96c4621e0f42d5e238a3b38eb92667e04f64adab10a72bc7f6c1b4b9779",
+  "audioBytes": 122156,
+  "textSha256": "3ec9510ed105253122a5e9a411398ea434a5521a05e893949daf1fe159b7c36d",
+  "fingerprint": "1368299d799f868a3e2869fd5123f6b7cd6dadae97629ea81cbe87c25881c2dd",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "39e70fd143953d3abf0bb6d5a62d22b0f671aeb44a7ddec4bf93f7e416a29d80",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:27.879Z",
+  "elapsedMs": 438,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

@@ -1,0 +1,20 @@
+{
+  "lineId": "ns-029",
+  "chapterId": "chapter-ns",
+  "speakerId": "aleem-young-adult",
+  "text": "I am adjusting to being important enough for somebody to remember the small things.",
+  "voiceUrl": "voices/chapter-ns/ns-029.mp3",
+  "durationMs": 4464,
+  "audioSha256": "ae86c3008827006fbd9a0edb86d1ec32abd3cd0b367036a392ecd1a2eb08371c",
+  "audioBytes": 53900,
+  "textSha256": "a52e60bdd6239087e9e83fd14ca5411781290b4cf09212b7b7128e114928f215",
+  "fingerprint": "53b1ab0a6632a679f52d5130a1eec1d0a83fe06516e2c5117785bfcc0bd1a84a",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "77b0ac23176033e2ea93268e144667da62b9a4d5d057cd8c19c84b6687b0fa70",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:11.352Z",
+  "elapsedMs": 388,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

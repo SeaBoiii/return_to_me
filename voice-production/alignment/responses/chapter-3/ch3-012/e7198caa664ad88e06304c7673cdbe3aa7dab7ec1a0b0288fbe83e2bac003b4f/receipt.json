@@ -1,0 +1,20 @@
+{
+  "lineId": "ch3-012",
+  "chapterId": "chapter-3",
+  "speakerId": "aleem-sec",
+  "text": "I am not lost. I am checking whether the signs are accurate.",
+  "voiceUrl": "voices/chapter-3/ch3-012.mp3",
+  "durationMs": 3624,
+  "audioSha256": "fe29e37244a5604eacb15c01b8fd04673ee64e676713c31e7b0c94301e3686a2",
+  "audioBytes": 43820,
+  "textSha256": "6191d1074e29562456a4cbbd560a9d0af4ed694bbc7166694e36f0d9fa7d8387",
+  "fingerprint": "e7198caa664ad88e06304c7673cdbe3aa7dab7ec1a0b0288fbe83e2bac003b4f",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "b8fb155a924e7310c5c1c12993adf8c6773f57e460684653aa76ac99ea07bfd3",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:45.371Z",
+  "elapsedMs": 332,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

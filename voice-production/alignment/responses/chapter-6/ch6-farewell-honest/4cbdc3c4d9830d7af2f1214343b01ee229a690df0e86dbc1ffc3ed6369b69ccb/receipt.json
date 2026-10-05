@@ -1,0 +1,20 @@
+{
+  "lineId": "ch6-farewell-honest",
+  "chapterId": "chapter-6",
+  "speakerId": "aleem-adult",
+  "text": "If I say yes now, I'll still be hoping. You'd think we were okay and I'd still be waiting for your feelings to change. I can't promise a friendship I don't know how to give you. I'm sorry. I need to step back.",
+  "voiceUrl": "voices/chapter-6/ch6-farewell-honest.mp3",
+  "durationMs": 12384,
+  "audioSha256": "df4343aaf358d0c648db0192f9569ee0c8d1378e66a160a809a60604e6b260c4",
+  "audioBytes": 148940,
+  "textSha256": "88c6a9de72baab25d8258e72513bb3b22c464e08c5e64b95b74c72495254aac8",
+  "fingerprint": "4cbdc3c4d9830d7af2f1214343b01ee229a690df0e86dbc1ffc3ed6369b69ccb",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "477d03dee30c3b0e7d4c5f3b0a485cdf5ae3c17e25979d778393bdcbb47909db",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:32.706Z",
+  "elapsedMs": 424,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

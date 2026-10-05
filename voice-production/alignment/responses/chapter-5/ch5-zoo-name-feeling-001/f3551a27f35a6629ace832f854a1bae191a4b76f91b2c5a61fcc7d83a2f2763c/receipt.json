@@ -1,0 +1,20 @@
+{
+  "lineId": "ch5-zoo-name-feeling-001",
+  "chapterId": "chapter-5",
+  "speakerId": "aleem-sec",
+  "text": "I am jealous. That is mine to manage, especially today. I can decide what to do with it after I am no longer angry.",
+  "voiceUrl": "voices/chapter-5/ch5-zoo-name-feeling-001.mp3",
+  "durationMs": 6864,
+  "audioSha256": "41f582aa3a37638766b455b74cef7433652fdb34e5e072970881ed363c6bb3a8",
+  "audioBytes": 82700,
+  "textSha256": "cbd34a0b592c3a6b049531c4aadf032d79329683d9ea117ee31360c6009a09a1",
+  "fingerprint": "f3551a27f35a6629ace832f854a1bae191a4b76f91b2c5a61fcc7d83a2f2763c",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "03390f9979cb196995469201e204669d0dfebb7b9f45daec49525f9585b43a89",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:04.726Z",
+  "elapsedMs": 360,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

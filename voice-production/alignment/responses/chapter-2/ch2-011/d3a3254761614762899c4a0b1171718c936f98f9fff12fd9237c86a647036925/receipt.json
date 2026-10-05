@@ -1,0 +1,20 @@
+{
+  "lineId": "ch2-011",
+  "chapterId": "chapter-2",
+  "speakerId": "hana",
+  "text": "Very helpful. Terima kasih—thank you, page forty-two.",
+  "voiceUrl": "voices/chapter-2/ch2-011.mp3",
+  "durationMs": 4800,
+  "audioSha256": "2dee0b141a351cad6677c43e950daaa2715fee28938295bc28667c69fdcba0be",
+  "audioBytes": 57932,
+  "textSha256": "e8883ea3dce7c98c57493b7da2582466d11467274ccf95dd39ad89243bd1c331",
+  "fingerprint": "d3a3254761614762899c4a0b1171718c936f98f9fff12fd9237c86a647036925",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "df6b649ac4bd9f7f552203b3b3cc36f0a92d5bdcb532c07f5ec7a02195960c4c",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:36:36.348Z",
+  "elapsedMs": 627,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

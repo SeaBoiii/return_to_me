@@ -1,0 +1,20 @@
+{
+  "lineId": "ch9-022",
+  "chapterId": "chapter-9",
+  "speakerId": "nadiah",
+  "text": "How did we end up just the two of us?",
+  "voiceUrl": "voices/chapter-9/ch9-022.mp3",
+  "durationMs": 3120,
+  "audioSha256": "18a2055ba8c17c239dab395b914f3a0b2a2489091da97c034d77a0286d496d92",
+  "audioBytes": 37772,
+  "textSha256": "773c500aa25f4d3830263cbc3a506de22c1162e26f5dc5f1cf3f582069b416c7",
+  "fingerprint": "d7f6152619ce68283e6d54ffe555f158df334d37a14f3c43bfcfd0ddb765402c",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "4a5e53b2987177b87234f48ae7de5cbec93a2689462a9c1ad67a41eef551ef3e",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:38:47.195Z",
+  "elapsedMs": 306,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

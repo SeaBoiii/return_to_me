@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-kazakhstan-answer",
+  "chapterId": "chapter-11",
+  "speakerId": "adult-aleem",
+  "text": "Back at the accommodation, I would sit with a reply a little longer. If I hadn't understood something, I could ask what she meant. I didn't have to offer an immediate solution or turn it into my own similar story. Sometimes she only needed someone to follow what had happened and care enough to hear the rest.",
+  "voiceUrl": "voices/chapter-11/ch11-kazakhstan-answer.mp3",
+  "durationMs": 18960,
+  "audioSha256": "8735869402f46de59e8f182926861aafd25406abcfbf30460b10360448a6e512",
+  "audioBytes": 227852,
+  "textSha256": "a60c8c8aa8e678b2a50ff19d7ed79b75dc9048bd825042eccf9c5cb39cdeccda",
+  "fingerprint": "85109112af583776788467b0633ec42883a35d759f966b34f21ceb097fcba044",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "f73af921d65d7d94d9421c24b7a7067c77d07a95dc89349680e19b9e3431d6e8",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:06.870Z",
+  "elapsedMs": 508,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

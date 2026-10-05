@@ -1,0 +1,20 @@
+{
+  "lineId": "prologue-007",
+  "chapterId": "prologue",
+  "speakerId": "adult-aleem",
+  "text": "What remains true is how those years shaped me: the excitement, the mistakes, the pride, and the shame. Even the parts I once wanted to hide belong to the road.",
+  "voiceUrl": "voices/prologue/prologue-007.mp3",
+  "durationMs": 12744,
+  "audioSha256": "b659a756e1f9bdb8313f1150489af023085667ff379195f07065d60297779a3c",
+  "audioBytes": 153260,
+  "textSha256": "e8770a84efe7912db32349d767f08cd3aa63b2e62c71e67341cd14ec712a326f",
+  "fingerprint": "f996452f5cacead0ef3c9f2ff28aca57e352ee6a058f721ac738e30beba5a9cc",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "e26eb4f7e3f958b306acd5df42bb1a7cfd02fe3874edeaf152b9ee9001682c4b",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:37:10.144Z",
+  "elapsedMs": 866,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}

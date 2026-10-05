@@ -1,0 +1,20 @@
+{
+  "lineId": "ch11-048",
+  "chapterId": "chapter-11",
+  "speakerId": "nurul-father",
+  "text": "So, you've just come back from your trip?",
+  "voiceUrl": "voices/chapter-11/ch11-048.mp3",
+  "durationMs": 4320,
+  "audioSha256": "01116f1550098b7d03ddabaf9e409ca3c04e0e1a1bab25d20b4d5a2ba25ee6e6",
+  "audioBytes": 52172,
+  "textSha256": "81e998389f05190e766a3448f84d6dc66367889d2a5476846d32fb2f4c9cd463",
+  "fingerprint": "75a8411c8b0e940fef773ba5acbf8cc2d056d342ee196a844cd879502221e000",
+  "provider": "ElevenLabs",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "responseSha256": "02c24ca2c9ab6efcbf1e7bc7af7c2aba57a1ff91e68542bb7c54ab32f286c193",
+  "requestId": null,
+  "completedAt": "2026-10-05T15:39:08.206Z",
+  "elapsedMs": 319,
+  "attempts": 1,
+  "durationSource": "Imported deployment manifest; previously measured from this final MP3."
+}
